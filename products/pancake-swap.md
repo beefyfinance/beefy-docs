@@ -57,7 +57,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more REEF-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -79,7 +79,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more BTCB-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -101,7 +101,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more TWT-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -123,7 +123,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more FRONT-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -145,7 +145,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more ETH-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -167,7 +167,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more VAI-BUSD LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -189,7 +189,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more USDT-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -211,7 +211,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more ADA-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -233,7 +233,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more BUSD-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -255,7 +255,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more MGOOGL-UST LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -277,7 +277,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more MAMZN-UST LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -299,7 +299,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more UNFI-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -321,14 +321,14 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more EGLD-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [EGLD-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
 | **Basic Strategy** | CAKE is farmed, by staking your EGLD-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x03090F5E40934E0F1AAe73b2F1cFD240DBD7Af5E](https://bscscan.com/address/0x03090F5E40934E0F1AAe73b2F1cFD240DBD7Af5E) |
@@ -343,7 +343,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more DOT-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -365,7 +365,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more STAX-CAKE LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -387,7 +387,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more bALBT-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -409,7 +409,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more BSCX-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -431,7 +431,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more INJ-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -453,7 +453,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more XVS-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -475,7 +475,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more BTCST-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -497,7 +497,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more TEN-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -519,7 +519,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more mTSLA-UST LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -541,7 +541,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more BAND-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -563,7 +563,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more ALPHA-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -585,7 +585,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more YFI-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -607,7 +607,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more NYA-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -629,7 +629,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more ATOM-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -651,7 +651,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more WSOTE-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -673,7 +673,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more LTC-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -695,7 +695,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more USDT-BUSD LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -717,7 +717,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more NAR-CAKE LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -739,7 +739,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more FIL-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -761,7 +761,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more bROOBEE-CAKE LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -783,7 +783,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more LINK-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
@@ -805,7 +805,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
 {% hint style="info" %}
-You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more CAKE-BNB LP to you when you withdraw.
+You do not receive CAKE directly. Instead, the farmed CAKE are sold to return more YFII-BNB LP to you when you withdraw.
 {% endhint %}
 
 |  |  |
