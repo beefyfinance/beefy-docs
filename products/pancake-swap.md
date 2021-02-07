@@ -64,7 +64,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [REEF-BNB LP](https://bscscan.com/address/0x58B58cab6C5cF158f63A2390b817710826d116D0) |
 | **Basic Strategy** | CAKE is farmed, by staking your REEF-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x6E0F2e199FC10B3F354C6825fCbC24a5de96B4bF](https://bscscan.com/address/0x6E0F2e199FC10B3F354C6825fCbC24a5de96B4bF) |
@@ -86,7 +86,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [BTCB-BNB LP](https://bscscan.com/address/0x7561eee90e24f3b348e1087a005f78b4c8453524) |
 | **Basic Strategy** | CAKE is farmed, by staking your BTCB-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xd9542B833C6B0D9E4f882d2c4F01d5b5bd005Ac7](https://bscscan.com/address/0xd9542B833C6B0D9E4f882d2c4F01d5b5bd005Ac7) |
@@ -108,7 +108,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [TWT-BNB LP](https://bscscan.com/address/0x610e7a287c27dffcac0f0a94f547cc1b770cf483) |
 | **Basic Strategy** | CAKE is farmed, by staking your TWT-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x3b2c93f9455786e74C68648EaaB09B20ce557537](https://bscscan.com/address/0x3b2c93f9455786e74C68648EaaB09B20ce557537) |
@@ -130,7 +130,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [FRONT-BNB LP](https://bscscan.com/address/0x36b7d2e5c7877392fb17f9219efad56f3d794700) |
 | **Basic Strategy** | CAKE is farmed, by staking your FRONT-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x1Ae7E76e2Eb74070774bbd9EAC75585452f24C23](https://bscscan.com/address/0x1Ae7E76e2Eb74070774bbd9EAC75585452f24C23) |
@@ -152,7 +152,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [ETH-BNB LP](https://bscscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422) |
 | **Basic Strategy** | CAKE is farmed, by staking your ETH-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x1CfEAef83Bb688Ac5926df1feEB8F05244054C07](https://bscscan.com/address/0x1CfEAef83Bb688Ac5926df1feEB8F05244054C07) |
@@ -174,7 +174,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [VAI-BUSD LP](https://bscscan.com/address/0xff17ff314925dff772b71abdff2782bc913b3575) |
 | **Basic Strategy** | CAKE is farmed, by staking your VAI-BUSD LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xa40488536B1BAeECA9D2277Fde28394D3c04aD73](https://bscscan.com/address/0xa40488536B1BAeECA9D2277Fde28394D3c04aD73) |
@@ -196,7 +196,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [USDT-BNB LP](https://bscscan.com/address/0x20bcc3b8a0091ddac2d0bc30f68e6cbb97de59cd) |
 | **Basic Strategy** | CAKE is farmed, by staking your USDT-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x72F758cb79cA71CE9010dc9c0fA0155431435B72](https://bscscan.com/address/0x72F758cb79cA71CE9010dc9c0fA0155431435B72) |
@@ -218,7 +218,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [ADA-BNB LP](https://bscscan.com/address/0xba51d1ab95756ca4eab8737ecd450cd8f05384cf) |
 | **Basic Strategy** | CAKE is farmed, by staking your ADA-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x1d23ecC0645B07791b7D99349e253ECEbe43f614](https://bscscan.com/address/0x1d23ecC0645B07791b7D99349e253ECEbe43f614) |
@@ -240,7 +240,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [BUSD-BNB LP](https://bscscan.com/address/0x1b96b92314c44b159149f7e0303511fb2fc4774f) |
 | **Basic Strategy** | CAKE is farmed, by staking your BUSD-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x0c36Bee5cF5E5b1BE5371574cEBF9A5f01DE5Fc4](https://bscscan.com/address/0x0c36Bee5cF5E5b1BE5371574cEBF9A5f01DE5Fc4) |
@@ -262,7 +262,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [MGOOGL-UST LP](https://bscscan.com/address/0x852a68181f789ae6d1da3df101740a59a071004f) |
 | **Basic Strategy** | CAKE is farmed, by staking your MGOOGL-UST LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xfBa61aC24B46c5B7298De02FBa8F577C1c5005e9](https://bscscan.com/address/0xfBa61aC24B46c5B7298De02FBa8F577C1c5005e9) |
@@ -284,7 +284,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [MAMZN-UST LP](https://bscscan.com/address/0xc92dc34665c8a21f98e1e38474580b61b4f3e1b9) |
 | **Basic Strategy** | CAKE is farmed, by staking your MAMZN-UST LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x69009287479805E7372284835627564bad02107D](https://bscscan.com/address/0x69009287479805E7372284835627564bad02107D) |
@@ -306,7 +306,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [UNFI-BNB LP](https://bscscan.com/address/0xbea35584b9a88107102abef0bdee2c4fae5d8c31) |
 | **Basic Strategy** | CAKE is farmed, by staking your UNFI-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x03090F5E40934E0F1AAe73b2F1cFD240DBD7Af5E](https://bscscan.com/address/0x03090F5E40934E0F1AAe73b2F1cFD240DBD7Af5E) |
@@ -350,7 +350,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [DOT-BNB LP](https://bscscan.com/address/0xbcd62661a6b1ded703585d3af7d7649ef4dcdb5c) |
 | **Basic Strategy** | CAKE is farmed, by staking your DOT-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xb8b7CAF72D75Ac8b71bB208b2D98a9dac9d5c90B](https://bscscan.com/address/0xb8b7CAF72D75Ac8b71bB208b2D98a9dac9d5c90B) |
@@ -372,7 +372,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [STAX-CAKE LP](https://bscscan.com/address/0x7cd05f8b960ba071fdf69c750c0e5a57c8366500) |
 | **Basic Strategy** | CAKE is farmed, by staking your STAX-CAKE LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xB194bcA26660abC93042fd6b475F2dD0b5175ED7](https://bscscan.com/address/0xB194bcA26660abC93042fd6b475F2dD0b5175ED7) |
@@ -394,7 +394,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [bALBT-BNB LP](https://bscscan.com/address/0xbe14f3a89a4f7f279af9d99554cf12e8c29db921) |
 | **Basic Strategy** | CAKE is farmed, by staking your bALBT-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xc2c792807A32fB9F9f985749Ef90673D8e1Bad44](https://bscscan.com/address/0xc2c792807A32fB9F9f985749Ef90673D8e1Bad44) |
@@ -416,7 +416,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [BSCX-BNB LP](https://bscscan.com/address/0x20781bc3701c5309ac75291f5d09bdc23d7b7fa8) |
 | **Basic Strategy** | CAKE is farmed, by staking your BSCX-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xB5F0fF997BEc850b11792ed07b2B5AbDEa869B84](https://bscscan.com/address/0xB5F0fF997BEc850b11792ed07b2B5AbDEa869B84) |
@@ -438,7 +438,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [INJ-BNB LP](https://bscscan.com/address/0x7a34bd64d18e44cfde3ef4b81b87baf3eb3315b6) |
 | **Basic Strategy** | CAKE is farmed, by staking your INJ-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xD16Aef70403f1Fbf710C6A73EBb7c4FaA983d59a](https://bscscan.com/address/0xD16Aef70403f1Fbf710C6A73EBb7c4FaA983d59a) |
@@ -460,7 +460,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [XVS-BNB LP](https://bscscan.com/address/0x41182c32f854dd97ba0e0b1816022e0acb2fc0bb) |
 | **Basic Strategy** | CAKE is farmed, by staking your XVS-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xbB63c8858b64a856d79A80575Df60867622E4782](https://bscscan.com/address/0xbB63c8858b64a856d79A80575Df60867622E4782) |
@@ -482,7 +482,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [BTCST-BNB LP](https://bscscan.com/address/0x91589786d36fee5b27a5539cfe638a5fc9834665) |
 | **Basic Strategy** | CAKE is farmed, by staking your BTCST-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xfC083Cb104b48924AB44C69537b1450B2e78eBD6](https://bscscan.com/address/0xfC083Cb104b48924AB44C69537b1450B2e78eBD6) |
@@ -504,7 +504,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [TEN-BNB LP](https://bscscan.com/address/0x01ecc44ddd2d104f44d2aa1a2bd9dfbc91ae8275) |
 | **Basic Strategy** | CAKE is farmed, by staking your TEN-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x3040387C46e21B453e4a8f648528368b9066628B](https://bscscan.com/address/0x3040387C46e21B453e4a8f648528368b9066628B) |
@@ -514,7 +514,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | **Call Fee** | 0.5%  |
 
 
-## Farming CAKE with MTSLA-UST LP
+## Farming CAKE with mTSLA-UST LP
 
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
@@ -526,7 +526,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [mTSLA-UST LP](https://bscscan.com/address/0xd5664d2d15cdffd597515f1c0d945c6c1d3bf85b) |
 | **Basic Strategy** | CAKE is farmed, by staking your MSTLA-UST LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x42BeB2855aa620C5c9dD073FA888c43c8a65c34f](https://bscscan.com/address/0x42BeB2855aa620C5c9dD073FA888c43c8a65c34f) |
@@ -548,7 +548,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [BAND-BNB LP](https://bscscan.com/address/0xc639187ef82271d8f517de6feae4faf5b517533c) |
 | **Basic Strategy** | CAKE is farmed, by staking your BAND-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x9368165eCB0BB16d214fc63fDFcd07fbBa21AbBB](https://bscscan.com/address/0x9368165eCB0BB16d214fc63fDFcd07fbBa21AbBB) |
@@ -570,7 +570,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [ALPHA-BNB LP](https://bscscan.com/address/0x4e0f3385d932f7179dee045369286ffa6b03d887) |
 | **Basic Strategy** | CAKE is farmed, by staking your ALPHA-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xB1B91AA761F552FEF29A50643D0F93690082960F](https://bscscan.com/address/0xB1B91AA761F552FEF29A50643D0F93690082960F) |
@@ -592,7 +592,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [YFI-BNB LP](https://bscscan.com/address/0x68ff2ca47d27db5ac0b5c46587645835dd51d3c1) |
 | **Basic Strategy** | CAKE is farmed, by staking your YFI-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xc119408BDa86C12F1c6BD276e68ab9f558292119](https://bscscan.com/address/0xc119408BDa86C12F1c6BD276e68ab9f558292119) |
@@ -614,7 +614,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [NYA-CAKE LP](https://bscscan.com/address/0x2730bf486d658838464a4ef077880998d944252d) |
 | **Basic Strategy** | CAKE is farmed, by staking your NYA-CAKE LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x5f640a217026FeFD0C4F1E581b44794c3d5F4638](https://bscscan.com/address/0x5f640a217026FeFD0C4F1E581b44794c3d5F4638) |
@@ -636,7 +636,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [ATOM-BNB LP](https://bscscan.com/address/0x2333c77fc0b2875c11409cdcd3c75d42d402e834) |
 | **Basic Strategy** | CAKE is farmed, by staking your ATOM-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x4884cD2C9F11Dc9e8f90d177576c46fdbd1b7641](https://bscscan.com/address/0x4884cD2C9F11Dc9e8f90d177576c46fdbd1b7641) |
@@ -658,7 +658,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [WSOTE-BNB LP](https://bscscan.com/address/0xffb9e2d5ce4378f1a89b29bf53f80804cc078102) |
 | **Basic Strategy** | CAKE is farmed, by staking your WSOTE-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x5B6c3432B724Ce198B93769970f1dF36Ac5552F8](https://bscscan.com/address/0x5B6c3432B724Ce198B93769970f1dF36Ac5552F8) |
@@ -680,7 +680,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [LTC-BNB LP](https://bscscan.com/address/0xbc765fd113c5bdb2ebc25f711191b56bb8690aec) |
 | **Basic Strategy** | CAKE is farmed, by staking your LTC-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x4D6294D36aD4201De1D93Af18A61453B8865d008](https://bscscan.com/address/0x4D6294D36aD4201De1D93Af18A61453B8865d008) |
@@ -702,7 +702,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [USDT-BUSD LP](https://bscscan.com/address/0xc15fa3e22c912a276550f3e5fe3b0deb87b55acd) |
 | **Basic Strategy** | CAKE is farmed, by staking your USDT-BUSD LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x348039C69B5fD7b333CE0a17E8361E501D2e3fa8](https://bscscan.com/address/0x348039C69B5fD7b333CE0a17E8361E501D2e3fa8) |
@@ -724,7 +724,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [NAR-CAKE LP](https://bscscan.com/address/0x745c4fd226e169d6da959283275a8e0ecdd7f312) |
 | **Basic Strategy** | CAKE is farmed, by staking your NAR-CAKE LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xFaa95d27A91eb2305bD1B4b12a9cE564874eE349](https://bscscan.com/address/0xFaa95d27A91eb2305bD1B4b12a9cE564874eE349) |
@@ -746,7 +746,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [FIL-BNB LP](https://bscscan.com/address/0x35fe9787f0ebf2a200bac413d3030cf62d312774) |
 | **Basic Strategy** | CAKE is farmed, by staking your FIL-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xA74b54B24106B008881e627EC57D9629C2fdA5e2](https://bscscan.com/address/0xA74b54B24106B008881e627EC57D9629C2fdA5e2) |
@@ -756,7 +756,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | **Call Fee** | 0.5%  |
 
 
-## Farming CAKE with BROOBEE-CAKE LP
+## Farming CAKE with bROOBEE-CAKE LP
 
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
@@ -768,7 +768,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [bROOBEE-CAKE LP](https://bscscan.com/address/0x970858016c963b780e06f7dcfdef8e809919bce8) |
 | **Basic Strategy** | CAKE is farmed, by staking your BROOBEE-CAKE LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0x4CcF7dC91389396801ec1f4A5E6cC675549f39E6](https://bscscan.com/address/0x4CcF7dC91389396801ec1f4A5E6cC675549f39E6) |
@@ -790,7 +790,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [LINK-BNB LP](https://bscscan.com/address/0xaebe45e3a03b734c68e5557ae04bfc76917b4686) |
 | **Basic Strategy** | CAKE is farmed, by staking your LINK-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xaB9C4a0fD179315b005a5f6D3793cb30Af718152](https://bscscan.com/address/0xaB9C4a0fD179315b005a5f6D3793cb30Af718152) |
@@ -812,7 +812,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [CAKE-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [YFII-BNB LP](https://bscscan.com/address/0x574a978c2d0d36d707a05e459466c7a1054f1210) |
 | **Basic Strategy** | CAKE is farmed, by staking your YFII-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
 | **Vault Contract** | [0xcB00A85dbb29Ab9e2581660031BF56EfC819a559](https://bscscan.com/address/0xcB00A85dbb29Ab9e2581660031BF56EfC819a559) |
@@ -820,78 +820,3 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | **Example Harvest TX** | [harvest\(\)](https://bscscan.com/tx/0x79cecf897f0d3abc8acbf33ebf0fd1d1401b613ebab7a5298aa96fff6e967deb) |
 | **Performance Fee** | 3.5% to BIFI holders & 0.5% to Treasury |
 | **Call Fee** | 0.5%  |
-
-
-## Discontinued Vaults
-
-**2020 - 11 - 07  \*\*\*Due to Syrup Staking Security Issue\*\*\*** 
-
-\*\*\*\*[**Incident Report** ](https://medium.com/beefyfinance/2020-11-03-incident-report-cake-drugs-11403bd3e271?source=collection_home---6------0-----------------------)\*\*\*\*
-
-* Removed CAKE staking and INJ syrup pool vault for more CAKE
-* Removed CAKE staking and TWT syrup pool vault for more CAKE
-* Removed CAKE staking and CTK syrup pool vault for more CAKE
-
-## Farming INJ with CAKE
-
-This strategy farms INJ, the [Injective Protocol Platform token](https://injectiveprotocol.com/).
-
-{% hint style="info" %}
-You do not receive INJ directly. Instead, the farmed INJ is sold to return more CAKE to you when you withdraw.
-{% endhint %}
-
-|  |  |
-| :--- | :--- |
-| **Status** | Active |
-| **Asset Farmed** | INJ, Injective Protocol Platform Token |
-| **Asset Used** | [CAKE - PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Basic Strategy** | INJ is farmed with CAKE and sold for more CAKE |
-| **Yield Payout** | All earnings will be paid out in the asset deposited |
-| **Vault Contract** | [0xd8bc83e80c88263b8494e8f48fddeba6261c9b1c](https://bscscan.com/token/0xd8bc83e80c88263b8494e8f48fddeba6261c9b1c) |
-| **Strategy Contract** | [0x00eC6Bd8cc1C1270Dd396B57dB0a9A3f2CdF8071](https://bscscan.com/address/0x00ec6bd8cc1c1270dd396b57db0a9a3f2cdf8071) |
-| **Example Harvest TX** | [harvest\(\)](https://bscscan.com/tx/0xbe48e666f5a5dcb1d838493cd6ebfafd8a9121748d003f46ebd54bd3048535f4) |
-
-
-
-## Farming TWT with CAKE
-
-This strategy farms TWT, the [Trust Wallet Utility token](https://community.trustwallet.com/t/trust-wallet-token-twt/4187).
-
-{% hint style="info" %}
-You do not receive TWT directly. Instead, the farmed TWT is sold to return more CAKE to you when you withdraw.
-{% endhint %}
-
-|  |  |
-| :--- | :--- |
-| **Status** | Active |
-| **Asset Farmed** | TWT, Trust Wallet Utility Token |
-| **Asset Used** | [CAKE - PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Basic Strategy** | TWT is farmed with CAKE and sold for more CAKE |
-| **Yield Payout** | All earnings will be paid out in the asset deposited |
-| **Vault Contract** | [0x214e640c638fbe68fb24e11bfbd8cd7d6cb8e37b](https://bscscan.com/token/0x214e640c638fbe68fb24e11bfbd8cd7d6cb8e37b) |
-| **Strategy Contract** | [0xf5e17d564229101A5cDbc0C340F99bA2837f1731](https://bscscan.com/address/0xf5e17d564229101a5cdbc0c340f99ba2837f1731) |
-| **Example Harvest TX** | [harvest\(\)](https://bscscan.com/tx/0xbe949d98223e18b669cbf73c08f419d9942e99197704ad5c9978762bba0036f7) |
-
-
-
-## Farming CTK with CAKE
-
-This strategy farms CTK, the [Certik Foundation Utility token](https://www.certik.foundation/).
-
-{% hint style="info" %}
-You do not receive CTK directly. Instead, the farmed CTK is sold to return more CAKE to you when you withdraw.
-{% endhint %}
-
-|  |  |
-| :--- | :--- |
-| **Status** | Active |
-| **Asset Farmed** | CTK, Certik Foundation Utility Token |
-| **Asset Used** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Basic Strategy** | CTK is farmed with CAKE and sold for more CAKE |
-| **Yield Payout** | All earnings will be paid out in the asset deposited |
-| **Vault Contract** | [0x489afbaed0ea796712c9a6d366c16ca3876d8184](https://bscscan.com/token/0x489afbaed0ea796712c9a6d366c16ca3876d8184) |
-| **Strategy Contract** | [0xC2562DD7E4CAeE53DF0f9cD7d4dDDAa53bcD3D9b](https://bscscan.com/address/0xc2562dd7e4caee53df0f9cd7d4dddaa53bcd3d9b) |
-| **Example Harvest TX** | [harvest\(\)](https://bscscan.com/tx/0x31f16056fc30ce304c429536324a69ada5fd7db3ead41f424dd027a0202b5537) |
-
-\*\*\*\*
-
