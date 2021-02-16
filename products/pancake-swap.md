@@ -316,7 +316,7 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | **Call Fee** | 0.5%  |
 
 
-## Farming CAKE with EGLD-BNB LP (MISSING FROM DASHBOARD)
+## Farming CAKE with EGLD-BNB LP
 
 This strategy farms CAKE, the [Pancake Swap Native token](https://exchange.pancakeswap.finance/#/swap).
 
@@ -328,12 +328,12 @@ You do not receive CAKE directly. Instead, the farmed CAKE are sold to return mo
 | :--- | :--- |
 | **Status** | Active |
 | **Asset Farmed** | [CAKE, PancakeSwap Token](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) |
-| **Asset Deposited** | [EGLD-BNB LP](https://bscscan.com/address/0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6) |
+| **Asset Deposited** | [EGLD-BNB LP](https://bscscan.com/address/0x3ef4952c7a9afbe374ea02d1bf5ed5a0015b7716) |
 | **Basic Strategy** | CAKE is farmed, by staking your EGLD-BNB LP |
 | **Yield Payout** | All earnings will be paid out in the asset deposited |
-| **Vault Contract** | [0x03090F5E40934E0F1AAe73b2F1cFD240DBD7Af5E](https://bscscan.com/address/0x03090F5E40934E0F1AAe73b2F1cFD240DBD7Af5E) |
-| **Strategy Contract** | [0xFB9Fb325D9BF39eF6783c37C025a04AA9c45309F](https://bscscan.com/address/0xFB9Fb325D9BF39eF6783c37C025a04AA9c45309F) |
-| **Example Harvest TX** | [harvest\(\)](https://bscscan.com/tx/0xe9c0b118db489f692d98bb7c07c2776f6861274fc1d4f80dbd23f80637746fa8) |
+| **Vault Contract** | [0x3d0bd3C73eF66C8b487A49f50410173C44261285](https://bscscan.com/address/0x3d0bd3C73eF66C8b487A49f50410173C44261285) |
+| **Strategy Contract** | [0xdf47f0845b0e450c09A474F7FfAdfD43a51dad42](https://bscscan.com/address/0xdf47f0845b0e450c09A474F7FfAdfD43a51dad42) |
+| **Example Harvest TX** | [harvest\(\)](https://bscscan.com/tx/0x02454bc66a8476d08fc6003b6d7fce24e8d1800c5d6af0352a200afaf4bd2293) |
 | **Performance Fee** | 3.5% to BIFI holders & 0.5% to Treasury |
 | **Call Fee** | 0.5%  |
 
