@@ -1,129 +1,49 @@
-# FAQ
+# General
 
-## General
+### **What is Beefy.Finance?**
 
-### Is it safe to invest money in Beefy?
+Beefy.Finance is a yield optimizer operating on Binance Smart Chain. In return for a small fee, Beefy.Finance automates several investment strategies utilizing liquidity pools. This provides a huge advantage over attempting to do this manually yourself.
 
-As a team that has been part of the crypto world for many years, we are strong proponents of “Don’t Trust, Verify”. This is why we are [releasing all the required data](https://medium.com/beefyfinance/bifi-contracts-are-live-on-mainnet-6080577269d7) for anyone to verify that everything will work as intended. We are committed to the idea of radical transparency. This is especially important in a nascent ecosystem like the Binance Smart Chain.
+The project consists of an anonymous team, directly inspired by the yield optimization projects that had been developed on the Ethereum network. Our [governance token distribution contracts](https://medium.com/beefyfinance/bifi-contracts-are-live-on-mainnet-6080577269d7) went live on September 22, 2020, and our first set of vaults were opened on October 8, 2020. 
+
+The project offers complex strategies that are simple and intuitive for any investor to take part in through the offerings on the platform. With the inherent advantage of speed with Binance Smart Chain, the team is exploring new methods of optimizing automation to secure the largest yields available. Binance Smart Chain offers some clear advantages in its speed and fees but still has its unique problems and challenges.
+
+As a decentralized project with a deeply ingrained crypto-mindset, there is a robust governance system in place to put the decision-making power in the hands of those invested in the project. This takes place through governance mechanisms related to Beefy’s native governance token $BIFI.
 
 ### Is Beefy audited?
 
-No, but there are plans in the roadmap for an audit. This would need to be voted on and funded by the Cowmunity Treasury. In the mean-time we are making every attempt to use audited and battle tested code, such as OpenZepplin for our [TokenTimelock](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/TokenTimelock.sol) contract. 
+Our first auditor was defiyield, which audited BIFI token, the RewardPool and all the timelocks.  
+  
+Beefy now is also audited by Certik, which guarantees the robustness of our smart contracts and the safety of funds invested through Beefy. Certik has already provided audits for such projects as Ocean Protocol, NEO, Ontology, and Waves. 
 
-## Products
+Certik has audited some of the most complex and reusable investment strategies used within the platform. This ensures the safety and sturdiness of important platform aspects that the majority of our users interact with.
 
-### Vaults
+The first system audited by Certik was the YieldBalancer. This is behind the new versions of our SmartCake strategy, the SmartDrugs strategy, and other strategies in the future that manage allocations in multiple farms concurrently.  
+  
+[All Beefy audits can be found here.](https://github.com/beefyfinance/beefy-audits)
 
-* [app.beefy.finance](https://app.beefy.finance/#/)
+### **What is a yield optimizer?**
 
-#### What is a Vault?
+A yield optimizer is an automated service that seeks to gain the maximum possible return on crypto-investments made through DeFi platforms. They work much more efficiently than attempting to maximize yield through manual means.  
+  
+Each yield optimizer has its own unique strategy for farming, which normally involves the reinvestment of crypto assets staked in liquidity pools. At the most simple level, it farms the rewards given from staked assets and reinvests them back into the liquidity pool. This compounds the amount of interest received and increases the amount staked that the yield is based on. A yield optimizer can repeat this up to process up to thousands of times a day.  
+  
+This fairly simple method is the reason behind the large APYs seen within yield optimization, otherwise known as liquidity farming. Compounding fees are amortized among all vault participants, making it cheaper for the user.
 
-* Vaults are investment instruments, that employ a specific set of strategies, to automate the best yield farming opportunities available. 
-* Anyone in the Cowmunity can work together to build new strategies and submit them to governance for voting.
-* Simply put vaults can,
-  * Use any asset as liquidity.
-  * Provide one asset as collateral for another.
-  * Manage collateral at a safe level to mitigate default.
-  * Put any asset to work generating a yield.
-  * Reinvest earned profits.
+### What makes Beefy.Finance different from other yield optimizers?
 
-#### Why can't someone just do this themselves?
+There are a few key reasons as to why Beefy.Finance differs from a large number of yield optimizers out there today.
 
-They could, but vaults help you save on gas, maintain healthy collateral to debt ratios,   self-optimize for the best possible yields, and automatically reinvest earnings.
+1. Beefy has more than 10 smart contract developers who carefully test and review our vaults, investment strategies, and smart contracts before releasing them to the public.  
+2. Given enough eyeballs, all bugs are shallow. The more widely available the source code is for public testing, scrutiny, and experimentation, the more rapidly all forms of bugs will be discovered. This is a key Beefy principle**.** 
+3. Beefy offers unique strategies that other yield optimizers simply do not have. This includes liquidity pool pairs that you can find only on the Beefy platform. 
+4. The mooVaults for yield optimization boast large APYs that outperform many of our yield farming competitors. 
+5. Yield optimization was originally commonplace on the Ethereum network. Huge gas fees however have made it impractical to use and costly. Beefy.Finance works with Binance Smart Chain to overcome the weaknesses present with Ethereum. 
+6. Beefy.Finance is a supported partner of Trust Wallet, Binance’s official decentralized wallet. This provides the project with credibility and improves overall trust.
 
-#### Does the vault page show the APY?
+### **How does APY work?**
 
-* Yes. Our displayed APY values reflect the predicted rate earned on a vault in a year. This rate is determined by the platform, the strategy its interacting with at the time, and taking into account the effect of compounding. As a unique feature, we have also included all vault fees in the APY calculation.
+APY is the annual percentage yield offered from a particular investment. This takes into account compound interest, giving you an accurate idea of your returns compared to simple interest. 
 
-#### What risks do the vaults have?
-
-* As of now, vaults have not been externally audited. 
-* The team does take steps to quantify the security risks of smart contracts and only will interact with ones that meet a specific set of requirements. As with any smart contract, there is always a possibility for an investors funds to end up stolen or unable to be withdrawn.
-* Assets deposited into the vault have no risk of decreasing in quantity, but can decrease in monetary value. For example - depositing 10 BNB, you will always be able to withdraw 10 BNB, but BNB may decrease in monetary value during that period of time. 
-
-#### **What are the different vaults?**
-
-* **Money Market :** Utilizes stable lending platforms, such as Fortube, to generate the highest possible yield for these coins \(BUSD, LINK, DOT, DAI, USDT, ETH, or BTCB\).
-* **Native Token Farming :** Takes advantage of the high yield on popular farms by depositing another asset to earn, sell and compound profits of the native reward token.
-
-#### What will I get out when I make a vault withdrawal?
-
-* You will always withdrawal only the token type that you deposited.
-* You will get the amount you put in, plus the yield generated,  minus the fees.
-
-#### What are the fees?
-
-* Vaults have a 0.1% withdraw fee. 
-  * The main purpose of this fee is to prevent a possible exploit from bad faith actors. Without the fee somebody could deposit just before the harvest\(\) function execution and withdraw after that event, taking a % of the gains generated by legitimate stakers. 
-* Performance fee on additional yield.
-  * This performance fee was implemented to promote community engagement and governance participation. A successful and engaged community is critical for further growth, which in-turn rewards platform users. In addition a small portion of the performance fee is routed to a treasury which will be used to fund further platform security and product initiatives.
-  * At current time the performance fee varies, depending on the vault being used, and is detailed in each [vault section](products/thugs.md).
-* Call fee of 0.5% during each harvest\(\)
-  * This fee is used to cover the cost of each harvest\(\) call. 
-  * It is a shared cost across all vault users and significantly cheaper than performing transactions individually. 
-
-**Does Performance fee get taken out when I withdraw my funds?**
-
-* No,  the fees are taken every time someone calls the harvest\(\) function.
-
-**How often are balances updated in the vaults?**
-
-* Pending rewards are not reflected in the balance until they are swapped for the initial deposited token. This can vary depending on the strategy running. 
-
-**Why do I have less mooToken than the amount of tokens I deposited?**
-
-* The mooTokens represent the share of the Vault the user has. As the vaults generate profit, the amount of shares \(mooToken\) remain constant, and the underlying token amount increases. 
-* There is no deposit fee, so the amount of tokens you deposit is maintained the second after you deposited. That amount should increase over time as the strategy generates profit.
-
-### Vault Strategies
-
-#### What is a Vault Strategy?
-
-* Beefy's vault strategies are modular smart contracts for each vault that tell it what assets to farm, and where it should sell the farmed assets. Rewards are regularly harvested, swapped for the original vault asset, and deposited again for compound farming.
-
-#### **What are the current strategies?**
-
-* There are currently lending strategies on Fortube and FRIES single asset pool farming strategies.
-* As the number of strategies grow over time, we plan to make a dashboard and filtering tools to improve UX.
-
-#### **Who is in control of the strategies?**
-
-* Each vault and strategy link is hardcoded, and the code has been built to be immutable, so once they are released, they become unstoppable. No one can modify the vaults and strategies.
-* To release a new strategy on any asset, a new vault and strategy smart contract must be built.
-
-**How can I make a strategy?**
-
-* For now you can post and discuss your strategy in Beefy’s Discord in the \#strategies channel. Detailing what it should buy/sell/farm and what the current APY is. There will be a template to help you get started.
-
-**What is APR and APY?**
-
-* APR reflects the simple interest rate over a year’s time, while APY describes the rate with the effect of compounding**.**
-
-**Is APY/365 the right way to determine daily gains?**
-
-* No, the effect of compounded interest is exponential, not linear. A daily compounded interest of 1% would yield 3678.34% a year.
-
-**How does Beefy optimize APY?**
-
-* Beefy automates the whole compounding process, making it close to optimal as possible. The compounding frequency depends on different variables in the system, like TVL, APR and strategy fees.
-
-
-
-
-
-\*\*\*\*
-
-\*\*\*\*
-
-
-
-#### 
-
-
-
-\*\*\*\*
-
-\*\*\*\*
-
- 
+Large APYs in the percentage thousands are possible with investments that provide daily yields of 1-2%. Due to your liquidity pool rewards being constantly farmed and reinvested, the interest compounds on larger and larger amounts.
 
