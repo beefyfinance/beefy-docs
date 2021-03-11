@@ -54,7 +54,7 @@ Yes. Our displayed APY values reflect the predicted rate earned on a vault in a 
   * This fee is used to cover the cost of each harvest\(\) call.
   * It is a shared cost across all vault users and significantly cheaper than performing transactions individually.
 
-### **Does Performance fee get taken out when I withdraw my funds?**
+### **Does the performance fee get taken out when I withdraw my funds?**
 
 * No,  the fees are taken every time someone calls the harvest\(\) function.
 
