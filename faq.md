@@ -41,9 +41,19 @@ There are a few key reasons as to why Beefy.Finance differs from a large number 
 5. Yield optimization was originally commonplace on the Ethereum network. Huge gas fees however have made it impractical to use and costly. Beefy.Finance works with Binance Smart Chain to overcome the weaknesses present with Ethereum. 
 6. Beefy.Finance is a supported partner of Trust Wallet, Binance’s official decentralized wallet. This provides the project with credibility and improves overall trust.
 
+### **What’s the difference between APR and APY?**
+
+APR \(Annual Percentage Rate\) is the yearly interest, minus fees. This does not include compounding effects that occur from reinvesting profits. If you were to invest $100 with 100% APR, you would make $100 in profit.
+
+If you however reinvest your profits regularly, you will compound your interest. This calculated over a year gives you your APY \(Annual Percentage Yield\). The more often you compound your interest, the greater the difference between APR and APY.
+
 ### **How does APY work?**
 
 APY is the annual percentage yield offered from a particular investment. This takes into account compound interest, giving you an accurate idea of your returns compared to simple interest. 
 
 Large APYs in the percentage thousands are possible with investments that provide daily yields of 1-2%. Due to your liquidity pool rewards being constantly farmed and reinvested, the interest compounds on larger and larger amounts.
+
+### **How can I find out how much earnings I have accumulated?**
+
+You can use a DeFi dashboard that will be able to calculate exactly how much profit you have made on your investments. [Yieldwatch](https://yieldwatch.net/) will connect to your wallet and give you an accurate picture of your initial investment and current earnings.
 

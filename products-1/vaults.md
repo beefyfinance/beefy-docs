@@ -18,6 +18,18 @@ Simply put, vaults can:
 * Put any asset to work generating a yield.
 * Reinvest earned profits.
 
+### **What is the fee structure for your vaults?**
+
+Most vaults has a performance fee structure of 4.0% to $BIFI holders who have staked in the governance RewardPool or BIFI Maxi vault and 1.5% to the Treasury. This fee is already built into the APY of each vault and daily rate. You do not need to calculate these yourself.
+
+### **What is the relationship between the amount of mooTokens I have compared to my deposited tokens?**
+
+Your mooTokens only represent the share of the Vault that an investor has. As a vault generates profit, the amount of mooTokens in your wallet remains constant. The underlying invested token amount does however increase.
+
+### **How often do the vaults harvest their profits and reinvest?**
+
+Vaults are normally harvested once every four hours and profits are reinvested. Larger vaults, such as our Cake vault, are harvested more frequently.
+
 ### Why can't someone just do this themselves?
 
 They could, but vaults help you save on gas, maintain healthy collateral to debt ratios, self-optimize for the best possible yields, and automatically reinvest earnings. Attempting to do this manually would result in large inefficiencies.
@@ -41,6 +53,12 @@ Yes. Our displayed APY values reflect the predicted rate earned on a vault in a 
 
 * You will always withdrawal only the token type that you deposited. 
 * You will get the amount you put in, plus the yield generated,  minus the fees.
+
+### **How do LP vaults work?**
+
+Liquidity pool \(LP\) vaults work by reinvesting the fees awarded to LP participants. In return for providing liquidity to the pool, many platforms reward investors with tokens. Our vaults regularly take the reward, buy more of the LP’s underlying assets, and then reinvest.
+
+This compounds the rewards gained from the pool. Beefy.Finance creates strategies that automate this process, saving you time and gas fees in comparison to farming manually. This is all done for a small fee that is distributed to those staked in Beefy’s governance RewardPool or BIFI Max vault. A small percentage also goes to the Beefy Finance treasury
 
 ### What are the fees?
 
@@ -66,4 +84,23 @@ Yes. Our displayed APY values reflect the predicted rate earned on a vault in a 
 
 * The mooTokens represent the share of the Vault the user has. As the vaults generate profit, the amount of shares \(mooToken\) remain constant, and the underlying token amount increases. 
 * There is no deposit fee, so the amount of tokens you deposit is maintained the second after you deposited. That amount should increase over time as the strategy generates profit.
+
+### **How do vaults get added to Beefy.Finance?**
+
+New vaults can be requested in our Discord in the \#whiteboard channel. Our strategists then add the potential investment strategy to our strategy list. A priority is assigned to each new, potential strategy based on its APY, TVL and sustainability. Our developers/strategists then attack the list from top priority to bottom.
+
+### **What’s your vault naming process?**
+
+Each vault on the platform is named after the token that users can deposit in it. For example, the NYA-CAKE LP vault uses NYA-CAKE LP tokens for its investment strategy. The Kebab vault uses the Kebab token, etc.  
+  
+Underneath the vault name, you can find the platform used for investing the token and farming its yields. For example, Uses: Venus means that that particular vault invests the token in Venus, a DeFi algorithmic money market and synthetic stablecoin protocol.
+
+### **How do Venus vaults work?**
+
+Venus is a decentralized marketplace for lenders and borrowers. By depositing your initial asset in the vault, Beefy deposits it into Venus and borrows against your token. This is done at a safe level of collateral. 
+
+The borrowed tokens are then redeposited into the platform, and once again used as collateral to borrow more tokens. This cycle is repeated 4 times. XVS \(Venus token\) is also farmed and sold to purchase more of your originally deposited assets.
+
+This process is fully automated and incurs a small fee distributed to those staked in Beefy’s governance RewardPool or BIFI Max vault. A small percentage also goes to the Beefy Finance treasury.  
+
 
