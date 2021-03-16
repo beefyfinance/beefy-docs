@@ -4,7 +4,7 @@
 
 $BIFI, otherwise known as BIFI,  is the native governance token of our project. By holding this token and staking as part of our government mechanisms, users can directly take part in the decision-making process. To get your hands on the token, head to one of the many liquidity pools or exchanges on the Binance Smart Chain such as [Pancake Swap.](https://exchange.pancakeswap.finance/)
 
-Inbuilt within the tokenomics of the platform are mechanisms to bring its deflationary nature. This rewards early supporters and has the aim of creating highly incentivized token holders to contribute to the project. After an initial distribution period of around two months, 72,00 tokens were supplied to the community with 8,000 locked for the founding team.
+Inbuilt within the tokenomics of the platform are mechanisms to bring its deflationary nature. This rewards early supporters and has the aim of creating highly incentivized token holders to contribute to the project. After an initial distribution period of around two months, 72,000 tokens were supplied to the community with 8,000 locked for the founding team.
 
 Token holders of $BIFI have a right to create and vote on proposals to the platform as part of its governance system. Tokens can be staked in the governance pool to gain rewards also in wBNB. A portion of the fees paid by our yield farming vault users is then distributed to holders of the $BIFI token staked in the pool.
 
