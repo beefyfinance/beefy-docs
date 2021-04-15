@@ -2,7 +2,7 @@
 
 ### **What is $BIFI?**
 
-$BIFI, otherwise known as BIFI,  is the native governance token of our project. By holding this token and staking as part of our government mechanisms, users can directly take part in the decision-making process. To get your hands on the token, head to one of the many liquidity pools or exchanges on the Binance Smart Chain such as [Pancake Swap.](https://exchange.pancakeswap.finance/)
+$BIFI, otherwise known as BIFI,  is the native governance token of our project. By holding this token and staking as part of our governance mechanisms, users can directly take part in the decision-making process. To get your hands on the token, head to one of the many liquidity pools or exchanges on the Binance Smart Chain such as [1inch](https://1inch.exchange/#/r/0xF4cb25a1FF50E319c267b3E51CBeC2699FB2A43B/BNB/BIFI/?network=56) or [Pancake Swap.](https://exchange.pancakeswap.finance/)
 
 Inbuilt within the tokenomics of the platform are mechanisms to bring its deflationary nature. This rewards early supporters and has the aim of creating highly incentivized token holders to contribute to the project. After an initial distribution period of around two months, 72,000 tokens were supplied to the community with 8,000 locked for the founding team.
 
@@ -14,7 +14,7 @@ BIFI can also be staked in the BIFI max vault, which pays out rewards in $BIFI. 
 
 ### **How is the protocol revenue distributed?**
 
-All revenue generated on the platform from vault fees is sent to and handled by the RewardPool smart contract in form of wBNB. Anyone who stakes their $BIFI in either the RewardPool or Bifi Maxi vault receives their proportionate share.
+All revenue generated on the platform from vault fees is sent to and handled by the RewardPool smart contract in form of wBNB. Anyone who stakes their $BIFI in either the RewardPool or BIFI Maxi vault receives their proportionate share.
 
 ### **What’s the BIFI Maxi vault?**
 

@@ -2,7 +2,7 @@
 
 ### **When was Beefy.Finance launched?**
 
-Our governance token distribution contracts went live on September 22, 2020. Our first set of vaults opened on October 8, 2020
+Our governance token distribution contracts went live on September 22, 2020. Our first set of vaults opened on October 8, 2020.
 
 ### **What’s your relationship with Binance Smart Chain?**
 
