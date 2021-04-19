@@ -1,5 +1,5 @@
 ---
-description: 'a Multi-Chain, Decentralized Finance Yield Optimizer'
+description: 'a Decentralized, Multi-Chain Yield Optimizer'
 ---
 
 # Introduction to Beefy.Finance
