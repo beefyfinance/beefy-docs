@@ -3,3 +3,7 @@
 {% page-ref page="how-to-participate-in-a-moovault.md" %}
 
 {% page-ref page="how-to-add-a-custom-token-to-metamask.md" %}
+
+{% page-ref page="how-to-add-and-switch-networks-on-beefy-finance.md" %}
+
+{% page-ref page="how-to-bridge-BIFI-cross-chain.md" %}
