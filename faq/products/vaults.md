@@ -22,7 +22,7 @@ Summarizing, vaults can:
 * Put any asset to work to generate a yield.
 * Reinvest earned profits.
 
-## **What are mooTokens and what is the relationship between the amount of mooTokens I have compared to my deposited tokens?**
+## **What are mooTokens?**
 
 A mooToken can be seen as a receipt that you get when depositing into any Beefy vault. This is a fully automatic process. For example, you receive mooBifi tokens from depositing $BIFI into the Beefy Maxi vault. These mooTokens do not 1:1 represent the token amount initially deposited but it does represent the value of your share in the vault. As a vault generates profit, the amount of mooTokens in your wallet remain constant while the underlying invested token amount in the vault increases. Whenever you want to withdraw the tokens that are staked for you in the vault, you need your receipt \(mooTokens\) which you hand in to redeem the deposited tokens + yield. Beefy.Finance users should hold on tightly to the mooTokens i.e. deposit receipts and not sell or exchange them to strangers or you will lose ownership of your staked assets in the vault.
 
