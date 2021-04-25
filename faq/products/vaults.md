@@ -10,7 +10,7 @@ When browsing the vaults on the platform, you will see the annual percentage yie
 
 Each vault can either refer to a pair of tokens invested in liquidity pools, such as CAKE-BNB LP tokens within the Binance Smart Chain ecosystem, or a single token invested in lending platforms or single stake reward pools. After depositing tokens to a vault, the user is supplied with vault specific mooTokens which represent their share in the vault. We will elaborate on mooTokens in the next section.
 
-Anyone in the Cowmunity can work together to build new strategies and submit them to governance for voting. We look at vault requests via our official forum where anyone is free to submit [vault requests](https://forum.beefy.finance/c/vault-requests).
+Anyone in the Cowmoonity can work together to build new strategies and submit them to governance for voting. We look at vault requests via our official forum where anyone is free to submit [vault requests](https://forum.beefy.finance/c/vault-requests).
 
 Summarizing, vaults can:
 
@@ -52,7 +52,7 @@ Yes. Our displayed APY values reflect the predicted rate earned on a vault in a 
 
 ## What risks do the vaults have?
 
-To date, there has never been a Beefy vault incident. This does however not mean that a vault is entirely risk free. Below are some of the general vault risks:
+Beefy vaults are audited, but this does not mean that a vault is entirely risk free. Below are some of the general vault risks:
 
 * Assets deposited into the vault have no risk of decreasing in quantity but can decrease in monetary value.
 * As with any smart contract, the ultimate risk is that an investor's funds can end up stolen or unable to be withdrawn. The team does take steps to quantify the security risks of smart contracts and only will interact with ones that meet a specific set of requirements after excessive testing to make sure the underlying platform does not contain so called 'rug-pull' functions. 
