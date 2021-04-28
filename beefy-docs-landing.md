@@ -1,7 +1,5 @@
 ![](.gitbook/assets/docs-landing.png)
 
-# Introduction to Beefy Finance
-
 ## What is Beefy Finance?
 
 [Beefy Finance](https://beefy.finance/) is a Decentralized, Multi-Chain Yield Optimizer platform that allows its users to earn compound interest on their crypto holdings.
