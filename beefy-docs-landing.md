@@ -6,7 +6,7 @@
 
 Through a set of investment strategies secured and enforced by smart contracts, Beefy Finance automatically maximizes the user rewards from various liquidity pools (LPs),‌ ‌automated market making (AMM) projects,‌ ‌and‌ ‌other yield‌ farming ‌opportunities in the DeFi ecosystem. 
 
-The main product offered by Beefy Finance are the 'Vaults' in which users stake their crypto tokens. The investment strategy tied to the specific vault will automatically increase the deposited token amount by compounding arbitrary reward tokens back into the initially deposited asset. Despite the name 'Vault' suggests, user funds are never locked in any vault on Beefy Finance: one could always withdraw from a vault at any moment in time.
+The main product offered by Beefy Finance are the 'Vaults' in which you stake your crypto tokens. The investment strategy tied to the specific vault will automatically increase your deposited token amount by compounding arbitrary yield farm reward tokens back into your initially deposited asset. Despite the name 'Vault' suggests, your funds are never locked in any vault on Beefy Finance: you can always withdraw at any moment in time.
 
 DeFi applications are unique in the sense that they are permissionless and trustless, meaning that anyone with a supported wallet can interact with them without the need for a trusted middleman. While you have funds staked in a vault, you remain 100% in control of your crypto.
 
