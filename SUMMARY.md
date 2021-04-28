@@ -31,11 +31,11 @@
 
 * [Deployed Contract Registry](developers/deployed-contract-registry.md)
 * [Code Repositories](developers/code-repositories.md)
-* [Beefy Cowmunity Tools](developers/beefy-cowmunity-tools.md)
+* [Beefy Cowmoonity Tools](developers/beefy-cowmoonity-tools.md)
 
 ---
 
-* [Cowmunity & Grill Masters](community.md)
+* [Cowmoonity & Grill Masters](community.md)
 
 ## Additional Resources
 
