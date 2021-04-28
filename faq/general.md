@@ -14,11 +14,11 @@ The first system audited by Certik was the YieldBalancer. This is behind the new
 
 ## What is a yield optimizer?
 
-A yield optimizer is an automated service that seeks to gain the maximum possible return on crypto-investments made through DeFi platforms. They work much more efficiently than attempting to maximize yield through manual means.
+A yield optimizer is an automated service that seeks to gain the maximum possible return on crypto-investments, much more efficiently than attempting to maximize yield through manual means.
 
-Each yield optimizer has its own unique strategy for farming, which normally involves the reinvestment of crypto assets staked in liquidity pools. At the most simple level, it farms the rewards given from staked assets and reinvests them back into the liquidity pool. This compounds the amount of interest received and increases the amount staked that the yield is based on. A yield optimizer can repeat this up to process up to thousands of times a day.
+Each vault has its own unique strategy for farming, which normally involves the reinvestment of crypto assets staked in liquidity pools. At the most simple level, it farms the rewards given from staked assets and reinvests them back into the liquidity pool. This compounds the amount of interest received and increases the amount staked that the yield is based on. A yield optimizer can repeat this up to process up to thousands of times a day.
 
-This fairly simple method is the principle reason behind the large APYs seen within yield optimization, otherwise known as liquidity farming. Compounding fees are amortized among all vault participants, making it cheaper for the user.
+This fairly simple method is the principle reason behind the large APYs found on Beefy. Compounding fees are amortized among all vault participants, making it cheaper for the user.
 
 ## **What’s the difference between APR and APY?**
 
