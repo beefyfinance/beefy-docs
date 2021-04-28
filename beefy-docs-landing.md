@@ -1,4 +1,4 @@
-![](../../.gitbook/assets/docs-landing.png)
+![](.gitbook/assets/docs-landing.png)
 
 # Introduction to Beefy Finance
 
