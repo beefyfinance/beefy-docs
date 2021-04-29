@@ -1,6 +1,6 @@
 ---
 description: >-
-  In this guide you will find the required steps to send your BEP20 BIFI tokens from the native blockchain Binance Smart Chain (BSC) to other blockchains using a Metamask wallet and the Cross Chain DEX AnySwap. In this example we will use the Huobi ECO chain (HECO) as an example.
+  In this guide you will find the required steps to send bridge BIFI cross-chain using Metamask and the Cross Chain DEX AnySwap.
 ---
 
 # How to send your BIFI from BSC to other blockchains and vice versa
@@ -22,14 +22,14 @@ The amount of BIFI you send will be taken from your BSC balance and credited as 
 
 #### 2. Confirm your choices and make the 'CrossChain Deposit'.
 
-Carefully check if you consent with any possible fees, such as withdrawal fees and minimum and maximum withdrawal amounts. A 0.02 BNB transaction fee is required to complete the transfer. Now is also a good time to check 'Redeem' options for when you want to send your BIFI back again, for example: the minimum redeem amoumt is 0.02 BIFI. Once you are certain about the process and your settings, hit the the 'CrossChain Deposit' button. Your BEP20 BIFI will now be sent to the HECO network!
+Carefully check if you consent with any possible fees, such as withdrawal fees and minimum and maximum withdrawal amounts. A 0.02 BNB transaction fee is required to complete the transfer. Now is also a good time to check 'Redeem' options for when you want to send your BIFI back again, for example: the minimum redeem amoumt is 0.02 BIFI. Once you are certain about the process and your settings, hit the 'CrossChain Deposit' button. Your BEP20 BIFI will now be sent to the HECO network!
 
 #### 3. To send the (now HRC20) BIFI back to BSC, we simply need to reverse the process.
 
 * Switch to the 'Redeem' side of the AnySwap Bridge.
 * Select BIFI to redeem from the HECO network and enter the desired amount.
 * Select BIFI using the BEP20 BIFI token to receive.
-* Enter your BEP20 Metamask address to as the Recipient BIFI Address.
+* Enter your BEP20 Metamask address as the 'Recipient BIFI Address'.
 * Confirm your choices and 'Redeem'.
 
 ![](../../.gitbook/assets/bifi-heco-to-bsc-anyswap.png)

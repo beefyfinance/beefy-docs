@@ -10,7 +10,7 @@ When browsing the vaults on the platform, you will see the annual percentage yie
 
 Each vault can either refer to a pair of tokens invested in liquidity pools, such as CAKE-BNB LP tokens within the Binance Smart Chain ecosystem, or a single token invested in lending platforms or single stake reward pools. After depositing tokens to a vault, the user is supplied with vault specific mooTokens which represent their share in the vault. We will elaborate on mooTokens in the next section.
 
-Anyone in the Cowmunity can work together to build new strategies and submit them to governance for voting. We look at vault requests via our official forum where anyone is free to submit [vault requests](https://forum.beefy.finance/c/vault-requests).
+Anyone in the Cowmoonity can work together to build new strategies and submit them to governance for voting. We look at vault requests via our official forum where anyone is free to submit [vault requests](https://forum.beefy.finance/c/vault-requests).
 
 Summarizing, vaults can:
 
@@ -22,7 +22,7 @@ Summarizing, vaults can:
 * Put any asset to work to generate a yield.
 * Reinvest earned profits.
 
-## **What are mooTokens and what is the relationship between the amount of mooTokens I have compared to my deposited tokens?**
+## **What are mooTokens?**
 
 A mooToken can be seen as a receipt that you get when depositing into any Beefy vault. This is a fully automatic process. For example, you receive mooBifi tokens from depositing $BIFI into the Beefy Maxi vault. These mooTokens do not 1:1 represent the token amount initially deposited but it does represent the value of your share in the vault. As a vault generates profit, the amount of mooTokens in your wallet remain constant while the underlying invested token amount in the vault increases. Whenever you want to withdraw the tokens that are staked for you in the vault, you need your receipt \(mooTokens\) which you hand in to redeem the deposited tokens + yield. Beefy.Finance users should hold on tightly to the mooTokens i.e. deposit receipts and not sell or exchange them to strangers or you will lose ownership of your staked assets in the vault.
 
@@ -52,7 +52,7 @@ Yes. Our displayed APY values reflect the predicted rate earned on a vault in a 
 
 ## What risks do the vaults have?
 
-To date, there has never been a Beefy vault incident. This does however not mean that a vault is entirely risk free. Below are some of the general vault risks:
+Beefy vaults are audited, but this does not mean that a vault is entirely risk free. Below are some of the general vault risks:
 
 * Assets deposited into the vault have no risk of decreasing in quantity but can decrease in monetary value.
 * As with any smart contract, the ultimate risk is that an investor's funds can end up stolen or unable to be withdrawn. The team does take steps to quantify the security risks of smart contracts and only will interact with ones that meet a specific set of requirements after excessive testing to make sure the underlying platform does not contain so called 'rug-pull' functions. 

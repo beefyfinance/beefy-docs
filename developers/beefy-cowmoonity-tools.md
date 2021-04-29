@@ -2,7 +2,7 @@
 description: Tools to help the Binance Smart Chain Community
 ---
 
-# Beefy Cowmunity Tools
+# Beefy Cowmoonity Tools
 
 ## BSC Allowance Checker
  * Site: [https://allowance.beefy.finance/](https://allowance.beefy.finance/)
