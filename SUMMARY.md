@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Overview](beefy-docs-landing.md)
-* [Introduction to Beefy Finance](README.md)
+* [Overview](README.md)
+* [Introduction to Beefy Finance](introduction.md)
 
 ## FAQ <a id="faq"></a>
 
