@@ -19,6 +19,7 @@
   * [How to Add a Custom Token to Metamask](faq/how-to-guides/how-to-add-a-custom-token-to-metamask.md)
   * [How to add and switch networks on Beefy Finance](faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md)
   * [How to send your BIFI from BSC to other blockchains and vice versa](faq/how-to-guides/how-to-bridge-BIFI-cross-chain.md)
+  * [How to check the harvesting and compounding rate of a vault](faq/how-to-guides/how-to-check-harvesting-compounding-rate.md)
 
 ## For Smart Farmers <a id="developers"></a>
 
