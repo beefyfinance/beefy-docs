@@ -7,3 +7,5 @@
 {% page-ref page="how-to-add-and-switch-networks-on-beefy-finance.md" %}
 
 {% page-ref page="how-to-bridge-BIFI-cross-chain.md" %}
+
+{% page-ref page="how-to-check-harvesting-compounding-rate.md" %}
