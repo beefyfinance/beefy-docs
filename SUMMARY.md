@@ -2,6 +2,7 @@
 
 * [Overview](README.md)
 * [Introduction to Beefy Finance](introduction.md)
+* [Beefy Finance Infographics](infographics.md)
 
 ## FAQ <a id="faq"></a>
 

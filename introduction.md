@@ -4,6 +4,8 @@ description: 'a Decentralized, Multi-Chain Yield Optimizer'
 
 # Introduction to Beefy Finance
 
+*Don't like long texts? Skip to [Beefy Finance Infographics](infographics.md).*
+
 ## What is Beefy Finance?
 
 Beefy Finance is a Decentralized Finance \(DeFi\) Yield Optimizer project, that allows its users to make more crypto with crypto. DeFi applications are unique in the sense that they are permissionless and trustless, meaning that anyone with a supported wallet can interact with them without the need for a trusted middlemen. Beefy Finance caters its users by making it easy to get a yield on their crypto capital in a safe and decentralized manner. Through a set of smart contracts and several investment strategies, Beefy Finance automatically maximizes the user rewards from various liquidity pools \(LPs\), automated market making \(AMM\) projects, and other yield farming opportunities in the DeFi ecosystem. This provides a huge advantage over attempting to do this manually yourself. Beef up those yields!
