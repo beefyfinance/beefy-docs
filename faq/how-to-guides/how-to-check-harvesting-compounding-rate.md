@@ -13,8 +13,7 @@ Beefy Finance's [vaults](../../faq/products/vaults.md), or more specifically the
 
 On BSC, one can easily use Beefy Finance's [Deployed Contract Registry](../../developers/deployed-contract-registry.md). As an example, we will pick the CAKE-BNB LP vault to demonstrate the process:
 
-![](../../.gitbook/assets/cake-bnb-lp-2-5-2021.png)
-*Screenshot taken on 5 May 2021*
+![Screenshot taken on 5 May 2021](../../.gitbook/assets/cake-bnb-lp-2-5-2021.png)
 
 #### 1. Go to [dashboard.beefy.finance](https://dashboard.beefy.finance)
 
@@ -40,8 +39,7 @@ All these transactions are from the vault harvesting rewards which in turn also 
 
 On Avalanche, the method for checking how often your vault harvests and compounds is slightly different. In this example we will use the PNG-AVAX LP vault:
 
-![](../../.gitbook/assets/png-avax-lp-2-5-2021.png)
-*Screenshot taken on 5 May 2021*
+![Screenshot taken on 5 May 2021](../../.gitbook/assets/png-avax-lp-2-5-2021.png)
 
 #### 1. You will need go to the Avalanche block explorer for the C chain: [https://cchain.explorer.avax.network/](https://cchain.explorer.avax.network/)
 
