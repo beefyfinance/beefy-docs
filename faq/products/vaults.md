@@ -28,7 +28,7 @@ A mooToken can be seen as a receipt that you get when depositing into any Beefy 
 
 ## **How often do the vaults harvest their profits and reinvest?**
 
-Vaults are normally harvested multiple times daily and profits are automatically reinvested \(compounded\). Larger vaults, such as our BSC $CAKE vault, are harvested even more frequently.
+Vaults are normally harvested multiple times daily and profits are automatically reinvested \(compounded\). Larger vaults, such as our BSC $CAKE vault, are harvested even more frequently. You can check the harvesting and compounding rate of a vault using [this how-to guide](../../faq/how-to-guides/how-to-check-harvesting-compounding-rate.md).
 
 ## Why can't someone just do this themselves?
 
