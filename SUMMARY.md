@@ -14,7 +14,7 @@
   * [Barn of Trust](faq/products/barn-of-trust.md)
 * [Team & Goals](faq/team-and-goals.md)
 * [mooVaults APY](faq/moovaults-apy.md)
-* [Tokenomics & Governance](faq/tokenomics-and-governance.md)
+* [BIFI Token](faq/bifi-token.md)
 * [How-To Guides](faq/how-to-guides/README.md)
   * [How to participate in a mooVault](faq/how-to-guides/how-to-participate-in-a-moovault.md)
   * [How to Add a Custom Token to Metamask](faq/how-to-guides/how-to-add-a-custom-token-to-metamask.md)
