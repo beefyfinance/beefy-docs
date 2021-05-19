@@ -91,9 +91,12 @@ Each vault on the platform is named after the token that users can deposit in it
 
 Underneath the vault name, you can find the platform used for investing the token and farming its yields. For example, Uses: Venus means that that particular vault invests the token in Venus, a DeFi algorithmic money market and synthetic stablecoin protocol.
 
-## **How do Venus vaults work?**
+## **How do Aave and Venus vaults work?**
 
-Venus is a decentralized marketplace for lenders and borrowers. By depositing your initial asset in the vault, Beefy deposits it into Venus and borrows against your token. This is done at a safe level of collateral. 
+Aave and Venus are decentralized marketplaces for lenders and borrowers. By depositing your initial asset in the vault, Beefy deposits it into Aave or Venus and borrows against your token. This is done at safe levels of collateral. 
 
-The borrowed tokens are then redeposited into the platform, and once again used as collateral to borrow more tokens. This cycle is repeated multiple times and $XVS \(the Venus platform token\) is farmed and sold to purchase more of your originally deposited assets. It is noteworthy that this "leveraged" multi lending and multi borrowing is only with the native token, so there is no liquidation risk due to price swings. Also, because it has to withdraw through the multi supply/borrow cycle, the transaction fee for Venus vaults is also almost 4x as high compared to other vaults. Venus vault APY's are mainly depended on Venus interest rates and the $XVS price.
+The borrowed tokens are then redeposited into the platform, and once again used as collateral to borrow more tokens. This cycle is repeated multiple times to generate as much interest as possible to buy more of your originally deposited assets. It is noteworthy that this "leveraged" multi lending and multi borrowing is only with the native token, so there is no liquidation risk due to token price swings. Also, because of the multi supply/borrow cycle, a transaction fee for these vaults is generally 4x as high as compared to other vaults.
 
+Because of accruing debt/supply interest, one may notice that the deposited token amount may decline ever so slightly in between harvests. After the harvest, you will see your deposited token amount go up as the yields are compounded back into it. The change in deposited token amount over time of typical Aave / Venus style vault looks as follows:
+
+![After a harvest event, the yields are added to the deposited token amount](../../.gitbook/assets/venus-style-vault.png)
