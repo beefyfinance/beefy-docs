@@ -16,7 +16,7 @@ At Beefy 'you earn what you stake', regardless if this is a liquidity pool (LP) 
 
 ![](.gitbook/assets/beefy-info-fees.png)
 
-More on the vault fees [here](faq/products/vaults#what-is-the-vault-fee-structure).
+More on the vault fees [here](faq/products/vaults.md#what-is-the-vault-fee-structure).
 
 ## Beefy Zap:
 
