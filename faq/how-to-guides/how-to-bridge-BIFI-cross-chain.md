@@ -35,5 +35,3 @@ Carefully check if you consent with any possible fees, such as withdrawal fees a
 * Confirm your choices and 'Redeem'.
 
 ![](../../.gitbook/assets/bifi-heco-to-bsc-anyswap.png)
-
-That's it!
