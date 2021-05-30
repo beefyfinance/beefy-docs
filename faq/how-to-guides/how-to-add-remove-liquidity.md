@@ -43,11 +43,11 @@ Confirm Swap in the next pop-up screen.
 
 #### 8. "Approve"
 
-![](../../.gitbook/assets/add-liq-button.png)
+![](../../.gitbook/assets/add-liq-approve-vault.png)
 
 #### 9. "Deposit All"
 
-![](../../.gitbook/assets/add-liq-button.png)
+![](../../.gitbook/assets/add-liq-deposit-all.png)
 
 That's it! We now created liquidity and deposited BIFI-BNB LP in the vault. You can check [this guide](../../faq/how-to-guides/how-to-check-harvesting-compounding-rate.md) to see when the vault will harvest rewards and compound for more BIFI-BNB LP tokens.
 
@@ -61,7 +61,7 @@ Note: withdrawal fees will be deducted from your deposited token amount.
 
 #### 2. Go back to [PancakeSwap](https://exchange.pancakeswap.finance/#/pool)
 
-and head over to the Liquidity section. It will show the BIFI-BNB tokens under "Your Liquidity"
+and head over to the Liquidity section. It will show the BIFI-BNB LP tokens under "Your Liquidity"
 
 ![](../../.gitbook/assets/remove-liq-pancake-liquidity.png)
 
