@@ -9,3 +9,5 @@
 {% page-ref page="how-to-bridge-BIFI-cross-chain.md" %}
 
 {% page-ref page="how-to-check-harvesting-compounding-rate.md" %}
+
+{% page-ref page="how-to-add-remove-liquidity.md" %}
