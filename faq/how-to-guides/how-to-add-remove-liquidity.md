@@ -41,6 +41,8 @@ Confirm Swap in the next pop-up screen.
 
 ![](../../.gitbook/assets/add-liq-balance.png)
 
+Click on the vault to open up the deposit and withdraw menu.
+
 #### 8. "Approve"
 
 ![](../../.gitbook/assets/add-liq-approve-vault.png)
