@@ -14,6 +14,8 @@ description: >-
 
 #### 1. Go to [https://anyswap.exchange/bridge](https://anyswap.exchange/bridge), make sure you are connected with your wallet under HECO network and are on the Deposit side (default).
 
+Note that using hardware-wallets via metamask is currently unsupported by anyswap. Be sure to use the native client (Ledger Live in the case of a Ledger hardware-wallet) to avoid errors.
+
 In the figure below, select BIFI using the BEP20 BIFI token to deposit and enter the amount you wish to bridge.
 
 ![](../../.gitbook/assets/bifi-bsc-to-heco-anyswap.png)
@@ -33,5 +35,3 @@ Carefully check if you consent with any possible fees, such as withdrawal fees a
 * Confirm your choices and 'Redeem'.
 
 ![](../../.gitbook/assets/bifi-heco-to-bsc-anyswap.png)
-
-That's it!
