@@ -14,7 +14,7 @@ At Beefy 'you earn what you stake', regardless if this is a liquidity pool (LP) 
 
 ## The vault fee structure explained:
 
-![](.gitbook/assets/beefy-info-fees.png)
+!["What you see is what you get" - the fees are already accounted for in the displayed vault APY!](.gitbook/assets/beefy-info-fees.png)
 
 More on the vault fees [here](faq/products/vaults.md#what-is-the-vault-fee-structure).
 
