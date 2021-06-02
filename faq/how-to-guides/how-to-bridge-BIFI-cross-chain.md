@@ -22,7 +22,7 @@ BIFI can be staked not only on Binance Smart Chain (BSC), but on every chain pre
 
 ![](../../.gitbook/assets/bridge-connect-metamask.png)
 
-It might prompt you are on the "Wrong Network" afterwards, but don't pay attention to that.
+Switch your Metamask to Binance Smart Chain as well. It might prompt you are on the "Wrong Network" afterwards, but don't pay attention to that.
 
 #### 3. Select BIFI to send
 
@@ -48,11 +48,11 @@ Either type in the amount, or click your balance.
 
 ![](../../.gitbook/assets/bridge-specify-amount.png)
 
-Make sure to "View Limits" too! Pro tip: hit the switch toggle and check the limits for withdrawing now too. 
+Make sure to "View Limits" too! Pro tip: hit the switch toggle and check the limits for withdrawing now as well. 
 
 #### 6. Send it!
 
-If you consent with all possible depositing and withdrawing fees, click the transfer button. Note: you may change the prompted gas price to 5 GWei (BSC's default at the time of writing)
+If you consent with all possible depositing and withdrawing fees, click the transfer button. Note: you may change the prompted gas price to 5 GWei (BSC's default at the time of writing).
 
 ![](../../.gitbook/assets/bridge-transfer.png)
 
