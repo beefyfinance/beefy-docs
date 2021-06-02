@@ -1,6 +1,6 @@
 ---
 description: >-
-  In this guide you will find the required steps to bridge BIFI cross-chain using Metamask and [multichain.xyz](https://multichain.xyz/swap).
+  In this guide you will find the required steps to bridge BIFI cross-chain using Metamask and multichain.xyz.
 ---
 
 # How to bridge BIFI cross-chain
