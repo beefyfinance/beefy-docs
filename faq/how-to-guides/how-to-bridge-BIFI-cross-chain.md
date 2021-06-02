@@ -1,37 +1,73 @@
 ---
 description: >-
-  In this guide you will find the required steps to send bridge BIFI cross-chain using Metamask and the Cross Chain DEX AnySwap.
+  In this guide you will find the required steps to bridge BIFI cross-chain using Metamask and [multichain.xyz](multichain.xyz).
 ---
 
-# How to send your BIFI from BSC to other blockchains and vice versa
+# How to bridge BIFI cross-chain
+
+BIFI can be staked not only on Binance Smart Chain (BSC), but on every chain present in Beefy's [network switcher](../../faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md). Each chain holds different opportunities for staking your BIFI, just check out the different APYs of the chain's BIFI Maxi vault! As an example, we are going to bridge BIFI from BSC to Polygon and back in this guide. 
 
 ## Prerequisites
 
-* As an example, we are going to use HECO in this guide. You need to have the HECO network configured in your Metamask. You can use [this](../../faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md) guide if you still need to add the required settings to Metamask.
-* You will need some amount of Huobi tokens (HT) in your wallet to pay for HECO transaction fees to move your BIFI any further once it is bridged.
+* You need to have both the BSC and Polygon network configured in your Metamask.
+* You will need BNB and MATIC to pay for transaction fees.
 
-## Walkthrough
+## BSC -> Polygon
 
-#### 1. Go to [https://anyswap.exchange/bridge](https://anyswap.exchange/bridge), make sure you are connected with your wallet under HECO network and are on the Deposit side (default).
+#### 1. Visit [https://multichain.xyz/swap](https://multichain.xyz/swap)
 
-Note that using hardware-wallets via metamask is currently unsupported by anyswap. Be sure to use the native client (Ledger Live in the case of a Ledger hardware-wallet) to avoid errors.
+![](../../.gitbook/assets/bridge-multichain-homepage.png)
 
-In the figure below, select BIFI using the BEP20 BIFI token to deposit and enter the amount you wish to bridge.
+#### 2. Connect your wallet
 
-![](../../.gitbook/assets/bifi-bsc-to-heco-anyswap.png)
+![](../../.gitbook/assets/bridge-connect-metamask.png)
 
-The amount of BIFI you send will be taken from your BSC balance and credited as a HRC20 holding on the same address on HECO. 
+Switch your Metamask to Binance Smart Chain as well. It might prompt you are on the "Wrong Network" afterwards, but don't pay attention to that.
 
-#### 2. Confirm your choices and make the 'CrossChain Deposit'.
+#### 3. Select BIFI to send
 
-Carefully check if you consent with any possible fees, such as withdrawal fees and minimum and maximum withdrawal amounts. A 0.02 BNB transaction fee is required to complete the transfer. Now is also a good time to check 'Redeem' options for when you want to send your BIFI back again, for example: the minimum redeem amoumt is 0.02 BIFI. Once you are certain about the process and your settings, hit the 'CrossChain Deposit' button. Your BEP20 BIFI will now be sent to the HECO network!
+Click the Wrapped-ETH icon in the "From" field,
 
-#### 3. To send the (now HRC20) BIFI back to BSC, we simply need to reverse the process.
+![](../../.gitbook/assets/bridge-click-weth.png)
 
-* Switch to the 'Redeem' side of the AnySwap Bridge.
-* Select BIFI to redeem from the HECO network and enter the desired amount.
-* Select BIFI using the BEP20 BIFI token to receive.
-* Enter your BEP20 Metamask address as the 'Recipient BIFI Address'.
-* Confirm your choices and 'Redeem'.
+and select BIFI:
 
-![](../../.gitbook/assets/bifi-heco-to-bsc-anyswap.png)
+![](../../.gitbook/assets/bridge-select-bifi.png)
+
+The "Wrong Network" prompt is now gone too!
+
+#### 4. Select BIFI to receive
+
+At this step, you can select on which network you wish to receive BIFI. We select Polygon (Matic Mainnet) in this guide:
+
+![](../../.gitbook/assets/bridge-select-bifi-receive.png)
+
+#### 5. Specify the amount to send
+
+Either type in the amount, or click your balance.
+
+![](../../.gitbook/assets/bridge-specify-amount.png)
+
+Make sure to "View Limits" too! Pro tip: hit the switch toggle and check the limits for withdrawing now as well. 
+
+#### 6. Send it!
+
+If you consent with all possible depositing and withdrawing fees, click the transfer button. Note: you may change the prompted gas price to 5 GWei (BSC's default at the time of writing).
+
+![](../../.gitbook/assets/bridge-transfer.png)
+
+That's it! Your BEP20 BIFI will now be sent to the Polygon network:
+
+![](../../.gitbook/assets/bridge-deposit-transfer-transaction.png)
+
+## Polygon -> BSC
+
+To send the (now ERC20) BIFI back to BSC, we simply need to reverse the process.
+
+#### 1. Connect to Polygon network
+
+#### 2. Specify the amount to send
+
+#### 3. Transfer!
+
+![](../../.gitbook/assets/bridge-back.png)
