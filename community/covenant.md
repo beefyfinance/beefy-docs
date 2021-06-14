@@ -1,4 +1,4 @@
-# Community Covenant
+# Cowmoonity Covenant
 
 ## Our Goal
 
