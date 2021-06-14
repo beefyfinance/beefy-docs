@@ -35,8 +35,8 @@
 
 ## Cowmoonity <a id="community></a>
 
-* [Grill Masters](community.md)
-* [Cowmoonity Covenant](covenant.md)
+* [Grill Masters](community/grill-masters.md)
+* [Cowmoonity Covenant](community/covenant.md)
 
 ## Additional Resources
 
