@@ -32,9 +32,11 @@
 * [Code Repositories](developers/code-repositories.md)
 * [Beefy Cowmoonity Tools](developers/beefy-cowmoonity-tools.md)
 
----
 
-* [Cowmoonity & Grill Masters](community.md)
+## Cowmoonity <a id="community></a>
+
+* [Grill Masters](community.md)
+* [Cowmoonity Covenant](covenant.md)
 
 ## Additional Resources
 
