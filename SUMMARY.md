@@ -3,6 +3,14 @@
 * [Overview](README.md)
 * [Introduction to Beefy Finance](introduction.md)
 * [Beefy Finance Infographics](infographics.md)
+* [Beefy Bulletins](beefy-bulletins/README.md)
+  * [What is Beefy Finance?](beefy-bulletins/what-is-beefy-finance.md)
+  * [The Big Beefy Opportunity](beefy-bulletins/the-big-beefy-opportunity.md)
+  * [What Makes Beefy Different?](beefy-bulletins/what-makes-beefy-different.md)
+  * [How Does Beefy Finance Work?](beefy-bulletins/how-does-beefy-finance-work.md)
+  * [Beefy Finance Fees Breakdown](beefy-bulletins/beefy-finance-fees-breakdown.md)
+  * [Why Beefy Beats Your Bank](beefy-bulletins/why-beefy-beats-your-bank.md)
+  * [Introducing Beefy's Unique Revenue Share Model](beefy-bulletins/introducing-beefys-unique-revenue-share-model.md)
 
 ## FAQ <a id="faq"></a>
 
