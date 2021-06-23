@@ -1,32 +1,21 @@
 # Team & Goals
 
-## **When was Beefy.Finance launched?**
+## When was Beefy.Finance launched?
 
-Our governance token distribution contracts went live on September 22, 2020. Our first set of vaults opened on October 8, 2020.
+Beefy was born on September 21, 2020, the day our [governance distribution contracts](https://medium.com/beefyfinance/bifi-contracts-are-live-on-mainnet-6080577269d7) went live. Our first set of vaults opened on October 8, 2020.
 
-## **What’s your relationship with Binance Smart Chain?**
+## How is Beefy organized?
 
-The Beefy platform runs on the Binance Smart Chain network for many reasons. This includes drastically better performance than using Ethereum and transaction fees that also pale in comparison. This allows for investment strategies that take advantage of the level of automation possible by using BSC.
+Beefy is a decentralized working hub for people with a vision to come together and build the future of global finance. Smart contract devs, UI, UX, strategists, statisticians, designers, and artists - anyone can join and contribute (no matter your nationality, sex, or views). By investing in Beefy, you are investing in the idea that a group of highly technical individuals can safely, securely and creatively leapfrog the dinosaurs of traditional finance. 
 
-As a listed DApp on [Trust Wallet](https://trustwallet.com/), Binance’s official decentralized wallet, we operate with a special relationship as a trusted partner project. Becoming listed within their app requires the Trust Wallet team to closely investigate and judge the DApp as one that is suitable for their users and meets their quality of standards.
+## Why is the project anonymous?
 
-## **Do you have a team?**
+Personalities get in the way of projects, and we believe Beefy speaks for itself. By having a team that operates anonymously, even amongst itself, we can focus on providing the best experience for our users. That’s because we believe the strength of Beefy comes from what we build, which is an opportunity for investors to both automate AND maximize the ROI of their holdings. We urge anyone with concerns that anonymity diminishes credibility to join our Discord community (link) and get a first-hand feeling for the strength and depth of the project.
 
-Our team is made up of a group of developers and community managers who run as an anonymous team.
+## How can I get in touch with Beefy?
 
-## **Why is the project anonymous?**
+Our global community managers and team members can be contacted anytime through our official [Telegram](https://t.me/beefyfinance) and [Discord](https://discord.gg/yq8wfHd) channels. We should mention that generally speaking within investment communities there are some bad actors around looking to scam, phish, or maliciously target users. Please double check the validity of whoever you talk to, and remember that no one representing Beefy will ever ask you to provide wallet keys or recovery codes.
 
-Like many decentralized projects in the cryptocurrency scene, we place a great deal of value on the anonymous nature of the platform. As we offer a number of unique investment strategies across a whole range of different cryptocurrencies, we want the strength of the project to come from what we say and BUIDL. Personalities get in the way of great projects, and we believe that Beefy.Finance speaks for itself.
+## What’s your relationship with Binance Smart Chain?
 
-It allows us to work much more freely in providing the best experience for our users. Rules and regulations regarding the purchase, sale, and handling of cryptocurrencies vary wildly around the world.
-
-By having a team that operate anonymously, even amongst the team itself, we can make sure that our project allows all users to make their own decisions when it comes to investing their money.
-
-## **How can I get in touch with the team?**
-
-Our community managers and team members can be contacted through our official Telegram channel [https://t.me/beefyfinance](https://t.me/beefyfinance). As always, we recommend that you follow best practices when it comes to any crypto-based Telegram channel.
-
-It’s not uncommon to be contacted by people looking to scam, phish, or maliciously target other users to misappropriate funds. For this reason, you should always double-check the validity of the identity of whoever you talk to.
-
-Our community managers and the team will never ask you to provide your private wallet keys or recovery codes under any circumstances.
-
+The platform began life on the Binance Smart Chain network as one of the very first Yield Optimizers, but is evolving into a multi-chain ecosystem. BSC was our only home for many months, and helped us kickstart our growth. While it’s our highest chain by TVL, the gap keeps shrinking as our decentralized army of contributors looks for the best available yield in the multi-chain ecosystem.
