@@ -9,9 +9,11 @@ Beefy Finance's [vaults](../../faq/products/vaults.md), or more specifically the
 
 ## Walkthrough
 
+NOTE: No matter which chain you choose, you can use Beefy's [dashboard.beefy.finance](https://dashboard.beefy.finance) to launch your investigation.
+
 ### The Binance Smart Chain example
 
-No matter which chain you choose, you can easily use Beefy Finance's <A HREF="../../developers/deployed-contract-registry.md" TARGET="_blank">Deployed Contract Registry</A>. As an example, we will pick the CAKE-BNB LP vault on the Binance Smart Chain to demonstrate the process:
+As an example, we will pick the CAKE-BNB LP vault on the Binance Smart Chain to demonstrate the process:
 
 ![Screenshot taken 5 May 2021](../../.gitbook/assets/cake-bnb-lp-2-5-2021.png)
 
