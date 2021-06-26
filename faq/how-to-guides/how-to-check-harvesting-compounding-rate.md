@@ -11,7 +11,7 @@ Beefy Finance's [vaults](../../faq/products/vaults.md), or more specifically the
 
 NOTE: No matter which chain you choose, you can use Beefy's [dashboard.beefy.finance](https://dashboard.beefy.finance) to launch your investigation.
 
-### The Binance Smart Chain example
+### A Binance Smart Chain example
 
 As an example, we will pick the CAKE-BNB LP vault on the Binance Smart Chain to demonstrate the process:
 
