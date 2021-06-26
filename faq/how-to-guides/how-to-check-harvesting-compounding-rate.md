@@ -5,13 +5,13 @@ description: >-
 
 # How to check your vault's reward harvesting and compounding rate
 
-Beefy Finance's [vaults](../../faq/products/vaults.md), or more specifically the investment strategy tied to the vault, will automatically increase your deposited token amount by compounding arbitrary yield farm reward tokens back into your initially deposited asset. This constant cycle of harvesting rewards, and compounding, happens multiple times a day, and in this How-To we will walk you through the steps to check precisely the rate of how often this process occurs.
+Beefy Finance's [vaults](../../faq/products/vaults.md), or more specifically the investment strategy tied to the vault, will automatically increase your deposited token amount by compounding arbitrary yield farm reward tokens back into your initially deposited asset. This constant cycle of harvesting rewards, and compounding, happens multiple times a day, and in this How-To we walk you through steps to check precisely how often this process occurs.
 
 ## Walkthrough
 
-### Binance Smart Chain example
+### The Binance Smart Chain example
 
-No matter which chain you choose, you can easily use Beefy Finance's [Deployed Contract Registry](../../developers/deployed-contract-registry.md). As an example, we will pick the CAKE-BNB LP vault on the Binance Smart Chain to demonstrate the process:
+No matter which chain you choose, you can easily use Beefy Finance's <A HREF="../../developers/deployed-contract-registry.md" TARGET="_blank">Deployed Contract Registry</A>. As an example, we will pick the CAKE-BNB LP vault on the Binance Smart Chain to demonstrate the process:
 
 ![Screenshot taken 5 May 2021](../../.gitbook/assets/cake-bnb-lp-2-5-2021.png)
 
