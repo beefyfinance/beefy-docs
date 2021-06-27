@@ -35,7 +35,7 @@ This dashboard chooses which statistics and vaults to show based on the blockcha
 
 #### 5. Click on the Events tab to veiw the strategy events that have fired
 
-![](../../.gitbook/assets/cake-bnb-lp-rate.png)
+![](../../.gitbook/assets/harvest events inspection.png)
 
 All these transactions are from the vault harvesting rewards which in turn also trigger the yield compounding into the initial deposited asset. The CAKE-BNB LP vault of this example compounds roughly every hour.
 
