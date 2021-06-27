@@ -5,25 +5,27 @@ description: >-
 
 # How to check your vault's reward harvesting and compounding rate
 
-Beefy Finance's [vaults](../../faq/products/vaults.md), or more specifically the investment strategy tied to the vault, will automatically increase your deposited token amount by compounding arbitrary yield farm reward tokens back into your initially deposited asset. This constant cycle of harvesting rewards, and compounding, happens multiple times a day, and in this How-To we walk you through steps to check precisely how often this process occurs.
+Beefy Finance's [vaults](../../faq/products/vaults.md), or more specifically the investment strategy tied to the vault, will automatically increase the amount of your deposited asset by compounding arbitrary yield-farm rewards back into more of that asset. This constant cycle of harvesting rewards, and compounding, happens usually multiple times per day.  In this How-To we walk you through steps to check precisely how often the compounding occurs.
 
 ## Walkthrough
 
 NOTE: No matter which chain you choose, you can use Beefy's [dashboard.beefy.finance](https://dashboard.beefy.finance) to launch your investigation.
 
-### A Binance Smart Chain example
+### Binance Smart Chain (BSC) example
 
-As an example, we will pick the CAKE-BNB LP vault on the Binance Smart Chain to demonstrate the process:
+As an example, let's choose the CAKE-BNB LP vault on the Binance Smart Chain to demonstrate:
 
 ![Screenshot taken 5 May 2021](../../.gitbook/assets/cake-bnb-lp-2-5-2021.png)
 
 #### 1. Go to [dashboard.beefy.finance](https://dashboard.beefy.finance)
 
+This dashboard chooses which statistics and vaults to show based on which blockchain network your connected wallet (e.g. MetaMask) is currently using. So if that's not now BSC, just switch networks to it and the dashboard page will refresh to show Beefy's BSC statistics and vaults.
+
 #### 2. Find the contract for the vault you are looking at, and click on it, opening a page in BscScan
 
 ![](../../.gitbook/assets/cake-bnb-lp-vault-address.png)
 
-#### 3. Now on BscScan, open the "Contract" tab and subsequently the "Read Contract" tab
+#### 3. On the BscScan page, open the "Contract" tab and subsequently the "Read Contract" tab
 
 ![](../../.gitbook/assets/cake-bnb-lp-read-contract-tab.png)
 
