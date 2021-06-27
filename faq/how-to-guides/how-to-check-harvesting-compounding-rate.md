@@ -1,9 +1,9 @@
 ---
 description: >-
-  In this guide you will find the required steps to check on your vault's harvesting and compounding rate.
+  In this guide you will find the required steps to check a vault's harvesting and compounding rate.
 ---
 
-# How to check your vault's reward harvesting and compounding rate
+# How to check a vault's reward-harvesting and compounding rate
 
 Beefy Finance's [vaults](../../faq/products/vaults.md), or more specifically the investment strategy tied to the vault, will automatically increase the amount of your deposited asset by compounding arbitrary yield-farm rewards back into more of that asset. This constant cycle of harvesting rewards, and compounding, happens usually multiple times per day.  In this How-To we walk you through steps to check precisely how often the compounding occurs.
 
@@ -45,5 +45,6 @@ Each of the chains supported by Beefy may be investigated via the same method sh
 
 ### Avalanche
 
-The basic method shown in the BSC example above still applies, except for the last, key step 5. This owes to Avalanche being served by a different block-expolorer software. In Avalanche's case, step 5 switches to using the Transactions tab to view the strategy events fired, as exemplified below
+The basic method shown in the BSC example above still applies, except for the last, key step 5. This owes to Avalanche using a different block-expolorer software. In Avalanche's case, step 5 switches to the Transactions tab to view the strategy events fired, as exemplified below
 
+![](../../.gitbook/assets/Avalanche-harvest-events.png)
