@@ -35,8 +35,8 @@ This dashboard chooses which statistics and vaults to show based on the blockcha
 
 #### 5. Click on the Events tab to veiw the strategy events that have fired
 
-![](../../.gitbook/assets/harvest events inspection.png)
+![](../../.gitbook/assets/harvest%20events%20inspection.png)
 
-All these transactions are from the vault harvesting rewards which in turn also trigger the yield compounding into the initial deposited asset. The CAKE-BNB LP vault of this example compounds roughly every hour.
+The "StratHarvest" events are where LP-farming rewards are culled and in turn compounded into more of the underlying LPs, the initial deposited asset, and then redeposited into the Beefy vault. As the timestamps reflect, this CAKE-BNB vault compounds roughly once per hour.
 
-Each of the chains supported by Beefy may be queried using this method. The only difference will be the block explorer opened. For example on Polygon, PolygonScan will be opened instead.
+Each of the chains supported by Beefy may be investigated using this method. The only difference will be the block explorer opened. For example on Polygon, PolygonScan will open.
