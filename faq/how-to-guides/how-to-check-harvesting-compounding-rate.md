@@ -13,15 +13,15 @@ NOTE: No matter which chain you choose, you can use Beefy's [dashboard.beefy.fin
 
 ### Binance Smart Chain (BSC) example
 
-As an example, let's choose the CAKE-BNB LP vault on the Binance Smart Chain to demonstrate:
+Let's choose the CAKE-BNB LP vault on the Binance Smart Chain to demonstrate:
 
 ![Screenshot taken 5 May 2021](../../.gitbook/assets/cake-bnb-lp-2-5-2021.png)
 
 #### 1. Go to [dashboard.beefy.finance](https://dashboard.beefy.finance)
 
-This dashboard chooses which statistics and vaults to show based on which blockchain network your connected wallet (e.g. MetaMask) is currently using. So if that's not now BSC, just switch networks to it and the dashboard page will refresh to show Beefy's BSC statistics and vaults.
+This dashboard chooses which statistics and vaults to show based on the blockchain network your wallet (e.g. MetaMask) is connected to. So if it's not now on BSC, simply switch networks to that and the dashboard page will refresh to display Beefy's statistics and vaults on BSC.
 
-#### 2. Find the contract for the vault you are looking at, and click on it, opening a page in BscScan
+#### 2. Find the contract for the vault you wish to inspect, and click on it, opening a page in the BscScan block explorer
 
 ![](../../.gitbook/assets/cake-bnb-lp-vault-address.png)
 
@@ -33,7 +33,7 @@ This dashboard chooses which statistics and vaults to show based on which blockc
 
 ![](../../.gitbook/assets/cake-bnb-lp-strategy-address.png)
 
-#### 5. Look at the strategy contract transactions
+#### 5. Click on the Events tab to veiw the strategy events that have fired
 
 ![](../../.gitbook/assets/cake-bnb-lp-rate.png)
 
