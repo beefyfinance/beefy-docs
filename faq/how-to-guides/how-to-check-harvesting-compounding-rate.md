@@ -1,60 +1,50 @@
 ---
 description: >-
-  In this guide you will find the required steps to check on your vault's harvesting and compounding rate.
+  In this guide you will find the required steps to check a vault's harvesting and compounding rate.
 ---
 
-# How to check your vault's reward harvesting and compounding rate
+# How to check a vault's reward-harvesting and compounding rate
 
-Beefy Finance's [vaults](../../faq/products/vaults.md), or more specifically the investment strategy tied to the vault, will automatically increase your deposited token amount by compounding arbitrary yield farm reward tokens back into your initially deposited asset. This constant cycle of harvesting rewards and compounding happens multiple times a day, and in this How-to we will walk you through the steps to check the exact rate of how often this process occurs.
+Beefy Finance's [vaults](../../faq/products/vaults.md), or more specifically the investment strategy tied to the vault, will automatically increase the amount of your deposited asset by compounding arbitrary yield-farm rewards back into more of that asset. This constant cycle of harvesting rewards, and compounding, happens usually multiple times per day.  In this How-To we walk you through steps to check precisely how often the compounding occurs.
 
 ## Walkthrough
 
-### Binance Smart Chain
+NOTE: No matter which chain you choose, you can use Beefy's [dashboard.beefy.finance](https://dashboard.beefy.finance) to launch your investigation.
 
-On BSC, one can easily use Beefy Finance's [Deployed Contract Registry](../../developers/deployed-contract-registry.md). As an example, we will pick the CAKE-BNB LP vault to demonstrate the process:
+### Binance Smart Chain (BSC) example
 
-![Screenshot taken on 5 May 2021](../../.gitbook/assets/cake-bnb-lp-2-5-2021.png)
+Let's choose the CAKE-BNB LP vault on the Binance Smart Chain to demonstrate:
+
+![Screenshot taken 5 May 2021](../../.gitbook/assets/cake-bnb-lp-2-5-2021.png)
 
 #### 1. Go to [dashboard.beefy.finance](https://dashboard.beefy.finance)
 
-#### 2. Find the contract for the vault you are looking at, and click on it.
+This dashboard chooses which statistics and vaults to show based on the blockchain network your wallet (e.g. MetaMask) is connected to. So if it's not now on BSC, simply switch networks to that and the dashboard page will refresh to display Beefy's statistics and vaults on BSC.
+
+#### 2. Find the contract for the vault you wish to inspect, and click on it, opening a page in the BscScan block explorer
 
 ![](../../.gitbook/assets/cake-bnb-lp-vault-address.png)
 
-#### 3. Now on BscScan, open the "Contract" tab and subsequently the "Read Contract" tab.
+#### 3. On the BscScan page, open the "Contract" tab and subsequently the "Read Contract" tab
 
 ![](../../.gitbook/assets/cake-bnb-lp-read-contract-tab.png)
 
-#### 4. Scroll down to find the strategy contract, and click on it.
+#### 4. Scroll down to find the strategy contract, and click on it
 
 ![](../../.gitbook/assets/cake-bnb-lp-strategy-address.png)
 
-#### 5. Look at the strategy contract transactions. 
+#### 5. Click on the Events tab to veiw the strategy events that have fired
 
-![](../../.gitbook/assets/cake-bnb-lp-rate.png)
+![](../../.gitbook/assets/harvest%20events%20inspection.png)
 
-All these transactions are from the vault harvesting rewards which in turn also trigger the yield compounding into the initial deposited asset. The CAKE-BNB LP vault of this example compounds roughly every hour.
+The "StratHarvest" events are where LP-farming rewards are culled and in turn compounded into more of the underlying LPs, the initial deposited asset, and then redeposited into the Beefy vault. As the timestamps reflect, this CAKE-BNB vault compounds roughly once per hour.
+
+### Other Chains (except Avalanche)
+
+Each of the chains supported by Beefy may be investigated via the same method shown above for BSC. The only difference will be the block explorer opened. For example on Polygon, PolygonScan will open.
 
 ### Avalanche
 
-On Avalanche, the method for checking how often your vault harvests and compounds is slightly different. In this example we will use the PNG-AVAX LP vault:
+The basic method shown in the BSC example above still applies, except for the last, key step 5. This owes to Avalanche using a different block-expolorer software. In Avalanche's case, step 5 switches to the Transactions tab to view the strategy events fired, as exemplified below
 
-![Screenshot taken on 5 May 2021](../../.gitbook/assets/png-avax-lp-2-5-2021.png)
-
-#### 1. You will need go to the Avalanche block explorer for the C chain: [https://cchain.explorer.avax.network/](https://cchain.explorer.avax.network/)
-
-#### 2. Find the contract for the vault you are looking at.
-
-A quick hack is to search for the [mooToken](https://docs.beefy.finance/beefyfinance/faq/products/vaults#what-are-mootokens) the vault gave you. For example for PNG-AVAX LP you will just search for mooPangolinPNG-AVAX.
-
-![](../../.gitbook/assets/png-avax-lp-search.png)
-
-#### 3. Now you have the vault contract, go to the "Read Contract" tab and scroll down to find the vault "Strategy", and click on it.
-
-![](../../.gitbook/assets/cake-bnb-lp-read-contract-strategy.png)
-
-#### 4. Look at the strategy contract transactions.
-
-![](../../.gitbook/assets/png-avax-lp-rate.png)
-
-All these transactions are from the vault harvesting rewards which in turn also trigger the yield compounding into the initial deposited asset. The PNG-AVAX LP vault of this example compounds roughly every 4 hours.
+![](../../.gitbook/assets/Avalanche-harvest-events.png)
