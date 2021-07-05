@@ -17,3 +17,5 @@ So it's time for the world to get Beefy.
 {% page-ref page="why-beefy-beats-your-bank.md" %}
 
 {% page-ref page="introducing-beefys-unique-revenue-share-model.md" %}
+
+{% page-ref page="beefys-coveted-advantages-revealed.md" %}
