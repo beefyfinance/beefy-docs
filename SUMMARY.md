@@ -11,6 +11,7 @@
   * [Beefy Finance Fees Breakdown](beefy-bulletins/beefy-finance-fees-breakdown.md)
   * [Why Beefy Beats Your Bank](beefy-bulletins/why-beefy-beats-your-bank.md)
   * [Introducing Beefy's Unique Revenue Share Model](beefy-bulletins/introducing-beefys-unique-revenue-share-model.md)
+  * [Beefy's Coveted Advantages Revealed](beefy-bulletins/beefys-coveted-advantages-revealed.md)
 
 ## FAQ <a id="faq"></a>
 
