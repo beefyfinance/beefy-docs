@@ -23,5 +23,3 @@
   * [Team Timelocks](https://github.com/beefyfinance/beefy-protocol/tree/master/timelocks)
   * [Misc.](https://github.com/beefyfinance/beefy-protocol/tree/master/contracts)
 
-
-

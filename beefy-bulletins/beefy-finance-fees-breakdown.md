@@ -1,13 +1,14 @@
 ---
 description: >-
-  Anyone familiar with the fee structures typical of traditional finance will tell you fees matter. 
+  Anyone familiar with the fee structures typical of traditional finance will
+  tell you fees matter.
 ---
 
 # Beefy Finance Fees Breakdown
 
 ![](../.gitbook/assets/bulletin-beefy-finance-fees-breakdown.png)
 
-**How _much_ do fees matter?** 
+**How** _**much**_ **do fees matter?**
 
 The answer can be hard to wrap your head around.
 
@@ -19,11 +20,11 @@ The answer can be hard to wrap your head around.
 
 Unlike some platforms flashing their APYs for your attention, there are no catches on Beefy.Finance. For example, they'll promote an APY, but won't mention there's a penalty fee if you withdraw early.
 
-Or the APY is given as a spectacular headline number, but the small print is that you have to *manually* compound every single day to get that number. 
+Or the APY is given as a spectacular headline number, but the small print is that you have to _manually_ compound every single day to get that number.
 
-**On Beefy we're proud to be doing things a little more transparently.** 
+**On Beefy we're proud to be doing things a little more transparently.**
 
-*With our vaults, performance fees are included in the APY.*
+_With our vaults, performance fees are included in the APY._
 
 **So what you see is exactly what you get.**
 
@@ -40,12 +41,13 @@ We assign a deposit or withdrawal fee of 0.1% to each vault to protect bad actor
 
 Apart from the fees fully listed above, anyone using Beefy should also remember the network transaction fees when adding or removing funds. These small fees go to the operators keeping the blockchain running, not Beefy.
 
-**Bottom line: fees matter.** 
+**Bottom line: fees matter.**
 
-With Beefy's Venus vault, you can invest at 14.46% APY with fees already factored in. 
+With Beefy's Venus vault, you can invest at 14.46% APY with fees already factored in.
 
-$1M invested for 30 years at 14.56 % APY yields… 
+$1M invested for 30 years at 14.56 % APY yields…
 
-$57,492,639 million. 
+$57,492,639 million.
 
 **With Beefy, what you see is what you get.**
+

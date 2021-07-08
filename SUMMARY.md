@@ -13,7 +13,7 @@
   * [Introducing Beefy's Unique Revenue Share Model](beefy-bulletins/introducing-beefys-unique-revenue-share-model.md)
   * [Beefy's Coveted Advantages Revealed](beefy-bulletins/beefys-coveted-advantages-revealed.md)
 
-## FAQ <a id="faq"></a>
+## FAQ
 
 * [General](faq/general.md)
 * [Products](faq/products/README.md)
@@ -32,7 +32,7 @@
   * [How to Add and Remove Liquidity](faq/how-to-guides/how-to-add-remove-liquidity.md)
   * [How to use Beefy Zap](faq/how-to-guides/how-to-beefy-zap.md)
   * [How to add and switch networks on Beefy Finance](faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md)
-  * [How to bridge BIFI cross-chain](faq/how-to-guides/how-to-bridge-BIFI-cross-chain.md)
+  * [How to bridge BIFI cross-chain](faq/how-to-guides/how-to-bridge-bifi-cross-chain.md)
   * [How to check the harvesting and compounding rate of a vault](faq/how-to-guides/how-to-check-harvesting-compounding-rate.md)
 
 ## For Smart Farmers <a id="developers"></a>

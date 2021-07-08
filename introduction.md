@@ -4,7 +4,7 @@ description: 'a Decentralized, Multi-Chain Yield Optimizer'
 
 # Introduction to Beefy Finance
 
-*Don't like long texts? Skip to [Beefy Finance Infographics](infographics.md).*
+_Don't like long texts? Skip to_ [_Beefy Finance Infographics_](infographics.md)_._
 
 ## What is Beefy Finance?
 

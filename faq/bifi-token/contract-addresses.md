@@ -1,6 +1,8 @@
-## Contract Addresses 
+# Contract Addresses
 
-The BIFI token is deployed on all chains where vaults are live. To switch to another chain, use [this guide](../../faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md) and to bridge BIFI between chains use [this guide](../../faq/how-to-guides/how-to-bridge-BIFI-cross-chain.md). Contract addresses below:
+## Contract Addresses
+
+The BIFI token is deployed on all chains where vaults are live. To switch to another chain, use [this guide](../how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md) and to bridge BIFI between chains use [this guide](../how-to-guides/how-to-bridge-bifi-cross-chain.md). Contract addresses below:
 
 * BSC: [0xca3f508b8e4dd382ee878a314789373d80a5190a](https://bscscan.com/token/0xca3f508b8e4dd382ee878a314789373d80a5190a)
 * HECO: [0x765277eebeca2e31912c9946eae1021199b39c61](https://hecoinfo.com/token/0x765277eebeca2e31912c9946eae1021199b39c61)
@@ -10,4 +12,5 @@ The BIFI token is deployed on all chains where vaults are live. To switch to ano
 
 ## Token Holders
 
-The majority of BIFI tokens are staked in smart contracts, [BscScan](https://bscscan.com/) has a detailed list of the top staking addresses: [Token Holders](https://bscscan.com/token/tokenholderchart/0xca3f508b8e4dd382ee878a314789373d80a5190a). 
+The majority of BIFI tokens are staked in smart contracts, [BscScan](https://bscscan.com/) has a detailed list of the top staking addresses: [Token Holders](https://bscscan.com/token/tokenholderchart/0xca3f508b8e4dd382ee878a314789373d80a5190a).
+
