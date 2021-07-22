@@ -21,6 +21,7 @@
   * [Launchpool](faq/products/launchpool.md)
   * [Strategies](faq/products/strategies.md)
   * [Barn of Trust](faq/products/barn-of-trust.md)
+* [Beefy Safety Score](faq/beefy-safety-score.md)
 * [Team & Goals](faq/team-and-goals.md)
 * [mooVaults APY](faq/moovaults-apy.md)
 * [BIFI Token](faq/bifi-token/README.md)
