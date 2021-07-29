@@ -34,7 +34,7 @@ This dashboard chooses which statistics and vaults to show based on the blockcha
 
 ![](../../.gitbook/assets/cake-bnb-lp-strategy-address.png)
 
-#### 5. Click on the Events tab to veiw the strategy events that have fired
+#### 5. Click on the Events tab to view the strategy events that have fired
 
 ![](../../.gitbook/assets/harvest%20events%20inspection.png)
 
