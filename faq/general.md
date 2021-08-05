@@ -34,7 +34,7 @@ Large APYs in the percentage of thousands are possible with investments that pro
 
 Trading Daily means how much your liquidity tokens will increase in value. Liquidity pools share trading fees amongst all liquidity providers, as introduced by the [Uniswap liqudity model](https://uniswap.org/docs/v2/advanced-topics/fees/). Trading Daily is affected by trading volume and the percentage of swap fees allocated to liquidity providers.
 
-Vault Daily means how much your token will increase in number. Due to the vault constantly farming rewards, and reinvesting that, your deposited token amount will increase. Vaily Daily is affected by the yield farm rewards (i.e. additional incentives besides trading fees), such as CAKE on Pancakeswap. 
+Vault Daily means how much your token will increase in number. Due to the vault constantly farming rewards, and reinvesting that, your deposited token amount will increase. Vaily Daily is affected by the yield farm rewards \(i.e. additional incentives besides trading fees\), such as CAKE on Pancakeswap.
 
 ## How can I find out how much earnings I have accumulated?
 
