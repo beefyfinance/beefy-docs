@@ -6,7 +6,7 @@ description: 'Last updated: 6 August 2021 - English documentation is leading.'
 
 ![](.gitbook/assets/docs-landing.png)
 
-## What is Beefy Finance?
+## Beefy金融是什么？
 
 [Beefy Finance](https://beefy.finance/) is a Decentralized, Multi-Chain Yield Optimizer platform that allows its users to earn compound interest on their crypto holdings.
 
