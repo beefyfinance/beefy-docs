@@ -17,11 +17,11 @@ BIFI can be staked not only on Binance Smart Chain \(BSC\), but on every chain p
 
 ### 1. Visit [https://multichain.xyz/swap](https://multichain.xyz/swap)
 
-![](../../.gitbook/assets_ru/bridge-multichain-homepage.png)
+![](../../.gitbook/assets/bridge-multichain-homepage.png)
 
 ### 2. Connect your wallet
 
-![](../../.gitbook/assets_ru/bridge-connect-metamask.png)
+![](../../.gitbook/assets/bridge-connect-metamask.png)
 
 Switch your Metamask to Binance Smart Chain as well. It might prompt you are on the "Wrong Network" afterwards, but don't pay attention to that.
 
@@ -29,11 +29,11 @@ Switch your Metamask to Binance Smart Chain as well. It might prompt you are on 
 
 Click the Wrapped-ETH icon in the "From" field,
 
-![](../../.gitbook/assets_ru/bridge-click-weth.png)
+![](../../.gitbook/assets/bridge-click-weth.png)
 
 and select BIFI:
 
-![](../../.gitbook/assets_ru/bridge-select-bifi.png)
+![](../../.gitbook/assets/bridge-select-bifi.png)
 
 The "Wrong Network" prompt is now gone too!
 
@@ -41,13 +41,13 @@ The "Wrong Network" prompt is now gone too!
 
 At this step, you can select on which network you wish to receive BIFI. We select Polygon \(Matic Mainnet\) in this guide:
 
-![](../../.gitbook/assets_ru/bridge-select-bifi-receive.png)
+![](../../.gitbook/assets/bridge-select-bifi-receive.png)
 
 ### 5. Specify the amount to send
 
 Either type in the amount, or click your balance.
 
-![](../../.gitbook/assets_ru/bridge-specify-amount.png)
+![](../../.gitbook/assets/bridge-specify-amount.png)
 
 Make sure to "View Limits" too! Pro tip: hit the switch toggle and check the limits for withdrawing now as well.
 
@@ -55,11 +55,11 @@ Make sure to "View Limits" too! Pro tip: hit the switch toggle and check the lim
 
 If you consent with all possible depositing and withdrawing fees, click the transfer button. Note: you may change the prompted gas price to 5 GWei \(BSC's default at the time of writing\).
 
-![](../../.gitbook/assets_ru/bridge-transfer.png)
+![](../../.gitbook/assets/bridge-transfer.png)
 
 That's it! Your BEP20 BIFI will now be sent to the Polygon network:
 
-![](../../.gitbook/assets_ru/bridge-deposit-transfer-transaction.png)
+![](../../.gitbook/assets/bridge-deposit-transfer-transaction.png)
 
 ## Polygon -&gt; BSC
 
@@ -71,5 +71,5 @@ To send the \(now ERC20\) BIFI back to BSC, we simply need to reverse the proces
 
 ### 3. Transfer!
 
-![](../../.gitbook/assets_ru/bridge-back.png)
+![](../../.gitbook/assets/bridge-back.png)
 
