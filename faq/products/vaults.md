@@ -105,5 +105,5 @@ The borrowed tokens are then redeposited into the platform, and once again used 
 
 Because of accruing debt/supply interest, one may notice that the deposited token amount may decline ever so slightly in between harvests. After the harvest, you will see your deposited token amount go up as the yields are compounded back into it. The change in deposited token amount over time of typical Aave / Venus style vault looks as follows:
 
-![After a harvest event, the yields are added to the deposited token amount](../../.gitbook/assets/venus-style-vault.png)
+![After a harvest event, the yields are added to the deposited token amount](../../.gitbook/assets_ru/venus-style-vault.png)
 
