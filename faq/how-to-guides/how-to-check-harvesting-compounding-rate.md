@@ -16,7 +16,7 @@ NOTE: No matter which chain you choose, you can use Beefy's [dashboard.beefy.fin
 
 Let's choose the CAKE-BNB LP vault on the Binance Smart Chain to demonstrate:
 
-![Screenshot taken 5 May 2021](../../.gitbook/assets_ru/cake-bnb-lp-2-5-2021.png)
+![Screenshot taken 5 May 2021](../../.gitbook/assets/cake-bnb-lp-2-5-2021.png)
 
 #### 1. Go to [dashboard.beefy.finance](https://dashboard.beefy.finance)
 
@@ -24,19 +24,19 @@ This dashboard chooses which statistics and vaults to show based on the blockcha
 
 #### 2. Find the contract for the vault you wish to inspect, and click on it, opening a page in the BscScan block explorer
 
-![](../../.gitbook/assets_ru/cake-bnb-lp-vault-address.png)
+![](../../.gitbook/assets/cake-bnb-lp-vault-address.png)
 
 #### 3. On the BscScan page, open the "Contract" tab and subsequently the "Read Contract" tab
 
-![](../../.gitbook/assets_ru/cake-bnb-lp-read-contract-tab.png)
+![](../../.gitbook/assets/cake-bnb-lp-read-contract-tab.png)
 
 #### 4. Scroll down to find the strategy contract, and click on it
 
-![](../../.gitbook/assets_ru/cake-bnb-lp-strategy-address.png)
+![](../../.gitbook/assets/cake-bnb-lp-strategy-address.png)
 
 #### 5. Click on the Events tab to veiw the strategy events that have fired
 
-![](../../.gitbook/assets_ru/harvest%20events%20inspection.png)
+![](../../.gitbook/assets/harvest%20events%20inspection.png)
 
 The "StratHarvest" events are where LP-farming rewards are culled and in turn compounded into more of the underlying LPs, the initial deposited asset, and then redeposited into the Beefy vault. As the timestamps reflect, this CAKE-BNB vault compounds roughly once per hour.
 
@@ -48,5 +48,5 @@ Each of the chains supported by Beefy may be investigated via the same method sh
 
 The basic method shown in the BSC example above still applies, except for the last, key step 5. This owes to Avalanche using a different block-expolorer software. In Avalanche's case, step 5 switches to the Transactions tab to view the strategy events fired, as exemplified below
 
-![](../../.gitbook/assets_ru/Avalanche-harvest-events.png)
+![](../../.gitbook/assets/Avalanche-harvest-events.png)
 
