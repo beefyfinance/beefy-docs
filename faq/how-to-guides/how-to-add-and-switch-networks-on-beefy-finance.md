@@ -16,23 +16,23 @@ As Beefy Finance is a Decentralized, Multi-Chain Yield Optimizer, users will nee
 
 ### 1. Go to [app.beefy.finance](https://github.com/beefyfinance/beefy-docs/tree/aab629bafbc230570677e0471b162bbd46e2e0ba/faq/how-to-guides/app.beefy.finance) and connect your BSC configured Metamask wallet.
 
-![](../../.gitbook/assets/connect-wallet.png)
+![](../../.gitbook/assets_ru/connect-wallet.png)
 
 ### 2. Click on the BSC icon under 'Select Network'.
 
-![](../../.gitbook/assets/select-network.png)
+![](../../.gitbook/assets_ru/select-network.png)
 
 ### 3. Select HECO \(or any other network you want to add\).
 
-![](../../.gitbook/assets/switch-to-desired-network.png)
+![](../../.gitbook/assets_ru/switch-to-desired-network.png)
 
 ### 4. Approve new network creation to your Metamask
 
-![](../../.gitbook/assets/allow-add-metamask-network.png)
+![](../../.gitbook/assets_ru/allow-add-metamask-network.png)
 
 ### 5. Allow Beefy to switch to the HECO network
 
-![](../../.gitbook/assets/allow-switch-metamask-network.png)
+![](../../.gitbook/assets_ru/allow-switch-metamask-network.png)
 
 And that's it! HECO is now configured and added to your Metamask wallet. You can repeat the process for any other network that you want to add or want to switch to.
 
