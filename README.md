@@ -1,10 +1,10 @@
 ---
-description: 'Last updated: 6 August 2021 - English documentation is leading.'
+description: 'Last updated: 9 August 2021 - English documentation is leading.'
 ---
 
 # Overview
 
-![](.gitbook/assets/docs-landing.png)
+![](.gitbook/assets/docs-landing_cn.png)
 
 ## What is Beefy Finance?
 
