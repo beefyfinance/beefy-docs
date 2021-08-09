@@ -22,4 +22,3 @@ A typical investment does not just pay out on a yearly basis, but in smaller ter
 * The simple APY calculation in excel can also be stated as =EFFECT\(r, n\)
 
 ![Year 1 end would be 261 tokens or 161% APY versus 100% APR w/o compounding](../.gitbook/assets/capture%20%283%29.png)
-
