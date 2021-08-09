@@ -2,7 +2,7 @@
 description: 'Last updated: 8 August 2021 - English documentation is leading.'
 ---
 
-# Обзор
+# Overview
 
 ![](.gitbook/assets/docs-landing_ru.png)
 

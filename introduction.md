@@ -1,8 +1,8 @@
 ---
-description: 'Децентрализованный Кросс-чейн Оптимизатор Доходности'
+description: Децентрализованный Кросс-чейн Оптимизатор Доходности
 ---
 
-# Введение в Beefy Finance
+# Introduction to Beefy Finance
 
 _Не хотите много читать? Перейдите сразу к_ [_Инфографике Beefy Finance_](infographics.md)_._
 
