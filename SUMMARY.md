@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Overview](README.md)
-* [Introduction to Beefy Finance](introduction.md)
+* [Обзор](README.md)
+* [Введение в Beefy Finance](introduction.md)
 * [Beefy Finance Infographics](infographics.md)
 * [Beefy Bulletins](beefy-bulletins/README.md)
   * [What is Beefy Finance?](beefy-bulletins/what-is-beefy-finance.md)
