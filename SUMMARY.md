@@ -2,7 +2,7 @@
 
 * [Обзор](README.md)
 * [Введение в Beefy Finance](introduction.md)
-* [Beefy Finance Инфографики](infographics.md)
+* [Beefy Finance в инфографиках](infographics.md)
 * [Beefy Bulletins](beefy-bulletins/README.md)
   * [What is Beefy Finance?](beefy-bulletins/what-is-beefy-finance.md)
   * [The Big Beefy Opportunity](beefy-bulletins/the-big-beefy-opportunity.md)
