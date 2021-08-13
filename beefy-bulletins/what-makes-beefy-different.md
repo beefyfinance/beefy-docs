@@ -1,26 +1,26 @@
-# What Makes Beefy Different?
+# Что же делает Beefy уникальной?
 
 ![](../.gitbook/assets/bulletin-what-makes-beefy-different.png)
 
-Investor and crypto evangelist Naval Ravikant was once asked, "What would you be working on if you were 25 again?"
+Однажды, у крипто-евангелиста и инвестора Навалья Равиканта спросили: "Над чем бы ты работал, если бы тебе снова было 25 лет?"
 
-**Naval's reply:**
+**Наваль ответил:**
 
-_"An unstoppable, uncensorable social media platform."_
+_"Над не цензурируемой, неконтролируемой и социальной медиа-платформой."_
 
-In other words, he'd be working on a technological platform that puts science and code ahead of cronyism and censorship. This is the foundation of Beefy Finance.
+Иными словами, он бы работал над технологичной платформой, которая основана на науке и программном коде, неподконтрольным цензуре и кумовству. Это и есть основы Beefy Finance.
 
-Some other values we align ourselves with:
+Наша платформа соответствует также следующим ценностям:
 
-_Trustless, open-source, decentralized, scalable, transparent, community-driven, cross-chain, autonomous, sustainable, innovation, healthy treasury, contribution rewards, developer bounties, safety._
+_Не требующая доверия, с открытым исходным кодом, децентрализованная, масштабируемая, прозрачная, развиваемая сообществом, кросс-чейн, автономная, устойчивая, открытая к инновациям, не испытывающая нехватку средств в казначействе. Мы всегда вознаграждаем тех, кто вносит свой вклад в развитие платформы, в частности в рамках программы премий за нахождение ошибок и обеспечиваем максимальные стандарты безопасности._
 
-In practical terms, our sustainable tokenomics mean the day-to-day is unrelentingly focused on the product. We provide the greatest variety of vaults and the highest number of chains. Users can request vaults directly from our developers on Discord and the time it takes to answer these requests is very low.
+Наша устойчивая токеномика практически постоянно работает на предлагаемые нами продукты. Мы предлагаем вам огромное количество хранилищ на различных сетях. Пользователи могут обращаться к разработчикам в Discord с просьбой добавить новое хранилище. Как правило разработчики отвечают на такие запросы достаточно быстро.
 
-At the time of writing, we have more than a dozen smart contract developers \(and growing\) carefully testing and reviewing the vaults, investment strategies and smart contracts before public release.
+На момент написания этого бюллетеня в нашей команде уже больше десяти разработчиков смарт-контрактов\(и их количество постоянно растет\). Они тщательно тестируют и проверяют хранилища, инвестиционные стратегии и смарт-контракты перед их официальным запуском в публичный доступ.
 
-**Safety is everything.**
+**Безопасность прежде всего**
 
-And we offer this while saving you time and energy through automation.
+Благодаря автоматизации мы сохраняем ваши время и силы, обеспечивая при этом безопасность.
 
-_**Be first. Be safe. Be Beefy.**_
+_**Будь первым. Будь в безопасности. Будь с Beefy.**_
 

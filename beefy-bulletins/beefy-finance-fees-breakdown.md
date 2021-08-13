@@ -1,53 +1,52 @@
 ---
 description: >-
-  Anyone familiar with the fee structures typical of traditional finance will
-  tell you fees matter.
+  Любой, кто хорошо знаком с системой взимания комиссий в традиционных финансах скажет вам, что комиссии играют очень важную роль.
 ---
 
-# Beefy Finance Fees Breakdown
+# Анализ комиссий Beefy Finance
 
 ![](../.gitbook/assets/bulletin-beefy-finance-fees-breakdown.png)
 
-**How** _**much**_ **do fees matter?**
+**Каково** _**влияние**_ **комиссий?**
 
-The answer can be hard to wrap your head around.
+Ответ на этот вопрос может обескуражить вас.
 
-* $1M invested for 30 years at 8% with a 1% management fee yields $7.62 million.
-* $1M invested for 30 years at 8% with a 2% management fee yields $5.74 million.
-* $1M invested for 30 years at 8% with a 3% management fee yields $4.32 million.
+* $1M инвестированные на 30 лет под 8% годовых при комиссии 1% за управление средствами дадут прибыль в размере $7.62М.
+* $1M инвестированные на 30 лет под 8% годовых при комиссии 2% за управление средствами дадут прибыль в размере $5.74М.
+* $1M инвестированные на 30 лет под 8% годовых при комиссии 3% за управление средствами дадут прибыль в размере $4.32М.
 
-**Now, let's throw out modesty for a minute.**
+**А сейчас мы на минутку сбросим с себя покров скромности, чтобы рассказать вам больше о себе.**
 
-Unlike some platforms flashing their APYs for your attention, there are no catches on Beefy.Finance. For example, they'll promote an APY, but won't mention there's a penalty fee if you withdraw early.
+В отличии от некоторых других платформ, которые пытаются привлечь ваше внимание высоким показателем годовой процентной доходности (APY), на Beefy.Finance вы таких уловок не увидите. Например, они могут показывать определенную годовую процентную доходность без упоминания о том, что в случае раннего вывода средств вы будете оштрафованы.
 
-Or the APY is given as a spectacular headline number, but the small print is that you have to _manually_ compound every single day to get that number.
+Либо они отображают крупным шрифтом завышенный показатель APY, а мелким шрифтом - вы должны _вручную_ каждый день реинвестировать прибыль в депозит чтобы добиться указанного APY.
 
-**On Beefy we're proud to be doing things a little more transparently.**
+**Мы гордимся в Beefy тем, что честно показываем эти данные.**
 
-_With our vaults, performance fees are included in the APY._
+_Комиссии за управления уже учтены в показателе APY в наших хранилищах._
 
-**So what you see is exactly what you get.**
+**Таким образом, отображаемая информация соответствует действительности.**
 
-Most vaults available on Beefy.Finance hold 4.5% of harvest rewards. This performance fee is largely distributed back to $BIFI stakers and is the main source of revenue for the platform.
+Большинство хранилищ в Beefy.Finance взимают комиссию в размере 4.5% с наград за сбор прибыли. Эта комиссия почти вся распределяется между держателями токена $BIFI, которые его стейкают и является основным источником дохода платформы.
 
-**Here's what that looks like:**
+**Распределение комиссии:**
 
-* 3.0% is distributed back to $BIFI stakers
-* 0.5% is allocated to the Beefy Finance treasury
-* 0.5% is awarded to the vault strategist
-* 0.5% is awarded to the one calling the harvest function
+* 3.0% распределяется между теми, кто стейкает $BIFI
+* 0.5% идет в казну Beefy Finance
+* 0.5% идет разработчику стратегии хранилища
+* 0.5% идет сборщику прибыли (сбор прибыли автоматически совершает бот Beefy)
 
-We assign a deposit or withdrawal fee of 0.1% to each vault to protect bad actors from abusing the vaults with too much flipping. We share this amongst all the other stakers in the vault.
+Каждое хранилище взимает комиссию за ввод или вывод средств в размере 0.1% чтобы защитить хранилища от злоупотреблений со стороны злоумышленников. Эти комиссии распределяются между теми, кто уже внес средства в хранилище.
 
-Apart from the fees fully listed above, anyone using Beefy should also remember the network transaction fees when adding or removing funds. These small fees go to the operators keeping the blockchain running, not Beefy.
+Кроме перечисленных выше комиссий, вы должны помнить о комиссии, взимаемой сетью за транзакции при внесении средств либо их выводе. Эта комиссия идет валидаторам сети, которые поддерживают работу блокчейна, а не Beefy.
 
-**Bottom line: fees matter.**
+**Теперь ясно, что комиссии играют особую роль.**
 
-With Beefy's Venus vault, you can invest at 14.46% APY with fees already factored in.
+Хранилище Venus в Beefy позволяет вам инвестировать при показателе APY 14.46% с учетом комиссий.
 
-$1M invested for 30 years at 14.56 % APY yields…
+$1M инвестированные на 30 лет под годовую процентную доходность (APY) 14.56 %  принесут вам...
 
-$57,492,639 million.
+$57,492,639 миллионов.
 
-**With Beefy, what you see is what you get.**
+**На Beefy вся отображаемая информация всегда соответствует действительности.**
 

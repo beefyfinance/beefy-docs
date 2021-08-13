@@ -1,31 +1,31 @@
 ---
-description: Beefy has been called many things…
+description: Beefy называют по-разному…
 ---
 
-# What is Beefy Finance?
+# Что такое Beefy Finance?
 
 ![](../.gitbook/assets/bulletin-what-is-beefy-finance.png)
 
-* "The compound interest opportunity of a lifetime"
-* "The safest and best way to get started in DeFi"
-* "Passive income on steroids"
-* "Just a really good, super decentralized investment"
+* "Пожизненная возможность получать сложный процент"
+* "Самый безопасный и лучший способ начать инвестировать в DeFi"
+* "Возможность пассивного дохода на стероидах"
+* "Просто отличная и супердецентрализованная инвестиционная платформа"
 
-_**But in practical terms, Beefy is a yield farming optimizer that removes the daily actions and regular fees associated with manual optimization.**_
+_**Однако, фактически Beefy — это платформа по оптимизации доходного фермерства, которая избавляет вас от необходимости ежедневно совершать действия и платить комиссии при ручной оптимизации.**_
 
-What you're left with is very safe funds and a _very_ good return of investment \(ROI\).
+Взамен, ваши средства надежно хранятся, а вы получаете весьма _высокую_ рентабельность инвестиции \(ROI\).
 
-For those new to decentralized finance \(DeFi\), yield farming is simply a way to make some interest — as opposed to just "gains" — with your crypto holdings.
+Для тех, кто только недавно узнал о децентрализованных финансах \(DeFi\), доходное фермерство — это просто способ получить проценты по криптоактивам, в противовес обычному их хранению, где вся ваша прибыль — это разница в стоимости криптовалюты в момент покупки и на момент продажи.
 
-Money is one thing, but time is the most important asset of all.
+Деньги важны, но время — бесценно.
 
-_**Beefy makes it simple to benefit from the upside of complex farming strategies.**_
+_**Beefy упрощает получение прибыли за счет преимуществ сложных стратегий по доходному фермерству.**_
 
-There are lots of farms to choose from, so Beefy automates and optimizes different investment strategies in the background while you get on with your day.
+Существует огромное количество различных платформ по доходному фермерству. Beefy автоматизирует и оптимизирует различные инвестиционные стратегии, в то время как вы занимаетесь своими делами.
 
-The project consists of an anonymous team constantly exploring new methods of optimizing automation to secure the largest yields possible.
+Проект состоит из группы анонимных разработчиков, которые постоянно исследуют новые методы оптимизации автоматизации, чтобы обеспечить максимально возможный доход.
 
-As a decentralized project with a crypto-mindset, there is a robust governance system in place to put the decision-making power in the hands of those invested in the project.
+Будучи децентрализованным проектом, пропитанным насквозь крипто-ориентированным мировоззрением, в Beefy Finance реализована полноценная система управления, которая дает право участия в процессе принятия решений инвесторам через механизм управления.
 
-**This takes place through governance mechanisms related to Beefy's own fixed-supply, dividend-producing token, $BIFI.**
+**Участие в процессе принятия решений осуществляется через собственный, ограниченно-эмитируемый, дающий право на получение прибыли платформы, токен $BIFI.**
 

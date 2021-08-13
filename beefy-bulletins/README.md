@@ -1,8 +1,8 @@
-# Beefy Bulletins
+# Бюллетени Beefy
 
-Not everyone recognizes the "perfect" trade when they see it...
+Порой мы не замечаем прекрасного, даже когда оно перед нами постоянно...
 
-So it's time for the world to get Beefy.
+А это значит, что настало время показать миру Beefy.
 
 {% page-ref page="what-is-beefy-finance.md" %}
 
