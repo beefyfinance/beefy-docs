@@ -1,36 +1,36 @@
-# Why Beefy Beats Your Bank
+# Вот почему Beefy лучше вашего банка
 
 ![](../.gitbook/assets/bulletin-why-beefy-beats-your-bank.png)
 
-A question the wealthiest people in the world obsess over:
+Вопрос, который мучает самых богатых людей в мире:
 
-**"What is the biggest opportunity for investors right now?"**
+**"Во что лучше всего инвестировать прямо сейчас?"**
 
-It would be imprudent to mention more than superficial details, but it's common knowledge that there are financial benefits, investment vehicles and tax advantages accessible to high net-worth individuals that are closed to everyone else.
+Было бы опрометчиво не упомянуть об элементарных, но важных деталях. Так, каждому известно, что существуют определенные финансовые привилегии, доступные только узкому кругу лиц, активы которых обладают высокой чистой стоимостью. В число этих привилегий входят налоговые льготы, эксклюзивные инвестиционные инструменты и материальная выгода (экономия на процентах при получении заемных средств)
 
-_What we can talk about is how traditional banks work, and demonstrate clearly why Beefy.Finance is a better option._
+_Все что мы можем - это рассказать вам о том, как работают традиционные банки и продемонстрировать, что Beefy.Finance определенно лучший выбор._
 
-When you give money to a bank, it lends that money out to other people at a higher rate than you get for "saving".
+Когда вы отдаете свои сбережения банку на хранение, то банк отдает ваши средства в долг по более высокой процентной ставке, чем ваша.
 
-**The bank pockets the difference as revenue.**
+**Разница в процентной ставке и составляет прибыль банка.**
 
-And that money is used to pay for things like staff, rent, call centers, security guards and a myriad of other operating expenses that may or may not be justified.
+Затем эти средства растрачиваются на выплату зарплат сотрудникам банка и сотрудникам колл-центра, на аренду, на оплату охраны, и на массу других операционных расходов, которые могут быть как обоснованными, так и не совсем.
 
-**Meanwhile Beefy is a decentralized autonomous organisation, collectively owned and managed by its users.**
+**В то время как Beefy - это децентрализованная, автономная организация (ДАО), коллективно управляемая и находящаяся в собственности своих пользователей.**
 
-Decisions are not a top-down event. So instead of the earnings going to a small clique of champagne-quaffing executives, they can only be redistributed with the approval of the organization. DAOs like Beefy are governed by proposals and voting. Code automates the everyday actions banks pay clerks to execute, while cryptography protects your funds.
+Решения не спускаются сверху-вниз, а прибыль не уходит в карманы узкого круга топ-менеджеров, а напротив, распределяется по решению организации. Такие ДАО, как Beefy управляются через механизм выдвижения инициатив и голосований по ним. Программный код автоматизирует те регулярные действия, за которые банк платит работникам зарплату, в то время как криптография обеспечивает безопасность ваших средств.
 
-**So, there are two things happening here:**
+**Таким образом, здесь можно выделит два ключевых момента:**
 
-First, a DAO is significantly more efficient than a bank. Second, there is a huge demand for better APY than the 0.1% currently on offer by most institutions, which is significantly less than the current inflation rate of 2%.
+Во-первых, ДАО гораздо более эффективнее, чем обычные банки. Во-вторых, есть огромный спрос на ставку выше, чем текущие 0.1% APY, предлагаемые большинством банков. Эта ставка ниже, чем уровень инфляции, который составляет 2%.
 
-When you learn that there is a new and safe way to store your money with an APY that is **at least 70x** as good as your bank...
+Если вы узнали, что есть новый - более безопасный способ хранить ваши средства с уровнем доходности **как минимум в 70 раз выше**, чем предлагает ваш банк...
 
-And you appreciate that this APY is available because DAOs are fundamentally better organized to pass on efficiency savings to their users...
+И вы при этом понимаете, что такой высокий показатель APY возможен только по той причине, что ДАО в корне лучше организованы, что позволяет им существенно обходить по эффективности банки в хранении и управлении средствами вкладчиков...
 
-You might reasonably ask how soon you can get started.
+То у вас невольно возникнет вопрос: когда я могу начать пользоваться Beefy?
 
-And the answer to that is today.
+И ответ прост - сегодня.
 
-**Because, unlike banks, there's no approval process.**
+**Ведь в отличии от банков, для взаимодействия с Beefy вам не нужно чье-либо разрешение.**
 

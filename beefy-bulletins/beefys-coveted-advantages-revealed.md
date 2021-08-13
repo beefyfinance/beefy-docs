@@ -1,36 +1,36 @@
 ---
-description: How we attract coding and creative talent
+description: Как мы привлекаем к себе талантливых разработчиков и других деятелей
 ---
-
-# Beefy's Coveted Advantages Revealed
+ 
+# Раскрываем преимущества Beefy 
 
 ![](../.gitbook/assets/bulletin-beefys-coveted-advantages-revealed.png)
 
-_"An organization's ability to learn, and translate that learning into action rapidly, is the ultimate competitive business advantage."_
+_"Способность какой-либо организации учится, и применять полученные знания в кратчайшие сроки — это решающее преимущество предприятия в условиях рыночной конкуренции."_
 
-— Jack Welch, former chairman and CEO, General Electric
+— Jack Welch, бывший председатель и генеральный директор General Electric
 
-**In any activity, there are some advantages that have to do with resources and some that have to do with the absence of them.**
+**В любой деятельности есть достоинства, связанные с наличием ресурсов, а также связанные с их отсутствием.**
 
-That underdogs often come out on top is because the latter has "unseen advantages" against the former.
+Аутсайдер часто выходит вперед по причине того, что в последнем случае он имеет скрытые преимущества перед лидером.
 
-At Beefy.Finance, we don't consider ourselves underdogs…
+Мы в Beefy.Finance не считаем себя аутсайдерами…
 
-And we generally prefer to let what we build do the talking…
+И в целом мы предпочитаем, чтобы то, что мы создаем говорило само за себя…
 
-However, a core component of our vision for the future is attracting and incentivizing the best coding and creative talent on the planet to join our community.
+Однако, одним из ключевых элементов нашего видения будущего Beefy является привлечение и поощрение самых талантливых разработчиков к вступлению в наше сообщество. 
 
-Through our unique reward system, our developers receive a percentage of Beefy.Finance's revenue from the vaults they build for Beefy.
+Благодаря нашей уникальной системе вознаграждений, наши разработчики получают проценты от прибыли хранилищ, которые они разрабатывают для BeefY Finance.
 
-Because this exists, we have grown an enormous development team quickly — an army of smart contract developers who are ready to create new vaults almost the same day as we finish our due diligence.
+Вот почему за небольшой период времени у нас образовалась крупная команда программистов — армия разработчиков смарт-контрактов, готовая создавать новые хранилища почти в тот же день, в который они проходят проверку.
 
-The migration from TradFi to DeFi is a marathon rather than a sprint, but it serves the market to be able to act quickly when we need to.
+Переход от TradFi к DeFi — это в большей степени марафон, чем спринт, но этот переход также позволит нам быстро адаптироваться к меняющемуся рынку.
 
-The marathon means having safety as our number one priority.
+Марафон означает развитие, при котором безопасность является приоритетом номер один.
 
-The sprint is sustainably spinning up new vaults.
+А спринт — это стабильное добавление новых хранилищ.
 
-_**Code — and the talent that writes it — is the ultimate force multiplier in this arena, and its leverage advantage is compounding at a spectacular rate.**_
+_**Программный код и талантливый разработчик, который его пишет — это главные показатели силы в этой сфере, а достоинства от их применения накапливаются с невероятной скоростью.**_
 
-If you're a smart contract developer who favors future rewards over legacy resources, you know where to find us.
+Если ты разработчик смарт-контрактов, который готов работать на будущие блага, вместо фиксированного дохода, то ты знаешь куда обращаться.
 

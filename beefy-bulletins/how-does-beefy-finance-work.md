@@ -1,42 +1,41 @@
 ---
 description: >-
-  We know that entering the crypto and DeFi arenas can be confusing and
-  disorientating…
+  Мы понимаем, что, впервые столкнувшись со сферой DeFi и криптовалютами, вы можете быть дезориентированы и находится в замешательстве…
 ---
 
-# How Does Beefy Finance Work?
+# Как работает Beefy Finance?
 
 ![](../.gitbook/assets/bulletin-how-does-beefy-finance-work.png)
 
-We know that entering the crypto and DeFi arenas can be confusing and disorientating. We know that many have lost money in altcoins and have high levels of scepticism about this new opportunity.
+Мы понимаем, что, впервые столкнувшись со сферой DeFi и криптовалютами, вы можете быть дезориентированы и находится в замешательстве. Мы также понимаем, что многие из вас потеряли деньги при покупке альткоинов, после чего у вас образовался обоснованный скептицизм в отношении всех этих новых возможностей.
 
-So let's break down what Beefy does in language as close as possible to how the current financial world works.
+В таком случае, давайте разберем на терминах традиционной финансовой системы, что конкретно делает Beefy.
 
-**1. You know what interest is:**
+**1. Вы знаете что из себя представляет процент по вкладу:**
 
-You have $10,000 in your bank account and you earn a 12.5% annual return on your investment. After 12 months, you receive a deposit of $1,250 as an interest payment. After five years, you have $16,250.
+На вашем банковском счете есть $10,000 под 12.5% годовых. Через 12 месяцев вы получите прибыль по вкладу в размере $1,250. Через 5 лет у вас будет $16,250.
 
-**2. You know what compound interest is:**
+**2. Вы знаете что такое сложный процент:**
 
-It's interest on interest. You get interest on the initial amount you put in, and you get interest on the interest already accumulated from the previous years.
+Сложный процент — это процент, начисленный на процент. Вам начисляются проценты по вкладу и проценты на уже начисленные проценты, накопленные за прошедшие годы.
 
-So with compound interest, after 5 years you won’t have $16,250, you'll actually have $18,020.
+Таким образом, с учетом сложного процента через 5 лет у вас будет не $16,250, а $18,020.
 
-So far, so good.
+Чем дальше, тем лучше.
 
-_**But what if there was a "third way"?**_
+_**А что если есть еще и "третий путь"?**_
 
-This is the question we asked ourselves as programmers.
+Это именно тот вопрос, который мы - программисты себе задали.
 
-**3. Here's what Beefy interest is:**
+**3. Вот что из себя представляет процент Beefy:**
 
-When you take your crypto and stake it on Beefy we find ways to add to the compounding of your asset. If one of the platforms we use gives away a promotional coin on top of any interest, then we take that promo coin and sell it for more of what you staked.
+Когда вы вносите свои токены в хранилища Beefy мы находим способы, чтобы добавить сложный процент по вашим активам. Если одна из платформ, которую мы используем, помимо основного процента начисляет дополнительный, в форме других токенов, то мы меняем эти токены на те, которые в хранилище и реинвестируем их обратно.
 
-_**The result is a significantly higher overall annual return.**_
+_**В результате мы получаем значительно более высокую годовую ставку.**_
 
-When Beefy combines your 12.5% annual compounding interest with the 14.2% interest of another site's promotional coin, you get 28.02% APY on Beefy.
+Так как Beefy комбинирует ваш сложный процент - 12.5% с дополнительными процентом - 14.2%, то вы получаете в итоге годовую процентную доходность (APY) - 28.02%.
 
-Beefy's BNB Venus vault is doing just that. At the time of writing, you get 28.02% APY for your BNB.
+Хранилище BNB Venus на Beefy делает ровно то же самое. На момент написания бюллетеня вы получаете годовую процентную доходность (APY) по вашим BNB в размере 28.02%.
 
-**After five years, you won't have $18,020, you'll have $34,386; all in the asset you actually staked.**
+**Через 5 лет у вас будет не $18,020, а $34,386; и все это в токенах, которые вы изначально внесли.**
 

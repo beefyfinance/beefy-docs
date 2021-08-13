@@ -1,26 +1,26 @@
-# The Big Beefy Opportunity
+# Неограниченные возможности от Beefy
 
 ![](../.gitbook/assets/bulletin-the-big-beefy-opportunity.png)
 
-There are two types of people in this world: those who have a vague desire to achieve their financial goals, without ever taking any specific and deliberate action to make it happen, and those who "run the numbers" and are ready to seize the opportunity when they see it.
+Существует всего два типа людей: те, у которых нет конкретного желания добиться своих финансовых целей и котоорые не удосуживаются хотя бы предпринять ряд обдуманных действий для их достижения, и те, кто просчитывают сотни вариантов и готовы ухватиться за возможность, если они видят ее.
 
-This might sound like a cringe 80's television commercial, but the truth is the strength of Beefy Finance comes from what we BUILD, not what we say.
+Сказанное выше может и звучит как старомодный и нелепый коммерческий слоган из 80-х, но действительность такова, что преимущества Beefy Finance заключается не в том, что мы говорим, а в том, что мы создали.
 
-_So, what have we built?_
+_Так что же мы создали?_
 
-Like any other DeFi Yield Farm, Beefy has created an opportunity for its users to both automate AND maximize the ROI of their holdings.
+Как и любая другая DeFi платформа по доходному фермерству, Beefy создала возможность для своих пользователей автоматизировать И максимизировать ROI по их инвестициям.
 
-But what is unique to Beefy is a decentralized working hub for people with a vision to come together and build the future of global finance.
+Но уникальность Beefy заключается в том, что она совмещает в себе децентрализованный и функциональный хаб для тех, кто готов работать вместе с целью построения будущей глобальной финансовой системы.
 
-Smart contract devs, UI, UX, strategists, statisticians, designers, and artists — anyone can join and contribute \(no matter your nationality, sex, or views\).
+Разработчики смарт-контрактов, UI, UX, специалисты по инвестиционным стратегиям и специалисты по статистике, дизайнеры и деятели культуры и искусства — все могут присоединится к нам и внести свой вклад \(ваши пол, национальность и взгляды не имеют никакого значения\).
 
-_By investing in Beefy, you are investing in the idea that a group of highly technical individuals can safely, securely and creatively leapfrog the dinosaurs of traditional finance._
+_Инвестируя в Beefy, вы делаете ставку на то, что высококвалифицированные специалисты смогут безопасно, надежно и креативно обогнать динозавров традиционных финансов._
 
-The two main variables in wealth generation are:
+Создание капитала сопряжено с двумя переменными:
 
-Time \(how long\) and yield \(how much\).
+Время \(как долго\) и доход \(сколько\).
 
-We'll take care of the yield.
+Мы позаботимся о доходе.
 
-**All you have to do is decide how soon you would like to get started.**
+**Вам остается только принять решение, когда вы хотите начать.**
 
