@@ -1,34 +1,34 @@
 ---
-description: 'By buying $BIFI and staking in BIFI Maxi, you have something unique'
+description: 'Покупая токен $BIFI и стейкая его в хранилище BIFI Maxi, вы имеете дело с чем-то особым'
 ---
 
-# Introducing Beefy's Unique Revenue Share Model
+# Представляем вам уникальную модель распределения прибыли Beefy
 
 ![](../.gitbook/assets/bulletin-introducing-beefys-unique-revenue-share-model.png)
 
-**At long last DeFi adopters are beginning to realize that it's ridiculous to believe so strongly in a better financial system, and then spoil the whole moment with degenerate gambling.**
+**Наконец-то сторонники DeFi начинают понимать, что нельзя заставить людей поверить в более совершенную финансовую систему, сводя ее при этом к деструктивным спекуляциям**
 
-Hence, the growing popularity of decentralized projects with sustainable tokenomics and platform governance.
+Следовательно, мы видим растущую популярность децентрализованных проектов, которые предлагают стабильную токеномику и систему управления платформой.
 
-They're in a class by themselves.
+Эти проекты вне конкуренции.
 
-These projects are **more efficient**, have **better stability and security** and are more likely to attract the **attention of the market**.
+Эти проекты **более эффективные**, обладают **большей стабильностью и безопасностью** и скорее всего станут **популярными на рынке**.
 
-Owning $BIFI not only allows you to participate in platform governance, but also to start earning daily interest payments by staking your holdings in the right place.
+Владение токеном $BIFI не только дает вам право участвовать в управлении платформой, но и позволяет вам получать выплаты процентов каждый день при стейкинге токенов в соответствующем хранилище.
 
-Here's where things get _remarkable_ — listen closely.
+Вот почему наша модель _уникальна_ - дальше читайте внимательно.
 
-All the APYs you see on Beefy vaults have the platform fees factored in. These fees are used to buy back more $BIFI from the open market every single day and reward it to those who have their holdings staked in the BIFI Maxi Vault.
+Все показатели APY, которые вы видите на хранилищах Beefy уже включает в себя комиссии. Эти комиссии используются для того, чтобы каждый день выкупать с рынка токены $BIFI. Затем они начисляются держателям $BIFI, чьи токены находятся в хранилище BIFI Maxi.
 
-So by buying $BIFI and staking in BIFI Maxi, you have something unique:
+Таким образом, покупая $BIFI и стейкая его в хранилище BIFI Maxi вы имеете дело с чем-то особенным, а именно:
 
-_Daily revenue from a non-inflationary "dividend" token where the "company" buys shares off the market every day, and gives you more of them._
+_Вы получаете ежедневную прибыль в форме дефляционного токена, при условии, что "компания" ежедневно выкупает с рынка эти токены и начисляет их вам._
 
-This creates a financial "flywheel" for your money, where a continuously improving set of repeatable, tactical actions scale with decreasing friction to grow your investment.
+Такая конструкция создает финансовый "маховик" для ваших денег, в котором постоянно развивающийся комплекс регулярных и тактических финансовых операций увеличивает сумму вашей инвестиции.
 
-**In other words, yesterday's gains are tomorrow's capital.**
+**Иначе говоря, то что вы заработали в прошлом - это ваш будущий капитал.**
 
-Beefy is being built by a group of dedicated smart contract codesmen, backed by a community of UI, UX, strategists, statisticians, designers and artists.
+Над Beefy работает команда высококвалифицированных разработчиков смарт-контрактов, при поддержке сообщества из разработчиков UI, UX, специалистов по инвестиционным стратегиям и статистике, дизайнеров и деятелей искусства.
 
-That's why the smart money is on [Beefy.Finance](https://www.beefy.finance/).
+Вот почему умные деньги на [Beefy.Finance](https://www.beefy.finance/).
 
