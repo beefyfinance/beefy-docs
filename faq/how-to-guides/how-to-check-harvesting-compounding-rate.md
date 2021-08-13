@@ -46,7 +46,7 @@ Each of the chains supported by Beefy may be investigated via the same method sh
 
 ### Avalanche
 
-The basic method shown in the BSC example above still applies, except for the last, key step 5. This owes to Avalanche using a different block-expolorer software. In Avalanche's case, step 5 switches to the Transactions tab to view the strategy events fired, as exemplified below
+The basic method shown in the BSC example above still applies, except for the last, key step 5. This owes to Avalanche using a different block-explorer software. In Avalanche's case, step 5 switches to the Transactions tab to view the strategy events fired, as exemplified below
 
 ![](../../.gitbook/assets/Avalanche-harvest-events.png)
 
