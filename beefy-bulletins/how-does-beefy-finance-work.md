@@ -4,7 +4,7 @@ description: >-
   можете быть дезориентированы и находится в замешательстве…
 ---
 
-# Как работает Beefy Finance??
+# Как работает Beefy Finance?
 
 ![](../.gitbook/assets/bulletin-how-does-beefy-finance-work.png)
 

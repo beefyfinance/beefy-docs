@@ -7,7 +7,7 @@
   * [Что такое Beefy Finance?](beefy-bulletins/what-is-beefy-finance.md)
   * [Неограниченные возможности от Beefy](beefy-bulletins/the-big-beefy-opportunity.md)
   * [Что же делает Beefy уникальной?](beefy-bulletins/what-makes-beefy-different.md)
-  * [Как работает Beefy Finance??](beefy-bulletins/how-does-beefy-finance-work.md)
+  * [Как работает Beefy Finance?](beefy-bulletins/how-does-beefy-finance-work.md)
   * [Анализ комиссий Beefy Finance](beefy-bulletins/beefy-finance-fees-breakdown.md)
   * [Вот почему Beefy лучше вашего банка](beefy-bulletins/why-beefy-beats-your-bank.md)
   * [Представляем вам уникальную модель распределения прибыли Beefy](beefy-bulletins/introducing-beefys-unique-revenue-share-model.md)
