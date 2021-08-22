@@ -1,213 +1,212 @@
-# Beefy Safety Score
+# Рейтинг безопасности хранилищ Beefy
 
-This document outlines the design for the Beefy Safety Score. The purpose of the safety score is to educate users when making a decision to enter a particular Beefy vault. The Safety Score is not necessarily perfect, but it is another tool that helps the user.
+Эта статья схематично представляет модель Рейтинга безопасности хранилищ Beefy. Цель этого рейтинга — научить пользователей принимать обдуманное и взвешенное решение при внесении средств в какое-либо конкретное хранилище Beefy. Рейтинг безопасности хранилищ не позволит вам на 100% избежать рисков, однако это еще один полезный инструмент для пользователей, который может помочь при их оценке.
 
-The safety score that a vault can get goes from 1 to 10. The best possible score is 10 and the worst is 0. It is technically possible for vaults to score less than 0, in which case 0 will be displayed.
+Хранилище может получить от 1 до 10 баллов. Наилучший бал равен 10, а наихудший 0. Технически, вполне может получится так, что хранилище будет иметь сумму баллов ниже 0. В таком случае отображаемый рейтинг будет равен нулю.
 
-Risks are distributed in three main categories:
+Риски делятся на три главные категории:
 
-* Beefy Risks: Risks that we add by serving as a platform. 
-* Asset Risks: Risks of the asset being handled by the vault.
-* Platform Risks: Risks of the underlying farm or platform used.
+* Риски Beefy: Риски, которые связаны с нами как с платформой, предоставляющей финансовые услуги. 
+* Риски Актива: Риски активов, которые используются в хранилищах.
+* Риски Платформы: Риски платформ, которые используются хранилищами.
 
-Each category is responsible for a percentage of the total score. Each category is itself divided in multiple subcategories.
+Каждая категория отвечает за часть баллов от общей суммы и делится на несколько подкатегорий.
 
-All vaults start with a perfect score of 10 and are subtracted points whenever they have qualities that increase risk.
+Каждое хранилище стартует с 10-ю баллами. При выявлении характеристик у хранилищ, повышающих уровень риска — баллы вычитываются.
 
-## Category: Beefy Risks
+## Категория: Риски Beefy
 
-These are risks related to the Beefy Finance platform itself. These could be risks added by the complexity of the vault strategy, if it's an experimental deployment, if it's been audited by others, etc. Twenty percent of the safety score is determined by the Beefy Risks.
+Сюда входят риски, связанные с самой платформой Beefy Finance. К ним относятся в том числе риски, связанные со сложностью стратегий хранилищ, статус запуска хранилища (например, экспериментальный), был ли проведен аудит хранилища и другие факторы. Риски Beefy составляют 20% от суммы баллов.
 
-### Subcategory: Complexity
+### Подкатегория: Сложность стратегии
 
-Tracks the complexity of the strategy behind a vault.
+Описывает сложность стратегии, используемой хранилищем.
 
-#### COMPLEXITY\_LOW
+#### СЛОЖНОСТЬ\_НИЗКАЯ
 
-* Title: Low complexity strategy
-* Explanation: Low complexity strategies have few, if any, moving parts and their code is easy to read and debug. There is a direct correlation between code complexity and implicit risk. A simple strategy effectively mitigates implementation risks.
-* Qualification Criteria: A low complexity strategy should interact with just one audited and well-known smart contract e.g. MasterChef. The strategy serves as a façade for this smart contract, forwarding deposit, harvest and withdrawal calls using a single line of code. 
+* Название: Стратегий низкой сложности
+* Пояснение: Стратегии низкой сложности если и обладают, то минимальным количеством переменных. Их программный код прост для понимания и без затруднений подается отладке. Важно понимать, что между сложностью кода и косвенными рисками есть прямая связь. Чем проще стратегия, тем проще смягчить риски при ее реализации.
+* Квалификационный критерий: Стратегия низкой сложности должна взаимодействовать с широко известным и прошедшим аудит смарт-контрактом, например, со смарт-контрактом MasterChef. Стратегия служит интерфейсом для смарт-контракта, направляя контракту запросы на ввод, вывод средств и сбор прибыли посредством одной строчки кода. 
 
-#### COMPLEXITY\_MID
+#### СЛОЖНОСТЬ\_СРЕДНЯЯ
 
-* Title: Beefy strategy is of medium complexity
-* Explanation: Medium complexity strategies interact with two or more audited and well-known smart contracts. Its code is still easy to read, test and debug. It mitigates most implementation risks by keeping things simple, however the interactions between 2 or more systems add a layer of complexity.
-* Qualification Criteria: A medium complexity strategy interacts with 2 or more well-known smart contracts. This strategy automates the execution of a series of steps with no forking paths. Every time deposit\(\), harvest\(\) and withdraw\(\) is called, the same execution path is followed.
+* Название: Стратегия Beefy средней сложности
+* Пояснение: Стратегии средней сложности взаимодействуют с двумя и более широко известными и прошедшими аудит смарт-контрактами. Программный код прост для понимания и легко подается отладке. На этом уровне сложности все еще можно смягчить большинство рисков при реализации стратегии, однако взаимодействие между 2 и более системами накладывает дополнительную сложность.
+* Квалификационный критерий: Стратегия средней сложности взаимодействует с двумя и более широко известными смарт-контрактами. Эта стратегия автоматизирует исполнение ряда действий по одному пути (без исключений). Каждый раз когда идет запрос на функции ввода\(\), сбора\(\) и вывода\(\), программный код исполняется по одному и тому же пути.
 
-#### COMPLEXITY\_HIGH
+#### СЛОЖНОСТЬ\_ВЫСОКАЯ
 
-* Title: Beefy strategy is complex 
-* Explanation: High complexity strategies interact with one or more well-known smart contracts. These advanced strategies present branching paths of execution. In some cases multiple smart contracts are required to implement the full strategy.
-* Qualification Criteria: A high level complexity strategy can be identified by one or more of the following factors: high cyclomatic complexity, interactions between two or more third-party platforms, implementation split between multiple smart contracts.
+* Название: Стратегия Beefy повышенной сложности
+* Пояснение: Стратегии повышенной сложности взаимодействуют с одним и более широко известными смарт-контрактами. Эти продвинутые стратегии используют множество путей исполнения. В некоторых случаях для реализации всей стратегии необходимо задействовать сразу несколько смарт-контрактов.
+* Квалификационный критерий: Стратегию повышенной сложности можно определить по одному или нескольким из следующих признаков: высокая сложность циклов, взаимодействие с двумя и более сторонними платформами, реализация стратегии разделена между несколькими смарт-контрактами.
 
-### Subcategory: Time in Market
+### Подкатегория: Время присутствия на рынке
 
-Tracks how long has this strategy been running without any major issues.
+Описывает то, как долго стратегия действовала на рынке без серьезных ошибок.
 
-#### BATTLE\_TESTED
+#### ПРОВЕРЕННАЯ\_ВРЕМЕНЕМ
 
-* Title: Beefy strategy is battle tested
-* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy has been exposed to attacks and usage for some time already, with little to no changes. This makes it sturdier. 
-* Qualification Criteria:
-  * Was deployed using a BeefyStratFactory
-  * 10+ strategies sharing the same code deployed
-  * 3 months working as expected without upgrades
+* Название: Стратегия Beefy проверена временем
+* Пояснение: Чем больше времени прошло с момента запуска стратегии, тем больше вероятность того, что все потенциальные ошибки были найдены и исправлены. Эта стратегия в течение некоторого времени уже доступна для использования и была подвержена всевозможным атакам. За все это время она претерпела либо незначительные изменения, либо вовсе никаких. Этот факт говорит о ее надежности. 
+* Квалификационный критерий:
+  * Была выпущена при помощи BeefyStratFactory
+  * Более 10 стратегий используют тот же код
+  * Работает без обновлений в течение 3 месяцев
 
-#### NEW\_STRAT
+#### НОВАЯ\_СТРАТЕГИЯ
 
-* Title: Strategy has been running for less than a month 
-* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy is a modification or iteration of a previous strategy. It hasn't been battle tested as much as others.
-* Qualification Criteria: -
+* Название: Стратегия действует менее месяца 
+* Пояснение: Чем больше времени прошло с момента запуска стратегии, тем больше вероятность того, что все потенциальные ошибки были найдены и исправлены. Эта стратегия представляет из себя модификацию либо следующую версию предыдущей стратегии. Она не была в той же степени проверена временем, как другие.
+* Квалификационный критерий: -
 
-#### EXPERIMENTAL\_STRAT
+#### ЭКСПЕРИМЕНТАЛЬНАЯ\_СТРАТЕГИЯ
 
-* Title: The strategy has some features which are new 
-* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy is brand new and has at least one experimental feature. Use it carefully at your own discretion.
-* Qualification Criteria: -
+* Название: Эта стратегия поддерживает новый функционал
+* Пояснение: Чем больше времени прошло с момента запуска стратегии, тем больше вероятность того, что все потенциальные ошибки были найдены и исправлены. Это принципиально новая стратегия с как минимум одной экспериментальной функцией.
+* Квалификационный критерий: -
 
-## Category: Asset Risks
+## Категория: Риски Актива
 
-Risks relating to the asset or assets handled by the vault. Entering into a vault with BTC has a different set of risks than entering into a vault with a newer and smaller coin. Twenty percent of the score is determined by this category.
+Рассмотрим риски, связанные с самими активами или активами, используемыми в хранилищах. Внесение средств в хранилище с BTC сопряжено с совершенно иными рисками по сравнению с внесением средств в хранилище с молодой криптовалютой, обладающей меньшей капитализацией. Риски Актива составляют 20% от суммы баллов.
 
-### Subcategory: Impermanent Loss
+### Подкатегория: Непостоянная потеря (НП)
 
-Tracks the risk of impermanent loss within the vault
+Описывает риск непостоянной потери активов в хранилище
 
-#### IL\_NONE
+#### НП\_ОСТУТСТВУЕТ
 
-* Title: Very low or zero projected IL 
-* Explanation: The asset in this vault has very little or even no expected impermanent loss. This might be because you are staking a single asset, or because the assets in the LP are tightly correlated like USDC-USDT or WBTC-renBTC.
-* Qualification Criteria: Single asset vaults and vaults that manage stablecoins with a peg that isn't experimental: USDT, USDC, DAI, sUSD, etc.  
+* Название: Очень низкая либо нулевая НП 
+* Пояснение: Непостоянная потеря активов этого хранилища либо минимальна, либо равна нулю. Такая ситуация может возникнуть в случае, если вы вносите средства в хранилище с одним активом (токеном) или стоимость активов в парном LP токене постоянно почти равна друг другу. Например, хранилища USDC-USDT или WBTC-renBTC.
+* Квалификационный критерий: В эту группу входят хранилища с одним токеном или хранилища в стейблкоинах, привязка курса к USD которых обеспечена не экспериментальным методом: USDT, USDC, DAI, sUSD, и т.д.  
 
-#### IL\_LOW
+#### НП\_УМЕРЕННАЯ
 
-* Title: Low projected IL 
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. The assets in this vault have some risks of impermanent loss. 
-* Qualification Criteria: Vaults that handle what are normally referred as “Pool 1” LPs would fit here: ETH-USDC, MATIC-AAVE, etc. Governance tokens for smaller projects are normally known as “Pool 2” and thereby excluded.
+* Название: Предполагаемый уровень НП — умеренный 
+* Пояснение: Если вы предоставляете ликвидность в паре токенов, например ETH-BNB, то вы должны иметь в виду, что цена одного токена в отношении другого может резко изменится. BNB может сильно упасть в цене в отношении ETH. В итоге ваша общая позиция будет стоить меньше, чем если бы вы просто отдельно хранили на кошельке ETH и BNB. Активы в этом хранилище подвержены непостоянной потере. 
+* Квалификационный критерий: В эту категорию входят хранилища, использующие LP токены из так называемого "1-го класса": ETH-USDC, MATIC-AAVE, и т.д. LP с токенами управления небольших проектов из "2-го класса" не входят в эту группу.
 
-#### IL\_HIGH
+#### НП\_БОЛЬШАЯ
 
-* Title: High projected IL 
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. The assets in this vault have a high or very high risk of impermanent loss. 
-* Qualification Criteria: Vaults that handle “Pool 2” LPs go here. These LP normally include the governance token of the farm itself.
+* Название: Предполагаемый уровень НП — высокий 
+* Пояснение: Если вы предоставляете ликвидность в паре токенов, например ETH-BNB, то вы должны иметь в виду, что цена одного токена в отношении другого может резко изменится. BNB может сильно упасть в цене в отношении ETH. В итоге ваша общая позиция будет стоить меньше, чем если бы вы просто отдельно хранили на кошельке ETH и BNB. Активы в этом хранилище подвержены большой либо очень большой непостоянной потере.
+* Квалификационный критерий: Хранилища, использующие LP токены из "2-го класса" входят в эту группу. Эти парные LP токены обычно включают в себя сам токен управления платформы доходного фермерства.
 
-#### ALGO\_STABLE
+#### АЛГО\_СТЕЙБЛКОИН
 
-* Title: Algorithmic stable, experimental peg
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. At least one of the stablecoins held by this vault is an algorithmic stable. This means that the stable peg is experimental and highly risky. Use it carefully at your own discretion.
-* Qualification Criteria: “Stablecoins” with experimental pegs, or tokenomics that have failed repeatedly to hold its peg in the past, go here.
+* Название: Алгоритмический стейблкоин с экспериментальным методом привязки курса
+* Пояснение: Если вы предоставляете ликвидность в паре токенов, например ETH-BNB, то вы должны иметь в виду, что цена одного токена в отношении другого может резко изменится. BNB может сильно упасть в цене в отношении ETH. В итоге ваша общая позиция будет стоить меньше, чем если бы вы просто отдельно хранили на кошельке ETH и BNB. Как минимум один из стейблкоинов, используемых хранилищем является алгоритмическим. Из этого следует, что привязка курса к USD носит экспериментальный характер и есть высокий риск потери стабильности курса. Используйте такие хранилища с осторожностью на свой страх и риск.
+* Квалификационный критерий: "Стейблкоины" с экспериментальным методом привязки или те, токеномика которых в прошлом неоднократно проваливалась (не достигала цели удержания стабильности курса) входят в эту группу.
 
-### Subcategory: Liquidity
+### Подкатегория: Ликвидность
 
-Tracks how difficult it is to buy/sell the vault's token.
+Описывает то, насколько сложно продать или купить токен хранилища по рыночной цене.
 
-#### LIQ\_HIGH
+#### ЛИКВИДНОСТЬ\_ВЫСОКАЯ
 
-* Title: High trade liquidity
-* Explanation: How liquid an asset is affects how risky it is to hold it. Liquid assets are traded in many places and with good volume. The asset held by this vault has high liquidity. This means that you can exchange your earnings easily in plenty of places.
-* Qualification Criteria: -
+* Название: Крупный объем торгов и высокая ликвидность
+* Пояснение: То, насколько ликвидным является актив, напрямую влияет на то, насколько безопасно его хранить. Ликвидные активы торгуются на многих биржах при крупном объеме торгов. Активы, используемые хранилищами этой группы — ликвидны. А это значит, что вы можете обменять полученные токены без затруднений на многих биржах.
+* Квалификационный критерий: -
 
-#### LIQ\_LOW
+#### ЛИКВИДНОСТЬ\_НИЗКАЯ
 
-* Title: Low trade liquidity
-* Explanation: How liquid an asset is affects how risky it is to hold it. Liquid assets are traded in many places and with good volume. The asset held by this vault has low liquidity. This means that it isn't as easy to swap and you might incur high slippage when doing so.
-* Qualification Criteria: -
+* Название: Малый объем торгов и низкая ликвидность
+* Пояснение: То, насколько ликвидным является актив напрямую влияет на то, насколько безопасно его хранить. Ликвидные активы торгуются на многих биржах при крупном объеме торгов. Активы, используемые хранилищами этой группы — не ликвидны. Это значит, что при попытке продать токены, вы можете столкнутся с трудностями, включая продажу токена по цене ниже рыночной из-за проскальзывания.
+* Квалификационный критерий: -
 
-### Subcategory: Market Cap
+### Подкатегория: Рыночная капитализация (РК) 
 
-Total value of all the coins in circulation. Indirectly tracks how volatile the vault's underlying asset is.
+Общая стоимость монет, находящихся в обороте. Косвенно указывает на то, на сколько волатильным является актив, используемый хранилищем.
 
-#### MCAP\_LARGE
+#### Р.КАПИТАЛИЗАЦИЯ\_КРУПНАЯ
 
-* Title: High market cap, low volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a large market cap. This means it's potentially a highly safe asset to hold. The asset has a high potential to stick around and grow over time.
-* Qualification Criteria: Top 50 MC by Gecko/CMC
+* Название: Крупная рыночная капитализация, низкая волатильность актива
+* Пояснение: Рыночная капитализация напрямую влияет на уровень риска криптоактива. Малая рыночная капитализация, как правило, говорит о высокой волатильности и низкой ликвидности актива. Токен, используемый хранилищем, входящим в эту группу, обладает крупной рыночной капитализацией. Это значит, что хранение такого токена не сопряжено с рисками (либо сопряжено, но с минимальными). Велика вероятность того, что стоимость актива будет только расти со временем.
+* Квалификационный критерий: Топ 50 по РК согласно Gecko/CMC
 
-#### MCAP\_MEDIUM
+#### Р.КАПИТАЛИЗАЦИЯ\_СРЕДНЯЯ
 
-* Title: Medium market cap, medium volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a medium market cap. This means it's potentially a safe asset to hold. The asset has potential to stick around and grow over time.
-* Qualification Criteria: Between 50 and 300 MC by Gecko/CMC
+* Название: Средняя рыночная капитализация, умеренная волатильность актива
+* Пояснение: Рыночная капитализация напрямую влияет на уровень риска криптоактива. Низкая рыночная капитализация, как правило, говорит о высокой волатильности и низкой ликвидности актива. Токен, используемый хранилищем, входящим в эту группу, обладает средней рыночной капитализацией. Это значит, что хранение такого токена потенциально безопасно. Есть вероятность, что стоимость актива будет расти со временем.
+* Квалификационный критерий: От 50-го до 300-го места по РК согласно Gecko/CMC
 
-#### MCAP\_SMALL
+#### Р.КАПИТАЛИЗАЦИЯ\_МАЛАЯ
 
-* Title: Small market cap, high volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a small market cap. This means it's potentially a risky asset to hold. The asset has low potential to stick around and grow over time.
-* Qualification Criteria: Between 300 and 500 MC by Gecko/CMC
+* Название: Малая рыночная капитализация, высокая волатильность актива
+* Пояснение: Рыночная капитализация напрямую влияет на уровень риска криптоактива. Низкая рыночная капитализация, как правило, говорит о высокой волатильности и низкой ликвидности актива. Токен, используемый хранилищем, входящим в эту группу, обладает малой рыночной капитализацией. Это значит, что хранение такого токена потенциально рискованно. Вероятность того, что цена актива будет оставаться на текущем уровне, а в перспективе расти — крайне мала.
+* Квалификационный критерий: От 300 -го до 500-го места по РК согласно Gecko/CMC
 
-#### MCAP\_MICRO
+#### Р.КАПИТАЛИЗАЦИЯ\_МИКРО
 
-* Title: Micro market cap, Extreme volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a micro market cap. This means it's potentially a highly risky asset to hold. The asset has low potential to stick around.
-* Qualification Criteria: +500 MC by Gecko/CMC
+* Название: Микро рыночная капитализация, волатильность актива крайне высока
+* Пояснение: Рыночная капитализация напрямую влияет на уровень риска криптоактива. Низкая рыночная капитализация, как правило, говорит о высокой волатильности и низкой ликвидности актива. Токен, используемый хранилищем, входящим в эту группу, обладает микро рыночной капитализацией. Это значит, что хранение такого токена сопряжено с высокими рисками. Вероятность того, что цена токена хотя бы будет оставаться в пределах текущего диапазона —крайне мала.
+* Квалификационный критерий: ниже 500-го места по РК согласно Gecko/CMC
 
-### Subcategory: Supply
+### Подкатегория: Предложение
 
-Tracks risks related to the asset supply. Can it be altered by anyone? How centralised is it?
+Описывает риски, связанные с предложением объема токенов, находящихся в обращении. Может ли кто-либо изменить объем эмиссии новых токенов? Насколько централизованно предложение?
 
-#### SUPPLY\_CENTRALIZED
+#### ПРЕДЛОЖЕНИЕ\_ЦЕНТРАЛИЗОВАННО
 
-* Title: Few very powerful whales
-* Explanation: When the supply is concentrated in a few hands, they can greatly affect the price by selling. Whales can manipulate the price of the coin. The more people that have a vested interest over a coin, the better and more organic the price action is.
-* Qualification Criteria: Less than 50 accounts hold more than 50% of the supply. 
+* Название: Предложение находится под контролем нескольких "китов"
+* Пояснение: Когда предложение контролируют несколько лиц, то велика вероятность резкого падения цены токена при его продаже. "Киты" могут манипулировать ценой токена. Чем больше инвесторов вовлечено в ту или иную криптовалюту, тем органичнее и более предсказуема динамика ее цены.
+* Квалификационный критерий: Менее 50-и аккаунтов обладают более 50% предложения. 
 
-## Category: Platform Risks
+## Категория: Риски Платформы
 
-Risks relating to the third party platforms used by the vault. How much track record they have, how solid the code is, are there any dangerous actions that an admin can take, etc. Sixty percent of the score is determined by this category.
+Риски, связанные со сторонними платформами, используемыми хранилищами. Как давно платформа существует на рынке; насколько надежен программный код, используемый ею; имеются ли возможности со стороны администратора задействовать опасные для инвесторов функции, и т.д. Риски Платформы составляют 60% от суммы баллов.
 
-### Subcategory: Reputation
+### Подкатегория: Репутация
 
-Tries to give clues about the team and community's track record. How likely are they to rug for example.
+Эта подкатегория включает в себя сведения о команде и сообществе, которые стоят за платформой, и информацию об их предыдущем опыте. Например, какова вероятность того, что они обманным путем завладеют средствами инвесторов.
 
-#### PLATFORM\_ESTABLISHED
+#### ПЛАТФОРМА\_СОСТОЯВШАЯСЯ
 
-* Title: The platform has a known track record
-* Explanation: When taking part in a farm, it can be helpful to know the amount of time that the platform has been around and the degree of its reputation. The longer the track record, the more investment the team and community have behind a project. This vault farms a project that has been around for many months.
-* Qualification Criteria: The underlying farm has been around for at least 3 months.
+* Название: Платформа достаточно долго успешно функционирует
+* Пояснение: Если вы собираетесь принять участие в платформе по доходному фермерству, то важно знать, как давно запущена платформа и какова ее репутация. Чем дольше платформа находится на рынке, тем больше сил и средств вложено командой и сообществом, стоящими за проектом. Хранилища этой группы используют платформы доходного фермерства, которые присутствуют на рынке уже многие месяцы.
+* Квалификационный критерий: Используемая платформа доходного фермерства присутствует на рынке как минимум 3 месяца.
 
-#### PLATFORM\_NEW
+#### ПЛАТФОРМА\_НОВАЯ
 
-* Title: Platform is new with little track record
-* Explanation: When taking part in a farm, it can be helpful to know the amount of time that the platform has been around and the degree of its reputation. The longer the track record, the more investment the team and community have behind a project. This vault farms a new project, with less than a few months out in the open.
-* Qualification Criteria: The underlying farm has been around for less than 3 months.
+* Название: Платформа запущена недавно
+* Пояснение: Если вы собираетесь принять участие в платформе по доходному фермерству, то важно знать, как давно запущена платформа и какова ее репутация. Чем дольше платформа находится на рынке, тем больше сил и средств вложено командой и сообществом, стоящими за проектом. Хранилища этой группы используют платформы доходного фермерства, запущенные менее 3-х месяцев назад.
+* Квалификационный критерий: Используемая платформа доходного фермерства присутствует на рынке менее 3-х месяцев.
 
-### Subcategory: Security
+### Подкатегория: Безопасность
 
-Tracks various smart contract good practices.
+Описывает различные полезные практики, применяемые в отношении смарт-контрактов.
 
-#### NO\_AUDIT
+#### АУДИТ\_НЕ ПРОЙДЕН
 
-* Title: The platform has never been audited by third-party trusted auditors
-* Explanation: Audits are reviews of code by a group of third party developers.
-* Qualification Criteria: -
+* Название: Платформа никогда не проходила аудит со стороны независимой компании
+* Пояснение: Аудит — это проверка исходного кода платформы, осуществляемая разработчиками сторонней компании.
+* Квалификационный критерий: -
 
-#### AUDIT
+#### АУДИТ ПРОЙДЕН УСПЕШНО
 
-* Title: The platform has an audit from at least one trusted auditor
-* Explanation: Audits are reviews of code by a group of third party developers.
-* Qualification Criteria: One or more audits from an auditor that has some positive track record in the space.
+* Название: Платформа успешно прошла как минимум один аудит со стороны компании, обладающей прочной репутацией 
+* Пояснение: Аудит — это проверка исходного кода платформы, осуществляемая разработчиками сторонней компании.
+* Квалификационный критерий: Аудит был проведен одной или более компаниями, обладающими позитивным опытом в данной сфере.
 
-#### CONTRACTS\_VERIFIED
+#### КОНТРАКТЫ\_ПРОВЕРЕНЫ
 
-* Title: All relevant contracts are publicly verified
-* Explanation: Code running in a particular contract is not public by default. Block explorers let developers verify the code behind a particular contract. This is a good practice because it lets other developers audit that the code does what it’s supposed to. All the third party contracts that this vault uses are verified. This makes it less risky.
-* Qualification Criteria: -
+* Название: Все значимые контракты публично проверены
+* Пояснение: Программный код, исполняемый в конкретном контракте, изначально не находится в публичном доступе. Обозреватели блокчейнов позволяют разработчикам проверять код, исполняемый в конкретном контракте. Такая практика весьма полезна, так как позволяет сторонним разработчикам проверять код, чтобы убедиться в том, что программный код работает так как задумано. Все контракты, используемые хранилищами этой группы публично проверены. Следовательно они менее рискованны.
+* Квалификационный критерий: -
 
-#### CONTRACTS\_UNVERIFIED
+#### КОНТРАКТЫ\_НЕ ПРОВЕРЕНЫ
 
-* Title: Some contracts are not verified
-* Explanation: Code running in a particular contract is not public by default. Block explorers let developers verify the code behind a particular contract. This is a good practice because it lets other developers audit that the code does what it’s supposed to. Some of the third party contracts that this vault uses are not verified. This means that there are certain things that the Beefy devs have not been able to inspect.
-* Qualification Criteria: -
+* Название: Некоторые контракты не проверены
+* Пояснение: Программный код, исполняемый в конкретном контракте, изначально не находится в публичном доступе. Обозреватели блокчейнов позволяют разработчикам проверять код, исполняемый в конкретном контракте. Такая практика весьма полезна, так как позволяет сторонним разработчикам проверять код, чтобы убедиться в том, что программный код работает так как задумано. Некоторые контракты, используемые хранилищами этой группы не проверены. А это значит, что разработчики Beefy не могли их исследовать.
+* Квалификационный критерий: -
 
-#### ADMIN\_WITH\_TIMELOCK
+#### ФУНКЦИИ АДМИНИСТРАТОРА\_С\_ЗАДЕРЖКОЙ
 
-* Title: Dangerous functions are behind a timelock
-* Explanation: Sometimes the contract owner or admin can execute certain functions that could put user funds in jeopardy. The best thing is to avoid these altogether. If they must be present, it’s important to keep them behind a timelock to give proper warning before using them. This contract has certain dangerous admin functions, but they are at least behind a meaningful Timelock. 
-* Qualification Criteria: There is at least one function present that could partially or completely rug user funds. The function must be behind a +6h timelock.
+* Название: Опасные функции исполняются с задержкой (timelock)
+* Пояснение: Иногда администратор либо создатель контракта имеет право исполнять определенные функции, которые могут подвергнуть риску средства пользователей. Лучшим решением такой ситуации было бы полное отсутствие этой возможности. Если же исключение таких функций невозможно, то необходимо, чтобы их исполнение производилось после определенного периода времени, то есть с временной задержкой, чтобы предупредить всех, кого это может затронуть. Контракты, входящие в эту группу, включают в себя возможность исполнения таких функций администратором, но только после временной задержки. 
+* Квалификационный критерий: Имеется как минимум одна функция, которая может позволить частично или полностью завладеть средствами пользователей. Эта функция должна исполнятся спустя более 6 часов после запуска.
 
-#### ADMIN\_WITHOUT\_TIMELOCK
+#### ФУНКЦИИ АДМИНИСТРАТОРА\_БЕЗ\_ЗАДЕРЖКИ
 
-* Title: Dangerous functions are without a timelock
-* Explanation: Sometimes the contract owner or admin can execute certain functions that could put user funds in jeopardy. The best thing is to avoid these altogether. If they must be present, it’s important to keep them behind a timelock to give proper warning before using them. This contract has certain dangerous admin functions, and there is no time lock present. They can be executed at a moment's notice.
-* Qualification Criteria: There is at least one function present that could partially or completely rug user funds. The function has no time lock protection.
-
+* Название: Опасные функции исполняются без задержки
+* Пояснение: Иногда администратор либо создатель контракта имеет право исполнять определенные функции, которые могут подвергнуть риску средства пользователей. Лучшим решением такой ситуации было бы полное отсутствие этой возможности. Если же исключение таких функций невозможно, то необходимо, чтобы их исполнение производилось после определенного периода времени, то есть с временной задержкой, чтобы предупредить всех, кого это может затронуть. Контракты, входящие в эту группу, включают в себя возможность исполнения таких функций администратором при отсутствии временной задержки. Их можно исполнить моментально.
+* Квалификационный критерий: Имеется как минимум одна функция, которая может позволить частично или полностью завладеть средствами пользователей. Эта функция может быть исполнена моментально.

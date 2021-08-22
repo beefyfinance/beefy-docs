@@ -1,56 +1,55 @@
-# Launchpool
+# Лаунчпул
 
-As one of the most trusted Yield Optimizers, Beefy always wants to make sure that the users have the best experience possible using Beefy and its services and get the highest APY with the least amount of manual effort. We want you to feel that Beefy is the right place for your investment and besides the trust of having a Certik audit done, being listed on Binance, and having a great dev team, we want to give you the highest real APY possible. In order to do just that, we have expanded on the initial vault offering with a service called Beefy Launchpool in which we promote exciting projects on Binance Smart Chain. Together with the promotion, we BOOST certain vaults with the partners token in order to give the best APY to you, the investor.
+Будучи одним из самых надежных оптимизаторов доходности, Beefy всегда стремиться к тому, чтобы предоставить своим пользователям максимально комфортный опыт использования и свои лучшие сервисы. В то же время, Beefy предлагает самые высокие показатели APY по хранилищам при минимальных действиях со стороны пользователей. Мы хотим, чтобы вы поняли, что Beefy — это именно та платформа, где лучше всего инвестировать свои средства. Помимо того, что мы прошли аудит от компании Certik, наш токен вышел на листинг на бирже Binance и у нас отличная команда разработчиков, мы также предлагаем самый высокий настоящий показатель APY, какой только возможен. Для того, чтобы претворить сказанное в жизнь, мы расширили перечень продуктов, доступных на платформе, "первоначальным предложением хранилищ", которое называется Лаунчпул Beefy. При помощи него мы продвигаем различные перспективные проекты, запускаемые на сети Binance Smart Chain. Помимо продвижения в Лаунчпуле, мы также бустим (увеличиваем награды) конкретные хранилища c токенами партнеров, чтобы вы — инвесторы, получили максимальный показатель APY.
 
-## How do I use Beefy Launchpool?
+## Как же мне воспользоваться Лаунчпулом Beefy?
 
-Look for a boosted vault in our main app and stake the tokens that are asked for in that vault. You will get a "receipt" called mooToken in your wallet. Proceed to the related partner Launchpool vault here on the Beefy Launchpool site and enter the corresponding vault \(or press the 'Boost' shortcut on the main vault page called Boost\). The vault will ask for you to stake your mooToken "receipts". Stake these mooTokens and you are all done, you can easily come back here to check on your earned partner tokens and withdraw at any time.
+Найдите хранилище с бустом на главной странице приложения, затем внесите соответствующие токены. Взамен вы получите "квитанцию" в виде mooТокенов. Далее перейдите к лаунчупул-хранилищу партнера через сайт Лаунчпула Beefy \(или просто перейдите на вкладку "Boost" с главной страницы хранилищ Beefy\). На этом этапе вам нужно будет внести ваши mooТокены в лаунчпул-хранилище. Внесите токены в хранилище и дело сделано. Позже вы можете вернутся и посмотреть, сколько токенов партнера вы уже получили, чтобы вывести их в любое удобное для вас время.
 
-## How do I see my earned tokens?
+## Как мне посмотреть, сколько токенов я получил?
 
-Enter the vault where you deposited your mooTokens and it will show you a nice summary of your earned tokens.
+Зайдите в хранилище, в которое вы внесли свои mooТокены, и оно покажет вам, сколько токенов вы получили.
 
-## I can no longer see my deposited tokens in the Boosted vault!
+## Мои токены не отображаются в хранилище с бустом!
 
-No worries! Your deposited tokens are safe and never left the Boosted vault. Since you have deposited your mooTokens \(vault receipts\) in one of our Launchpools, the main boosted vaults can no longer read the receipt in your wallet, hence it shows you zero. As soon as you are finished with a Launchpool, you withdraw your mooTokens \(receipts\) back to your wallet and your initial vault deposit will show up again.
+Не беспокойтесь! Ваши токены в безопасности, и они не были выведены из хранилища. Так как вы внесли свои mooТокены \(квитанция хранилища\) в одно из хранилищ Лаунчпула, главное хранилище с бустом не может считывать данные с токенов в вашем кошельке, по причине того, что их там нет. Как только вы выведите свои mooТокены \(квитанция\) из хранилища Лаунчпула на кошелек, хранилище с бустом вновь будет отображать сумму внесенных токенов.
 
-## What are mooTokens?
+## Что такое mooТокены?
 
-A mooToken can be seen as a receipt that you get when depositing into any Beefy vault. This is a fully automatic process. For example, you receive mooBifi tokens from depositing $BIFI into the Beefy Maxi vault. These mooTokens do not 1:1 represent the token amount initially deposited but it does represent the value of your share in the vault. As a vault generates profit, the amount of mooTokens in your wallet remain constant while the underlying invested token amount in the vault increases. Whenever you want to withdraw the tokens that are staked for you in the vault, you need your receipt \(mooTokens\) which you hand in to redeem the deposited tokens + yield. Beefy.Finance users should hold on tightly to the mooTokens i.e. deposit receipts and not sell or exchange them to strangers or you will lose ownership of your staked assets in the vault.
+MooТокен можно представить как квитанцию, которая подтверждает, что вы внесли средства в хранилище Beefy. Процесс выдачи этого токена полностью автоматизирован. Например, вы получаете токены mooBIFI за то, что внесли токены $BIFI в хранилище Beefy Maxi. Эти mooТокены не равны в соотношении 1:1 изначально внесенным токенам. Они показывают вашу долю в хранилище. По мере того, как хранилище приносит прибыль, количество внесенных вами изначально токенов увеличивается, в то время как количество mooТокенов остается неизменным. Если вы хотите вывести ваши токены из хранилища, то вам необходимо вернуть квитанцию \(mooТокены\), чтобы получить обратно внесенные изначально токены + прибыль. Пользователи Beefy.Finance должны быть внимательны с mooТокенами, а именно, ни при каких обстоятельствах не продавать и не обменивать их на бирже и ни в коем случае никому их не переводить. В противном случае пользователь утратит право владения внесенными в хранилище токенами.
 
-## How long will the Boosted vault last?
+## Как долго длятся хранилища с бустом?
 
-Since we introduce multiple partner vaults at different times, there is a timer shown on each partner vault. This is nothing you really need to keep track of since you can always come back after a vault is finished and withdraw then.
+Так как мы запускаем сразу несколько хранилищ от партнеров в разное время, то мы добавили таймер к каждому такому хранилищу. При этом от вас не требуется постоянно следить за таймером. Вы всегда можете дождаться, когда буст закончится и вывести свои средства после.
+## Должен ли я вручную выводить средства из лаунчпул-хранилища после его завершения?
 
-## Do I have to manually unstake from the Launchpool vault when it is finished?
+Да! После завершения лаунчпул-хранилища, вы можете в любой момент зайти на вкладку Лаунчпул и вывести все mooТокены вместе с токенами партнера.
 
-Yes! Just come back after a partner vault is finished and you can unstake your deposited MooTokens together with the partner tokens, at any time.
+## Могу ли я внести средства сразу в несколько Лаунчпул-хранилищ?
 
-## Can I enter multiple Launchpool vaults at once?
+Конечно! Для этого вам нужно сначала внести свои средства во все интересующие вас хранилища с бустом, после чего внести полученные mooТокены \(квитанции\) в лаунчпул-хранилища. Вам нужно повторить эти действия с каждым хранилищем с бустом и с лаунчпул-хранилищем, которые вас интересуют.
 
-Absolutely! Just deposit the required tokens in one or multiple of our boosted vaults, one by one, and then deposit your mooTokens \(vault receipts\) in the accompanied partner vaults. Repeat this step for every boosted partner vault you want to be a part of.
+## А безопасны ли эти хранилища от партнеров?
 
-## Are these partner vaults safe to use?
+Да! Хранилища от партнеров полностью безопасны, так как используют платформу Beefy Finance. Beefy берет токены у партнера и использует их в качестве поощрения в хранилищах. А mooТокены, которые вы вносите в лаунчпул-хранилища, остаются на платформе Beefy.
 
-Yes! These partner vaults are hosted by Beefy and are completely safe. Beefy has gotten tokens from our partners and uses our own vaults for the reward. Those mooTokens your stake doesn’t leave Beefy.
+## Буду ли я получать прибыль с обычного хранилища, если я внесу свои mooТокены в лаунчпул-хранилище?
 
-## If I enter a partner vault with my mooTokens, will I still earn the ordinary vault reward?
+Да! Токены, внесенные вами в обычные хранилища, включая те, что без буста, будут приносить вам прибыль, и эта прибыль будет реинвестироваться. В лаунчпул-хранилища вы вносите "квитанцию", подтверждающую внесение вами средств в обычное хранилище. Вне лаунчпул-хранилищ эти токены не могут быть использованы. Пользуясь лаунчпул-хранилищем, вы получаете как токены с обычного хранилища, так и токены платформы-партнера.
 
-Yes! The ordinary tokens you deposited in our main vaults even if it’s boosted will earn the ordinary reward and be compounded as usual. What you place in these partner vaults is your “receipt” from the ordinary vault that normally is worth nothing. By using these partner vaults, you earn both tokens on the ordinary vault and tokens from our partner vaults.
+## Почему показатель APY и ставка в день не сходятся?
 
-## Why is APY and Daily rates not matching?
+Потому что APY и APR (процентная ставка) — это разные вещи. APR — это “Годовая Процентная Ставка”, обладающая фиксированным значением. Beefy отображает APR деля его на 365 дней. Таким образом получается “ставка в день”. APY, в свою очередь — это “Годовая Процентная Доходность”, которая показывает доход в день с учетом реинвестирования прибыли. Beefy собирает и реинвестирует прибыль несколько раз в день, в результате чего отображаемая годовая процентная доходность (APY) гораздо выше годовой процентной ставки (APR).
 
-That’s because APR and APY show two different things. APR means “Annual Percentage Rate” and is a fixed rate. Beefy shows APR by dividing the annual yield into 365 days and presents that to you as “Daily”. APY on the other hand means “Annual percentage yield” which is when you take the daily yield and compound it. Beefy compounds your rewards automatically most of the time multiple times a day, this makes the APY much higher than a yearly APR would be.
+## Почему APY не равен тому значению, которое было, когда я внес средства?
 
-## How come the APY shown when deposited is not the same now?
+APY — это “Годовая процентная доходность” то есть ваш доход, накапливаемый ежедневно. Ваш ежедневный доход, в свою очередь зависит от таких факторов как доход в день и общая сумма токенов, между которыми этот доход распределяется. Чем больше людей вносят свои средства \(токены\) в пул, тем меньше ежедневный доход (APY) каждого из них. Это же правило действует и в обратную сторону: чем больше людей выводят свои средства \(токены\) из пула, тем меньше становится тех, между кем делится фиксированный ежедневный доход, соответственно доход в день (APY) увеличивается.
 
-APY is the “Annual percentage yield” and is your daily yield compounded. The daily yield in turn is based on factors such as the yield rate and the total amount deposited that share this yield. When more people and in turn tokens enter the pool, the fixed yield is shared by more people \(tokens\) hence the daily yield will become lower and in turn, lower the APY. In the same way, if people \(tokens\) exit the vault, there are fewer people \(tokens\) sharing the fixed reward and the daily yield will increase and in turn, APY will increase.
+## Безопасны ли проекты и токены, продвигаемые в лаунчпул-хранилищах?
 
-## Are the promoted project and its tokens safe?
+Beefy всегда старается всесторонне проверять проект, чтобы понять, насколько он прозрачен и безопасен, перед тем как вступать в партнерство.  Перед тем как добавить хранилища проекта-партнера на платформу, мы изучаем исходный код на предмет наличия уязвимостей. Несмотря на все проводимые мероприятия, мы не можем на 100% быть уверены в партнере, следовательно только вы можете принять взвешенное решение насчет того, стоит ли поддерживать тот или иной проект. Beefy не может и не берет на себя ответственность за ваши личные действия.
 
-When partnering with a certain project, Beefy always tries to make an overall check of the project to get a sense of its sincerity and safety. Before adding vaults that are hosted by the partnering project, we also try to look for vulnerabilities in the code. Despite all this, we can never be 100% sure about a partner, hence it’s up to you to make sure that the partnering project is a project that you want to support. Beefy cannot, and will not take any responsibility for your personal actions.
+## Как постоянно получать BNB?
 
-## How to earn free BNB indefinitely?
-
-Buy our own token $BIFI, and stake it here in the BIFI Gov pool and you will earn part of every harvest done on all our vaults, every day.
+Купите наш токен $BIFI, и внесите его в пул управления BIFI. Вы будете ежедневно получать доход в BNB со каждого сборы прибыли со всех хранилищ на платформе.
 

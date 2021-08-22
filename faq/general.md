@@ -1,42 +1,41 @@
-# General
+# Общие сведения
 
-## Is Beefy audited?
+## Проводился ли аудит Beefy?
 
-Our first auditor was DefiYield, which audited $BIFI token, the RewardPool and all the timelocks.
+Первый аудит был проведен компанией DefiYield. Проверены были контракт токена $BIFI, контракт RewardPool и все контракты, отвечающие за задержки при внесении изменений в другие контракты, цель которых дать пользователям время, чтобы отреагировать на соответствующие изменения.
 
-Beefy now is also audited by Certik, which guarantees the robustness of our smart contracts and the safety of funds invested through Beefy. Certik has already provided audits for such projects as Ocean Protocol, NEO, Ontology, and Waves.
+Теперь и Certik провела аудит Beefy, что гарантирует защищенность наших смарт-контрактов и безопасность инвестированных средств. Certik также провела аудиты таких проектов, как Ocean Protocol, NEO, Ontology, и Waves.
 
-Certik has audited some of the most complex and reusable investment strategies used within the platform. This ensures the safety and sturdiness of important platform aspects that the majority of our users interact with.
+Кроме того, Certik провела аудит некоторых наиболее сложных и часто используемых инвестиционных стратегий в рамках всей нашей платформы. Данный факт подтверждает безопасность и устойчивость наиболее важных частей платформы, с которыми ежедневно взаимодействует большая часть наших пользователей.
 
-[All Beefy audits can be found here.](https://github.com/beefyfinance/beefy-audits)
+[Все аудиты Beefy можно найти по этой ссылке.](https://github.com/beefyfinance/beefy-audits)
 
-## What is a yield optimizer?
+## Что из себя представляет платформа по оптимизации доходности (далее оптимизатор доходности)?
 
-A yield optimizer is an automated service that seeks to gain the maximum possible return on crypto-investments, much more efficiently than attempting to maximize yield through manual means.
+Оптимизатор доходности — это автоматизированная программа, которая стремится максимизировать доход по крипто-инвестициям и делает она это гораздо эффективнее, чем человек вручную.
 
-Each vault has its own unique strategy for farming, which normally involves the reinvestment of crypto assets staked in liquidity pools. At the most simple level, it farms the rewards given from staked assets and reinvests them back into the liquidity pool. This compounds the amount of interest received and increases the amount staked that the yield is based on. A yield optimizer can repeat this up to process up to thousands of times a day.
+Каждому хранилищу присуща уникальная стратегия доходного фермерства, которая обычно включает в себя реинвестирование криптоактивов обратно в активы пула ликвидности. Проще говоря, стратегия собирает прибыль, полученную в результате доходного фермерства, затем реинвестирует эти токены обратно в пул ликвидности. Такая механика, с одной стороны, увеличивает сумму средств, находящихся в пуле ликвидности, а с другой, увеличивает прибыль, получаемую от доходного фермерства. Оптимизатор доходности может совершать эту операцию до тысячи раз в день.
 
-This fairly simple method is the principle reason behind the large APYs found on Beefy. Compounding fees are amortized among all vault participants, making it cheaper for the user.
+Этот простой метод и является главной причиной высокого показателя APY в хранилищах Beefy. Комиссии, взимаемые за эти операции, разделяются между всеми участниками хранилища, что значительно удешевляет стоимость реинвестирования для конечного пользователя.
 
-## What’s the difference between APR and APY?
+## В чем разница между APR и APY?
 
-APR \(Annual Percentage Rate\) is the yearly interest, minus fees. This does not include compounding effects that occur from reinvesting profits. If you were to invest $100 with 100% APR, you would make $100 in profit in a year time.
+APR \(Годовая Процентная Ставка\) — это годовой процент с вычетом комиссий. В данном случае отсутствует эффект сложения процентов, который получается от реинвестирования прибыли. Если вы вложили $100 при APR 100%, через год прибыль по вкладу составит $100.
 
-If you however reinvest your profits regularly, you will compound your interest. This calculated over a year gives you your APY \(Annual Percentage Yield\). The more often you compound your interest, the greater the difference between APR and APY.
+Если же вы регулярно реинвестируете прибыль, то процент будет складываться. В годовом выражении этот процент составит APY \(Годовую Процентную Доходность\). Чем чаще вы реинвестируете прибыль, тем больше будет разница между APR и APY.
 
-## How does APY work?
+## Как работает APY?
 
-APY is the annual percentage yield offered from a particular investment. This takes into account compound interest, giving you an accurate idea of your returns compared to simple interest.
+APY — это годовая процентная доходность по вложению. Этот показатель учитывает сложный процент, позволяя вам сравнить доходность с аналогичной при простом проценте.
 
-Large APYs in the percentage of thousands are possible with investments that provide daily yields of 1% or more. Due to your liquidity pool rewards being constantly farmed and reinvested, the interest compounds on larger and larger amounts.
+Высокие показатели APY равные тысячам процентов возможны в случае, если доходность по инвестиции составляет 1% в день и более. Так как получаемые с пула ликвидности токены постоянно собираются и реинвестируются, процент складывается во все большее и большее значение.
 
-## What do Vault Daily and Trading Daily mean?
+## Что означают Прибыль хранилища в день и Прибыль от торгов в день?
 
-Trading Daily means how much your liquidity tokens will increase in value. Liquidity pools share trading fees amongst all liquidity providers, as introduced by the [Uniswap liqudity model](https://uniswap.org/docs/v2/advanced-topics/fees/). Trading Daily is affected by trading volume and the percentage of swap fees allocated to liquidity providers.
+Прибыль от торгов в день указывает на то, насколько увеличится стоимость ваших токенов пула ликвидности за день. Пулы ликвидности распределяют комиссии от торгов между теми, кто предоставляет ликвидность. Принцип работы описан в [модели пула ликвидности Uniswap](https://uniswap.org/docs/v2/advanced-topics/fees/). На прибыль от торгов в день влияют такие показатели, как объем торгов и часть комиссий, которые распределяются между теми, кто предоставляет ликвидность.
 
-Vault Daily means how much your token will increase in number. Due to the vault constantly farming rewards, and reinvesting that, your deposited token amount will increase. Vaily Daily is affected by the yield farm rewards \(i.e. additional incentives besides trading fees\), such as CAKE on Pancakeswap.
+Прибыль хранилища в день указывает на то, насколько увеличится количество внесенных токенов за день. Так как хранилище постоянно собирает прибыль от доходного фермерства и реинвестирует ее, количество внесенных токенов будет расти. На прибыль хранилища в день влияет прибыль от доходного фермерства \(дополнительное поощрение помимо комиссий от торгов\), например токены CAKE на Pancakeswap.
 
-## How can I find out how much earnings I have accumulated?
+## Как мне узнать, сколько прибыли я получил?
 
-You can use a DeFi dashboard that will be able to calculate exactly how much profit you have made on your investments. External tools such as [Yieldwatch](https://yieldwatch.net/) for BSC or [PolygonDex](https://polygondex.com/track/yield/yieldMeBroDawg.aspx) for Polygon will connect to your wallet and give you an accurate picture of your initial investment and current earnings.
-
+Вы можете использовать приложения-панели управления DeFi, которые в точности посчитают сколько прибыли вы получили по инвестициям. Для того, чтобы посмотреть сумму первоначального вложения и текущую прибыль подключите свой кошелек к таким приложениям от сторонних разработчиков, как [Yieldwatch](https://yieldwatch.net/) на сети BSC или [PolygonDex](https://polygondex.com/track/yield/yieldMeBroDawg.aspx) на сети Polygon.
