@@ -1,109 +1,108 @@
-# Vaults
+# Хранилища
 
-## What is a Vault?
+## Что такое хранилище?
 
-Vaults are investment instruments that employ a specific set of strategies for yield farming. They make use of automation to continually invest and reinvest deposited funds, which help to achieve high levels of compounded interest. Vaults are the core of the Beefy.Finance ecosystem. In a Beefy vault, you earn more of the asset you stake in it regardless if this is an liquidity pool \(LP\) token or a single asset. For example, vaults where one can stake BTC-BNB LP will result in more BTC-BNB LP over time, effectively growing your share in the vault and thus allowing for more and more rewards over time.
+Хранилища — это инвестиционные инструменты, которые используют определенный комплекс стратегий в доходном фермерстве. В них применяется автоматизация процессов, которая позволяет постоянно реинвестировать средства, что помогает достигнуть максимизации сложного процента. Хранилища занимают ключевую роль в экосистеме Beefy.Finance. В хранилище Beefy вы получаете прибыль в тех же токенах, которые вы внесли, вне зависимости от того внесли ли вы парные токены пула ликвидности \(LP\) или один токен. Например, если вы внесли парные токены BTC-BNB LP, то со временем количество токенов BTC-BNB LP будет увеличиваться, что приведет к увеличению вашей доли в пуле ликвидности, увеличивая таким образом прибыль, получаемую с позиции.
 
-Despite the name 'Vault' suggests, user funds are never locked in any vault on Beefy.Finance. One could always withdraw from a vault at any moment in time. Beefy.Finance also does not own user funds staked in vaults. However, it is generally best to view vaults as investment tools to store funds for the medium to long term in order to have the effects of compounding really kick in.
+Термин "Хранилище" не предполагает централизованного хранения ваших средств в каком-либо хранилище Beefy Finance. Вы всегда в праве вывести свои средства в любой момент. Кроме того, Beefy.Finance не владеет средствами, внесенными в хранилища. Однако для того, чтобы ежедневная капитализация процентов оказывала значительное влияние на итоговую прибыль, разумно рассматривать хранилища как инструмент среднесрочного и долгосрочного инвестирования.
 
-When browsing the vaults on the platform, you will see the annual percentage yield \(APY\), which takes the frequent compounding into consideration compared to annual percentage rate \(APR\) which does not. You will also see daily interest percentages and the total amount invested in a vault by all users \(TVL\). Furthermore, one can see what underlying platform the vault is using as a source of revenue.
+Если вы просмотрите хранилища на сайте платформы, то заметите на карточках хранилищ такие показатели, как годовая процентная доходность \(APY\), которая учитывает сложный процент с реинвестированием и годовую процентную ставку \(APR\), которая её не учитывает. Вам также доступна информация о текущей ставке в день и об общей стоимости внесенных средств в хранилище \(TVL\). Более того, вы можете посмотреть какая платформа используется хранилищем.
 
-Each vault can either refer to a pair of tokens invested in liquidity pools, such as CAKE-BNB LP tokens within the Binance Smart Chain ecosystem, or a single token invested in lending platforms or single stake reward pools. After depositing tokens to a vault, the user is supplied with vault specific mooTokens which represent their share in the vault. We will elaborate on mooTokens in the next section.
+Каждое из хранилищ может основываться как на паре токенов, внесенных в пул ликвидности, например CAKE-BNB LP токены, в рамках экосистемы Binance Smart Chain ecosystem, так и на одном токене, внесенном на платформу по криптозаймам или в стейкинг-пул. После внесения токенов в хранилище пользователь получает специальные mooТокены (mooTokens), которые показывают его долю в хранилище. В следующем разделе мы подробнее разберем, что из себя представляют mooТокены.
 
-Anyone in the Cowmoonity can work together to build new strategies and submit them to governance for voting. We look at vault requests via our official forum where anyone is free to submit [vault requests](https://forum.beefy.finance/c/vault-requests).
+Каждый в нашем сообществе можете участвовать в разработке новых стратегий и выдвигать их на голосование. Мы рассматриваем предложения о добавлении новых хранилищ на нашем форуме [предложения хранилищ](https://forum.beefy.finance/c/vault-requests).
 
-Summarizing, vaults can:
+Таким образом, хранилища могут:
 
-* Efficiently execute yield farming strategies.
-* Compound rewards into the initially deposited token amount.
-* Use any asset as liquidity.
-* Provide one asset as collateral for another.
-* Manage collateral at a safe level to mitigate liquidation.
-* Put any asset to work to generate a yield.
-* Reinvest earned profits.
+* Эффективно использовать стратегии доходного фермерства.
+* Увеличивать количество первоначально внесенных токенов за счет поощрений, выплачиваемых в других токенах.
+* Использовать любой актив в качестве ликвидности.
+* Предоставлять один актив в качестве обеспечения для другого.
+* Управлять обеспеченной долговой позицией таким образом, чтобы избежать ликвидации.
+* Использовать любой актив для получения дохода.
+* Реинвестировать полученную прибыль.
 
-## **What are mooTokens?**
+## **Что такое mooТокены?**
 
-A mooToken can be seen as a receipt that you get when depositing into any Beefy vault. This is a fully automatic process. For example, you receive mooBIFI tokens from depositing $BIFI into the Beefy Maxi vault. These mooTokens do not 1:1 represent the token amount initially deposited but it does represent the value of your share in the vault. As a vault generates profit, the amount of mooTokens in your wallet remain constant while the underlying invested token amount in the vault increases. Whenever you want to withdraw the tokens that are staked for you in the vault, you need your receipt \(mooTokens\) which you hand in to redeem the deposited tokens + yield. Beefy.Finance users should hold on tightly to the mooTokens i.e. deposit receipts and not sell or exchange them to strangers or you will lose ownership of your staked assets in the vault.
+MooТокен можно представить как квитанцию, которая подтверждает, что вы внесли средства в хранилище Beefy. Процесс выдачи этого токена полностью автоматизирован. Например, вы получаете токены mooBIFI за то, что внесли токены $BIFI в хранилище Beefy Maxi. Эти mooТокены не равны в соотношении 1:1 изначально внесенным токенам. Они показывают вашу долю в хранилище. По мере того, как хранилище приносит прибыль, количество внесенных вами изначально токенов увеличивается, в то время как количество mooТокенов остается неизменным. Если вы хотите вывести ваши токены из хранилища, то вам необходимо вернуть квитанцию \(mooТокены\), чтобы получить обратно внесенные изначально токены + прибыль. Пользователи Beefy.Finance должны быть внимательны с mooТокенами, а именно, ни при каких обстоятельствах не продавать и не обменивать их на бирже и ни в коем случае никому их не переводить. В противном случае пользователь утратит право владения внесенными в хранилище токенами.
 
-## **How often do the vaults harvest their profits and reinvest?**
+## **Как часто хранилища собирают и реинвестируют прибыль?**
 
-Vaults are normally harvested multiple times daily and profits are automatically reinvested \(compounded\). Larger vaults, such as our BSC $CAKE vault, are harvested even more frequently. You can check the harvesting and compounding rate of a vault using [this how-to guide](../how-to-guides/how-to-check-harvesting-compounding-rate.md).
+Как правило, прибыль собирается несколько раз в день и реинвестируется автоматически \(накапливается\). Крупные хранилища, такие как хранилище $CAKE на сети BSC, собирают прибыль (и реинвестируют) еще чаще. Вы можете проверить частоту сбора и реинвестирования хранилища [при помощи этого руководства](../how-to-guides/how-to-check-harvesting-compounding-rate.md).
 
-## Why can't someone just do this themselves?
+## Почему бы не делать все это вручную?
 
-They could, but vaults help you save on personal time and transaction fees, maintain healthy collateral to debt ratios, self-optimize for the best possible yields, and automatically reinvest earnings. Attempting to do this manually would result in large inefficiencies. At Beefy we like to say: "Sit back and relax, the vault does all the work for you."
+Вы, конечно, можете заниматься этим вручную, но хранилища: помогают вам экономить время и уменьшают расходы на транзакции; удерживают коэффициент обеспечения долговых позиций в пределах безопасных значений; оптимизируют стратегии для максимизации прибыли и автоматически реинвестируют прибыль. Попытка осуществить все эти действия вручную окажется весьма неэффективной. Один из наших слоганов в Beefy звучит следующим образом: "Просто расслабься и наслаждайся, пока хранилища выполняют всю работу за тебя."
 
-## **What is the vault fee structure?**
+## **Какова структура комиссий хранилищ?**
 
-Most vaults have a performance fee structure, taking 4.5% of harvest rewards. This 4.5% on profits is again split up: 3% is distributed back to the reward pool and to $BIFI stakers, 0.5% is allocated to treasury, 0.5% is for the strategist that developed the vault and 0.5% for the one calling the harvest function. These fees are already built into the APY of each vault and daily rate. You do not need to calculate these yourself.
+Большинство хранилищ в Beefy.Finance взимают комиссию в размере 4.5% с наград за каждый сбор прибыли. Эти 4.5% распределяются следующим образом: 3.0% распределяется между теми, кто стейкает $BIFI, 0.5% идет в казну Beefy Finance, 0.5% идет разработчику стратегии хранилища и 0.5% сборщику прибыли. Все эти комиссии уже учтены при расчете показателя годовой процентной доходности (APY) и ставки в день. От вас не требуется самостоятельно просчитывать их.
 
-The performance fee on additional yield i.e. vault profits is largely distributed back to $BIFI stakers and is the main source of Beefy.Finance's platform revenue. A part of it also funds the treasury which is used to further fund platform development and security and other initiatives. The performance fee was also implemented to promote community engagement and governance participation. A successful and engaged community is critical for our future growth, which in-turn rewards platform users even more.
+Комиссия за управление средствам, то есть комиссия, взимаемая с прибыли хранилища, почти вся распределяется среди тех, кто стейкает токены $BIFI, оставаясь при этом главным источником дохода платформы Beefy.Finance. Часть идет в казну, средства из которой используются для дальнейшего развития платформы, обеспечения безопасности и на реализацию других инициатив. Эта комиссия позволяет также увеличивать вовлеченность сообщества в развитие платформы и стимулирует пользователей участвовать в управлении. Вовлеченное и активное сообщество — это ключ к нашему развитию в будущем, который в конечном итоге принесет еще больше прибыли пользователям платформы.
 
-Furthermore, vaults have a withdrawal fee. The main purpose of this fee is to prevent possible exploits from bad-faith actors. Without the fee, somebody could deposit just before the harvest\(\) function execution and withdraw straight after that event, taking a % of the gains generated by legitimate stakers. Withdrawal fees stay in the vault and are shared amongst vault funds.
+Кроме того, в хранилищах предусмотрена комиссия за снятие средств. Главная цель этой комиссии — предупредить возможные уязвимости, которыми могут воспользоваться злоумышленники. При условии отсутствия этой комиссии, любой мог бы внести средства перед исполнением функции сбора\(\) прибыли, а затем вывести средства сразу после исполнения функции, забрав таким образом часть прибыли добросовестных вкладчиков. Вся сумма от этой комиссии остается в хранилище и распределяется между теми, кто внес средства в хранилище.
 
-### Special vaults
+### Особые хранилища
 
-The Pure CAKE vault, released 14 June 2021, has 0% deposit fee, 0% withdrawal fee, 0% call fee, 0% treasury fee and 0% strategist fee. There is only a performance fee, that goes directly to BIFI Maxi stakers, of 1%. To eliminate bad actors from stealing harvest rewards, the Pure CAKE vault harvests directly before a user deposits their CAKE.
+Хранилище Pure CAKE было запущено 14 июня 2021 г. В нем отсутствуют комиссии за ввод и вывод средств, а также за сбор прибыли, на взнос в казну и на плату разработчику стратегии хранилища. Комиссия взимается в размере 1% только за управление средствами и сразу идет тем, кто стейкает токены $BIFI в хранилище BIFI Maxi. Для того, чтобы предотвратить возможность со стороны злоумышленников собирать прибыль, сбор прибыли в хранилище Pure CAKE осуществляется автоматически перед тем, как пользователь вносит в него свои CAKE.
 
-## **Does the performance fee get taken out when I withdraw my funds?**
+## **Взимается ли комиссия за управление средствами когда я вывожу средства?**
 
-* No, the performance fees are on profits and are taken every time someone calls the harvest\(\) function.
+* Нет, комиссия за управления средствами взимается с прибыли каждый раз, когда кто-либо осуществляет ее сбор.
 
-## Does the vault page show the APY?
+## Отображает ли веб-страница хранилища APY?
 
-Yes. Our displayed APY values reflect the predicted rate earned on a vault in a year. This rate is determined by the underlying platform it uses, the strategy that it is interacting with at the time, the total amount of funds in the vault and also takes into account the effect of compounding. As a unique feature, we have also included all vault fees in the APY calculation. What you see is what you get!
+Да. Отображаемая APY, показывает предполагаемую процентную доходность хранилища за год. Значение APY зависит от: платформы, используемой хранилищем; стратегии хранилища; общей суммы средств в хранилище и влияния капитализации процентов. Кроме того, хранилища показывают APY уже с вычетом всех комиссий. На Beefy вся отображаемая информация всегда соответствует действительности!
 
-## What risks do the vaults have?
+## Какие риски сопряжены с использованием хранилищ?
 
-Beefy vaults are audited, but this does not mean that a vault is entirely risk free. Below are some of the general vault risks:
+Хранилища Beefy проверены аудиторскими компаниями, но это не освобождает их от определенных рисков, которые будут описаны ниже:
 
-* Assets deposited into the vault have no risk of decreasing in quantity but can decrease in monetary value.
-* As with any smart contract, the ultimate risk is that an investor's funds can end up stolen or unable to be withdrawn. The team does take steps to quantify the security risks of smart contracts and only will interact with ones that meet a specific set of requirements after excessive testing to make sure the underlying platform does not contain so called 'rug-pull' functions. 
+* Количество активов не может уменьшится после того, как вы внесли их в хранилище, но может упасть их стоимость в денежном выражении.
+* В любом смарт-контракте может быть найдена уязвимость. Следовательно, главный риск состоит в том, что все средства инвестора могут быть украдены, либо застрянут в хранилище. Команда предпринимает все необходимые шаги для того, чтобы просчитать все возможные риски, связанные со смарт-контрактами, и взаимодействует только с теми из них, которые соответствуют ряду требований и проходят всеобъемлющее тестирование с целью исключить использование хранилищем платформы, опирающейся на смарт-контракт, который имеет скрытые функции вывода всех средств (rug pull) инвесторов. 
 
-More detailed vault risks, or better yet, information on Beefy's vault safety expressed by the Beefy Safety Score can be found here: [Beefy Safety Score](../beefy-safety-score.md).
+Более детальную информацию о рисках, сопряженных с хранилищами, можно найти в Рейтинге безопасности хранилищ Beefy: [Рейтинг безопасности хранилищ Beefy](../beefy-safety-score.md).
 
-## **What are the different vaults?**
+## **В чем главное отличие разных хранилищ?**
 
-* **Money Market :** Utilizes lending platforms, such as Venus on BSC, to generate the highest possible yield for these coins \(e.g. BUSD, BNB, LINK, DOT, DAI, USDT, ETH, or BTCB\). 
-* **Native Token Farming :** Takes advantage of the high yield on popular farms by depositing another asset to earn, sell and compound profits of the native reward token.
+* **Рынок криптозаймов :** Хранилища используют платформы по криптозаймам, такие как Venus на сети BSC, чтобы получать максимальную прибыль по криптовалютам \(то есть BUSD, BNB, LINK, DOT, DAI, USDT, ETH, или BTCB\). 
+* **Доходное фермерство в нативных токенах платформы :** Хранилища извлекают высокую прибыль из популярных платформ доходного фермерства. Они вносят средства в эти платформы, собирают прибыль в нативных токенах, а затем обменивают эту прибыль на токены, внесенные изначально и вносят их обратно в депозит.
 
-## What will I get out when I make a vault withdrawal?
+## Какие токены я получу обратно, если выведу средства из хранилища?
 
-You will always withdraw the token type that you deposited, because at Beefy you earn what you stake. You will get the amount you deposited plus the yield generated minus the vault withdrawal fees.
+Вы в любом случае получите те же токены, которые внесли изначально, так как на Beefy вы получаете прибыль в тех же токенах, в которых вы инвестировали. Вы получите ровно то количество токенов, которое было внесено изначально вместе с прибылью за вычетом комиссий.
 
-## **How do LP vaults work?**
+## **Как работают хранилища с токенами пула ликвидности (LP)?**
 
-Liquidity pool \(LP\) vaults work by reinvesting the fees awarded to LP participants. In return for providing liquidity to the pool, many platforms reward investors with tokens. Our vaults regularly harvest these rewards, sell it, buy more of the LP’s underlying assets, and then reinvest to complete the cycle.
+Хранилища с токенами пула ликвидности \(LP\) реинвестируют комиссии от торгов, распределяемые между теми, кто предоставляет ликвидность. В качестве поощрения за предоставление ликвидности многие платформы распределяют свои нативные токены. Наши хранилища регулярно собирают эти поощрения, продают их и покупают все больше токенов, составляющих токен пула ликвидности, а затем реинвестируют их для завершения цикла.
 
-This compounds the rewards gained from a liquidity pool. Beefy.Finance creates strategies that automate this process, saving you time and gas fees in comparison to farming manually. This is all done for a tiny fee that is distributed back to those who stake in Beefy's governance pool or in the BIFI Maxi vault. A small percentage also goes to the Beefy Finance treasury.
+Этот процесс накапливает поощрения, полученные с пула ликвидности. Beefy.Finance разрабатывает стратегии, которые автоматизируют этот процесс, экономя ваше время и деньги. И все это осуществляется за небольшую плату в виде комиссии, которая распределяется между теми, кто стейкает токены $BIFI в хранилище BIFI Maxi или стейкает их в пуле управления (прибыль в BNB). Кроме того, небольшой процент идет в казну Beefy Finance.
 
-## **How often are balances updated in the vaults?**
+## **Как часто обновляется баланс, отображаемый в хранилищах?**
 
-* Pending rewards are not reflected in the balance until they are swapped for the initial deposited token. This can vary depending on the strategy running. 
+* Прибыль в нативных токенах, которая еще не обменяна и не реинвестирована обратно в хранилище — не отображается в балансе. Частота обновления баланса зависит от используемой хранилищем стратегии. 
 
-## **Why do I have less mooToken than the amount of tokens I deposited?**
+## **Почему количество mooТокенов меньше, чем количество внесенных мною токенов?**
 
-* The mooTokens represent the share of the Vault the user has. As the vaults generate profit, the amount of shares \(mooToken\) remain constant, and the underlying token amount increases. 
-* There generally are no deposit fees, so the amount of tokens you deposit is maintained the second after you deposited. That amount should increase over time as the strategy generates profit.
+* MooТокены — это доля в хранилище, в которое пользователь внес свои средства, а не сами внесенные токены. В то время как хранилище получает прибыль, количество \(mooТокенов\) остается неизменным, а количество внесенных токенов — растет. 
+* Как правило, при внесении средств комиссия не взимается. Количество внесенных токенов будет увеличиваться со временем, так как стратегия, применяемая хранилищем, приносит прибыль.
 
-## **How do vaults get added to Beefy.Finance?**
+## **Каким образом новые хранилища появляются на Beefy.Finance?**
 
-New potential vaults can be discussed in our Discord in the \#whiteboard channel. Our strategists then add the potential investment strategy to our strategy list. A priority is assigned to each new, potential strategy based on its APY, TVL and sustainability. Our developers/strategists then attack the list from top priority to bottom. The official forum is used for submitting actual [vault requests](https://forum.beefy.finance/c/vault-requests).
+Обсуждение возможности добавления новых хранилищ проходит на канале \#whiteboard нашего сервера Discord. Затем наши разработчики стратегий добавляют потенциальную инвестиционную стратегию в список стратегий. После этого, каждой потенциальной стратегии присуждается приоритет в зависимости от показателя APY, общей стоимости внесенных средств и надежности. В конце наши программисты и разработчики стратегий берутся за выполнение списка и запускают новые хранилища, начиная с тех, которые обладают высшим приоритетом. Официальный форум используется для [предложения новых хранилищ](https://forum.beefy.finance/c/vault-requests).
 
-## **What’s your vault naming process?**
+## **Каким образом хранилищам присуждается наименование?**
 
-Each vault on the platform is named after the token that users can deposit in it. For example, the CAKE-BNB LP vault uses CAKE-BNB LP tokens for its investment strategy. A BTC vault uses the BTC token, etc.
+Каждое хранилище на платформе получает имя токена, который пользователь может в него внести. Например, хранилище CAKE-BNB LP использует токены CAKE-BNB LP в своей инвестиционной стратегии. Хранилище BTC использует BTC, и т.д.
 
-Underneath the vault name, you can find the platform used for investing the token and farming its yields. For example, Uses: Venus means that that particular vault invests the token in Venus, a DeFi algorithmic money market and synthetic stablecoin protocol.
+Под наименованием хранилища можно найти имя платформы, которая используется для получения прибыли. Например, Использует: Venus — означает, что это хранилище инвестирует токены в Venus, то есть в платформу по криптозаймам, обладающую своим синтетическим стейблкоином.
 
-## **How do Aave and Venus vaults work?**
+## **Как работают хранилища Aave и Venus?**
 
-Aave and Venus are decentralized marketplaces for lenders and borrowers. By depositing your initial asset in the vault, Beefy deposits it into Aave or Venus and borrows against your token. This is done at safe levels of collateral.
+Aave и Venus — это децентрализованные рынки для заемщиков и кредиторов. Когда вы вносите свои средства в эти хранилища, Beefy вкладывает их в Aave или Venus, а затем занимает токены, используя внесенные раннее в качестве обеспечения. Эта операция осуществляется в пределах безопасных значений.
 
-The borrowed tokens are then redeposited into the platform, and once again used as collateral to borrow more tokens. This cycle is repeated multiple times to generate as much interest as possible to buy more of your originally deposited assets. It is noteworthy that this "leveraged" multi lending and multi borrowing is only with the native token, so there is no liquidation risk due to token price swings. Also, because of the multi supply/borrow cycle, a transaction fee for these vaults is generally 4x as high as compared to other vaults.
+Заемные токены снова вкладываются в качестве обеспечения, после чего Beefy снова занимает токены. Этот цикл повторяется несколько раз с целью нарастить как можно больше ставку, чтобы купить больше токенов, которые вы изначально внесли. Важно понимать, что такая позиция с "кредитным плечом" производится только с нативным токеном, соответственно риск ликвидации в связи с ростом цены токена — отсутствует. Кроме того, по причине наличия в стратегии многократных операций по внесению/займу токенов, комиссии в этом хранилище, как правило выше в 4 раза по сравнению с обычными хранилищами.
 
-Because of accruing debt/supply interest, one may notice that the deposited token amount may decline ever so slightly in between harvests. After the harvest, you will see your deposited token amount go up as the yields are compounded back into it. The change in deposited token amount over time of typical Aave / Venus style vault looks as follows:
+По причине того, что проценты по внесенным/заемным токенам накапливаются, вы можете обнаружить, что количество внесенных токенов будет незначительно уменьшатся, либо просто перестанет расти между циклами сбора прибыли. После сбор прибыли вы обнаружите, что количество внесенных токенов увеличилось, так как прибыль была реинвестирована обратно. Подобная динамика изменения количества внесенных токенов, типичная для хранилищ Aave / Venus, выглядит следующим образом:
 
-![After a harvest event, the yields are added to the deposited token amount](../../.gitbook/assets/venus-style-vault.png)
-
+![После сбора, прибыль обратно реинвестируется во внесенные токены](../../.gitbook/assets/venus-style-vault.png)

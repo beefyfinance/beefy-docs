@@ -1,28 +1,29 @@
-# Strategies
+# Стратегии
 
-### What is a Vault Strategy?
+### Что такое стратегия хранилища?
 
-Beefy's vault strategies are modular smart contracts that tell it what assets to farm, and where it should sell the farmed assets. Rewards are regularly harvested, swapped for the original vault asset, and deposited again for compound farming.
+Стратегии хранилищ Beefy — это модульные смарт-контракты, которые определяют какие токены зарабатывать и где их продавать. Токены регулярно собираются, обмениваются на токены, внесенные изначально в хранилище и снова вносятся в него.
 
-### **Who is in control of the strategies?**
+### **Кто управляет стратегиями?**
 
-Each vault and strategy link is hardcoded, and the code has been built to be immutable, so once they are released, they become unstoppable. No one can modify the vaults and strategies.
+Каждое хранилище жестко запрограммированно на взаимодействие с конкретной стратегией. При этом программный код невозможно изменить, вследствие чего после запуска хранилища его нельзя остановить. Никто не может изменять стратегии и хранилища.
 
-To release a new strategy on any asset, a new vault and strategy smart contract must be built.
+Для того, чтобы выпустить новую стратегию по какому-либо токену необходимо разработать новый смарт-контракт хранилища и стратегии.
 
-### **How can I make a strategy?**
+### **Как мне принять участие в создании стратегии?**
 
-For now you can post and discuss your strategy in Beefy’s Discord in the \#strategies channel. Detailing what it should buy/sell/farm and what the current APY is. There will be a template to help you get started.
+Вы можете опубликовать свою стратегию на канале \#strategies сервера DIscord Beefy и обсудить ее с сообществом. Расскажите подробно, какой токен, согласно вашей стратегии, будет покупаться/собираться/продаваться и каков показатель APY. Там же вы можете найти шаблон предложения о добавлении стратегии, который упростит вам задачу.
 
-### **What is APR and APY?**
+### **Что такое APY и APR?**
 
-APR reflects the simple interest rate over a year’s time, while APY describes the rate with the effect of compounding**.**
+APR — это номинальная годовая процентная ставка, а APY — это годовая процентная доходность, учитывающая эффект от накопления процентов**.**
 
-### **Is APY/365 the right way to determine daily gains?**
+### **Верно ли делить APY на 365 дней, чтобы получить доход в день?**
 
-No, the effect of compounded interest is exponential, not linear. A daily compounded interest of 1% would yield 3678.34% a year.
+Нет, эффект от накопления процентов растет по экспоненте, а не линейно. Сложный процент в размере 1% принесет прибыль в размере 3678.34% в год.
 
-### **How does Beefy optimize APY?**
+### **Каким образом Beefy оптимизирует APY?**
 
-Beefy automates the whole compounding process, making it close to optimal as possible. The compounding frequency depends on different variables in the system, like TVL, APR and strategy fees.
+Beefy автоматизирует весь процесс сбора прибыли и реинвестирования, что позволяет добиться максимально возможной годовой процентной доходности. Частота сбора прибыли и реинвестирования зависит от таких показателей, как общая стоимость внесенных средств, APR и от размера взимаемых комиссий.
+
 
