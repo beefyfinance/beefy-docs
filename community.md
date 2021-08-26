@@ -1,6 +1,6 @@
-# Cowmoonity & Grill Masters
+# Активные участники сообщества и основная команда
 
-## Grill Masters \(core team\)
+## Grill Masters \(основная команда\)
 
 | 0xbeefy |  |
 | :--- | :--- |
@@ -34,7 +34,7 @@
 
 ## Citadel \(OG Moofians\)
 
-| Member Name | Twitter |
+| Имя члена | Twitter |
 | :--- | :--- |
 | Spitting Nickels | @NickelsSpitting |
 

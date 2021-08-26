@@ -1,6 +1,5 @@
-# Deployed Contract Registry
+# Реестр запущенных контрактов
 
-All Beefy Finance deployed vault contracts on Binance Smart Chain can be viewed on [dashboard.beefy.finance](https://dashboard.beefy.finance).
+Все запущенные контракты хранилищ Beefy Finance на сети Binance Smart Chain могут быть найдены на [dashboard.beefy.finance](https://dashboard.beefy.finance).
 
-One can use this dashboard for example to check the [harvesting and compounding rate of a vault](../faq/how-to-guides/how-to-check-harvesting-compounding-rate.md).
-
+Эту панель управления можно использовать, например для того, чтобы посмотреть как часто [хранилище производит сбор прибыли и реинвестирование](../faq/how-to-guides/how-to-check-harvesting-compounding-rate.md).

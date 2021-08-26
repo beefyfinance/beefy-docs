@@ -1,25 +1,40 @@
 # mooVaults APY
 
-## What is the APY?
+## Что такое APY?
 
-Let's look at a typical yield farm, where they state an APY \(annual percentage yield\) as +100% for example. The traditional definition of APY _**is the real rate of return earned on an investment taking into account the effect of compounding earnings**_. Using this terminology would indicate that the yield farm was compounding earnings for you. That is simply not the case. A more applicable terminology to use would be APR \(annual percentage rate\), meaning the annual rate earned through an investment. By definition this would mean that your 100% yield farm would double your original investment at the end of year 1 without reinvesting any earnings. But what about if you reinvested that entire amount the next year and the year after that?
+Давайте рассмотрим типичный пример доходного фермерства, APY которого \(годовая процентная доходность\) составляет более 100%. Согласно традиционному определению, APY _**— это реальный доход, полученный по инвестиции с учетом сложного процента**_. Согласно этому определению, взятая раннее в качестве примера платформа доходного фермерства рассчитывает вашу прибыль с учетом сложного процента. Но это не так. Речь идет скорее об APR \(годовой процентной ставке\), которая означает процентную ставку в год. По определению из этого следует, что через год ваше доходное фермерство со ставкой 100% в год увеличит сумму инвестиции в два раза. А что, если бы вы реинвестировали всю полученную прибыль на следующий год, а затем повторили бы это действие снова? 
 
-## Understanding Exponential Growth \(Compounding\)
+## Разбираем экспоненциальный рост \(Сложный процент\)
 
-Growth whose rate becomes ever more rapid in proportion to the growing total number or size. The simple formula for this is _**growth = \(1 + r\)^x**_ , where 'r' = return and 'x' = number of 'times'. For example, your money doubles every year if you get 100% yearly return. After 3 years you would have 8x your original investment.
+Экспоненциальный рост — это рост, темпы которого увеличиваются быстрее, чем сумма средств в абсолютных значениях. Формула выглядит следующим образом _**рост = \(1 + r\)^x**_ , где 'r' = доход and 'x' = сколько 'раз'. Например, сумма ваших средств будет увеличиваться в два раза каждый год при ставке 100% годовых. Через 3 года сумма составит значение, которое в 8 раз будет превышать изначальную сумму инвестиции. 
 
-![growth = \(1 + 100%\)^3](../.gitbook/assets/capture%20%282%29.png)
+![рост = \(1 + 100%\)^3](../.gitbook/assets/capture%20%282%29.png)
 
-## Ok, so what REALLY is the APY?
+##  Хорошо, так что же на самом деле есть APY?
 
-A typical investment does not just pay out on a yearly basis, but in smaller terms \(ie: daily, monthly, etc\). For yield farming, returns are even paid out on a per block basis. With an average of 28,800 blocks a day and cheap transaction fees this can allow for a significant amount of exponential growth or compounding of your return. Let's look at how to break that down...
+Как правило, вы не получаете прибыль по инвестициям сразу за год, а получаете ее в более коротких промежутках времени \(то есть за день, за месяц и т.д.\). Но доходное фермерство выплачивает вам прибыль каждый блок. Если учесть, что в день в среднем мы имеем 28,800 блоков, а транзакции дешевые, то очевидно, что мы можем значительно увеличить вашу итоговую прибыль благодаря экспоненциальному росту или сложному проценту, реинвестируя вашу прибыль. Давайте рассмотрим подробнее как это сделать...
 
-* Compound = **P \* \(1+r/n\)^nt**                Example : 100 \* \(1+1/12\)^\(12\*1\)
-* P = principal or starting balance
-* r = APR = 100%
-* n = compounding periods = 12 months
-* t = time = 1 year
-* The simple APY calculation in excel can also be stated as =EFFECT\(r, n\)
+* Прибыль с учетом сложного процента = **P \* \(1+r/n\)^nt**                Например : 100 \* \(1+1/12\)^\(12\*1\)
+* P = сумма изначальной инвестиции
+* r = годовая процентная ставка (APR) = 100%
+* n = общий период реинвестирования процентного дохода = 12 месяцев
+* t = период = 1 год
+* Простой расчет годовой процентной доходности (APY) в EXCEL можно провести через =EFFECT\(r, n\)
 
-![Year 1 end would be 261 tokens or 161% APY versus 100% APR w/o compounding](../.gitbook/assets/capture%20%283%29.png)
+![Через год у вас будет 261 токен или доходность равная 161%, вместо стандартных 100% годовых без учета сложного процента](../.gitbook/assets/capture%20%283%29.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
