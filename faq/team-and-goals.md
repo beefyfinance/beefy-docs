@@ -1,22 +1,21 @@
-# Team & Goals
+# Команда и Цели
 
-## When was Beefy.Finance launched?
+## Когда была создана платформа Beefy.Finance?
 
-Beefy was born on September 21, 2020, the day our [governance distribution contracts](https://medium.com/beefyfinance/bifi-contracts-are-live-on-mainnet-6080577269d7) went live. Our first set of vaults opened on October 8, 2020.
+Beefy была создана 21 сентября 2020 г. В этот день был запущен наш [контракт распределения токена управления](https://medium.com/beefyfinance/bifi-contracts-are-live-on-mainnet-6080577269d7). Первые хранилища были запущены 8 октября 2020 г.
 
-## How is Beefy organized?
+## Как организована Beefy?
 
-Beefy is a decentralized working hub for people with a vision to come together and build the future of global finance. Smart contract devs, UI, UX, strategists, statisticians, designers, and artists - anyone can join and contribute \(no matter your nationality, sex, or views\). By investing in Beefy, you are investing in the idea that a group of highly technical individuals can safely, securely and creatively leapfrog the dinosaurs of traditional finance.
+Beefy — это децентрализованный и функциональный хаб для тех, кто готов работать сообща с целью построения будущей глобальной финансовой системы. Разработчики смарт-контрактов, UI, UX, специалисты по инвестиционным стратегиям и специалисты по статистике, дизайнеры и деятели культуры и искусства — все могут присоединится к нам и внести свой вклад (ваши пол, национальность и взгляды не имеют никакого значения). Инвестируя в Beefy, вы делаете ставку на то, что высококвалифицированные специалисты смогут безопасно, надежно и креативно обогнать динозавров традиционных финансов.
 
-## Why is the project anonymous?
+## Почему команда Beefy анонимна?
 
-Personalities get in the way of projects, and we believe Beefy speaks for itself. By having a team that operates anonymously, even amongst itself, we can focus on providing the best experience for our users. That’s because we believe the strength of Beefy comes from what we build, which is an opportunity for investors to both automate AND maximize the ROI of their holdings. We urge anyone with concerns that anonymity diminishes credibility to join our Discord community \(link\) and get a first-hand feeling for the strength and depth of the project.
+Beefy не нужны личности, так как они мешают развитию проектов. Наша платформа говорит сама за себя. Команда, работающая анонимно даже между своими членами, может полностью сфокусироваться на предоставлении лучшего продукта для своих пользователей. Мы уверены в том, что сильная сторона Beefy заключается в тех финансовых продуктах, которые мы создали, а они в свою очередь позволяют инвесторами автоматизировать И максимизировать получение прибыли по своим активам. Мы призываем каждого, кого отталкивает анонимность проекта, присоединится к нашему Discord \(https://discord.gg/yq8wfHd\) серверу, чтобы почуствовать самому насколько проработан и полон энергии проект.
 
-## How can I get in touch with Beefy?
+## Как мне связаться с поддержкой Beefy?
 
-Our global community managers and team members can be contacted anytime through our official [Telegram](https://t.me/beefyfinance) and [Discord](https://discord.gg/yq8wfHd) channels. We should mention that generally speaking within investment communities there are some bad actors around looking to scam, phish, or maliciously target users. Please double check the validity of whoever you talk to, and remember that no one representing Beefy will ever ask you to provide wallet keys or recovery codes.
+Вы можете связаться с нашими комьюнити-менеджерами и членами команды в наших официальных [Telegram](https://t.me/beefyfinance) и [Discord](https://discord.gg/yq8wfHd) каналах. Мы просто обязаны вас предупредить, что в целом в сообществах по инвестиционной тематике действует много злоумышленников, которые пытаются обманным путем, используя различные методы, завладеть средствами пользователей. Пожалуйста, дважды проверяйте с тем ли вы человеком общаетесь и всегда помните, что никто из представителей Beefy не будет просить у вас ключ от кошелька либо сид-фразу для восстановления кошелька.
 
-## What’s your relationship with Binance Smart Chain?
+## Как вы связаны с сетью Binance Smart Chain?
 
-The platform began life on the Binance Smart Chain network as one of the very first Yield Optimizers, but is evolving into a multi-chain ecosystem. BSC was our only home for many months, and helped us kickstart our growth. While it’s our highest chain by TVL, the gap keeps shrinking as our decentralized army of contributors looks for the best available yield in the multi-chain ecosystem.
-
+Платформа изначально была запущена на сети Binance Smart Chain и была первым Оптимизатором Доходности на этой сети, но сейчас она развивается в направлении кросс-чейн экосистемы. Сеть BSC дала старт нашему развитию и была нашим единственным блокчейном в течение многих месяцев. Пока показатель TVL на этой сети является самым высоким, но разрыв продолжает уменьшаться, так как наше децентрализованное сообщество постоянно ищет максимальную доходность, доступную в кросс-чейн экосистеме.

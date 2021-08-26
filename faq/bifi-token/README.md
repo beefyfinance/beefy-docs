@@ -1,8 +1,7 @@
 ---
-description: >-
-  Here you can read about BIFI's Tokenomics & Governance and find the
-  cross-chain BIFI token addresses.
+описание: >-
+  Здесь вы можете ознакомится с Токеномиков и Управлением платформы BIFI, а также найти кросс-чейн адреса токена BIFI.
 ---
 
-# BIFI Token
+# Токен BIFI
 

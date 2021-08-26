@@ -1,43 +1,42 @@
-# Tokenomics & Governance
+# Токеномика и Управление платформой
 
-## **What is $BIFI?**
+## **Что такое $BIFI?**
 
-$BIFI, otherwise known as BIFI, is the native governance token of our project. By holding this token and staking as part of our governance mechanisms, users can directly take part in the decision-making process. To get your hands on the token, head to one of the many liquidity pools or exchanges on the Binance Smart Chain such as [1inch](https://1inch.exchange/#/r/0xF4cb25a1FF50E319c267b3E51CBeC2699FB2A43B/BNB/BIFI/?network=56) or [PancakeSwap.](https://exchange.pancakeswap.finance/)
+$BIFI, также известный как токен BIFI — это нативный токен управления нашего проекта. Через хранение токена и использование его в стейкинге в качестве средства механизма управления платформой, пользователи могут напрямую участвовать в процессе принятия решений. Чтобы купить этот токен, воспользуйтесь одним из многочисленных пулов ликвидности или биржами на сети Binance Smart Chain, такими как [1inch](https://1inch.exchange/#/r/0xF4cb25a1FF50E319c267b3E51CBeC2699FB2A43B/BNB/BIFI/?network=56) или [PancakeSwap.](https://exchange.pancakeswap.finance/)
 
-Inbuilt within the tokenomics of the platform are mechanisms to bring its deflationary nature. This rewards early supporters and has the aim of creating highly incentivized token holders to contribute to the project. After an initial distribution period of around two months, 72,000 tokens were supplied to the community with 8,000 locked for the founding team.
+Механизмы, встроенные в токеномику платформы, придают токену дефляционную модель эмиссии. В результате этого, те, кто на ранних этапах поддерживал платформу получают финансовое вознаграждение, главная задача которого создать сообщество высокомотивированных держателей токена, готовых внести свой вклад в развитие проекта. После двухмесячного периода первоначального распределения 72,000 токенов были распределены между членами сообщества, а 8,000 было выделено на финансирование команды Beefy.
 
-Token holders of $BIFI have a right to create and vote on proposals to the platform as part of its governance system. Tokens can be staked in the governance pool to gain rewards also in wBNB. A portion of the fees paid by our yield farming vault users is then distributed to holders of the $BIFI token staked in the pool.
+Держатели токена $BIFI имеют право создавать предложения по улучшению платформы и голосовать по ним. Токены могут использоваться для стейкинга в пуле управления, чтобы получать награды в wBNB. Часть средств от комиссий, взимаемых со всех хранилищ, использующих платформы доходного фермерства, распределяется держателям токена $BIFI, использующим его для стейкинга в соответствующем пуле.
 
-Users do not need to un-stake their tokens to participate in the voting process. This incentivizes much more voter participation as it means users don’t need to default their rewards to vote.
+Пользователям не надо выводить свои BIFI токены из стейкинга, чтобы принимать участие в голосовании. Таким образом повышается процент участия в голосовании, так как пользователи не должны каждый раз лишать себя вознаграждений за стейкинг.
 
-BIFI can also be staked in the BIFI max vault, which pays out rewards in $BIFI. wBNB from vault fees are used to purchase $BIFI from the open market as the token is non-inflationary and will no longer mint any more tokens. These purchased tokens are then distributed to anyone who has staked in the BIFI max vault.
+Токены BIFI можно также использовать в стейкинге в хранилище BIFI Maxi, которое выплачивает награды в форме $BIFI. wBNB, получаемые с комиссий от хранилищ, используются для выкупа $BIFI с рынка. $BIFI выкупается с рынка в силу дефляционной модели, а именно, отсутствия новых токенов, эмитируемых на рынок. Затем эти токены распределяются между теми, кто использует свои токены BIFI для стейкинга в хранилище BIFI Maxi.
 
-## **How is the protocol revenue distributed?**
+## **Как распределяется прибыль платформы?**
 
-All revenue generated on the platform from vault fees is sent to and handled by the RewardPool smart contract in form of wBNB. Anyone who stakes their $BIFI in either the RewardPool or BIFI Maxi vault receives their proportionate share.
+Вся прибыль, получаемая платформой с комиссий от хранилищ, переводится на смарт-контракт RewardPool в форме wBNB. Все, кто используют свои токены $BIFI для стейкинга в хранилище BIFI Maxi или в пуле управлению получают соответствующую их доле вознаграждение.
 
-## **What’s the BIFI Maxi vault?**
+## **Что из себя представляет хранилище BIFI Maxi?**
 
-The BIFI Maxi vault allows users to stake their $BIFI much like in the RewardPool, but receive instead their rewards in $BIFI. By staking their $BIFI, each participant converts and compounds their share of the protocol’s revenue into more BIFI tokens. As no more BIFI tokens are to be minted, these are provided to stakers by buying BIFI from the open market with wBNB.
+Хранилище BIFI Maxi позволяет пользователям использовать свои $BIFI для стейкинга, также как и в пуле управления, но вознаграждения получать в токенах $BIFI (а не в wBNB). Стейкая свои $BIFI, каждый пользователь конвертирует и копит свою долю от прибыли платформы во все большее и большее количество BIFI токенов. Так как токены BIFI не эмитируются, то вознаграждения в $BIFI получаются за счет продажи wBNB и выкупа $BIFI с рынка.
 
-This Vault is for users that want to convert and compound their share of the protocol's revenue in more BIFI tokens. As BIFI has no inflation, the strategy market buys BIFI with wBNB rewards.
 
-## **Where can I buy $BIFI?**
+## **Где я могу купить $BIFI?**
 
-$BIFI can currently be found in several decentralized exchanges including [1inch](https://1inch.exchange/#/r/0xF4cb25a1FF50E319c267b3E51CBeC2699FB2A43B/BNB/BIFI/?network=56) and [PancakeSwap.](https://exchange.pancakeswap.finance/) Buying $BIFI usually involves exchanging it for another crypto-coin or token through a liquidity pool.
+$BIFI можно найти на некоторых децентрализованных биржах, в частности на [1inch](https://1inch.exchange/#/r/0xF4cb25a1FF50E319c267b3E51CBeC2699FB2A43B/BNB/BIFI/?network=56) и [PancakeSwap.](https://exchange.pancakeswap.finance/) Покупка $BIFI обычно предполагает обмен нескольких монет через пулы ликвидности.
 
-## **How do I take part in governance?**
+## **Как участвовать в управлении платформой?**
 
-By simply holding $BIFI, even if staked in the governance pool or BIFI Maxi vault, a user earns the right to create proposals and vote in them. Voting sway and power are derived from the $BIFI holdings of the participant. The reasoning behind this follows that those holding more $BIFI are more invested in the project, and therefore have a larger incentive for the platform itself to succeed and prosper.  
-You can see proposals and vote on them yourself by heading to [vote.beefy.finance](https://vote.beefy.finance/).
+Просто храните $BIFI у себя на кошельке, и даже если токены используются в стейкинге в хранилище BIFI Maxi, вы можете создавать предложения и голосовать по ним. Право голоса и число голосов зависят от суммы токенов $BIFI, которые имеются у участников голосования. Эффективность подобной системы голосования обосновывается тем, что те, у кого больше всего $BIFI — это одновременно и те, кто большего всего инвестировал в платформу. Следовательно, они в большей степени заинтересованы в успехе и развитии платформы.  
+Вы можете ознакомится с предложениями и проголосовать по ним сами по этой ссылке [vote.beefy.finance](https://vote.beefy.finance/).
 
-## **How do I vote?**
+## **Как мне проголосовать?**
 
-Voting requires you to hold $BIFI, which can either simply be held in your wallet or staked in the governance pool or BIFI Maxi vault. You do not need to remove your stake either to vote. Voting power is based directly on the amount of $BIFI each voter holds.
+Для того, чтобы проголосовать, нужно иметь $BIFI, которые могут как хранится на вашем кошельке, так и находится в стейкинге в пуле управления или в хранилище BIFI Maxi. Вам не нужно выводить из стейкинга свои токены чтобы проголосовать. Число голосов напрямую зависит от количества $BIFI, имеющихся у каждого голосующего.
 
-## **How do I create a proposal?**
+## **Как мне создать предложение?**
 
-Proposals can be created by anyone, regardless of if they are a $BIFI holder or not. Simply visit [https://vote.beefy.finance/\#/](https://vote.beefy.finance/#/) and click New Proposal.
+Предложения могут быть созданы кем угодно у кого есть 1  $BIFI. Для создания предложения перейдите по ссылке [https://vote.beefy.finance/\#/](https://vote.beefy.finance/#/) и нажмите Новое Предложение.
 
-Each proposal is made up of a question to pose to the community, along with the option of choices that others can vote on in response to your question. Simply set a start and end date for your proposal and publish it.
+Каждое предложение включает в себя вопрос, задаваемый сообществу и варианты ответа, за которые остальные могут проголосовать. Просто установите дату начала и окончания голосования по предложению и опубликуйте его.
 

@@ -22,11 +22,11 @@
   * [Стратегии](faq/products/strategies.md)
   * [Хранилище доверия](faq/products/barn-of-trust.md)
 * [Рейтинг безопасности хранилищ Beefy](faq/beefy-safety-score.md)
-* [Team & Goals](faq/team-and-goals.md)
+* [Команда и Цели](faq/team-and-goals.md)
 * [mooVaults APY](faq/moovaults-apy.md)
-* [BIFI Token](faq/bifi-token/README.md)
-  * [Tokenomics & Governance](faq/bifi-token/tokenomics-and-governance.md)
-  * [Contract Addresses](faq/bifi-token/contract-addresses.md)
+* [Токен BIFI](faq/bifi-token/README.md)
+  * [Токеномика и Управление платформой](faq/bifi-token/tokenomics-and-governance.md)
+  * [Адреса контрактов](faq/bifi-token/contract-addresses.md)
 * [How-To Guides](faq/how-to-guides/README.md)
   * [How to participate in a mooVault](faq/how-to-guides/how-to-participate-in-a-moovault.md)
   * [How to Add a Custom Token to Metamask](faq/how-to-guides/how-to-add-a-custom-token-to-metamask.md)
@@ -36,17 +36,17 @@
   * [How to bridge BIFI cross-chain](faq/how-to-guides/how-to-bridge-bifi-cross-chain.md)
   * [How to check the harvesting and compounding rate of a vault](faq/how-to-guides/how-to-check-harvesting-compounding-rate.md)
 
-## For Smart Farmers <a id="developers"></a>
+## Для продвинутых пользователей <a id="developers"></a>
 
-* [Deployed Contract Registry](developers/deployed-contract-registry.md)
-* [Code Repositories](developers/code-repositories.md)
-* [Beefy Cowmoonity Tools](developers/beefy-cowmoonity-tools.md)
+* [Реестр запущенных контрактов](developers/deployed-contract-registry.md)
+* [Репозитории исходного кода](developers/code-repositories.md)
+* [Инструменты сообщества Beefy](developers/beefy-cowmoonity-tools.md)
 
 ---
 
-* [Cowmoonity & Grill Masters](community.md)
+* [Активные участники сообщества и основная команда](community.md)
 
-## Additional Resources
+## Дополнительные ресурсы
 
 * [Github](https://github.com/beefyfinance)
 * [Twitter](https://twitter.com/beefyfinance)
