@@ -6,7 +6,7 @@ One can use this dashboard for example to check the [harvesting and compounding 
 
 ## Timelock
 
-Strategy contracts are secured with timelocks. Vault contracts do not have timelocks, but the owner functions are restricted to upgrading strategies which has a built-in delay of 6 hours.
+Strategy contracts are secured with timelocks. Vault contracts do not have timelocks but the owner functions are restricted to only upgrading the strategy. Strategy upgrades have a built-in delay of 6 hours.
 
 * BSC (6 hours)
   * [0x8f0fFc8C7FC3157697Bdbf94B328F7141d6B41de](https://bscscan.com/address/0x8f0ffc8c7fc3157697bdbf94b328f7141d6b41de)
