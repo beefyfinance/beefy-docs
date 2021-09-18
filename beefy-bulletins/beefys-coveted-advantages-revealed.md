@@ -2,35 +2,34 @@
 description: How we attract coding and creative talent
 ---
 
-# Beefy's Coveted Advantages Revealed
+# 揭开 Beefy 让人梦寐以求的优势
 
 ![](../.gitbook/assets/bulletin-beefys-coveted-advantages-revealed.png)
 
-_"An organization's ability to learn, and translate that learning into action rapidly, is the ultimate competitive business advantage."_
+_"一个组织的学习能力，以及将所学迅速转化为行动的能力，是最终的商业竞争优势。"_
 
-— Jack Welch, former chairman and CEO, General Electric
+— 杰克韦尔奇，通用电气前董事长兼首席执行官
 
-**In any activity, there are some advantages that have to do with resources and some that have to do with the absence of them.**
+**在任何活动中，有些优势与资源有关，有些则与缺乏资源有关。**
 
-That underdogs often come out on top is because the latter has "unseen advantages" against the former.
+劣势者往往能够脱颖而出是因为后者相对于前者具有“看不见的优势”。
 
-At Beefy.Finance, we don't consider ourselves underdogs…
+在Beefy.Finance，我们不认为自己是劣势者。。。
 
-And we generally prefer to let what we build do the talking…
+而我们通常更愿意让我们所建造的东西来诉说自身的价值。。。
 
-However, a core component of our vision for the future is attracting and incentivizing the best coding and creative talent on the planet to join our community.
+然而，我们对于未来愿景的一个核心组成部分是希望能够吸引和激励这世上最好的编码和创意人才加入我们的社区。
+通过我们独特的奖励机制，我们的开发者从他们为Beefy.Finance建立的金库中获得一定比例的收入。
 
-Through our unique reward system, our developers receive a percentage of Beefy.Finance's revenue from the vaults they build for Beefy.
+因为这一点的存在，我们迅速发展成了一个庞大的开发团队--一支由智能合约开发者组成的军队，他们几乎在我们完成尽职调查的同一天就可以创建新的金库。
 
-Because this exists, we have grown an enormous development team quickly — an army of smart contract developers who are ready to create new vaults almost the same day as we finish our due diligence.
+从TradFi到DeFi的迁移是一场马拉松而不是短跑，但在我们需要的时候能够迅速采取行动，这对市场是有利的。
 
-The migration from TradFi to DeFi is a marathon rather than a sprint, but it serves the market to be able to act quickly when we need to.
+马拉松意味着将安全作为我们的首要任务。
 
-The marathon means having safety as our number one priority.
+短跑则意味着我们可以持续地研发及启用新的金库。
 
-The sprint is sustainably spinning up new vaults.
+_**代码——以及编写它的人才——是这个领域的终极力量倍增器，它的杠杆优势正以惊人的速度复合。**_
 
-_**Code — and the talent that writes it — is the ultimate force multiplier in this arena, and its leverage advantage is compounding at a spectacular rate.**_
-
-If you're a smart contract developer who favors future rewards over legacy resources, you know where to find us.
+如果您是一位倾向于未来回报而非传统资源的智能合约开发者，您知道在哪里可以找到我们。
 

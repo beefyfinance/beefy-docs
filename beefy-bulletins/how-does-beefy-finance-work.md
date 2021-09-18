@@ -4,39 +4,39 @@ description: >-
   disorientating…
 ---
 
-# How Does Beefy Finance Work?
+# Beefy Finance 是如何运作的？
 
 ![](../.gitbook/assets/bulletin-how-does-beefy-finance-work.png)
 
-We know that entering the crypto and DeFi arenas can be confusing and disorientating. We know that many have lost money in altcoins and have high levels of scepticism about this new opportunity.
+我们了解，进入加密货币和DeFi领域可能会让人感到困惑和迷失方向。我们知道许多人在山寨币中亏损，并且对这个新的机会持有高度的怀疑态度。
 
-So let's break down what Beefy does in language as close as possible to how the current financial world works.
+因此，让我们用尽可能接近当前金融世界运行方式的语言来分解Beefy所做的事情。
 
-**1. You know what interest is:**
+**1. 您知道什么是利息：**
 
-You have $10,000 in your bank account and you earn a 12.5% annual return on your investment. After 12 months, you receive a deposit of $1,250 as an interest payment. After five years, you have $16,250.
+您的银行账户里有10,000美元，您的投资年收益率为12.5%。12个月后，您收到一笔1250美元的存款作为利息支付。5年后，您有16,250美元。
 
-**2. You know what compound interest is:**
+**2. 您知道什么是复利：**
 
-It's interest on interest. You get interest on the initial amount you put in, and you get interest on the interest already accumulated from the previous years.
+它是利息上的利息。 您将获得您投入的初始金额的利息，并且您将在前几年已经积累的利息上获得利息。
 
-So with compound interest, after 5 years you won’t have $16,250, you'll actually have $18,020.
+因此，在复利的情况下，5年后您不会有16,250美元，而实际上您将拥有18,020美元。
 
-So far, so good.
+到现在为止还挺好。
 
-_**But what if there was a "third way"?**_
+_**但如果有“第三种方式”呢？**_
 
-This is the question we asked ourselves as programmers.
+这是我们作为程序员问自己的问题。
 
-**3. Here's what Beefy interest is:**
+**3. 以下是 Beefy 的利息所在：**
 
-When you take your crypto and stake it on Beefy we find ways to add to the compounding of your asset. If one of the platforms we use gives away a promotional coin on top of any interest, then we take that promo coin and sell it for more of what you staked.
+当您把您的加密资产质押在Beefy上时，我们会找到增加您资产组合的方法。如果我们使用的某个平台在任何利息之外还赠于一个促销代币，那么我们会将其出售，以换取您所质押的更多资产。
 
-_**The result is a significantly higher overall annual return.**_
+_**其结果是整体年回报率有了显著的提高。**_
 
-When Beefy combines your 12.5% annual compounding interest with the 14.2% interest of another site's promotional coin, you get 28.02% APY on Beefy.
+当Beefy将您12.5%的年复利率与另一个网站促销代币的14.2%的利息相结合时，您将在Beefy上获得28.02%的年利率。
 
-Beefy's BNB Venus vault is doing just that. At the time of writing, you get 28.02% APY for your BNB.
+Beefy 的 BNB Venus 金库就是这样做的。 在撰写本文时，您的BNB可以获得28.02%的年利率。
 
-**After five years, you won't have $18,020, you'll have $34,386; all in the asset you actually staked.**
+**五年后，您不会有18,020美元，而是34,386美元；全部都在您实际质押的资产中。**
 

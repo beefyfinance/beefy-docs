@@ -1,36 +1,36 @@
-# Why Beefy Beats Your Bank
+# 为何 Beefy 能打败您的银行？
 
 ![](../.gitbook/assets/bulletin-why-beefy-beats-your-bank.png)
 
-A question the wealthiest people in the world obsess over:
+世界上最富有的人最关心的一个问题：
 
-**"What is the biggest opportunity for investors right now?"**
+**"对于投资者来说，目前最大的机会是什么？"**
 
-It would be imprudent to mention more than superficial details, but it's common knowledge that there are financial benefits, investment vehicles and tax advantages accessible to high net-worth individuals that are closed to everyone else.
+如果不提及基本但重要的细节，那就太草率了。 因此，每个人都知道，某些财务特权仅适用于资产净值高的一小部分人。 这些特权包括税收减免、独家投资工具和物质利益（借入资金的利息储蓄）
 
-_What we can talk about is how traditional banks work, and demonstrate clearly why Beefy.Finance is a better option._
+_我们所能做的就是告诉您传统银行的运作方式，并证明 Beefy.Finance 绝对是最佳选择。_
 
-When you give money to a bank, it lends that money out to other people at a higher rate than you get for "saving".
+当您将储蓄交给银行保管时，银行会以比您"储蓄"更高的利率借出您的资金。
 
-**The bank pockets the difference as revenue.**
+**利率的差额就是银行的利润。**
 
-And that money is used to pay for things like staff, rent, call centers, security guards and a myriad of other operating expenses that may or may not be justified.
+这笔钱用于支付员工、租金、呼叫中心、保安人员和无数其他可能合理也可能不合理的运营费用。
 
-**Meanwhile Beefy is a decentralized autonomous organisation, collectively owned and managed by its users.**
+**而 Beefy 是一个去中心化的自治组织 (DAO)，由其用户集体管理和拥有。**
 
-Decisions are not a top-down event. So instead of the earnings going to a small clique of champagne-quaffing executives, they can only be redistributed with the approval of the organization. DAOs like Beefy are governed by proposals and voting. Code automates the everyday actions banks pay clerks to execute, while cryptography protects your funds.
+决策不是一个自上而下的事件，利润也不会落入少数高层管理人员的腰包，而是根据组织的决策进行分配。 像 Beefy 这样的 DAO 是通过一个提议和投票的机制来管理的。 代码将银行分配给办事员的日常执行行动自动化，而加密技术可确保您的资金安全。
 
-**So, there are two things happening here:**
+**因此，这里可以强调两个关键点：**
 
-First, a DAO is significantly more efficient than a bank. Second, there is a huge demand for better APY than the 0.1% currently on offer by most institutions, which is significantly less than the current inflation rate of 2%.
+首先，DAO 比传统银行高效得多。其次，对于比大多数机构目前提供的 0.1% 更好的 APY 存在着巨大的需求，而这明显低于当前 2% 的通胀率。
 
-When you learn that there is a new and safe way to store your money with an APY that is **at least 70x** as good as your bank...
+当您了解到有一种新的、安全的方式来存储您的资金时，其 APY **至少是您银行的 70 倍**...
 
-And you appreciate that this APY is available because DAOs are fundamentally better organized to pass on efficiency savings to their users...
+同时，您明白如此高的 APY 是可能的，因为 DAO 从根本上组织得更好，这使它们能够在存储和管理储户资金的效率方面显然高于银行...
 
-You might reasonably ask how soon you can get started.
+您可能会问：我什么时候可以开始使用 Beefy？
 
-And the answer to that is today.
+答案很简单——今天。
 
-**Because, unlike banks, there's no approval process.**
+**因为，与银行不同，您不需要经过任何许可即可与 Beefy 互动。**
 

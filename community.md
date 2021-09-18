@@ -1,40 +1,40 @@
-# Cowmoonity & Grill Masters
+# 奶牛团队和烧烤大师
 
-## Grill Masters \(core team\)
+## 烧烤大师 \(核心团队\)
 
 | 0xbeefy |  |
 | :--- | :--- |
-| BIO: |  |
-| Twitter: |  |
+| 个人简历: |  |
+| 推特: |  |
 | Github: |  |
 
 | Superbeefyboy |  |
 | :--- | :--- |
-| BIO: |  |
-| Twitter: | [@superbeefyboy](https://twitter.com/superbeefyboy) |
+| 个人简历: |  |
+| 推特: | [@superbeefyboy](https://twitter.com/superbeefyboy) |
 | Github: | [@superbeefyboy](https://github.com/superbeefyboy) |
 
 | Sirbeefalot |  |
 | :--- | :--- |
-| BIO: |  |
-| Twitter: | [@sirbeefalot\_bnb](https://twitter.com/sirbeefalot_bnb) |
+| 个人简历: |  |
+| 推特: | [@sirbeefalot\_bnb](https://twitter.com/sirbeefalot_bnb) |
 | Github: | [@sirbeefalot](https://github.com/sirbeefalot) |
 
 | roastyb |  |
 | :--- | :--- |
-| BIO: |  |
-| Twitter: | [@roastyb1](https://twitter.com/roastyb1) |
+| 个人简历: |  |
+| 推特: | [@roastyb1](https://twitter.com/roastyb1) |
 | Github: |  |
 
 | beefo |  |
 | :--- | :--- |
-| BIO: |  |
-| Twitter: |  |
+| 个人简历: |  |
+| 推特: |  |
 | Github: |  |
 
-## Citadel \(OG Moofians\)
+## 堡垒 \(奶牛OG人物\)
 
-| Member Name | Twitter |
+| 成员名字 | 推特 |
 | :--- | :--- |
 | Spitting Nickels | @NickelsSpitting |
 

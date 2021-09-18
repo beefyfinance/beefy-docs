@@ -1,8 +1,8 @@
-# Beefy Bulletins
+# Beefy 公告
 
-Not everyone recognizes the "perfect" trade when they see it...
+有时我们无法意识到完美的交易，即使它们不断地出现在我们面前...
 
-So it's time for the world to get Beefy.
+这意味着是时候向世界展示 Beefy 了。
 
 {% page-ref page="what-is-beefy-finance.md" %}
 
