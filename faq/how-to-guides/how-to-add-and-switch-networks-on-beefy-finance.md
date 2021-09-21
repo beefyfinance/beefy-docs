@@ -24,7 +24,7 @@ As Beefy Finance is a Decentralized, Multi-Chain Yield Optimizer, users will nee
 
 ### 3. Select HECO \(or any other network you want to add\).
 
-![](../../.gitbook/assets/switch-to-desired-network.png)
+![](../../.gitbook/assets/switch-to-desired-network%20%281%29.png)
 
 ### 4. Approve new network creation to your Metamask
 

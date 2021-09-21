@@ -22,6 +22,8 @@ Click on [BIFI-BNB LP](https://app.beefy.finance/vault/cakev2-bifi-bnb) or anywh
 
 ### 2. Select "BNB" from the deposit dropdown menu
 
+![](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-zap-dropdown-menu.png)
+
 BNB does not require approval to spend, as it is the native currency on Binance Smart Chain.
 
 ### 3. Enter amount of BNB and hit "Deposit"
