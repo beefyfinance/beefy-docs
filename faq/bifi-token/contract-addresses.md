@@ -9,6 +9,8 @@ The BIFI token is deployed on all chains where vaults are live. To switch to ano
 * Avalanche: [0xd6070ae98b8069de6b494332d1a1a81b6179d960](https://avascan.info/blockchain/c/token/0xd6070ae98b8069de6b494332d1a1a81b6179d960)
 * Polygon: [0xfbdd194376de19a88118e84e279b977f165d01b8](https://polygonscan.com/token/0xFbdd194376de19a88118e84E279b977f165d01b8)
 * Fantom: [0xd6070ae98b8069de6b494332d1a1a81b6179d960](https://ftmscan.com/token/0xd6070ae98b8069de6b494332d1a1a81b6179d960)
+* Harmony: [0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8](https://explorer.harmony.one/address/0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8)
+* Arbitrum: [0x97513e975a7fa9072c72c92d8000b0db90b163c5](https://arbiscan.io/token/0x97513e975a7fa9072c72c92d8000b0db90b163c5)
 
 ## Token Holders
 
