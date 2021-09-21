@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: 26 August 2021 - English documentation is leading.'
+description: 'Last updated: 21 September 2021 - English documentation is leading.'
 ---
 
 # Обзор
