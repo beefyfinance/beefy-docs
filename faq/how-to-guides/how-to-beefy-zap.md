@@ -22,6 +22,8 @@ Beefy ZAP 可让您创建流动性池代币并仅通过一笔交易进行 Beefy 
 
 ### 2. 从存款下拉菜单中选择“BNB”
 
+![](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-zap-dropdown-menu.png)
+
 BNB不需要批准即可消费，因为它是币安智能链上的原生货币。
 
 ### 3. 输入 BNB 金额并点击“存款”

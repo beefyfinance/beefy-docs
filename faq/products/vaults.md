@@ -24,7 +24,11 @@ Summarizing, vaults can:
 
 ## **What are mooTokens?**
 
-A mooToken can be seen as a receipt that you get when depositing into any Beefy vault. This is a fully automatic process. For example, you receive mooBIFI tokens from depositing $BIFI into the Beefy Maxi vault. These mooTokens do not 1:1 represent the token amount initially deposited but it does represent the value of your share in the vault. As a vault generates profit, the amount of mooTokens in your wallet remain constant while the underlying invested token amount in the vault increases. Whenever you want to withdraw the tokens that are staked for you in the vault, you need your receipt \(mooTokens\) which you hand in to redeem the deposited tokens + yield. Beefy.Finance users should hold on tightly to the mooTokens i.e. deposit receipts and not sell or exchange them to strangers or you will lose ownership of your staked assets in the vault.
+A mooToken acts as a receipt for your deposit into any Beefy vault. For example, you receive mooBIFI tokens when depositing BIFI into the BIFI Maxi vault. The amount of mooTokens you receive will not 1:1 match the token amount initially deposited, but it does represent your proportional share of the vault. As a vault generates profit, the amount of mooTokens in your wallet remains constant while the underlying invested token amount in the vault increases. 
+
+Beefy's mooToken system has a few major advantages. Firstly, mooTokens allow any user to withdraw their fair share of deposited funds. Secondly, the system allows you to deposit the mooToken receipt to a cold or hardware wallet for ultimate safety. Thirdly, your privacy is maintained, as you remain anonymous to Beefy. Your funds in the vault are not tied to the wallet address from which you made the deposit, since the mooTokens are the only evidence of your share in the vault. Therefore, you could withdraw your share of funds from a different address if you moved your mooTokens to it.
+
+Whenever you want to withdraw the tokens that are staked for you in the vault, you need your mooToken receipt to withdraw the initially deposited tokens plus extra vault yield. Beefy.Finance users should hold on tightly to the mooTokens \(deposit receipt\) and not sell or exchange it to strangers, since you would lose ownership of your staked assets in the vault if you did so!
 
 ## **How often do the vaults harvest their profits and reinvest?**
 

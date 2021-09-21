@@ -24,7 +24,7 @@ description: >-
 
 ### 3. 选择HECO \(或您想添加的任何其他网络\).
 
-![](../../.gitbook/assets/switch-to-desired-network.png)
+![](../../.gitbook/assets/switch-to-desired-network%20%281%29.png)
 
 ### 4. 批准新的网络创建到您的Metamask上
 
