@@ -28,7 +28,7 @@
   * [代币经济学与治理](faq/bifi-token/tokenomics-and-governance.md)
   * [合约地址](faq/bifi-token/contract-addresses.md)
 * [操作指南](faq/how-to-guides/README.md)
-  * [如何参与mooVault的活动](faq/how-to-guides/how-to-participate-in-a-moovault.md)
+  * [如何参与mooVault](faq/how-to-guides/how-to-participate-in-a-moovault.md)
   * [如何在Metamask中添加自定义代币](faq/how-to-guides/how-to-add-a-custom-token-to-metamask.md)
   * [如何添加和移除流动性](faq/how-to-guides/how-to-add-remove-liquidity.md)
   * [如何使用 Beefy Zap](faq/how-to-guides/how-to-beefy-zap.md)

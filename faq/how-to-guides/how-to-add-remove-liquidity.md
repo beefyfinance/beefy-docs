@@ -4,77 +4,77 @@ description: >-
   as well as staking and unstaking it from the vault.
 ---
 
-# How to Add and Remove Liquidity
+# 如何添加和移除流动性
 
-As an example, we are going to work with BIFI-BNB LP in this guide. In a liquidity pool, both BIFI and BNB need to be provided at a 50/50 ratio value wise. Since we start with 100% BNB, this guide covers swapping BNB to BIFI too.
+举个例子，我们将在本指南中使用BIFI-BNB LP。在一个流动性池中，BIFI和BNB都需要以50/50的比例提供流动性。由于我们从100%的BNB开始，本指南也涵盖了将BNB换成BIFI。
 
-![Screenshot taken on 30 May 2021](../../.gitbook/assets/add-liq-bifi-bnb-lp-rate.png)
+![截屏于 2021 年 5 月 30 日](../../.gitbook/assets/add-liq-bifi-bnb-lp-rate.png)
 
-## Adding liquidity
+## 添加流动性
 
-### 1. Click "Buy Token"
+### 1. 点击 "购买代币"
 
 ![](../../.gitbook/assets/add-liq-buy-token.png)
 
-### 2. Confirm the "Token imported" screen on PancakeSwap
+### 2. 在 PancakeSwap 上确认 "Import Token" 视窗
 
-### 3. Swap BNB for BIFI
+### 3. 将 BNB 换成 BIFI
 
-Our wallet currently holds 4.0757 BNB; we will use a maximum total of 4 BNB to provide liquidity. Since we need to provide liquidity at a 50/50 ratio value wise, we will need to swap 2 BNB for BIFI first.
+我们的钱包目前持有 4.0757 BNB； 我们将使用最多 4 个 BNB 来提供流动性。 由于我们需要以 50/50 的比例提供流动性，因此我们需要先将 2 个 BNB 换成 BIFI。
 
 ![](../../.gitbook/assets/add-liq-swap-bnb-to-bifi.png)
 
-Confirm Swap in the next pop-up screen.
+在下一个弹出的视窗中点击确认交换。
 
-### 4. Click "Add Liquidity"
+### 4. 点击 "增加流动性"
 
 ![](../../.gitbook/assets/add-liq-button.png)
 
-### 5. Click "MAX" for BIFI input, Approve BIFI and Supply Liquidity
+### 5. 在 BIFI 一栏点击 “MAX”, 批准 BIFI 和提供流动性
 
 ![](../../.gitbook/assets/add-liq-supply-bifi-bnb-lp.png)
 
-### 6. Confirm Supply
+### 6. 确认增加流动性
 
 ![](../../.gitbook/assets/add-liq-confirm-supply.png)
 
-### 7. The vault now shows a balance!
+### 7. 金库现在显示有余额了!
 
 ![](../../.gitbook/assets/add-liq-balance.png)
 
-Click on the vault to open up the deposit and withdraw menu.
+点击金库，打开存款和提款菜单。
 
-### 8. "Approve"
+### 8. "批准"
 
 ![](../../.gitbook/assets/add-liq-approve-vault.png)
 
-### 9. "Deposit All"
+### 9. "存入全部"
 
 ![](../../.gitbook/assets/add-liq-deposit-all.png)
 
-That's it! We now created liquidity and deposited BIFI-BNB LP in the vault. You can check [this guide](how-to-check-harvesting-compounding-rate.md) to see when the vault will harvest rewards and compound for more BIFI-BNB LP tokens.
+就这样，我们现在创造了流动性并将BIFI-BNB LP存入了金库。您可以查看[本指南](how-to-check-harvesting-compounding-rate.md) 以了解金库何时收获奖励和复合更多 BIFI-BNB LP代币。
 
-## Removing Liquidity
+## 解除流动性
 
-### 1. "Withdraw All"
+### 1. "提出全部"
 
 ![](../../.gitbook/assets/remove-liq-withdraw-all.png)
 
-Note: withdrawal fees will be deducted from your deposited token amount.
+注意：提款费用将从您存入的代币金额中扣除。
 
-### 2. Go back to [PancakeSwap](https://exchange.pancakeswap.finance/#/pool)
+### 2. 返回 [PancakeSwap](https://exchange.pancakeswap.finance/#/pool)
 
-and head over to the Liquidity section. It will show the BIFI-BNB LP tokens under "Your Liquidity"
+并前往流动性的界面。 它将在“您的流动性”下显示 BIFI-BNB LP 代币
 
 ![](../../.gitbook/assets/remove-liq-pancake-liquidity.png)
 
-### 3. Click "Remove"
+### 3. 点击 "移除"
 
 ![](../../.gitbook/assets/remove-liq-remove.png)
 
-In the next screen, click "Max" and Approve", and then "Remove".
+在下一个视窗中，点击 “Max” 和 “批准”，然后点击 “移除” 。
 
-### 4. Optional: Swap BIFI back to BNB
+### 4. 可选：将 BIFI 交换回 BNB
 
 ![](../../.gitbook/assets/remove-liq-swap-back.png)
 
