@@ -1,5 +1,5 @@
 ---
-description: How we attract coding and creative talent
+description: 我们如何吸引编码和创意人才
 ---
 
 # 揭开 Beefy 让人梦寐以求的优势

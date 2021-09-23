@@ -1,14 +1,14 @@
 # Barn of Trust
 
-### **What is a Trust Barn?**
+### **什么是 Barn of Trust?**
 
-Our Barns of Trust provide users the opportunity to earn rewards in several DApp projects by staking $TWT or $BIFI in the vaults. The concept has been developed as a direct result of our ongoing partnership with Trust Wallet, Binance’s official decentralized wallet.
+我们的 Barns of Trust 为用户提供了通过将 $TWT 或 $BIFI 质押入金库来在多个 DApp 项目中获得奖励的机会。 这个概念是我们与币安官方去中心化钱包 Trust Wallet 持续合作的直接结果。
 
-Each participant is allowed to stake a maximum of 1000 $TWT, which also applies across multiple wallets. Anyone found to be using multiple wallets will be removed and banned from future Trust Barns. After depositing $BIFI or $TWT, tokens are distributed to the staker. Each vault is plainly labeled with the particular project’s token that the Trust Barn pays out in.
+每个参与者最多可以质押 1000 $TWT，这也适用于多个钱包。 任何被发现使用多个钱包的人都将被移除并禁止参与未来的 Trust Barns。 存入 $BIFI 或 $TWT 后，代币将被分配给质押者。 每个金库都清楚地标有 Trust Barn 所支付的特定项目的代币。
 
-You will receive rewards proportional to the amount staked in the vault, up to a maximum of one week. There is a total maximum of $25,000 worth of each DApp’s token for distributing the rewards.
+您将获得与金库中的质押数量成正比的奖励，此活动最多持续一周。 每个 DApp 用于分配奖励的代币总价值最高为 $25,000。
 
-### **How do I get my project involved in a Barn of Trust?**
+### **我如何让我的项目参与一个 Barn of Trust？**
 
-Applications to have your own Barn of Trust can be made by contacting the team at the [Trust Wallet Community](https://community.trustwallet.com/). After a decision has been made to engage with both the team at Beefy.Finance and Trust Wallet, $25,000 worth of your DApp’s token must be provided to distribute in the barn. $5000 worth must all be supplied to Trust Wallet to support marketing activities for the Barn.
+可以通过在 [Trust Wallet 社区](https://community.trustwallet.com/) 联系团队来申请属于自己的Barn of Trust。在决定与 Beefy.Finance 和 Trust Wallet 的团队合作后，您的项目必须提供价值 $25,000 的 DApp 代币以在 barn 中分发。 您的项目也必须向 Trust Wallet 提供价值 $5000 的代币，以支持 Barn 的营销活动。
 

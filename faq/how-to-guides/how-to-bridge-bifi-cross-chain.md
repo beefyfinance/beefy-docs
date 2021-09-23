@@ -1,7 +1,6 @@
 ---
 description: >-
-  In this guide you will find the required steps to bridge BIFI cross-chain
-  using Metamask and multichain.xyz.
+  在本指南中，您将找到使用 Metamask 和 multichain.xyz 进行 BIFI 跨链所需的步骤。
 ---
 
 # 如何使用 BIFI 进行跨链

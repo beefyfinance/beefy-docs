@@ -1,7 +1,6 @@
 ---
 description: >-
-  In this guide you will find the required steps to check a vault's harvesting
-  and compounding rate.
+  在本指南中，您将找到检查金库收获率和复合率所需的步骤。
 ---
 
 # 如何检查金库的收获和复利率

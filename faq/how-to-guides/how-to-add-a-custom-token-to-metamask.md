@@ -1,7 +1,6 @@
 ---
 description: >-
-  Here's how to add a custom token to Metamask. This guide uses BIFI as an
-  example.
+  以下是在 Metamask 添加自定义代币的方法。 本指南以 BIFI 为例。
 ---
 
 # 如何在Metamask中添加自定义代币

@@ -1,5 +1,5 @@
 ---
-description: 'By buying $BIFI and staking in BIFI Maxi, you have something unique'
+description: '通过购买 $BIFI 并质押进 BIFI Maxi，您将收获独一无二的东西'
 ---
 
 # Beefy 独特的收入分享模式介绍

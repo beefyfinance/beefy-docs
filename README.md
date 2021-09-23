@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: 21 September 2021 - English documentation is leading.'
+description: '最后更新：2021 年 9 月 21 日 - 英文文档领先。'
 ---
 
 # 概要

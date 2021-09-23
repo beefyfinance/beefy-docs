@@ -1,5 +1,5 @@
 ---
-description: Beefy has been called many things…
+description: Beefy 被称为很多东西......
 ---
 
 # Beefy Finance 是什么？

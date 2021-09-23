@@ -1,7 +1,6 @@
 ---
 description: >-
-  We know that entering the crypto and DeFi arenas can be confusing and
-  disorientating…
+  我们知道进入加密和 DeFi 领域可能会令人困惑和迷失方向……
 ---
 
 # Beefy Finance 是如何运作的？

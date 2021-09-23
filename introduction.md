@@ -1,5 +1,5 @@
 ---
-description: 'a Decentralized, Multi-Chain Yield Optimizer'
+description: '一个去中心化的多链收益优化器'
 ---
 
 # Beefy Finance 项目介绍

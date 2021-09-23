@@ -1,5 +1,5 @@
 ---
-description: One-Click Beefy Vault Investing!
+description: 一键式 Beefy 金库投资！
 ---
 
 # 如何使用 Beefy Zap

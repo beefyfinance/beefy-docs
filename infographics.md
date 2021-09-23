@@ -1,5 +1,5 @@
 ---
-description: Explaining Beefy Finance using simple infographics
+description: 使用简单的信息图表解释 Beefy Finance
 ---
 
 # Beefy Finance 信息图表

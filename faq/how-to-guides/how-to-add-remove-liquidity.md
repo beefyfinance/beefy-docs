@@ -1,7 +1,6 @@
 ---
 description: >-
-  In this guide you will find the required steps how to Add and Remove Liquidity
-  as well as staking and unstaking it from the vault.
+  在本指南中，您将找到如何添加和移除流动性以及从金库中质押和取出所需的步骤。
 ---
 
 # 如何添加和移除流动性

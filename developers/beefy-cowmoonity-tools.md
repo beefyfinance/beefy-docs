@@ -1,5 +1,5 @@
 ---
-description: Tools to help the Beefy Cowmoonity
+description: 帮助 Beefy Cowmoonity 的工具
 ---
 
 # Beefy 社区工具
