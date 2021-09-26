@@ -38,5 +38,5 @@ APY是指某项投资提供的年收益率。 该指标将复利计算在内，�
 
 ## 我如何知道我已经积累了多少收益？
 
-您可以使用能够准确计算您从投资中获利多少的 DeFi 仪表板。为了查看初始投资金额和当前利润，请将您的钱包连接到 BSC 网络上的 [Yieldwatch](https://yieldwatch.net/) 或 Polygon 网络上的 [PolygonDex](https://polygondex.com/track/yield/yieldMeBroDawg.aspx) 等第三方应用程序。
+您可以使用 DeFi 仪表板以准确计算您从投资中获得的利润 。为了查看初始投资金额和当前利润，请将您的钱包连接到 BSC 网络上的 [Yieldwatch](https://yieldwatch.net/) 或 Polygon 网络上的 [PolygonDex](https://polygondex.com/track/yield/yieldMeBroDawg.aspx) 等第三方应用程序。
 
