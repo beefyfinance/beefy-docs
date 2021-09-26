@@ -1,56 +1,56 @@
 # Launchpool
 
-As one of the most trusted Yield Optimizers, Beefy always wants to make sure that the users have the best experience possible using Beefy and its services and get the highest APY with the least amount of manual effort. We want you to feel that Beefy is the right place for your investment and besides the trust of having a Certik audit done, being listed on Binance, and having a great dev team, we want to give you the highest real APY possible. In order to do just that, we have expanded on the initial vault offering with a service called Beefy Launchpool in which we promote exciting projects on Binance Smart Chain. Together with the promotion, we BOOST certain vaults with the partners token in order to give the best APY to you, the investor.
+作为最值得信赖的收益优化器之一，Beefy 始终致力于为用户提供最舒适的体验和最好的服务，减低手动操作次数的同时获取最高的 APY。 我们不仅经过 Certik 审计, $BIFI 代币在币安上市，而且我们有一个优秀的开发团队，并希望能为您提供尽可能高的真实 APY。 为了将此付诸实践，我们在初始金库的基础上添加了一项名为 Beefy Launchpool 的服务，用以推广币安智能链上令人兴奋的项目。 除了在 Launchpool 中进行推广，我们还通过合作伙伴代币强化 (Boost) 某些金库，以便为您（投资者）提供最佳的 APY。
 
-## How do I use Beefy Launchpool?
+## 如何使用 Beefy Launchpool？
 
-Look for a boosted vault in our main app and stake the tokens that are asked for in that vault. You will get a "receipt" called mooToken in your wallet. Proceed to the related partner Launchpool vault here on the Beefy Launchpool site and enter the corresponding vault \(or press the 'Boost' shortcut on the main vault page called Boost\). The vault will ask for you to stake your mooToken "receipts". Stake these mooTokens and you are all done, you can easily come back here to check on your earned partner tokens and withdraw at any time.
+在 Beefy 的主页上寻找一个由合作伙伴强化的金库，并在该金库中质押所需的代币。 您将收到以 mooTokens 为形式的 "收据"。 接下来，在该强化金库上点击 'Boost' 快捷键以前往相关合作伙伴的 Launchpool 金库 \(或点击主金库页面最上方的 'Boost' 快捷键\)。 金库会要求您质押您的 mooToken “收据”。 质押这些 mooTokens 后就大功告成了，您可以稍后回来查看已经收到了多少合作伙伴代币，以便在您方便的任何时间提取它们。
 
-## How do I see my earned tokens?
+## 如何查看我所赚取的代币？
 
-Enter the vault where you deposited your mooTokens and it will show you a nice summary of your earned tokens.
+进入您存放 mooToken 的金库，它会显示您收到了多少代币。
 
-## I can no longer see my deposited tokens in the Boosted vault!
+## 我无法在强化金库中看到我存入的代币！
 
-No worries! Your deposited tokens are safe and never left the Boosted vault. Since you have deposited your mooTokens \(vault receipts\) in one of our Launchpools, the main boosted vaults can no longer read the receipt in your wallet, hence it shows you zero. As soon as you are finished with a Launchpool, you withdraw your mooTokens \(receipts\) back to your wallet and your initial vault deposit will show up again.
+别担心！ 您存入的代币是安全的，并且从未离开强化 (Boosted) 金库。 由于您已将您的 mooTokens \(金库收据\) 存入我们的 Launchpools 金库之一，主要的强化金库无法再读取您钱包中的收据，因此存款显示为零。 只要您将mooTokens（收据）从Launchpool 金库提取回您的钱包，主金库将再次显示存入的代币数量。
 
-## What are mooTokens?
+## 什么是 mooToken？
 
-A mooToken can be seen as a receipt that you get when depositing into any Beefy vault. This is a fully automatic process. For example, you receive mooBifi tokens from depositing $BIFI into the Beefy Maxi vault. These mooTokens do not 1:1 represent the token amount initially deposited but it does represent the value of your share in the vault. As a vault generates profit, the amount of mooTokens in your wallet remain constant while the underlying invested token amount in the vault increases. Whenever you want to withdraw the tokens that are staked for you in the vault, you need your receipt \(mooTokens\) which you hand in to redeem the deposited tokens + yield. Beefy.Finance users should hold on tightly to the mooTokens i.e. deposit receipts and not sell or exchange them to strangers or you will lose ownership of your staked assets in the vault.
+mooToken 可以看作是您存入任何 Beefy 金库时获得的收据。 这是一个全自动过程。 例如，您将通过把 $BIFI 存入 Beefy Maxi 金库而收到 mooBifi 代币。 这些 mooToken 并不 1:1 代表最初存入的代币数量，但它确实代表了您在金库中的份额价值。 当金库产生利润时，您钱包中的 mooToken 数量保持不变，而最初存入的代币数量将增加。 每当您想从金库提取质押的代币时，您需要返还收据 \(mooTokens\) 以取回最初存入的代币+利润。您只需要正常地从金库中提取质押的代币即可返还 mooTokens. Beefy.Finance 用户应该紧紧持有 mooTokens，即存款收据，不要将它们出售或交换给陌生人，否则您将失去质押在金库中资产的所有权。
 
-## How long will the Boosted vault last?
+## 强化金库将持续多久？
 
-Since we introduce multiple partner vaults at different times, there is a timer shown on each partner vault. This is nothing you really need to keep track of since you can always come back after a vault is finished and withdraw then.
+由于我们在不同时间引入了多个合作伙伴金库，因此每个合作伙伴的Launchpool 金库上都会显示一个计时器。您无需一直保持对计时器的跟踪，因为您可以在金库强化结束后随时返回并退出。
 
-## Do I have to manually unstake from the Launchpool vault when it is finished?
+## 当 Launchpool 金库结束后，我是否需要手动解除质押？
 
-Yes! Just come back after a partner vault is finished and you can unstake your deposited MooTokens together with the partner tokens, at any time.
+是的! 只要在合作伙伴金库结束后回来，您就可以在任何时候把已存入的 MooTokens 和合作伙伴代币一起解除质押。
 
-## Can I enter multiple Launchpool vaults at once?
+## 我可以同时参与多个 Launchpool 金库吗？
 
-Absolutely! Just deposit the required tokens in one or multiple of our boosted vaults, one by one, and then deposit your mooTokens \(vault receipts\) in the accompanied partner vaults. Repeat this step for every boosted partner vault you want to be a part of.
+当然可以! 只需将所需的代币逐一存入我们的一个或多个强化金库，然后将您的 mooTokens（金库收据）存入随附的合作伙伴金库即可。您需要对您想加入的每个强化合作伙伴金库重复这一步骤。
 
-## Are these partner vaults safe to use?
+## 这些合作伙伴的金库使用起来是否安全？
 
-Yes! These partner vaults are hosted by Beefy and are completely safe. Beefy has gotten tokens from our partners and uses our own vaults for the reward. Those mooTokens your stake doesn’t leave Beefy.
+是的！ 这些合作伙伴金库由 Beefy 托管并且是完全安全的。 Beefy 从我们的合作伙伴那里获得了代币，并使用我们自己的金库进行奖励。 您所持有的那些 mooToken 不会离开 Beefy。
 
-## If I enter a partner vault with my mooTokens, will I still earn the ordinary vault reward?
+## 如果我使用我的 mooToken 参与合作伙伴的金库，我还能获得普通金库的奖励吗？
 
-Yes! The ordinary tokens you deposited in our main vaults even if it’s boosted will earn the ordinary reward and be compounded as usual. What you place in these partner vaults is your “receipt” from the ordinary vault that normally is worth nothing. By using these partner vaults, you earn both tokens on the ordinary vault and tokens from our partner vaults.
+当然可以！ 即使金库被强化了，您质押于我们主金库中的普通代币也将获得普通的奖励并照常进行复利。 您质押在这些合作伙伴金库中的 mooTokens 是您从普通金库中获得的“收据” （通常一文不值）。 通过使用这些合作伙伴金库，你既能赚取普通金库上的代币，又能赚取我们合作伙伴金库的代币。
 
-## Why is APY and Daily rates not matching?
+## 为什么 APY 和日利率不匹配？
 
-That’s because APR and APY show two different things. APR means “Annual Percentage Rate” and is a fixed rate. Beefy shows APR by dividing the annual yield into 365 days and presents that to you as “Daily”. APY on the other hand means “Annual percentage yield” which is when you take the daily yield and compound it. Beefy compounds your rewards automatically most of the time multiple times a day, this makes the APY much higher than a yearly APR would be.
+那是因为 APR 和 APY 是两种不同的东西。 APR 是“年利率”，具有固定的利率。 Beefy 通过将收益除以 365 天来显示 APR，并将其显示为“每日”。 另一方面，APY 的意思是“年度百分比收益率”，它计入了每日收益率并将其复合。 Beefy在大多数情况下每天都会自动对您的奖励进行复利，这使得显示的年利率 (APY) 远高于年度百分比收益率 (APR)。
 
-## How come the APY shown when deposited is not the same now?
+## 为什么显示的 APY 与我存入资金时不一样了呢？
 
-APY is the “Annual percentage yield” and is your daily yield compounded. The daily yield in turn is based on factors such as the yield rate and the total amount deposited that share this yield. When more people and in turn tokens enter the pool, the fixed yield is shared by more people \(tokens\) hence the daily yield will become lower and in turn, lower the APY. In the same way, if people \(tokens\) exit the vault, there are fewer people \(tokens\) sharing the fixed reward and the daily yield will increase and in turn, APY will increase.
+APY 是“年度百分比收益率”，是您的每日收益率复合。 日收益率又是基于诸如收益率和分享该收益率的金库总锁仓量等因素。 当更多的人和代币进入池子时，固定收益由更多人\(tokens\)共享，因此每日收益将变低，从而降低 APY。 同理，如果有人\(代币\)退出金库，分享固定奖励的人\(代币\)就会减少，每日收益会增加，反之APY也会增加。
 
-## Are the promoted project and its tokens safe?
+## 被推广的项目及其代币是否安全？
 
-When partnering with a certain project, Beefy always tries to make an overall check of the project to get a sense of its sincerity and safety. Before adding vaults that are hosted by the partnering project, we also try to look for vulnerabilities in the code. Despite all this, we can never be 100% sure about a partner, hence it’s up to you to make sure that the partnering project is a project that you want to support. Beefy cannot, and will not take any responsibility for your personal actions.
+在与某个项目合作时，Beefy 总是试图对该项目进行全面检查，以了解其诚意和安全性。 在添加由合作项目托管的金库之前，我们也会试图寻找其代码中的漏洞。 尽管这样，我们永远不可能对一个合作伙伴有100%的把握，因此您需要确保合作项目是您想要支持的项目。 Beefy 不能也不会对您的个人行为承担任何责任。
 
-## How to earn free BNB indefinitely?
+## 如何无限期地赚取免费的 BNB？
 
-Buy our own token $BIFI, and stake it here in the BIFI Gov pool and you will earn part of every harvest done on all our vaults, every day.
+购买我们的代币 $BIFI，并将其质押在 BIFI 治理池中，您将每天从我们所有金库的每次收割中赚取部分 BNB。
 
