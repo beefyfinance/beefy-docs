@@ -36,6 +36,10 @@ Trading Daily means how much your liquidity tokens will increase in value. Liqui
 
 Vault Daily means how much your token will increase in number. Due to the vault constantly farming rewards, and reinvesting that, your deposited token amount will increase. Vault Daily is affected by the yield farm rewards \(i.e. additional incentives besides trading fees\), such as CAKE on Pancakeswap.
 
+Trading Daily and Vault Daily can be multiplied by 365 to compute Trading APR and Vault APR. Adding Trading APR and Vault APR together results in the total APR. Converting the total APR to APY, to factor in compound interest, will produce the displayed vault APY percentage. 
+
+A handy tool to convert APR to APY is: [APRtoAPY.com](https://www.aprtoapy.com/)
+
 ## How can I find out how much earnings I have accumulated?
 
 You can use a DeFi dashboard that will be able to calculate exactly how much profit you have made on your investments. External tools such as [Yieldwatch](https://yieldwatch.net/) for BSC or [PolygonDex](https://polygondex.com/track/yield/yieldMeBroDawg.aspx) for Polygon will connect to your wallet and give you an accurate picture of your initial investment and current earnings.
