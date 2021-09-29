@@ -36,6 +36,10 @@ APY是指某项投资提供的年收益率。 该指标将复利计算在内，�
 
 金库日收益意味着您的代币数量将增加多少。 由于金库不断获得奖励，并对其进行再投资，您存入的代币数量将会增加。 金库日收益受收益农场奖励\(即除交易费用之外的额外奖励\)影响，例如 Pancakeswap 上的 CAKE。
 
+交易日收益和金库日收益可以乘以 365 来计算交易 APR 和金库 APR。 将交易 APR 和金库 APR 相加将得出总 APR。 将总 APR 转换为 APY，并把复利计算在内，将产生所显示的金库 APY 百分比。
+
+其中一个将 APR 转换为 APY 的便捷工具是：[APRtoAPY.com](https://www.aprtoapy.com/)
+
 ## 我如何知道我已经积累了多少收益？
 
 您可以使用 DeFi 仪表板以准确计算您从投资中获得的利润 。为了查看初始投资金额和当前利润，请将您的钱包连接到 BSC 网络上的 [Yieldwatch](https://yieldwatch.net/) 或 Polygon 网络上的 [PolygonDex](https://polygondex.com/track/yield/yieldMeBroDawg.aspx) 等第三方应用程序。
