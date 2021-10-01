@@ -1,213 +1,213 @@
-# Beefy Safety Score
+# Beefy 安全评分
 
-This document outlines the design for the Beefy Safety Score. The purpose of the safety score is to educate users when making a decision to enter a particular Beefy vault. The Safety Score is not necessarily perfect, but it is another tool that helps the user.
+本文档概述了 Beefy 安全评分的设计。 此评分的目的是教导用户在将资金存入任何特定 Beefy 金库时做出明智和平衡的决定。安全评分不会让您 100% 远离风险，但它是另一个帮助用户评估风险的有用工具。
 
-The safety score that a vault can get goes from 1 to 10. The best possible score is 10 and the worst is 0. It is technically possible for vaults to score less than 0, in which case 0 will be displayed.
+一个金库可以得到1到10分。最好的分数是10分，最差的是0分。从技术上分析，金库的分数是有可能低于 0 的，在这种情况下，显示的评分将为零。
 
-Risks are distributed in three main categories:
+风险主要分为三类：
 
-* Beefy Risks: Risks that we add by serving as a platform. 
-* Asset Risks: Risks of the asset being handled by the vault.
-* Platform Risks: Risks of the underlying farm or platform used.
+* Beefy 的风险：与我们作为金融服务平台相关的风险。
+* 资产风险：由金库处理的资产的风险。
+* 平台风险：所使用的底层农场或平台的风险。
 
-Each category is responsible for a percentage of the total score. Each category is itself divided in multiple subcategories.
+每个类别的分数占总分的一定比例，并分为几个子类别。
 
-All vaults start with a perfect score of 10 and are subtracted points whenever they have qualities that increase risk.
+所有金库的满分都是 10 分，如果发现它们具有增加风险的特征时，就会被扣分。
 
-## Category: Beefy Risks
+## 类别：Beefy 的风险
 
-These are risks related to the Beefy Finance platform itself. These could be risks added by the complexity of the vault strategy, if it's an experimental deployment, if it's been audited by others, etc. Twenty percent of the safety score is determined by the Beefy Risks.
+Beefy Finance 平台本身具有相关的风险。 其中的风险包括金库策略的复杂性，是否是实验性部署，是否经过审计等。安全评分的 20% 是由 Beefy Risks 决定的。
 
-### Subcategory: Complexity
+### 子类别：复杂性
 
-Tracks the complexity of the strategy behind a vault.
+追踪金库背后策略的复杂性。
 
-#### COMPLEXITY\_LOW
+#### 复杂度\_低
 
-* Title: Low complexity strategy
-* Explanation: Low complexity strategies have few, if any, moving parts and their code is easy to read and debug. There is a direct correlation between code complexity and implicit risk. A simple strategy effectively mitigates implementation risks.
-* Qualification Criteria: A low complexity strategy should interact with just one audited and well-known smart contract e.g. MasterChef. The strategy serves as a façade for this smart contract, forwarding deposit, harvest and withdrawal calls using a single line of code. 
+* 标题：低复杂度策略
+* 说明：低复杂度策略的变量数量最少，并且其代码易于阅读和调试。 代码复杂性和隐性风险之间存在直接关联。 一个简单的策略可以有效地减轻实施风险。
+* 资格标准：一个低复杂度的策略应该只与一个经过审计的知名智能合约交互，例如 MasterChef。该策略充当智能合约的接口，通过一行代码将存款、取款和利润收取请求定向到合约。
 
-#### COMPLEXITY\_MID
+#### 复杂度\_中等
 
-* Title: Beefy strategy is of medium complexity
-* Explanation: Medium complexity strategies interact with two or more audited and well-known smart contracts. Its code is still easy to read, test and debug. It mitigates most implementation risks by keeping things simple, however the interactions between 2 or more systems add a layer of complexity.
-* Qualification Criteria: A medium complexity strategy interacts with 2 or more well-known smart contracts. This strategy automates the execution of a series of steps with no forking paths. Every time deposit\(\), harvest\(\) and withdraw\(\) is called, the same execution path is followed.
+* 标题：中等复杂度策略
+* 说明: 中等复杂度的策略与两个或多个经过审计的知名智能合约交互。 它的代码仍然易于阅读、测试和调试。 它通过保持简易性来减轻实施策略的大部分风险，然而两个或多个系统之间的交互增加了额外的复杂性。
+* 资格标准: 中等复杂度的策略与 2 个或更多知名智能合约交互。 此策略会自动执行一系列没有分叉路径的步骤。 每次存款\(\)、收获\(\)和取款\(\)被调用，都遵循相同的执行路径。
 
-#### COMPLEXITY\_HIGH
+#### 复杂度\_高
 
-* Title: Beefy strategy is complex 
-* Explanation: High complexity strategies interact with one or more well-known smart contracts. These advanced strategies present branching paths of execution. In some cases multiple smart contracts are required to implement the full strategy.
-* Qualification Criteria: A high level complexity strategy can be identified by one or more of the following factors: high cyclomatic complexity, interactions between two or more third-party platforms, implementation split between multiple smart contracts.
+* 标题：高复杂度策略 
+* 说明: 高复杂度策略与一个或多个知名的智能合约交互。 这些高级策略呈现出分支式的执行路径。 在某些情况下，需要多个智能合约来实执行完整的策略。
+* 资格标准: 高复杂度的策略可以通过以下一个或多个属性来识别：周期的高复杂性、与两个或多个第三方平台的交互、多个智能合约之间的实施分割。
 
-### Subcategory: Time in Market
+### 子类别：上市时间
 
-Tracks how long has this strategy been running without any major issues.
+追踪此策略在没有任何重大问题的情况下运行了多长时间。
 
-#### BATTLE\_TESTED
+#### 实战\_检验
 
-* Title: Beefy strategy is battle tested
-* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy has been exposed to attacks and usage for some time already, with little to no changes. This makes it sturdier. 
-* Qualification Criteria:
-  * Was deployed using a BeefyStratFactory
-  * 10+ strategies sharing the same code deployed
-  * 3 months working as expected without upgrades
+* 标题: Beefy 的策略是通过实战检验的。
+* 说明: 一个特定策略运行的时间越长，就越有可能发现并修复它的任何潜在错误。这个策略已经被暴露在攻击和使用中一段时间了，几乎没有任何变化。这一事实表明了其可靠性。
+* 资格标准:
+  * 使用 BeefyStratFactory 进行了部署
+  * 10 多个策略共享部署的相同代码
+  * 3个月如期运作，无需升级
 
-#### NEW\_STRAT
+#### 新\_策略
 
-* Title: Strategy has been running for less than a month 
-* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy is a modification or iteration of a previous strategy. It hasn't been battle tested as much as others.
-* Qualification Criteria: -
+* 标题: 策略运行不到一个月的时间 
+* 说明: 一个特定策略运行的时间越长，它的任何潜在错误就越有可能被发现和修复。该策略是对先前策略的修改或迭代。它没有像其他策略那样经过实战检验。
+* 资格标准: -
 
-#### EXPERIMENTAL\_STRAT
+#### 实验\_策略
 
-* Title: The strategy has some features which are new 
-* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy is brand new and has at least one experimental feature. Use it carefully at your own discretion.
-* Qualification Criteria: -
+* 标题: 该策略具有一些新功能 
+* 说明: 一个特定策略运行的时间越长，它的任何潜在错误就越有可能被发现，并被修复。这一策略是全新的，并至少有一个实验性的特征。 请根据您的判断谨慎使用它。
+* 资格标准: -
 
-## Category: Asset Risks
+## 类别：资产风险
 
-Risks relating to the asset or assets handled by the vault. Entering into a vault with BTC has a different set of risks than entering into a vault with a newer and smaller coin. Twenty percent of the score is determined by this category.
+与金库所处理的资产有关的风险。使用 BTC 参与金库与使用更新更小的代币参与金库具有不同的风险。20%的分数是由这个类别决定的。
 
-### Subcategory: Impermanent Loss
+### 子类别：无常损失
 
-Tracks the risk of impermanent loss within the vault
+追踪金库内无常损失的风险
 
-#### IL\_NONE
+#### 无常损失\_无
 
-* Title: Very low or zero projected IL 
-* Explanation: The asset in this vault has very little or even no expected impermanent loss. This might be because you are staking a single asset, or because the assets in the LP are tightly correlated like USDC-USDT or WBTC-renBTC.
-* Qualification Criteria: Single asset vaults and vaults that manage stablecoins with a peg that isn't experimental: USDT, USDC, DAI, sUSD, etc.  
+* 标题: 非常低或预计为零的无常损失 
+* 说明: 该金库中的资产的预期无常损失非常小，甚至没有。这可能是因为您质押的是单一资产，或是因为LP中的资产是紧密相关的，如USDC-USDT 或 WBTC-renBTC。
+* 资格标准: 单一资产金库和管理与稳定币挂钩的非实验性的金库：USDT、USDC、DAI、sUSD 等。 
 
-#### IL\_LOW
+#### 无常损失\_低
 
-* Title: Low projected IL 
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. The assets in this vault have some risks of impermanent loss. 
-* Qualification Criteria: Vaults that handle what are normally referred as “Pool 1” LPs would fit here: ETH-USDC, MATIC-AAVE, etc. Governance tokens for smaller projects are normally known as “Pool 2” and thereby excluded.
+* 标题: 预计无常损失为低
+* 说明: 当您向一个代币对（例如 ETH-BNB）提供流动性时，这些资产存在价格脱钩的风险。 BNB 相对于 ETH 可能会大幅下跌。 与单独持有 ETH 和 BNB 相比，您会因此损失一些资金。 这个金库中的资产有一些无常损失的风险。 
+* 资格标准: 处理通常被称为 “Pool 1” LP 的金库, 如 ETH-USDC、MATIC-AAVE 等适合被归纳在此组中。小型项目的治理代币通常被称为 “Pool 2”，因此被排除在外。
 
-#### IL\_HIGH
+#### 无常损失\_高
 
-* Title: High projected IL 
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. The assets in this vault have a high or very high risk of impermanent loss. 
-* Qualification Criteria: Vaults that handle “Pool 2” LPs go here. These LP normally include the governance token of the farm itself.
+* 标题: 预计无常损失为高 
+* 说明: 当您向一个代币对（例如 ETH-BNB）提供流动性时，这些资产存在价格脱钩的风险。 BNB 相对于 ETH 可能会大幅下跌。 与单独持有 ETH 和 BNB 相比，您会因此损失一些资金。 这个金库中的资产有高或非常高的无常损失的风险。
+* 资格标准: 处理 “Pool 2” LP 的金库将被归纳在此组中。 这些 LP 通常包括农场本身的治理代币。
 
-#### ALGO\_STABLE
+#### 算法\_稳定币
 
-* Title: Algorithmic stable, experimental peg
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. At least one of the stablecoins held by this vault is an algorithmic stable. This means that the stable peg is experimental and highly risky. Use it carefully at your own discretion.
-* Qualification Criteria: “Stablecoins” with experimental pegs, or tokenomics that have failed repeatedly to hold its peg in the past, go here.
+* 标题: 进行实验挂钩的算法稳定币
+* 说明: 当您向一个代币对（例如 ETH-BNB）提供流动性时，这些资产存在价格脱钩的风险。 BNB 相对于 ETH 可能会大幅下跌。 与单独持有 ETH 和 BNB 相比，您会因此损失一些资金。 该金库持有的稳定币中至少有一个是算法稳定币。 这意味着与稳定币挂钩的算法稳定币是实验性的，而且有很大的风险。请根据您的判断谨慎使用它。
+* 资格标准: 带有实验性质，与“稳定币”挂钩的算法稳定币，或过去多次未能保持挂钩的代币经济学，将被归纳在此组中。
 
-### Subcategory: Liquidity
+### 子类别：流动性
 
-Tracks how difficult it is to buy/sell the vault's token.
+追踪购买/出售金库代币的难度。
 
-#### LIQ\_HIGH
+#### 流动性\_高
 
-* Title: High trade liquidity
-* Explanation: How liquid an asset is affects how risky it is to hold it. Liquid assets are traded in many places and with good volume. The asset held by this vault has high liquidity. This means that you can exchange your earnings easily in plenty of places.
-* Qualification Criteria: -
+* 标题: 交易量大，流动性高
+* 说明: 一项资产的流动性如何影响到持有它的风险程度。流动资产在很多地方都有得交易，而且交易量很大。这个金库所持有的资产具有很高的流动性。这意味着您可以在很多地方轻松兑换您的收益。
+* 资格标准: -
 
-#### LIQ\_LOW
+#### 流动性\_低
 
-* Title: Low trade liquidity
-* Explanation: How liquid an asset is affects how risky it is to hold it. Liquid assets are traded in many places and with good volume. The asset held by this vault has low liquidity. This means that it isn't as easy to swap and you might incur high slippage when doing so.
-* Qualification Criteria: -
+* 标题: Low trade liquidity
+* 说明: 一项资产的流动性如何影响到持有它的风险程度。流动资产在很多地方都有得交易，而且交易量很大。这个金库所持有的资产具有很低的流动性。这意味着它不容易被交换，而且交换时可能会产生很高的滑点。
+* 资格标准: -
 
-### Subcategory: Market Cap
+### 子类别：市值
 
-Total value of all the coins in circulation. Indirectly tracks how volatile the vault's underlying asset is.
+所有流通中的代币的总价值。 间接追踪金库基础资产的波动性。
 
-#### MCAP\_LARGE
+#### 市值\_大
 
-* Title: High market cap, low volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a large market cap. This means it's potentially a highly safe asset to hold. The asset has a high potential to stick around and grow over time.
-* Qualification Criteria: Top 50 MC by Gecko/CMC
+* 标题: 高市值，低波动性资产
+* 说明: 加密资产的市值直接影响到持有它的风险程度。通常情况下，小市值意味着高波动性和低流动性。 该金库持有的资产具有较大的市值。 这意味着它可能是一种高度安全的资产。 随着时间的推移，该资产具有较高的留存和增长潜力。
+* 资格标准: Gecko/CMC 排名前 50 位的市值
 
-#### MCAP\_MEDIUM
+#### 市值\_中
 
-* Title: Medium market cap, medium volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a medium market cap. This means it's potentially a safe asset to hold. The asset has potential to stick around and grow over time.
-* Qualification Criteria: Between 50 and 300 MC by Gecko/CMC
+* 标题: 中等市值，中等波动性资产
+* 说明: 加密资产的市值直接影响到持有它的风险程度。通常情况下，小市值意味着高波动性和低流动性。 该金库持有的资产具有中等市值。 这意味着它可能是一种安全的资产。 该资产有可能会随着时间的推移而继续存在并增长。
+* 资格标准: Gecko/CMC 市值排名介于 50 到 300 之间
 
-#### MCAP\_SMALL
+#### 市值\_小
 
-* Title: Small market cap, high volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a small market cap. This means it's potentially a risky asset to hold. The asset has low potential to stick around and grow over time.
-* Qualification Criteria: Between 300 and 500 MC by Gecko/CMC
+* 标题: 小市值，高波动性资产
+* 说明: 加密资产的市值直接影响到持有它的风险程度。通常情况下，小市值意味着高波动性和低流动性。 该金库持有的资产市值很小。 这意味着它有可能是一个有风险的资产。 随着时间的推移，该资产留存和增长的潜力很低。
+* 资格标准: Gecko/CMC 市值排名介于 300 到 500 之间
 
-#### MCAP\_MICRO
+#### 市值\_微型
 
-* Title: Micro market cap, Extreme volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a micro market cap. This means it's potentially a highly risky asset to hold. The asset has low potential to stick around.
-* Qualification Criteria: +500 MC by Gecko/CMC
+* 标题: 微型市值，极端波动性资产
+* 说明: 加密资产的市值直接影响到持有它的风险程度。通常情况下，小市值意味着高波动性和低流动性。 该金库持有的资产具有微型市值。 这意味着它可能是一种高风险资产。 该资产留存的潜力很低。
+* 资格标准: Gecko/CMC 市值排名于 500 之后
 
-### Subcategory: Supply
+### 子类别：供应
 
-Tracks risks related to the asset supply. Can it be altered by anyone? How centralised is it?
+追踪与资产供应有关的风险。它能被任何人改变吗？它的中心化程度如何？
 
-#### SUPPLY\_CENTRALIZED
+#### 供应\_中心化
 
-* Title: Few very powerful whales
-* Explanation: When the supply is concentrated in a few hands, they can greatly affect the price by selling. Whales can manipulate the price of the coin. The more people that have a vested interest over a coin, the better and more organic the price action is.
-* Qualification Criteria: Less than 50 accounts hold more than 50% of the supply. 
+* 标题: 该项目由几个 "鲸鱼 "控制
+* 说明: 当供应集中在少数人手中时，他们可以通过卖出来极大地影响价格。 鲸鱼可以操纵代币的价格。 对代币拥有既得利益的人越多，其价格行为就越好 / 越有机。
+* 资格标准: 不到 50 个账户持有超过 50% 的供应量。 
 
-## Category: Platform Risks
+## 类别：平台风险
 
-Risks relating to the third party platforms used by the vault. How much track record they have, how solid the code is, are there any dangerous actions that an admin can take, etc. Sixty percent of the score is determined by this category.
+与金库使用的第三方平台相关的风险。 该平台在市场上的时间有多长，其使用的软件代码的可靠性如何，管理员是否可以采取任何对投资者有危险的操作等。 60% 的分数由这个类别决定。
 
-### Subcategory: Reputation
+### 子类别：声誉
 
-Tries to give clues about the team and community's track record. How likely are they to rug for example.
+此子类别包括平台背后的团队和社区的详细信息，以及有关他们以往经验的信息等。 例如，他们以欺诈手段偷走投资者资金的可能性有多大。
 
-#### PLATFORM\_ESTABLISHED
+#### 平台\_受认可
 
-* Title: The platform has a known track record
-* Explanation: When taking part in a farm, it can be helpful to know the amount of time that the platform has been around and the degree of its reputation. The longer the track record, the more investment the team and community have behind a project. This vault farms a project that has been around for many months.
-* Qualification Criteria: The underlying farm has been around for at least 3 months.
+* 标题: 该平台已成功运行了很长时间
+* 说明: 当参加一个农场时，了解该平台存在的时间及其声誉程度会有所帮助。 平台在市场上的时间越长，项目背后的团队和社区投入的精力和金钱就越多。 该金库支持一个已经存在好几个月的项目进行流动性挖矿。
+* 资格标准: 底层农场已经存在至少 3 个月。
 
-#### PLATFORM\_NEW
+#### 平台\_新
 
-* Title: Platform is new with little track record
-* Explanation: When taking part in a farm, it can be helpful to know the amount of time that the platform has been around and the degree of its reputation. The longer the track record, the more investment the team and community have behind a project. This vault farms a new project, with less than a few months out in the open.
-* Qualification Criteria: The underlying farm has been around for less than 3 months.
+* 标题: 该平台是新的，并只运行了极短的时间
+* 说明: 当参加一个农场时，了解该平台存在的时间及其声誉程度会有所帮助。 平台在市场上的时间越长，项目背后的团队和社区投入的精力和金钱就越多。 该金库支持一个只存在少于几个月的新项目进行流动性挖矿。
+* 资格标准: 底层农场已经存在少于 3 个月。
 
-### Subcategory: Security
+### 子类别：安全性
 
-Tracks various smart contract good practices.
+追踪各种智能合约是否有良好实践。
 
-#### NO\_AUDIT
+#### 没\_审计
 
-* Title: The platform has never been audited by third-party trusted auditors
-* Explanation: Audits are reviews of code by a group of third party developers.
-* Qualification Criteria: -
+* 标题: 该平台从未经过第三方可信赖的审计机构的审计
+* 说明: 审计是由一组第三方开发人员对代码进行审查。
+* 资格标准: -
 
-#### AUDIT
+#### 审计
 
-* Title: The platform has an audit from at least one trusted auditor
-* Explanation: Audits are reviews of code by a group of third party developers.
-* Qualification Criteria: One or more audits from an auditor that has some positive track record in the space.
+* 标题: 该平台至少经过一家值得信赖的审计机构进行审计
+* 说明: 审计是由一组第三方开发人员对代码进行审查。
+* 资格标准: 审计是由一家或多家在该领域具有经验的公司进行的。
 
-#### CONTRACTS\_VERIFIED
+#### 合同\_验证
 
-* Title: All relevant contracts are publicly verified
-* Explanation: Code running in a particular contract is not public by default. Block explorers let developers verify the code behind a particular contract. This is a good practice because it lets other developers audit that the code does what it’s supposed to. All the third party contracts that this vault uses are verified. This makes it less risky.
-* Qualification Criteria: -
+* 标题: 所有相关合同都经过公开验证
+* 说明: 默认情况下，特定合约中运行的代码是不公开的。 区块浏览器让开发人员可以验证特定合约背后的代码。 这是一个很好的做法，因为它可以让其他开发人员审核代码是否按预期运作。 此金库使用的所有第三方合约都经过验证。 这使得它的风险较小。
+* 资格标准: -
 
-#### CONTRACTS\_UNVERIFIED
+#### 合同\_未验证
 
-* Title: Some contracts are not verified
-* Explanation: Code running in a particular contract is not public by default. Block explorers let developers verify the code behind a particular contract. This is a good practice because it lets other developers audit that the code does what it’s supposed to. Some of the third party contracts that this vault uses are not verified. This means that there are certain things that the Beefy devs have not been able to inspect.
-* Qualification Criteria: -
+* 标题: 部分合同未经过验证
+* 说明: 默认情况下，特定合约中运行的代码是不公开的。 区块浏览器让开发人员可以验证特定合约背后的代码。 这是一个很好的做法，因为它可以让其他开发人员审核代码是否按预期运作。 此金库使用的某些第三方合约未经验证。 这意味着有些事情是 Beefy 开发人员无法检查的。
+* 资格标准: -
 
-#### ADMIN\_WITH\_TIMELOCK
+#### 管理员\_有\_时间锁定
 
-* Title: Dangerous functions are behind a timelock
-* Explanation: Sometimes the contract owner or admin can execute certain functions that could put user funds in jeopardy. The best thing is to avoid these altogether. If they must be present, it’s important to keep them behind a timelock to give proper warning before using them. This contract has certain dangerous admin functions, but they are at least behind a meaningful Timelock. 
-* Qualification Criteria: There is at least one function present that could partially or completely rug user funds. The function must be behind a +6h timelock.
+* 标题: 危险功能延迟执行（有时间锁定）
+* 说明: 有时，合约所有者或管理员可以执行某些可能使用户资金处于危险之中的功能。 这种情况的最佳解决方案是完全不存在这种可能性。如果无法排除此类功能，则有必要在一段时间后执行它们，即延迟执行，以警告可能受到影响的每个人。 该合约具有某些危险的管理员功能，但它们至少是在一个有意义的时间锁后面。
+* 资格标准: 至少有一项功能可以允许部分或完全提走用户的资金。 此功能必须在启动后 6 小时以上才能执行。
 
-#### ADMIN\_WITHOUT\_TIMELOCK
+#### 管理员\_无\_时间锁定
 
-* Title: Dangerous functions are without a timelock
-* Explanation: Sometimes the contract owner or admin can execute certain functions that could put user funds in jeopardy. The best thing is to avoid these altogether. If they must be present, it’s important to keep them behind a timelock to give proper warning before using them. This contract has certain dangerous admin functions, and there is no time lock present. They can be executed at a moment's notice.
-* Qualification Criteria: There is at least one function present that could partially or completely rug user funds. The function has no time lock protection.
+* 标题: 危险功能可以立即执行（无时间锁定）
+* 说明: 有时，合约所有者或管理员可以执行某些可能使用户资金处于危险之中的功能。 这种情况的最佳解决方案是完全不存在这种可能性。如果无法排除此类功能，则有必要在一段时间后执行它们，即延迟执行，以警告可能受到影响的每个人。  这个合约有某些危险的管理员功能，而且没有时间锁定的存在。它们可以在一瞬间被执行。
+* 资格标准: 至少有一项功能可以允许部分或完全提走用户的资金。 该功能没有时间锁定保护。
 
