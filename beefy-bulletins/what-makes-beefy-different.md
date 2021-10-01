@@ -1,26 +1,26 @@
-# What Makes Beefy Different?
+# 是什么让 Beefy 与众不同？
 
 ![](../.gitbook/assets/bulletin-what-makes-beefy-different.png)
 
-Investor and crypto evangelist Naval Ravikant was once asked, "What would you be working on if you were 25 again?"
+曾经有人问投资者和加密货币布道者 Naval Ravikant，“如果您再次回到 25 岁，您会从事什么工作？”
 
-**Naval's reply:**
+**Naval's 回复：**
 
-_"An unstoppable, uncensorable social media platform."_
+_"一个不可阻挡、不可审查的社交媒体平台。"_
 
-In other words, he'd be working on a technological platform that puts science and code ahead of cronyism and censorship. This is the foundation of Beefy Finance.
+换句话说，他将致力于一个技术平台，将科学和代码置于裙带关系和审查制度之上。这就是Beefy Finance的基础。
 
-Some other values we align ourselves with:
+我们认同的其他一些价值观：
 
-_Trustless, open-source, decentralized, scalable, transparent, community-driven, cross-chain, autonomous, sustainable, innovation, healthy treasury, contribution rewards, developer bounties, safety._
+_去信任、开源、去中心化、可扩展、透明、社区驱动、跨链、自治、可持续、创新、健康的公帑、贡献奖励、开发者奖励、安全。_
 
-In practical terms, our sustainable tokenomics mean the day-to-day is unrelentingly focused on the product. We provide the greatest variety of vaults and the highest number of chains. Users can request vaults directly from our developers on Discord and the time it takes to answer these requests is very low.
+在实践中，我们的可持续代币经济学意味着我们每天都可以专注于产品研发上。 我们提供了最多种类的金库和最高数量的链条。 用户可以在 Discord 上直接向我们的开发人员要求添加新的金库，开发人员通常会相当迅速地回应此类请求。
 
-At the time of writing, we have more than a dozen smart contract developers \(and growing\) carefully testing and reviewing the vaults, investment strategies and smart contracts before public release.
+在撰写本文时，我们有十多名智能合约开发人员 \(并且不断增长\) 在公开发布之前都会仔细测试和审查金库、投资策略和智能合约。
 
-**Safety is everything.**
+**安全就是一切。**
 
-And we offer this while saving you time and energy through automation.
+我们在提供这些服务的同时，通过自动化为您节省时间和精力。
 
-_**Be first. Be safe. Be Beefy.**_
+_**和 Beefy 一起，注意安全，成为第一。**_
 

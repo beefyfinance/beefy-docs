@@ -1,43 +1,42 @@
-# Tokenomics & Governance
+# 代币经济学与治理
 
-## **What is $BIFI?**
+## **什么是 $BIFI？**
 
-$BIFI, otherwise known as BIFI, is the native governance token of our project. By holding this token and staking as part of our governance mechanisms, users can directly take part in the decision-making process. To get your hands on the token, head to one of the many liquidity pools or exchanges on the Binance Smart Chain such as [1inch](https://1inch.exchange/#/r/0xF4cb25a1FF50E319c267b3E51CBeC2699FB2A43B/BNB/BIFI/?network=56) or [PancakeSwap.](https://exchange.pancakeswap.finance/)
+$BIFI，也称为 BIFI，是我们项目的原生治理代币。 通过持有此代币并将其作为我们治理机制的一部分，用户可以直接参与决策过程。 欲获得代币，请前往币安智能链上的众多流动性池或去中心化交易所之一，例如 [1inch](https://1inch.exchange/#/r/0xF4cb25a1FF50E319c267b3E51CBeC2699FB2A43B/BNB/BIFI/?network=56) 或 [PancakeSwap.](https://exchange.pancakeswap.finance/)
 
-Inbuilt within the tokenomics of the platform are mechanisms to bring its deflationary nature. This rewards early supporters and has the aim of creating highly incentivized token holders to contribute to the project. After an initial distribution period of around two months, 72,000 tokens were supplied to the community with 8,000 locked for the founding team.
+平台代币经济学中内置的机制为代币提供了通货紧缩排放模型。 这奖励了早期的支持者，其主要目的是创建一个由愿意为项目发展做出贡献的高度积极的代币持有人组成的社区。 经过约两个月的初始分配期，72,000个代币被分配给社区成员，8,000个被分配用于资助Beefy团队。
 
-Token holders of $BIFI have a right to create and vote on proposals to the platform as part of its governance system. Tokens can be staked in the governance pool to gain rewards also in wBNB. A portion of the fees paid by our yield farming vault users is then distributed to holders of the $BIFI token staked in the pool.
+作为其治理系统的一部分，$BIFI 的代币持有者有权创建平台提案并对其进行投票。 代币可以被质押在治理池或 wBNB 池子中以获得奖励。 Beefy 金库用户所支付的部分费用将被分配给质押在池子中的 $BIFI 代币持有者。
 
-Users do not need to un-stake their tokens to participate in the voting process. This incentivizes much more voter participation as it means users don’t need to default their rewards to vote.
+用户无需解除他们的代币质押就可以参与投票过程。这激励了更多的投票者参与，因为这意味着用户不需要放弃他们的奖励来进行投票。
 
-BIFI can also be staked in the BIFI max vault, which pays out rewards in $BIFI. wBNB from vault fees are used to purchase $BIFI from the open market as the token is non-inflationary and will no longer mint any more tokens. These purchased tokens are then distributed to anyone who has staked in the BIFI max vault.
+BIFI 也可以被质押在 BIFI Maxi 金库中，该金库以 $BIFI 的形式支付奖励。由于该代币是通货紧缩模式，并且将不再铸造任何代币，来自金库费用的 wBNB 将用于从公开市场购买 $BIFI， 然后将这些已购买的代币分发给在任何 BIFI Maxi 金库中的质押者。
 
-## **How is the protocol revenue distributed?**
+## **协议的利润是如何分配的？**
 
-All revenue generated on the platform from vault fees is sent to and handled by the RewardPool smart contract in form of wBNB. Anyone who stakes their $BIFI in either the RewardPool or BIFI Maxi vault receives their proportionate share.
+平台上所有来自金库费用的收入都以wBNB的形式发送到RewardPool智能合约并由其处理。任何在RewardPool或BIFI Maxi金库中质押BIFI的人都会收到与其份额相对应的奖励。
 
-## **What’s the BIFI Maxi vault?**
+## **什么是BIFI Maxi金库？**
 
-The BIFI Maxi vault allows users to stake their $BIFI much like in the RewardPool, but receive instead their rewards in $BIFI. By staking their $BIFI, each participant converts and compounds their share of the protocol’s revenue into more BIFI tokens. As no more BIFI tokens are to be minted, these are provided to stakers by buying BIFI from the open market with wBNB.
+BIFI Maxi 金库允许用户像在 RewardPool 中一样质押他们的 $BIFI，但以 $BIFI 获得他们的奖励。 通过质押他们的 $BIFI，每个参与者将他们在协议收入中的份额转换并复合成更多的 BIFI 代币。 由于不再需要铸造 BIFI 代币，这些代币是通过使用 wBNB 从公开市场购买 BIFI 来提供给质押者的。
 
-This Vault is for users that want to convert and compound their share of the protocol's revenue in more BIFI tokens. As BIFI has no inflation, the strategy market buys BIFI with wBNB rewards.
+此金库是为那些想把他们的协议收入份额转换和复合成更多 BIFI 代币的用户所准备的。由于BIFI不是通膨模式，因此策略将从公开市场使用wBNB的奖励来购买BIFI。
 
-## **Where can I buy $BIFI?**
+## **我在哪里可以买到 $BIFI？**
 
-$BIFI can currently be found in several decentralized exchanges including [1inch](https://1inch.exchange/#/r/0xF4cb25a1FF50E319c267b3E51CBeC2699FB2A43B/BNB/BIFI/?network=56) and [PancakeSwap.](https://exchange.pancakeswap.finance/) Buying $BIFI usually involves exchanging it for another crypto-coin or token through a liquidity pool.
+$BIFI 目前可以在几个去中心化交易所中找到，包括 [1inch](https://1inch.exchange/#/r/0xF4cb25a1FF50E319c267b3E51CBeC2699FB2A43B/BNB/BIFI/?network=56) 和 [PancakeSwap.](https://exchange.pancakeswap.finance/) 购买 $BIFI 通常涉及通过流动性池将其转换成另一种加密货币或代币。
 
-## **How do I take part in governance?**
+## **我如何参与治理？**
 
-By simply holding $BIFI, even if staked in the governance pool or BIFI Maxi vault, a user earns the right to create proposals and vote in them. Voting sway and power are derived from the $BIFI holdings of the participant. The reasoning behind this follows that those holding more $BIFI are more invested in the project, and therefore have a larger incentive for the platform itself to succeed and prosper.  
-You can see proposals and vote on them yourself by heading to [vote.beefy.finance](https://vote.beefy.finance/).
+通过简单地持有 $BIFI，即使只是在治理池或 BIFI Maxi 金库中进行质押，用户也可以获得创建提案并在其中投票的权利。 投票权和权力来自参与者持有的 $BIFI。这背后的原因是，那些持有更多BIFI的人对项目的投资更多，因此对平台本身的成功和繁荣有更大的激励作用。您可以前往 [vote.beefy.finance](https://vote.beefy.finance/) 查看提案并自行投票。
 
-## **How do I vote?**
+## **我如何投票？**
 
-Voting requires you to hold $BIFI, which can either simply be held in your wallet or staked in the governance pool or BIFI Maxi vault. You do not need to remove your stake either to vote. Voting power is based directly on the amount of $BIFI each voter holds.
+为了进行投票，您需要持有 $BIFI，它可以存放在您的钱包中，也可以质押在管理池或 BIFI Maxi 金库中。 您无需移除您的质押份额即可投票。 投票权直接取决于每个投票者持有的 $BIFI 数额。
 
-## **How do I create a proposal?**
+## **我如何创建一个提案？**
 
-Proposals can be created by anyone, regardless of if they are a $BIFI holder or not. Simply visit [https://vote.beefy.finance/\#/](https://vote.beefy.finance/#/) and click New Proposal.
+您必须持有至少 1 个 $BIFI 才能创建提案。欲创建提案，只需访问[https://vote.beefy.finance//#/](https://vote.beefy.finance/#/)，并点击创建提案即可。
 
-Each proposal is made up of a question to pose to the community, along with the option of choices that others can vote on in response to your question. Simply set a start and end date for your proposal and publish it.
+每个提案都由一个要向社区提出的问题，以及其他人可以投票来回答您的问题的选项组成。 只需为您的提案设置开始和结束日期并发布即可。
 

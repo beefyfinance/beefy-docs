@@ -1,42 +1,46 @@
-# General
+# 一般问题
 
-## Is Beefy audited?
+## Beefy是否经过审计？
 
-Our first auditor was DefiYield, which audited $BIFI token, the RewardPool and all the timelocks.
+我们的第一个审计师是 DefiYield，它审计了 $BIFI 代币、RewardPool 和所有的时间锁。
 
-Beefy now is also audited by Certik, which guarantees the robustness of our smart contracts and the safety of funds invested through Beefy. Certik has already provided audits for such projects as Ocean Protocol, NEO, Ontology, and Waves.
+Beefy 现在也经过了 Certik 审计，这保证了我们智能合约的稳健性和通过 Beefy 投资的资金的安全性。 Certik 已经为 Ocean Protocol、NEO、Ontology 和 Waves 等项目提供过审计。
 
-Certik has audited some of the most complex and reusable investment strategies used within the platform. This ensures the safety and sturdiness of important platform aspects that the majority of our users interact with.
+此外，Certik 还审核了我们整个平台中一些最复杂和最常用的投资策略。 这一事实证实了平台最重要部分的安全性和稳定性，我们的大多数用户每天都在与之进行交互。
 
-[All Beefy audits can be found here.](https://github.com/beefyfinance/beefy-audits)
+[所有 Beefy 审计都可以在这里找到。](https://github.com/beefyfinance/beefy-audits)
 
-## What is a yield optimizer?
+## 什么是收益优化器？
 
-A yield optimizer is an automated service that seeks to gain the maximum possible return on crypto-investments, much more efficiently than attempting to maximize yield through manual means.
+收益优化器是一种自动化服务，它寻求在加密货币投资中获得最大可能的回报，比尝试通过手动方式最大化收益要有效得多。
 
-Each vault has its own unique strategy for farming, which normally involves the reinvestment of crypto assets staked in liquidity pools. At the most simple level, it farms the rewards given from staked assets and reinvests them back into the liquidity pool. This compounds the amount of interest received and increases the amount staked that the yield is based on. A yield optimizer can repeat this up to process up to thousands of times a day.
+每个金库都有自己独特的耕作策略，这通常涉及对流动性池中的加密资产进行再投资。 在最简单的层面上，它从质押的资产中获得回报，并将其重新投资回流动性池中。 这复合了收到的利息金额，并增加了基于质押数额的收益。收益优化器每天最多可以重复执行此操作数千次。
 
-This fairly simple method is the principle reason behind the large APYs found on Beefy. Compounding fees are amortized among all vault participants, making it cheaper for the user.
+这种简单的方法是Beefy金库高APY的主要原因。 复利费用在所有金库参与者之间摊销，这大大降低了最终用户的再投资成本。
 
-## What’s the difference between APR and APY?
+## APR 和 APY 之间的区别是什么？
 
-APR \(Annual Percentage Rate\) is the yearly interest, minus fees. This does not include compounding effects that occur from reinvesting profits. If you were to invest $100 with 100% APR, you would make $100 in profit in a year time.
+APR \(年利率\) 是扣除了费用的年利息。 这并不包括利润进行再投资所产生的复利效应。 如果您以 100% 的年利率投资 $100 ，那么一年内您将获得 $100 的利润。
 
-If you however reinvest your profits regularly, you will compound your interest. This calculated over a year gives you your APY \(Annual Percentage Yield\). The more often you compound your interest, the greater the difference between APR and APY.
+然而，如果您定期将您的利润进行再投资，那么该百分比将会增加。 按年度计算，该百分比将是 APY \(年收益率\). 您越频繁地进行复利，APR 和 APY 之间的差异就越大。
 
-## How does APY work?
+## APY 是如何运作的？
 
-APY is the annual percentage yield offered from a particular investment. This takes into account compound interest, giving you an accurate idea of your returns compared to simple interest.
+APY是指某项投资提供的年收益率。 该指标将复利计算在内，使您能够与单利的回报进行比较。
 
-Large APYs in the percentage of thousands are possible with investments that provide daily yields of 1% or more. Due to your liquidity pool rewards being constantly farmed and reinvested, the interest compounds on larger and larger amounts.
+当每天的投资利率为1%或更高时，高达数千%的年收益率是可能的。由于从流动资金池收到的代币不断被收集和进行再投资，利息复利后的数额将会越来越大。
 
-## What do Vault Daily and Trading Daily mean?
+## 金库日收益和交易日收益代表什么？
 
-Trading Daily means how much your liquidity tokens will increase in value. Liquidity pools share trading fees amongst all liquidity providers, as introduced by the [Uniswap liqudity model](https://uniswap.org/docs/v2/advanced-topics/fees/). Trading Daily is affected by trading volume and the percentage of swap fees allocated to liquidity providers.
+交易日收益意味着您的流动性代币在一天内将增值多少。[Uniswap 流动性模型](https://uniswap.org/docs/v2/advanced-topics/fees/) 引入了流动性池在所有流动性提供者之间共享交易费用的操作原理. 交易日收益受交易量和分配给流动性提供者的交换费百分比等指标的影响。
 
-Vault Daily means how much your token will increase in number. Due to the vault constantly farming rewards, and reinvesting that, your deposited token amount will increase. Vaily Daily is affected by the yield farm rewards \(i.e. additional incentives besides trading fees\), such as CAKE on Pancakeswap.
+金库日收益意味着您的代币数量将增加多少。 由于金库不断获得奖励，并对其进行再投资，您存入的代币数量将会增加。 金库日收益受收益农场奖励\(即除交易费用之外的额外奖励\)影响，例如 Pancakeswap 上的 CAKE。
 
-## How can I find out how much earnings I have accumulated?
+交易日收益和金库日收益可以乘以 365 来计算交易 APR 和金库 APR。 将交易 APR 和金库 APR 相加将得出总 APR。 将总 APR 转换为 APY，并把复利计算在内，将产生所显示的金库 APY 百分比。
 
-You can use a DeFi dashboard that will be able to calculate exactly how much profit you have made on your investments. External tools such as [Yieldwatch](https://yieldwatch.net/) for BSC or [PolygonDex](https://polygondex.com/track/yield/yieldMeBroDawg.aspx) for Polygon will connect to your wallet and give you an accurate picture of your initial investment and current earnings.
+其中一个将 APR 转换为 APY 的便捷工具是：[APRtoAPY.com](https://www.aprtoapy.com/)
+
+## 我如何知道我已经积累了多少收益？
+
+您可以使用 DeFi 仪表板以准确计算您从投资中获得的利润 。为了查看初始投资金额和当前利润，请将您的钱包连接到 BSC 网络上的 [Yieldwatch](https://yieldwatch.net/) 或 Polygon 网络上的 [PolygonDex](https://polygondex.com/track/yield/yieldMeBroDawg.aspx) 等第三方应用程序。
 

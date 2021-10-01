@@ -1,31 +1,31 @@
 ---
-description: Beefy has been called many things…
+description: Beefy 被称为很多东西......
 ---
 
-# What is Beefy Finance?
+# Beefy Finance 是什么？
 
 ![](../.gitbook/assets/bulletin-what-is-beefy-finance.png)
 
-* "The compound interest opportunity of a lifetime"
-* "The safest and best way to get started in DeFi"
-* "Passive income on steroids"
-* "Just a really good, super decentralized investment"
+* "终生复利的机会"
+* "最安全、最好的 DeFi 入门方式"
+* "类固醇的被动收入机会"
+* "只是一个很棒的、超级去中心化的投资平台"
 
-_**But in practical terms, Beefy is a yield farming optimizer that removes the daily actions and regular fees associated with manual optimization.**_
+_**但实际上，Beefy 是一个产量收益优化器，它消除了与手动优化相关的日常操作和常规费用。**_
 
-What you're left with is very safe funds and a _very_ good return of investment \(ROI\).
+作为回报，您的资金得到安全的保管，并且您将获得 _非常_ 高的投资回报 \(ROI\).
 
-For those new to decentralized finance \(DeFi\), yield farming is simply a way to make some interest — as opposed to just "gains" — with your crypto holdings.
+对于那些刚接触去中心化金融 \(DeFi\) 的人来说，流动性挖矿只是一种利用您的加密货币资产来赚取利息的方式——而不仅仅是“收益”。
 
-Money is one thing, but time is the most important asset of all.
+金钱是一回事，但时间是最重要的资产。
 
-_**Beefy makes it simple to benefit from the upside of complex farming strategies.**_
+_**Beefy 通过利用复杂的农业策略使盈利变得更容易获取。**_
 
-There are lots of farms to choose from, so Beefy automates and optimizes different investment strategies in the background while you get on with your day.
+有很多农场可供选择，因此 Beefy 会在您展开新一天的同时在后台自动执行和优化不同的投资策略。
 
-The project consists of an anonymous team constantly exploring new methods of optimizing automation to secure the largest yields possible.
+该项目由一个匿名团队组成，不断探索自动化优化的新方法，以确保用户尽可能获得最大的收益。
 
-As a decentralized project with a crypto-mindset, there is a robust governance system in place to put the decision-making power in the hands of those invested in the project.
+作为一个具有加密思维的去中心化项目，一个强大治理系统的存在可以将决策权交给项目投资人。
 
-**This takes place through governance mechanisms related to Beefy's own fixed-supply, dividend-producing token, $BIFI.**
+**参与决策的过程是通过以Beefy其固定供应、产生股息的代币 $BIFI 相关的治理机制来实现的。**
 

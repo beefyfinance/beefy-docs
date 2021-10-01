@@ -1,44 +1,44 @@
 ---
-description: 'a Decentralized, Multi-Chain Yield Optimizer'
+description: '一个去中心化的多链收益优化器'
 ---
 
-# Introduction to Beefy Finance
+# Beefy Finance 项目介绍
 
-_Don't like long texts? Skip to_ [_Beefy Finance Infographics_](infographics.md)_._
+_不喜欢长文档？跳转至_ [_Beefy Finance信息图表_](infographics.md)_._
 
-## What is Beefy Finance?
+## Beefy Finance 是什么？
 
-Beefy Finance is a Decentralized Finance \(DeFi\) Yield Optimizer project, that allows its users to make more crypto with crypto. DeFi applications are unique in the sense that they are permissionless and trustless, meaning that anyone with a supported wallet can interact with them without the need for a trusted middlemen. Beefy Finance caters its users by making it easy to get a yield on their crypto capital in a safe and decentralized manner. Through a set of smart contracts and several investment strategies, Beefy Finance automatically maximizes the user rewards from various liquidity pools \(LPs\), automated market making \(AMM\) projects, and other yield farming opportunities in the DeFi ecosystem. This provides a huge advantage over attempting to do this manually yourself. Beef up those yields!
+Beefy Finance 是一个去中心化金融\(DeFi\) 收益优化器项目，它允许其用户使用加密货币来赚取更多加密货币。DeFi 应用程序的独创性在于它无需获取授权和信任，这意味着任何拥有受支持钱包的人都可以与其进行交互，而无需一位受信任的中间人。 Beefy Finance通过让用户以安全和去中心化的方式轻松获得其加密货币资本的收益来为他们提供服务。 通过一套智能合约和多种投资策略，Beefy Finance 自动从各种流动性池 \(LPs\)、自动化做市 \(AMM\) 项目和 DeFi 生态系统中的其他流动性挖矿机会中自动最大化用户奖励。 这与自己尝试手动操作相比提供了巨大的优势。 让我们来提高这些收益率吧！
 
-The project consists of an anonymous team, directly inspired by the yield optimization projects that had been developed on the Ethereum network. As a team that has been part of the crypto world for many years, we are strong proponents of “Don't Trust, Verify”. This is why data such as our [governance token distribution contracts](https://medium.com/beefyfinance/bifi-contracts-are-live-on-mainnet-6080577269d7) are open for anyone to verify that everything will work as intended. We are committed to this idea of radical transparency, which is especially important in nascent ecosystems like Decentralized Finance.
+此项目由一个匿名团队组成，受基于以太坊网络上开发的收益优化器项目的启发。 作为一支在加密货币产业界深耕多年的团队，我们信仰“不谈信任，直接验证”。 这就是为什么像我们的[治理代币分配合同](https://medium.com/beefyfinance/bifi-contracts-are-live-on-mainnet-6080577269d7)这样的数据对任何人都是开放的，以验证一切都将按预期进行。我们致力于这种彻底透明的理念，这在像去中心化金融这样的新兴生态系统中尤为重要。
 
-Beefy Finance offers complex strategies that are simple and intuitive for any investor to take part in through the vault offerings on the platform. The first set of vaults went live on October 8, 2020 on the Binance Smart Chain \(BSC\), making Beefy Finance the first Yield Optimizer on BSC. With the inherent advantage of speed and low fees with Binance Smart Chain, the team is exploring new methods of optimizing automation to secure the largest yields available. Upon initial deployment on the Binance Smart Chain, Beefy Finance later expanded on other blockchains such as the Huobi Eco Chain \(HECO\) and Avalanche.
+Beefy Finance 提供了简单直观的复杂策略，任何投资者都可以通过平台上的金库产品参与其中。 第一套金库于 2020 年 10 月 8 日在币安智能链 \(BSC\) 上上线, 使 Beefy Finance 成为 BSC 上的第一个收益优化器。 凭借币安智能链的速度和低费用的固有优势，该团队正在探索自动优化的新方法，以确保获得最大的收益率。 在币安智能链上进行初始部署后，Beefy Finance 随后扩展到其他区块链，例如火币生态链 \(HECO\) 和 Avalanche。
 
-From all of the vaults deployed on every blockchain, Beefy Finance has its native governance token $BIFI at its core. Platform revenue is generated from a small percentage of all the vault profits and distributed back to those who stake $BIFI. As a decentralized project with a deeply ingrained crypto-mindset, there is also a robust governance system in place to put the decision-making power in the hands of those invested in the project by governance mechanisms build around $BIFI.
+从部署在每个区块链上的所有金库中，Beefy Finance 以其原生治理代币 $BIFI 为核心。 平台收入来自所有金库利润的一小部分，并分配回给那些持有 $BIFI 的人。 作为一个根深蒂固的加密货币思维的去中心化项目，Beefy Finance也有一个强大的治理系统，通过围绕$BIFI所建立的治理机制，将决策权交到项目投资人的手中。
 
-## What makes Beefy Finance unique?
+## Beefy Finance 的独特之处在于什么地方？
 
-There are a few key reasons as to why Beefy Finance differs from a large number of Yield Optimizers out there today.
+与现有的其他收益优化器相比，Beefy Finance有几个关键优势。
 
-1. Beefy Finance largely distributes platform revenue back to those who stake $BIFI. With $BIFI, you essentially hold a dividend-eligible 'company' share. 
-2. Beefy Finance has more than 10 smart contract developers who carefully test and review our vaults, investment strategies, new platforms and smart contracts before releasing them to the public. Beefy is also actively encouraging developers to participate and engage to make Beefy Finance an even better product.
-3. Beefy Finance is flexible and operates on more than one blockchain.
-4. Given enough eyeballs, all bugs are shallow. The more widely available the source code is for public testing, scrutiny, and experimentation, the more rapidly all forms of bugs will be discovered. This is a key Beefy principle.
-5. Beefy offers unique strategies that other yield optimizers simply do not have. This includes liquidity pool pairs that you can find only on the Beefy platform. 
-6. The mooVaults for yield optimization boast large APYs that outperform many of our yield farming competitors.
-7. Beefy Finance is a supported partner of Trust Wallet, Binance’s official decentralized wallet. This provides the project with credibility and improves overall trust.
+1. Beefy Finance在很大程度上将平台收入分配回给那些 $BIFI 持有者。有了$BIFI，您基本上就持有一个可分红的 "公司 "股份。 
+2. Beefy Finance 有超过10个智能合约开发人员，他们在向公众发布之前都会仔细测试和审查我们的金库、投资策略、新平台和智能合约。Beefy还积极鼓励开发者参与，使Beefy Finance 成为更好的产品。
+3. Beefy Finance 非常灵活，可在多个区块链上运行。
+4. 更多人参与测试审查，任何bug都是浅层可查的。 我们认为，源代码用于公共测试、审查和实验的范围越广，发现各种形式的 bug 的速度就越快。这也是Beefy一直以来坚守的原则。
+5. Beefy 提供了其他收益优化器所没有的独特策略。 这包括只有在Beefy平台上才能找到的流动性池对。 
+6. mooVault收益优化器的APY非常之高，其性能优于许多流动性挖矿项目的竞争对手。
+7. Beefy Finance 是币安官方去中心化钱包 Trust Wallet 的支持合作伙伴。 这为项目提供了可信度并提高了整体信任度。
 
-## Beef Up Those Yields!
+## 让我们来提高这些收益率吧！
 
-We are‌ ‌a‌ ‌team‌ ‌of‌ ‌developers‌ ‌that‌ ‌want‌ ‌to‌ nourish ‌the‌ ‌long‌ ‌term‌ ‌DeFi ecosystem‌ ‌and‌ ‌make‌ ‌it‌ ‌easier‌ ‌for everyone to‌ ‌participate within it.‌ ‌The‌ ‌yield‌ ‌optimization‌ ‌projects ‌created‌ ‌by‌ [‌yearn.finance](https://yearn.finance/)‌, Andre‌ ‌Cronje‌ ‌and‌ ‌the‌ ‌YFI‌ ‌community have quickly inspired many others. This is an excellent ‌development ‌that‌ ‌is ‌helping‌ to ‌grow‌ and secure ‌the‌ ‌Ethereum‌ ‌ecosystem. However, in recognizing the fundamental properties of other chains, opportunities for significantly different approaches are apparent.
+我们是一个致力于DeFi生态长期发展的团队，希望让更多的人、以更低的门槛参与进来。收益优化项目是由yearn.finance最早创立的，Andre Cronje和YFI社区很快启发了其他的团队。这是一个极好的发展，有助于成长和确保以太坊生态系统的安全性。然而，在意识到其他链的基本属性时，采取不同策略的机会是显而易见的。
 
-## How to Optimize Yield On A Fast Chain 🎯 <a id="a8cb"></a>
+## 如何在一个快链上优化收益？ 🎯 <a id="a8cb"></a>
 
-Yield‌ ‌optimizers‌ ‌on‌ ‌fast blockchains, such as the Binance‌ Smart Chain, ‌present‌ ‌a‌ ‌different‌ ‌set‌ ‌of‌ ‌problems, challenges and opportunities.‌ ‌While‌ ‌on‌ ‌Ethereum,‌ where ‌gas‌ ‌fees‌ ‌are‌ ‌high,‌ ‌it‌ ‌makes‌ ‌sense‌ ‌to‌ ‌focus‌ ‌on‌ ‌gas‌ ‌savings, and ‌pooling‌ ‌funds‌ ‌to‌ ‌deploy‌ ‌strategies.‌ ‌Working‌ ‌on‌ ‌the‌ ‌Binance‌ ‌Smart‌ ‌Chain,‌ ‌where the fees are far smaller, ‌the‌ ‌focus‌ ‌moves‌ ‌to‌ ‌optimizing‌ ‌automation‌ ‌to‌ ‌secure ‌the‌ ‌greatest ‌yields‌ with less concern for the amount of interactions necessary ‌to‌ constantly ‌improve‌ ‌a‌ ‌moving‌ ‌APY.‌ ‌The doors open up to more complex strategies and frequent rebalances.
+快速区块链（如币安智能链）上的收益优化器，会面临一系列不同的问题、挑战和机遇。 在以太坊上，Gas费用很高，因此减少Gas开支和集资部署战略是很有意义的。在币安智能链上，费用要小得多，所以重心不在于为了要提高一个移动的 APY 所需的互动量，而是转移到自动优化以确保最大的收益率。 这打开了通往可以采取更复杂的战略和频繁自平衡的大门。
 
-With‌ this ‌automatization,‌ ‌we‌ ‌can‌ ‌provide‌ ‌a‌ ‌simple‌ ‌way‌ ‌for‌ ‌investors‌ ‌to‌ ‌interact‌ ‌with‌ ‌pools,‌ ‌projects,‌ ‌and‌ ‌other yield‌ ‌opportunities‌ ‌without‌ ‌having‌ ‌to‌ ‌constantly make decisions and take‌ ‌manual‌ ‌actions‌.‌ ‌We‌ ‌see‌ ‌this‌ ‌as‌ ‌a‌ ‌necessary‌ ‌step‌ ‌to‌ ‌leveling‌ ‌the‌ ‌playing‌ ‌field,‌ ‌allowing‌ ‌small‌ ‌investors‌ ‌to‌ ‌have‌ ‌access‌ ‌to‌ ‌the‌ ‌same‌ ‌opportunities‌ ‌that‌ ‌so‌ ‌far‌ ‌only‌ ‌whales‌ and full-time yield-farmers on Ethereum ‌have‌ ‌had‌ ‌access‌ ‌to.‌ ‌ ‌
+通过这种自动化技术，我们可以为投资者提供一种简单的方式，与资金池、项目和其他收益机会进行互动，而不必不断地做出决定和采取手动操作。 我们认为这是平衡游戏玩法的必要步骤，让更多持有小规模资金的玩家有同样的机会参与进来，而不是只有大玩家和以太坊全职收益农夫才能享有此特权。
 
-Building within Binance Smart Chain's open ecosystem, with its connection to the Binance‌ ‌infrastructure‌, ‌removes far more constraints‌ ‌than just high‌ ‌fees.‌ Our goal is to lead a phase of ‌open‌ ‌experimentation‌ that will ‌bring‌ ‌yummy‌ ‌stakes‌ ‌to‌ ‌your‌ ‌table.‌ ‌‌
+由于建立在币安智能链的开放生态系统之上，并与币安的基础设施相连接，因此我们有能力消除远多于高额费用的限制。 我们的目标是引领一个开放的实验阶段，为您带来更多的质押收益。
 
-Our long term goal is to help projects in DeFi grow together, providing help with auditing, creating hackathons for interesting strategies to add to the platform, etc. All of this will be coordinated decentralized by the community and the holders of the governance token $BIFI.
+我们的长期目标是帮助 DeFi 中的项目共同成长，提供审计帮助，创建黑客马拉松以将有趣的策略添加到平台等。所有这些都将由社区和治理代币 $BIFI 的持有者进行去中心化协调。
 

@@ -1,22 +1,22 @@
-# Team & Goals
+# 团队与目标
 
-## When was Beefy.Finance launched?
+## Beefy.Finance是何时推出的？
 
-Beefy was born on September 21, 2020, the day our [governance distribution contracts](https://medium.com/beefyfinance/bifi-contracts-are-live-on-mainnet-6080577269d7) went live. Our first set of vaults opened on October 8, 2020.
+Beefy 诞生于 2020 年 9 月 21 日, 也就是我们的 [治理分配合同](https://medium.com/beefyfinance/bifi-contracts-are-live-on-mainnet-6080577269d7) 正式上线的那一天。 我们的第一组金库于 2020 年 10 月 8 日开放。
 
-## How is Beefy organized?
+## Beefy是如何组织起来的？
 
-Beefy is a decentralized working hub for people with a vision to come together and build the future of global finance. Smart contract devs, UI, UX, strategists, statisticians, designers, and artists - anyone can join and contribute \(no matter your nationality, sex, or views\). By investing in Beefy, you are investing in the idea that a group of highly technical individuals can safely, securely and creatively leapfrog the dinosaurs of traditional finance.
+Beefy 是一个去中心化的工作中心，供有远见的人们共同构建全球金融的未来。 智能合约开发人员、UI、UX、策略家、统计学家、设计师和艺术家 - 任何人都可以加入并贡献 \(无论您的国籍、性别或观点\)。 通过投资 Beefy，您就是在投资这样一种理念，即一群技术精湛的人可以安全、可靠和创造性地超越传统金融的恐龙。
 
-## Why is the project anonymous?
+## 为什么该项目是匿名的？
 
-Personalities get in the way of projects, and we believe Beefy speaks for itself. By having a team that operates anonymously, even amongst itself, we can focus on providing the best experience for our users. That’s because we believe the strength of Beefy comes from what we build, which is an opportunity for investors to both automate AND maximize the ROI of their holdings. We urge anyone with concerns that anonymity diminishes credibility to join our Discord community \(link\) and get a first-hand feeling for the strength and depth of the project.
+个性的羁绊会妨碍一个项目的运行，我们相信这是不言自明的。通过拥有一个匿名运作的团队，即使在其成员之间，我们也可以完全专注于向用户提供最好的产品。我们相信 Beefy 的优势在于我们创造的金融产品，而这些产品又能让投资者实现自动化，并使其资产收益最大化。我们鼓励所有对项目的匿名性感到沮丧的人加入我们的 Discord社区 \(https://discord.gg/yq8wfHd \) ，亲自感受一下这个项目是多么的精细和充满能量。
 
-## How can I get in touch with Beefy?
+## 我如何与Beefy取得联系？
 
-Our global community managers and team members can be contacted anytime through our official [Telegram](https://t.me/beefyfinance) and [Discord](https://discord.gg/yq8wfHd) channels. We should mention that generally speaking within investment communities there are some bad actors around looking to scam, phish, or maliciously target users. Please double check the validity of whoever you talk to, and remember that no one representing Beefy will ever ask you to provide wallet keys or recovery codes.
+您可以通过我们的官方 [电报群](https://t.me/beefyfinance) 和 [Discord](https://discord.gg/yq8wfHd) 频道联系我们来自全球的社区经理和团队成员. 一般来说，投资社区中有许多网络犯罪分子试图通过各种方法以欺诈方式窃取用户的资金。 请仔细检查您是否正在与此人进行交流，并始终记住 Beefy 代表不会要求您提供钱包密钥或种子短语来恢复您的钱包。
 
-## What’s your relationship with Binance Smart Chain?
+## 您与币安智能链的关系是什么？
 
-The platform began life on the Binance Smart Chain network as one of the very first Yield Optimizers, but is evolving into a multi-chain ecosystem. BSC was our only home for many months, and helped us kickstart our growth. While it’s our highest chain by TVL, the gap keeps shrinking as our decentralized army of contributors looks for the best available yield in the multi-chain ecosystem.
+该平台作为最早的收益优化器之一在币安智能链网络上开始运行，但正在发展成为一个多链生态系统。 BSC 是我们许多个月以来唯一的家，并帮助启动了我们的成长。 到目前为止，这个网络上的TVL是最高的，但随着我们的去中心化社区不断寻求跨链生态系统中的最大回报，因此差距持续缩小。
 

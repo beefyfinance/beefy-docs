@@ -1,28 +1,28 @@
-# Strategies
+# 策略
 
-### What is a Vault Strategy?
+### 什么是金库策略？
 
-Beefy's vault strategies are modular smart contracts that tell it what assets to farm, and where it should sell the farmed assets. Rewards are regularly harvested, swapped for the original vault asset, and deposited again for compound farming.
+Beefy 的金库策略是模块化的智能合约，用于确定赚取哪些代币以及在哪里出售它们。 代币被定期收集，与最初存入金库的代币进行交换，并存回金库中。
 
-### **Who is in control of the strategies?**
+### **谁管理这些策略？**
 
-Each vault and strategy link is hardcoded, and the code has been built to be immutable, so once they are released, they become unstoppable. No one can modify the vaults and strategies.
+每个金库都经过硬编码以与特定策略进行交互。 在这种情况下，程序代码将无法被更改，因此一旦发布，它们就会变得不可阻挡。 没有人可以修改策略和金库。
 
-To release a new strategy on any asset, a new vault and strategy smart contract must be built.
+要在任何资产上发布一个新的策略，必须构建新的金库和策略智能合约。
 
-### **How can I make a strategy?**
+### **我如何参与制定战略？**
 
-For now you can post and discuss your strategy in Beefy’s Discord in the \#strategies channel. Detailing what it should buy/sell/farm and what the current APY is. There will be a template to help you get started.
+您可以在 Beefy Discord 的 \#strategies 频道上发布您的策略，并与社区进行讨论。详细说明您的策略将购买/收集/出售什么样的代币，以及当前的APY是多少。在那里，您还可以找到一个策略建议模板，让您更轻松地展开您的策略之旅！
 
-### **What is APR and APY?**
+### **什么是 APR 和 APY？**
 
-APR reflects the simple interest rate over a year’s time, while APY describes the rate with the effect of compounding**.**
+APR 反映了一年内的简单利率，而 APY 描述的是具有复利效应的年利率**.**
 
-### **Is APY/365 the right way to determine daily gains?**
+### **将APY除以365天以获得每天的收入是否正确？**
 
-No, the effect of compounded interest is exponential, not linear. A daily compounded interest of 1% would yield 3678.34% a year.
+不，复利的效果是呈指数式增长，而不是线性增长的。每天1%的复利，一年的收益为3678.34%。
 
-### **How does Beefy optimize APY?**
+### **Beefy是如何优化APY的？**
 
-Beefy automates the whole compounding process, making it close to optimal as possible. The compounding frequency depends on different variables in the system, like TVL, APR and strategy fees.
+Beefy将整个复利过程自动化，使其尽可能接近最佳状态。复利频率取决于系统中的不同变量，如TVL、APR和策略费用。
 

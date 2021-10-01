@@ -1,32 +1,32 @@
 ---
-description: Explaining Beefy Finance using simple infographics
+description: 使用简单的信息图表解释 Beefy Finance
 ---
 
-# Beefy Finance Infographics
+# Beefy Finance 信息图表
 
-Here, various aspects of Beefy Finance will be explained using easy to understand infographics.
+这里将使用易于理解的信息图表解释 Beefy Finance 的各个层面。
 
-## The yield farming steps that Beefy Finance executes for you:
+## Beefy Finance 为您执行的流动性挖矿收益步骤：
 
 ![](.gitbook/assets/beefy-info-yield-optimizing-process.png)
 
-At Beefy 'you earn what you stake', regardless if this is a liquidity pool \(LP\) token or a single asset. In this example, staking CAKE-BNB LP will result in more CAKE-BNB LP over time. This effectively grows your share in the liquidity pool and thus allows for more and more rewards over time. All of this with Beefy doing the required work, while you can sit back and relax!
+在 Beefy 这里，无论是流动性池 \(LP\) 代币还是单一资产，“您赚的就是您所质押的”。 在这个例子中，随着时间的推移，质押 CAKE-BNB LP 将让您获得更多的 CAKE-BNB LP。 这有效地增加了您在流动性池中的份额，从而随着时间的推移获得越来越多的奖励。 所有的这一切都是由 Beefy 完成所需的工作，而您可以高枕无忧！
 
-## The vault fee structure explained:
+## 金库费用结构说明：
 
-![&quot;What you see is what you get&quot;: the fees are already accounted for in the displayed APY!](.gitbook/assets/beefy-info-fees.png)
+![&quot;你看到的将是你所得到的&quot;: 费用已计入显示的APY！](.gitbook/assets/beefy-info-fees.png)
 
-More on the vault fees [here](faq/products/vaults.md#what-is-the-vault-fee-structure).
+有关金库费用的更多信息 [点击这里](faq/products/vaults.md#what-is-the-vault-fee-structure).
 
 ## Beefy Zap:
 
 ![](.gitbook/assets/beefy-info-zap.png)
 
-Beefy Zap automatically builds your liquidity pool \(LP\) tokens from a base deposit asset, such as BNB. When the time has come that you want to withdraw from a LP vault, Beefy Zap also supports withdrawing back into a base asset. This saves you the hassle of manually adding and removing liquidity at a yield farm. Here's [how to use Beefy Zap](faq/how-to-guides/how-to-beefy-zap.md)
+Beefy Zap 自动从基础存款资产（例如 BNB）构建您的流动性池 \(LP\) 代币。 当您想从 LP 金库中撤出时，Beefy Zap 也支持提取回基础资产。 这为您省去了在收益农场需要手动添加和解除流动性的麻烦。 以下是[如何使用 Beefy Zap](faq/how-to-guides/how-to-beefy-zap.md)
 
 ## Beefy Launchpool:
 
 ![](.gitbook/assets/beefy-info-boost.png)
 
-When a vault gets boosted in Beefy's Launchpool, you earn both the base asset and the partner's token! For more info, read the Launchpool FAQ [here](faq/products/launchpool.md).
+当一个金库在Beefy Launchpool中得到强化，您可以同时赚取基本资产和合作伙伴的代币! 更多信息，请阅读Launchpool FAQ [点击这里](faq/products/launchpool.md).
 

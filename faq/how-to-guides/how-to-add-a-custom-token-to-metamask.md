@@ -1,40 +1,39 @@
 ---
 description: >-
-  Here's how to add a custom token to Metamask. This guide uses BIFI as an
-  example.
+  以下是在 Metamask 添加自定义代币的方法。 本指南以 BIFI 为例。
 ---
 
-# How to Add a Custom Token to Metamask
+# 如何在Metamask中添加自定义代币
 
-## Visual Walkthrough
+## 视觉导览
 
-#### 1. Open Metamask and click 'Assets' to see the tokens in your wallet
+#### 1. 打开 Metamask 并点击“Assets”以查看您钱包中的代币
 
 ![](../../.gitbook/assets/capture%20%281%29.png)
 
-#### 2. Scroll down to the bottom and click 'Add Token'.
+#### 2. 向下滑动到底部，点击'Add Token'。
 
 ![](../../.gitbook/assets/addtoken.png)
 
-#### 3. Click 'Custom Token'
+#### 3. 点击 'Custom Token'
 
 ![](../../.gitbook/assets/custom-token.png)
 
-#### 4. Past the contract address for BIFI into the 'Token Contract Address' field
+#### 4. 将 BIFI 的合约地址粘贴到 “Token Contract Address” 一栏中
 
-BIFI Contract Address : [0xCa3F508B8e4Dd382eE878A314789373D80A5190A ](https://bscscan.com/token/0xCa3F508B8e4Dd382eE878A314789373D80A5190A)
+BIFI 合约地址 : [0xCa3F508B8e4Dd382eE878A314789373D80A5190A ](https://bscscan.com/token/0xCa3F508B8e4Dd382eE878A314789373D80A5190A)
 
 ![](../../.gitbook/assets/token-address.png)
 
-#### 5. Click 'Next' 
+#### 5. 点击 'Next' 
 
 ![](../../.gitbook/assets/next.png)
 
-#### 6. Click 'Add Tokens' to add the new token
+#### 6. 点击“Add Tokens”以添加新的代币
 
 ![](../../.gitbook/assets/bifi-ass.png)
 
-#### 7. Moooo! BIFI should appear in your assets list so it's easier to track and use
+#### 7. Moooo！ BIFI 现应出现在您的资产列表中，以便于追踪和使用
 
 ![](../../.gitbook/assets/added.png)
 

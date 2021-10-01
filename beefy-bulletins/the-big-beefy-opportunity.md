@@ -1,26 +1,26 @@
-# The Big Beefy Opportunity
+# Beefy 的宏伟契机
 
 ![](../.gitbook/assets/bulletin-the-big-beefy-opportunity.png)
 
-There are two types of people in this world: those who have a vague desire to achieve their financial goals, without ever taking any specific and deliberate action to make it happen, and those who "run the numbers" and are ready to seize the opportunity when they see it.
+这个世界上有两种人：一种是对实现自己的财务目标有模糊的愿景，但从未采取任何具体和深思熟虑的行动来实现它；另一种则是计算了数百种选择，并准备在看到机会时抓住它的人。
 
-This might sound like a cringe 80's television commercial, but the truth is the strength of Beefy Finance comes from what we BUILD, not what we say.
+这听起来可能像80年代的电视广告，但事实是Beefy Finance的实力来自于我们所建造的，而不是我们所说的。
 
-_So, what have we built?_
+_那么，我们建造了什么呢？_
 
-Like any other DeFi Yield Farm, Beefy has created an opportunity for its users to both automate AND maximize the ROI of their holdings.
+像任何其他DeFi流动性挖矿农场一样，Beefy为其用户创造了一个机会，使其持有的投资回报率自动化和最大化。
 
-But what is unique to Beefy is a decentralized working hub for people with a vision to come together and build the future of global finance.
+但Beefy的独特之处在于，它是一个分散的工作中心，让有远见的人聚集在一起，建立全球金融的未来。
 
-Smart contract devs, UI, UX, strategists, statisticians, designers, and artists — anyone can join and contribute \(no matter your nationality, sex, or views\).
+智能合约开发人员、UI、UX、战略家、统计学家、设计师和艺术家——任何人都可以加入并做出贡献 \(你的国籍、性别或观点并不重要\).
 
-_By investing in Beefy, you are investing in the idea that a group of highly technical individuals can safely, securely and creatively leapfrog the dinosaurs of traditional finance._
+_B通过投资在 Beefy，您就是在投资这样一种理念，即一群技术精湛的人能够以安全、可靠和创造性的理念超越传统金融的恐龙。_
 
-The two main variables in wealth generation are:
+创造财富的两个主要变量是：
 
-Time \(how long\) and yield \(how much\).
+时间 \(多长时间\) 和产量 \(多少\).
 
-We'll take care of the yield.
+我们会照顾好收益。
 
-**All you have to do is decide how soon you would like to get started.**
+**您所要做的就是决定您希望多快开始。**
 

@@ -1,56 +1,56 @@
-# Table of contents
+# 目录
 
-* [Overview](README.md)
-* [Introduction to Beefy Finance](introduction.md)
-* [Beefy Finance Infographics](infographics.md)
-* [Beefy Bulletins](beefy-bulletins/README.md)
-  * [What is Beefy Finance?](beefy-bulletins/what-is-beefy-finance.md)
-  * [The Big Beefy Opportunity](beefy-bulletins/the-big-beefy-opportunity.md)
-  * [What Makes Beefy Different?](beefy-bulletins/what-makes-beefy-different.md)
-  * [How Does Beefy Finance Work?](beefy-bulletins/how-does-beefy-finance-work.md)
-  * [Beefy Finance Fees Breakdown](beefy-bulletins/beefy-finance-fees-breakdown.md)
-  * [Why Beefy Beats Your Bank](beefy-bulletins/why-beefy-beats-your-bank.md)
-  * [Introducing Beefy's Unique Revenue Share Model](beefy-bulletins/introducing-beefys-unique-revenue-share-model.md)
-  * [Beefy's Coveted Advantages Revealed](beefy-bulletins/beefys-coveted-advantages-revealed.md)
+* [概要](README.md)
+* [Beefy Finance 项目介绍](introduction.md)
+* [Beefy Finance 信息图表](infographics.md)
+* [Beefy 公告](beefy-bulletins/README.md)
+  * [Beefy Finance 是什么？](beefy-bulletins/what-is-beefy-finance.md)
+  * [Beefy 的宏伟契机](beefy-bulletins/the-big-beefy-opportunity.md)
+  * [是什么让 Beefy 与众不同？](beefy-bulletins/what-makes-beefy-different.md)
+  * [Beefy Finance 是如何运作的？](beefy-bulletins/how-does-beefy-finance-work.md)
+  * [Beefy Finance费用明细](beefy-bulletins/beefy-finance-fees-breakdown.md)
+  * [为何 Beefy 能打败您的银行？](beefy-bulletins/why-beefy-beats-your-bank.md)
+  * [Beefy 独特的收入分享模式介绍](beefy-bulletins/introducing-beefys-unique-revenue-share-model.md)
+  * [揭开 Beefy 让人梦寐以求的优势](beefy-bulletins/beefys-coveted-advantages-revealed.md)
 
-## FAQ
+## 常问问题
 
-* [General](faq/general.md)
-* [Products](faq/products/README.md)
-  * [Vaults](faq/products/vaults.md)
+* [一般问题](faq/general.md)
+* [产品](faq/products/README.md)
+  * [金库](faq/products/vaults.md)
   * [Launchpool](faq/products/launchpool.md)
-  * [Strategies](faq/products/strategies.md)
+  * [策略](faq/products/strategies.md)
   * [Barn of Trust](faq/products/barn-of-trust.md)
-* [Beefy Safety Score](faq/beefy-safety-score.md)
-* [Team & Goals](faq/team-and-goals.md)
-* [mooVaults APY](faq/moovaults-apy.md)
-* [BIFI Token](faq/bifi-token/README.md)
-  * [Tokenomics & Governance](faq/bifi-token/tokenomics-and-governance.md)
-  * [Contract Addresses](faq/bifi-token/contract-addresses.md)
-* [How-To Guides](faq/how-to-guides/README.md)
-  * [How to participate in a mooVault](faq/how-to-guides/how-to-participate-in-a-moovault.md)
-  * [How to Add a Custom Token to Metamask](faq/how-to-guides/how-to-add-a-custom-token-to-metamask.md)
-  * [How to Add and Remove Liquidity](faq/how-to-guides/how-to-add-remove-liquidity.md)
-  * [How to use Beefy Zap](faq/how-to-guides/how-to-beefy-zap.md)
-  * [How to add and switch networks on Beefy Finance](faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md)
-  * [How to bridge BIFI cross-chain](faq/how-to-guides/how-to-bridge-bifi-cross-chain.md)
-  * [How to check the harvesting and compounding rate of a vault](faq/how-to-guides/how-to-check-harvesting-compounding-rate.md)
+* [Beefy 安全评分](faq/beefy-safety-score.md)
+* [团队与目标](faq/team-and-goals.md)
+* [moo金库 APY](faq/moovaults-apy.md)
+* [BIFI 代币](faq/bifi-token/README.md)
+  * [代币经济学与治理](faq/bifi-token/tokenomics-and-governance.md)
+  * [合约地址](faq/bifi-token/contract-addresses.md)
+* [操作指南](faq/how-to-guides/README.md)
+  * [如何参与mooVault](faq/how-to-guides/how-to-participate-in-a-moovault.md)
+  * [如何在Metamask中添加自定义代币](faq/how-to-guides/how-to-add-a-custom-token-to-metamask.md)
+  * [如何添加和移除流动性](faq/how-to-guides/how-to-add-remove-liquidity.md)
+  * [如何使用 Beefy Zap](faq/how-to-guides/how-to-beefy-zap.md)
+  * [如何在 Beefy Finance 上添加和切换网络](faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md)
+  * [如何使用 BIFI 进行跨链](faq/how-to-guides/how-to-bridge-bifi-cross-chain.md)
+  * [如何检查金库的收获和复利率](faq/how-to-guides/how-to-check-harvesting-compounding-rate.md)
 
-## For Smart Farmers <a id="developers"></a>
+## 为聪明的农夫所准备 <a id="developers"></a>
 
-* [Deployed Contract Registry](developers/deployed-contract-registry.md)
-* [Code Repositories](developers/code-repositories.md)
-* [Beefy Cowmoonity Tools](developers/beefy-cowmoonity-tools.md)
+* [已部署的合约登记处](developers/deployed-contract-registry.md)
+* [代码存储库](developers/code-repositories.md)
+* [Beefy 社区工具](developers/beefy-cowmoonity-tools.md)
 
 ---
 
-* [Cowmoonity & Grill Masters](community.md)
+* [奶牛团队和烧烤大师](community.md)
 
-## Additional Resources
+## 其他资源
 
 * [Github](https://github.com/beefyfinance)
-* [Twitter](https://twitter.com/beefyfinance)
+* [推特](https://twitter.com/beefyfinance)
 * [Medium](https://medium.com/beefyfinance)
 * [Discord](https://discord.gg/yq8wfHd)
-* [Telegram](https://t.me/beefyfinance)
+* [电报群](https://t.me/beefyfinance)
 

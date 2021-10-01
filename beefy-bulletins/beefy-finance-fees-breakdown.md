@@ -1,53 +1,52 @@
 ---
 description: >-
-  Anyone familiar with the fee structures typical of traditional finance will
-  tell you fees matter.
+  任何熟悉传统金融典型费用结构的人都会告诉您费用很重要。
 ---
 
-# Beefy Finance Fees Breakdown
+# Beefy Finance 费用明细
 
 ![](../.gitbook/assets/bulletin-beefy-finance-fees-breakdown.png)
 
-**How** _**much**_ **do fees matter?**
+**费用有多大关系？**
 
-The answer can be hard to wrap your head around.
+这个答案可能很难让人理解。
 
-* $1M invested for 30 years at 8% with a 1% management fee yields $7.62 million.
-* $1M invested for 30 years at 8% with a 2% management fee yields $5.74 million.
-* $1M invested for 30 years at 8% with a 3% management fee yields $4.32 million.
+* 100万美元投资30年，利率为8%，管理费为1%，收益为762万美元。
+* 100万美元投资30年，利率为8%，管理费为2%，收益为574万美元。
+* 100万美元投资30年，利率为8%，管理费为3%，收益为432万美元。
 
-**Now, let's throw out modesty for a minute.**
+**现在，让我们暂时抛开谦逊的态度。**
 
-Unlike some platforms flashing their APYs for your attention, there are no catches on Beefy.Finance. For example, they'll promote an APY, but won't mention there's a penalty fee if you withdraw early.
+与某些平台聚焦于 APY 以引起您的注意不同的是，Beefy.Finance上不存在任何陷阱。 例如，他们会宣传 APY，但不会提及如果您提早取出资产会有罚款。
 
-Or the APY is given as a spectacular headline number, but the small print is that you have to _manually_ compound every single day to get that number.
+或者他们会给出一个引人注目的APY为标题数字，不过在以下会有个小小的注明说您必须每天_手动_复利才能取得这个数字。
 
-**On Beefy we're proud to be doing things a little more transparently.**
+**在 Beefy 上，我们以更加透明的做事方式而感到自豪。**
 
-_With our vaults, performance fees are included in the APY._
+_就拿我们的金库来说，绩效费用已包含在 APY 中。_
 
-**So what you see is exactly what you get.**
+**所以您所见到的即是您所得到的。**
 
-Most vaults available on Beefy.Finance hold 4.5% of harvest rewards. This performance fee is largely distributed back to $BIFI stakers and is the main source of revenue for the platform.
+Beefy.Finance 上的大多数金库都持有 4.5% 的收获奖励。 这笔绩效费用主要分发给 $BIFI 的质押者，并且是该平台的主要收入来源。
 
-**Here's what that looks like:**
+**这看起来就像这样：**
 
-* 3.0% is distributed back to $BIFI stakers
-* 0.5% is allocated to the Beefy Finance treasury
-* 0.5% is awarded to the vault strategist
-* 0.5% is awarded to the one calling the harvest function
+* 3.0% 返还给 $BIFI 质押者
+* 0.5% 分配给 Beefy Finance 公帑
+* 0.5% 奖励给金库策略师
+* 0.5% 奖励给呼叫收割功能的一方
 
-We assign a deposit or withdrawal fee of 0.1% to each vault to protect bad actors from abusing the vaults with too much flipping. We share this amongst all the other stakers in the vault.
+我们为每个金库制定了0.1%的存款或取款费用，以防止不良行为者滥用金库。我们与金库中的所有其他质押者分享这一费用。
 
-Apart from the fees fully listed above, anyone using Beefy should also remember the network transaction fees when adding or removing funds. These small fees go to the operators keeping the blockchain running, not Beefy.
+除了上面完整列出的费用外，任何Beefy使用者在添加或取出资金时也应了解有网络交易这一费用。这些小额费用将支付给维持区块链运行的运营商，而不是Beefy。
 
-**Bottom line: fees matter.**
+**总结：费用很重要。**
 
-With Beefy's Venus vault, you can invest at 14.46% APY with fees already factored in.
+通过Beefy的Venus金库，您可以以14.46%的年利率进行投资，而费用已经计算在内。
 
-$1M invested for 30 years at 14.56 % APY yields…
+100万美元投资30年，年利率14.56%，收益率...
 
-$57,492,639 million.
+57,492,639百万美元。
 
-**With Beefy, what you see is what you get.**
+**使用 Beefy，所见即所得。**
 

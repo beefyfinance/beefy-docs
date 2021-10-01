@@ -1,49 +1,48 @@
 ---
 description: >-
-  This visual guide will walk you through every step in depositing funds in a
-  mooVault
+  此视觉指南将引导您完成在 moo 金库中存入资金的每一个步骤
 ---
 
-# How to participate in a mooVault
+# 如何参与mooVault
 
-### Prerequisites
+### 先决条件
 
-* You must have the mooVault underlying token. For WBNB mooVault, you must have WBNB.
-* You must use a supported wallet, either Metamask or Trustwallet.
+* 您必须拥有 mooVault 底层代币。例如，您必须拥有 WBNB 才能使用 WBNB mooVault。
+* 您必须使用受支持的钱包，例如Metamask 或 Trustwallet。
 
-### Walkthrough
+### 导览
 
-#### 1. Go to [Beefy app](https://app.beefy.finance/) and click on “WALLET”
+#### 1. 前往 [Beefy 应用程序](https://app.beefy.finance/) 然后点击“钱包”
 
 ![](../../.gitbook/assets/wallet.png)
 
-#### 2. Choose your favorite wallet
+#### 2. 选择您想连接的钱包
 
 ![](../../.gitbook/assets/wallet-opt.png)
 
-#### 3. Choose which Vault you want to deposit into, for example, the WBNB v2 Vault
+#### 3. 选择您想存入的金库，例如 WBNB v2 金库
 
 ![](../../.gitbook/assets/wallet-1-.png)
 
-#### 4. Enter the amount of WBNB that you want to deposit, and click APPROVE
+#### 4. 输入您要存入的 WBNB 数额，然后点击批准
 
 ![](../../.gitbook/assets/wallet-2-.png)
 
-#### 5. Confirm the transaction in your wallet and click “DEPOSIT”
+#### 5. 在您的钱包中确认交易并点击“存入”
 
 ![](../../.gitbook/assets/wallet-3-.png)
 
-Click on **25%, 50%, 75% or 100%** or any percentage ****to deposit the corresponding proportion of your wallet into the Vault.
+点击 **25%, 50%, 75% 或 100%** 或任何百分比 ****以将您钱包相应比例的资产存入金库。
 
-Or click “Deposit All” if you would like to **deposit 100%** of the chosen digital asset from your wallet into the Vault. :::info Please note before you make a deposit that there is a **0.1% withdrawal fee**. The longer you leave the deposit to earn returns in the Vault, the more likely your returns will exceed the withdrawal fee. :::
+如果您想将您钱包中所选数字资产的 **100%** 存入金库中，请点击“存入全部”。 :::信息 在您存款之前请注意，金库将收取 **0.1%的提款费**. 您让存款在金库中获得收益的时间越长，您的收益就越有可能超过提款费。 :::
 
-#### 6. Receive your mooToken \(in this case it would be mooFryWBNBv2\)
+#### 6. 接收您的 mooToken \(在这种情况下它将是 mooFryWBNBv2\)
 
 ![](../../.gitbook/assets/wallet-4-.png)
 
-The mooToken you receive is your **share of the mooFryWBNBv2 Vault**. The amount of mooFryWBNBv2 in your wallet will **remain constant** over time but the value of it will increase as the WBNB Vault earns returns.
+您收到的 mooToken 是您在 mooFryWBNBv2 金库中的 **份额**. 随着时间的推移，您钱包中的 mooFryWBNBv2 数量将 **保持不变**，但其价值将随着 WBNB 金库的收益而增加。
 
-The amount of mooFryWBNBv2 you receive will be less than 1 per WBNB you deposited because mooFryWBNBv2 is worth more than WBNB.
+每存入一个 WBNB，您收到的 mooFryWBNBv2 的数量将少于 1 个，因为 mooFryWBNBv2 的价值高于 WBNB。
 
-That's it, once the harvest function is called, you are already earning yield.
+就这样简单，一旦收获功能被呼叫，您就已经在赚取收益了。
 

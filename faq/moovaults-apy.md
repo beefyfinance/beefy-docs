@@ -1,27 +1,27 @@
-# mooVaults APY
+# moo金库 APY
 
-## What is the APY?
+## 什么是 APY?
 
-Let's look at a typical yield farm, where they state an APY \(annual percentage yield\) as +100% for example. The traditional definition of APY _**is the real rate of return earned on an investment taking into account the effect of compounding earnings**_. Using this terminology would indicate that the yield farm was compounding earnings for you. That is simply not the case. A more applicable terminology to use would be APR \(annual percentage rate\), meaning the annual rate earned through an investment. By definition this would mean that your 100% yield farm would double your original investment at the end of year 1 without reinvesting any earnings. But what about if you reinvested that entire amount the next year and the year after that? 
+让我们看看一个典型的收益农场，例如，他们显示的 APY \(年度百分比收益率\) 为 +100%。根据传统定义，APY _**是复利投资所获得的实际收入**_. 使用此术语将表明收益农场是会为您复合您的收益的，但事实并非如此。一个更适用的术语是APR \(年利率\), 意思是通过投资获得的年利率。根据定义，这意味着您 100% 的农场收益将在第一年结束时使您的原始投资翻倍，可是不将任何收益进行再投资。但是，如果您在明年和后年将全部金额进行再投资呢？ 
 
-## Understanding Exponential Growth \(Compounding\)
+## 了解指数增长 \(复利\)
 
-Growth whose rate becomes ever more rapid in proportion to the growing total number or size. The simple formula for this is _**growth = \(1 + r\)^x**_ , where 'r' = return and 'x' = number of 'times'. For example, your money doubles every year if you get 100% yearly return. After 3 years you would have 8x your original investment. 
+指数式增长是指增长速度快于资金绝对数量的增长。该公式如下： _**增长 = \(1 + r\)^x**_ , 其中 'r' = 回酬 and 'x' = '次数'. 例如，如果您获得 100% 的年回报率，您的资金每年都会翻一番。 3 年后，您将拥有原始投资数额的 8 倍。 
 
-![growth = \(1 + 100%\)^3](../.gitbook/assets/capture%20%282%29.png)
+![增长 = \(1 + 100%\)^3](../.gitbook/assets/capture%20%282%29.png)
 
-##  Ok, so what REALLY is the APY?
+##  好吧，那么APY到底是什么？
 
-A typical investment does not just pay out on a yearly basis, but in smaller terms \(ie: daily, monthly, etc\). For yield farming, returns are even paid out on a per block basis. With an average of 28,800 blocks a day and cheap transaction fees this can allow for a significant amount of exponential growth or compounding of your return. Let's look at how to break that down...
+典型的投资不只是按年支付的，而是以较小的期限支付（即：每日、每月等）。对于收益农场来说，回报甚至是按区块支付的。平均每天 28,800 个区块和低廉的交易费用可以使您的回报显着呈指数的增长或复合。让我们仔细看看如何做到这一点。。。
 
-* Compound = **P \* \(1+r/n\)^nt**                Example : 100 \* \(1+1/12\)^\(12\*1\)
-* P = principal or starting balance
+* 包含复利在内的利润 = **P \* \(1+r/n\)^nt**                例子 : 100 \* \(1+1/12\)^\(12\*1\)
+* P = 本金或起始余额
 * r = APR = 100%
-* n = compounding periods = 12 months
-* t = time = 1 year
-* The simple APY calculation in excel can also be stated as =EFFECT\(r, n\)
+* n = 复利期 = 12 个月
+* t = 时间 = 1 年
+* 在Excel中简单的APY计算也可以表述为 =EFFECT\(r, n\)
 
-![Year 1 end would be 261 tokens or 161% APY versus 100% APR w/o compounding](../.gitbook/assets/capture%20%283%29.png)
+![第一年结束时将获得261个代币或161%的APY，相比于100%无复投的APR](../.gitbook/assets/capture%20%283%29.png)
 
 
 
