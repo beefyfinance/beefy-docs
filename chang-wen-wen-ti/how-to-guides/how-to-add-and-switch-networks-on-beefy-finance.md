@@ -1,6 +1,5 @@
 ---
-description: >-
-  本指南将使用 Beefy Finance 网络切换器为您添加新的 Metamask 网络设置。
+description: 本指南将使用 Beefy Finance 网络切换器为您添加新的 Metamask 网络设置。
 ---
 
 # 如何在 Beefy Finance 上添加和切换网络

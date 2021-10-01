@@ -36,7 +36,7 @@ $BIFI 目前可以在几个去中心化交易所中找到，包括 [1inch](https
 
 ## **我如何创建一个提案？**
 
-您必须持有至少 1 个 $BIFI 才能创建提案。欲创建提案，只需访问[https://vote.beefy.finance//#/](https://vote.beefy.finance/#/)，并点击创建提案即可。
+您必须持有至少 1 个 $BIFI 才能创建提案。欲创建提案，只需访问[https://vote.beefy.finance//\#/](https://vote.beefy.finance/#/)，并点击创建提案即可。
 
 每个提案都由一个要向社区提出的问题，以及其他人可以投票来回答您的问题的选项组成。 只需为您的提案设置开始和结束日期并发布即可。
 

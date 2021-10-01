@@ -1,13 +1,12 @@
 ---
-description: >-
-  在本指南中，您将找到如何添加和移除流动性以及从金库中质押和取出所需的步骤。
+description: 在本指南中，您将找到如何添加和移除流动性以及从金库中质押和取出所需的步骤。
 ---
 
 # 如何添加和移除流动性
 
 举个例子，我们将在本指南中使用BIFI-BNB LP。在一个流动性池中，BIFI和BNB都需要以50/50的比例提供流动性。由于我们从100%的BNB开始，本指南也涵盖了将BNB换成BIFI。
 
-![截屏于 2021 年 5 月 30 日](../../.gitbook/assets/add-liq-bifi-bnb-lp-rate.png)
+![&#x622A;&#x5C4F;&#x4E8E; 2021 &#x5E74; 5 &#x6708; 30 &#x65E5;](../../.gitbook/assets/add-liq-bifi-bnb-lp-rate.png)
 
 ## 添加流动性
 

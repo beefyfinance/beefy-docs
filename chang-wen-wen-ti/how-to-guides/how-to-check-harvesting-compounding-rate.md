@@ -1,6 +1,5 @@
 ---
-description: >-
-  在本指南中，您将找到检查金库收获率和复合率所需的步骤。
+description: 在本指南中，您将找到检查金库收获率和复合率所需的步骤。
 ---
 
 # 如何检查金库的收获和复利率
@@ -15,7 +14,7 @@ Beefy Finance's [金库](../products/vaults.md), 或更具体地说，与金库�
 
 让我们选择币安智能链上的 CAKE-BNB LP 金库来演示：
 
-![截图摄于2021年5月5日](../../.gitbook/assets/cake-bnb-lp-2-5-2021.png)
+![&#x622A;&#x56FE;&#x6444;&#x4E8E;2021&#x5E74;5&#x6708;5&#x65E5;](../../.gitbook/assets/cake-bnb-lp-2-5-2021.png)
 
 #### 1. 前往 [dashboard.beefy.finance](https://dashboard.beefy.finance)
 
@@ -41,7 +40,7 @@ Beefy Finance's [金库](../products/vaults.md), 或更具体地说，与金库�
 
 ### 其他链 \(除了 Avalanche\)
 
-Beefy 支持的每条链都可以通过与上述 BSC 相同的方法进行调查。 唯一的区别是不同的区块浏览器会被使用。 例如在 Polygon 上，PolygonScan 将打开（而不是BscScan)。
+Beefy 支持的每条链都可以通过与上述 BSC 相同的方法进行调查。 唯一的区别是不同的区块浏览器会被使用。 例如在 Polygon 上，PolygonScan 将打开（而不是BscScan\)。
 
 ### Avalanche
 
