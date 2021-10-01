@@ -20,7 +20,6 @@
   * [金库](chang-wen-wen-ti/products/vaults.md)
   * [Launchpool](chang-wen-wen-ti/products/launchpool.md)
   * [策略](chang-wen-wen-ti/products/strategies.md)
-  * [Barn of Trust](chang-wen-wen-ti/products/barn-of-trust.md)
 * [Beefy 安全评分](chang-wen-wen-ti/beefy-safety-score.md)
 * [团队与目标](chang-wen-wen-ti/team-and-goals.md)
 * [moo金库 APY](chang-wen-wen-ti/moovaults-apy.md)
