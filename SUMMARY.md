@@ -20,7 +20,6 @@
   * [Хранилища](faq/products/vaults.md)
   * [Лаунчпул](faq/products/launchpool.md)
   * [Стратегии](faq/products/strategies.md)
-  * [Хранилище доверия](faq/products/barn-of-trust.md)
 * [Рейтинг безопасности хранилищ Beefy](faq/beefy-safety-score.md)
 * [Команда и Цели](faq/team-and-goals.md)
 * [mooVaults APY](faq/moovaults-apy.md)
