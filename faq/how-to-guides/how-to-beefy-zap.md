@@ -22,6 +22,8 @@ Click on [BIFI-BNB LP](https://app.beefy.finance/vault/cakev2-bifi-bnb) or anywh
 
 ### 2. Select "BNB" from the deposit dropdown menu
 
+![](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-zap-dropdown-menu.png)
+
 BNB does not require approval to spend, as it is the native currency on Binance Smart Chain.
 
 ### 3. Enter amount of BNB and hit "Deposit"
@@ -54,7 +56,7 @@ Click on the token amount deposited, and withdraw.
 
 ![](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-bifi-withdraw-all.png)
 
-And that's all! Beefy ZAP returned 1.4794 BIFI to our wallet, which we can stake in the [BIFI Maxi vault](https://app.beefy.finance/vault/bifi-maxi) for example:
+And that's all! Beefy ZAP returned 1.4794 BIFI to our wallet, which we can stake in the [BIFI Maxi vault](https://app.beefy.finance/#/bsc/vault/bifi-maxi) for example:
 
 ![](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-bifi-proof.png)
 

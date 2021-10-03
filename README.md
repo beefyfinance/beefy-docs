@@ -1,6 +1,6 @@
 # Overview
 
-![](.gitbook/assets/docs-landing.png)
+![](.gitbook/assets/docs-landing_en.png)
 
 ## What is Beefy Finance?
 
