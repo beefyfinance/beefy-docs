@@ -44,7 +44,7 @@
 
 ---
 
-* [奶牛团队和烧烤大师](community.md)
+* [奶牛团队](community.md)
 
 ## 其他资源
 
