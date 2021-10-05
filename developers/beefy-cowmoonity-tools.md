@@ -20,6 +20,14 @@ _"We are yield rodeos riding that Beef! \(...\) A gift from me to the community!
 
 The website has detailed filtering, sorting and extra data.
 
+## CookieTrack
+
+[CookieTrack](https://cookietrack.io) is a multi-chain DeFi portfolio tracker, created by a Beefy user with tokens in way too many vaults and chains to keep track of.
+
+_"My Moo tokens were getting out of hand; now they are all enjoying some cookies together. Do cows even like cookies?"_ - Ncookie
+
+The project currently supports tracking Beefy vault balances and BIFI staking on BSC, Polygon, Fantom and Avalanche.
+
 ## BSC Allowance Checker
 
 * Site: [https://allowance.beefy.finance/](https://allowance.beefy.finance/)
