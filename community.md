@@ -1,4 +1,4 @@
-# Cowmoonity & Grill Masters
+# Cowmoonity
 
 ## Grill Masters \(core team\)
 
