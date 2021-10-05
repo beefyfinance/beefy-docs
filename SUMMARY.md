@@ -37,13 +37,14 @@
 
 ## Для продвинутых пользователей <a id="developers"></a>
 
+* [Как Beefy обеспечивает безопасность ваших средств](developers/beefy-safu-practices.md)
 * [Реестр запущенных контрактов](developers/deployed-contract-registry.md)
 * [Репозитории исходного кода](developers/code-repositories.md)
 * [Инструменты сообщества Beefy](developers/beefy-cowmoonity-tools.md)
 
 ---
 
-* [Активные участники сообщества и основная команда](community.md)
+* [Сообщество](community.md)
 
 ## Дополнительные ресурсы
 
