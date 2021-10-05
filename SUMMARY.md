@@ -44,7 +44,7 @@
 
 ---
 
-* [Cowmoonity](community.md)
+* [Cowmoonity & Grill Masters](community.md)
 
 ## Additional Resources
 
