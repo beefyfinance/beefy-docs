@@ -37,6 +37,7 @@
 
 ## For Smart Farmers <a id="developers"></a>
 
+* [Beefy SAFU Practices](developers/beefy-safu-practices.md)
 * [Deployed Contract Registry](developers/deployed-contract-registry.md)
 * [Code Repositories](developers/code-repositories.md)
 * [Beefy Cowmoonity Tools](developers/beefy-cowmoonity-tools.md)
