@@ -37,6 +37,7 @@
 
 ## 为聪明的农夫所准备 <a id="developers"></a>
 
+* [Beefy 的安全实践](developers/beefy-safu-practices.md)
 * [已部署的合约登记处](developers/deployed-contract-registry.md)
 * [代码存储库](developers/code-repositories.md)
 * [Beefy 社区工具](developers/beefy-cowmoonity-tools.md)
