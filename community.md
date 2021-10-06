@@ -29,7 +29,7 @@ Below is the list of Beefy OG's, which is the highest rank a community contribut
 | sirbeefalot | sirbeefalot\#8775 | @sirb\_beefy |
 | superbeefyboy | superbeefyboy\#2768 | @superbeefyboy |
 | TheBeefyCow | TheBeefyCow\#9890 | @thebeefycow |
-| Tumbledyer | Tumbledyer\#8408 | - |
+| Tumbledyer | Tumbledyer\#8408 | @tumblenomics |
 | we7o - BIFI 7 Chains.bifi | Weso\#1643 | @w3soBeefy |
 | YR2150 \| Beefy Pulse | YR2150 \| Beefy Pulse\#5907 | @yr2150T / @beefypulse |
 | Zapmore | Zapmore\#3433 | @Zapmore3 |
