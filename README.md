@@ -4,7 +4,7 @@ description: 最后更新：2021 年 9 月 21 日 - 英文文档领先。
 
 # 概要
 
-![](.gitbook/assets/docs-landing_cn.png)
+![](.gitbook/assets/docs-landing.png)
 
 ## Beefy Finance 是什么？
 
