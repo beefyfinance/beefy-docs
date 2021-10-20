@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Обзор](README.md)
+* [Обзор](<README (1).md>)
 * [Введение в Beefy Finance](introduction.md)
 * [Beefy Finance в инфографиках](infographics.md)
 * [Бюллетени Beefy](beefy-bulletins/README.md)
@@ -35,14 +36,14 @@
   * [How to bridge BIFI cross-chain](faq/how-to-guides/how-to-bridge-bifi-cross-chain.md)
   * [How to check the harvesting and compounding rate of a vault](faq/how-to-guides/how-to-check-harvesting-compounding-rate.md)
 
-## Для продвинутых пользователей <a id="developers"></a>
+## Для продвинутых пользователей <a href="developers" id="developers"></a>
 
 * [Как Beefy обеспечивает безопасность ваших средств](developers/beefy-safu-practices.md)
 * [Реестр запущенных контрактов](developers/deployed-contract-registry.md)
 * [Репозитории исходного кода](developers/code-repositories.md)
 * [Инструменты сообщества Beefy](developers/beefy-cowmoonity-tools.md)
 
----
+***
 
 * [Сообщество](community.md)
 
@@ -53,4 +54,3 @@
 * [Medium](https://medium.com/beefyfinance)
 * [Discord](https://discord.gg/yq8wfHd)
 * [Telegram](https://t.me/beefyfinance)
-
