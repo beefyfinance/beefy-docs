@@ -1,12 +1,12 @@
 # Overview
 
-![](.gitbook/assets/docs-landing_en.png)
+![](.gitbook/assets/docs-landing\_en.png)
 
 ## What is Beefy Finance?
 
-[Beefy Finance](https://beefy.finance/) is a Decentralized, Multi-Chain Yield Optimizer platform that allows its users to earn compound interest on their crypto holdings.
+[Beefy Finance](https://beefy.finance) is a Decentralized, Multi-Chain Yield Optimizer platform that allows its users to earn compound interest on their crypto holdings.
 
-Through a set of investment strategies secured and enforced by smart contracts, Beefy Finance automatically maximizes the user rewards from various liquidity pools \(LPs\),‌ ‌automated market making \(AMM\) projects,‌ ‌and‌ ‌other yield‌ farming ‌opportunities in the DeFi ecosystem.
+Through a set of investment strategies secured and enforced by smart contracts, Beefy Finance automatically maximizes the user rewards from various liquidity pools (LPs),‌ ‌automated market making (AMM) projects,‌ ‌and‌ ‌other yield‌ farming ‌opportunities in the DeFi ecosystem.
 
 The main product offered by Beefy Finance are the 'Vaults' in which you stake your crypto tokens. The investment strategy tied to the specific vault will automatically increase your deposited token amount by compounding arbitrary yield farm reward tokens back into your initially deposited asset. Despite the name 'Vault' suggests, your funds are never locked in any vault on Beefy Finance: you can always withdraw at any moment in time.
 
@@ -18,5 +18,6 @@ $BIFI tokens are 'dividend-eligible' revenue shares in Beefy Finance, through wh
 
 For all the vaults deployed on every blockchain, Beefy Finance has its native governance token $BIFI at its core. Platform revenue is generated from a small percentage of all the vault profits and distributed back to those who stake $BIFI.
 
-The supply of $BIFI is limited at 80,000 tokens and available on the top decentralized exchanges such as Binance, 1inchexchange and PancakeSwap.
+The revenue sharing mechanics entail you can stake $BIFI to either earn more $BIFI in a BIFI Maxi vault, or earn $ETH, $BNB, $FTM, $MATIC, $AVAX, $HT or $ONE in the native staking pools.
 
+The supply of $BIFI is limited at 80,000 tokens and available on the top decentralized exchanges such as Binance, 1inchexchange and PancakeSwap.
