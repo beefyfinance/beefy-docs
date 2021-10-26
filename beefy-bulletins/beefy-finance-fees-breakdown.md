@@ -8,7 +8,7 @@ description: >-
 
 ![](../.gitbook/assets/bulletin-beefy-finance-fees-breakdown.png)
 
-**How** _**much**_ **do fees matter?**
+**How **_**much**_** do fees matter?**
 
 The answer can be hard to wrap your head around.
 
@@ -50,4 +50,3 @@ $1M invested for 30 years at 14.56 % APY yields…
 $57,492,639 million.
 
 **With Beefy, what you see is what you get.**
-

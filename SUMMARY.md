@@ -20,7 +20,6 @@
   * [Vaults](faq/products/vaults.md)
   * [Launchpool](faq/products/launchpool.md)
   * [Strategies](faq/products/strategies.md)
-* [Beefy Safety Score](faq/beefy-safety-score.md)
 * [Team & Goals](faq/team-and-goals.md)
 * [mooVaults APY](faq/moovaults-apy.md)
 * [BIFI Token](faq/bifi-token/README.md)
@@ -35,14 +34,20 @@
   * [How to bridge BIFI cross-chain](faq/how-to-guides/how-to-bridge-bifi-cross-chain.md)
   * [How to check the harvesting and compounding rate of a vault](faq/how-to-guides/how-to-check-harvesting-compounding-rate.md)
 
-## For Smart Farmers <a id="developers"></a>
+## Beefy SAFU Protocol
 
-* [Beefy SAFU Practices](developers/beefy-safu-practices.md)
-* [Deployed Contract Registry](developers/deployed-contract-registry.md)
+* [Beefy SAFU Practices](beefy-safu-protocol/beefy-safu-practices.md)
+* [Contracts & Timelocks](beefy-safu-protocol/contracts-and-timelocks.md)
+* [Beefy Safety Score](beefy-safu-protocol/beefy-safety-score.md)
+* [Token Allowance](beefy-safu-protocol/token-allowance.md)
+* [Beefy Backup](beefy-safu-protocol/beefy-backup.md)
+
+## For Smart Farmers <a href="developers" id="developers"></a>
+
 * [Code Repositories](developers/code-repositories.md)
 * [Beefy Cowmoonity Tools](developers/beefy-cowmoonity-tools.md)
 
----
+***
 
 * [Cowmoonity](community.md)
 
@@ -53,4 +58,3 @@
 * [Medium](https://medium.com/beefyfinance)
 * [Discord](https://discord.gg/yq8wfHd)
 * [Telegram](https://t.me/beefyfinance)
-

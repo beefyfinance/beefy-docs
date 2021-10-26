@@ -9,22 +9,22 @@ Before a new farm gets vaulted on Beefy, the project has to pass a stringent set
 * Contracts have been verified in the blockexplorer;
 * Enough liquidity for swapping farm token rewards;
 * Rug/migrator functions are either completely removed or timelocked sufficently;
-* Farm token emission rates have to be timelocked \(if farm token pairs are being vaulted\);
+* Farm token emission rates have to be timelocked (if farm token pairs are being vaulted);
 * All proxy implementation changes must be timelocked.
 
 ## New vaults on Beefy
 
 Our strategists follow a manual testing procedure on every new vault before it goes live. This is to ensure that the vault works as intended and user funds are always SAFU.
 
-1. Deposit a small amount of the asset;   
-2. Withdraw all;   
-3. Deposit again, wait 1 minute and check that `callReward()` is not 0;   
-4. Harvest the strategy;   
-5. Panic the strategy;   
-6. Withdraw 50% while panicked to make sure users can leave;   
-7. Try to deposit, an error should pop up but don't send the deposit through;   
-8. Unpause the strategy;   
-9. Deposit the 50% that has previously been withdrawn and harvest again.
+1\. Deposit a small amount of the asset; \
+2\. Withdraw all; \
+3\. Deposit again, wait 1 minute and check that `callReward()` is not 0; \
+4\. Harvest the strategy; \
+5\. Panic the strategy; \
+6\. Withdraw 50% while panicked to make sure users can leave; \
+7\. Try to deposit, an error should pop up but don't send the deposit through; \
+8\. Unpause the strategy; \
+9\. Deposit the 50% that has previously been withdrawn and harvest again.
 
 ## Strategy upgrades
 
@@ -35,4 +35,3 @@ The new strategy is deployed with a dummy vault and all of the manual tests outl
 ## Panic
 
 Sometimes something can go wrong with the underlying yield farm, and reacting quickly is of great importance. Beefy strategies have a keeper that is allowed to panic, which withdraws the staked funds from the farm back to the strategy contract and removes all allowances. This ensures that funds are always available for Beefy stakers to withdraw in case of emergency.
-

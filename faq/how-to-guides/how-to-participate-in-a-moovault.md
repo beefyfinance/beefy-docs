@@ -13,7 +13,7 @@ description: >-
 
 ### Walkthrough
 
-#### 1. Go to [Beefy app](https://app.beefy.finance/) and click on “WALLET”
+#### 1. Go to [Beefy app](https://app.beefy.finance) and click on “WALLET”
 
 ![](../../.gitbook/assets/wallet.png)
 
@@ -33,11 +33,11 @@ description: >-
 
 ![](../../.gitbook/assets/wallet-3-.png)
 
-Click on **25%, 50%, 75% or 100%** or any percentage ****to deposit the corresponding proportion of your wallet into the Vault.
+Click on **25%, 50%, 75% or 100% **or any percentage** **to deposit the corresponding proportion of your wallet into the Vault.
 
 Or click “Deposit All” if you would like to **deposit 100%** of the chosen digital asset from your wallet into the Vault. :::info Please note before you make a deposit that there is a **0.1% withdrawal fee**. The longer you leave the deposit to earn returns in the Vault, the more likely your returns will exceed the withdrawal fee. :::
 
-#### 6. Receive your mooToken \(in this case it would be mooFryWBNBv2\)
+#### 6. Receive your mooToken (in this case it would be mooFryWBNBv2)
 
 ![](../../.gitbook/assets/wallet-4-.png)
 
@@ -46,4 +46,3 @@ The mooToken you receive is your **share of the mooFryWBNBv2 Vault**. The amount
 The amount of mooFryWBNBv2 you receive will be less than 1 per WBNB you deposited because mooFryWBNBv2 is worth more than WBNB.
 
 That's it, once the harvest function is called, you are already earning yield.
-
