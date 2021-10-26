@@ -4,7 +4,7 @@ description: Beefy has been called many things…
 
 # What is Beefy Finance?
 
-![](../.gitbook/assets/bulletin-what-is-beefy-finance.png)
+![](../../.gitbook/assets/bulletin-what-is-beefy-finance.png)
 
 * "The compound interest opportunity of a lifetime"
 * "The safest and best way to get started in DeFi"
@@ -13,9 +13,9 @@ description: Beefy has been called many things…
 
 _**But in practical terms, Beefy is a yield farming optimizer that removes the daily actions and regular fees associated with manual optimization.**_
 
-What you're left with is very safe funds and a _very_ good return of investment \(ROI\).
+What you're left with is very safe funds and a _very_ good return of investment (ROI).
 
-For those new to decentralized finance \(DeFi\), yield farming is simply a way to make some interest — as opposed to just "gains" — with your crypto holdings.
+For those new to decentralized finance (DeFi), yield farming is simply a way to make some interest — as opposed to just "gains" — with your crypto holdings.
 
 Money is one thing, but time is the most important asset of all.
 
@@ -28,4 +28,3 @@ The project consists of an anonymous team constantly exploring new methods of op
 As a decentralized project with a crypto-mindset, there is a robust governance system in place to put the decision-making power in the hands of those invested in the project.
 
 **This takes place through governance mechanisms related to Beefy's own fixed-supply, dividend-producing token, $BIFI.**
-

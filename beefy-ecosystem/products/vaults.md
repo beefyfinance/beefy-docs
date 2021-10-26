@@ -36,7 +36,7 @@ Whenever you want to withdraw the tokens that are staked for you in the vault, y
 
 ## **How often do the vaults harvest their profits and reinvest?**
 
-Vaults are normally harvested multiple times daily and profits are automatically reinvested (compounded). You can check the harvesting and compounding rate of a vault using [this how-to guide](../how-to-guides/how-to-check-harvesting-compounding-rate.md).
+Vaults are normally harvested multiple times daily and profits are automatically reinvested (compounded). You can check the harvesting and compounding rate of a vault using [this how-to guide](../../faq/how-to-guides/how-to-check-harvesting-compounding-rate.md).
 
 ## Why can't someone just do this themselves?
 

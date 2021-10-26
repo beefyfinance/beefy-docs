@@ -4,7 +4,7 @@ description: How we attract coding and creative talent
 
 # Beefy's Coveted Advantages Revealed
 
-![](../.gitbook/assets/bulletin-beefys-coveted-advantages-revealed.png)
+![](../../.gitbook/assets/bulletin-beefys-coveted-advantages-revealed.png)
 
 _"An organization's ability to learn, and translate that learning into action rapidly, is the ultimate competitive business advantage."_
 
@@ -33,4 +33,3 @@ The sprint is sustainably spinning up new vaults.
 _**Code — and the talent that writes it — is the ultimate force multiplier in this arena, and its leverage advantage is compounding at a spectacular rate.**_
 
 If you're a smart contract developer who favors future rewards over legacy resources, you know where to find us.
-

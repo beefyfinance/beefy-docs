@@ -1,10 +1,10 @@
 ---
-description: 'By buying $BIFI and staking in BIFI Maxi, you have something unique'
+description: By buying $BIFI and staking in BIFI Maxi, you have something unique
 ---
 
 # Introducing Beefy's Unique Revenue Share Model
 
-![](../.gitbook/assets/bulletin-introducing-beefys-unique-revenue-share-model.png)
+![](../../.gitbook/assets/bulletin-introducing-beefys-unique-revenue-share-model.png)
 
 **At long last DeFi adopters are beginning to realize that it's ridiculous to believe so strongly in a better financial system, and then spoil the whole moment with degenerate gambling.**
 
@@ -30,5 +30,4 @@ This creates a financial "flywheel" for your money, where a continuously improvi
 
 Beefy is being built by a group of dedicated smart contract codesmen, backed by a community of UI, UX, strategists, statisticians, designers and artists.
 
-That's why the smart money is on [Beefy.Finance](https://www.beefy.finance/).
-
+That's why the smart money is on [Beefy.Finance](https://www.beefy.finance).

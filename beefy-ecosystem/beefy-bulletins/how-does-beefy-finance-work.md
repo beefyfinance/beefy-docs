@@ -6,7 +6,7 @@ description: >-
 
 # How Does Beefy Finance Work?
 
-![](../.gitbook/assets/bulletin-how-does-beefy-finance-work.png)
+![](../../.gitbook/assets/bulletin-how-does-beefy-finance-work.png)
 
 We know that entering the crypto and DeFi arenas can be confusing and disorientating. We know that many have lost money in altcoins and have high levels of scepticism about this new opportunity.
 
@@ -39,4 +39,3 @@ When Beefy combines your 12.5% annual compounding interest with the 14.2% intere
 Beefy's BNB Venus vault is doing just that. At the time of writing, you get 28.02% APY for your BNB.
 
 **After five years, you won't have $18,020, you'll have $34,386; all in the asset you actually staked.**
-

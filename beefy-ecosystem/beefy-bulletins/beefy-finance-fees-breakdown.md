@@ -6,7 +6,7 @@ description: >-
 
 # Beefy Finance Fees Breakdown
 
-![](../.gitbook/assets/bulletin-beefy-finance-fees-breakdown.png)
+![](../../.gitbook/assets/bulletin-beefy-finance-fees-breakdown.png)
 
 **How **_**much**_** do fees matter?**
 

@@ -1,6 +1,6 @@
 # Why Beefy Beats Your Bank
 
-![](../.gitbook/assets/bulletin-why-beefy-beats-your-bank.png)
+![](../../.gitbook/assets/bulletin-why-beefy-beats-your-bank.png)
 
 A question the wealthiest people in the world obsess over:
 
@@ -33,4 +33,3 @@ You might reasonably ask how soon you can get started.
 And the answer to that is today.
 
 **Because, unlike banks, there's no approval process.**
-

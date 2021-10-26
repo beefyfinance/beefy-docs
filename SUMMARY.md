@@ -1,30 +1,33 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Introduction to Beefy Finance](introduction.md)
-* [Beefy Finance Infographics](infographics.md)
-* [Beefy Bulletins](beefy-bulletins/README.md)
-  * [What is Beefy Finance?](beefy-bulletins/what-is-beefy-finance.md)
-  * [The Big Beefy Opportunity](beefy-bulletins/the-big-beefy-opportunity.md)
-  * [What Makes Beefy Different?](beefy-bulletins/what-makes-beefy-different.md)
-  * [How Does Beefy Finance Work?](beefy-bulletins/how-does-beefy-finance-work.md)
-  * [Beefy Finance Fees Breakdown](beefy-bulletins/beefy-finance-fees-breakdown.md)
-  * [Why Beefy Beats Your Bank](beefy-bulletins/why-beefy-beats-your-bank.md)
-  * [Introducing Beefy's Unique Revenue Share Model](beefy-bulletins/introducing-beefys-unique-revenue-share-model.md)
-  * [Beefy's Coveted Advantages Revealed](beefy-bulletins/beefys-coveted-advantages-revealed.md)
+
+## Beefy Ecosystem
+
+* [Introduction to Beefy Finance](beefy-ecosystem/introduction.md)
+* [BIFI Token](beefy-ecosystem/bifi-token/README.md)
+  * [Tokenomics & Governance](beefy-ecosystem/bifi-token/tokenomics-and-governance.md)
+  * [Contract Addresses](beefy-ecosystem/bifi-token/contract-addresses.md)
+* [Products](beefy-ecosystem/products/README.md)
+  * [Vaults](beefy-ecosystem/products/vaults.md)
+  * [Launchpool](beefy-ecosystem/products/launchpool.md)
+  * [Strategies](beefy-ecosystem/products/strategies.md)
+* [Team & Goals](beefy-ecosystem/team-and-goals.md)
+* [Beefy Bulletins](beefy-ecosystem/beefy-bulletins/README.md)
+  * [What is Beefy Finance?](beefy-ecosystem/beefy-bulletins/what-is-beefy-finance.md)
+  * [The Big Beefy Opportunity](beefy-ecosystem/beefy-bulletins/the-big-beefy-opportunity.md)
+  * [What Makes Beefy Different?](beefy-ecosystem/beefy-bulletins/what-makes-beefy-different.md)
+  * [How Does Beefy Finance Work?](beefy-ecosystem/beefy-bulletins/how-does-beefy-finance-work.md)
+  * [Beefy Finance Fees Breakdown](beefy-ecosystem/beefy-bulletins/beefy-finance-fees-breakdown.md)
+  * [Why Beefy Beats Your Bank](beefy-ecosystem/beefy-bulletins/why-beefy-beats-your-bank.md)
+  * [Introducing Beefy's Unique Revenue Share Model](beefy-ecosystem/beefy-bulletins/introducing-beefys-unique-revenue-share-model.md)
+  * [Beefy's Coveted Advantages Revealed](beefy-ecosystem/beefy-bulletins/beefys-coveted-advantages-revealed.md)
 
 ## FAQ
 
 * [General](faq/general.md)
-* [Products](faq/products/README.md)
-  * [Vaults](faq/products/vaults.md)
-  * [Launchpool](faq/products/launchpool.md)
-  * [Strategies](faq/products/strategies.md)
-* [Team & Goals](faq/team-and-goals.md)
+* [Beefy Finance Infographics](faq/infographics.md)
 * [mooVaults APY](faq/moovaults-apy.md)
-* [BIFI Token](faq/bifi-token/README.md)
-  * [Tokenomics & Governance](faq/bifi-token/tokenomics-and-governance.md)
-  * [Contract Addresses](faq/bifi-token/contract-addresses.md)
 * [How-To Guides](faq/how-to-guides/README.md)
   * [How to participate in a mooVault](faq/how-to-guides/how-to-participate-in-a-moovault.md)
   * [How to Add a Custom Token to Metamask](faq/how-to-guides/how-to-add-a-custom-token-to-metamask.md)
@@ -42,17 +45,14 @@
 * [Token Allowance](beefy-safu-protocol/token-allowance.md)
 * [Beefy Backup](beefy-safu-protocol/beefy-backup.md)
 
-## For Smart Farmers <a href="developers" id="developers"></a>
+## Beefy Community <a href="community" id="community"></a>
 
-* [Code Repositories](developers/code-repositories.md)
-* [Beefy Cowmoonity Tools](developers/beefy-cowmoonity-tools.md)
-
-***
-
-* [Cowmoonity](community.md)
+* [Cowmoonity](community/community.md)
+* [Beefy Cowmoonity Tools](community/beefy-cowmoonity-tools.md)
 
 ## Additional Resources
 
+* [Code Repositories](additional-resources/code-repositories.md)
 * [Github](https://github.com/beefyfinance)
 * [Twitter](https://twitter.com/beefyfinance)
 * [Medium](https://medium.com/beefyfinance)
