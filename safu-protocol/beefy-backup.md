@@ -10,4 +10,4 @@ First and foremost, _don't worry_, your funds are always SAFU on the blockchain,
 
 If you are experiencing the aforementioned issues, try the following official mirror: [https://beefy.on.fleek.co/](https://beefy.on.fleek.co) or try using a VPN.
 
-Again, _don't worry_, this is not a scam site. It is a developers build for backup when users can't access Beefy's site.
+This mirror site is a developer's build, which we can provide as a backup for users that can't access Beefy's site. Remember, seed phrases and private keys will **never** be asked.
