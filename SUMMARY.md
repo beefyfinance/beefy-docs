@@ -39,7 +39,7 @@
 
 ## Протокол безопасности Beefy <a href="safu-protocol" id="safu-protocol"></a>
 
-* [Как Beefy обеспечивает безопасность ваших средств](safu-protocol/beefy-safu-practices.md)
+* [Как Beefy обеспечивает безопасность ваших средств (SAFU)](safu-protocol/beefy-safu-practices.md)
 * [Контракты и задержки](safu-protocol/contracts-and-timelocks.md)
 * [Рейтинг безопасности хранилищ Beefy](safu-protocol/beefy-safety-score.md)
 * [Контроль разрешений на трату средств](safu-protocol/token-allowance.md)
