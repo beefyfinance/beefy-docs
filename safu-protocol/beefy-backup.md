@@ -1,13 +1,13 @@
-# Beefy Backup
+# Резервный доступ к Beefy
 
 ![](../.gitbook/assets/safu.png)
 
-Sporadically, users are experiencing white screens, or blank screens, and can not access the Beefy DApp.
+Иногда, пользователи при попытке зайти на сайт децентрализованного приложения Beefy видят белый или черный экран, в связи с чем не могут получить доступ к своим средствам.
 
-This might be Fleek or Cloudflare having maintenance, but it's hard to pinpoint the root cause. When it happens, it does not affect everyone but only some regions world wide. We understand that this can be frustrating!
+Это может быть связано с техническими работами, производимыми на серверах Fleek или Cloudflare, но порой очень трудно определить причину сбоя. Такие случаи обычно затрагивают конкретные регионы, но не весь земной шар. Мы понимаем, что такая ситуация не может не расстраивать!
 
-First and foremost, _don't worry_, your funds are always SAFU on the blockchain, they are not on Beefy's website. The site is only a front end to let you access your funds easily.
+Прежде всего, _не беспокойтесь_, ваши средства надежно хранятся на блокчейне. Они не находятся на сайте Beefy. Сайт Beefy лишь выступает в качестве интерфейса, упрощающего вам доступ к своим средствам.
 
-If you are experiencing the aforementioned issues, try the following official mirror: [https://beefy.on.fleek.co/](https://beefy.on.fleek.co) or try using a VPN.
+Если вы испытываете неполадки, описанные выше то попробуйте воспользоваться следующим официальным зеркалом нашего сайта: [https://beefy.on.fleek.co/](https://beefy.on.fleek.co) или воспользуйтесь VPN.
 
-This mirror site is a developer's build, which we can provide as a backup for users that can't access Beefy's site. Remember, seed phrases and private keys will **never** be asked.
+Сайт-зеркало — это версия от разработчиков, которую мы предлагаем использовать для резервного доступа тем пользователям, у которых проблемы с основным сайтом. И помните, что наш сайт **никогда** не потребует от вас внести свою сид-фразу или приватный ключ.

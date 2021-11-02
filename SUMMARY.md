@@ -43,7 +43,7 @@
 * [Смарт-контракты и задержки](safu-protocol/contracts-and-timelocks.md)
 * [Рейтинг безопасности хранилищ Beefy](faq/beefy-safety-score.md)
 * [Разрешения на трату средств](safu-protocol/token-allowance.md)
-* [Beefy Backup](safu-protocol/beefy-backup.md)
+* [Резервный доступ к Beefy](safu-protocol/beefy-backup.md)
 
 ## Сообщество Beefy <a href="community" id="community"></a>
 
