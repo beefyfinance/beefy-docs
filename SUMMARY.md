@@ -55,6 +55,6 @@
 * [Code Repositories](additional-resources/code-repositories.md)
 * [Github](https://github.com/beefyfinance)
 * [Twitter](https://twitter.com/beefyfinance)
-* [Medium](https://medium.com/beefyfinance)
+* [Blog](https://blog.beefy.finance/articles/)
 * [Discord](https://discord.gg/yq8wfHd)
 * [Telegram](https://t.me/beefyfinance)
