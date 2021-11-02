@@ -4,29 +4,29 @@
 
 ## Экосистема Beefy <a href="ecosystem" id="ecosystem"></a>
 
-* [Введение в Beefy Finance](ecosystem/introduction.md)
-* [Токен BIFI](ecosystem/bifi-token/README.md)
-  * [Токеномика и Управление платформой](ecosystem/bifi-token/tokenomics-and-governance.md)
-  * [Адреса контрактов](ecosystem/bifi-token/contract-addresses.md)
-* [Продукты](ecosystem/products/README.md)
-  * [Лаунчпул](ecosystem/products/launchpool.md)
-  * [Стратегии](ecosystem/products/strategies.md)
-  * [Хранилища](ecosystem/products/vaults.md)
-* [Команда и Цели](ecosystem/team-and-goals.md)
-* [Бюллетени Beefy](ecosystem/beefy-bulletins/README.md)
-  * [Анализ комиссий Beefy Finance](ecosystem/beefy-bulletins/beefy-finance-fees-breakdown.md)
-  * [Раскрываем преимущества Beefy](ecosystem/beefy-bulletins/beefys-coveted-advantages-revealed.md)
-  * [Как работает Beefy Finance?](ecosystem/beefy-bulletins/how-does-beefy-finance-work.md)
-  * [Представляем вам уникальную модель распределения прибыли Beefy](ecosystem/beefy-bulletins/introducing-beefys-unique-revenue-share-model.md)
-  * [Неограниченные возможности от Beefy](ecosystem/beefy-bulletins/the-big-beefy-opportunity.md)
-  * [Что такое Beefy Finance?](ecosystem/beefy-bulletins/what-is-beefy-finance.md)
-  * [Что же делает Beefy уникальной?](ecosystem/beefy-bulletins/what-makes-beefy-different.md)
-  * [Вот почему Beefy лучше вашего банка](ecosystem/beefy-bulletins/why-beefy-beats-your-bank.md)
+* [Введение в Beefy Finance](introduction.md)
+* [Токен BIFI](faq/bifi-token/README.md)
+  * [Токеномика и Управление платформой](faq/bifi-token/tokenomics-and-governance.md)
+  * [Адреса контрактов](faq/bifi-token/contract-addresses.md)
+* [Продукты](faq/products/README.md)
+  * [Лаунчпул](faq/products/launchpool.md)
+  * [Стратегии](faq/products/strategies.md)
+  * [Хранилища](faq/products/vaults.md)
+* [Команда и Цели](faq/team-and-goals.md)
+* [Бюллетени Beefy](beefy-bulletins/README.md)
+  * [Анализ комиссий Beefy Finance](beefy-bulletins/beefy-finance-fees-breakdown.md)
+  * [Раскрываем преимущества Beefy](beefy-bulletins/beefys-coveted-advantages-revealed.md)
+  * [Как работает Beefy Finance?](beefy-bulletins/how-does-beefy-finance-work.md)
+  * [Представляем вам уникальную модель распределения прибыли Beefy](beefy-bulletins/introducing-beefys-unique-revenue-share-model.md)
+  * [Неограниченные возможности от Beefy](beefy-bulletins/the-big-beefy-opportunity.md)
+  * [Что такое Beefy Finance?](beefy-bulletins/what-is-beefy-finance.md)
+  * [Что же делает Beefy уникальной?](beefy-bulletins/what-makes-beefy-different.md)
+  * [Вот почему Beefy лучше вашего банка](beefy-bulletins/why-beefy-beats-your-bank.md)
 
 ## Faq
 
 * [Общие сведения](faq/general.md)
-* [Beefy Finance в инфографиках](faq/infographics.md)
+* [Beefy Finance в инфографиках](infographics.md)
 * [mooVaults APY](faq/moovaults-apy.md)
 * [How-To Guides](faq/how-to-guides/README.md)
   * [How to Add a Custom Token to Metamask](faq/how-to-guides/how-to-add-a-custom-token-to-metamask.md)
@@ -37,22 +37,22 @@
   * [How to check the harvesting and compounding rate of a vault](faq/how-to-guides/how-to-check-harvesting-compounding-rate.md)
   * [How to participate in a mooVault](faq/how-to-guides/how-to-participate-in-a-moovault.md)
 
-## Beefy Safu Protocol <a href="safu-protocol" id="safu-protocol"></a>
+## Протокол безопасности Beefy <a href="safu-protocol" id="safu-protocol"></a>
 
 * [Как Beefy обеспечивает безопасность ваших средств (SAFU)](safu-protocol/safu-practices.md)
 * [Смарт-контракты и задержки](safu-protocol/contracts-and-timelocks.md)
-* [Рейтинг безопасности хранилищ Beefy](safu-protocol/beefy-safety-score.md)
+* [Рейтинг безопасности хранилищ Beefy](faq/beefy-safety-score.md)
 * [Разрешения на трату средств](safu-protocol/token-allowance.md)
 * [Beefy Backup](safu-protocol/beefy-backup.md)
 
-## Beefy Community <a href="community" id="community"></a>
+## Сообщество Beefy <a href="community" id="community"></a>
 
 * [Сообщество](community/soobshestvo.md)
-* [Инструменты сообщества Beefy](community/beefy-cowmoonity-tools.md)
+* [Инструменты сообщества Beefy](developers/beefy-cowmoonity-tools.md)
 
-## Additional Resources
+## Дополнительные ресурсы <a href="additional-resources" id="additional-resources"></a>
 
-* [Репозитории исходного кода](additional-resources/code-repositories.md)
+* [Репозитории исходного кода](developers/code-repositories.md)
 * [Github](https://github.com/beefyfinance)
 * [Twitter](https://twitter.com/beefyfinance)
 * [Medium](https://medium.com/beefyfinance)

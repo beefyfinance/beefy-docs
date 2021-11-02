@@ -4,7 +4,7 @@ description: Как мы привлекаем к себе талантливых
 
 # Раскрываем преимущества Beefy
 
-![](../../.gitbook/assets/bulletin-beefys-coveted-advantages-revealed.png)
+![](../.gitbook/assets/bulletin-beefys-coveted-advantages-revealed.png)
 
 _"Способность какой-либо организации учится, и применять полученные знания в кратчайшие сроки — это решающее преимущество предприятия в условиях рыночной конкуренции."_
 

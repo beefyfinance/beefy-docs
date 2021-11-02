@@ -1,6 +1,6 @@
 # Что же делает Beefy уникальной?
 
-![](../../.gitbook/assets/bulletin-what-makes-beefy-different.png)
+![](../.gitbook/assets/bulletin-what-makes-beefy-different.png)
 
 Однажды, у крипто-евангелиста и инвестора Навалья Равиканта спросили: "Над чем бы ты работал, если бы тебе снова было 25 лет?"
 

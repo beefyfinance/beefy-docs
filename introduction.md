@@ -4,7 +4,7 @@ description: Децентрализованный Кросс-чейн Оптим
 
 # Введение в Beefy Finance
 
-_Не хотите много читать? Перейдите сразу к_ [_Инфографике Beefy Finance_](../faq/infographics.md)_._
+_Не хотите много читать? Перейдите сразу к_ [_Инфографике Beefy Finance_](infographics.md)_._
 
 ## Что такое Beefy Finance?
 

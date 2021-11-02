@@ -1,6 +1,6 @@
 # Вот почему Beefy лучше вашего банка
 
-![](../../.gitbook/assets/bulletin-why-beefy-beats-your-bank.png)
+![](../.gitbook/assets/bulletin-why-beefy-beats-your-bank.png)
 
 Вопрос, который мучает самых богатых людей в мире:
 

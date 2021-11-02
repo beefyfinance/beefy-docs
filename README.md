@@ -4,7 +4,7 @@ description: 'Last updated: 2 November 2021 - English documentation is leading.'
 
 # Обзор
 
-{% file src=".gitbook/assets/docs-landing_ru.png" %}
+![](.gitbook/assets/docs-landing\_ru.png)
 
 ### Что такое Beefy Finance?
 

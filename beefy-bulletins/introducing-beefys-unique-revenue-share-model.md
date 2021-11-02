@@ -6,7 +6,7 @@ description: >-
 
 # Представляем вам уникальную модель распределения прибыли Beefy
 
-![](../../.gitbook/assets/bulletin-introducing-beefys-unique-revenue-share-model.png)
+![](../.gitbook/assets/bulletin-introducing-beefys-unique-revenue-share-model.png)
 
 **Наконец-то сторонники DeFi начинают понимать, что нельзя заставить людей поверить в более совершенную финансовую систему, сводя ее при этом к деструктивным спекуляциям**
 

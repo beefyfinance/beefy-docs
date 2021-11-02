@@ -4,7 +4,7 @@ description: Beefy называют по-разному…
 
 # Что такое Beefy Finance?
 
-![](../../.gitbook/assets/bulletin-what-is-beefy-finance.png)
+![](../.gitbook/assets/bulletin-what-is-beefy-finance.png)
 
 * "Пожизненная возможность получать сложный процент"
 * "Самый безопасный и лучший способ начать инвестировать в DeFi"

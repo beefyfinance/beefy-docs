@@ -6,7 +6,7 @@ description: >-
 
 # Анализ комиссий Beefy Finance
 
-![](../../.gitbook/assets/bulletin-beefy-finance-fees-breakdown.png)
+![](../.gitbook/assets/bulletin-beefy-finance-fees-breakdown.png)
 
 **Каково** _**влияние**_ **комиссий?**
 
