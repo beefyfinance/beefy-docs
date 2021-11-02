@@ -35,14 +35,14 @@
   * [如何使用 BIFI 进行跨链](chang-wen-wen-ti/how-to-guides/how-to-bridge-bifi-cross-chain.md)
   * [如何检查金库的收获和复利率](chang-wen-wen-ti/how-to-guides/how-to-check-harvesting-compounding-rate.md)
 
-## 为聪明的农夫所准备 <a id="developers"></a>
+## 为聪明的农夫所准备 <a href="developers" id="developers"></a>
 
 * [Beefy 的安全实践](developers/beefy-safu-practices.md)
 * [已部署的合约登记处](developers/deployed-contract-registry.md)
 * [代码存储库](developers/code-repositories.md)
 * [Beefy 社区工具](developers/beefy-cowmoonity-tools.md)
 
----
+***
 
 * [奶牛团队](community.md)
 
@@ -50,7 +50,6 @@
 
 * [Github](https://github.com/beefyfinance)
 * [推特](https://twitter.com/beefyfinance)
-* [Medium](https://medium.com/beefyfinance)
+* [Blog](https://blog.beefy.finance/articles/)
 * [Discord](https://discord.gg/yq8wfHd)
 * [电报群](https://t.me/beefyfinance)
-
