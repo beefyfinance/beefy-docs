@@ -1,6 +1,5 @@
 ---
-description: >-
-  在本指南中，您将找到使用 Metamask 和 multichain.xyz 进行 BIFI 跨链所需的步骤。
+description: 在本指南中，您将找到使用 Metamask 和 multichain.xyz 进行 BIFI 跨链所需的步骤。
 ---
 
 # 如何使用 BIFI 进行跨链
@@ -24,7 +23,7 @@ BIFI 不仅可以质押在币安智能链 \(BSC\) 上，还可以质押在 Beefy
 
 也将您的 Metamask 切换到币安智能链。它之后可能会提示您在“错误的网络”上，但不必注意这一点。
 
-### 3. 选择发送 BIFI 
+### 3. 选择发送 BIFI
 
 点击 "From "一栏中的Wrapped-ETH图标，
 

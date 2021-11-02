@@ -1,6 +1,5 @@
 ---
-description: >-
-  我们知道进入加密和 DeFi 领域可能会令人困惑和迷失方向……
+description: 我们知道进入加密和 DeFi 领域可能会令人困惑和迷失方向……
 ---
 
 # Beefy Finance 是如何运作的？

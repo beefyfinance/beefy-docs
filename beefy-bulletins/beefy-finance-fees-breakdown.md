@@ -1,9 +1,8 @@
 ---
-description: >-
-  任何熟悉传统金融典型费用结构的人都会告诉您费用很重要。
+description: 任何熟悉传统金融典型费用结构的人都会告诉您费用很重要。
 ---
 
-# Beefy Finance 费用明细
+# Beefy Finance费用明细
 
 ![](../.gitbook/assets/bulletin-beefy-finance-fees-breakdown.png)
 

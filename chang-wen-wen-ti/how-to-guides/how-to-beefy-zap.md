@@ -8,9 +8,9 @@ Beefy ZAP 可让您创建流动性池代币并仅通过一笔交易进行 Beefy 
 
 ## 进入 LP 金库
 
-我们将使用来自 PancakeSwap 的[BIFI-BNB LP 金库]来展示Beefy ZAP (https://app.beefy.finance/vault/cakev2-bifi-bnb):
+我们将使用来自 PancakeSwap 的\[BIFI-BNB LP 金库\]来展示Beefy ZAP \([https://app.beefy.finance/vault/cakev2-bifi-bnb](https://app.beefy.finance/vault/cakev2-bifi-bnb)\):
 
-![截图摄于2021年5月30日](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-rate.png)
+![&#x622A;&#x56FE;&#x6444;&#x4E8E;2021&#x5E74;5&#x6708;30&#x65E5;](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-rate.png)
 
 仅使用 BNB 作为输入资产，我们将让 Beefy ZAP 创建 BIFI-BNB LP 代币并进行金库存款。
 
