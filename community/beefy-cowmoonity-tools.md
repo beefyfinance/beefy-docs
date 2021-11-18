@@ -26,5 +26,5 @@ The website has detailed filtering, sorting and extra data.
 
 _"My Moo tokens were getting out of hand; now they are all enjoying some cookies together. Do cows even like cookies?"_ - Ncookie
 
-The project currently supports tracking Beefy vault balances and BIFI staking on BSC, Polygon, Fantom and Avalanche.
+The project currently supports tracking Beefy vault balances and BIFI staking on BSC, Polygon, Fantom, Avalanche and Harmony.
 
