@@ -58,4 +58,3 @@
 * [博客](https://blog.beefy.finance/articles/)
 * [Discord](https://discord.gg/yq8wfHd)
 * [电报群](https://t.me/beefyfinance)
-
