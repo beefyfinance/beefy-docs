@@ -1,13 +1,13 @@
-# Beefy Backup
+# Beefy 备份
 
 ![](../.gitbook/assets/safu.png)
 
-Sporadically, users are experiencing white screens, or blank screens, and can not access the Beefy DApp.
+偶尔，用户会遇到白屏或空白屏幕，并且无法访问 Beefy 应用。
 
-This might be Fleek or Cloudflare having maintenance, but it's hard to pinpoint the root cause. When it happens, it does not affect everyone but only some regions world wide. We understand that this can be frustrating!
+这可能是 Fleek 或 Cloudflare 正在进行维护，但很难查明根本原因。此情况的发生并不会影响每个人，而只是世界范围内的一些地区受影响。 我们理解这情况可能令人沮丧！
 
-First and foremost, _don't worry_, your funds are always SAFU on the blockchain, they are not on Beefy's website. The site is only a front end to let you access your funds easily.
+首先，_别担心_，您的资金在区块链上始终是安全的，它们不在 Beefy 的网页上。该网站只是一个前端，可让您轻松访问您的资金。
 
-If you are experiencing the aforementioned issues, try the following official mirror: [https://beefy.on.fleek.co/](https://beefy.on.fleek.co) or try using a VPN.
+如果您遇到上述问题，请尝试以下官方镜像站点：[https://beefy.on.fleek.co/](https://beefy.on.fleek.co) 或尝试使用 VPN。
 
-This mirror site is a developer's build, which we can provide as a backup for users that can't access Beefy's site. Remember, seed phrases and private keys will **never** be asked.
+此镜像站点是开发者构建的，是为无法访问 Beefy 站点的用户所提供的一个备份站点。 请记住，Beefy **永远不会**询问您的种子短语和私钥。
