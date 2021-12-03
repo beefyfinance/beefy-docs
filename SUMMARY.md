@@ -2,7 +2,7 @@
 
 * [Обзор](README.md)
 
-## Экосистема Beefy <a href="ecosystem" id="ecosystem"></a>
+## Экосистема Beefy <a href="#ecosystem" id="ecosystem"></a>
 
 * [Введение в Beefy Finance](introduction.md)
 * [Токен BIFI](faq/bifi-token/README.md)
@@ -37,7 +37,7 @@
   * [How to check the harvesting and compounding rate of a vault](faq/how-to-guides/how-to-check-harvesting-compounding-rate.md)
   * [How to participate in a mooVault](faq/how-to-guides/how-to-participate-in-a-moovault.md)
 
-## Протокол безопасности Beefy <a href="safu-protocol" id="safu-protocol"></a>
+## Протокол безопасности Beefy <a href="#safu-protocol" id="safu-protocol"></a>
 
 * [Как Beefy обеспечивает безопасность ваших средств (SAFU)](safu-protocol/safu-practices.md)
 * [Смарт-контракты и задержки](safu-protocol/contracts-and-timelocks.md)
@@ -45,16 +45,17 @@
 * [Разрешения на трату средств](safu-protocol/token-allowance.md)
 * [Резервный доступ к Beefy](safu-protocol/beefy-backup.md)
 
-## Сообщество Beefy <a href="community" id="community"></a>
+## Сообщество Beefy <a href="#community" id="community"></a>
 
 * [Сообщество](community/soobshestvo.md)
 * [Инструменты сообщества Beefy](developers/beefy-cowmoonity-tools.md)
 
-## Дополнительные ресурсы <a href="additional-resources" id="additional-resources"></a>
+## Дополнительные ресурсы <a href="#additional-resources" id="additional-resources"></a>
 
 * [Репозитории исходного кода](developers/code-repositories.md)
-* [Github](https://github.com/beefyfinance)
-* [Twitter](https://twitter.com/beefyfinance)
 * [Blog](https://blog.beefy.finance/articles/)
 * [Discord](https://discord.gg/yq8wfHd)
+* [Gear](https://gear.beefy.finance)
+* [Github](https://github.com/beefyfinance)
 * [Telegram](https://t.me/beefyfinance)
+* [Twitter](https://twitter.com/beefyfinance)
