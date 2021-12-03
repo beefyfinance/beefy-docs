@@ -1,8 +1,8 @@
-# 目录
+# Table of contents
 
 * [概要](README.md)
 
-## Beefy 的生态系统 <a href="ecosystem" id="ecosystem"></a>
+## Beefy 的生态系统 <a href="#ecosystem" id="ecosystem"></a>
 
 * [Beefy Finance 项目介绍](ecosystem/introduction.md)
 * [BIFI 代币](ecosystem/bifi-token/README.md)
@@ -36,8 +36,8 @@
   * [如何在 Beefy Finance 上添加和切换网络](faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md)
   * [如何使用 BIFI 进行跨链](faq/how-to-guides/how-to-bridge-bifi-cross-chain.md)
   * [如何检查金库的收获和复利率](faq/how-to-guides/how-to-check-harvesting-compounding-rate.md)
-  
-## Beefy 的安全协议 <a href="safu-protocol" id="safu-protocol"></a>
+
+## Beefy 的安全协议 <a href="#safu-protocol" id="safu-protocol"></a>
 
 * [Beefy 的安全实践](safu-protocol/beefy-safu-practices.md)
 * [合约和时间锁](safu-protocol/contracts-and-timelocks.md)
@@ -45,7 +45,7 @@
 * [代币限额检查器](safu-protocol/token-allowance.md)
 * [Beefy 备份](safu-protocol/beefy-backup.md)
 
-## Beefy Community <a href="community" id="community"></a>
+## Beefy Community <a href="#community" id="community"></a>
 
 * [奶牛团队](community/community.md)
 * [Beefy 社区工具](community/beefy-cowmoonity-tools.md)
@@ -53,8 +53,9 @@
 ## 其他资源
 
 * [代码存储库](additional-resources/code-repositories.md)
-* [Github](https://github.com/beefyfinance)
-* [推特](https://twitter.com/beefyfinance)
 * [博客](https://blog.beefy.finance/articles/)
 * [Discord](https://discord.gg/yq8wfHd)
+* [Gear](https://gear.beefy.finance)
+* [Github](https://github.com/beefyfinance)
+* [推特](https://twitter.com/beefyfinance)
 * [电报群](https://t.me/beefyfinance)
