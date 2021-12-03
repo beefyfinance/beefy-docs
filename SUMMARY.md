@@ -2,7 +2,7 @@
 
 * [Overview](README.md)
 
-## Beefy Ecosystem <a href="ecosystem" id="ecosystem"></a>
+## Beefy Ecosystem <a href="#ecosystem" id="ecosystem"></a>
 
 * [Introduction to Beefy Finance](ecosystem/introduction.md)
 * [BIFI Token](ecosystem/bifi-token/README.md)
@@ -37,7 +37,7 @@
   * [How to bridge BIFI cross-chain](faq/how-to-guides/how-to-bridge-bifi-cross-chain.md)
   * [How to check the harvesting and compounding rate of a vault](faq/how-to-guides/how-to-check-harvesting-compounding-rate.md)
 
-## Beefy SAFU Protocol <a href="safu-protocol" id="safu-protocol"></a>
+## Beefy SAFU Protocol <a href="#safu-protocol" id="safu-protocol"></a>
 
 * [Beefy SAFU Practices](safu-protocol/beefy-safu-practices.md)
 * [Contracts & Timelocks](safu-protocol/contracts-and-timelocks.md)
@@ -45,7 +45,7 @@
 * [Token Allowance](safu-protocol/token-allowance.md)
 * [Beefy Backup](safu-protocol/beefy-backup.md)
 
-## Beefy Community <a href="community" id="community"></a>
+## Beefy Community <a href="#community" id="community"></a>
 
 * [Cowmoonity](community/community.md)
 * [Beefy Cowmoonity Tools](community/beefy-cowmoonity-tools.md)
@@ -53,8 +53,9 @@
 ## Additional Resources
 
 * [Code Repositories](additional-resources/code-repositories.md)
-* [Github](https://github.com/beefyfinance)
-* [Twitter](https://twitter.com/beefyfinance)
 * [Blog](https://blog.beefy.finance/articles/)
 * [Discord](https://discord.gg/yq8wfHd)
+* [Gear](https://gear.beefy.finance)
+* [Github](https://github.com/beefyfinance)
 * [Telegram](https://t.me/beefyfinance)
+* [Twitter](https://twitter.com/beefyfinance)
