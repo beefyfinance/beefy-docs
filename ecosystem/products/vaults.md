@@ -111,7 +111,7 @@ _The following applies to: Aave, Banker Joe, Belt, Blizz, Geist, Scream, Venus, 
 
 Most Beefy single asset vaults utilise decentralized marketplaces for lenders and borrowers. By depositing your initial asset in the vault, Beefy deposits it into the lending marketplace and borrows against your token at safe levels of collateral.
 
-The borrowed tokens are redeposited into the platform, and once again used as collateral to borrow more tokens. This cycle is repeated multiple times to generate as much interest as possible, which is used to buy more of your originally deposited assets. This strategy is also known as a folding strategy. It is noteworthy that this "leveraged" multi lending and multi borrowing is only with the native token, so there is no liquidation risk due to token price swings.&#x20;
+The borrowed tokens are redeposited into the platform, and once again used as collateral to borrow more tokens. This cycle is repeated multiple times to generate as much interest as possible, which is used to buy more of your originally deposited assets. This strategy is also known as a folding strategy. It is noteworthy that this "leveraged" multi lending and multi borrowing is only with the deposited vault token, so there is no liquidation risk due to token price swings.&#x20;
 
 {% hint style="info" %}
 Because of the multi supply and borrow cycle, a transaction fee for these vaults is generally higher as compared to other vaults. Also, when available liquidity on the lending platform is low, it can potentially lead to temporarily unavailable funds. This event will naturally resolve itself when liquidity returns.
