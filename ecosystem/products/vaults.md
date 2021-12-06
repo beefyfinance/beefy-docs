@@ -105,12 +105,18 @@ Each vault on the platform is named after the token that users can deposit in it
 
 Underneath the vault name, you can find the platform used for investing the token and farming its yields. For example, Uses: Venus means that that particular vault invests the token in Venus, a DeFi algorithmic money market and synthetic stablecoin protocol.
 
-## **How do Aave and Venus vaults work?**
+## **How do lending vaults work?**
 
-Aave and Venus are decentralized marketplaces for lenders and borrowers. By depositing your initial asset in the vault, Beefy deposits it into Aave or Venus and borrows against your token. This is done at safe levels of collateral.
+_The following applies to: Aave, Banker Joe, Belt, Blizz, Geist, Scream, Venus, and similar lending platforms._
 
-The borrowed tokens are then redeposited into the platform, and once again used as collateral to borrow more tokens. This cycle is repeated multiple times to generate as much interest as possible to buy more of your originally deposited assets. It is noteworthy that this "leveraged" multi lending and multi borrowing is only with the native token, so there is no liquidation risk due to token price swings. Also, because of the multi supply/borrow cycle, a transaction fee for these vaults is generally 4x as high as compared to other vaults.
+Most Beefy single asset vaults utilise decentralized marketplaces for lenders and borrowers. By depositing your initial asset in the vault, Beefy deposits it into the lending marketplace and borrows against your token at safe levels of collateral.
 
-Because of accruing debt/supply interest, one may notice that the deposited token amount may decline ever so slightly in between harvests. After the harvest, you will see your deposited token amount go up as the yields are compounded back into it. The change in deposited token amount over time of typical Aave / Venus style vault looks as follows:
+The borrowed tokens are redeposited into the platform, and once again used as collateral to borrow more tokens. This cycle is repeated multiple times to generate as much interest as possible, which is used to buy more of your originally deposited assets. This strategy is also known as a folding strategy. It is noteworthy that this "leveraged" multi lending and multi borrowing is only with the native token, so there is no liquidation risk due to token price swings.&#x20;
+
+{% hint style="info" %}
+Because of the multi supply and borrow cycle, a transaction fee for these vaults is generally higher as compared to other vaults. Also, when available liquidity on the lending platform is low, it can potentially lead to temporarily unavailable funds. This event will naturally resolve itself when liquidity returns.
+{% endhint %}
+
+Due to accruing debt/supply interest, one may notice that the deposited token amount may decline ever so slightly in between harvests. After the harvest, you will see your deposited token amount increase as the yields are compounded back into it. The change in deposited token amount over time of a typical lending style vault looks as follows:
 
 ![After a harvest event, the yields are added to the deposited token amount](../../.gitbook/assets/venus-style-vault.png)
