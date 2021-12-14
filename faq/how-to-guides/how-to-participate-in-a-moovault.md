@@ -33,7 +33,7 @@ description: >-
 
 ![](../../.gitbook/assets/wallet-3-.png)
 
-Click on **25%, 50%, 75% or 100% **or any percentage** **to deposit the corresponding proportion of your wallet into the Vault.
+Click on **25%, 50%, 75% or 100%** or any percentage **** to deposit the corresponding proportion of your wallet into the Vault.
 
 Or click “Deposit All” if you would like to **deposit 100%** of the chosen digital asset from your wallet into the Vault. :::info Please note before you make a deposit that there is a **0.1% withdrawal fee**. The longer you leave the deposit to earn returns in the Vault, the more likely your returns will exceed the withdrawal fee. :::
 

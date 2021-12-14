@@ -1,75 +1,62 @@
 ---
 description: >-
   In this guide you will find the required steps to bridge BIFI cross-chain
-  using Metamask and multichain.xyz.
+  using Metamask and AnySwap.
 ---
 
 # How to bridge BIFI cross-chain
 
-BIFI can be staked not only on Binance Smart Chain \(BSC\), but on every chain present in Beefy's [network switcher](how-to-add-and-switch-networks-on-beefy-finance.md). Each chain holds different opportunities for staking your BIFI, just check out the different APYs of the chain's BIFI Maxi vault! As an example, we are going to bridge BIFI from BSC to Polygon and back in this guide.
+As a true multichain token, BIFI can be staked to earn a share of Beefy's revenue on _every_ chain integrated by Beefy. Each chain holds different opportunities for staking your BIFI, just check out the different APYs of the chain's BIFI Maxi vault!&#x20;
 
 ## Prerequisites
 
-* You need to have both the BSC and Polygon network configured in your Metamask.
-* You will need BNB and MATIC to pay for transaction fees.
+* You need to have the current and destination network configured in your Metamask.
+* You will need the current and destination chain's native gas token to pay for transaction fees.
 
-## BSC -&gt; Polygon
+## Walkthrough
 
-### 1. Visit [https://multichain.xyz/swap](https://multichain.xyz/swap)
+You may bridge BIFI from any of the support networks. As an example, we are going to bridge BIFI from Fantom to Cronos in this guide.
 
-![](../../.gitbook/assets/bridge-multichain-homepage.png)
+### 1. Visit [https://anyswap.exchange/#/router](https://anyswap.exchange/#/router)
 
-### 2. Connect your wallet
+### 2. Switch network to Fantom and connect your wallet
 
-![](../../.gitbook/assets/bridge-connect-metamask.png)
-
-Switch your Metamask to Binance Smart Chain as well. It might prompt you are on the "Wrong Network" afterwards, but don't pay attention to that.
+![Connect to your MetaMask wallet](<../../.gitbook/assets/anyswap\_network (1).png>)
 
 ### 3. Select BIFI to send
 
-Click the Wrapped-ETH icon in the "From" field,
+Click the USDC icon in the "From" field,
 
-![](../../.gitbook/assets/bridge-click-weth.png)
+![](../../.gitbook/assets/anyswap\_choosefrom.png)
 
 and select BIFI:
 
-![](../../.gitbook/assets/bridge-select-bifi.png)
-
-The "Wrong Network" prompt is now gone too!
+![](../../.gitbook/assets/anyswap\_choosebifi.png)
 
 ### 4. Select BIFI to receive
 
-At this step, you can select on which network you wish to receive BIFI. We select Polygon \(Matic Mainnet\) in this guide:
+At this step, you can select on which network you wish to receive BIFI. Click on the destination chain:
 
-![](../../.gitbook/assets/bridge-select-bifi-receive.png)
+![](../../.gitbook/assets/anyswap\_choosenetwork.png)
+
+We select Cronos in this guide:
+
+![](../../.gitbook/assets/anyswap\_destinationnetwork.png)
 
 ### 5. Specify the amount to send
 
 Either type in the amount, or click your balance.
 
-![](../../.gitbook/assets/bridge-specify-amount.png)
+![](../../.gitbook/assets/anyswap\_amount.png)
 
-Make sure to "View Limits" too! Pro tip: hit the switch toggle and check the limits for withdrawing now as well.
+### 6. Read the terms of **service**
+
+![AnySwap's terms of service as of Decemvber 2021](../../.gitbook/assets/anyswap\_tos.png)
 
 ### 6. Send it!
 
-If you consent with all possible depositing and withdrawing fees, click the transfer button. Note: you may change the prompted gas price to 5 GWei \(BSC's default at the time of writing\).
+If you consent with the terms of service, click the "Swap" button.
 
-![](../../.gitbook/assets/bridge-transfer.png)
+![](../../.gitbook/assets/anyswap\_send.png)
 
-That's it! Your BEP20 BIFI will now be sent to the Polygon network:
-
-![](../../.gitbook/assets/bridge-deposit-transfer-transaction.png)
-
-## Polygon -&gt; BSC
-
-To send the \(now ERC20\) BIFI back to BSC, we simply need to reverse the process.
-
-### 1. Connect to Polygon network
-
-### 2. Specify the amount to send
-
-### 3. Transfer!
-
-![](../../.gitbook/assets/bridge-back.png)
-
+That's it! Your BIFI will now be sent to the Cronos network! :tada:

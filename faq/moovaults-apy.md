@@ -6,7 +6,7 @@ Let's look at a typical yield farm, where they state an APY (annual percentage y
 
 ## Understanding Exponential Growth (Compounding)
 
-Growth whose rate becomes ever more rapid in proportion to the growing total number or size. The simple formula for this is _**growth = (1 + r)^x** _, where 'r' = return and 'x' = number of 'times'. For example, your money doubles every year if you get 100% yearly return. After 3 years you would have 8x your original investment.&#x20;
+Growth whose rate becomes ever more rapid in proportion to the growing total number or size. The simple formula for this is _**growth = (1 + r)^x** _ , where 'r' = return and 'x' = number of 'times'. For example, your money doubles every year if you get 100% yearly return. After 3 years you would have 8x your original investment.&#x20;
 
 ![growth = (1 + 100%)^3](<../.gitbook/assets/capture (2).png>)
 
@@ -14,7 +14,7 @@ Growth whose rate becomes ever more rapid in proportion to the growing total num
 
 A typical investment does not just pay out on a yearly basis, but in smaller terms (ie: daily, monthly, etc). For yield farming, returns are even paid out on a per block basis. With an average of 28,800 blocks a day and cheap transaction fees this can allow for a significant amount of exponential growth or compounding of your return. Let's look at how to break that down...
 
-* Compound =** P \* (1+r/n)^nt**                Example : 100 \* (1+1/12)^(12\*1)
+* Compound = **P \* (1+r/n)^nt**                Example : 100 \* (1+1/12)^(12\*1)
 * P = principal or starting balance
 * r = APR = 100%
 * n = compounding periods = 12 months
