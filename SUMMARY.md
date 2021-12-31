@@ -41,6 +41,7 @@
 
 * [Beefy SAFU Practices](safu-protocol/beefy-safu-practices.md)
 * [Contracts & Timelocks](safu-protocol/contracts-and-timelocks.md)
+* [Bug Bounty Program](safu-protocol/bug-bounty-program.md)
 * [Beefy Safety Score](safu-protocol/beefy-safety-score.md)
 * [Token Allowance](safu-protocol/token-allowance.md)
 * [Beefy Backup](safu-protocol/beefy-backup.md)
