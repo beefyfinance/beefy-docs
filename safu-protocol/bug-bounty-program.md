@@ -1,3 +1,7 @@
+---
+description: Hunt bugs and get paid!
+---
+
 # Bug Bounty Program
 
 Our developers typically conduct rigorous internal tests and evaluate blockchain contracts before deployment. Beefy has also been [audited](https://github.com/beefyfinance/beefy-audits) by security organisation [CertiK](https://www.certik.com/projects/beefyfinance). Furthermore, the more widely available the source code is for public testing, scrutiny, and experimentation, the more rapidly all forms of bugs will be discovered. "Given enough eyeballs, all bugs are shallow." - this is a key Beefy principle.
