@@ -44,6 +44,18 @@ $$
 
 &#x20;A handy tool to convert APR to APY is: [APRtoAPY.com](https://www.aprtoapy.com)
 
+## How do I contribute to Beefy?
+
+Beefy Finance is a community powered project from day one. If you want to join the ever growing pool of contributors, tt depends what you would like to work on. We have open places for Solidity devs, or devs wanting to start a career in Solidity, to join as strategist and deploy vaults (and earn passive income from the strategist fees). Beefy is on a lot of chains and there are often opportunities for simple and complex vaults. You can start with simple ones and then progress to the harder ones as your knowledge of Solidity grows. You don't have to be the best right at the start, and rest assured that there is a rigorous review process in place to ensure safety and quality. You can reach out to our lead strategists in [Beefy's Discord](https://discord.gg/yq8wfHd) in #strategy-devs.
+
+Beefy would also like people to work on non-strategy projects; pretty much anything you can think of can be formulated into a grant. Speak with others in the cowmoonity about projects and join one of the teams or lead one up yourself, you can be paid for any work you do to make Beefy better. A quick list of previous grants: [here](https://forum.beefy.finance/c/grant-ideas/11) and [here](https://forum.beefy.finance/c/grant-requests-b1/10). Beefy V2 is an ongoing project that requires all kinds of devs, not just technical ones; design input is crucial to improve the UI/UX.
+
+If you have an interest in business development you could help with partnerships and proposing business decisions to the DAO. Beefy is still a relatively new business that can use talented people to help advise the core team.
+
+There is marketing that you can contribute to too, if you can write a decent tweet then you can help out in #tweet-development. The [Discord](https://discord.gg/yq8wfHd) has a #social-watch channel where links to Beefy mentions on social media are posted, you can help out with user queries there or in the [Discord](https://discord.gg/yq8wfHd) or [Telegram](https://t.me/beefyfinance) itself. Moderators of Discord and Telegram are (variably) paid positions too and are usually the first line of customer support.
+
+The best way to get involved is to just go ahead and get started, help where you can, contribute to discussions and collaborate with everyone.
+
 ## How can I find out how much earnings I have accumulated?
 
 You can use a DeFi dashboard that will be able to calculate exactly how much profit you have made on your investments. External tools such as [Yieldwatch](https://yieldwatch.net) for BSC or [PolygonDex](https://polygondex.com/track/yield/yieldMeBroDawg.aspx) for Polygon will connect to your wallet and give you an accurate picture of your initial investment and current earnings.
