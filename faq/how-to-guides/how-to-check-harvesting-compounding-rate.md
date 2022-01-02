@@ -40,12 +40,12 @@ This dashboard chooses which statistics and vaults to show based on the blockcha
 
 The "StratHarvest" events are where LP-farming rewards are culled and in turn compounded into more of the underlying LPs, the initial deposited asset, and then redeposited into the Beefy vault. As the timestamps reflect, this CAKE-BNB vault compounds roughly once per hour.
 
-### Other Chains (except Avalanche)
+### Other Chains (except Harmony, Celo, Cronos)
 
 Each of the chains supported by Beefy may be investigated via the same method shown above for BSC. The only difference will be the block explorer opened. For example on Polygon, PolygonScan will open.
 
-### Avalanche
+### Harmony, Celo, Cronos
 
-The basic method shown in the BSC example above still applies, except for the last, key step 5. This owes to Avalanche using a different block-explorer software. In Avalanche's case, step 5 switches to the Transactions tab to view the strategy events fired, as exemplified below
+The basic method shown in the BSC example above still applies, except for the last, key step 5. This owes to these chains using different block-explorer softwares. In these cases, step 5 switches to the Transactions tab to view the strategy events fired, as exemplified below
 
 ![](../../.gitbook/assets/Avalanche-harvest-events.png)

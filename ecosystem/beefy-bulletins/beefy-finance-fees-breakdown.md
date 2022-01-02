@@ -45,7 +45,7 @@ Apart from the fees fully listed above, anyone using Beefy should also remember 
 
 With Beefy's Venus vault, you can invest at 14.46% APY with fees already factored in.
 
-$1M invested for 30 years at 14.56 % APY yields…
+$1M invested for 30 years at 14.46 % APY yields…
 
 $57,492,639 million.
 
