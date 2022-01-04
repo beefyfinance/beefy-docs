@@ -8,7 +8,7 @@ Beefy ZAP lets you create liquidity pool tokens and make Beefy vault deposits wi
 
 ## Entering a LP vault
 
-We will showcase Beefy ZAP for the [BIFI-BNB LP vault](https://app.beefy.finance/vault/cakev2-bifi-bnb) from PancakeSwap:
+We will showcase Beefy ZAP for the [BIFI-BNB LP vault](https://app.beefy.finance/#/bsc/vault/cakev2-bifi-bnb) from PancakeSwap:
 
 ![Screenshot taken on 30 May 2021](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-rate.png)
 
@@ -59,4 +59,3 @@ Click on the token amount deposited, and withdraw.
 And that's all! Beefy ZAP returned 1.4794 BIFI to our wallet, which we can stake in the [BIFI Maxi vault](https://app.beefy.finance/#/bsc/vault/bifi-maxi) for example:
 
 ![](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-bifi-proof.png)
-
