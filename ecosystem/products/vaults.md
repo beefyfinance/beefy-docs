@@ -44,7 +44,13 @@ Whenever you want to withdraw the tokens that are staked for you in Beefy's vaul
 
 ## What are the advantages of the mooToken system?
 
-Beefy's mooToken system has a few major advantages. Firstly, mooTokens allow any user to withdraw their fair share of deposited funds. Secondly, the system allows you to deposit the mooToken receipt to a cold or hardware wallet for ultimate safety. Thirdly, your privacy is maintained, as you remain anonymous to Beefy. Your funds in the vault are not tied to the wallet address from which you made the deposit, since the mooTokens are the only evidence of your share in the vault. Therefore, you could withdraw your share of funds from a different address if you moved your mooTokens to it. Lastly, mooTokens can be used as interest-bearing collateral.
+Beefy's mooToken system has a few major advantages:&#x20;
+
+1. mooTokens allow any user to withdraw their fair share of deposited funds;
+2. the system allows you to deposit the mooToken receipt to a cold or hardware wallet for ultimate safety;
+3. your privacy is maintained, as you remain anonymous to Beefy. Your funds in the vault are not tied to the wallet address from which you made the deposit, since the mooTokens are the only evidence of your share in the vault. Therefore, you could withdraw your share of funds from a different address if you moved your mooTokens to it;
+4. mooTokens have tax benefits: since you're not selling off rewards, nor getting staking rewards direct to your address, you do not have taxable events when you have funds staked in a vault;
+5. Lastly, mooTokens can be used as interest-bearing collateral.
 
 ## **How often do the vaults harvest their profits and reinvest?**
 
