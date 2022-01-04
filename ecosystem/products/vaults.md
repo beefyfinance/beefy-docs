@@ -28,11 +28,23 @@ Users can sit back and relax, and watch their investment grow!
 
 ## **What are mooTokens?**
 
-A mooToken acts as a receipt for your deposit into any Beefy vault. For example, you receive mooBIFI tokens when depositing BIFI into the BIFI Maxi vault. The amount of mooTokens you receive will not 1:1 match the token amount initially deposited, but it does represent your proportional share of the vault. As a vault generates profit, the amount of mooTokens in your wallet remains constant while the underlying invested token amount in the vault increases.&#x20;
+A mooToken is an interest-bearing, tokenized proof of deposit that you will receive at the moment you deposit in a Beefy vault. A mooToken is unique per vault, e.g. you get mooBIFI tokens when depositing BIFI into the BIFI Maxi vault. One can view mooTokens as the receipt of your vault deposit.
 
-Beefy's mooToken system has a few major advantages. Firstly, mooTokens allow any user to withdraw their fair share of deposited funds. Secondly, the system allows you to deposit the mooToken receipt to a cold or hardware wallet for ultimate safety. Thirdly, your privacy is maintained, as you remain anonymous to Beefy. Your funds in the vault are not tied to the wallet address from which you made the deposit, since the mooTokens are the only evidence of your share in the vault. Therefore, you could withdraw your share of funds from a different address if you moved your mooTokens to it.
+{% hint style="info" %}
+Beefy.Finance users should hold on tightly to their mooTokens and not sell or exchange it, since you would lose ownership of your staked vault assets if you did so!
+{% endhint %}
 
-Whenever you want to withdraw the tokens that are staked for you in the vault, you need your mooToken receipt to withdraw the initially deposited tokens plus extra vault yield. Beefy.Finance users should hold on tightly to the mooTokens (deposit receipt) and not sell or exchange it to strangers, since you would lose ownership of your staked assets in the vault if you did so!
+## How do mooTokens earn interest?
+
+Beefy's vaults automatically create more of your deposited asset in the form of compound interest. By holding mooTokens in your wallet, they are increasing in value against its corresponding vault asset. The number of mooTokens in your wallet will remain constant, but the quantity of the vault tokens they can be redeemed for increases. This is also the reason why mooTokens do not 1:1 match with the token amount initially deposited.
+
+## How do I redeem mooTokens for the initially deposited tokens?
+
+Whenever you want to withdraw the tokens that are staked for you in Beefy's vault, you simply initiate a withdrawal transaction to exchange them. The mooTokens are then taken from your wallet and burned, and your deposited assets plus yield will be given back to you.
+
+## What are the advantages of the mooToken system?
+
+Beefy's mooToken system has a few major advantages. Firstly, mooTokens allow any user to withdraw their fair share of deposited funds. Secondly, the system allows you to deposit the mooToken receipt to a cold or hardware wallet for ultimate safety. Thirdly, your privacy is maintained, as you remain anonymous to Beefy. Your funds in the vault are not tied to the wallet address from which you made the deposit, since the mooTokens are the only evidence of your share in the vault. Therefore, you could withdraw your share of funds from a different address if you moved your mooTokens to it. Lastly, mooTokens can be used as interest-bearing collateral.
 
 ## **How often do the vaults harvest their profits and reinvest?**
 
@@ -89,11 +101,6 @@ This compounds the rewards gained from a liquidity pool. Beefy.Finance creates s
 ## **How often are balances updated in the vaults?**
 
 * Pending rewards are not reflected in the balance until they are swapped for the initial deposited token. This can vary depending on the strategy running.&#x20;
-
-## **Why do I have less mooToken than the amount of tokens I deposited?**
-
-* The mooTokens represent the share of the Vault the user has. As the vaults generate profit, the amount of shares (mooToken) remain constant, and the underlying token amount increases.&#x20;
-* There generally are no deposit fees, so the amount of tokens you deposit is maintained the second after you deposited. That amount should increase over time as the strategy generates profit.
 
 ## **How do vaults get added to Beefy.Finance?**
 
