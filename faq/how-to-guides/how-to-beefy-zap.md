@@ -6,6 +6,10 @@ description: One-Click Beefy Vault Investing!
 
 Beefy ZAP lets you create liquidity pool tokens and make Beefy vault deposits with just one transaction. You no longer need to [manually add and remove liquidity](how-to-add-remove-liquidity.md)! Beefy ZAP is a simple, quick, cheap, safe solution that eliminates the need to handle token contract addresses or even leave the comfy environs of the Beefy app.
 
+{% hint style="info" %}
+When using Zap, always check your quote! While Zap does protect you against market slippage (price changes at the time of order and time of fulfillment), it does **not** protect you against price impact (how much your transaction will change the price of the tokens in the liquidity pool).
+{% endhint %}
+
 ## Entering a LP vault
 
 We will showcase Beefy ZAP for the [BIFI-BNB LP vault](https://app.beefy.finance/#/bsc/vault/cakev2-bifi-bnb) from PancakeSwap:

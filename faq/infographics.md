@@ -24,6 +24,10 @@ More on the vault fees [here](../ecosystem/products/vaults.md#what-is-the-vault-
 
 Beefy Zap automatically builds your liquidity pool (LP) tokens from a base deposit asset, such as BNB. When the time has come that you want to withdraw from a LP vault, Beefy Zap also supports withdrawing back into a base asset. This saves you the hassle of manually adding and removing liquidity at a yield farm. Here's [how to use Beefy Zap](how-to-guides/how-to-beefy-zap.md)
 
+{% hint style="info" %}
+When using Zap, always check your quote! While Zap does protect you against market slippage (price changes at the time of order and time of fulfillment), it does **not** protect you against price impact (how much your transaction will change the price of the tokens in the liquidity pool).
+{% endhint %}
+
 ## Beefy Launchpool:
 
 ![](../.gitbook/assets/beefy-info-boost.png)
