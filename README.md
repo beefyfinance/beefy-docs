@@ -18,6 +18,6 @@ $BIFI tokens are 'dividend-eligible' revenue shares in Beefy Finance, through wh
 
 For all the vaults deployed on every blockchain, Beefy Finance has its native governance token $BIFI at its core. Platform revenue is generated from a small percentage of all the vault profits and distributed back to those who stake $BIFI.
 
-The revenue sharing mechanics entail you can stake $BIFI to either earn more $BIFI in a BIFI Maxi vault, or earn $ETH, $BNB, $FTM, $MATIC, $AVAX, $HT, $ONE, $CELO or $MOVR in the native staking pools.
+The revenue sharing mechanics entail you can stake $BIFI to either earn more $BIFI in a BIFI Maxi vault, or earn $ETH, $BNB, $FTM, $MATIC, $AVAX, $HT, $ONE, $CELO, $MOVR, $CRO or $FUSE in the native staking pools.
 
 The supply of $BIFI is limited at 80,000 tokens and available on the top decentralized exchanges such as Binance, 1inchexchange and PancakeSwap.
