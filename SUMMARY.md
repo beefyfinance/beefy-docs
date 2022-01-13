@@ -41,6 +41,7 @@
 
 * [Как Beefy обеспечивает безопасность ваших средств (SAFU)](safu-protocol/safu-practices.md)
 * [Смарт-контракты и задержки](safu-protocol/contracts-and-timelocks.md)
+* [Программа Bug Bounty](safu-protocol/programma-bug-bounty.md)
 * [Рейтинг безопасности хранилищ Beefy](faq/beefy-safety-score.md)
 * [Разрешения на трату средств](safu-protocol/token-allowance.md)
 * [Резервный доступ к Beefy](safu-protocol/beefy-backup.md)
