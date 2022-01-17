@@ -2,11 +2,11 @@
 
 This document outlines the design for the Beefy Safety Score. The purpose of the safety score is to educate users when making a decision to enter a particular Beefy vault. The Safety Score is not necessarily perfect, but it is another tool that helps the user.
 
-The safety score that a vault can get goes from 1 to 10. The best possible score is 10 and the worst is 0. It is technically possible for vaults to score less than 0, in which case 0 will be displayed.
+The safety score that a vault can get goes from 0 to 10. The best possible score is 10 and the worst is 0. It is technically possible for vaults to score less than 0, in which case 0 will be displayed.
 
 Risks are distributed in three main categories:
 
-* Beefy Risks: Risks that we add by serving as a platform. 
+* Beefy Risks: Risks that we add by serving as a platform.&#x20;
 * Asset Risks: Risks of the asset being handled by the vault.
 * Platform Risks: Risks of the underlying farm or platform used.
 
@@ -26,17 +26,17 @@ Tracks the complexity of the strategy behind a vault.
 
 * Title: Low complexity strategy
 * Explanation: Low complexity strategies have few, if any, moving parts and their code is easy to read and debug. There is a direct correlation between code complexity and implicit risk. A simple strategy effectively mitigates implementation risks.
-* Qualification Criteria: A low complexity strategy should interact with just one audited and well-known smart contract e.g. MasterChef. The strategy serves as a façade for this smart contract, forwarding deposit, harvest and withdrawal calls using a single line of code. 
+* Qualification Criteria: A low complexity strategy should interact with just one audited and well-known smart contract e.g. MasterChef. The strategy serves as a façade for this smart contract, forwarding deposit, harvest and withdrawal calls using a single line of code.&#x20;
 
 #### COMPLEXITY\_MID
 
 * Title: Beefy strategy is of medium complexity
 * Explanation: Medium complexity strategies interact with two or more audited and well-known smart contracts. Its code is still easy to read, test and debug. It mitigates most implementation risks by keeping things simple, however the interactions between 2 or more systems add a layer of complexity.
-* Qualification Criteria: A medium complexity strategy interacts with 2 or more well-known smart contracts. This strategy automates the execution of a series of steps with no forking paths. Every time deposit\(\), harvest\(\) and withdraw\(\) is called, the same execution path is followed.
+* Qualification Criteria: A medium complexity strategy interacts with 2 or more well-known smart contracts. This strategy automates the execution of a series of steps with no forking paths. Every time deposit(), harvest() and withdraw() is called, the same execution path is followed.
 
 #### COMPLEXITY\_HIGH
 
-* Title: Beefy strategy is complex 
+* Title: Beefy strategy is complex&#x20;
 * Explanation: High complexity strategies interact with one or more well-known smart contracts. These advanced strategies present branching paths of execution. In some cases multiple smart contracts are required to implement the full strategy.
 * Qualification Criteria: A high level complexity strategy can be identified by one or more of the following factors: high cyclomatic complexity, interactions between two or more third-party platforms, implementation split between multiple smart contracts.
 
@@ -47,7 +47,7 @@ Tracks how long has this strategy been running without any major issues.
 #### BATTLE\_TESTED
 
 * Title: Beefy strategy is battle tested
-* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy has been exposed to attacks and usage for some time already, with little to no changes. This makes it sturdier. 
+* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy has been exposed to attacks and usage for some time already, with little to no changes. This makes it sturdier.&#x20;
 * Qualification Criteria:
   * Was deployed using a BeefyStratFactory
   * 10+ strategies sharing the same code deployed
@@ -55,13 +55,13 @@ Tracks how long has this strategy been running without any major issues.
 
 #### NEW\_STRAT
 
-* Title: Strategy has been running for less than a month 
-* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy is a modification or iteration of a previous strategy. It hasn't been battle tested as much as others.
+* Title: Strategy has been running for less than a month&#x20;
+* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it has have been found, and fixed. This strategy is a modification or iteration of a previous strategy. It hasn't been battle tested as much as others.
 * Qualification Criteria: -
 
 #### EXPERIMENTAL\_STRAT
 
-* Title: The strategy has some features which are new 
+* Title: The strategy has some features which are new&#x20;
 * Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy is brand new and has at least one experimental feature. Use it carefully at your own discretion.
 * Qualification Criteria: -
 
@@ -75,20 +75,20 @@ Tracks the risk of impermanent loss within the vault
 
 #### IL\_NONE
 
-* Title: Very low or zero projected IL 
+* Title: Very low or zero projected IL&#x20;
 * Explanation: The asset in this vault has very little or even no expected impermanent loss. This might be because you are staking a single asset, or because the assets in the LP are tightly correlated like USDC-USDT or WBTC-renBTC.
-* Qualification Criteria: Single asset vaults and vaults that manage stablecoins with a peg that isn't experimental: USDT, USDC, DAI, sUSD, etc.  
+* Qualification Criteria: Single asset vaults and vaults that manage stablecoins with a peg that isn't experimental: USDT, USDC, DAI, sUSD, etc. &#x20;
 
 #### IL\_LOW
 
-* Title: Low projected IL 
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. The assets in this vault have some risks of impermanent loss. 
+* Title: Low projected IL&#x20;
+* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. The assets in this vault have some risks of impermanent loss.&#x20;
 * Qualification Criteria: Vaults that handle what are normally referred as “Pool 1” LPs would fit here: ETH-USDC, MATIC-AAVE, etc. Governance tokens for smaller projects are normally known as “Pool 2” and thereby excluded.
 
 #### IL\_HIGH
 
-* Title: High projected IL 
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. The assets in this vault have a high or very high risk of impermanent loss. 
+* Title: High projected IL&#x20;
+* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. The assets in this vault have a high or very high risk of impermanent loss.&#x20;
 * Qualification Criteria: Vaults that handle “Pool 2” LPs go here. These LP normally include the governance token of the farm itself.
 
 #### ALGO\_STABLE
@@ -149,7 +149,7 @@ Tracks risks related to the asset supply. Can it be altered by anyone? How centr
 
 * Title: Few very powerful whales
 * Explanation: When the supply is concentrated in a few hands, they can greatly affect the price by selling. Whales can manipulate the price of the coin. The more people that have a vested interest over a coin, the better and more organic the price action is.
-* Qualification Criteria: Less than 50 accounts hold more than 50% of the supply. 
+* Qualification Criteria: Less than 50 accounts hold more than 50% of the supply.&#x20;
 
 ## Category: Platform Risks
 
@@ -202,7 +202,7 @@ Tracks various smart contract good practices.
 #### ADMIN\_WITH\_TIMELOCK
 
 * Title: Dangerous functions are behind a timelock
-* Explanation: Sometimes the contract owner or admin can execute certain functions that could put user funds in jeopardy. The best thing is to avoid these altogether. If they must be present, it’s important to keep them behind a timelock to give proper warning before using them. This contract has certain dangerous admin functions, but they are at least behind a meaningful Timelock. 
+* Explanation: Sometimes the contract owner or admin can execute certain functions that could put user funds in jeopardy. The best thing is to avoid these altogether. If they must be present, it’s important to keep them behind a timelock to give proper warning before using them. This contract has certain dangerous admin functions, but they are at least behind a meaningful Timelock.&#x20;
 * Qualification Criteria: There is at least one function present that could partially or completely rug user funds. The function must be behind a +6h timelock.
 
 #### ADMIN\_WITHOUT\_TIMELOCK
@@ -210,4 +210,3 @@ Tracks various smart contract good practices.
 * Title: Dangerous functions are without a timelock
 * Explanation: Sometimes the contract owner or admin can execute certain functions that could put user funds in jeopardy. The best thing is to avoid these altogether. If they must be present, it’s important to keep them behind a timelock to give proper warning before using them. This contract has certain dangerous admin functions, and there is no time lock present. They can be executed at a moment's notice.
 * Qualification Criteria: There is at least one function present that could partially or completely rug user funds. The function has no time lock protection.
-
