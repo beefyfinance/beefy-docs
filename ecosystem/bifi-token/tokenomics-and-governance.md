@@ -6,13 +6,13 @@ $BIFI tokens are 'dividend-eligible' revenue shares in Beefy Finance, through wh
 
 $BIFI, otherwise known as BIFI, is the native governance token of our project. By staking it in a BIFI Maxi vault, the BIFI earnings pool or any BIFI liquidity vault, or by simply holding this token in your wallet, users can take part in the DAO decision-making governance processes of Beefy Finance. It does not matter on which chain you hold or stake BIFI, since the governance snapshot is multi-chain compatible. Governance proposals are submitted on [https://vote.beefy.finance/#/](https://vote.beefy.finance/#/) and users are encouraged to vote. Users do not need to un-stake their tokens to participate in the voting process. This incentivizes much more voter participation as it means users don’t miss rewards.
 
-For all the vaults deployed on every blockchain, Beefy Finance has its native governance token $BIFI at its core. Platform revenue is generated from a small percentage of all the vault profits and distributed back to those who stake $BIFI. The revenue sharing mechanics entail you can stake $BIFI to either earn more $BIFI in a BIFI Maxi vault, or earn $ETH, $BNB, $FTM, $MATIC, $AVAX, $HT, $ONE, $CELO or $MOVR in the native staking pools.
-
-To get your hands on the token, head to one of the many liquidity pools or exchanges.
+For all the vaults deployed on every blockchain, Beefy Finance has its native governance token $BIFI at its core. Platform revenue is generated from a small percentage of all the vault profits and distributed back to those who stake $BIFI. The revenue sharing mechanics entail you can stake $BIFI to either earn more $BIFI in a BIFI Maxi vault, or earn $ETH, $BNB, $FTM, $MATIC, $AVAX, $HT, $ONE, $CELO, $MOVR, $CRO, $FUSE or $METIS in the native staking pools.
 
 After an initial distribution period of around two months back in Q4 2020, 72,000 tokens were supplied to the community with 8,000 being locked for the founding team. All 80,000 BIFI will be in circulation by 2022-07-06. The distribution via the "governance pools" and detailed info about the timelocks are found [here](https://github.com/beefyfinance/beefy-gov).
 
 $BIFI staked in the BIFI Maxi vault allows users to accumulate more $BIFI. In order to distribute BIFI to anyone who has staked in the BIFI Maxi vault,  $BIFI buy-backs from the open market are performed as the token is non-inflationary and will not mint any more BIFI tokens, ever.&#x20;
+
+To get your hands on BIFI, head to one of the many liquidity pools or exchanges.
 
 ## **How is the protocol revenue distributed?**
 
