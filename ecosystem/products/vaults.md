@@ -122,14 +122,18 @@ Underneath the vault name, you can find the platform used for investing the toke
 
 _The following applies to: Aave, Banker Joe, Belt, Blizz, Geist, Scream, Venus, and similar lending platforms._
 
-Most Beefy single asset vaults utilise decentralized marketplaces for lenders and borrowers. By depositing your initial asset in the vault, Beefy deposits it into the lending marketplace and borrows against your token at safe levels of collateral.
+Most Beefy single asset vaults utilize decentralized marketplaces for lenders and borrowers. By depositing your initial asset in the vault, Beefy deposits it into the lending marketplace and borrows against your token at safe levels of collateral.
 
-The borrowed tokens are redeposited into the platform, and once again used as collateral to borrow more tokens. This cycle is repeated multiple times to generate as much interest as possible, which is used to buy more of your originally deposited assets. This strategy is also known as a folding strategy. It is noteworthy that this "leveraged" multi lending and multi borrowing is only with the deposited vault token, so there is no liquidation risk due to token price swings.&#x20;
+The borrowed tokens are redeposited into the platform, and once again used as collateral to borrow more tokens. This cycle is repeated multiple times to generate as much interest as possible from the lending interest and the reward token, which is used to buy more of your originally deposited assets. This strategy is also known as a folding strategy. It is noteworthy that this "leveraged" multi lending and multi borrowing is only with the deposited vault token, so there is no liquidation risk due to token price swings.&#x20;
 
 {% hint style="info" %}
-Because of the multi supply and borrow cycle, a transaction fee for these vaults is generally higher as compared to other vaults. Also, when available liquidity on the lending platform is low, it can potentially lead to temporarily unavailable funds. This event will naturally resolve itself when liquidity returns.
+Transaction fees: because of the multi supply and borrow cycle, a transaction fee for these vaults is generally higher as compared to other vaults.
 {% endhint %}
 
-Due to accruing debt/supply interest, one may notice that the deposited token amount may decline ever so slightly in between harvests. After the harvest, you will see your deposited token amount increase as the yields are compounded back into it. The change in deposited token amount over time of a typical lending style vault looks as follows:
+{% hint style="warning" %}
+Marketability risk: when the underlying token on the lending platform becomes overborrowed, it can prevent the vault's strategy from deleveraging (unfolding) to accommodate a withdrawal. This usually happens when the market is most volatile, or when there is an ongoing event for which people want to borrow funds from the lending platform. The overborrowed condition will naturally resolve once liquidity returns to the lending platform, a process which can take hours or, sometimes, a few days. Meanwhile, funds always remain safe.
+{% endhint %}
+
+Due to accruing debt/supply interest, one may notice that the deposited token amount may decline ever so slightly in between harvests. After the harvest event, you will see your deposited token amount increase as the yields are compounded back into it. The change in deposited token amount over time of a typical lending style vault looks as follows:
 
 ![After a harvest event, the yields are added to the deposited token amount](../../.gitbook/assets/venus-style-vault.png)
