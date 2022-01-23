@@ -127,7 +127,7 @@ Most Beefy single asset vaults utilize decentralized marketplaces for lenders an
 The borrowed tokens are redeposited into the platform, and once again used as collateral to borrow more tokens. This cycle is repeated multiple times to generate as much interest as possible from the lending interest and the reward token, which is used to buy more of your originally deposited assets. This strategy is also known as a folding strategy. It is noteworthy that this "leveraged" multi lending and multi borrowing is only with the deposited vault token, so there is no liquidation risk due to token price swings.&#x20;
 
 {% hint style="info" %}
-Transaction fees: because of the multi supply and borrow cycle, a transaction fee for these vaults is generally higher as compared to other vaults.
+Transaction fees: because of the multi supply and borrow cycle, the transaction fee for a deposit into or withdrawal from these vaults is generally higher as compared to other vaults.
 {% endhint %}
 
 {% hint style="warning" %}
