@@ -120,7 +120,7 @@ Underneath the vault name, you can find the platform used for investing the toke
 
 ## **How do lending vaults work?**
 
-_The following applies to: Aave, Banker Joe, Belt, Blizz, Geist, Scream, Venus, and similar lending platforms._
+_The following applies to: Aave, Banker Joe, Blizz, Geist, Scream, Venus, and similar lending platforms._
 
 Most Beefy single asset vaults utilize decentralized marketplaces for lenders and borrowers. By depositing your initial asset in the vault, Beefy deposits it into the lending marketplace and borrows against your token at safe levels of collateral.
 
