@@ -16,6 +16,7 @@ The BIFI token is deployed on all chains where vaults are live. To switch to ano
 * Cronos: [0xe6801928061CDbE32AC5AD0634427E140EFd05F9](https://cronoscan.com/token/0xe6801928061CDbE32AC5AD0634427E140EFd05F9)
 * Fuse: [0x2bF9b864cdc97b08B6D79ad4663e71B8aB65c45c](https://explorer.fuse.io/token/0x2bF9b864cdc97b08B6D79ad4663e71B8aB65c45c/token-transfers)
 * Metis: [0xe6801928061CDbE32AC5AD0634427E140EFd05F9](https://andromeda-explorer.metis.io/token/0xe6801928061CDbE32AC5AD0634427E140EFd05F9/token-transfers)
+* Aurora: [0x218c3c3D49d0E7B37aff0D8bB079de36Ae61A4c0](https://explorer.mainnet.aurora.dev/token/0x218c3c3D49d0E7B37aff0D8bB079de36Ae61A4c0/token-transfers)
 
 On all these blockchains, you can stake $BIFI in the native staking pools to earn the blockchains respective token or earn more $BIFI in a BIFI Maxi vault!
 
