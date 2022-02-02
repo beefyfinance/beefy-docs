@@ -12,6 +12,7 @@
   * [Vaults](ecosystem/products/vaults.md)
   * [Launchpool](ecosystem/products/launchpool.md)
   * [Strategies](ecosystem/products/strategies.md)
+  * [binSPIRIT](ecosystem/products/binspirit.md)
 * [Team & Goals](ecosystem/team-and-goals.md)
 * [Beefy Bulletins](ecosystem/beefy-bulletins/README.md)
   * [What is Beefy Finance?](ecosystem/beefy-bulletins/what-is-beefy-finance.md)
