@@ -6,9 +6,9 @@ description: Tools to help the Beefy Cowmoonity
 
 _"Not many communities have this kind of skilled members, the least we can do to thank them is have a place to show their work."_
 
-## PolygonDEX Yield Tracker
+## TopDeFi Yield Tracker
 
-[Polygon Yield Tracker](https://polygondex.com/track/yield/yieldMeBro.aspx) is built and maintained by community member Terry.
+[TopDeFi](https://thetopdefi.com) is built and maintained by community member Terry, with assistance from EPETE.
 
 _"As a huge fan of Beefy Finance, I've made a tracker for the most popular LPs and single vaults on there. Please try it out, and let me know if you have any feedback."_ - Terry
 
@@ -27,4 +27,3 @@ The website has detailed filtering, sorting and extra data.
 _"My Moo tokens were getting out of hand; now they are all enjoying some cookies together. Do cows even like cookies?"_ - Ncookie
 
 The project currently supports tracking Beefy vault balances and BIFI staking on BSC, Polygon, Fantom, Avalanche and Harmony.
-
