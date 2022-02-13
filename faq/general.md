@@ -60,6 +60,14 @@ There is marketing that you can contribute to too, if you can write a decent twe
 
 The best way to get involved is to just go ahead and get started, help where you can, contribute to discussions and collaborate with everyone.
 
+## Why does it cost so much gas to deposit into a Beefy vault?
+
+Many of Beefy's vaults "Harvest on Deposit". This means that when you deposit into the vault, you are also calling the harvest function.  Calling the Harvest function is more complex than a simple deposit and thus has a higher gas limit/fee.  Beefy does this so that it is impossible for malicious actors to steal yield so a withdrawal fee is not required. This greatly benefits long-term investors.
+
+Almost all of the vaults on more inexpensive chains like Fantom and Polygon harvest on deposit. You can also tell if a vault harvests on deposit if there is no withdrawal fee.
+
+As the Harvest Caller, you will also receive some of the wrapped native chain token in as a reward for calling the harvest. See [beefy-finance-fees-breakdown.md](../ecosystem/beefy-bulletins/beefy-finance-fees-breakdown.md "mention") for more information on the Harvest Caller.
+
 ## How can I find out how much earnings I have accumulated?
 
-You can use a DeFi dashboard that will be able to calculate exactly how much profit you have made on your investments. External tools such as [Yieldwatch](https://yieldwatch.net) for BSC or [PolygonDex](https://polygondex.com/track/yield/yieldMeBroDawg.aspx) for Polygon will connect to your wallet and give you an accurate picture of your initial investment and current earnings.
+Your rewards are added to your deposited token amount on each harvest and compound cycle. You can use a DeFi dashboard that will be able to calculate exactly how much profit you have made on your investments. External tools such as [TopDeFi](https://thetopdefi.com) will read your wallet address and give you an accurate picture of your initial investment and current earnings.
