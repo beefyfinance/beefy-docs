@@ -14,4 +14,4 @@ After getting your hands on beFTM, there are a few options to start earning yiel
 
 ## Where can I get beFTM?&#x20;
 
-Apart from minting beFTM on Beefy, you’ll also be able to trade the token on DEXs. All major Fantom DEXs, including BeethovenX, Spirit, Solidly, and Spooky, will offer pools for trading.&#x20;
+Apart from minting or purchasing beFTM via Beefy, you’ll also be able to trade the token on DEXs. All major Fantom DEXs, including BeethovenX, Spirit, Solidly, and Spooky, will offer pools for trading.&#x20;
