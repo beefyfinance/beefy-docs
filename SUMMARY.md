@@ -12,6 +12,7 @@
   * [Лаунчпул](faq/products/launchpool.md)
   * [Стратегии](faq/products/strategies.md)
   * [Хранилища](faq/products/vaults.md)
+  * [binSPIRIT](ecosystem/products/binspirit.md)
 * [Команда и Цели](faq/team-and-goals.md)
 * [Бюллетени Beefy](beefy-bulletins/README.md)
   * [Анализ комиссий Beefy Finance](beefy-bulletins/beefy-finance-fees-breakdown.md)
