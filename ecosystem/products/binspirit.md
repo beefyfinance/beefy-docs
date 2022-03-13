@@ -12,7 +12,11 @@ When users lock their SPIRIT tokens in SpiritSwap for between 1 week and four ye
 
 ### What is binSPIRIT?
 
-binSPIRIT is the Beefy wrapped version of SPIRIT, allowing holders to earn SpiritSwap protocol fees without having to lock their SPIRIT. A user can mint binSPIRIT 1:1 using SPIRIT through the UI on the binSPIRIT vault page, or can get binSPIRIT by buying on an exchange. binSPIRIT can be staked in the Beefy vault for more binSPIRIT, or directly in the reward pool to receive SPIRIT.&#x20;
+binSPIRIT is the Beefy wrapped version of SPIRIT, allowing holders to earn SpiritSwap protocol fees without having to lock their SPIRIT. A user can mint binSPIRIT 1:1 using SPIRIT through the UI on the binSPIRIT vault page. If it is more profitable to buy binSPIRIT then Beefy's Smart Minter will do exactly that, yielding the user more binSPIRIT for their SPIRIT:
+
+![beMINT determines the most profitable strategy](../../.gitbook/assets/binspirit\_mint.jpg)
+
+Users can also get binSPIRIT by buying on a DEX. binSPIRIT can be staked in the Beefy vault for more binSPIRIT, or directly in the reward pool to receive SPIRIT.&#x20;
 
 The SPIRIT used to mint binSPIRIT is locked for inSPIRIT. Beefy uses this inSPIRIT to boost all Beefy SpiritSwap vaults and vote for incentive emissions.
 
