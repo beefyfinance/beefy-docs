@@ -14,7 +14,7 @@ To get your hands on beFTM, users must first deposit their FTM in the Beefy Dele
 
 ![beMINT determines the most profitable strategy](<../../.gitbook/assets/beftm\_mint (1).jpg>)
 
-beFTM can also be purchased on many DEXes such as Solidly, BeethovenX, SpiritSwap, and SpookySwap.
+beFTM can also be purchased on many DEXes such as Solidly, BeethovenX, SpiritSwap, and SpookySwap. One might need the beFTM contract address for trading: [0x7381eD41F6dE418DdE5e84B55590422a57917886](https://ftmscan.com/token/0x7381eD41F6dE418DdE5e84B55590422a57917886)
 
 ## How does beFTM delegation work?&#x20;
 
