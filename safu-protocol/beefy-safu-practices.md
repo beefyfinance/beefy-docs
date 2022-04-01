@@ -10,6 +10,7 @@ Before a new farm gets vaulted on Beefy, the project has to pass a stringent set
 * Enough liquidity for swapping farm token rewards;
 * Rug/migrator functions are either completely removed or timelocked sufficently;
 * Farm token emission rates have to be timelocked (if farm token pairs are being vaulted);
+* Farm token holders with >5% circulating supply are not EOAs or multi-sigs;
 * All proxy implementation changes must be timelocked.
 
 ## New vaults on Beefy
