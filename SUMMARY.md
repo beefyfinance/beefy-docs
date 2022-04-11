@@ -12,6 +12,7 @@
   * [Vaults](ecosystem/products/vaults.md)
   * [Launchpool](ecosystem/products/launchpool.md)
   * [Strategies](ecosystem/products/strategies.md)
+  * [beJOE](ecosystem/products/bejoe.md)
   * [beFTM](ecosystem/products/beftm.md)
   * [binSPIRIT](ecosystem/products/binspirit.md)
 * [Team & Goals](ecosystem/team-and-goals.md)
