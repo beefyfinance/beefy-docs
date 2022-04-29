@@ -6,9 +6,19 @@ All Beefy Finance deployed vault contracts can be viewed on [dashboard.beefy.fin
 
 One can use this dashboard for example to check the [harvesting and compounding rate of a vault](../faq/how-to-guides/how-to-check-harvesting-compounding-rate.md).
 
+## Oracles
+
+Beefy's contracts do **not** use external oracles. The problem with oracles is, in short, that its data can be inaccurate or manipulated, and unreliable oracles can lead to exploits. Because Beefy's contracts do **not** rely on external data in any form, such as asset prices, our vaults are **not** susceptible to flashloan exploits.
+
+## Example contracts
+
+* DAI/USDC/USDT (Curve - Avalanche) vault code: [https://snowtrace.io/address/0x79A44dc13e5863Cf4AB36ab13e038A5F16861Abc#code](https://snowtrace.io/address/0x79A44dc13e5863Cf4AB36ab13e038A5F16861Abc#code)
+* WBTC (Scream - Fantom) lending strategy code: [https://ftmscan.com/address/0x4374207377C1A36e386A757B774D53a0B6Ff2cEE#code](https://ftmscan.com/address/0x4374207377C1A36e386A757B774D53a0B6Ff2cEE#code)
+* CAKE-BNB (PancakeSwap - BNB Chain) regular strategy code: [https://bscscan.com/address/0xDE238C509bcCBCd91B90dE40dF3e25B43A131311#code](https://bscscan.com/address/0xDE238C509bcCBCd91B90dE40dF3e25B43A131311#code)
+
 ## Timelocks
 
-Contracts are secured with timelocks and multi-sig dev wallets.
+Contracts are secured with timelocks and multi-sig dev wallets. A 6 hour timelock is used for agility to make needed changes to keep our contracts secure, and as an added layer of protection the timelock is governed by a 3/5 signer multisig.&#x20;
 
 * Arbitrum (6 hours): [0x6d28afD25a1FBC5409B1BeFFf6AEfEEe2902D89F](https://arbiscan.io/address/0x6d28afD25a1FBC5409B1BeFFf6AEfEEe2902D89F)
 * Avalanche (6 hours): [0x37DC61A76113E7840d4A8F1c1B799cC9ac5Aa854](https://snowtrace.io/address/0x37DC61A76113E7840d4A8F1c1B799cC9ac5Aa854)
@@ -39,7 +49,7 @@ Multi-signature developer wallets are used to deploy changes to contracts, such 
 
 ## Treasury Multisigs
 
-Beefy's treasury spending is secured by requiring multiple signatures from trusted (community) members. [As voted on by the DAO](https://vote-archive.beefy.finance/#/beefy/proposal/QmR5mzwjs46b3YRYWtc12CqqxF6r7VfpPd6ZfiRXnR69go), the following members represent the Treasury Council: Power, sirbeefalot, Pablo, mjoaris, TheBeefyCow, DefiDebauchery and YR2150.
+Beefy's treasury spending is secured by requiring multiple signatures from trusted (community) members. [As voted on by the DAO](https://vote-archive.beefy.finance/#/beefy/proposal/QmR5mzwjs46b3YRYWtc12CqqxF6r7VfpPd6ZfiRXnR69go), the following members represent the Treasury Council: Power, AllTrades, Pablo, mjoaris, TheBeefyCow, DefiDebauchery and YR2150.
 
 * Fantom: [0xdFf234670038dEfB2115Cf103F86dA5fB7CfD2D2](https://safe.fantom.network/#/safes/0xdFf234670038dEfB2115Cf103F86dA5fB7CfD2D2/balances)[  ](https://safe.fantom.network/#/safes/0xdFf234670038dEfB2115Cf103F86dA5fB7CfD2D2/balances)
 * BSC: [0x7C780b8A63eE9B7d0F985E8a922Be38a1F7B2141](https://gnosis-safe.io/app/bnb:0x7C780b8A63eE9B7d0F985E8a922Be38a1F7B2141/balances)
