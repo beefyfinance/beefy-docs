@@ -4,9 +4,9 @@
 
 Our first auditor was DefiYield, which audited $BIFI token, the RewardPool and all the timelocks.
 
-Beefy now is also audited by Certik, which guarantees the robustness of our smart contracts and the safety of funds invested through Beefy. Certik has already provided audits for such projects as Ocean Protocol, NEO, Ontology, and Waves.
+Beefy is also audited by Certik, which guarantees the robustness of our smart contracts and the safety of funds invested through Beefy.
 
-Certik has audited some of the most complex and reusable investment strategies used within the platform. This ensures the safety and sturdiness of important platform aspects that the majority of our users interact with.
+Certik has audited some of the most complex and reusable investment strategies used within the platform. This ensures the safety and sturdiness of important smart contract aspects that the majority of our users interact with.
 
 [All Beefy audits can be found here.](https://github.com/beefyfinance/beefy-audits)
 

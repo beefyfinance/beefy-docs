@@ -27,4 +27,4 @@ The project consists of an anonymous team constantly exploring new methods of op
 
 As a decentralized project with a crypto-mindset, there is a robust governance system in place to put the decision-making power in the hands of those invested in the project.
 
-**This takes place through governance mechanisms related to Beefy's own fixed-supply, dividend-producing token, $BIFI.**
+**This takes place through governance mechanisms related to Beefy's own fixed-supply, revenue earning token, $BIFI.**

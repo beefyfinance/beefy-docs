@@ -22,7 +22,7 @@ All the APYs you see on Beefy vaults have the platform fees factored in. These f
 
 So by buying $BIFI and staking in BIFI Maxi, you have something unique:
 
-_Daily revenue from a non-inflationary "dividend" token where the "company" buys shares off the market every day, and gives you more of them._
+_Daily revenue from a non-inflationary revenue token where the "company" buys shares off the market every day, and gives you more of them._
 
 This creates a financial "flywheel" for your money, where a continuously improving set of repeatable, tactical actions scale with decreasing friction to grow your investment.
 
