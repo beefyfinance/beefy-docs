@@ -24,18 +24,26 @@ You can mint beJOE on the beJOE Vault page at a 1:1 ratio. There will be no ince
 
 ## How does beJOE work?
 
-If JOE reserves are above the sufficient amount then Beefy will stake 80% of the deposited JOE to earn veJOE and hold 20% in the withdrawal reserve. For every boosted vault, Beefy will divert 5% of the harvest to the beJOE reward pool.
+When you mint beJOE, the contract will immediately try to stake the deposited JOE into veJOE, subject to two conditions: (1) the required reserve must be maintained; and (2) the staking must trigger a “Speed Up" bonus.
 
-As users deposit more JOE, Beefy will hold them back until we activate a Speed Up bonus on veJOE. This will occur in increments of 5% of the total amount currently staked in veJOE.
+If the contract's JOE reserves at the time of minting exceed the required reserve amount (which is currently 20% of the contract's JOE already staked into veJOE), the contract can stake any excess JOE into veJOE. If the JOE reserves are under the required reserve amount, then the deposited JOE will be added to the reserve to cover the current shortfall.
 
-If JOE reserves are low then all of the deposited JOE will be used to fill up the reserves.&#x20;
+The “Speed Up" bonus on Trader Joe doubles the rate of veJOE accruals for 14 days after JOE is staked, provided that the amount of JOE staked adds an additional 5% (or more) on top of the total amount of JOE already staked into veJOE . The contract therefore checks before staking whether the available balance (including both the deposit and any pre-existing excess over the required reserve) would meet or exceed the 5% threshold, and will only stake the available balance if it does. Otherwise, it waits for further JOE deposits to increase the available balance before staking.
 
-## What can I do with beJOE? <a href="#what-can-i-do-with-bejoe" id="what-can-i-do-with-bejoe"></a>
+Once the contract's JOE is staked into veJOE, it will automatically accrue veJOE rewards. veJOE provides 2 benefits: (1) boosted rewards on certain Trader Joe farms; and (2) (future) voting rights in Trader Joe governance. The amount of each benefit is proportional to the balance of veJOE held by the contract, so the aim is to accrue as much veJOE as possible.
 
-Once you’re holding beJOE, there are a couple of available options. You can either stake it in the:
+Though veJOE rewards accrue constantly on the contract's staked JOE, the rewards must be harvested to be added to the contract's balance of veJOE. Rewards are automatically harvested whenever JOE is staked into veJOE, and otherwise manually harvested by the contract when new beJOE is minted but the conditions for staking are not met.
+
+## How can I earn with my beJOE? <a href="#what-can-i-do-with-bejoe" id="what-can-i-do-with-bejoe"></a>
+
+Once you’re holding beJOE, there are a couple of available option. You can either stake it in the:
 
 1. Vault to earn more beJOE
 2. Earnings pool to earn JOE
+
+In every Beefy vault for a Trader Joe farm which is boosted for veJOE holders, 5% of the value of every harvest will be diverted to the beJOE reward pool to be paid out to beJOE holders. This reflects the value added by the beJOE contract, which gathers the veJOE needed to boost these vaults.
+
+As the boosted rewards on Trader Joe farms are paid out in JOE, these can be paid back to beJOE holders either directly in JOE (through the earnings pool), or by compounding beJOE (through the vault) by minting more beJOE with the JOE rewards.
 
 ## But what about fees? <a href="#but-what-about-fees" id="but-what-about-fees"></a>
 
