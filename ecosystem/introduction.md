@@ -1,5 +1,5 @@
 ---
-description: a Decentralized, Multi-Chain Yield Optimizer
+description: a Decentralized, Multichain Yield Optimizer
 ---
 
 # Introduction to Beefy Finance
@@ -10,7 +10,7 @@ Beefy Finance is a Decentralized Finance (DeFi) Yield Optimizer project, that al
 
 The project consists of an anonymous team, directly inspired by the yield optimization projects that had been developed on the Ethereum network. As a team that has been part of the crypto world for many years, we are strong proponents of “Don't Trust, Verify”. This is why data such as our [governance token distribution contracts](https://medium.com/beefyfinance/bifi-contracts-are-live-on-mainnet-6080577269d7) are open for anyone to verify that everything will work as intended. We are committed to this idea of radical transparency, which is especially important in nascent ecosystems like Decentralized Finance.
 
-Beefy Finance offers complex strategies that are simple and intuitive for any investor to take part in through the vault offerings on the platform. The first set of vaults went live on October 8, 2020 on the Binance Smart Chain (BSC), making Beefy Finance the first Yield Optimizer on BSC. Upon initial deployment on the Binance Smart Chain, Beefy Finance later expanded to many more blockchains (currently 10+ and counting).
+Beefy Finance offers complex strategies that are simple and intuitive for any investor to take part in through the vault offerings on the platform. The first set of vaults went live on October 8, 2020 on the Binance Smart Chain (BSC), making Beefy Finance the first Yield Optimizer on BSC. Beefy Finance later expanded to many more blockchains (currently 10+ and counting), establishing itself as THE Multichain Yield Optimizer.
 
 From all of the vaults deployed on every blockchain, Beefy Finance has its native governance token $BIFI at its core. Platform revenue is generated from a small percentage of all the vault profits and distributed back to those who stake $BIFI. As a decentralized project with a deeply ingrained crypto-mindset, there is also a robust governance system in place to put the decision-making power in the hands of those invested in the project by governance mechanisms build around $BIFI.
 
