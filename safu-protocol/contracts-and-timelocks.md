@@ -2,7 +2,7 @@
 
 ## Смарт-контракты
 
-Все действующие контракты Beefy Finance могут быть найдены на [dashboard.beefy.finance](https://dashboard.beefy.finance).
+Все действующие контракты Beefy Finance могут быть найдены на [dashboard.beefy.finance](https://dashboard.beefy.finance/).
 
 Эту панель управления можно использовать, например для того, чтобы посмотреть как часто [хранилище производит сбор прибыли и реинвестирование](https://github.com/Karen094/beefy-docs/blob/ed9a10ea254b8fe582932252b851b8e86e7e87df/faq/how-to-guides/how-to-check-harvesting-compounding-rate.md).
 
