@@ -4,7 +4,7 @@ description: 通过购买 $BIFI 并质押进 BIFI Maxi，您将收获独一无�
 
 # Beefy 独特的收入分享模式介绍
 
-![](../.gitbook/assets/bulletin-introducing-beefys-unique-revenue-share-model.png)
+![](../../.gitbook/assets/bulletin-introducing-beefys-unique-revenue-share-model.png)
 
 **DeFi的支持者终于开始意识到，你不可能让人们相信将会有一个更好的金融体系，而把它贬为破坏性的投机行为。**
 
@@ -31,4 +31,3 @@ _“公司”每天从市场上以股票的形式购入通货紧缩的"股息"�
 Beefy是由一群专注于智能合约的编码员建立的，并由UI、UX、策略师、统计师、设计师和艺术家组成的社区提供支持。
 
 这就是为什么聪明的钱都在 [Beefy.Finance](https://www.beefy.finance/).
-

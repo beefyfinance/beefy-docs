@@ -1,6 +1,6 @@
 # 概要
 
-![](.gitbook/assets/docs-landing.png)
+![](<.gitbook/assets/docs-landing (1).png>)
 
 ## Beefy Finance 是什么？
 

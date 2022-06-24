@@ -4,7 +4,7 @@ description: 我们知道进入加密和 DeFi 领域可能会令人困惑和迷�
 
 # Beefy Finance 是如何运作的？
 
-![](../.gitbook/assets/bulletin-how-does-beefy-finance-work.png)
+![](../../.gitbook/assets/bulletin-how-does-beefy-finance-work.png)
 
 我们了解，进入加密货币和DeFi领域可能会让人感到困惑和迷失方向。我们知道许多人在山寨币中亏损，并且对这个新的机会持有高度的怀疑态度。
 
@@ -37,4 +37,3 @@ _**其结果是整体年回报率有了显著的提高。**_
 Beefy 的 BNB Venus 金库就是这样做的。 在撰写本文时，您的BNB可以获得28.02%的年利率。
 
 **五年后，您不会有18,020美元，而是34,386美元；全部都在您实际质押的资产中。**
-

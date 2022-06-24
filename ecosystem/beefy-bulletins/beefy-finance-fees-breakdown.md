@@ -4,7 +4,7 @@ description: 任何熟悉传统金融典型费用结构的人都会告诉您费�
 
 # Beefy Finance费用明细
 
-![](../.gitbook/assets/bulletin-beefy-finance-fees-breakdown.png)
+![](../../.gitbook/assets/bulletin-beefy-finance-fees-breakdown.png)
 
 **费用有多大关系？**
 
@@ -48,4 +48,3 @@ Beefy.Finance 上的大多数金库都持有 4.5% 的收获奖励。 这笔绩�
 57,492,639百万美元。
 
 **使用 Beefy，所见即所得。**
-

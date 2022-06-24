@@ -4,7 +4,7 @@ description: 我们如何吸引编码和创意人才
 
 # 揭开 Beefy 让人梦寐以求的优势
 
-![](../.gitbook/assets/bulletin-beefys-coveted-advantages-revealed.png)
+![](../../.gitbook/assets/bulletin-beefys-coveted-advantages-revealed.png)
 
 _"一个组织的学习能力，以及将所学迅速转化为行动的能力，是最终的商业竞争优势。"_
 
@@ -31,4 +31,3 @@ _"一个组织的学习能力，以及将所学迅速转化为行动的能力，
 _**代码——以及编写它的人才——是这个领域的终极力量倍增器，它的杠杆优势正以惊人的速度复合。**_
 
 如果您是一位倾向于未来回报而非传统资源的智能合约开发者，您知道在哪里可以找到我们。
-

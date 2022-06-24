@@ -25,17 +25,17 @@
 
 ## 常问问题
 
-* [一般问题](faq/general.md)
-* [Beefy Finance 信息图表](faq/infographics.md)
-* [moo金库 APY](faq/moovaults-apy.md)
-* [操作指南](faq/how-to-guides/README.md)
-  * [如何参与mooVault](faq/how-to-guides/how-to-participate-in-a-moovault.md)
-  * [如何在Metamask中添加自定义代币](faq/how-to-guides/how-to-add-a-custom-token-to-metamask.md)
-  * [如何添加和移除流动性](faq/how-to-guides/how-to-add-remove-liquidity.md)
-  * [如何使用 Beefy Zap](faq/how-to-guides/how-to-beefy-zap.md)
-  * [如何在 Beefy Finance 上添加和切换网络](faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md)
-  * [如何使用 BIFI 进行跨链](faq/how-to-guides/how-to-bridge-bifi-cross-chain.md)
-  * [如何检查金库的收获和复利率](faq/how-to-guides/how-to-check-harvesting-compounding-rate.md)
+* [一般问题](chang-wen-wen-ti/general.md)
+* [Beefy Finance 信息图表](chang-wen-wen-ti/infographics.md)
+* [moo金库 APY](chang-wen-wen-ti/moovaults-apy.md)
+* [操作指南](chang-wen-wen-ti/how-to-guides/README.md)
+  * [如何参与mooVault](chang-wen-wen-ti/how-to-guides/how-to-participate-in-a-moovault.md)
+  * [如何在Metamask中添加自定义代币](chang-wen-wen-ti/how-to-guides/how-to-add-a-custom-token-to-metamask.md)
+  * [如何添加和移除流动性](chang-wen-wen-ti/how-to-guides/how-to-add-remove-liquidity.md)
+  * [如何使用 Beefy Zap](chang-wen-wen-ti/how-to-guides/how-to-beefy-zap.md)
+  * [如何在 Beefy Finance 上添加和切换网络](chang-wen-wen-ti/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md)
+  * [如何使用 BIFI 进行跨链](chang-wen-wen-ti/how-to-guides/how-to-bridge-bifi-cross-chain.md)
+  * [如何检查金库的收获和复利率](chang-wen-wen-ti/how-to-guides/how-to-check-harvesting-compounding-rate.md)
 
 ## Beefy 的安全协议 <a href="#safu-protocol" id="safu-protocol"></a>
 
@@ -52,10 +52,10 @@
 
 ## 其他资源
 
-* [代码存储库](additional-resources/code-repositories.md)
+* [代码存储库](qi-ta-zi-yuan/code-repositories.md)
 * [博客](https://blog.beefy.finance/articles/)
 * [Discord](https://discord.gg/yq8wfHd)
-* [Gear](https://gear.beefy.finance)
+* [Gear](https://gear.beefy.finance/)
 * [Github](https://github.com/beefyfinance)
 * [推特](https://twitter.com/beefyfinance)
 * [电报群](https://t.me/beefyfinance)
