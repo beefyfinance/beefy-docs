@@ -30,4 +30,4 @@ This creates a financial "flywheel" for your money, where a continuously improvi
 
 Beefy is being built by a group of dedicated smart contract codesmen, backed by a community of UI, UX, strategists, statisticians, designers and artists.
 
-That's why the smart money is on [Beefy.Finance](https://www.beefy.finance).
+That's why the smart money is on [Beefy.Finance](https://www.beefy.finance/).

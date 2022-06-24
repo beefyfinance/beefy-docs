@@ -12,10 +12,11 @@
   * [Vaults](ecosystem/products/vaults.md)
   * [Launchpool](ecosystem/products/launchpool.md)
   * [Strategies](ecosystem/products/strategies.md)
-  * [beJOE](ecosystem/products/bejoe.md)
   * [beFTM](ecosystem/products/beftm.md)
-  * [binSPIRIT](ecosystem/products/binspirit.md)
-* [Team & Goals](ecosystem/team-and-goals.md)
+  * [binSPIRIT](ecosystem/products/binspirit/README.md)
+    * [GaugeStaker Contract](ecosystem/products/binspirit/gaugestaker-contract.md)
+  * [beQI](ecosystem/products/beqi.md)
+  * [beJOE](ecosystem/products/bejoe.md)
 * [Beefy Bulletins](ecosystem/beefy-bulletins/README.md)
   * [What is Beefy Finance?](ecosystem/beefy-bulletins/what-is-beefy-finance.md)
   * [The Big Beefy Opportunity](ecosystem/beefy-bulletins/the-big-beefy-opportunity.md)
@@ -49,8 +50,11 @@
 * [Token Allowance](safu-protocol/token-allowance.md)
 * [Beefy Backup](safu-protocol/beefy-backup.md)
 
-## Beefy Community <a href="#community" id="community"></a>
+## Cowmoonity Governance <a href="#community" id="community"></a>
 
+* [Team & Goals](community/team-and-goals.md)
+* [Contributor Compensation](community/contributor-compensation.md)
+* [Proposal Repository](community/proposal-repository.md)
 * [Cowmoonity](community/community.md)
 * [Beefy Cowmoonity Tools](community/beefy-cowmoonity-tools.md)
 

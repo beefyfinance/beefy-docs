@@ -28,7 +28,7 @@ There are a few key reasons as to why Beefy Finance differs from a large number 
 
 ## Beef Up Those Yields!
 
-We are‌ ‌a‌ ‌team‌ ‌of‌ ‌developers‌ ‌that‌ ‌want‌ ‌to‌ nourish ‌the‌ ‌long‌ ‌term‌ ‌DeFi ecosystem‌ ‌and‌ ‌make‌ ‌it‌ ‌easier‌ ‌for everyone to‌ ‌participate within it.‌ ‌The‌ ‌yield‌ ‌optimization‌ ‌projects ‌created‌ ‌by‌ [‌yearn.finance](https://yearn.finance)‌, Andre‌ ‌Cronje‌ ‌and‌ ‌the‌ ‌YFI‌ ‌community have quickly inspired many others. This is an excellent ‌development ‌that‌ ‌is ‌helping‌ to ‌grow‌ and secure ‌the‌ ‌Ethereum‌ ‌ecosystem. However, in recognizing the fundamental properties of other chains, opportunities for significantly different approaches are apparent.
+We are‌ ‌a‌ ‌team‌ ‌of‌ ‌developers‌ ‌that‌ ‌want‌ ‌to‌ nourish ‌the‌ ‌long‌ ‌term‌ ‌DeFi ecosystem‌ ‌and‌ ‌make‌ ‌it‌ ‌easier‌ ‌for everyone to‌ ‌participate within it.‌ ‌The‌ ‌yield‌ ‌optimization‌ ‌projects ‌created‌ ‌by‌ [‌yearn.finance](https://yearn.finance/)‌, Andre‌ ‌Cronje‌ ‌and‌ ‌the‌ ‌YFI‌ ‌community have quickly inspired many others. This is an excellent ‌development ‌that‌ ‌is ‌helping‌ to ‌grow‌ and secure ‌the‌ ‌Ethereum‌ ‌ecosystem. However, in recognizing the fundamental properties of other chains, opportunities for significantly different approaches are apparent.
 
 ## How to Optimize Yield On A Fast Chain 🎯 <a href="#a8cb" id="a8cb"></a>
 

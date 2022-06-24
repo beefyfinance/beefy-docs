@@ -6,7 +6,7 @@ description: Beefy Escrowed JOE
 
 ## What is JOE? <a href="#what-is-joe" id="what-is-joe"></a>
 
-JOE is the native token of Trader Joe, a decentralized exchange on Avalanche. It rewards holders with a share of the platform’s revenues and also acts as a governance token. JOE has a fixed supply and decaying emission model.
+JOE is the native token of Trader Joe, a decentralized exchange on Avalanche. It rewards holders with a share of the platform’s revenues and also acts as a governance token. JOE has a fixed supply and decaying emissions model.
 
 Users can stake JOE to earn veJOE and receive boosted JOE rewards in selected Trader Joe Farms and governance voting power.
 
@@ -16,9 +16,13 @@ beJOE is a Beefy-wrapped version of JOE staked to earn veJOE, maximizing emissio
 
 The token is fully backed 1:1 by JOE and can be redeemed for JOE held in reserve. This reserve only fills up when a new user deposits.
 
+## How does the beJOE strategy work?
+
+![](../../.gitbook/assets/Flow\_beJOE.png)
+
 ## How does one get beJOE?
 
-You can mint beJOE on the beJOE Vault page at a 1:1 ratio. There will be no incentivised liquidity for beJOE, instead there will be a withdrawal reserve.
+You can mint beJOE on the beJOE [vault](https://app.beefy.finance/#/vault/beefy-beJoe) or [earnings pool](https://app.beefy.finance/#/vault/beefy-beJoe-earnings) pages at a 1:1 ratio. There will be no incentivised liquidity for beJOE, instead there will be a withdrawal reserve.
 
 ![beJOE is minted and burned at a 1:1 rate with JOE](../../.gitbook/assets/image.png)
 
@@ -36,10 +40,10 @@ Though veJOE rewards accrue constantly on the contract's staked JOE, the rewards
 
 ## How can I earn with my beJOE? <a href="#what-can-i-do-with-bejoe" id="what-can-i-do-with-bejoe"></a>
 
-Once you’re holding beJOE, there are a couple of available option. You can either stake it in the:
+Once you’re holding beJOE, there are a couple of available options. You can either:
 
-1. Vault to earn more beJOE
-2. Earnings pool to earn JOE
+1. Stake it in the beJOE vault to earn more beJOE; or
+2. Stake it in the beJOE earnings pool to earn JOE.
 
 In every Beefy vault for a Trader Joe farm which is boosted for veJOE holders, 5% of the value of every harvest will be diverted to the beJOE reward pool to be paid out to beJOE holders. This reflects the value added by the beJOE contract, which gathers the veJOE needed to boost these vaults.
 

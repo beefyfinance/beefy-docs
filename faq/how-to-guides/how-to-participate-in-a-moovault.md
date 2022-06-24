@@ -13,7 +13,7 @@ description: >-
 
 ### Walkthrough
 
-#### 1. Go to [Beefy app](https://app.beefy.finance) and click on “WALLET”
+#### 1. Go to [Beefy app](https://app.beefy.finance/) and click on “WALLET”
 
 ![](../../.gitbook/assets/wallet.png)
 

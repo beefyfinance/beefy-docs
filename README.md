@@ -4,7 +4,7 @@
 
 ## What is Beefy Finance?
 
-[Beefy Finance](https://beefy.finance) is a Decentralized, Multichain Yield Optimizer that allows its users to earn compound interest on their crypto holdings. Beefy earns you the highest APYs with safety and efficiency in mind.
+[Beefy Finance](https://beefy.finance/) is a Decentralized, Multichain Yield Optimizer that allows its users to earn compound interest on their crypto holdings. Beefy earns you the highest APYs with safety and efficiency in mind.
 
 Through a set of investment strategies secured and enforced by smart contracts, Beefy Finance automatically maximizes the user rewards from various liquidity pools (LPs),‌ ‌automated market making (AMM) projects,‌ ‌and‌ ‌other yield‌ farming ‌opportunities in the DeFi ecosystem.
 
@@ -18,6 +18,6 @@ $BIFI tokens are revenue shares in Beefy Finance, through which holders earn pro
 
 For all the vaults deployed on every blockchain, Beefy Finance has its native governance token $BIFI at its core. Platform revenue is generated from a small percentage of all the vault profits and distributed back to those who stake $BIFI.
 
-The revenue sharing mechanics entail you can stake $BIFI to either earn more $BIFI in a BIFI Maxi vault, or earn $ETH, $BNB, $FTM, $MATIC, $AVAX, $HT, $ONE, $CELO, $MOVR, $CRO, $FUSE, $METIS, $GLMR or $SYS in the native staking pools.
+The revenue sharing mechanics entail you can stake $BIFI to either earn more $BIFI in a BIFI Maxi Vault, or earn blue chips like $ETH, $BNB, $FTM, $MATIC, $AVAX, and more in the BIFI Earnings Pools.
 
 The supply of $BIFI is limited at 80,000 tokens and available on the top decentralized exchanges such as Binance, 1inchexchange and PancakeSwap.

@@ -1,14 +1,19 @@
+---
+description: '"Don''t Trust, Verify"'
+---
+
 # Beefy SAFU Practices
 
-_"Don't Trust, Verify"_
+![](../.gitbook/assets/safu.png)
 
 ## New farms on Beefy
 
 Before a new farm gets vaulted on Beefy, the project has to pass a stringent set of SAFU rules:
 
-* Contracts have been verified in the blockexplorer;
+* Contracts have been verified in the block explorer;
+* Non-native tokens must be from reputable bridges;
 * Enough liquidity for swapping farm token rewards;
-* Rug/migrator functions are either completely removed or timelocked sufficently;
+* Rug/migrator functions are either completely removed or timelocked sufficiently;
 * Farm token emission rates have to be timelocked (if farm token pairs are being vaulted);
 * Farm token holders with >5% circulating supply are not EOAs or multi-sigs;
 * All proxy implementation changes must be timelocked.
@@ -17,15 +22,15 @@ Before a new farm gets vaulted on Beefy, the project has to pass a stringent set
 
 Our strategists follow a manual testing procedure on every new vault before it goes live. This is to ensure that the vault works as intended and user funds are always SAFU.
 
-1\. Deposit a small amount of the asset; \
-2\. Withdraw all; \
-3\. Deposit again, wait 1 minute and check that `callReward()` is not 0; \
-4\. Harvest the strategy; \
-5\. Panic the strategy; \
-6\. Withdraw 50% while panicked to make sure users can leave; \
-7\. Try to deposit, an error should pop up but don't send the deposit through; \
-8\. Unpause the strategy; \
-9\. Deposit the 50% that has previously been withdrawn and harvest again.
+1. Deposit a small amount of the asset;&#x20;
+2. Withdraw all;&#x20;
+3. Deposit again, wait 1 minute and check that `callReward()` is not 0;&#x20;
+4. Harvest the strategy;&#x20;
+5. Panic the strategy;&#x20;
+6. Withdraw 50% while panicked to make sure users can leave;&#x20;
+7. Try to deposit, an error should pop up but don't send the deposit through;&#x20;
+8. Unpause the strategy;&#x20;
+9. Deposit the 50% that has previously been withdrawn and harvest again.
 
 ## Strategy upgrades
 

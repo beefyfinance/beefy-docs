@@ -18,9 +18,11 @@ The BIFI token is deployed on all chains where vaults are live. To switch to ano
 * Metis: [0xe6801928061CDbE32AC5AD0634427E140EFd05F9](https://andromeda-explorer.metis.io/token/0xe6801928061CDbE32AC5AD0634427E140EFd05F9/token-transfers)
 * Aurora: [0x218c3c3D49d0E7B37aff0D8bB079de36Ae61A4c0](https://explorer.mainnet.aurora.dev/token/0x218c3c3D49d0E7B37aff0D8bB079de36Ae61A4c0/token-transfers)
 * Moonbeam: [0x595c8481c48894771CE8FaDE54ac6Bf59093F9E8](https://moonscan.io/token/0x595c8481c48894771ce8fade54ac6bf59093f9e8)
+* Syscoin: [0xD7c295E399CA928A3a14b01D760E794f1AdF8990](https://explorer.syscoin.org/address/0xD7c295E399CA928A3a14b01D760E794f1AdF8990/transactions)
+* Oasis (Emerald): [0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A](https://explorer.emerald.oasis.dev/address/0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A/transactions)
 
 On all these blockchains, you can stake $BIFI in the native staking pools to earn the blockchains respective token or earn more $BIFI in a BIFI Maxi vault!
 
 ## Token Holders
 
-The majority of BIFI tokens are staked in smart contracts, [BscScan](https://bscscan.com) has a detailed list of the top staking addresses: [Token Holders](https://bscscan.com/token/tokenholderchart/0xca3f508b8e4dd382ee878a314789373d80a5190a).
+The majority of BIFI tokens are staked in smart contracts, [BscScan](https://bscscan.com/) has a detailed list of the top staking addresses: [Token Holders](https://bscscan.com/token/tokenholderchart/0xca3f508b8e4dd382ee878a314789373d80a5190a).

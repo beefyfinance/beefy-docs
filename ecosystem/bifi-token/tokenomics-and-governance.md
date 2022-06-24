@@ -6,7 +6,7 @@ $BIFI tokens are revenue shares in Beefy Finance, through which holders earn pro
 
 $BIFI, otherwise known as BIFI, is the native governance token of our project. By staking it in a BIFI Maxi vault, the BIFI earnings pool or any BIFI liquidity vault, or by simply holding this token in your wallet, users can take part in the DAO decision-making governance processes of Beefy Finance. It does not matter on which chain you hold or stake BIFI, since the governance snapshot is multi-chain compatible. Governance proposals are submitted on [https://vote.beefy.finance/#/](https://vote.beefy.finance/#/) and users are encouraged to vote. Users do not need to un-stake their tokens to participate in the voting process. This incentivizes much more voter participation as it means users don’t miss rewards.
 
-For all the vaults deployed on every blockchain, Beefy Finance has its native governance token $BIFI at its core. Platform revenue is generated from a small percentage of all the vault profits and distributed back to those who stake $BIFI. The revenue sharing mechanics entail you can stake $BIFI to either earn more $BIFI in a BIFI Maxi vault, or earn $ETH, $BNB, $FTM, $MATIC, $AVAX, $HT, $ONE, $CELO, $MOVR, $CRO, $FUSE, $METIS, $GLMR or $SYS in the native staking pools.
+For all the vaults deployed on every blockchain, Beefy Finance has its native governance token $BIFI at its core. Platform revenue is generated from a small percentage of all the vault profits and distributed back to those who stake $BIFI. The revenue sharing mechanics entail you can stake $BIFI to either earn more $BIFI in a BIFI Maxi Vault, or earn blue chips like $ETH, $BNB, $FTM, $MATIC, $AVAX, and more in the BIFI Earnings Pools.
 
 After an initial distribution period of around two months back in Q4 2020, 72,000 tokens were supplied to the community with 8,000 being locked for the founding team. All 80,000 BIFI will be in circulation by 2022-07-06. The distribution via the "governance pools" and detailed info about the timelocks are found [here](https://github.com/beefyfinance/beefy-gov).
 
@@ -16,7 +16,7 @@ To get your hands on BIFI, head to one of the many liquidity pools or exchanges.
 
 ## **How is the protocol revenue distributed?**
 
-All revenue generated on the platform from vault fees is sent to and handled by the RewardPool smart contract in form of the native token of the chain. Anyone who stakes their $BIFI in either the native token earnings pool or BIFI Maxi vault receives their proportional share.
+All revenue generated on the platform from vault fees is sent to and handled by the RewardPool smart contract in the form of the native token of the chain. Anyone who stakes their $BIFI in either a BIFI Earnings Pool or a BIFI Maxi vault receives their proportional share.
 
 ## **What’s the BIFI Maxi vault?**
 
@@ -26,12 +26,12 @@ This Vault is for users that want to convert and compound their share of the pro
 
 ## **Where can I buy $BIFI?**
 
-$BIFI can currently be found in several decentralized exchanges including [1inch](https://1inch.exchange/#/r/0xF4cb25a1FF50E319c267b3E51CBeC2699FB2A43B/BNB/BIFI/?network=56) and [PancakeSwap.](https://exchange.pancakeswap.finance) Buying $BIFI usually involves exchanging it for another crypto-coin or token through a liquidity pool.
+$BIFI can currently be found in several decentralized exchanges including [1inch](https://1inch.exchange/#/r/0xF4cb25a1FF50E319c267b3E51CBeC2699FB2A43B/BNB/BIFI/?network=56) and [PancakeSwap.](https://exchange.pancakeswap.finance/) Buying $BIFI usually involves exchanging it for another crypto-coin or token through a liquidity pool.
 
 ## **How do I take part in governance?**
 
 By simply holding $BIFI, even if staked in the native token earnings pool or BIFI Maxi vault, a user earns the right to create proposals and vote in them. Voting sway and power are derived from the $BIFI holdings of the participant. The reasoning behind this follows that those holding more $BIFI are more invested in the project, and therefore have a larger incentive for the platform itself to succeed and prosper.\
-You can see proposals and vote on them yourself by heading to [vote.beefy.finance](https://vote.beefy.finance).
+You can see proposals and vote on them yourself by heading to [vote.beefy.finance](https://vote.beefy.finance/).
 
 ## **How do I vote?**
 

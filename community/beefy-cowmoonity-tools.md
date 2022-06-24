@@ -8,7 +8,7 @@ _"Not many communities have this kind of skilled members, the least we can do to
 
 ## TopDeFi Yield Tracker
 
-[TopDeFi](https://thetopdefi.com) is built and maintained by community member Terry, with assistance from EPETE.
+[TopDeFi](https://thetopdefi.com/) is built and maintained by community member Terry, with assistance from EPETE.
 
 _"As a huge fan of Beefy Finance, I've made a tracker for the most popular LPs and single vaults on there. Please try it out, and let me know if you have any feedback."_ - Terry
 

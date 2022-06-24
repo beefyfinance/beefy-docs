@@ -6,15 +6,19 @@ description: Beefy Escrowed Fantom
 
 ## What is beFTM?&#x20;
 
-beFTM is short for Beefy Escrowed Fantom. beFTM gives stakers access to maximized Validator Node rewards that typically aren’t available to the individual investor without locking FTM for 1 year. The token is loosely pegged to and 1:1 backed by FTM and can be staked on the Beefy platform and in farms on major DEXes.
+beFTM is short for Beefy Escrowed Fantom. beFTM gives stakers access to maximized Validator Node rewards that typically aren’t available to the individual investor without locking FTM for 1 year. The beFTM token is 1:1 backed by FTM and can be staked on the Beefy platform and in farms on major DEXes.
 
 ## How does one get beFTM?
 
-To get your hands on beFTM, users must first deposit their FTM in the Beefy Delegator Vault. beFTM is then minted 1:1 with the FTM deposited or the FTM is used to buy beFTM from a liquidity pool depending on which is most profitable for the user.
+To get your hands on beFTM, users must first deposit their FTM in the Beefy Delegator Vault. The FTM is then used to buy beFTM from a liquidity pool or minted 1:1 depending on which is most profitable for the user.
 
 ![beMINT determines the most profitable strategy](<../../.gitbook/assets/beftm\_mint (1).jpg>)
 
-beFTM can also be purchased on many DEXes such as Solidly, BeethovenX, SpiritSwap, and SpookySwap. One might need the beFTM contract address for trading: [0x7381eD41F6dE418DdE5e84B55590422a57917886](https://ftmscan.com/token/0x7381eD41F6dE418DdE5e84B55590422a57917886)
+beFTM can also be manually purchased on many DEXes such as Solidly, BeethovenX, SpiritSwap, and SpookySwap. One might need the beFTM contract address for trading: [0x7381eD41F6dE418DdE5e84B55590422a57917886](https://ftmscan.com/token/0x7381eD41F6dE418DdE5e84B55590422a57917886)
+
+## How does the beFTM strategy work?
+
+![](../../.gitbook/assets/Flow\_beFTM.png)
 
 ## How does beFTM delegation work?&#x20;
 
@@ -31,6 +35,10 @@ After depositing FTM to get beFTM, the FTM gets delegated to Beefy's Validator N
 * Stake in beFTM-FTM liquidity pools on all the major DEXes on Fantom.
 
 ## How does beFTM keep its peg?
+
+{% hint style="info" %}
+While beFTM is backed 1 to 1 by FTM, it is not designed to keep a 1 to 1 peg with FTM: ultimately its price determined by the market.
+{% endhint %}
 
 There are several mechanisms in place to help beFTM maintain peg against FTM. First of all, Beefy's Smart Minter will not issue new beFTM tokens when the price of beFTM is below the price of FTM, it will instead buy beFTM from a liquidity pool helping to restore the peg and giving the user a more profitable option. Secondly, the beFTM vault adds a continuous buying pressure to the beFTM token price. Lastly, arbitrageurs will either buy and sell beFTM depending on the peg.
 

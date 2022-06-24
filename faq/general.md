@@ -34,7 +34,7 @@ Large APYs in the percentage of thousands are possible with investments that pro
 
 ![](../.gitbook/assets/vault-trading-daily.png)
 
-Trading Daily means how much your liquidity tokens will increase in value. Liquidity pools share trading fees amongst all liquidity providers, as introduced by the [Uniswap liqudity model](https://docs.uniswap.org/protocol/V2/concepts/advanced-topics/fees). Trading Daily is affected by trading volume and the percentage of swap fees allocated to liquidity providers.
+Trading Daily means how much your liquidity tokens will increase in value. Liquidity pools share trading fees amongst all liquidity providers, as introduced by the [Uniswap liquidity model](https://docs.uniswap.org/protocol/V2/concepts/advanced-topics/fees). Trading Daily is affected by trading volume and the percentage of swap fees allocated to liquidity providers.
 
 Vault Daily means how much your token will increase in number. Due to the vault constantly farming rewards, and reinvesting that, your deposited token amount will increase. Vault Daily is affected by the yield farm rewards (i.e. additional incentives besides trading fees), such as CAKE on Pancakeswap.
 
@@ -43,6 +43,10 @@ Trading Daily and Vault Daily can be multiplied by 365 to compute Trading APR an
 $$
 APY = (1 + vaultAPY) * (1 + tradingAPR) - 1
 $$
+
+{% hint style="info" %}
+To calculate the Trading APR, Beefy uses on-chain data and a 24 hour period to determine the trading volume and subsequent fees, whereas most DEXes use a 7 day period. This may lead to differences in the displayed APY when compared with a DEX, but know that it is due to the calculation method. In fact, we argue that Beefy is more accurate because it uses a shorter time span which reflects changes in Trading APR sooner.
+{% endhint %}
 
 A handy tool to convert APR to APY is: [APRtoAPY.com](https://www.aprtoapy.com)
 
@@ -60,6 +64,12 @@ There is marketing that you can contribute to too, if you can write a decent twe
 
 The best way to get involved is to just go ahead and get started, help where you can, contribute to discussions and collaborate with everyone.
 
+## What is the difference between a Vault and an Earnings Pool?
+
+In a Vault you earn more of what you deposited into it, with compound interest (APY). In an Earnings Pool you earn a different token than the asset you deposited, with linear interest (APR).
+
+An example is the BIFI Maxi Vault, in which you earn more BIFI exponentially, and the many BIFI Earnings Pools, in which you earn linear interest in the form of $ETH, $BNB, $AVAX and more.
+
 ## Why does it cost so much gas to deposit into a Beefy vault?
 
 Many of Beefy's vaults "Harvest on Deposit". This means that when you deposit into the vault, you are also calling the harvest function.  Calling the Harvest function is more complex than a simple deposit and thus has a higher gas limit/fee.  Beefy does this so that it is impossible for malicious actors to steal yield so a withdrawal fee is not required. This greatly benefits long-term investors.
@@ -70,4 +80,4 @@ As the Harvest Caller, you will also receive some of the wrapped native chain to
 
 ## How can I find out how much earnings I have accumulated?
 
-Your rewards are added to your deposited token amount on each harvest and compound cycle. You can use a DeFi dashboard that will be able to calculate exactly how much profit you have made on your investments. External tools such as [TopDeFi](https://thetopdefi.com) will read your wallet address and give you an accurate picture of your initial investment and current earnings.
+Your rewards are added to your deposited token amount on each harvest and compound cycle. You can use a DeFi dashboard that will be able to calculate exactly how much profit you have made on your investments. External tools such as [TopDeFi](https://thetopdefi.com/) will read your wallet address and give you an accurate picture of your initial investment and current earnings.
