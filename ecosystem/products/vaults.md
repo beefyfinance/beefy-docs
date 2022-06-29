@@ -2,17 +2,17 @@
 
 ## What is a Vault?
 
-Vaults are investment instruments that employ a specific set of strategies for yield farming. They make use of automation to continually invest and reinvest deposited funds, which help to achieve high levels of compounded interest. By using a Beefy vault to compound your gains, you save thousands of transactions with their associated gas costs, and precious personal time. Instead of manually harvesting and selling rewards, buying more tokens, and reinvesting that continuously, a vault does all that automatically at a high frequency.
+Vaults are investment instruments that employ a specific set of strategies for yield farming. They make use of automation to continually invest and reinvest deposited funds, which help to achieve high levels of compound interest. By using a Beefy vault to compound your gains, you save thousands of transactions with their associated gas costs, and precious personal time. Instead of manually harvesting and selling rewards, buying more tokens, and reinvesting that continuously, a vault does all that automatically at a high frequency.
 
-Vaults are the core of the Beefy.Finance ecosystem. In a Beefy vault, you earn more of the asset you stake in it, regardless if this is an liquidity pool (LP) token or a single asset. For example, vaults where one can stake BTC-BNB LP will result in more BTC-BNB LP over time, effectively growing your share in the vault and thus allowing for more and more rewards over time.
+Vaults are the core of the Beefy ecosystem. In a Beefy vault, you earn more of the asset you stake in it, regardless if this is an liquidity pool (LP) token or a single asset. For example, vaults where one can stake BTC-BNB LP will result in more BTC-BNB LP over time, effectively growing your share in the liquidity pool and thus allowing for more and more fees and rewards over time.
 
-Despite the name 'Vault' suggests, user funds are never locked in any vault on Beefy.Finance. One could always withdraw from a vault at any moment in time. Beefy.Finance also does not own user funds staked in vaults. However, it is generally best to view vaults as investment tools to store funds for the medium to long term in order to have the effects of compounding really kick in.
+Despite the name 'Vault' suggests, user funds are never locked in any vault on Beefy. One could always withdraw from a vault at any moment in time. Beefy also does not own user funds staked in vaults. However, it is generally best to view vaults as investment tools to store funds for the medium to long term in order to have the effects of compounding really kick in.
 
 When browsing the vaults on the platform, you will see the annual percentage yield (APY), which takes the frequent compounding into consideration compared to annual percentage rate (APR) which does not. You will also see daily interest percentages and the total amount invested in a vault by all users (TVL). Furthermore, one can see what underlying platform the vault is using as a source of revenue.
 
 Each vault can either refer to a pair of tokens invested in liquidity pools, such as CAKE-BNB LP tokens within the Binance Smart Chain ecosystem, or a single token invested in lending platforms or single stake reward pools. After depositing tokens to a vault, the user is supplied with vault specific mooTokens which represent their share in the vault. We will elaborate on mooTokens in the next section.
 
-Anyone in the Cowmoonity can work together to build new strategies and submit them to governance for voting. We look at vault requests via our official forum where anyone is free to submit [vault requests](https://forum.beefy.finance/c/vault-requests).
+Anyone in the Cowmoonity can work together to build new strategies and submit them to the Beefy team for review. However, a new vault will not be accepted if the underlying platform does not adhere to the [beefy-safu-practices.md](../../safu-protocol/beefy-safu-practices.md "mention").
 
 Summarizing, vaults can:
 
