@@ -1,10 +1,12 @@
 # Contracts & Timelocks
 
+## Address Book
+
+All addresses used are open source and verifiable. A collection of useful addresses on Beefy's chains for DeFi development are stored on GitHub: [Address Book](https://github.com/beefyfinance/beefy-api/tree/master/packages/address-book).
+
 ## Contracts
 
-All Beefy Finance deployed vault contracts can be viewed on [dashboard.beefy.finance](https://dashboard.beefy.finance).
-
-One can use this dashboard for example to check the [harvesting and compounding rate of a vault](../faq/how-to-guides/how-to-check-harvesting-compounding-rate.md).
+From the Vault UI, one can easily find the Strategy addresses and Vault addresses. Additionally, all Beefy vault contracts can be viewed on [dashboard.beefy.finance](https://dashboard.beefy.finance). One can use this dashboard for example to check the [harvesting and compounding rate of a vault](../faq/how-to-guides/how-to-check-harvesting-compounding-rate.md).
 
 ## Oracles
 
@@ -61,6 +63,3 @@ Beefy's treasury spending is secured by requiring multiple signatures from trust
 * Avalanche: [0x26dE4EBffBE8d3d632A292c972E3594eFc2eCeEd](https://gnosis-safe.io/app/avax:0x26dE4EBffBE8d3d632A292c972E3594eFc2eCeEd/balances)
 * Metis: [0x0f9602B7E7146a9BaE16dB948281BebDb7C2D095](https://metissafe.tech/metis-andromeda:0x0f9602B7E7146a9BaE16dB948281BebDb7C2D095/balances)
 
-## Address Book
-
-All addresses used are open source and verifiable. A collection of useful addresses on Beefy's chains for DeFi development are stored on GitHub: [Address Book](https://github.com/beefyfinance/beefy-api/tree/master/packages/address-book).
