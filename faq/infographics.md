@@ -1,12 +1,12 @@
 ---
-description: Explaining Beefy Finance using simple infographics
+description: Explaining Beefy using simple infographics
 ---
 
-# Beefy Finance Infographics
+# Beefy Infographics
 
-Here, various aspects of Beefy Finance will be explained using easy to understand infographics.
+Here, various aspects of Beefy will be explained using easy to understand infographics.
 
-## The yield farming steps that Beefy Finance executes for you:
+## The yield farming steps that Beefy executes for you:
 
 ![](../.gitbook/assets/beefy-info-yield-optimizing-process.png)
 

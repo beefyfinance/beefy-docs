@@ -4,7 +4,7 @@
 
 ## Beefy Ecosystem <a href="#ecosystem" id="ecosystem"></a>
 
-* [Introduction to Beefy Finance](ecosystem/introduction.md)
+* [Introduction to Beefy](ecosystem/introduction.md)
 * [BIFI Token](ecosystem/bifi-token/README.md)
   * [Tokenomics & Governance](ecosystem/bifi-token/tokenomics-and-governance.md)
   * [Contract Addresses](ecosystem/bifi-token/contract-addresses.md)
@@ -30,7 +30,7 @@
 ## FAQ
 
 * [General](faq/general.md)
-* [Beefy Finance Infographics](faq/infographics.md)
+* [Beefy Infographics](faq/infographics.md)
 * [mooVaults APY](faq/moovaults-apy.md)
 * [How-To Guides](faq/how-to-guides/README.md)
   * [How to participate in a mooVault](faq/how-to-guides/how-to-participate-in-a-moovault.md)
