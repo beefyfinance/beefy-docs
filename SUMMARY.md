@@ -1,6 +1,10 @@
 # Table of contents
 
 * [Overview](README.md)
+* [Get Started](get-started/README.md)
+  * [How to set up a wallet](get-started/how-to-set-up-a-wallet.md)
+  * [Funding your wallet](get-started/funding-your-wallet.md)
+  * [Connecting your wallet to Beefy](get-started/connecting-your-wallet-to-beefy.md)
 
 ## Beefy Ecosystem <a href="#ecosystem" id="ecosystem"></a>
 
