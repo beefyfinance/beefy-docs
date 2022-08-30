@@ -10,7 +10,7 @@ The button can be found at the top of the page:
 
 ### 2. Select your wallet from the options
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 ### 3. Approve the connection
 

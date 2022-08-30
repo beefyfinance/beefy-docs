@@ -10,7 +10,7 @@
 
 * [Introduction to Beefy](ecosystem/introduction.md)
 * [BIFI Token](ecosystem/bifi-token/README.md)
-  * [Tokenomics & Governance](ecosystem/bifi-token/tokenomics-and-governance.md)
+  * [Tokenomics](ecosystem/bifi-token/tokenomics-and-governance.md)
   * [Contract Addresses](ecosystem/bifi-token/contract-addresses.md)
 * [Products](ecosystem/products/README.md)
   * [Vaults](ecosystem/products/vaults.md)
@@ -58,6 +58,7 @@
 
 * [Team & Goals](community/team-and-goals.md)
 * [Contributor Compensation](community/contributor-compensation.md)
+* [Governance](community-governance/governance.md)
 * [Beefy Initiatives](community-governance/beefy-initiatives.md)
 * [Proposal Repository](community/proposal-repository.md)
 * [Cowmoonity](community/community.md)

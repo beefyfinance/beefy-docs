@@ -1,5 +1,5 @@
 ---
-description: 'Last Update: August 2022'
+description: 'Last Update: May 2022'
 ---
 
 # Contributor Compensation
@@ -8,7 +8,7 @@ At the heart of Beefy is our culture of innovation and rapid development. From D
 
 Effective compensation and rewards are essential to building this culture, in order to continue attracting and developing talent and growing the DAO. In the spirit of openness and transparency, this page explains how we at Beefy think about compensation, and our initiatives to motivate engagement and growth.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Note that access to the archived Beefy voting site is available at [https://vote-archive.beefy.finance/](https://vote-archive.beefy.finance/). The archived site requires users to connect their wallet to both the site and the BSC Mainnet to display historic proposals. The current voting site is available live at [https://vote.beefy.finance/#/](https://vote.beefy.finance/#/).
 {% endhint %}
 
