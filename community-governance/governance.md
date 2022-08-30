@@ -43,14 +43,18 @@ Through our Snapshot page, proposals can take a number of different forms, each 
 * Ranked choice voting - voters can select several options by an order of preference, with votes then counted by eliminating the option with the least highest preference votes, and reallocating those votes to their next highest preference, until only one option remains.
 
 {% hint style="info" %}
-Please note that for all Beefy governance votes which include an "abstain" option, a vote to abstain will be counted for the purposes of the quorum for that proposal, but will otherwise be interpreted as a vote for the side that has the most votes, when ignoring the "abstain" votes. Where quorum is met only through the inclusion of "abstain" votes, this remains a valid proposal, and the outcome will be accepted.&#x20;
+Please note that for all Beefy governance votes which include an "abstain" option, a vote to abstain will be counted for the purposes of the quorum (if applicable) for that proposal, but will otherwise be interpreted as a vote for the side that has the most votes, when ignoring the "abstain" votes. Where a quorum is applied and is met only through the inclusion of "abstain" votes, this remains a valid proposal, and the outcome will be accepted.&#x20;
 
-Snapshot may recognise the outcome of a vote as "abstain" where this receives the most votes, though the outcome will in fact be the option with the most votes otherwise.
+Snapshot may recognise the outcome of a vote as "abstain" where this receives the most votes, though the outcome will in fact be the option with the most votes otherwise. See for example the outcome of the Permissionless 2022 reimbursement proposal below.
 {% endhint %}
+
+<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption><p>Where abstain receives the most votes, the outcome with the second most will be adopted.</p></figcaption></figure>
 
 ## What is the quorum for voting?
 
-To ensure that proposals that don't receive much interest aren't passed by default, our system includes a voting quorum, where a proposal needs to receive more than a specified proportion of total available votes in any direction to be considered valid. At the time of writing, this is fixed at 800 $BIFI (equivalent to 1% of total $BIFI supply) for every proposal.
+To ensure that proposals that don't receive much interest aren't passed by default, Snapshot includes an option for a voting quorum, where a proposal needs to receive more than a specified proportion of total available votes in any direction to be considered valid.&#x20;
+
+At the time of writing, no formal quorum has been adopted by Beefy, though our Snapshot page refers to an 800 $BIFI quorum (equivalent to 1% of total $BIFI supply) for every proposal. Where a vote fails to meet the Snapshot referenced quorum, **it will still be adopted** unless a quorum has been formally put in place.
 
 ## **How do I create a proposal?**
 

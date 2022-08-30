@@ -59,7 +59,6 @@
 * [Team & Goals](community/team-and-goals.md)
 * [Contributor Compensation](community/contributor-compensation.md)
 * [Governance](community-governance/governance.md)
-* [Beefy Initiatives](community-governance/beefy-initiatives.md)
 * [Proposal Repository](community/proposal-repository.md)
 * [Cowmoonity](community/community.md)
 * [Beefy Cowmoonity Tools](community/beefy-cowmoonity-tools.md)

@@ -137,13 +137,3 @@ In theory, a clear outcome in favour of change should be a strong signal to the 
 | Proposal                                                                                                                                                |  End Date  | Proposer     |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | ------------ |
 | [\[BSP:01\] Changing Reoccurring Comp](https://snapshot.org/#/beefydao.eth/proposal/0xefaf6df8ffa53dfa526379fac3db3b7957939dd6525cec2088b052fda0546f4e) | 28/05/2022 | jackgale.eth |
-
-## Signalling Proposals
-
-Beefy Signaling Proposals (BSPs) are non-binding proposals intended to signal the Cowmoonity’s feelings and intentions on the issue being raised, without tying the DAO to the outcome. This allows members to express their views honestly, without concern for tactical voting or the practicalities of implementation.
-
-In theory, a clear outcome in favour of change should be a strong signal to the Core to pursue the change independently. Where the Core refuses or fails to deliver on that signal, a binding Beefy Improvement Proposal can be used instead. Alternatively, a strong signal against proposed changes should quieten pressure for those changes amongst the Cowmoonity, at least for the near future.
-
-| Proposal                                                                                                                                                |  End Date  | Proposer     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | ------------ |
-| [\[BSP:01\] Changing Reoccurring Comp](https://snapshot.org/#/beefydao.eth/proposal/0xefaf6df8ffa53dfa526379fac3db3b7957939dd6525cec2088b052fda0546f4e) | 28/05/2022 | jackgale.eth |
