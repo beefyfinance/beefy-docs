@@ -32,4 +32,4 @@ When using Zap, always check your quote! While Zap does protect you against mark
 
 ![](../.gitbook/assets/beefy-info-boost.png)
 
-When a vault gets boosted in Beefy's Launchpool, you earn both the base asset and the partner's token! For more info, read the Launchpool FAQ [here](../ecosystem/products/launchpool.md).
+When a vault gets boosted in Beefy's Launchpool, you earn both the base asset and the partner's token! For more info, read the Launchpool FAQ [here](../ecosystem/products/boost.md).

@@ -14,7 +14,7 @@
   * [Contract Addresses](ecosystem/bifi-token/contract-addresses.md)
 * [Products](ecosystem/products/README.md)
   * [Vaults](ecosystem/products/vaults.md)
-  * [Launchpool](ecosystem/products/launchpool.md)
+  * [Boost](ecosystem/products/boost.md)
   * [Strategies](ecosystem/products/strategies.md)
   * [beFTM](ecosystem/products/beftm.md)
   * [binSPIRIT](ecosystem/products/binspirit/README.md)
