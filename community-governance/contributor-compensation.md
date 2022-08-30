@@ -1,16 +1,16 @@
 ---
-description: 'Last Update: May 2022'
+description: 'Last Update: June 2022'
 ---
 
 # Contributor Compensation
 
-{% hint style="info" %}
-Note that access to the archived Beefy voting site is available at [https://vote-archive.beefy.finance/](https://vote-archive.beefy.finance/). The archived site requires users to connect their wallet to both the site and the BSC Mainnet to display historic proposals. The current voting site is available live at [https://vote.beefy.finance/#/](https://vote.beefy.finance/#/).
-{% endhint %}
-
 At the heart of Beefy is our culture of innovation and rapid development. From Day 1, Beefy's contributors have worked tirelessly to produce, distribute and iterate on products at lightning speed, both with our own work and in collaborating with the wider DeFi community.&#x20;
 
 Effective compensation and rewards are essential to building this culture, in order to continue attracting and developing talent and growing the DAO. In the spirit of openness and transparency, this page explains how we at Beefy think about compensation, and our initiatives to motivate engagement and growth.
+
+{% hint style="info" %}
+Note that access to the archived Beefy voting site is available at [https://vote-archive.beefy.finance/](https://vote-archive.beefy.finance/). The archived site requires users to connect their wallet to both the site and the BSC Mainnet to display historic proposals. The current voting site is available live at [https://vote.beefy.finance/#/](https://vote.beefy.finance/#/).
+{% endhint %}
 
 ## Token Distributions
 
@@ -50,7 +50,5 @@ Subsequent reoccurring monthly payments have continued in [December/January](htt
 
 The second limb of Sirbeefalot's efforts to incentivise development was the introduction of the BeefyGrants system. In a [paper](https://docs.google.com/document/d/1hBnQcbxkRvhmHASqivI3g8rBS\_4m4mmTaT\_jW4VjE7c/edit) and blog post introducing the idea, Sirbeefalot explained that the system would be aimed at giving direction to Beefy's development efforts, creating a virtuous cycle of fund allocation, and fairly rewarding community members for their contributions.&#x20;
 
-The initial plan outlined a batch of grants, where community members could apply for a portion of a $50,000 grant allocation by submitting a "Yes/No" proposal for voting by the cowmoonity. Projects would be allocated in order of highest margin of "Yes" votes until the fund was exhausted. A BeefyGrants [proposal](https://vote-archive.beefy.finance/#/beefy/proposal/QmafULDojJ4StzJtuwjBZutnUkzb9TUhTLCLZe5R7deWLo) was unanimously adopted by the Cowmoonity on 20 September 2021. The programme was successful, and a range of proposals were launched in early October 2021 including a Beefy Bridge, mooBIFI lending, app localisation efforts, adopting the Polygondex Multi-Chain and sponsoring Beefy events.
-
-Since the initial allocation, BeefyGrants lives on as residual option to obtain developer funding for specific initiatives and projects. Though it preceded the BeefyGrants initiative, the Moonpot development [initiative](https://vote-archive.beefy.finance/#/beefy/proposal/Qmad6g5vMA8bS2axxeh7a1LqD61k6mtBjDrrTVgdDqeAN7) - which provided $50,000 in seed funding to develop Moonpot - is often cited as inspiration and exemplification of the spirit of BeefyGrants. Developers considering a larger scale contribution to the DAO requiring prior funding should consider submitting a proposal for BeefyGrants, and all such ideas are welcomed for discussion in the #🗣-proposal-discussion channel on the Beefy Discord.
+Since that time, a range of BeefyGrants and other initiatives have received DAO support and funding, leading to a range of unique and exciting Cowmoonity-led initiatives. As such, our contributors are encouraged to considering applying for larger-scale grants and funding arrangements to support their ideas for new products and initiative. Further details are provided on the [#beefygrants](beefy-initiatives.md#beefygrants "mention")page.
 

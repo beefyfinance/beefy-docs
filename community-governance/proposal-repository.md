@@ -1,10 +1,10 @@
 ---
-description: 'Last Update: May 2022'
+description: 'Last Update: June 2022'
 ---
 
 # Proposal Repository
 
-Beefy is governed by and for our Cowmoonity through our governance process. Any user can submit a Beefy Improvement Proposal (BIP), request for funds or other general proposal for consideration and voting by the Cowmoonity.&#x20;
+Beefy is governed by and for our Cowmoonity through our governance process. Any user can submit a Beefy Improvement Proposal (BIP), Beefy Signalling Proposal (BSP), request for funds or other general proposal for consideration and voting by the Cowmoonity.&#x20;
 
 This page lists some of the most important proposals from our history, together with links to the full proposal text and results. The list focuses on key initiatives, governance changes, product developments and events in our history. Common matters like individual payments, bounties and partnerships are generally excluded. The page also includes a list of significant proposals that did not receive approval, to inform those considering raising similar issues in the future.
 
@@ -25,7 +25,7 @@ Note that access to the archived Beefy voting site is available at [https://vote
 | [\[BIP:26\] ReflectiveChimp into Beefy Core](https://snapshot.org/#/beefydao.eth/proposal/0x1c56f9c062e6d5023cb11dbe3fc28e3f4bd378a3db3dd2bbf18718fcbb31883f)                                                                                                              | 31/03/2022 |      Core     |
 | [\[BIP:21\] Beefy Product Liquidity](https://snapshot.org/#/beefydao.eth/proposal/QmVcAVjLcmQY6SfX3vpteRxbgapqHdM6a68NGThtXZtvsq)                                                                                                                                          | 08/03/2022 |      Core     |
 | [\[BIP:20\] AllTrades into](https://snapshot.org/#/beefydao.eth/proposal/0xedc0bbfd96ee244403af7dfcd7ef9f654740695aa4d88491998700615fb20eda)[ Beefy Core](https://snapshot.org/#/beefydao.eth/proposal/0xedc0bbfd96ee244403af7dfcd7ef9f654740695aa4d88491998700615fb20eda) | 03/03/2022 |      Core     |
-| [\[BIP:15\] Beefy Solidity NFT Decision](https://snapshot.org/#/beefydao.eth/proposal/QmNmbj7666Knnr7sY8DpTr2jBRphyX3gv7JkEQFdEZzjCX)                                                                                                                                      | 16/02/2022 |      Core     |
+| [\[BIP:15\] Beefy Solidly NFT Decision](https://snapshot.org/#/beefydao.eth/proposal/QmNmbj7666Knnr7sY8DpTr2jBRphyX3gv7JkEQFdEZzjCX)                                                                                                                                       | 16/02/2022 |      Core     |
 | [\[BIP:14\] Beefy Data Project - Infrastructure](https://snapshot.org/#/beefydao.eth/proposal/0xb013f726b581ce76fd609141e690bf20ad16ed95d9c63dfb69e7f5ae5d04bcfd)                                                                                                          | 04/02/2022 |      Core     |
 | [\[BIP:11\] Reoccurring Contributor Pay](https://snapshot.org/#/beefydao.eth/proposal/QmbM3gLpX7KtWecTgeLGaKHm9mVj3vQFQ5Quu1TkigDw19)                                                                                                                                      | 29/01/2022 |      Core     |
 | [\[BIP:10A\] Fantom Validator Platform](https://snapshot.org/#/beefydao.eth/proposal/0xc8e253a29ff31e8778ac074c9c7648efb276f06a47db268db47f4ef6c182ff90)                                                                                                                   | 28/01/2022 |      Core     |
@@ -94,8 +94,9 @@ Note that access to the archived Beefy voting site is available at [https://vote
 
 ## Not Approved
 
-|                                                                                                                                                                                                                                            |  End Date  | Proposer                |
+| Proposal                                                                                                                                                                                                                                   |  End Date  | Proposer                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :--------: | ----------------------- |
+| [Launch Incentives for Liquidity Provision](https://snapshot.org/#/beefydao.eth/proposal/0x80b790d94e4966f7be5cebfaa40862aeba5bd6de19b5251b1614bf78ae3f99ba)                                                                               | 24/05/2022 | -                       |
 | [Launch Support for Optimism Blockchain](https://snapshot.org/#/beefydao.eth/proposal/0x15692d92445d5d3dc3647a7c3372fa327dbc8afcce99614071255339518b6c7c)                                                                                  | 10/05/2022 | -                       |
 | [Beefy.fi Domain Acquisition](https://snapshot.org/#/beefydao.eth/proposal/0xeb5f43cb5b04e7876c4a26c600095c3ee2f204e0402a3a551d9b885677ad52da)                                                                                             | 24/04/2022 | -                       |
 | [MooStarter: Beefy Launchpad](https://snapshot.org/#/beefydao.eth/proposal/0x7130744f22e335d26b5396923d99297693d894fb52c6af3d30f63c5badc303be)                                                                                             | 17/04/2022 | -                       |
@@ -123,3 +124,13 @@ Note that access to the archived Beefy voting site is available at [https://vote
 | [BIFI Maxi Entrance Fees](https://vote-archive.beefy.finance/#/beefy/proposal/QmVTdm8FW6JMwseNNXj49mQ3rkimtAV6fQquYrBUDjFDgY)                                                                                                              | 15/01/2021 | -                       |
 | [BIFI Maxi Airdrop](https://vote-archive.beefy.finance/#/beefy/proposal/QmWyszwMjBD6yR9xjWmusEL44HnjAAwceQqC8P8WqDYQby)                                                                                                                    | 30/12/2020 | -                       |
 | [Put the Treasury to Work 1](https://vote-archive.beefy.finance/#/beefy/proposal/QmWzMKPTkwp42Hxu4xEhrV3gK7JAM6BDmDX6FaKk4wxDCF)                                                                                                           | 12/12/2020 | -                       |
+
+## Signalling Proposals
+
+Beefy Signaling Proposals (BSPs) are non-binding proposals intended to signal the Cowmoonity’s feelings and intentions on the issue being raised, without tying the DAO to the outcome. This allows members to express their views honestly, without concern for tactical voting or the practicalities of implementation.
+
+In theory, a clear outcome in favour of change should be a strong signal to the Core to pursue the change independently. Where the Core refuses or fails to deliver on that signal, a binding Beefy Improvement Proposal can be used instead. Alternatively, a strong signal against proposed changes should quieten pressure for those changes amongst the Cowmoonity, at least for the near future.
+
+| Proposal                                                                                                                                                |  End Date  | Proposer     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | ------------ |
+| [\[BSP:01\] Changing Reoccurring Comp](https://snapshot.org/#/beefydao.eth/proposal/0xefaf6df8ffa53dfa526379fac3db3b7957939dd6525cec2088b052fda0546f4e) | 28/05/2022 | jackgale.eth |

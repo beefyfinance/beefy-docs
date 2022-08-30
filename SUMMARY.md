@@ -54,13 +54,14 @@
 * [Token Allowance](safu-protocol/token-allowance.md)
 * [Beefy Backup](safu-protocol/beefy-backup.md)
 
-## Cowmoonity Governance <a href="#community" id="community"></a>
+## Cowmoonity/Governance <a href="#community-governance" id="community-governance"></a>
 
-* [Team & Goals](community/team-and-goals.md)
-* [Contributor Compensation](community/contributor-compensation.md)
-* [Proposal Repository](community/proposal-repository.md)
-* [Cowmoonity](community/community.md)
-* [Beefy Cowmoonity Tools](community/beefy-cowmoonity-tools.md)
+* [Team & Goals](community-governance/team-and-goals.md)
+* [Contributor Compensation](community-governance/contributor-compensation.md)
+* [Beefy Initiatives](community-governance/beefy-initiatives.md)
+* [Proposal Repository](community-governance/proposal-repository.md)
+* [Cowmoonity](community-governance/community.md)
+* [Beefy Cowmoonity Tools](community-governance/beefy-cowmoonity-tools.md)
 
 ## Additional Resources
 

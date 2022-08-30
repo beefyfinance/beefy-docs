@@ -24,7 +24,7 @@ The token is fully backed 1:1 by JOE and can be redeemed for JOE held in reserve
 
 You can mint beJOE on the beJOE [vault](https://app.beefy.finance/#/vault/beefy-beJoe) or [earnings pool](https://app.beefy.finance/#/vault/beefy-beJoe-earnings) pages at a 1:1 ratio. There will be no incentivised liquidity for beJOE, instead there will be a withdrawal reserve.
 
-![beJOE is minted and burned at a 1:1 rate with JOE](<../../.gitbook/assets/image (3).png>)
+![beJOE is minted and burned at a 1:1 rate with JOE](<../../.gitbook/assets/image (2).png>)
 
 ## How does beJOE work?
 
