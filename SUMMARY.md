@@ -53,6 +53,7 @@
 * [Beefy Safety Score](safu-protocol/beefy-safety-score.md)
 * [Token Allowance](safu-protocol/token-allowance.md)
 * [Beefy Backup](safu-protocol/beefy-backup.md)
+* [Insurance](safu-protocol/insurance.md)
 
 ## Cowmoonity/Governance <a href="#community-governance" id="community-governance"></a>
 
