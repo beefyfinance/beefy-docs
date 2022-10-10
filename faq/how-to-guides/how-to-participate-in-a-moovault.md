@@ -1,48 +1,76 @@
 ---
 description: >-
   This visual guide will walk you through every step in depositing funds in a
-  mooVault
+  Vault
 ---
 
-# How to participate in a mooVault
+# How to deposit in a Vault
 
-### Prerequisites
+## Prerequisites
 
-* You must have the mooVault underlying token. For WBNB mooVault, you must have WBNB.
-* You must use a supported wallet, either Metamask or Trustwallet.
+* You must have the vault's underlying token(s) in your wallet. See here how to fund your wallet: [funding-your-wallet.md](../../get-started/funding-your-wallet.md "mention")
+* You must use a supported wallet, such as Metamask or Trustwallet: [connecting-your-wallet-to-beefy.md](../../get-started/connecting-your-wallet-to-beefy.md "mention").&#x20;
 
-### Walkthrough
+## Walkthrough
 
-#### 1. Go to [Beefy app](https://app.beefy.finance/) and click on “WALLET”
+### 1. Go to the [Beefy app](https://app.beefy.com/) page:
 
-![](../../.gitbook/assets/wallet.png)
+<figure><img src="../../.gitbook/assets/BeefyApp.png" alt=""><figcaption><p>Screenshot date: 10 October 2022</p></figcaption></figure>
 
-#### 2. Choose your favorite wallet
+Again, make sure that your wallet is connected and that it is funded with tokens.
 
-![](../../.gitbook/assets/wallet-opt.png)
+### 2. Use the filters to find a vault you want to deposit into:
 
-#### 3. Choose which Vault you want to deposit into, for example, the WBNB v2 Vault
+<figure><img src="../../.gitbook/assets/Filters.png" alt=""><figcaption></figcaption></figure>
 
-![](../../.gitbook/assets/wallet-1-.png)
+The blockchain logos, the preset selection buttons and the search field all act as filters.&#x20;
 
-#### 4. Enter the amount of WBNB that you want to deposit, and click APPROVE
+### 3. Example of filter usage
 
-![](../../.gitbook/assets/wallet-2-.png)
+In this guide, we will use the BIFI Maxi vault on Arbitrum as an example:
 
-#### 5. Confirm the transaction in your wallet and click “DEPOSIT”
+<figure><img src="../../.gitbook/assets/FilterSelection.png" alt=""><figcaption></figcaption></figure>
 
-![](../../.gitbook/assets/wallet-3-.png)
+Note that the BIFI Earnings Pool, in which you can earn WETH by depositing BIFI, also shows up. Open the BIFI Maxi vault by clicking anywhere in the field above.
 
-Click on **25%, 50%, 75% or 100%** or any percentage **** to deposit the corresponding proportion of your wallet into the Vault.
+### 4. Inside the BIFI Maxi vault:
 
-Or click “Deposit All” if you would like to **deposit 100%** of the chosen digital asset from your wallet into the Vault. :::info Please note before you make a deposit that there is a **0.1% withdrawal fee**. The longer you leave the deposit to earn returns in the Vault, the more likely your returns will exceed the withdrawal fee. :::
+<figure><img src="../../.gitbook/assets/BIFIMaxiVaultArbi.png" alt=""><figcaption></figcaption></figure>
 
-#### 6. Receive your mooToken (in this case it would be mooFryWBNBv2)
+There is a lot of information inside the vault, such as TVL (Total Value Locked), Price and APY (Annual Percentage Yield) historical rates, the [beefy-safety-score.md](../../safu-protocol/beefy-safety-score.md "mention"), Token Asset details, and the Vault's compounding strategy ([#what-is-a-vault-strategy](../../ecosystem/products/strategies.md#what-is-a-vault-strategy "mention")).&#x20;
 
-![](../../.gitbook/assets/wallet-4-.png)
+### 5. The Deposit and Withdraw module:
 
-The mooToken you receive is your **share of the mooFryWBNBv2 Vault**. The amount of mooFryWBNBv2 in your wallet will **remain constant** over time but the value of it will increase as the WBNB Vault earns returns.
+<figure><img src="../../.gitbook/assets/DepositWithdrawModule.png" alt=""><figcaption></figcaption></figure>
 
-The amount of mooFryWBNBv2 you receive will be less than 1 per WBNB you deposited because mooFryWBNBv2 is worth more than WBNB.
+The vault already sees we have 1 BIFI available in our wallet to deposit. There is a "Buy Token" link provided in case you do not have any BIFI or wish to buy more BIFI to deposit, as well as a "Bridge BIFI" button to bridge BIFI from another blockchain to Arbitrum ([how-to-bridge-bifi-cross-chain.md](how-to-bridge-bifi-cross-chain.md "mention")). A deposit field and a "Max" button are used for entering the exact amount of BIFI you want to deposit. Furthermore, the Beefy Vault Fees ([#what-is-the-vault-fee-structure](../../ecosystem/products/vaults.md#what-is-the-vault-fee-structure "mention")) are shown.
 
-That's it, once the harvest function is called, you are already earning yield.
+### 6. An example deposit:
+
+In this example, we first click the "Max" button to deposit all the BIFI in our wallet, followed by clicking on the "Deposit All" button.&#x20;
+
+<figure><img src="../../.gitbook/assets/ExampleDeposit.png" alt=""><figcaption></figcaption></figure>
+
+When it is the first time you deposit in this vault, you need to grant permission to the vault's contract and allow it to access your funds:
+
+<figure><img src="../../.gitbook/assets/DepositPermission.png" alt=""><figcaption></figcaption></figure>
+
+In the next transaction you will be actually depositing in the vault:
+
+<figure><img src="../../.gitbook/assets/DepositActual.png" alt=""><figcaption></figcaption></figure>
+
+In summary, depositing into a new vault always requires two transactions: one for approving the spending permission and one for the actual deposit.
+
+### 7. Deposit confirmation:
+
+<figure><img src="../../.gitbook/assets/DepositConfirmation.png" alt=""><figcaption></figcaption></figure>
+
+Once the transaction succeeds, a message will pop up confirming the deposit and it contains a link to the transaction in the block explorer. It is very important to understand that your wallet now holds a tokenized proof of deposit called a "mooToken" ([#what-are-mootokens](../../ecosystem/products/vaults.md#what-are-mootokens "mention")). This mooToken is required to withdraw from the vault, don't lose it!&#x20;
+
+On the block explorer page of the deposit transaction you can find out that the mooTokens are indeed supplied to your wallet after depositing in the vault. The token transfer will look something like this:
+
+<figure><img src="../../.gitbook/assets/DepositMooTokens.png" alt=""><figcaption></figcaption></figure>
+
+Since mooTokens are interest-bearing, they are more valuable than their "normal" token counterpart. This is also the reason why the mooToken amount does not 1:1 match with the token amount initially deposited ([#how-do-mootokens-earn-interest](../../ecosystem/products/vaults.md#how-do-mootokens-earn-interest "mention")).
+
+That's it, once the harvest function on this vault is called, you are already earning yield!
