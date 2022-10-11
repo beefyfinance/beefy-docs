@@ -4,7 +4,9 @@ Now you have created your wallet, it's time to fund it with crypto tokens. To ma
 
 ## Fiat On-Ramp
 
-There are several providers that let you buy crypto directly to your wallet by using a bank transfer or credit card. On Beefy, various services allow you to do just that, bundled in one module for an easy overview that lets you pick the best option. You just need to click on the Buy button on the top of the page to start the Fiat On-Ramp process.
+<figure><img src="../.gitbook/assets/BeefyOnRamp.png" alt=""><figcaption></figcaption></figure>
+
+There are several providers that let you buy crypto directly to your wallet by using a bank transfer or credit card. On Beefy, various services allow you to do just that, bundled in one module for an easy overview that lets you pick the best option. You just need to click on the Buy Crypto button on the top of the page to start the Fiat On-Ramp process.
 
 ## Centralized Exchange method
 
