@@ -17,3 +17,7 @@ The button can be found at the top of the page:
 ![](../.gitbook/assets/image.png)
 
 All done! :cow: You are now ready to explore Beefy's vaults and other earnings opportunities.
+
+{% content-ref url="../faq/how-to-guides/how-to-deposit-in-a-vault.md" %}
+[how-to-deposit-in-a-vault.md](../faq/how-to-guides/how-to-deposit-in-a-vault.md)
+{% endcontent-ref %}
