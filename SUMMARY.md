@@ -65,6 +65,11 @@
 * [Beefy Cowmoonity Tools](community/beefy-cowmoonity-tools.md)
 * [Partnerships](community-governance/partnerships.md)
 
+## Developer Documentation
+
+* [Beefy Vault V6](developer/beefyvaultv6.md)
+* [Strategy Contract](developer/strategycontract.md)
+
 ## Additional Resources
 
 * [Code Repositories](additional-resources/code-repositories.md)
