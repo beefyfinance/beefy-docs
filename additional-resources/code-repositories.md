@@ -12,17 +12,18 @@
   * Site: [https://gov.beefy.finance/staking](https://gov.beefy.finance/staking)
   * Repo: [https://github.com/beefyfinance/beefy-gov](https://github.com/beefyfinance/beefy-gov)
 * Beefy Vote
-  * Site: [https://vote.beefy.finance/\#/](https://vote.beefy.finance/#/)
+  * Site: [https://vote.beefy.finance/#/](https://vote.beefy.finance/#/)
   * Repo: [https://github.com/beefyfinance/beefy-vote](https://github.com/beefyfinance/beefy-vote)
 * Beefy Dashboard
   * Site: [https://dashboard.beefy.finance/](https://dashboard.beefy.finance/)
-  * Repo: [https://github.com/beefyfinance/beefy-dashboard](https://github.com/beefyfinance/beefy-dashboard) 
+  * Repo: [https://github.com/beefyfinance/beefy-dashboard](https://github.com/beefyfinance/beefy-dashboard)&#x20;
 
 ## Backend
 
 * Beefy API
-  * Site: [https://api.beefy.finance/apy](https://api.beefy.finance/apy)
+  * Site: [https://api.beefy.finance/](https://api.beefy.finance/apy)
   * Repo: [https://github.com/beefyfinance/beefy-api](https://github.com/beefyfinance/beefy-api)
+  * Further details available on the [beefy-api.md](../developer-documentation/beefy-api.md "mention") page.
 
 ## Smart Contracts
 
@@ -31,4 +32,3 @@
   * [Pools](https://github.com/beefyfinance/beefy-protocol/tree/master/pools)
   * [Team Timelocks](https://github.com/beefyfinance/beefy-protocol/tree/master/timelocks)
   * [Misc.](https://github.com/beefyfinance/beefy-protocol/tree/master/contracts)
-

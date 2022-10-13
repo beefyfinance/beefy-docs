@@ -67,6 +67,7 @@
 
 ## Developer Documentation
 
+* [Beefy API](developer-documentation/beefy-api.md)
 * [Beefy Vault V6](developer/beefyvaultv6.md)
 * [Strategy Contract](developer/strategycontract.md)
 
