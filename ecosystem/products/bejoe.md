@@ -51,7 +51,7 @@ As the boosted rewards on Trader Joe farms are paid out in JOE, these can be pai
 
 ## But what about fees? <a href="#but-what-about-fees" id="but-what-about-fees"></a>
 
-Beefy has the lowest yield-optimizing fees on Avalanche. With Beefy’s new beJOE boosted farms, you earn more than anywhere else. Beefy charges its normal 4.5% performance fees on boosted vaults plus an additional 5% delivered directly to beJOE stakers.
+Beefy strives to maintain some of the lowest yield-optimizing fees, and charges standard fees on its beJOE vaults, plus an additional 5% delivered directly to beJOE stakers.
 
 ## How does beJOE keep its peg?
 

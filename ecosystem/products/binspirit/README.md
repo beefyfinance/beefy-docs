@@ -46,7 +46,7 @@ Once you're holding binSPIRIT, there are a few available options. You can either
 
 ## But what about fees?
 
-Beefy has the lowest yield-optimizing fees on Fantom. It charges its standard 4.5% performance fees on its binSPIRIT and SPIRIT-binSPIRIT LP vaults. No Beefy fees are charged for using Beefy's Smart Minter to convert SPIRIT into binSPIRIT.
+Beefy strives to maintain some of the lowest yield-optimizing fees, and charges standard fees on its binSPIRIT vaults. No Beefy fees are charged for using Beefy's Smart Minter to convert SPIRIT into binSPIRIT.
 
 ## How does binSPIRIT keep its peg?
 

@@ -51,7 +51,7 @@ As eQi boosted protocol revenue is paid out in Qi tokens, these can be paid back
 
 ## But what about fees?
 
-Beefy has the lowest yield-optimizing fees on Polygon. It charges its standard 4.5% performance fees on its beQI vault and earnings pool.
+Beefy strives to maintain some of the lowest yield-optimizing fees, and charges standard fees on its beQI vaults.
 
 ## How does beQI keep its peg?
 
