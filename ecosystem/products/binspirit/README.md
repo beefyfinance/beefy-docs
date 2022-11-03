@@ -8,7 +8,7 @@ description: Beefy-wrapped inSPIRIT
 
 SPIRIT is the native token of SpiritSwap, a decentralized exchange on Fantom. It rewards holders with a share of the platform's revenues and also acts as a governance token. SPIRIT has a fixed supply and decaying emissions model.
 
-Users may stake and lock their SPIRIT tokens on SpiritSwap for a fixed period between 1 week and 4 years, to receive a proportional amount of inSPIRIT. inSPIRIT holders receive three additional benefits: (1) a proportion of the protocol's revenues (which vary week by week, but have been as high as 80% APR); (2) voting rights in the protocol's governance; and (3) up to 2.5x boosted rewards from SpiritSwap farms, depending on the balance of inSPIRIT held by the user.
+Users can stake and lock their SPIRIT tokens on SpiritSwap for a fixed period between 1 week and 4 years, to receive a proportional amount of inSPIRIT. inSPIRIT holders receive a range of benefits, including: (1) a proportion of the protocol's revenues (which vary week by week, but have been as high as 80% APR); (2) voting rights in the protocol's governance and vault incentives gauge; (3) up to 2.5x boosted rewards from SpiritSwap farms, depending on the balance of inSPIRIT held by the user; and (4) access to bribes for voting for third party-incentivised gauges.
 
 inSPIRIT is non-transferrable and the amount held by a given user decreases steadily to 0 when the lock is over. Users also cannot liquidate or transfer their locked SPIRIT positions until the end of the time lock.
 
@@ -58,6 +58,6 @@ If binSPIRIT goes over peg, then the contract will use protocol revenues to mint
 
 ## Can I vote with binSPIRIT? <a href="#can-i-vote-with-binspirit" id="can-i-vote-with-binspirit"></a>
 
-Yes, Beefy has set up a [dedicated Snapshot page](https://snapshot.org/#/binspirit.eth) for binSPIRIT voting. Each week, holders can submit weighted votes for any combination of whitelisted pairs from the SpiritSwap vault incentives gauge. Beefy will then gather the results and submit a single vote from the binSPIRIT contract, reflecting the exact proportion of votes from its own binSPIRIT voting page.
+No. Though Beefy had previously set up a binSPIRIT voting system and a [dedicated Snapshot page](https://snapshot.org/#/binspirit.eth), the move to SpiritSwap V2 has allowed Beefy to automate the process of bribing to help us obtain the highest return for holders. Beefy then returns all bribe earnings directly to the binSPIRIT vaults, facilitating high returns with minimal effort.
 
-Beefy's binSPIRIT voting is also open to bribes by external parties. Please reach out to the Core team on Discord, Telegram or Twitter to find out more.
+Though Beefy has automated the process, we are still open to receiving direct offers for binSPIRIT bribes. Please reach out to the Core team on Discord, Telegram or Twitter to find out more.
