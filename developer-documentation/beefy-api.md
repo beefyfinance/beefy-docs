@@ -221,6 +221,37 @@ Provides a detailed breakdown of the current fee structure for each Beefy vault.
 
 </details>
 
+### Other Beefy App Endpoints
+
+Endpoints developed for use by [the Beefy Application](https://app.beefy.finance/) to display other information not relating to individual vaults.
+
+<details>
+
+<summary>GET /bifibuyback</summary>
+
+Provides details of the daily amount of BIFI buyback carried out on each blockchain.
+
+{% code overflow="wrap" %}
+```json
+// Sample response from the /bifibuyback endpoint (e.g. BSC data)
+
+{
+  "bsc": {
+    "buybackTokenAmount": "0.377849674473987141",
+    "buybackUsdAmount": "121.1485184178464957989921757592912"
+  },
+  ...
+}
+```
+{% endcode %}
+
+**Field Notes:**
+
+* **buybackTokenAmount** - shows the current daily amount of $BIFI tokens bought back by the protocol on the relevant chain.
+* **buybackUsdAmount** - shows the current value of the above in USD.
+
+</details>
+
 ### External Asset Endpoints
 
 Endpoints developed for use by [the Beefy Application](https://app.beefy.finance/) to display information about the assets underlying our Beefy vaults to our users.
