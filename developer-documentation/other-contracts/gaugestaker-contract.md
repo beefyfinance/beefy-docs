@@ -6,7 +6,7 @@ description: 'Last Update: June 2022'
 
 ## What is the GaugeStaker? <a href="#what-is-the-gaugestaker" id="what-is-the-gaugestaker"></a>
 
-The [GaugeStaker contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/strategies/Gauge/GaugeStaker.sol) is the central smart contract for the [binSPIRIT](../../ecosystem/products/beefy-escrowed-tokens/binspirit.md) token, which manages both the collection of SpiritSwap protocol revenue for inSPIRIT holders and the delivery of inSPIRIT farm boosts to other Beefy SpiritSwap vaults.
+The [GaugeStaker contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/strategies/Gauge/GaugeStaker.sol) is the central smart contract for the [binSPIRIT](../../products/beefy-escrowed-tokens/binspirit.md) token, which manages both the collection of SpiritSwap protocol revenue for inSPIRIT holders and the delivery of inSPIRIT farm boosts to other Beefy SpiritSwap vaults.
 
 ## How does the GaugeStaker work?
 
@@ -14,7 +14,7 @@ The GaugeStaker has three notable roles: (1) managing user SPIRIT deposits to ac
 
 When users deposit SPIRIT, the GaugeStaker will automatically stake the SPIRIT with SpiritSwap to receive non-transferrable inSPIRIT. All staked SPIRIT must also be locked (so cannot be withdrawn), so the GaugeStaker locks all deposits for the longest possible period of time (currently 4 years) to receive the maximum amount of inSPIRIT. Protocol revenue rewards accrue constantly on the locked SPIRIT, and the GaugeStaker automatically claims these rewards and returns them to the [Beefy binSPIRIT vault](https://app.beefy.finance/#/vault/beefy-binspirit) on a regular basis, where they are automatically compounded.
 
-Holders of inSPIRIT are also entitled to [vote](../../ecosystem/products/beefy-escrowed-tokens/binspirit.md#can-i-vote-with-binspirit) in SpiritSwap governance and for the distribution of boosted farm rewards, so the GaugeStaker manages the allocation of these votes.&#x20;
+Holders of inSPIRIT are also entitled to [vote](../../products/beefy-escrowed-tokens/binspirit.md#can-i-vote-with-binspirit) in SpiritSwap governance and for the distribution of boosted farm rewards, so the GaugeStaker manages the allocation of these votes.&#x20;
 
 Finally, inSPIRIT holders also received boosted rewards on selected SpiritSwap farms. All boosted Beefy SpiritSwap vaults are configured to pass all of their deposits, withdrawals and harvesting of rewards through the GaugeStaker, to receive the benefits of the boost. This provides the highest possible boost across each of the farms, as the GaugeStaker holds the full concentration of Beefy's accumulated inSPIRIT.
 

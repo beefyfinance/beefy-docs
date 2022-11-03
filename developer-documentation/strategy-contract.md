@@ -48,7 +48,7 @@ WithdrawalFee is a number up to 10 (max withdraw fee) that is divided by 10000 (
 function harvestOnDeposit() external view returns (bool);
 ```
 
-Most Beefy vaults [harvest on deposit](../ecosystem/products/vaults.md#what-is-harvesting-on-deposit). What this means is that before the user's funds enter the strategy, the whole vault yield is harvested and reinvested. This prevents new depositors from stealing the yields of existing depositors. Due to this, any vault that is set to harvest on deposit is able to remove the Withdrawal Fee completely.
+Most Beefy vaults [harvest on deposit](../products/vaults.md#what-is-harvesting-on-deposit). What this means is that before the user's funds enter the strategy, the whole vault yield is harvested and reinvested. This prevents new depositors from stealing the yields of existing depositors. Due to this, any vault that is set to harvest on deposit is able to remove the Withdrawal Fee completely.
 
 ## Important Write Functions
 

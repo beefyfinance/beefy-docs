@@ -12,16 +12,6 @@
 * [BIFI Token](ecosystem/bifi-token/README.md)
   * [Tokenomics](ecosystem/bifi-token/tokenomics-and-governance.md)
   * [Contract Addresses](ecosystem/bifi-token/contract-addresses.md)
-* [Products](ecosystem/products/README.md)
-  * [Vaults](ecosystem/products/vaults.md)
-  * [Strategies](ecosystem/products/strategies.md)
-  * [Boost](ecosystem/products/boost.md)
-  * [Beefy-escrowed Tokens](ecosystem/products/beefy-escrowed-tokens/README.md)
-    * [beFTM](ecosystem/products/beefy-escrowed-tokens/beftm.md)
-    * [binSPIRIT](ecosystem/products/beefy-escrowed-tokens/binspirit.md)
-    * [beJOE](ecosystem/products/beefy-escrowed-tokens/bejoe.md)
-    * [beQI](ecosystem/products/beefy-escrowed-tokens/beqi.md)
-    * [beVELO](ecosystem/products/beefy-escrowed-tokens/bevelo.md)
 * [Beefy Bulletins](ecosystem/beefy-bulletins/README.md)
   * [What is Beefy Finance?](ecosystem/beefy-bulletins/what-is-beefy-finance.md)
   * [The Big Beefy Opportunity](ecosystem/beefy-bulletins/the-big-beefy-opportunity.md)
@@ -31,6 +21,20 @@
   * [Why Beefy Beats Your Bank](ecosystem/beefy-bulletins/why-beefy-beats-your-bank.md)
   * [Introducing Beefy's Unique Revenue Share Model](ecosystem/beefy-bulletins/introducing-beefys-unique-revenue-share-model.md)
   * [Beefy's Coveted Advantages Revealed](ecosystem/beefy-bulletins/beefys-coveted-advantages-revealed.md)
+
+## Products
+
+* [Vaults](products/vaults.md)
+* [Strategies](products/strategies.md)
+* [Boost](products/boost.md)
+* [Beefy-escrowed Tokens](products/beefy-escrowed-tokens/README.md)
+  * [beFTM](products/beefy-escrowed-tokens/beftm.md)
+  * [binSPIRIT](products/beefy-escrowed-tokens/binspirit.md)
+  * [beJOE](products/beefy-escrowed-tokens/bejoe.md)
+  * [beQI](products/beefy-escrowed-tokens/beqi.md)
+  * [beVELO](products/beefy-escrowed-tokens/bevelo.md)
+* [Advanced Vaults](products/advanced-vaults/README.md)
+  * [GMX and GLP](products/advanced-vaults/gmx-and-glp.md)
 
 ## FAQ
 

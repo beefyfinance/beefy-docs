@@ -16,7 +16,7 @@ At Beefy 'you earn what you stake', regardless if this is a liquidity pool (LP) 
 
 !["What you see is what you get": the fees are already accounted for in the displayed APY!](../.gitbook/assets/beefy-info-fees.png)
 
-More on the vault fees [here](../ecosystem/products/vaults.md#what-is-the-vault-fee-structure).
+More on the vault fees [here](../products/vaults.md#what-is-the-vault-fee-structure).
 
 ## Beefy Zap:
 
@@ -32,4 +32,4 @@ When using Zap, always check your quote! While Zap does protect you against mark
 
 ![](../.gitbook/assets/beefy-info-boost.png)
 
-When a vault gets boosted in Beefy's Launchpool, you earn both the base asset and the partner's token! For more info, read the Launchpool FAQ [here](../ecosystem/products/boost.md).
+When a vault gets boosted in Beefy's Launchpool, you earn both the base asset and the partner's token! For more info, read the Launchpool FAQ [here](../products/boost.md).

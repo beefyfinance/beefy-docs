@@ -24,7 +24,7 @@ Balance is the amount of "want" stored in the vault, strategy and yield source.
 function totalSupply() external view returns (uint256);
 ```
 
-Total Supply is the total amount of mooTokens minted. MooTokens are always 18 decimals. ([#what-are-mootokens](../ecosystem/products/vaults.md#what-are-mootokens "mention"))
+Total Supply is the total amount of mooTokens minted. MooTokens are always 18 decimals. ([#what-are-mootokens](../products/vaults.md#what-are-mootokens "mention"))
 
 ### _Get Price Per Full Share_
 
