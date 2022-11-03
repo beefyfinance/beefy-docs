@@ -1,24 +1,20 @@
 ---
-description: Beefy Escrowed Fantom
+description: Beefy-escrowed Fantom
 ---
 
 # beFTM
 
 ## What is beFTM?&#x20;
 
-beFTM is short for Beefy Escrowed Fantom. beFTM gives stakers access to maximized Validator Node rewards that typically aren’t available to the individual investor without locking FTM for 1 year. The beFTM token is 1:1 backed by FTM and can be staked on the Beefy platform and in farms on major DEXes.
+beFTM is short for Beefy-escrowed Fantom. beFTM gives stakers access to maximized Validator Node rewards that typically aren’t available to the individual investor without locking FTM for 1 year. The beFTM token is 1:1 backed by FTM and can be staked on the Beefy platform and in farms on major DEXes.
 
 ## How does one get beFTM?
 
 To get your hands on beFTM, users must first deposit their FTM in the Beefy Delegator Vault. The FTM is then used to buy beFTM from a liquidity pool or minted 1:1 depending on which is most profitable for the user.
 
-![beMINT determines the most profitable strategy](<../../.gitbook/assets/beftm\_mint (1).jpg>)
+![beMINT determines the most profitable strategy](<../../../.gitbook/assets/beftm\_mint (1).jpg>)
 
 beFTM can also be manually purchased on many DEXes such as Solidly, BeethovenX, SpiritSwap, and SpookySwap. One might need the beFTM contract address for trading: [0x7381eD41F6dE418DdE5e84B55590422a57917886](https://ftmscan.com/token/0x7381eD41F6dE418DdE5e84B55590422a57917886)
-
-## How does the beFTM strategy work?
-
-![](../../.gitbook/assets/Flow\_beFTM.png)
 
 ## How does beFTM delegation work?&#x20;
 
@@ -33,6 +29,10 @@ After depositing FTM to get beFTM, the FTM gets delegated to Beefy's Validator N
 * Deposit beFTM in the beFTM Vault for compounded interest in the form of more beFTM;
 * Deposit beFTM in the WFTM Earnings Pool for simple interest with WFTM rewards;
 * Stake in beFTM-FTM liquidity pools on all the major DEXes on Fantom.
+
+## How does the beFTM strategy work?
+
+![](../../../.gitbook/assets/Flow\_beFTM.png)
 
 ## How does beFTM keep its peg?
 

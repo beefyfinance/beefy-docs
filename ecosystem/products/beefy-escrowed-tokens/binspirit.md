@@ -6,7 +6,7 @@ description: Beefy-wrapped inSPIRIT
 
 ## What is SPIRIT?
 
-SPIRIT is the native token of SpiritSwap, a decentralized exchange on Fantom. It rewards holders with a share of the platform's revenues and also acts as a governance token. SPIRIT has a fixed supply and decaying emissions model.
+SPIRIT is the native token of SpiritSwap, a decentralized exchange native to the Fantom blockchain. It rewards holders with a share of the platform's revenues and also acts as a governance token. SPIRIT has a fixed supply and decaying emissions model.
 
 Users can stake and lock their SPIRIT tokens on SpiritSwap for a fixed period between 1 week and 4 years, to receive a proportional amount of inSPIRIT. inSPIRIT holders receive a range of benefits, including: (1) a proportion of the protocol's revenues (which vary week by week, but have been as high as 80% APR); (2) voting rights in the protocol's governance and vault incentives gauge; (3) up to 2.5x boosted rewards from SpiritSwap farms, depending on the balance of inSPIRIT held by the user; and (4) access to bribes for voting for third party-incentivised gauges.
 
@@ -14,7 +14,7 @@ inSPIRIT is non-transferrable and the amount held by a given user decreases stea
 
 ## What is binSPIRIT?
 
-binSPIRIT is the Beefy-wrapped version of inSPIRIT which is staked to accumulate inSPIRIT. Holders of binSPIRIT receive each of the benefits of inSPIRIT detailed above, but without being constrained by the SpiritSwap lock mechanism.
+binSPIRIT is the Beefy-escrowed version of inSPIRIT which is staked to accumulate inSPIRIT. Holders of binSPIRIT receive each of the benefits of inSPIRIT detailed above, but without being constrained by the SpiritSwap lock mechanism.
 
 The token is fully backed 1:1 by SPIRIT, though is perpetually locked for inSPIRIT, so cannot be withdrawn back to SPIRIT. However, binSPIRIT is a transferrable ERC-20 token, so can be swapped for other tokens on decentralised exchanges, allowing holders to exit their positions at any time.
 
@@ -32,9 +32,9 @@ All protocol revenues are paid out in SPIRIT, which is automatically claimed by 
 
 All deposits, withdrawals and harvest rewards from Beefy's boosted SpiritSwap vaults are routed through the binSPIRIT contract, so that they may receive the benefit of its inSPIRIT boost. By keeping all of the accumulated inSPIRIT in one contract, and running all the vaults through that contract, binSPIRIT ensures that each vault receives the maximum available boost. All boosted rewards are retained by the individual Beefy vaults.
 
-The binSPIRIT contract also submits votes on Beefy's behalf for SpiritSwap governance proposals and vault incentive gauges. binSPIRIT holders are empowered to [vote](./#can-i-vote-with-binspirit) on gauges, as described furhter below.
+The binSPIRIT contract also submits votes on Beefy's behalf for SpiritSwap governance proposals and vault incentive gauges. binSPIRIT holders are empowered to [vote](binspirit.md#can-i-vote-with-binspirit) on gauges, as described furhter below.
 
-For further details of binSPIRIT's specific functionality and methods, see the description of its main [GaugeStaker smart contract](gaugestaker-contract.md).
+For further details of binSPIRIT's specific functionality and methods, see the description of its main [GaugeStaker smart contract](../../../developer-documentation/other-contracts/gaugestaker-contract.md).
 
 ## How can I earn with my binSPIRIT?
 
