@@ -44,7 +44,7 @@ Following the passage of \[BIP:45], Beefy has introduced a maximum performance f
 * 0.5% is awarded to the vault strategist; and
 * 0.05% is awarded to the one calling the harvest function.
 
-We also typically assign a deposit or withdrawal fee of 0.1% to each vault to protect bad actors from abusing the vaults with too much flipping. We share this amongst all the other stakers in the vault.
+For the rare vaults which do not [Harvest on Deposit](https://docs.beefy.finance/ecosystem/products/vaults#what-is-harvesting-on-deposit), we assign a withdrawal fee of up to 0.1% to each vault to protect bad actors from abusing the vaults with too much flipping. We share this amongst all the other stakers in the vault.
 
 Apart from the fees fully listed above, anyone using Beefy should also remember the network transaction fees when adding or removing funds. These small fees go to the operators keeping the blockchain running, not Beefy.
 
