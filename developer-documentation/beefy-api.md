@@ -76,7 +76,7 @@ The information includes fields for the relevant vault's name/ID, chain, token, 
 * **id** - the unique identifying string assigned to each vault, including separate versions of the same vault.
 * **tokenAddress** - the contract address for the main deposit asset, typically an LP token.
 * **earnedTokenAddress** - the contract of the token which is earned by the strategy used by the vault. For most Beefy vaults, this is the same as the vault contract, because the strategy is autocompounding. For earnings pool vaults (which don't autocompound), this will be the native token of the chain or protocol that the vault relates to.
-* **earnContractAddress** - the Beefy vault contract which handles deposits and withdrawals and issues the mooVault token to users.
+* **earnContractAddress** - the address of the Beefy vault contract which handles deposits and withdrawals and issues the mooVault token to users.
 * **status** - shows whether a vault is live ("active") or retired ("eol").
 * **assets** - the underlying assets at the base of the relevant vault's stack (typically the assets included in the LP that the vault is built on).
 * **strategyTypeID** - indicates what type of strategy is being utilised by the vault (e.g. "single" asset, "lp", "multi-lp", etc).
@@ -354,6 +354,115 @@ Provides information on all of the tokens utilised by Beefy, including individua
 **GET /tokens/{blockchain}**
 
 For further specificity, you can add a {blockchain} parameter to the /tokens endpoint to return only tokens on a given blockchain (e.g. /tokens/polygon returns only tokens issued on the Polygon blockchain).
+
+</details>
+
+### Other Beefy App Endpoints
+
+Endpoints developed for use by [the Beefy Application](https://app.beefy.finance/) to display other information not relating to individual vaults.
+
+<details>
+
+<summary>GET /boosts</summary>
+
+Provides information on all [Launchpool Boosts](../ecosystem/products/boost.md) hosted by Beefy on the application, including live and historic boosts.
+
+```
+// Sample response from /boosts endpoint (e.g. Optimism BIFI-WETH LP token)
+
+{
+  "id": "moo_velodrome-weth-bifi-beefy",
+  "poolId": "velodrome-weth-bifi",
+  "name": "Beefy",
+  "assets": [
+    "BIFI",
+    "ETH"
+  ],
+  "tokenAddress": "0x3532b6f723948eF39d5DCf44C16855239aF81082",
+  "earnedToken": "OP",
+  "earnedTokenDecimals": 18,
+  "earnedTokenAddress": "0x4200000000000000000000000000000000000042",
+  "earnContractAddress": "0x8F755873546F4D0EDf7d41fF8604C8A632113eB7",
+  "earnedOracle": "tokens",
+  "earnedOracleId": "OP",
+  "partnership": true,
+  "status": "active",
+  "isMooStaked": true,
+  "partners": [
+    "beefy"
+  ],
+  "chain": "optimism",
+  "periodFinish": 1667843632
+},
+...
+```
+
+**Field Notes:**
+
+* **id** - the unique identifying string assigned to each vault, including separate versions of the same vault.
+* **poolId** - the unique identifying string assigned to each LP that Beefy has vaulted, including separate versions of the same LP.
+* **name** - the full name of the partner(s) which have funded the boost.
+* **assets** - a list of the underlying assets used for the vault or any underlying LP.&#x20;
+* **tokenAddress** - the address of the Beefy vault contract which handles deposits and withdrawals and issues the mooVault token to users.
+* **earnedToken** - the name of the boost reward token earned by boost participants.
+* **earnedTokenDecimals** - the number of decimal places assigned and used for the earnedToken from its creation.
+* **earnTokenAddress** - the contract address of the earnedToken.
+* **earnContractAddress** - the contract address of the boost contract, which holds the assigned boost rewards and distributes them to boost participants.
+* **isMooStaked** - whether the boost requires users to stake their mooTokens in a further contract with Beefy to receive the boost.
+* **partners** - shorthand label for the partner(s) which have funded the boost.
+* **periodFinish** - the block of the hosted blockchain where the boost ends.
+
+**GET /boosts/{blockchain}**
+
+For further specificity, you can add a {blockchain} parameter to the /boosts endpoint to return only boosts on a given blockchain (e.g. /boosts/polygon returns only boosts hosted on the Polygon blockchain).
+
+</details>
+
+<details>
+
+<summary>GET /config</summary>
+
+Provides information on the addresses of the current configuration of wallets used to operate each blockchain used by the [the Beefy Application](https://app.beefy.finance/).
+
+<pre><code>// Sample response from /config endpoint (e.g. Polygon blockchain)
+<strong>
+</strong><strong>{
+</strong>  "polygon": {
+    "devMultisig": "0x09dc95959978800E57464E962724a34Bb4Ac1253",
+    "treasuryMultisig": "0xe37dD9A535c1D3c9fC33e3295B7e08bD1C42218D",
+    "strategyOwner": "0x6fd13191539e0e13B381e1a3770F28D96705ce91",
+    "vaultOwner": "0x94A9D4d38385C7bD5715A2068D69B87FF81F4BF3",
+    "keeper": "0x4fED5491693007f0CD49f4614FFC38Ab6A04B619",
+    "treasurer": "0xe37dD9A535c1D3c9fC33e3295B7e08bD1C42218D",
+    "launchpoolOwner": "0x09dc95959978800E57464E962724a34Bb4Ac1253",
+    "rewardPool": "0xDeB0a777ba6f59C78c654B8c92F80238c8002DD2",
+    "treasury": "0x09EF0e7b555599A9F810789FfF68Db8DBF4c51a0",
+    "beefyFeeRecipient": "0x7313533ed72D2678bFD9393480D0A30f9AC45c1f",
+    "bifiMaxiStrategy": "0xD126BA764D2fA052Fc14Ae012Aef590Bc6aE0C4f",
+    "voter": "0x5e1caC103F943Cd84A1E92dAde4145664ebf692A",
+    "beefyFeeConfig": "0x8E98004FE65A2eAdA63AD1DE0F5ff76d845f14E7"
+  },
+...</code></pre>
+
+**Field Notes:**
+
+* **devMultisig** - the address of the Beefy developer multisignature wallet used to manage development updates on the chain.
+* **treasuryMultisig** - the address of the Beefy treasury multisignature wallet used to manage Beefy's core treasury of funds on the chain.
+* **strategyOwner** - the address of the standard Beefy wallet that acts as owner of strategy contracts on the chain.
+* **vaultOwner** - the address of the standard Beefy wallet that acts as owner of vault contracts on the chain.
+* **keeper** - the address of the standard Beefy wallet that acts as keeper of vault contracts on the chain. This includes managing the whitelist of strategies used by the vault, and pausing or panicking the vault if required.
+* **treasurer** - the address of the standard Beefy wallet that acts as the treasurer on the chain. This includes managing payments from the treasury for various reasons, and is often the same wallet as the treasuryMultisig.
+* **launchpoolOwner** - the address of the standard Beefy wallet that acts as owner of the launchpool/boost contracts deployed on the chain. This is often the same wallet as the devMultisig.
+* **rewardPool** - the address of the standard Beefy wallet that holds the rewards allocated for boosts on the chain.
+* **treasury** - the address of the standard Beefy wallet that acts as the treasury on the chain, and is managed by the treasurer and treasuryMultisig.
+* **beefyFeeRecipient** - the address of the standard Beefy wallet that acts receives performance fees charged on harvests from all Beefy vaults on the chain.
+* **bifiMaxiStrategy** - the address of the strategy attached to the native $BIFI Maxi vault on the chain.&#x20;
+* **voter** - the address of the standard Beefy wallet that is used to direct Beefy's voting power on various third party protocols.
+* **beefyFeeConfig** - address of the upgradeable proxy contract used to set the configuration of performance fees charged for vaults on the chain.
+
+**GET /config/{blockchain}**
+
+For further specificity, you can add a {blockchain} parameter to the /config endpoint to return the configuration details of a given blockchain (e.g. /config/polygon returns only the details for the Polygon blockchain).
 
 </details>
 
