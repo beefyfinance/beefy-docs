@@ -20,6 +20,8 @@ The BIFI token is deployed on all chains where vaults are live. To switch to ano
 * Moonbeam: [0x595c8481c48894771CE8FaDE54ac6Bf59093F9E8](https://moonscan.io/token/0x595c8481c48894771ce8fade54ac6bf59093f9e8)
 * Syscoin: [0xD7c295E399CA928A3a14b01D760E794f1AdF8990](https://explorer.syscoin.org/address/0xD7c295E399CA928A3a14b01D760E794f1AdF8990/transactions)
 * Oasis (Emerald): [0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A](https://explorer.emerald.oasis.dev/address/0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A/transactions)
+* Kava: [0xC19281F22A075E0F10351cd5D6Ea9f0AC63d4327](https://explorer.kava.io/address/0xC19281F22A075E0F10351cd5D6Ea9f0AC63d4327/transactions)
+* Ethereum: [0x5870700f1272a1adbb87c3140bd770880a95e55d](https://etherscan.io/token/0x5870700f1272a1adbb87c3140bd770880a95e55d)
 
 On all these blockchains, you can stake $BIFI in the native staking pools to earn the blockchains respective token or earn more $BIFI in a BIFI Maxi vault!
 
