@@ -1,5 +1,5 @@
 ---
-description: 'Last Update: October 2022'
+description: 'Last Update: November 2022'
 ---
 
 # Beefy API
@@ -155,7 +155,7 @@ Provides more detailed information relating to the yield of each Beefy vault, wh
 * **vaultApy** - the annual percentage yield (APY) of the vault, calculated by compounding the vaultApr detailed above, using the compoundingsPerYear figure, and adjusting for the beefyPerformanceFee.
 * **lpFee** - the Liquidity Provider (LP) fee charged for each trade.
 * **tradingApr** - the annual interest received from trading fees, without applying or account for any compounding effect.
-* **totalApy** - the known total APY, calculated as totalApy = (1 + vaultApr) \* (1 + (compounded tradingApr)) - 1.
+* **totalApy** - the known total APY, calculated as totalApy = (1 + vaultApy) \* (1 + tradingApr) - 1.
 
 </details>
 
