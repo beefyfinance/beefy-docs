@@ -26,7 +26,7 @@ The GaugeStaker contract incorporates a range of different functionality and met
 
 A user can deposit SPIRIT (`want`) and the contract will confirm the amount that is received by checking balances before and after the transfer. If the received amount is non-zero then check if an existing lock for SPIRIT exists, which it likely will unless the lock has not been initiated before or has been left to expire. If the lock exists then it will extended out to the full 4 years if the current lock time is less than the full amount, and the received balance of SPIRIT is locked to get a 1:1 amount of inSPIRIT. If no lock currently exists then create a new one and lock the balance of SPIRIT on the contract. Finally mint an equal amount of binSPIRIT as the received balance of SPIRIT from the user.
 
-```
+```solidity
 // deposit 'want' and lock
 function _deposit(address _user, uint256 _amount) internal nonReentrant whenNotPaused {
     uint256 _pool = balanceOfWant();    
@@ -50,7 +50,7 @@ function _deposit(address _user, uint256 _amount) internal nonReentrant whenNotP
 
 The Beefy Keeper can vote on gauge incentives using the inSPIRIT balance on the GaugeStaker as voting power. It will be mainly used to vote for Beefy and strategic partner's gauges, and can be governed by Beefy DAO to vote for various incentives on gauges. The voting function is a simple call to SpiritSwap's Gauge Proxy contract which records the votes and decides the distribution of gauge incentives. The Beefy keeper can split the voting power between multiple gauges in a single call using the parameter arrays.
 
-```
+```solidity
 // vote on boosted farms
 function vote(address[] calldata _tokenVote, uint256[] calldata _weights) external onlyManager {    
     gaugeProxy.vote(_tokenVote, _weights);    
@@ -64,7 +64,7 @@ Strategies for Beefy's SpiritSwap vaults must pass through their deposits, withd
 
 Deposits and withdrawals pass through the exact amount that is requested (`_amount`) in the token that is assigned to the gauge (`_underlying`). Harvests (`claimGaugeReward()`) pass through only the SPIRIT (`want`) reward that's received by the GaugeStaker when claiming the reward, ignoring the existing balance on the GaugeStaker. None of the funds are kept on the GaugeStaker, they are always passed across in the same transaction.
 
-```
+```solidity
 // pass through a deposit to a gauge
 function deposit(address _gauge, uint256 _amount) external onlyWhitelist(_gauge) {
     address _underlying = IGauge(_gauge).TOKEN();    
@@ -92,7 +92,7 @@ function claimGaugeReward(address _gauge) external onlyWhitelist(_gauge) {
 
 Holding inSPIRIT gives the GaugeStaker the right to claim a portion of SpiritSwap's protocol fees, which will be distributed to binSPIRIT stakers in a reward pool. The protocol fees are distributed once a week in the form of SPIRIT and need to be claimed from the Fee Distributor contract. The Reward Pool contract will call the claim function via `claimVeWantReward()`. Only the SPIRIT (`want`) reward is immediately passed back to the Reward Pool, if there is anything available to claim.
 
-```
+```solidity
 // pass through rewards from the fee distributor
 function claimVeWantReward() external onlyRewardPool {    
     uint256 _before = balanceOfWant();    
@@ -106,7 +106,7 @@ function claimVeWantReward() external onlyRewardPool {
 
 The Beefy Keeper can whitelist a strategy address as long as there isn't an active strategy that has funds deployed in the same gauge as the new strategy. An old strategy must be panicked before a new strategy for the same gauge can be tested, so user funds are always protected. The approval for the token (`_want`) assigned to the gauge is reset and increased to the max limit for spending by the gauge. The gauge is mapped to the whitelisted strategy and the strategy is allowed access to the GaugeStaker for the specified gauge.
 
-```
+```solidity
 // whitelists a strategy address to interact with the Gauge Staker and gives approvals
 function whitelistStrategy(address _strategy) external onlyManager {    
     IERC20Upgradeable _want = IGaugeStrategy(_strategy).want();    
@@ -122,7 +122,7 @@ function whitelistStrategy(address _strategy) external onlyManager {
 
 A new strategy for a gauge with an existing strategy can be proposed once it has been fully tested. `proposeStrategy()` should be called on the GaugeStaker before `upgradeStrat()` on the vault so the switch will succeed. The new strategy must have the same gauge as the previous strategy. `upgradeStrategy()` is only called in `retireStrat()` on the previous strategy, so is controlled indirectly by the vault owner through upgrading the strategy address on the vault.
 
-```
+```solidity
 // prepare a strategy to be retired and replaced with another
 function proposeStrategy(address _oldStrategy, address _newStrategy) external onlyManager {    
     require(IGaugeStrategy(_oldStrategy).gauge() == IGaugeStrategy(_newStrategy).gauge(), '!gauge');    

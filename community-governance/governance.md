@@ -1,5 +1,5 @@
 ---
-description: 'Last Update: August 2022'
+description: 'Last Update: November 2022'
 ---
 
 # Governance
@@ -18,6 +18,8 @@ In addition, the day-to-day operations of Beefy are governed by our Core contrib
 
 By simply holding $BIFI, even if staked in the native token Earnings Pool or BIFI Maxi vault, a user earns the right to create proposals and vote in them. Voting sway and power are derived from the $BIFI holdings of the participant. The reasoning behind this follows that those holding more $BIFI are more invested in the project, and therefore have a larger incentive for the platform itself to succeed and prosper.
 
+Beyond voting for yourself, you can also register to participate as a delegate, so others can delegate their voting power to you for inclusion with your own vote. Through this mechanism, trusted voices in the community can leverage their support with a small amount of effort on the part of their supporters. It also allows those short on time to ensure that their $BIFI is participating in governance, without requiring them to engage with every proposal. See below and the [delegateregistry-contract.md](../developer-documentation/third-party-contracts/delegateregistry-contract.md "mention") page for further details.
+
 You can see proposals and vote on them yourself by heading to [vote.beefy.finance](https://vote.beefy.finance/).
 
 ![Beefy's Snapshot page houses our governance proposals and voting.](<../.gitbook/assets/image (3).png>)
@@ -29,6 +31,16 @@ Voting requires you to hold $BIFI, which can either simply be held in your walle
 To submit your vote, simply head to to our [Snapshot page](https://vote.beefy.finance/), connect your wallet to Snapshot and then head to an open proposal you wish to vote on. Here you'll find an interface to "Cast your vote" by selecting your preferred option(s) and clicking "Vote". You'll then be required to sign a transaction through your wallet to formally submit your vote.
 
 ![Look for the "Cast your vote" box on an open proposal page to get involved.](<../.gitbook/assets/image (2).png>)
+
+## How do I delegate my vote?
+
+You can delegate your vote on any chain by interacting directly with the DelegateRegistry contract on that chain. A full tutorial of how to delegate is available in the [delegateregistry-contract.md](../developer-documentation/third-party-contracts/delegateregistry-contract.md "mention") page at [#delegation-walkthrough](../developer-documentation/third-party-contracts/delegateregistry-contract.md#delegation-walkthrough "mention").&#x20;
+
+Please note that you must delegate separately for every chain which you hold $BIFI on. Otherwise, your delegation will only be effective on the chains on which you submitted your delegation call(s).
+
+## How do I become a delegate?
+
+If you'd like to represent the Cowmoonity by acting as a delegate for others to direct their voting power to, you can do so by reaching out to us and providing your name and public wallet address. A full list of the current delegates offering to represent your interests is maintained in this [Google sheet](https://docs.google.com/spreadsheets/d/1sJH4jg3eEEJDpbws55qUmzPeLDiDuL\_5OAQobSn7m2Y/edit?usp=sharing). We'd recommend that budding delegates seek to provide as much information as they can for the sheet, for the benefit of users who may delegate to them.
 
 ## How are votes counted?
 

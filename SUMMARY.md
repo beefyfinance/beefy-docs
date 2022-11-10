@@ -75,8 +75,10 @@
 * [Beefy API](developer-documentation/beefy-api.md)
 * [Beefy Vault V6](developer-documentation/beefy-vault-v6.md)
 * [Strategy Contract](developer-documentation/strategy-contract.md)
-* [Other Contracts](developer-documentation/other-contracts/README.md)
-  * [GaugeStaker Contract](developer-documentation/other-contracts/gaugestaker-contract.md)
+* [Other Beefy Contracts](developer-documentation/other-beefy-contracts/README.md)
+  * [GaugeStaker Contract](developer-documentation/other-beefy-contracts/gaugestaker-contract.md)
+* [Third Party Contracts](developer-documentation/third-party-contracts/README.md)
+  * [DelegateRegistry Contract](developer-documentation/third-party-contracts/delegateregistry-contract.md)
 
 ## Additional Resources
 
