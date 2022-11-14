@@ -18,6 +18,7 @@ The BIFI token is deployed on all chains where vaults are live. To switch to ano
 * Metis: [0xe6801928061CDbE32AC5AD0634427E140EFd05F9](https://andromeda-explorer.metis.io/token/0xe6801928061CDbE32AC5AD0634427E140EFd05F9/token-transfers)
 * Aurora: [0x218c3c3D49d0E7B37aff0D8bB079de36Ae61A4c0](https://explorer.mainnet.aurora.dev/token/0x218c3c3D49d0E7B37aff0D8bB079de36Ae61A4c0/token-transfers)
 * Moonbeam: [0x595c8481c48894771CE8FaDE54ac6Bf59093F9E8](https://moonscan.io/token/0x595c8481c48894771ce8fade54ac6bf59093f9e8)
+* Optimism: [0x4e720dd3ac5cfe1e1fbde4935f386bb1c66f4642](https://optimistic.etherscan.io/token/0x4e720dd3ac5cfe1e1fbde4935f386bb1c66f4642)
 * Syscoin: [0xD7c295E399CA928A3a14b01D760E794f1AdF8990](https://explorer.syscoin.org/address/0xD7c295E399CA928A3a14b01D760E794f1AdF8990/transactions)
 * Oasis (Emerald): [0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A](https://explorer.emerald.oasis.dev/address/0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A/transactions)
 * Kava: [0xC19281F22A075E0F10351cd5D6Ea9f0AC63d4327](https://explorer.kava.io/address/0xC19281F22A075E0F10351cd5D6Ea9f0AC63d4327/transactions)
