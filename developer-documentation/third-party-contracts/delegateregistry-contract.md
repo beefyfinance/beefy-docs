@@ -4,6 +4,10 @@ description: 'Last Update: November 2022'
 
 # DelegateRegistry Contract
 
+{% hint style="warning" %}
+Please note that vote delegation for Beefy's Snapshot is currently unavailable. This is due to Beefy's custom solution built on top of the standard Snapshot tooling, which enables the full functionality of your $BIFI tokens on the various chains we're deployed on. Keep an eye on [Beefy's Discord](https://discord.gg/yq8wfHd) for details of when delegation is available again.
+{% endhint %}
+
 The [DelegateRegistry contract](https://github.com/gnosis/delegate-registry/blob/main/contracts/DelegateRegistry.sol) is a governance smart contract developed by Gnosis and used by Snapshot Labs to facilitate vote delegation in Snapshot-based governance spaces. Users can authorise another user to vote on their behalf using their voting power. Any user can delegate their voting power to any address on the relevant blockchain, though the delegated voting power will only be used where the delegate adddress votes as well. Users can also remove their delegations at any time.
 
 Through this mechanism, trusted voices in the community can leverage their support with a small amount of effort on the part of their supporters. It also allows those short on time to ensure that their voting power is participating in governance, without requiring them to engage with every proposal that arises.
@@ -117,7 +121,8 @@ function clearDelegate(bytes32 id) public {
 </strong>        delegation[msg.sender][id] = address(0);
         
         emit ClearDelegate(msg.sender, id, currentDelegate);
-}</code></pre>
+}
+</code></pre>
 
 Where the call is successful, the method will update the delegation mapping to the null address (i.e. singifying that the user has not delegated their voting power), and then emits the [#cleardelegate](delegateregistry-contract.md#cleardelegate "mention") event to signify that the old delegate has been removed.
 
