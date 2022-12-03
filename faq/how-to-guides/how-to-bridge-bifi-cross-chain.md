@@ -1,62 +1,56 @@
----
-description: >-
-  In this guide you will find the required steps to bridge BIFI cross-chain
-  using Metamask and AnySwap.
----
+# Comment faire le pont des BIFI à travers les chaînes
 
-# How to bridge BIFI cross-chain
+En tant que véritable jeton multi-chaîne, les BIFI peuvent être mis en jeu pour gagner une part des revenus de Beefy sur _chaque_ chaîne intégrée par Beefy. Chaque chaîne offre différentes opportunités pour placer vos BIFI, il suffit de regarder les différents taux d'intérêt du coffre BIFI Maxi de la chaîne !
 
-As a true multichain token, BIFI can be staked to earn a share of Beefy's revenue on _every_ chain integrated by Beefy. Each chain holds different opportunities for staking your BIFI, just check out the different APYs of the chain's BIFI Maxi vault!&#x20;
+## Conditions préalables
 
-## Prerequisites
+* Vous devez avoir le réseau actuel et de destination configuré dans votre Metamask.
+* Vous aurez besoin du jeton de gaz natif de la chaîne actuelle et de destination pour payer les frais de transaction.
 
-* You need to have the current and destination network configured in your Metamask.
-* You will need the current and destination chain's native gas token to pay for transaction fees.
+## Cheminement
 
-## Walkthrough
+Vous pouvez établir un pont avec le jeton BIFI à partir de n'importe quel réseau de soutien. À titre d'exemple, nous allons, dans ce guide, relier le jeton BIFI de Fantom à Cronos.
 
-You may bridge BIFI from any of the support networks. As an example, we are going to bridge BIFI from Fantom to Cronos in this guide.
+### 1. Visitez [https://anyswap.exchange/#/router](https://anyswap.exchange/#/router)
 
-### 1. Visit [https://anyswap.exchange/#/router](https://anyswap.exchange/#/router)
+### 2. Changez de réseau pour Fantom et connectez votre portefeuille.
 
-### 2. Switch network to Fantom and connect your wallet
+![Connectez-vous à votre portefeuille MetaMask](<../../.gitbook/assets/anyswap\_network (1).png>)
 
-![Connect to your MetaMask wallet](<../../.gitbook/assets/anyswap\_network (1).png>)
+### 3. Sélectionnez BIFI à envoyer
 
-### 3. Select BIFI to send
-
-Click the USDC icon in the "From" field,
+Cliquez sur l'icône USDC dans le champ “From",
 
 ![](../../.gitbook/assets/anyswap\_choosefrom.png)
 
-and select BIFI:
+et sélectionnez BIFI :
 
 ![](../../.gitbook/assets/anyswap\_choosebifi.png)
 
-### 4. Select BIFI to receive
+### 4. Sélectionnez BIFI pour recevoir
 
-At this step, you can select on which network you wish to receive BIFI. Click on the destination chain:
+À cette étape, vous pouvez sélectionner le réseau sur lequel vous souhaitez recevoir le BIFI. Cliquez sur la chaîne de destination :
 
 ![](../../.gitbook/assets/anyswap\_choosenetwork.png)
 
-We select Cronos in this guide:
+Nous choisissons Cronos dans ce guide :
 
 ![](../../.gitbook/assets/anyswap\_destinationnetwork.png)
 
-### 5. Specify the amount to send
+### 5. Indiquez le montant à envoyer
 
-Either type in the amount, or click your balance.
+Vous pouvez soit taper le montant, soit cliquer sur votre solde.
 
 ![](../../.gitbook/assets/anyswap\_amount.png)
 
-### 6. Read the terms of **service**
+### 6. Lire les conditions de **service**
 
-![AnySwap's terms of service as of Decemvber 2021](../../.gitbook/assets/anyswap\_tos.png)
+![Conditions de service d'AnySwap à partir de décembre 2021](../../.gitbook/assets/anyswap\_tos.png)
 
-### 6. Send it!
+### 6. Envoyez-les jetons BIFI !
 
-If you consent with the terms of service, click the "Swap" button.
+Si vous acceptez les conditions de service, cliquez sur le bouton "Swap".
 
 ![](../../.gitbook/assets/anyswap\_send.png)
 
-That's it! Your BIFI will now be sent to the Cronos network! :tada:
+C'est fait ! Vos jetons BIFI seront désormais envoyés sur le réseau Cronos !

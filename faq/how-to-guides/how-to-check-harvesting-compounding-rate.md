@@ -1,51 +1,45 @@
----
-description: >-
-  In this guide you will find the required steps to check a vault's harvesting
-  and compounding rate.
----
+# Comment vérifier le rythme de collecte et de composition d'un coffre ?
 
-# How to check the harvesting and compounding rate of a vault
+Les [coffres](../../products/vaults.md) de Beefy Finance, ou plus précisément la stratégie d'investissement liée au coffre, augmentera automatiquement le montant de votre actif déposé en combinant les récompenses de la ferme de rendement pour obtenir plus de cet actif. Ce cycle constant de collecte de récompenses et de capitalisation se produit généralement plusieurs fois par jour. Dans ce mode d'emploi, nous vous expliquons comment vérifier précisément le rythme de composition.
 
-Beefy Finance's [vaults](../../ecosystem/products/vaults.md), or more specifically the investment strategy tied to the vault, will automatically increase the amount of your deposited asset by compounding arbitrary yield-farm rewards back into more of that asset. This constant cycle of harvesting rewards, and compounding, happens usually multiple times per day. In this How-To we walk you through steps to check precisely how often the compounding occurs.
+## Cheminement
 
-## Walkthrough
+NOTE : Quelle que soit la chaîne que vous choisissez, vous pouvez utiliser le tableau de bord de Beefy [dashboard.beefy.finance](https://dashboard.beefy.finance) pour lancer votre démarche.
 
-NOTE: No matter which chain you choose, you can use Beefy's [dashboard.beefy.finance](https://dashboard.beefy.finance) to launch your investigation.
+### Exemple de la Binance Smart Chain (BSC)
 
-### Binance Smart Chain (BSC) example
+Choisissons le coffre CAKE-BNB LP sur la Smart Chain de Binance pour faire la démonstration :
 
-Let's choose the CAKE-BNB LP vault on the Binance Smart Chain to demonstrate:
+![Capture d'écran prise le 5 mai 2021](../../.gitbook/assets/cake-bnb-lp-2-5-2021.png)
 
-![Screenshot taken 5 May 2021](../../.gitbook/assets/cake-bnb-lp-2-5-2021.png)
+#### 1. Aller sur [dashboard.beefy.finance](https://dashboard.beefy.finance)
 
-#### 1. Go to [dashboard.beefy.finance](https://dashboard.beefy.finance)
+Ce tableau de bord choisit les statistiques et les coffres à afficher en fonction du réseau blockchain auquel votre portefeuille (par exemple MetaMask) est connecté. Donc, s'il n'est pas actuellement sur BSC, il suffit de changer de réseau pour que la page du tableau de bord se rafraîchisse et affiche les statistiques et les coffres de Beefy sur BSC.
 
-This dashboard chooses which statistics and vaults to show based on the blockchain network your wallet (e.g. MetaMask) is connected to. So if it's not now on BSC, simply switch networks to that and the dashboard page will refresh to display Beefy's statistics and vaults on BSC.
-
-#### 2. Find the contract for the vault you wish to inspect, and click on it, opening a page in the BscScan block explorer
+#### 2. Trouvez le contrat pour le coffre que vous souhaitez inspecter, et cliquez dessus, ouvrant une page dans l'explorateur de blocs BscScan.
 
 ![](../../.gitbook/assets/cake-bnb-lp-vault-address.png)
 
-#### 3. On the BscScan page, open the "Contract" tab and subsequently the "Read Contract" tab
+#### 3. Sur la page BscScan, ouvrez l'onglet "Contract", puis l'onglet "Read Contract".
 
 ![](../../.gitbook/assets/cake-bnb-lp-read-contract-tab.png)
 
-#### 4. Scroll down to find the strategy contract, and click on it
+#### 4. Faites défiler l'écran pour trouver le contrat de la stratégie et cliquez dessus.
 
 ![](../../.gitbook/assets/cake-bnb-lp-strategy-address.png)
 
-#### 5. Click on the Events tab to view the strategy events that have fired
+#### 5. Cliquez sur l'onglet Événements pour afficher les événements de la stratégie qui ont été déclenchés.
 
 ![](<../../.gitbook/assets/harvest events inspection.png>)
 
-The "StratHarvest" events are where LP-farming rewards are culled and in turn compounded into more of the underlying LPs, the initial deposited asset, and then redeposited into the Beefy vault. As the timestamps reflect, this CAKE-BNB vault compounds roughly once per hour.
+Les événements "StratHarvest" sont ceux où les récompenses des LP-farming sont récoltées et à leur tour composées en plus de LP sous-jacents, l'actif initial déposé, puis redéposées dans le coffre Beefy. Comme le montre l'horodatage, ce coffre CAKE-BNB est composé environ une fois par heure.
 
-### Other Chains (except Avalanche)
+### Autres chaînes (sauf Harmony, Celo, Cronos)
 
-Each of the chains supported by Beefy may be investigated via the same method shown above for BSC. The only difference will be the block explorer opened. For example on Polygon, PolygonScan will open.
+Chacune des chaînes supportées par Beefy peut être étudiée en utilisant la même méthode que celle présentée ci-dessus pour BSC. La seule différence sera l'explorateur de bloc ouvert. Par exemple sur Polygon, PolygonScan s'ouvrira.
 
-### Avalanche
+### Harmony, Celo, Cronos
 
-The basic method shown in the BSC example above still applies, except for the last, key step 5. This owes to Avalanche using a different block-explorer software. In Avalanche's case, step 5 switches to the Transactions tab to view the strategy events fired, as exemplified below
+La méthode de base présentée dans l'exemple BSC ci-dessus s'applique toujours, à l'exception de la dernière étape clé, la 5. Ceci est dû au fait que ces chaînes utilisent des logiciels d'exploration de blocs différents. Dans ces cas, l'étape 5 passe à l'onglet Transactions pour visualiser les événements de stratégie déclenchés, comme illustré ci-dessous :
 
 ![](../../.gitbook/assets/Avalanche-harvest-events.png)

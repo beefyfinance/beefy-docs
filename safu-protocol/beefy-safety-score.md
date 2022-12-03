@@ -1,149 +1,148 @@
-# Beefy Safety Score
+# Score de Sécurité de Beefy
 
-This document outlines the design for the Beefy Safety Score. The purpose of the safety score is to educate users when making a decision to enter a particular Beefy vault. The Safety Score is not necessarily perfect, but it is another tool that helps the user.
+Ce document décrit la conception du score de sécurité Beefy. Le but du score de sécurité est d'éduquer les utilisateurs lorsqu'ils prennent la décision d'entrer dans un coffre Beefy particulier. Le score de sécurité n'est pas nécessairement parfait, mais c'est un outil supplémentaire qui aide l'utilisateur.
 
-The safety score that a vault can get goes from 1 to 10. The best possible score is 10 and the worst is 0. It is technically possible for vaults to score less than 0, in which case 0 will be displayed.
+Le score de sécurité qu'un coffre peut obtenir est compris entre 0 et 10. Le meilleur score possible est 10 et le pire est 0. Il est techniquement possible pour les coffres d'obtenir un score inférieur à 0, auquel cas 0 sera affiché.
 
-Risks are distributed in three main categories:
+Les risques sont répartis en trois grandes catégories :
+* Risques de Beefy : Risques liés à l'utilisation de la plateforme.&#x20;
+* Risques des actifs : Risques liés à la manipulation de l'actif par le coffre.
+* Risques de plateforme : Risques liés à la structure du contrat intelligent ou à la plate-forme sous-jacente utilisée.
 
-* Beefy Risks: Risks that we add by serving as a platform.&#x20;
-* Asset Risks: Risks of the asset being handled by the vault.
-* Platform Risks: Risks of the underlying farm or platform used.
+Chaque catégorie est responsable d'un pourcentage du score total. Chaque catégorie est elle-même divisée en plusieurs sous-catégories.
 
-Each category is responsible for a percentage of the total score. Each category is itself divided in multiple subcategories.
+Tous les coffres commencent avec un score parfait de 10 et se voient retirer des points chaque fois qu'ils présentent des caractéristiques qui aggravent le risque.
 
-All vaults start with a perfect score of 10 and are subtracted points whenever they have qualities that increase risk.
+## Category: Risques liés à Beefy
 
-## Category: Beefy Risks
+Ce sont des risques liés à la plateforme Beefy Finance elle-même. Il peut s'agir de risques ajoutés par la complexité de la stratégie du coffre, s'il s'agit d'un déploiement expérimental, s'il a été audité par d'autres, etc. Vingt pour cent du score de sécurité est déterminé par les risques de la plateforme Beefy.
 
-These are risks related to the Beefy Finance platform itself. These could be risks added by the complexity of the vault strategy, if it's an experimental deployment, if it's been audited by others, etc. Twenty percent of the safety score is determined by the Beefy Risks.
+### Sous-catégorie : Complexité
 
-### Subcategory: Complexity
+Permet de suivre la complexité de la stratégie qui se cache derrière un coffre.
 
-Tracks the complexity of the strategy behind a vault.
+#### COMPLEXITÉ\_FAIBLE
 
-#### COMPLEXITY\_LOW
+* Titre : Stratégie de complexité faible
+* Explication : Les stratégies à faible complexité ont peu, voire aucune, parties actives et leur code est facile à lire et à débuguer. Il existe une corrélation directe entre la complexité du code et le risque implicite. Une stratégie simple atténue efficacement les risques de mise en œuvre.
+* Critères de qualification : Une stratégie de faible complexité doit interagir avec un seul contrat intelligent audité et bien connu, par exemple MasterChef. La stratégie sert de façade pour ce contrat intelligent, transmettant les appels de dépôt, de collecte et de retrait en utilisant une seule ligne de code.
 
-* Title: Low complexity strategy
-* Explanation: Low complexity strategies have few, if any, moving parts and their code is easy to read and debug. There is a direct correlation between code complexity and implicit risk. A simple strategy effectively mitigates implementation risks.
-* Qualification Criteria: A low complexity strategy should interact with just one audited and well-known smart contract e.g. MasterChef. The strategy serves as a façade for this smart contract, forwarding deposit, harvest and withdrawal calls using a single line of code.&#x20;
+#### COMPLEXITÉ\_MOYENNE
 
-#### COMPLEXITY\_MID
+* Titre : Stratégie de complexité moyenne
+* Explication : Les stratégies de complexité moyenne interagissent avec deux ou plusieurs contrats intelligents audités et bien connus. Son code reste facile à lire, à tester et à débuguer. Elle atténue la plupart des risques de mise en œuvre en gardant les choses simples, mais les interactions entre deux systèmes ou plus ajoutent une couche de complexité.
+* Critères de qualification : Une stratégie de complexité moyenne interagit avec 2 ou plusieurs smart contracts bien connus. Cette stratégie automatise l'exécution d'une série d'étapes sans chemins de bifurcation. Chaque fois que deposit(), harvest() et withdraw() est appelé, le même processus d'exécution est réalisé.
 
-* Title: Beefy strategy is of medium complexity
-* Explanation: Medium complexity strategies interact with two or more audited and well-known smart contracts. Its code is still easy to read, test and debug. It mitigates most implementation risks by keeping things simple, however the interactions between 2 or more systems add a layer of complexity.
-* Qualification Criteria: A medium complexity strategy interacts with 2 or more well-known smart contracts. This strategy automates the execution of a series of steps with no forking paths. Every time deposit(), harvest() and withdraw() is called, the same execution path is followed.
+#### COMPLEXITÉ\_ÉLEVÉE
 
-#### COMPLEXITY\_HIGH
+* Titre: Stratégie de complexité élevée
+* Explication : Les stratégies de haute complexité interagissent avec un ou plusieurs contrats intelligents bien connus. Ces stratégies avancées présentent des chemins d'exécution ramifiés. Dans certains cas, plusieurs contrats intelligents sont nécessaires pour mettre en œuvre la stratégie complète.
+* Critères de qualification : Une stratégie de complexité élevée peut être identifiée par un ou plusieurs des facteurs suivants : complexité cyclomatique élevée, interactions entre deux ou plusieurs plateformes tierces, répartition de la mise en œuvre entre plusieurs contrats intelligents.
 
-* Title: Beefy strategy is complex&#x20;
-* Explanation: High complexity strategies interact with one or more well-known smart contracts. These advanced strategies present branching paths of execution. In some cases multiple smart contracts are required to implement the full strategy.
-* Qualification Criteria: A high level complexity strategy can be identified by one or more of the following factors: high cyclomatic complexity, interactions between two or more third-party platforms, implementation split between multiple smart contracts.
+### Sous-catégorie : Temps de présence sur le marché
 
-### Subcategory: Time in Market
+Indique depuis combien de temps cette stratégie fonctionne sans problème majeur.
 
-Tracks how long has this strategy been running without any major issues.
+#### MISE\_À\_L'ÉPREUVE
 
-#### BATTLE\_TESTED
+* Titre : La stratégie de Beefy est mise à l'épreuve
+* Explication : Plus une stratégie spécifique est utilisée longtemps, plus il est probable que tous les bugs potentiels ont été trouvés et corrigés. Cette stratégie a été exposée aux attaques et à l'utilisation depuis un certain temps déjà, avec peu ou pas de changements. Cela la rend plus robuste.
+* Critères de qualification :
+  * A été déployé en utilisant un BeefyStratFactory
+  * 10+ stratégies partageant le même code déployé
+  * 3 mois de fonctionnement sans mise à jour
 
-* Title: Beefy strategy is battle tested
-* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy has been exposed to attacks and usage for some time already, with little to no changes. This makes it sturdier.&#x20;
-* Qualification Criteria:
-  * Was deployed using a BeefyStratFactory
-  * 10+ strategies sharing the same code deployed
-  * 3 months working as expected without upgrades
+#### NOUVELLE\_STRATÉGIE
 
-#### NEW\_STRAT
+* Titre : La stratégie est en cours depuis moins d'un mois.
+* Explication : Plus une stratégie spécifique est en cours d'exécution, plus il est probable que tous les bugs potentiels ont été trouvés et corrigés. Cette stratégie est une modification ou une itération d'une stratégie précédente. Elle n'a pas été testée autant que les autres.
+* Critères de qualification : -
 
-* Title: Strategy has been running for less than a month&#x20;
-* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy is a modification or iteration of a previous strategy. It hasn't been battle tested as much as others.
-* Qualification Criteria: -
+#### STRATÉGIE\_EXPÉRIMENTALE
 
-#### EXPERIMENTAL\_STRAT
+* Titre : La stratégie a des caractéristiques qui sont nouvelles.
+* Explication : Plus une stratégie particulière fonctionne longtemps, plus il est probable que tous les bugs potentiels qu'elle comportait aient été trouvés et corrigés. Cette stratégie est toute nouvelle et possède au moins une fonctionnalité expérimentale. Utilisez-la avec précaution et à votre propre discrétion.
+* Critères de qualification : -
 
-* Title: The strategy has some features which are new&#x20;
-* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy is brand new and has at least one experimental feature. Use it carefully at your own discretion.
-* Qualification Criteria: -
+## Catégorie : Risques liés aux actifs
 
-## Category: Asset Risks
+Risques liés à l'actif ou aux actifs détenus par le coffre. Entrer dans un coffre avec des BTC présente un ensemble de risques différent de celui d'un coffre avec une monnaie plus récente et plus modeste. Vingt pour cent du score est déterminé par cette catégorie.
 
-Risks relating to the asset or assets handled by the vault. Entering into a vault with BTC has a different set of risks than entering into a vault with a newer and smaller coin. Twenty percent of the score is determined by this category.
+### Sous-catégorie : Perte impermanente
 
-### Subcategory: Impermanent Loss
+Suivre le risque de perte impermanente au sein d'un coffre.
 
-Tracks the risk of impermanent loss within the vault
+#### IL\_ABSENT
 
-#### IL\_NONE
+* Titre : Perte impermanente prévue très faible voire nulle.
+* Explication : L'actif de ce coffre a une perte impermanente attendue très faible ou même nulle. Cela peut être dû au fait que vous mettez en jeu un seul actif, ou que les actifs dans le LP sont étroitement corrélés comme USDC-USDT ou WBTC-renBTC.
+* Critères de qualification : Les coffres d'actifs uniques et les coffres qui gèrent des monnaies stables avec un ancrage qui n'est pas expérimental : USDT, USDC, DAI, sUSD, etc. 
 
-* Title: Very low or zero projected IL&#x20;
-* Explanation: The asset in this vault has very little or even no expected impermanent loss. This might be because you are staking a single asset, or because the assets in the LP are tightly correlated like USDC-USDT or WBTC-renBTC.
-* Qualification Criteria: Single asset vaults and vaults that manage stablecoins with a peg that isn't experimental: USDT, USDC, DAI, sUSD, etc. &#x20;
+#### IL\_FAIBLE
 
-#### IL\_LOW
+* Title: Perte impermanente prévue faible.
+* Explication : Lorsque vous fournissez de la liquidité dans une paire de jetons, par exemple ETH-BNB, il existe un risque que ces actifs se découplent en termes de prix. BNB pourrait chuter considérablement par rapport à ETH. Vous perdriez alors des fonds par rapport à une simple détention d'ETH et de BNB. Les actifs de ce coffre présentent donc des certains risques de perte impermanente.
+* Critères de qualification : Les coffre qui gèrent ce que l'on appelle normalement les LP du "Pool 1" conviendraient ici : ETH-USDC, MATIC-AAVE, etc. Les jetons de gouvernance pour les petits projets sont normalement appelés "Pool 2" et sont donc exclus.
 
-* Title: Low projected IL&#x20;
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. The assets in this vault have some risks of impermanent loss.&#x20;
-* Qualification Criteria: Vaults that handle what are normally referred as “Pool 1” LPs would fit here: ETH-USDC, MATIC-AAVE, etc. Governance tokens for smaller projects are normally known as “Pool 2” and thereby excluded.
+#### IL\_ÉLEVÉE
 
-#### IL\_HIGH
+* Title: Perte impermanente prévue élevée.
+* Explication : Lorsque vous fournissez de la liquidité dans une paire de jetons, par exemple ETH-BNB, il existe un risque que ces actifs se découplent en termes de prix. BNB pourrait chuter considérablement par rapport à ETH. Vous perdriez alors des fonds par rapport à une simple détention d'ETH et de BNB. Les actifs de ce coffre présentent donc des certains risques de perte impermanente.
+* Critères de qualification : Les coffres qui gèrent les LP du "Pool 2" vont ici. Ces LP comprennent normalement le jeton de gouvernance de la plateforme elle-même.
 
-* Title: High projected IL&#x20;
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. The assets in this vault have a high or very high risk of impermanent loss.&#x20;
-* Qualification Criteria: Vaults that handle “Pool 2” LPs go here. These LP normally include the governance token of the farm itself.
+#### STABLE\ALGO
 
-#### ALGO\_STABLE
+* Title: Stablecoins algorithmiques, expérimentation du peg.
+* Explication : Lorsque vous fournissez de la liquidité dans une paire de jetons, par exemple ETH-BNB, il existe un risque que ces actifs se découplent en termes de prix. BNB pourrait chuter considérablement par rapport à ETH. Vous perdriez alors des fonds par rapport à une simple détention d'ETH et de BNB. Les actifs de ce coffre présentent donc des certains risques de perte impermanente.
+* Critères de qualification : Les "Stablecoins" avec des pegs expérimentaux, ou les tokenomics qui ont échoué à plusieurs reprises à tenir leur peg dans le passé, vont ici.
 
-* Title: Algorithmic stable, experimental peg
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. At least one of the stablecoins held by this vault is an algorithmic stable. This means that the stable peg is experimental and highly risky. Use it carefully at your own discretion.
-* Qualification Criteria: “Stablecoins” with experimental pegs, or tokenomics that have failed repeatedly to hold its peg in the past, go here.
+### Sous-catégorie : Liquidité
 
-### Subcategory: Liquidity
+Traque la difficulté d'acheter/vendre le jeton du coffre.
 
-Tracks how difficult it is to buy/sell the vault's token.
+#### LIQUIDITÉ\_ÉLEVÉE
 
-#### LIQ\_HIGH
+* Titre : Liquidité élevée des échanges.
+* Explication : La liquidité d'un actif influe sur le risque qu'il y a à le détenir. Les actifs liquides sont échangés dans de nombreux endroits et avec un bon volume. L'actif détenu par ce coffre a une liquidité élevée. Cela signifie que vous pouvez échanger vos profits facilement à de nombreux endroits.
+* Critères de qualification : -
 
-* Title: High trade liquidity
-* Explanation: How liquid an asset is affects how risky it is to hold it. Liquid assets are traded in many places and with good volume. The asset held by this vault has high liquidity. This means that you can exchange your earnings easily in plenty of places.
-* Qualification Criteria: -
+#### LIQUIDITÉ\_FAIBLE
 
-#### LIQ\_LOW
+* Titre : Liquidité faible des échanges.
+* Explication : La liquidité d'un actif influe sur le risque qu'il y a à le détenir. Les actifs liquides sont échangés dans de nombreux endroits et avec un bon volume. L'actif détenu par ce coffrea une faible liquidité. Cela signifie qu'il n'est pas aussi facile de l'échanger et que vous pouvez subir un slippage élevé lorsque vous le faites.
+* Critères de qualification : -
 
-* Title: Low trade liquidity
-* Explanation: How liquid an asset is affects how risky it is to hold it. Liquid assets are traded in many places and with good volume. The asset held by this vault has low liquidity. This means that it isn't as easy to swap and you might incur high slippage when doing so.
-* Qualification Criteria: -
+### Sous-catégorie : Capitalisation du marché
 
-### Subcategory: Market Cap
+Valeur totale de toutes les pièces en circulation. Indique indirectement la volatilité de l'actif sous-jacent du coffre.
 
-Total value of all the coins in circulation. Indirectly tracks how volatile the vault's underlying asset is.
+#### CAPITALISATION\_DE\_MARCHÉ\_ÉLEVÉE
 
-#### MCAP\_LARGE
+* Titre : Actif à forte capitalisation de marché et à faible volatilité
+* Explication : La capitalisation de marché de l'actif crypto affecte directement le degré de risque qu'il y a à le détenir. Habituellement, une faible capitalisation de marché implique une forte volatilité et une faible liquidité. L'actif détenu par ce coffre a une grande capitalisation de marché. Cela signifie que c'est potentiellement un actif très sûr à détenir. L'actif a un fort potentiel de conservation et de croissance dans le temps.
+* Critères de qualification : Top 50 MC par Gecko/CMC
 
-* Title: High market cap, low volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a large market cap. This means it's potentially a highly safe asset to hold. The asset has a high potential to stick around and grow over time.
-* Qualification Criteria: Top 50 MC by Gecko/CMC
+#### CAPITALISATION\_DE\_MARCHÉ\_MOYENNE
 
-#### MCAP\_MEDIUM
+* Titre : Capitalisation de marché moyenne, actif à volatilité moyenne
+* Explication : La capitalisation de marché de l'actif crypto affecte directement le degré de risque qu'il y a à le détenir. Habituellement, une faible capitalisation de marché implique une forte volatilité et une faible liquidité. L'actif détenu par ce coffre a une capitalisation de marché moyenne. Cela signifie qu'il s'agit potentiellement d'un actif sûr à détenir. L'actif a le potentiel de rester en place et de croître au fil du temps.
+* Critères de qualification : Entre 50 et 300 MC par Gecko/CMC
 
-* Title: Medium market cap, medium volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a medium market cap. This means it's potentially a safe asset to hold. The asset has potential to stick around and grow over time.
-* Qualification Criteria: Between 50 and 300 MC by Gecko/CMC
+#### CAPITALISATION\_DE\_MARCHÉ\_FAIBLE
 
-#### MCAP\_SMALL
+* Titre : Faible capitalisation boursière, actif à forte volatilité
+* Explication : La capitalisation de marché de l'actif crypto affecte directement le degré de risque qu'il y a à le détenir. Habituellement, une faible capitalisation de marché implique une forte volatilité et une faible liquidité. L'actif détenu par ce coffre a une petite capitalisation de marché. Cela signifie qu'il s'agit d'un actif potentiellement risqué à détenir. L'actif a un faible potentiel de conservation et de croissance dans le temps.
+* Critères de qualification : Entre 300 et 500 MC par Gecko/CMC
 
-* Title: Small market cap, high volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a small market cap. This means it's potentially a risky asset to hold. The asset has low potential to stick around and grow over time.
-* Qualification Criteria: Between 300 and 500 MC by Gecko/CMC
+#### CAPITALISATION\_DE\_MARCHÉ\_TRÈS\_FAIBLE
 
-#### MCAP\_MICRO
+* Titre : Micro capitalisation de marché, actif de volatilité extrême
+* Explication : La capitalisation de marché de l'actif crypto affecte directement le degré de risque qu'il y a à le détenir. Habituellement, une faible capitalisation de marché implique une forte volatilité et une faible liquidité. L'actif détenu par ce coffre a une micro capitalisation boursière. Cela signifie qu'il s'agit d'un actif potentiellement très risqué à détenir. L'actif a un faible potentiel de conservation.
+* Critères de qualification : +500 MC par Gecko/CMC
 
-* Title: Micro market cap, Extreme volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a micro market cap. This means it's potentially a highly risky asset to hold. The asset has low potential to stick around.
-* Qualification Criteria: +500 MC by Gecko/CMC
+### Sous-catégorie : Offre
 
-### Subcategory: Supply
-
-Tracks risks related to the asset supply. Can it be altered by anyone? How centralised is it?
+Traque les risques liés à l'offre d'actifs. Peut-il être modifié par n'importe qui ? Dans quelle mesure est-il centralisé ?
 
 #### SUPPLY\_CENTRALIZED
 

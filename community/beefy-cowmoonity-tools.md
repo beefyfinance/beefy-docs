@@ -1,29 +1,25 @@
----
-description: Tools to help the Beefy Cowmoonity
----
+# Outils de la Cowmoonité Beefy
 
-# Beefy Cowmoonity Tools
+_"Peu de communautés disposent de ce type de membres qualifiés, le moins que nous puissions faire pour les remercier est d'avoir un endroit où montrer leur travail."_
 
-_"Not many communities have this kind of skilled members, the least we can do to thank them is have a place to show their work."_
+## Tracker de rendement TopDeFi
 
-## PolygonDEX Yield Tracker
+[TopDeFi](https://thetopdefi.com/) est construit et maintenu par un membre de la communauté, Terry, avec l'aide d'EPETE.
 
-[Polygon Yield Tracker](https://polygondex.com/track/yield/yieldMeBro.aspx) is built and maintained by community member Terry.
-
-_"As a huge fan of Beefy Finance, I've made a tracker for the most popular LPs and single vaults on there. Please try it out, and let me know if you have any feedback."_ - Terry
+_"En tant que grand fan de Beefy Finance, j'ai créé un tracker pour les LP et les coffres à single les plus populaires. Essayez-le et faites-moi savoir si vous avez des commentaires."_ - Terry
 
 ## yield.rodeo
 
-[yield.rodeo](https://yield.rodeo): a site which browses all Beefy vaults in all networks.
+[yield.rodeo](https://yield.rodeo): un site qui parcourt tous les coffres de Beefy dans tous les réseaux.
 
-_"We are yield rodeos riding that Beef! (...) A gift from me to the community!"_ - naezith
+_"On fait des rodéos de rendement en utilisant ce Beef ! (...) Un cadeau de ma part à la communauté !"_ - naezith
 
-The website has detailed filtering, sorting and extra data.
+Le site web dispose d'un filtrage détaillé, d'un tri et de données supplémentaires.
 
 ## CookieTrack
 
-[CookieTrack](https://cookietrack.io) is a multi-chain DeFi portfolio tracker, created by a Beefy user with tokens in way too many vaults and chains to keep track of.
+[CookieTrack](https://cookietrack.io) est un tracker de portefeuille DeFi multi-chaînes, créé par un utilisateur de Beefy avec des jetons dans beaucoup trop de coffres et de chaînes pour en garder la trace.
 
-_"My Moo tokens were getting out of hand; now they are all enjoying some cookies together. Do cows even like cookies?"_ - Ncookie
+_"Mes jetons Moo devenaient incontrôlables ; maintenant ils apprécient tous les cookies ensemble. Les vaches aiment-elles au moins les cookies ?"_ - Ncookie
 
-The project currently supports tracking Beefy vault balances and BIFI staking on BSC, Polygon, Fantom, Avalanche and Harmony.
+Le projet permet actuellement de suivre les soldes des coffres de Beefy et le jalonnement BIFI sur BSC, Polygon, Fantom, Avalanche et Harmony.

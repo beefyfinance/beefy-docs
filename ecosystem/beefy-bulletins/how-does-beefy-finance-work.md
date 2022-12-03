@@ -1,41 +1,36 @@
----
-description: >-
-  We know that entering the crypto and DeFi arenas can be confusing and
-  disorientating…
----
-
-# How Does Beefy Finance Work?
+# Comment fonctionne Beefy Finance ?
 
 ![](../../.gitbook/assets/bulletin-how-does-beefy-finance-work.png)
 
-We know that entering the crypto and DeFi arenas can be confusing and disorientating. We know that many have lost money in altcoins and have high levels of scepticism about this new opportunity.
+Nous savons qu'entrer dans le monde de la crypto et de la DeFi peut être déroutant et désorientant. Nous savons que beaucoup ont perdu de l'argent dans les altcoins et sont très sceptiques quant à cette nouvelle opportunité.
 
-So let's break down what Beefy does in language as close as possible to how the current financial world works.
+Nous allons donc vous expliquer ce que fait Beefy dans un langage aussi proche que possible du fonctionnement du monde financier actuel.
 
-**1. You know what interest is:**
+**1. Vous savez ce qu'est l'intérêt:**
 
-You have $10,000 in your bank account and you earn a 12.5% annual return on your investment. After 12 months, you receive a deposit of $1,250 as an interest payment. After five years, you have $16,250.
+Vous avez 10 000 $ sur votre compte bancaire et vous obtenez un rendement annuel de 12,5 % sur votre investissement. 
+Après 12 mois, vous recevez un dépôt de 1 250$ à titre de paiement d'intérêts. Après cinq ans, vous avez 16 250$.
 
-**2. You know what compound interest is:**
+**2. Vous savez ce que sont les intérêts composés :**
 
-It's interest on interest. You get interest on the initial amount you put in, and you get interest on the interest already accumulated from the previous years.
+C'est l'intérêt sur l'intérêt. Vous recevez des intérêts sur le montant initial que vous avez déposé, et vous recevez des intérêts sur les intérêts déjà accumulés les années précédentes.
 
-So with compound interest, after 5 years you won’t have $16,250, you'll actually have $18,020.
+Ainsi, avec les intérêts composés, après 5 ans, vous n'aurez pas 16 250 $, mais 18020$.
 
-So far, so good.
+Jusqu'ici, tout va bien.
 
-_**But what if there was a "third way"?**_
+_**Mais s'il y avait une "troisième voie” ?**_
 
-This is the question we asked ourselves as programmers.
+C'est la question que nous nous sommes posée en tant que programmeurs.
 
-**3. Here's what Beefy interest is:**
+**3. Voici ce que sont les intérêts de Beefy :**
 
-When you take your crypto and stake it on Beefy we find ways to add to the compounding of your asset. If one of the platforms we use gives away a promotional coin on top of any interest, then we take that promo coin and sell it for more of what you staked.
+Lorsque vous prenez votre crypto et la mettez en jeu sur Beefy, nous trouvons des moyens d'ajouter à la composition de votre actif. Si l'une des plateformes que nous utilisons donne un jeton supplémentaire en plus de l'intérêt, alors nous prenons ce jeton et le vendons à un prix supérieur à celui que vous avez misé.
 
-_**The result is a significantly higher overall annual return.**_
+_**Le résultat est un rendement annuel global beaucoup plus élevé.**_
 
-When Beefy combines your 12.5% annual compounding interest with the 14.2% interest of another site's promotional coin, you get 28.02% APY on Beefy.
+Lorsque Beefy combine votre intérêt annuel composé de 12,5% avec l'intérêt de 14,2% de la pièce promotionnelle d'un autre site, vous obtenez 28,02% d'APY sur Beefy.
 
-Beefy's BNB Venus vault is doing just that. At the time of writing, you get 28.02% APY for your BNB.
+C'est ce que fait le coffre BNB Venus de Beefy. Au moment de la rédaction de cet article, vous obtenez 28,02% d'APY pour votre BNB.
 
-**After five years, you won't have $18,020, you'll have $34,386; all in the asset you actually staked.**
+**Après cinq ans, vous n'aurez pas 18 020$, mais 34 386 $ ; le tout dans l'actif que vous avez réellement misé.**

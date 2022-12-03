@@ -1,25 +1,25 @@
-# What Makes Beefy Different?
+# Qu'est-ce qui rend Beefy différent ?
 
 ![](../../.gitbook/assets/bulletin-what-makes-beefy-different.png)
 
-Investor and crypto evangelist Naval Ravikant was once asked, "What would you be working on if you were 25 again?"
+"On a demandé un jour à Naval Ravikant, investisseur et évangéliste crypto, "Sur quoi travailleriez-vous si vous aviez à nouveau 25 ans ?".
 
-**Naval's reply:**
+**Réponse de Naval:**
 
-_"An unstoppable, uncensorable social media platform."_
+_"Une plateforme de médias sociaux imparable et non censurable”._
 
-In other words, he'd be working on a technological platform that puts science and code ahead of cronyism and censorship. This is the foundation of Beefy Finance.
+En d'autres termes, il travaillerait sur une plateforme technologique qui place la science et le code avant le copinage et la censure. C'est le fondement de Beefy Finance.
 
-Some other values we align ourselves with:
+Quelques autres valeurs avec lesquelles nous nous alignons :
 
-_Trustless, open-source, decentralized, scalable, transparent, community-driven, cross-chain, autonomous, sustainable, innovation, healthy treasury, contribution rewards, developer bounties, safety._
+_Sans confiance, open-source, décentralisé, évolutif, transparent, axé sur la communauté, multi-chaîne, autonome, durable, innovant, trésorerie saine, récompenses des contributions, primes aux développeurs, sécurité._
 
-In practical terms, our sustainable tokenomics mean the day-to-day is unrelentingly focused on the product. We provide the greatest variety of vaults and the highest number of chains. Users can request vaults directly from our developers on Discord and the time it takes to answer these requests is very low.
+En termes pratiques, notre tokenomics durable signifie que le quotidien est implacablement concentré sur le produit. Nous fournissons la plus grande variété de coffres et le plus grand nombre de chaînes. Les utilisateurs peuvent demander des coffres directement à nos développeurs sur Discord et le temps nécessaire pour répondre à ces demandes est très faible.
 
-At the time of writing, we have more than a dozen smart contract developers (and growing) carefully testing and reviewing the vaults, investment strategies and smart contracts before public release.
+Au moment où nous écrivons ces lignes, nous avons plus d'une douzaine de développeurs de contrats intelligents (et ce nombre ne cesse d'augmenter) qui testent et examinent soigneusement les coffres, les stratégies d'investissement et les contrats intelligents avant leur diffusion publique.
 
-**Safety is everything.**
+**La sécurité est primordiale.**
 
-And we offer this while saving you time and energy through automation.
+Et nous vous offrons cela tout en vous faisant gagner du temps et de l'énergie grâce à l'automatisation.
 
-_**Be first. Be safe. Be Beefy.**_
+_**Soyez le premier. Soyez sûrs. Beefy.**_

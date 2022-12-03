@@ -1,8 +1,3 @@
----
-description: >-
-  Here you can read about BIFI's Tokenomics & Governance and find the
-  cross-chain BIFI token addresses.
----
+# Jeton BIFI
 
-# BIFI Token
-
+Voici les articles faisant référence à l'économie du jeton et aux adresses des contrats
