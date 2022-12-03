@@ -4,15 +4,15 @@ description: 'Last Update: November 2022'
 
 # BeefyWrapper Contract
 
-The [BeefyWrapper contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/vaults/BeefyWrapper.sol) is an ERC-4626 adapter interface that makes Beefy Vaults compatible with the ERC-4626 [standard](https://eips.ethereum.org/EIPS/eip-4626). It unlocks the composability of the standard and enables smoother interfacing and interaction with Beefy Vaults by external protocols, without the need for additional adapters and plug ins.&#x20;
+The [BeefyWrapper contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/vaults/BeefyWrapper.sol) is an ERC-4626 adapter interface that makes Beefy Vaults compatible with the ERC-4626 [standard](https://eips.ethereum.org/EIPS/eip-4626). It unlocks the composability of the standard and enables smoother interfacing and interaction with Beefy Vaults by external protocols, without the need for additional adapters and plug-ins.&#x20;
 
-This page sets out some of the background to the ERC-4626 standard, and the functionality of the BeefyWrapper contract
+This page sets out some of the background to the ERC-4626 standard, and the functionality of the BeefyWrapper contract.
 
 ## Why ERC-4626?
 
-The purpose of ERC-4626 is to solve the problems caused by the diversity of vault designs found across DeFi. Many different protocols have incorporate vault concepts into their architecture, but do so by reinventing the wheel to suit their own unique architecture and use cases. This means external projects hoping to implement a range of different vaults need to adapt and plug their code to reconcile it with the quirks of each protocol's vault design.&#x20;
+The purpose of the ERC-4626 standard is to solve the problems caused by the diversity of vault designs found across DeFi. Many protocols have incorporated vault concepts into their architecture by reinventing the wheel to suit their own unique architecture and use cases. This means external projects hoping to implement a range of different vaults need to adapt and plug their code to reconcile it with the quirks of each protocol's unique vault design.&#x20;
 
-The new standard recognises some common methods across the majority of vaults, and suggests that harmonising this functionality into a single standard can help to mitigate the quantity of adaptations and plug ins required to work with most vaults. For protocols like Beefy, adopting ERC-4626 for our Beefy Vaults helps to facilitate new product development building on our products, and as a result promises to increase the range of use cases available to our users.
+The new standard recognises some common methods across the majority of vaults, and suggests that harmonising this functionality into a single standard can help to mitigate the quantity of adaptations and plug-ins required to work with most vaults. For protocols like Beefy, adopting ERC-4626 for our Beefy Vaults helps to facilitate new product development building on our products, and as a result promises to increase the range of use cases available to our users.
 
 ## Contract Methods
 
@@ -152,6 +152,38 @@ function _withdraw(address caller, address receiver, address owner, uint256 asse
     emit Withdraw(caller, receiver, owner, assets, shares);
 }
 </code></pre>
+
+### totalAssets()
+
+Overrides the standard totalAssets() method to fetch the total assets held by the vault.
+
+{% code overflow="wrap" %}
+```solidity
+// Fetches and returns the total assets as a uint256 value.
+
+function totalAssets() public view virtual override returns (uint256) {
+
+    return IVault(vault).balance();
+
+}
+```
+{% endcode %}
+
+### totalSupply()
+
+Overrides the standard totalSupply() method to fetch the total shares issues by the vault.
+
+{% code overflow="wrap" %}
+```solidity
+// Fetches and returns the total vault shares as a uint256 value.
+
+function totalSupply() public view virtual override(ERC20Upgradeable, IERC20Upgradeable) returns (uint256) {
+
+    return IERC20Upgradeable(vault).totalSupply();
+    
+}
+```
+{% endcode %}
 
 ## BeefyWrapperFactory Contract
 

@@ -1,5 +1,5 @@
 ---
-description: 'Last Update: November 2022'
+description: 'Last Update: December 2022'
 ---
 
 # Governance
@@ -34,13 +34,7 @@ To submit your vote, simply head to to our [Snapshot page](https://vote.beefy.fi
 
 ## How do I delegate my vote?
 
-{% hint style="warning" %}
-Please note that vote delegation for Beefy's Snapshot is currently unavailable. This is due to Beefy's custom solution built on top of the standard Snapshot tooling, which enables the full functionality of your $BIFI tokens on the various chains we're deployed on. Keep an eye on [Beefy's Discord](https://discord.gg/yq8wfHd) for details of when delegation is available again.
-{% endhint %}
-
-You can delegate your vote on any chain by interacting directly with the DelegateRegistry contract on that chain. A full tutorial of how to delegate is available in the [delegateregistry-contract.md](../developer-documentation/third-party-contracts/delegateregistry-contract.md "mention") page at [#delegation-walkthrough](../developer-documentation/third-party-contracts/delegateregistry-contract.md#delegation-walkthrough "mention").&#x20;
-
-Please note that you must delegate separately for every chain which you hold $BIFI on. Otherwise, your delegation will only be effective on the chains on which you submitted your delegation call(s).
+You can delegate your vote on BNB chain by interacting directly with [the DelegateRegistry contract](https://bscscan.com/address/0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446). A full tutorial of how to delegate is available in the [delegateregistry-contract.md](../developer-documentation/third-party-contracts/delegateregistry-contract.md "mention") page at [#delegation-walkthrough](../developer-documentation/third-party-contracts/delegateregistry-contract.md#delegation-walkthrough "mention"). Please note that, due to our bespoke Snapshot tooling, you must delegate on BNB chain for your delegation to be effective. Delegations on other chains may register in the relevant DelegateRegistry contract, but will not be recognised by our tooling.
 
 ## How do I become a delegate?
 
