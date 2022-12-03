@@ -1,13 +1,17 @@
-# Beefy Backup
+# Backup de Beefy
 
-![](../.gitbook/assets/safu.png)
+![](<../.gitbook/assets/safu (1).png>)
 
-Sporadically, users are experiencing white screens, or blank screens, and can not access the Beefy DApp.
+{% hint style="info" %}
+Les sites [app.beefy.com](https://app.beefy.com/) et [app.beefy.finance](https://app.beefy.finance) sont des sites officiels de Beefy. Si l'un ne fonctionne pas pour vous, essayez l'autre.
+{% endhint %}
 
-This might be Fleek or Cloudflare having maintenance, but it's hard to pinpoint the root cause. When it happens, it does not affect everyone but only some regions world wide. We understand that this can be frustrating!
+Il arrive que des utilisateurs rencontrent un affichage blanc ou vide, et ne peuvent pas accéder à l'application Beefy DApp.
 
-First and foremost, _don't worry_, your funds are always SAFU on the blockchain, they are not on Beefy's website. The site is only a front end to let you access your funds easily.
+Cela pourrait être dû à une maintenance de Fleek ou de Cloudflare, mais il est difficile d'en déterminer la cause. Lorsque cela se produit, cela n'affecte pas tout le monde mais seulement certaines régions du monde. Nous comprenons que cela puisse être frustrant !
 
-If you are experiencing the aforementioned issues, try the following official mirror: [https://beefy.on.fleek.co/](https://beefy.on.fleek.co/) or try using a VPN.
+Avant tout, ne vous inquiétez pas, vos fonds sont toujours SAFU sur la blockchain, ils ne sont pas sur le site web de Beefy. Le site n'est qu'une façade pour vous permettre d'accéder facilement à vos fonds.
 
-This mirror site is a developer's build, which we can provide as a backup for users that can't access Beefy's site. Remember, seed phrases and private keys will **never** be asked.
+Si vous rencontrez les problèmes mentionnés ci-dessus, essayez le miroir officiel suivant : [https://beefy-v2.pages.dev](https://beefy-v2.pages.dev), ou [https://beefy.on.fleek.co/](https://beefy.on.fleek.co/) pour l'ancienne interface utilisateur. L'utilisation d'un VPN peut également vous aider.
+
+Ces sites miroirs sont une version développeur, que nous pouvons fournir comme solution de secours pour les utilisateurs qui ne peuvent pas accéder au site de Beefy. Rappelez-vous, les phrases de démarrage et les clés privées ne seront **jamais** demandées.
