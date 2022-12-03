@@ -1,30 +1,26 @@
----
-description: Beefy has been called many things…
----
-
-# What is Beefy Finance?
+# Qu'est-ce que la finance Beefy ?
 
 ![](../../.gitbook/assets/bulletin-what-is-beefy-finance.png)
 
-* "The compound interest opportunity of a lifetime"
-* "The safest and best way to get started in DeFi"
-* "Passive income on steroids"
-* "Just a really good, super decentralized investment"
+* "L'opportunité d'intérêts composés d'une vie"
+* "Le moyen le plus sûr et le meilleur pour commencer à DeFi"
+* "Un revenu passif sous stéroïdes"
+* "Juste un très bon investissement super décentralisé"
 
-_**But in practical terms, Beefy is a yield farming optimizer that removes the daily actions and regular fees associated with manual optimization.**_
+_**Mais en termes pratiques, Beefy est un optimiseur de rendement qui supprime les actions quotidiennes et les frais réguliers associés à l'optimisation manuelle.**_
 
-What you're left with is very safe funds and a _very_ good return of investment (ROI).
+Vous vous retrouvez avec des fonds très sûrs et un _très_ bon retour sur investissement (ROI).
 
-For those new to decentralized finance (DeFi), yield farming is simply a way to make some interest — as opposed to just "gains" — with your crypto holdings.
+Pour ceux qui ne connaissent pas la finance décentralisée (DeFi), le yield farming est simplement un moyen de faire des intérêts - par opposition aux simples "gains" - avec vos avoirs en crypto.
 
-Money is one thing, but time is the most important asset of all.
+L'argent est une chose, mais le temps est le bien le plus important de tous.
 
-_**Beefy makes it simple to benefit from the upside of complex farming strategies.**_
+_**Avec Beefy, il est facile de profiter des avantages de stratégies complexes de production de rendement.**_
 
-There are lots of farms to choose from, so Beefy automates and optimizes different investment strategies in the background while you get on with your day.
+Il y a beaucoup de fermes à choisir, alors Beefy automatise et optimise différentes stratégies d'investissement en arrière-plan pendant que vous vaquez à vos occupations.
 
-The project consists of an anonymous team constantly exploring new methods of optimizing automation to secure the largest yields possible.
+Le projet est composé d'une équipe anonyme qui explore constamment de nouvelles méthodes d'optimisation de l'automatisation afin d'obtenir les meilleurs rendements possibles.
 
-As a decentralized project with a crypto-mindset, there is a robust governance system in place to put the decision-making power in the hands of those invested in the project.
+En tant que projet décentralisé avec un esprit cryptographique, il y a un système de gouvernance robuste en place pour mettre le pouvoir de décision entre les mains de ceux qui sont investis dans le projet.
 
-**This takes place through governance mechanisms related to Beefy's own fixed-supply, dividend-producing token, $BIFI.**
+**Cela se fait par le biais de mécanismes de gouvernance liés au jeton de Beefy, $BIFI, qui permet de générer des revenus à partir d'un stock de jetons fixes**.

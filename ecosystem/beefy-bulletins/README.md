@@ -1,37 +1,22 @@
-# Beefy Bulletins
+# Bulletins d'information Beefy
 
-Not everyone recognizes the "perfect" trade when they see it...
+Tout le monde ne reconnaît pas le business "parfait" quand il le voit...
 
-So it's time for the world to get Beefy.
+Il est donc temps pour le monde de se mettre à Beefy.
 
-{% content-ref url="what-is-beefy-finance.md" %}
-[what-is-beefy-finance.md](what-is-beefy-finance.md)
-{% endcontent-ref %}
+{% page-ref page="what-is-beefy-finance.md" %}
 
-{% content-ref url="the-big-beefy-opportunity.md" %}
-[the-big-beefy-opportunity.md](the-big-beefy-opportunity.md)
-{% endcontent-ref %}
+{% page-ref page="the-big-beefy-opportunity.md" %}
 
-{% content-ref url="what-makes-beefy-different.md" %}
-[what-makes-beefy-different.md](what-makes-beefy-different.md)
-{% endcontent-ref %}
+{% page-ref page="what-makes-beefy-different.md" %}
 
-{% content-ref url="how-does-beefy-finance-work.md" %}
-[how-does-beefy-finance-work.md](how-does-beefy-finance-work.md)
-{% endcontent-ref %}
+{% page-ref page="how-does-beefy-finance-work.md" %}
 
-{% content-ref url="beefy-finance-fees-breakdown.md" %}
-[beefy-finance-fees-breakdown.md](beefy-finance-fees-breakdown.md)
-{% endcontent-ref %}
+{% page-ref page="beefy-finance-fees-breakdown.md" %}
 
-{% content-ref url="why-beefy-beats-your-bank.md" %}
-[why-beefy-beats-your-bank.md](why-beefy-beats-your-bank.md)
-{% endcontent-ref %}
+{% page-ref page="why-beefy-beats-your-bank.md" %}
 
-{% content-ref url="introducing-beefys-unique-revenue-share-model.md" %}
-[introducing-beefys-unique-revenue-share-model.md](introducing-beefys-unique-revenue-share-model.md)
-{% endcontent-ref %}
+{% page-ref page="introducing-beefys-unique-revenue-share-model.md" %}
 
-{% content-ref url="beefys-coveted-advantages-revealed.md" %}
-[beefys-coveted-advantages-revealed.md](beefys-coveted-advantages-revealed.md)
-{% endcontent-ref %}
+{% page-ref page="beefys-coveted-advantages-revealed.md" %}
+

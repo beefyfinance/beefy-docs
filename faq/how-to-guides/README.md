@@ -1,7 +1,7 @@
-# How-To Guides
+# Guides pratiques
 
-{% content-ref url="how-to-participate-in-a-moovault.md" %}
-[how-to-participate-in-a-moovault.md](how-to-participate-in-a-moovault.md)
+{% content-ref url="how-to-deposit-in-a-vault.md" %}
+[how-to-deposit-in-a-vault.md](how-to-deposit-in-a-vault.md)
 {% endcontent-ref %}
 
 {% content-ref url="how-to-add-a-custom-token-to-metamask.md" %}

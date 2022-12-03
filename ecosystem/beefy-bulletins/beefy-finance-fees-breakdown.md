@@ -1,52 +1,53 @@
----
-description: >-
-  Anyone familiar with the fee structures typical of traditional finance will
-  tell you fees matter.
----
-
-# Beefy Finance Fees Breakdown
+# Répartition des frais de Beefy Finance
 
 ![](../../.gitbook/assets/bulletin-beefy-finance-fees-breakdown.png)
 
-**How **_**much**_** do fees matter?**
+**Quelle est l'importance des frais ?**
 
-The answer can be hard to wrap your head around.
+La réponse peut être difficile à comprendre.
 
-* $1M invested for 30 years at 8% with a 1% management fee yields $7.62 million.
-* $1M invested for 30 years at 8% with a 2% management fee yields $5.74 million.
-* $1M invested for 30 years at 8% with a 3% management fee yields $4.32 million.
+* Un million de dollars investi pendant 30 ans à 8 % avec des frais de gestion de 1 % rapporte 7,62 millions de dollars.
+* Un million de dollars investi pendant 30 ans à 8 % avec des frais de gestion de 2 % rapporte 5,74 millions de dollars.
+* Un million de dollars investi pendant 30 ans à 8 % avec des frais de gestion de 3 % rapporte 4,32 millions de dollars.
 
-**Now, let's throw out modesty for a minute.**
+**Maintenant, laissons la modestie de côté pour une minute.**
 
-Unlike some platforms flashing their APYs for your attention, there are no catches on Beefy.Finance. For example, they'll promote an APY, but won't mention there's a penalty fee if you withdraw early.
+Contrairement à certaines plateformes qui affichent leurs APYs pour attirer votre attention, il n'y a pas de piège sur Beefy.Finance. Par exemple, ils vont promouvoir un APY, mais ne mentionneront pas qu'il y a une pénalité si vous retirez plus tôt.
 
-Or the APY is given as a spectacular headline number, but the small print is that you have to _manually_ compound every single day to get that number.
+Ou bien l'APY est présenté comme un chiffre spectaculaire, mais les petits caractères indiquent que vous devez composer _manuellement_ chaque jour pour obtenir ce chiffre.
 
-**On Beefy we're proud to be doing things a little more transparently.**
+**Sur Beefy, nous sommes fiers de faire les choses de manière un peu plus transparente.**
 
-_With our vaults, performance fees are included in the APY._
+Avec nos coffres, les commissions de performance sont incluses dans l'APY.
 
-**So what you see is exactly what you get.**
+**Ainsi, ce que vous voyez est exactement ce que vous obtenez.
 
-Most vaults available on Beefy.Finance hold 4.5% of harvest rewards. This performance fee is largely distributed back to $BIFI stakers and is the main source of revenue for the platform.
+Nos coffres sur Beefy Finance appliquent une structure de commission de performance fixe sur leurs récompenses de récolte. Comme décrit dans [#what-is-the-vault-fee-structure](../../products/vaults.md#quel-est-la-structure-des-frais-pour-les-coffres "mention"), ces frais sont distribués aux $BIFI stakers, à la trésorerie de Beefy, à nos stratèges et à l'utilisateur qui récolte le coffre. Ils constituent la principale source de revenus de la plateforme.
 
-**Here's what that looks like:**
+**Voici à quoi ressemble un coffre typique:**
 
-* 3.0% is distributed back to $BIFI stakers
-* 0.5% is allocated to the Beefy Finance treasury
-* 0.5% is awarded to the vault strategist
-* 0.5% is awarded to the one calling the harvest function
+* 3,0 % est redistribué aux stakers de $BIFI ;
+* 0,5% est alloué à la trésorerie de Beefy Finance ;
+* 0,5% est attribué au stratège du coffre ; et
+* 0,05% est attribué à celui qui appelle la fonction de récolte.
 
-We assign a deposit or withdrawal fee of 0.1% to each vault to protect bad actors from abusing the vaults with too much flipping. We share this amongst all the other stakers in the vault.
+Suite au passage de \[BIP:45], Beefy a introduit une structure de commission de performance maximale allant jusqu'à 9,5%. Lorsque cela est appliqué à de nouveaux coffres, voici à quoi cela ressemble généralement :
 
-Apart from the fees fully listed above, anyone using Beefy should also remember the network transaction fees when adding or removing funds. These small fees go to the operators keeping the blockchain running, not Beefy.
+* environ 3,22% est redistribué aux stakers de $BIFI ;
+* environ 5,73% est alloué à la trésorerie de Beefy Finance ;
+* 0,5% est attribué au stratège du coffre ; et
+* 0,05% est attribué à celui qui appelle la fonction de récolte.
 
-**Bottom line: fees matter.**
+Pour les rares coffres qui n'ont pas de [Harvest on Deposit](https://docs.beefy.finance/ecosystem/products/vaults##quest-ce-que-la-recolte-en-depot), nous attribuons des frais de retrait allant jusqu'à 0,1 % à chaque coffre pour empêcher les mauvais acteurs d'abuser des coffres avec trop de changements. Nous partageons ces frais avec tous les autres déposants du coffre.
 
-With Beefy's Venus vault, you can invest at 14.46% APY with fees already factored in.
+En dehors des frais énumérés ci-dessus, toute personne utilisant Beefy doit également se souvenir des frais de transaction du réseau lorsqu'elle ajoute ou retire des fonds. Ces petits frais vont aux opérateurs qui font fonctionner la blockchain, pas à Beefy.
 
-$1M invested for 30 years at 14.56 % APY yields…
+**En résumé, les frais sont importants.**
 
-$57,492,639 million.
+Quand un coffre Beefy vous offre un investissement avec 14,46% d'APY, c'est toujours avec des frais déjà pris en compte...
 
-**With Beefy, what you see is what you get.**
+Un million de dollars investi pendant 30 ans à 14,46 % par an rapporte...
+
+57 492 639 millions de dollars
+
+**Avec Beefy, ce que vous voyez est ce que vous obtenez.**

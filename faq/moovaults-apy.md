@@ -1,27 +1,27 @@
-# mooVaults APY
+# APY mooVaults
 
-## What is the APY?
+## Qu'est-ce que l'APY ?
 
-Let's look at a typical yield farm, where they state an APY (annual percentage yield) as +100% for example. The traditional definition of APY _**is the real rate of return earned on an investment taking into account the effect of compounding earnings**_. Using this terminology would indicate that the yield farm was compounding earnings for you. That is simply not the case. A more applicable terminology to use would be APR (annual percentage rate), meaning the annual rate earned through an investment. By definition this would mean that your 100% yield farm would double your original investment at the end of year 1 without reinvesting any earnings. But what about if you reinvested that entire amount the next year and the year after that?&#x20;
+Prenons l'exemple d'une ferme de rendement typique, où l'on indique un APY (rendement annuel en pourcentage) de +100% par exemple. La définition traditionnelle de l'APY _**est le taux de rendement réel obtenu sur un investissement en tenant compte de l'effet de la capitalisation des gains**_. L'utilisation de cette terminologie indiquerait que la ferme de rendement compose des gains pour vous. Ce n'est tout simplement pas le cas. Une terminologie plus appropriée serait l'APR (taux annuel en pourcentage), c'est-à-dire le taux annuel obtenu grâce à un investissement. Par définition, cela signifierait que votre ferme de rendement à 100 % doublerait votre investissement initial à la fin de la première année sans réinvestir aucun revenu. Mais qu'en est-il si vous réinvestissez la totalité de ce montant l'année suivante et l'année d'après ?
 
-## Understanding Exponential Growth (Compounding)
+## Comprendre la croissance exponentielle (Intérêts Composés)
 
-Growth whose rate becomes ever more rapid in proportion to the growing total number or size. The simple formula for this is _**growth = (1 + r)^x** _ , where 'r' = return and 'x' = number of 'times'. For example, your money doubles every year if you get 100% yearly return. After 3 years you would have 8x your original investment.&#x20;
+Croissance dont le taux devient de plus en plus rapide en proportion de l'augmentation du nombre total ou de la taille. La formule simple est _**croissance = (1 + r)^x** _ , où "r" = rendement et "x" = nombre de "fois". Par exemple, votre argent double chaque année si vous obtenez un rendement annuel de 100 %. Au bout de 3 ans, vous aurez multiplié par 8 votre investissement initial.
 
-![growth = (1 + 100%)^3](<../.gitbook/assets/capture (2).png>)
+![croissance = (1 + 100%)^3](<../.gitbook/assets/capture (2).png>)
 
-## &#x20;Ok, so what REALLY is the APY?
+## Ok, alors qu'est-ce que vraiment l'APY ?
 
-A typical investment does not just pay out on a yearly basis, but in smaller terms (ie: daily, monthly, etc). For yield farming, returns are even paid out on a per block basis. With an average of 28,800 blocks a day and cheap transaction fees this can allow for a significant amount of exponential growth or compounding of your return. Let's look at how to break that down...
+Un investissement typique n'est pas seulement payé sur une base annuelle, mais aussi en termes plus petits (c'est-à-dire quotidiennement, mensuellement, etc.). Pour le rendement des fermes, les retours sont même payés sur une base de blocs. Avec une moyenne de 28 800 blocs par jour et des frais de transaction peu élevés, cela peut permettre une croissance exponentielle ou une composition importante de votre rendement. Voyons comment décomposer cela...
 
-* Compound = **P \* (1+r/n)^nt**                Example : 100 \* (1+1/12)^(12\*1)
-* P = principal or starting balance
+* Composition = **P \* (1+r/n)^nt**                Exemple : 100 \* (1+1/12)^(12\*1)
+* P = capital ou solde de départ
 * r = APR = 100%
-* n = compounding periods = 12 months
-* t = time = 1 year
-* The simple APY calculation in excel can also be stated as =EFFECT(r, n)
+* n = périodes de composition = 12 months
+* t = période totale = 1 year
+* Le calcul simple de l'APY dans Excel peut également être exprimé comme suit = EFFECT(r, n)
 
-![Year 1 end would be 261 tokens or 161% APY versus 100% APR w/o compounding](<../.gitbook/assets/capture (3).png>)
+![La fin de la première année serait de 261 jetons ou 161% de rendement annuel contre 100% de taux annuel sans capitalisation.](<../.gitbook/assets/capture (3).png>)
 
 
 
