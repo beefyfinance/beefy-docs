@@ -16,13 +16,13 @@ veVELO is non-transferrable and the amount held by a given user decreases steadi
 
 beVELO is a Beefy-escrowed version of VELO staked for veVELO to take advantage of the various benefits offered to Velodrome stakers.
 
-The token is fully backed 1:1 by VELO and can be redeemed for VELO held in reserves. This reserve fills up in several circumstances:
+The token is fully backed 1:1 by VELO and can be redeemed for VELO held in reserve. This reserve fills up in several circumstances:
 
 1. when new users deposit VELO into beVELO, if below the required reserve amount at the time;&#x20;
 2. when the contract harvests trading fees and bribes from Velodrome, if below the required reserve amount at the time; or
 3. if the contract's staked VELO is left to gradually unlock.
 
-<figure><img src="../../../.gitbook/assets/bevelo_poster-1.png" alt=""><figcaption><p>beVELO is designed to capture the maximum possible rewards and benefits from Velodrome's vote escrow tokenomics.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bevelo_poster-1.png" alt=""><figcaption><p>beVELO is designed to capture the maximum possible rewards and benefits from Velodrome's vote escrow tokenomics.</p></figcaption></figure>
 
 ## How does one get beVELO?
 
@@ -44,11 +44,11 @@ Once you're holding beVELO, you can stake it in our beVELO vault to earn more be
 
 Where our beVELO contract earns trading fees and bribes by deploying its veVELO on the protocol, those protocol revenues are swapped back to beVELO and redeposited into the beVELO vault to give rise to an autocompounding effect. This maximises the yield for holders above what they could obtain alone from the protocol.
 
-<figure><img src="../../../.gitbook/assets/bevelo_vault-1.png" alt=""><figcaption><p>beVELO can be deposited into our beVELO vault, where the earnings from staking the contract's VELO into veVELO are redeposited and autocompounded.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bevelo_vault-1.png" alt=""><figcaption><p>beVELO can be deposited into our beVELO vault, where the earnings from staking the contract's VELO into veVELO are redeposited and autocompounded.</p></figcaption></figure>
 
 ## But what about fees?
 
-Beefy strives to maintain some of the lowest yield-optimizing fees, and charges standard fees on its beVELO vaults.
+Beefy strives to maintain some of the lowest yield-optimizing fees, and charges standard fees on its beVELO vault.
 
 ## How does beVELO keep its peg?
 

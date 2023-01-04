@@ -14,13 +14,13 @@ Users can stake Qi to earn eQi and receive an up to 4x boosted share of protocol
 
 beQI is a Beefy-escrowed version of Qi staked to earn eQi, to boost the proportion of Mai Finance protocol revenues that Beefy earns and to participate in vault incentive gauge votes.
 
-The token is fully backed 1:1 by Qi and can be redeemed for Qi held in reserves. This reserve fills up when new users deposit (if below the required reserve amount at the time), or the amount of reserve required gradually decreases as the contract's eQi gradually decreases and unlocks.
+The token is fully backed 1:1 by Qi and can be redeemed for Qi held in reserve. This reserve fills up when new users deposit (if below the required reserve amount at the time), or the amount of reserve required gradually decreases as the contract's eQi gradually decreases and unlocks.
 
 ## How does one get beQI?
 
 You can mint beQI on the beQI [vault](https://app.beefy.finance/#/vault/beefy-beqi) or [earnings pools](https://app.beefy.finance/#/vault/beefy-beqi-earnings) pages at a 1:1 ratio. There is no incentivised liquidty for beQI, instead there will be a withdrawal reserve.
 
-![beQI is minted and burned at a 1:1 rate with Qi](../../../.gitbook/assets/FSRYcQfXoAE2pL4.jpg)
+![beQI is minted and burned at a 1:1 rate with Qi](../../.gitbook/assets/FSRYcQfXoAE2pL4.jpg)
 
 ## How does beQI work?
 
@@ -43,11 +43,11 @@ Once you're holding beQI, there are a couple of available options. You can eithe
 
 As eQi boosted protocol revenue is paid out in Qi tokens, these can be paid back to beQI holders either directly in Qi (through the earnings pool), or by compounding beQI (through the vault) by minting more beQI with the Qi rewards.
 
-![beQI can be autocompounded or staked to earn Qi](../../../.gitbook/assets/FQ-Hh7gWYAIJlEU.jpg)
+![beQI can be autocompounded or staked to earn Qi](../../.gitbook/assets/FQ-Hh7gWYAIJlEU.jpg)
 
 ## How does the beQI strategy work?
 
-![](../../../.gitbook/assets/Flow\_beQI.png)
+![](../../.gitbook/assets/Flow\_beQI.png)
 
 ## But what about fees?
 
@@ -71,4 +71,4 @@ Not at the moment. All Qi voting power is currently used by Beefy to vote in the
 
 Where our preferred collateral types are unlikely to qualify for the incentives gauge, we may also choose to accept bribes from external parties. The proceeds of all bribes are then distributed directly to our beQI holders. If you are interested in proposing a bribe to Beefy, please reach out to the Core team on Discord, Telegram or Twitter to find out more.
 
-![Beefy's Qi voting power can also be used for bribes, which are paid directly to holders](../../../.gitbook/assets/beQI\_LIGHT.png)
+![Beefy's Qi voting power can also be used for bribes, which are paid directly to holders](../../.gitbook/assets/beQI\_LIGHT.png)

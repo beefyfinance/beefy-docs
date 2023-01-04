@@ -33,6 +33,7 @@
   * [beJOE](products/beefy-escrowed-tokens/bejoe.md)
   * [beQI](products/beefy-escrowed-tokens/beqi.md)
   * [beVELO](products/beefy-escrowed-tokens/bevelo.md)
+  * [beOPX](products/beefy-escrowed-tokens/beopx.md)
 * [Advanced Vaults](products/advanced-vaults/README.md)
   * [GMX and GLP](products/advanced-vaults/gmx-and-glp.md)
 
