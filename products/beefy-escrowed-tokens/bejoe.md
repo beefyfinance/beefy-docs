@@ -4,6 +4,10 @@ description: Beefy-escrowed JOE
 
 # beJOE
 
+{% hint style="info" %}
+beJOE was deprecated on the 6th of January, 2023.
+{% endhint %}
+
 ## What is JOE? <a href="#what-is-joe" id="what-is-joe"></a>
 
 JOE is the native token of Trader Joe, a decentralized exchange native to the Avalanche blockchain. It rewards holders with a share of the platform’s revenues and also acts as a governance token. JOE has a fixed supply and decaying emissions model.
@@ -20,7 +24,7 @@ The token is fully backed 1:1 by JOE and can be redeemed for JOE held in reserve
 
 You can mint beJOE on the beJOE [vault](https://app.beefy.finance/#/vault/beefy-beJoe) or [earnings pool](https://app.beefy.finance/#/vault/beefy-beJoe-earnings) pages at a 1:1 ratio. There is no incentivised liquidity for beJOE, instead there will be a withdrawal reserve.
 
-![beJOE is minted and burned at a 1:1 rate with JOE](<../../../.gitbook/assets/image (3) (1).png>)
+![beJOE is minted and burned at a 1:1 rate with JOE](<../../.gitbook/assets/image (3) (1).png>)
 
 ## How does beJOE work?
 
@@ -47,7 +51,7 @@ As the boosted rewards on Trader Joe farms are paid out in JOE, these can be pai
 
 ## How does the beJOE strategy work?
 
-![](../../../.gitbook/assets/Flow\_beJOE.png)
+![](../../.gitbook/assets/Flow\_beJOE.png)
 
 ## But what about fees? <a href="#but-what-about-fees" id="but-what-about-fees"></a>
 
