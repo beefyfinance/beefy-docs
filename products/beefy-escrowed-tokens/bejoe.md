@@ -5,7 +5,7 @@ description: Beefy-escrowed JOE
 # beJOE
 
 {% hint style="info" %}
-beJOE was deprecated on the 6th of January, 2023.
+beJOE was deprecated on the 6th of January, 2023. All beJOE can be burned 1 to 1 for JOE, and Beefy no longer takes any fees.
 {% endhint %}
 
 ## What is JOE? <a href="#what-is-joe" id="what-is-joe"></a>
