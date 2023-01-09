@@ -84,9 +84,13 @@ As transaction fees on Ethereum are expensive, Beefy has introduced a few rules 
 
 * Vault TVL is above $100k: vault will be harvested every 3 days.
 * Vault TVL is below $100k but above $15k: vault will be harvested every 15 days.
-* Vault TVL is below $15k: community harvest.
+* Vault TVL is below $10k: community harvest.
 
 Community harvest implies that the harvest function on the strategy contract has to be manually called, and the transaction fees for doing so will not be subsidized by Beefy.
+
+Another rule watches the gas prices on Ethereum. If `maxGasPrice` is 20 GWei or more, harvests will not be executed as they will become too expensive. This is regardless of a vault's TVL.
+
+The Gelato Off-Chain Resolver that handles the harvests on Ethereum based on the aforementioned rules can be found following this link: [Gelato Automate](https://beta.app.gelato.network/task/0x7d25576896f89f2124937135e953f6d65f5481e8b9c89c147a64802810963f51?chainId=1). The smart contract and its parameters, as well as past Executions and Task Logs, are also easily accessible there.
 
 ## **Does the performance fee get taken out when I withdraw my funds?**
 
