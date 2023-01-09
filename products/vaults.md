@@ -78,6 +78,16 @@ Almost all of the vaults on more inexpensive chains like Fantom and Polygon harv
 
 For depositing, and thus calling the harvest function, you will receive a reward in the form of the native chain token (e.g. WFTM or WMATIC) due to the harvest call fee.
 
+## Harvesting on Ethereum
+
+As transaction fees on Ethereum are expensive, Beefy has introduced a few rules that determine the vault's harvesting frequency.
+
+* Vault TVL is above $100k: vault will be harvested every 3 days.
+* Vault TVL is below $100k but above $15k: vault will be harvested every 15 days.
+* Vault TVL is below $15k: community harvest.
+
+Community harvest implies that the harvest function on the strategy contract has to be manually called, and the transaction fees for doing so will not be subsidized by Beefy.
+
 ## **Does the performance fee get taken out when I withdraw my funds?**
 
 No, the performance fees are on profits and are taken every time someone calls the harvest() function.
