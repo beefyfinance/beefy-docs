@@ -83,7 +83,7 @@ For depositing, and thus calling the harvest function, you will receive a reward
 As transaction fees on Ethereum are expensive, Beefy has introduced a few rules that determine the vault's harvesting frequency.
 
 * Vault TVL is above $100k: vault will be harvested every 3 days.
-* Vault TVL is below $100k but above $15k: vault will be harvested every 15 days.
+* Vault TVL is below $100k but above $10k: vault will be harvested every 15 days.
 * Vault TVL is below $10k: community harvest.
 
 Community harvest implies that the harvest function on the strategy contract has to be manually called, and the transaction fees for doing so will not be subsidized by Beefy.
