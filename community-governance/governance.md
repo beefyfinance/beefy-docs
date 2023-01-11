@@ -22,7 +22,7 @@ Beyond voting for yourself, you can also register to participate as a delegate, 
 
 You can see proposals and vote on them yourself by heading to [vote.beefy.finance](https://vote.beefy.finance/).
 
-![Beefy's Snapshot page houses our governance proposals and voting.](<../.gitbook/assets/image (3).png>)
+![Beefy's Snapshot page houses our governance proposals and voting.](<../.gitbook/assets/image (3) (2).png>)
 
 ## **How do I vote?**
 

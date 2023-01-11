@@ -116,7 +116,7 @@ More detailed vault risks, or better yet, information on Beefy's vault safety ex
 
 ## What will I get out when I make a vault withdrawal?
 
-You will always withdraw the token type that you deposited, because at Beefy you earn what you stake. You will get the amount you deposited plus the yield generated (minus a potential vault withdrawal fee). In the case of LP token vaults, you may also chose to use Beefy's Zap feature to withdraw as one of the two tokens representing the LP.
+The default is that you withdraw the token type that you deposited, because at Beefy you earn what you stake. You will get the amount you deposited plus the yield generated (minus a potential vault withdrawal fee). For vaults supporting Beefy ZAP, users can withdraw directly into other assets, including any assets forming part of the in the relevant liquidity pool for ZAP V1, and any of the bluechip, native or stable assets supported for ZAP V2.
 
 ## **How do LP vaults work?**
 
