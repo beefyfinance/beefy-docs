@@ -92,6 +92,12 @@ Another rule watches the gas prices on Ethereum. If `maxGasPrice` is 20 GWei or 
 
 The Gelato Off-Chain Resolver that handles the harvests on Ethereum based on the aforementioned rules can be found following this link: [Gelato Automate](https://beta.app.gelato.network/task/0xe27256b6b3109b9d53e2aded267c1be317e53dce78021d374e02284d144d44c3?chainId=1). The smart contract and its parameters, as well as past Executions and Task Logs, are also easily accessible there.
 
+## Harvesting on BNB Chain
+
+BNB Chain also has a harvesting constraint in place:
+
+* Vault TVL is below $10k and older than 2 weeks: community harvest.
+
 ## **Does the performance fee get taken out when I withdraw my funds?**
 
 No, the performance fees are on profits and are taken every time someone calls the harvest() function.
