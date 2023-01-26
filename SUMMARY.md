@@ -68,7 +68,6 @@
 * [Governance](community-governance/governance.md)
 * [Proposal Repository](community/proposal-repository.md)
 * [Cowmoonity](community/community.md)
-* [Beefy Cowmoonity Tools](community/beefy-cowmoonity-tools.md)
 * [Partnerships](community-governance/partnerships.md)
 
 ## Developer Documentation
