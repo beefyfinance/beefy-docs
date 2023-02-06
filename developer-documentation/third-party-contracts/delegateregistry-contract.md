@@ -1,5 +1,5 @@
 ---
-description: 'Last Update: December 2022'
+description: 'Last Update: February 2023'
 ---
 
 # DelegateRegistry Contract
@@ -31,7 +31,7 @@ The DelegateRegistry contract emits two possible events in its ordinary operatio
 
 ### SetDelegate
 
-Signifies that the contract's [#setdelegate-1](delegateregistry-contract.md#setdelegate-1 "mention") method has successfully been called, and consequently the caller has selected a new delegate.
+Signifies that the contract's [#setdelegate-1](delegateregistry-contract.md#setdelegate-1 "mention") function has successfully been called, and consequently the caller has selected a new delegate.
 
 {% code overflow="wrap" %}
 ```solidity
@@ -44,7 +44,7 @@ event SetDelegate(address indexed delegator, bytes32 indexed id, address indexed
 
 ### ClearDelegate
 
-Signifies that one of the below [#contract-methods](delegateregistry-contract.md#contract-methods "mention") has successfully been called, and consequently the former delegate has been cleared for the caller.
+Signifies that one of the below [#contract-functions](delegateregistry-contract.md#contract-functions "mention") has successfully been called, and consequently the former delegate has been cleared for the caller.
 
 {% code overflow="wrap" %}
 ```solidity
@@ -55,9 +55,9 @@ event ClearDelegate(address indexed delegator, bytes32 indexed id, address index
 ```
 {% endcode %}
 
-## Contract Methods
+## Contract Functions
 
-The functionality behind the DelegateRegistry contract is very straightforward, and consists of just two methods to set and remove delegates.
+The functionality behind the DelegateRegistry contract is very straightforward, and consists of just two functions to set and remove delegates.
 
 ### setDelegate()
 
@@ -88,9 +88,9 @@ function setDelegate(bytes32 id, address delegate) public {
 ```
 {% endcode %}
 
-Where the call is successful, the method will update the delegation mapping to the new delegate address. It then tests whether the user had previously delegated to another user, and if so it will then emit the [#cleardelegate](delegateregistry-contract.md#cleardelegate "mention") event to signify that the old delegate has been removed. Finally it will emit the [#setdelegate](delegateregistry-contract.md#setdelegate "mention")event to signify that the new delegate has been added.
+Where the call is successful, the function will update the delegation mapping to the new delegate address. It then tests whether the user had previously delegated to another user, and if so it will then emit the [#cleardelegate](delegateregistry-contract.md#cleardelegate "mention") event to signify that the old delegate has been removed. Finally it will emit the [#setdelegate](delegateregistry-contract.md#setdelegate "mention")event to signify that the new delegate has been added.
 
-Please note that the method does not also require the contract to use the [#cleardelegate-1](delegateregistry-contract.md#cleardelegate-1 "mention") method, which is only used to remove an existing delegate.
+Please note that the function does not also require the contract to use the [#cleardelegate-1](delegateregistry-contract.md#cleardelegate-1 "mention") function, which is only used to remove an existing delegate.
 
 ### clearDelegate()
 
@@ -111,16 +111,16 @@ function clearDelegate(bytes32 id) public {
 }
 </code></pre>
 
-Where the call is successful, the method will update the delegation mapping to the null address (i.e. singifying that the user has not delegated their voting power), and then emits the [#cleardelegate](delegateregistry-contract.md#cleardelegate "mention") event to signify that the old delegate has been removed.
+Where the call is successful, the function will update the delegation mapping to the null address (i.e. singifying that the user has not delegated their voting power), and then emits the [#cleardelegate](delegateregistry-contract.md#cleardelegate "mention") event to signify that the old delegate has been removed.
 
 ## Delegation Walkthrough
 
-There are two main methods that users can adopt to interact with the DelegateRegistry contract: either interacting through the Snapshot interface or by interacting directly with the contract (e.g. through a relevant block explorer). Below are brief walkthroughs for each method.
+There are two main methods that users can adopt to interact with the DelegateRegistry contract: either interacting through the Snapshot interface or by interacting directly with the contract (e.g. through a relevant block explorer). Below are brief walkthroughs for each methods.
 
 ### Through the Snapshot Interface
 
 1. Go to the [Snapshot interface delegation page](https://vote.beefy.finance/#/delegate/beefydao.eth).
-2. Connect your wallet the site, so that it can detect your address and so you can call the [#setdelegate-1](delegateregistry-contract.md#setdelegate-1 "mention") method.&#x20;
+2. Connect your wallet the site, so that it can detect your address and so you can call the [#setdelegate-1](delegateregistry-contract.md#setdelegate-1 "mention") function.&#x20;
 3. Make sure you're connected to the BNB chain on the BSC network with your wallet. **No other chain will work.**
 4. Input the address or ENS name of the user you want to delegate your voting power to.
 5. If you want to, you can select "limit delegation to a specific space" to confine your delegation to only the Beefy Snapshot space. To do so, input the following space: beefydao.eth.
@@ -137,12 +137,12 @@ There are two main methods that users can adopt to interact with the DelegateReg
 4.  Make sure your wallet is set to the BNB chain on the BSC network. **No other chain will work.**
 
     <figure><img src="../../.gitbook/assets/BscScan Interface.png" alt=""><figcaption><p>The BscScan interface will provide you with full access to all delegation methods, events and transactions, though they are clearly less user friendly for most users.</p></figcaption></figure>
-5. Scroll down to the [#setdelegate-1](delegateregistry-contract.md#setdelegate-1 "mention") method, and input the required details, those being:
+5. Scroll down to the [#setdelegate-1](delegateregistry-contract.md#setdelegate-1 "mention") function, and input the required details, those being:
    1. id (bytes32) - the address of the Snapshot space for which you are delegating (i.e. the Beefy Space ID: 0x626565667964616f2e657468).
    2. delegate (address) - the address of the user you want to delegate your voting power to.
 6.  Click "Write" to initiate the transaction in your wallet. As this is a write transaction (i.e. submitting information for storage on the blockchain), you will have to pay a small amount of gas to facilitate the transaction.
 
-    <figure><img src="../../.gitbook/assets/BscScan Methods.png" alt=""><figcaption><p>The methods on each block explorer reflect those detailed in the <a data-mention href="delegateregistry-contract.md#contract-methods">#contract-methods</a> section above.</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/BscScan Methods.png" alt=""><figcaption><p>The functions on each block explorer reflect those detailed in the <a data-mention href="delegateregistry-contract.md#contract-functions">#contract-functions</a> section above.</p></figcaption></figure>
 7. Once the transaction goes through, you will have successfully delegated to the user address that you provided across all chains that our BIFI token is deployed to.
 
 ## Contracts

@@ -1,5 +1,5 @@
 ---
-description: 'Last Update: November 2022'
+description: 'Last Update: February 2023'
 ---
 
 # BeefyWrapper Contract
@@ -12,11 +12,11 @@ This page sets out some of the background to the ERC-4626 standard, and the func
 
 The purpose of the ERC-4626 standard is to solve the problems caused by the diversity of vault designs found across DeFi. Many protocols have incorporated vault concepts into their architecture by reinventing the wheel to suit their own unique architecture and use cases. This means external projects hoping to implement a range of different vaults need to adapt and plug their code to reconcile it with the quirks of each protocol's unique vault design.&#x20;
 
-The new standard recognises some common methods across the majority of vaults, and suggests that harmonising this functionality into a single standard can help to mitigate the quantity of adaptations and plug-ins required to work with most vaults. For protocols like Beefy, adopting ERC-4626 for our Beefy Vaults helps to facilitate new product development building on our products, and as a result promises to increase the range of use cases available to our users.
+The new standard recognises some common functions across the majority of vaults, and suggests that harmonising this functionality into a single standard can help to mitigate the quantity of adaptations and plug-ins required to work with most vaults. For protocols like Beefy, adopting ERC-4626 for our Beefy Vaults helps to facilitate new product development building on our products, and as a result promises to increase the range of use cases available to our users.
 
-## Contract Methods
+## Contract Functions
 
-The functionality of the BeefyWrapper contract facilitates the minting and burning of wrapped Beefy Vault tokens in exchange for the transfer of the caller's Beefy Vault tokens. It also overrides the standard deposit and withdraw methods to facilitate deposits to the main Beefy Vault, in exchange for minting and burning of the wrapped Beefy Vault tokens.
+The functionality of the BeefyWrapper contract facilitates the minting and burning of wrapped Beefy Vault tokens in exchange for the transfer of the caller's Beefy Vault tokens. It also overrides the standard deposit and withdraw functions to facilitate deposits to the main Beefy Vault, in exchange for minting and burning of the wrapped Beefy Vault tokens.
 
 ### wrap()
 
@@ -40,7 +40,7 @@ function wrap(uint256 amount) public {
 
 ### wrapAll()
 
-Utilises the wrap() method, but using the full balance of the caller as the "amount" parameter.
+Utilises the wrap() function, but using the full balance of the caller as the "amount" parameter.
 
 {% code overflow="wrap" %}
 ```solidity
@@ -74,7 +74,7 @@ function unwrap(uint256 amount) public {
 
 ### unwrapAll()
 
-Utilises the unwrap() method, but using the full balance of the caller as the "amount" parameter.
+Utilises the unwrap() function, but using the full balance of the caller as the "amount" parameter.
 
 {% code overflow="wrap" %}
 ```solidity
@@ -88,7 +88,7 @@ function unwrapAll() external {
 
 ### \_deposit()
 
-Overrides the standard \_deposit() method to interact with the wrapper contract and issued wrapped Beefy Vault tokens, in place of the unwrapped version. Otherwise facilitates an ordinary transfer into the Beefy Vault.
+Overrides the standard \_deposit() function to interact with the wrapper contract and issued wrapped Beefy Vault tokens, in place of the unwrapped version. Otherwise facilitates an ordinary transfer into the Beefy Vault.
 
 {% code overflow="wrap" %}
 ```solidity
@@ -119,7 +119,7 @@ function _deposit(address caller, address receiver, uint256 assets, uint256 shar
 
 ### \_withdraw()
 
-Overrides the standard \_withdraw() method to interact with the wrapped Beefy Vault tokens, in place of the unwrapped version. Otherwise facilitates an ordinary withdrawal from the Beefy Vault and returns the underlying tokens to the receiver.
+Overrides the standard \_withdraw() function to interact with the wrapped Beefy Vault tokens, in place of the unwrapped version. Otherwise facilitates an ordinary withdrawal from the Beefy Vault and returns the underlying tokens to the receiver.
 
 <pre class="language-solidity" data-overflow="wrap"><code class="lang-solidity">// Burn wrapped tokens and withdraw assets from the vault.
 /// "caller" parameter is the address of the caller of the withdraw.
@@ -155,7 +155,7 @@ function _withdraw(address caller, address receiver, address owner, uint256 asse
 
 ### totalAssets()
 
-Overrides the standard totalAssets() method to fetch the total assets held by the vault.
+Overrides the standard totalAssets() function to fetch the total assets held by the vault.
 
 {% code overflow="wrap" %}
 ```solidity
@@ -171,7 +171,7 @@ function totalAssets() public view virtual override returns (uint256) {
 
 ### totalSupply()
 
-Overrides the standard totalSupply() method to fetch the total shares issues by the vault.
+Overrides the standard totalSupply() function to fetch the total shares issues by the vault.
 
 {% code overflow="wrap" %}
 ```solidity

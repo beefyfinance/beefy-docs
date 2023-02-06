@@ -1,61 +1,176 @@
-# Beefy Vault V6
+---
+description: 'Last Update: February 2023'
+---
 
-## Important View Functions
+# Vault Contract
 
-### _Want_
+The [Beefy Vault Contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/vaults/BeefyVaultV7.sol) is the central user-facing implementation of the Beefy protocol, which accept and manage user deposits and mint mooTokens as a proof of receipt to facilitate withdrawals.&#x20;
 
-```
-function want() external view returns (IERC20);
-```
+Besides handling deposits and withdrawals, the primary function of the vault is to direct deposited funds to the relevant autocompounding [strategy-contract.md](strategy-contract.md "mention"). The vault and strategy contracts are kept separate to isolate any risks in the strategy from user deposits.
 
-Want refers to the underlying token in both the Beefy Vault and Strategy contracts.
+## View Functions
 
-### _Balance_
+### want()
 
-```
-function balance() external view returns (uint256);
-```
+Returns the address of the underlying farm token (e.g. the LP token) used in both the Beefy Vault and Strategy contracts. Note that this is not the same as the underlying assets used for the farm.
 
-Balance is the amount of "want" stored in the vault, strategy and yield source.
-
-### _Total Supply_
-
-```
-function totalSupply() external view returns (uint256);
+```solidity
+function want() public view returns (IERC20Upgradeable) {
+    return IERC20Upgradeable(strategy.want());
+}
 ```
 
-Total Supply is the total amount of mooTokens minted. MooTokens are always 18 decimals. ([#what-are-mootokens](../products/vaults.md#what-are-mootokens "mention"))
+### balance()
 
-### _Get Price Per Full Share_
+Returns the amount of "want" (i.e. underlying farm token) stored in the vault and strategy and yield source as an integer.
 
+```solidity
+function balance() public view returns (uint) {
+    return want().balanceOf(address(this)) + IStrategyV7(strategy).balanceOf();
+}
 ```
-function getPricePerFullShare() external view returns (uint256);
+
+### available()
+
+Returns the amount of "want" (i.e. underlying farm token) stored in the vault alone as an integer.
+
+```solidity
+function available() public view returns (uint256) {
+    return want().balanceOf(address(this));
+}
 ```
 
-This function is calculated using balance() / totalSupply(). This represents the amount of underlying token that is owed for 1 mooToken.
+### totalSupply()
 
-### _Strategy_
+Returns the total amount of mooTokens minted as an integer, which are always displayed as 18 decimal token. This is a standard method inherited from the ERC-20 standard. See[#what-are-mootokens](../products/vaults.md#what-are-mootokens "mention") for more details.
 
+```solidity
+function totalSupply() public view virtual override returns (uint256) {
+    return _totalSupply;
+}
 ```
+
+### getPricePerFullShare()
+
+Returns the current price per share of the vault (i.e. per mooToken) as an integer denominated in the "want" (i.e. underlying farm token). This is calculated as _Price per Full Share =_ [#balance](beefy-vault-v6.md#balance "mention") _/_ [#totalsupply](beefy-vault-v6.md#totalsupply "mention").
+
+```solidity
+function getPricePerFullShare() public view returns (uint256) {
+    return totalSupply() == 0 ? 1e18 : balance() * 1e18 / totalSupply();
+}
+```
+
+### strategy()
+
+Returns the address current underlying strategy contract that the vault is using to generate yield.
+
+```solidity
 function strategy() external view returns (address);
 ```
 
-This function displays the current underlying strategy contract that the vault is using.
+## Write Functions
 
-## Important Write Functions
+### deposit()
 
-### _Deposit_
+Executes a transfer of a specified \_amount of "want" (i.e. underlying farm token) from the depositor to the vault, and then mints a proportional quantity of mooTokens to the depositor in return.
 
+```solidity
+function deposit(uint _amount) public nonReentrant {
+    strategy.beforeDeposit();
+    uint256 _pool = balance();
+    want().safeTransferFrom(msg.sender, address(this), _amount);
+    earn();
+    uint256 _after = balance();
+    _amount = _after - _pool; // Additional check for deflationary tokens
+    uint256 shares = 0;
+    if (totalSupply() == 0) {
+        shares = _amount;
+    } else {
+        shares = (_amount * totalSupply()) / _pool;
+    }
+    _mint(msg.sender, shares);
+}
 ```
-function deposit(uint256 _amount) external;
+
+Additionally, there is a helper function _depositAll()_ that deposits the entire balance of "want" in the user's wallet at the time of the transaction.
+
+### withdraw()
+
+Executes a burn of a specified \_amount of mooTokens from the depositor, and then transfers a proportional quantity of "want" (i.e. underlying farm token) to the depositor in return.
+
+```solidity
+function withdraw(uint256 _shares) public {
+    uint256 r = (balance() * _shares) / totalSupply();
+    _burn(msg.sender, _shares);
+    uint b = want().balanceOf(address(this));
+    if (b < r) {
+        uint _withdraw = r - b;
+        strategy.withdraw(_withdraw);
+        uint _after = want().balanceOf(address(this));
+        uint _diff = _after - b;
+        if (_diff < _withdraw) {
+            r = b + _diff;
+        }
+    }
+    want().safeTransfer(msg.sender, r);
+}
 ```
 
-Core deposit function of the strategy. Users deposit an \_amount of want and will receive minted mooTokens (shares) in return. There is additionally a helper function depositAll() that will find the total amount of want held in the user's wallet and deposit it all.
+Similarly to [#deposit](beefy-vault-v6.md#deposit "mention")_,_ there is a helper function _withdrawAll()_ that withdraw the entire balance of mooTokens in the user's wallet at the time of the transaction.
 
-### _Withdraw_
+### earn()
 
+Executes a transfer of [#available](beefy-vault-v6.md#available "mention") "want" (i.e. underlying farm token) from the Vault Contract to the strategy contract and triggers the strategy's _deposit()_ function to deploy the funds and begin earning.
+
+```solidity
+function earn() public {
+    uint _bal = available();
+    want().safeTransfer(address(strategy), _bal);
+    strategy.deposit();
+}
 ```
-function withdraw(uint256 _shares) external;
+
+### proposeStrat()
+
+Writes the address of an alternate strategy to the Vault Contract's memory, in anticipation of upgrade the current strategy to the alternate using [#upgradestrat](beefy-vault-v6.md#upgradestrat "mention").
+
+```solidity
+function proposeStrat(address _implementation) public onlyOwner {
+    require(address(this) == IStrategyV7(_implementation).vault(), "Proposal not valid for this Vault");
+    require(want() == IStrategyV7(_implementation).want(), "Different want");
+    stratCandidate = StratCandidate({
+        implementation: _implementation,
+        proposedTime: block.timestamp
+    });
+    emit NewStratCandidate(_implementation);
+}
 ```
 
-Unlike deposit, withdraw requests you send it your mooTokens(\_shares) in order to withdraw. Similar to deposit there is a withdrawAll() helper function that will use all mooTokens a user holds in there wallet for withdraw.
+### upgradeStrat()
+
+Replaces the address of the current strategy with an alternate strategy specified by [#proposestrat](beefy-vault-v6.md#proposestrat "mention").
+
+```solidity
+function upgradeStrat() public onlyOwner {
+    require(stratCandidate.implementation != address(0), "There is no candidate");
+    require(stratCandidate.proposedTime + approvalDelay < block.timestamp, "Delay has not passed");
+    emit UpgradeStrat(stratCandidate.implementation);
+    strategy.retireStrat();
+    strategy = IStrategyV7(stratCandidate.implementation);
+    stratCandidate.implementation = address(0);
+    stratCandidate.proposedTime = 5000000000;
+    earn();
+}
+```
+
+## BeefyVaultV7.sol
+
+The current release of our standard Beefy Vault Contract is [BeefyVaultV7.sol](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/vaults/BeefyVaultV7.sol), which was [released](https://github.com/beefyfinance/beefy-contracts/pull/83) in August 2022.&#x20;
+
+The V7 release improved on the previous version in a few keys ways:
+
+* Introduced vault upgradeability through proxy patterns, to facilitate updates and changes to live Beefy vaults without needing to deprecate and re-deploy;
+* Updated the strategy interface to allow for upgradeable strategies; and
+* Amended to remove reliance on the SafeMath library, which has been generally retired following incorporation of its features into Solidity v0.8.
+
+Separately, a ERC-4646-compliant wrapper contract was released for the V7 vault in November 2022, which allows developers to incorporate Beefy Vaults into their projects with standardised vault functionality and interfaces. See [beefywrapper-contract.md](other-beefy-contracts/beefywrapper-contract.md "mention") for more information.

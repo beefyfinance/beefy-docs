@@ -16,7 +16,7 @@ veVELO is non-transferrable and the amount held by a given user decreases steadi
 
 beVELO is a Beefy-escrowed version of VELO staked for veVELO to take advantage of the various benefits offered to Velodrome stakers.
 
-The token is fully backed 1:1 by VELO and can be redeemed for VELO held in reserve. This reserve fills up in several circumstances:
+The token is fully backed 1:1 by VELO and can be redeemed for VELO held in reserve. This reserve fills up on several circumstances:
 
 1. when new users deposit VELO into beVELO, if below the required reserve amount at the time;&#x20;
 2. when the contract harvests trading fees and bribes from Velodrome, if below the required reserve amount at the time; or
