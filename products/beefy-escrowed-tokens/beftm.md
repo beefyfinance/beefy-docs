@@ -12,7 +12,7 @@ beFTM is short for Beefy-escrowed Fantom. beFTM gives stakers access to maximize
 
 To get your hands on beFTM, users must first deposit their FTM in the Beefy Delegator Vault. The FTM is then used to buy beFTM from a liquidity pool or minted 1:1 depending on which is most profitable for the user.
 
-![beMINT determines the most profitable strategy](<../../../.gitbook/assets/beftm\_mint (1).jpg>)
+![beMINT determines the most profitable strategy](<../../.gitbook/assets/beftm\_mint (1).jpg>)
 
 beFTM can also be manually purchased on many DEXes such as Solidly, BeethovenX, SpiritSwap, and SpookySwap. One might need the beFTM contract address for trading: [0x7381eD41F6dE418DdE5e84B55590422a57917886](https://ftmscan.com/token/0x7381eD41F6dE418DdE5e84B55590422a57917886)
 
@@ -22,7 +22,7 @@ The collective pool of FTM is delegated to [Beefy’s Validator Node](https://ft
 
 ## beFTM Earnings Pool and beFTM Vault
 
-After depositing FTM to get beFTM, the FTM gets delegated to Beefy's Validator Node which earns more WFTM at around 14.5% APY. The WFTM rewards will be collected and distributed daily to the beFTM Earnings Pool where users can stake beFTM to earn WFTM. The beFTM Vault deposits the beFTM in the Earnings Pool and uses the share of the vault to buyback beFTM with the WFTM rewards. By doing so, the beFTM vault adds a continuous buying pressure to the beFTM token price.
+After depositing FTM to get beFTM, the FTM gets delegated to Beefy's Validator Node. The validator stakes the FTM tokens to help secure the Fantom network, and earns WFTM tokens as a reward. The WFTM rewards will be collected and distributed daily to the beFTM Earnings Pool where users can stake beFTM to earn WFTM. The beFTM Vault deposits the beFTM in the Earnings Pool and uses the share of the vault to buyback beFTM with the WFTM rewards. By doing so, the beFTM vault adds a continuous buying pressure to the beFTM token price.
 
 ## What can I do with beFTM?&#x20;
 
@@ -32,7 +32,7 @@ After depositing FTM to get beFTM, the FTM gets delegated to Beefy's Validator N
 
 ## How does the beFTM strategy work?
 
-![](../../../.gitbook/assets/Flow\_beFTM.png)
+![](../../.gitbook/assets/Flow\_beFTM.png)
 
 ## How does beFTM keep its peg?
 
