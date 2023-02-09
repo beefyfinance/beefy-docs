@@ -1,5 +1,5 @@
 ---
-description: 'Last Update: August 2022'
+description: 'Last Update: February 2023'
 ---
 
 # Cowmoonity
@@ -17,16 +17,14 @@ Beefy's Core contributors are working hard every day to improve Beefy in various
 | EPETE                      | EPETE#3333                 | @\_\_ePete             |
 | Eren                       | Eren Jaegar#9562           | @eren\_beefy           |
 | frondoto                   | frondoto#1954              | @frondoto1             |
-| JimBob                     | Jimbob#4904                | -                      |
 | kexley                     | kexley \| cryptomaxi#7853  | @CryptoMaxi6           |
 | mjoaris                    | mjoaris#5328               | @mjoaris               |
 | Pablo                      | Pablo#9688                 | @pablo\_beefy          |
 | Power - Beefy.Finance      | Power - Beefy.Finance#3933 | @PowerBeefy            |
 | ReflectiveChimp            | ReflectiveChimp#4499       | @ReflectiveChimp       |
 | Roman Monk                 | Roman Monk#7468            | @roman\_mnk            |
-| sirbeefalot                | sirbeefalot#8775           | @sirb\_beefy           |
 | TheBeefyCow                | TheBeefyCow#9890           | @thebeefycow           |
-| W16o - BIFI 16 Chains.bifi | Weso#1643                  | @w3soBeefy             |
+| w18o - BIFI 18 Chains.bifi | Weso#1643                  | @w3soBeefy             |
 | YR2150 \| Beefy Pulse      | YR2150 \| Beefy Pulse#5907 | @yr2150T / @beefypulse |
 | Zapmore                    | Zapmore#3433               | @Zapmore3              |
 
@@ -72,45 +70,46 @@ Below is the list of Beefy OG's who were around in Beefy's first year, some even
 
 Beefy Finance is a community of contributors. Below is a list of Cowmoonity members with an active role.
 
-| Name                   | Discord               | Primary Role           |
-| ---------------------- | --------------------- | ---------------------- |
-| MrTitoune              | MrTitoune#9043        | Dev                    |
-| Timelock-Watcher       | Timelock-Watcher#9763 | Dev                    |
-| 52x13                  | 52x13#5502            | Cowmoonity Hero        |
-| Agiziga                | Agiziga#1264          | Cowmoonity Hero        |
-| Appel \| Gear          | Appel#8795            | Cowmoonity Hero / Gear |
-| armads (Ark, Ark)      | armads#1337           | Cowmoonity Hero / Mod  |
-| BifiPeter              | crypto\_peter#0412    | Cowmoonity Hero        |
-| jackgale.eth           | jackgale.eth#3663     | Cowmoonity Hero        |
-| Sim One                | Sim One#9602          | Cowmoonity Hero / Mod  |
-| Terry (TheTopDefi.com) | terrys999#6597        | Cowmoonity Hero        |
-| ZukoWick (AVAX, Maxi)  | ZukoWick#2604         | Cowmoonity Hero / Mod  |
-| cl 🇲🇾                | C L#8898              | Mod                    |
-| dcFX0                  | dcFX0#9639            | Mod                    |
-| TA                     | TA Tokenhalter#2694   | Mod                    |
-| ab.0x                  | ab.0x#3716            | Strategist             |
-| ABeely                 | ABeely#0760           | Strategist             |
-| Cartman                | cartman#6481          | Strategist             |
-| cmdrkeen.eth           | CmdrKeen#2408         | Strategist             |
-| Frog                   | geschnarkus#8191      | Strategist             |
-| Galmoli                | Galmoli#9531          | Strategist             |
-| Hym                    | Hym#6244              | Strategist             |
-| jaxx                   | jaxx#5948             | Strategist             |
-| Marth007               | Marth007#4920         | Strategist             |
-| Matty                  | Matty#0005            | Strategist             |
-| plainview.eth          | plainview.eth#0643    | Strategist             |
-| pumpingGhost           | pumpingGhost#6020     | Strategist             |
-| Qkyrie                 | Qkyrie#7908           | Strategist             |
-| shatterproof           | shatterproof#0001     | Strategist             |
+| Name                   | Discord                | Primary Role            |
+| ---------------------- | ---------------------- | ----------------------- |
+| MrTitoune              | MrTitoune#9043         | Dev                     |
+| Timelock-Watcher       | Timelock-Watcher#9763  | Dev                     |
+| 52x13                  | 52x13#5502             | Cowmoonity Hero         |
+| Agiziga                | Agiziga#1264           | Cowmoonity Hero         |
+| Appel \| Gear          | Appel#8795             | Cowmoonity Hero / Gear  |
+| armads (Ark, Ark)      | armads#1337            | Cowmoonity Hero / Mod   |
+| BifiPeter              | crypto\_peter#0412     | Cowmoonity Hero         |
+| jackgale.eth           | jackgale.eth#3663      | Cowmoonity Hero         |
+| MisterDollahSignz      | MisterDollahSignz#6345 | Cowmoonity Hero / Media |
+| Sim One                | Sim One#9602           | Cowmoonity Hero / Mod   |
+| Terry (TheTopDefi.com) | terrys999#6597         | Cowmoonity Hero         |
+| ZukoWick (AVAX, Maxi)  | ZukoWick#2604          | Cowmoonity Hero / Mod   |
+| cl 🇲🇾                | C L#8898               | Mod                     |
+| dcFX0                  | dcFX0#9639             | Mod                     |
+| TA                     | TA Tokenhalter#2694    | Mod                     |
+| ab.0x                  | ab.0x#3716             | Strategist              |
+| ABeely                 | ABeely#0760            | Strategist              |
+| Cartman                | cartman#6481           | Strategist              |
+| cmdrkeen.eth           | CmdrKeen#2408          | Strategist              |
+| Frog                   | geschnarkus#8191       | Strategist              |
+| Galmoli                | Galmoli#9531           | Strategist              |
+| Hym                    | Hym#6244               | Strategist              |
+| jaxx                   | jaxx#5948              | Strategist              |
+| Marth007               | Marth007#4920          | Strategist              |
+| Matty                  | Matty#0005             | Strategist              |
+| plainview.eth          | plainview.eth#0643     | Strategist              |
+| pumpingGhost           | pumpingGhost#6020      | Strategist              |
+| Qkyrie                 | Qkyrie#7908            | Strategist              |
+| shatterproof           | shatterproof#0001      | Strategist              |
 
 ## Unique contributors
 
-As of 10-08-2022, there are 102 unique contributors among the following roles:
+As of 09-02-2023, there are 101 unique contributors among the following roles:
 
-* 19 @Core
-* 19 @Dev
-* 21 @Strategist
+* 17 @Core
+* 18 @Dev
+* 23 @Strategist
 * 47 @Beefy OGs
-* 28 @Cowmoonity Heroes
-* 28 @Cowmoonity Farmhand
-* 16 @Mod
+* 29 @Cowmoonity Heroes
+* 27 @Cowmoonity Farmhand
+* 13 @Mod
