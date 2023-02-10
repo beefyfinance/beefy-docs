@@ -47,10 +47,14 @@ Yes! Beefy always develops with _safety_ in mind and has made sure the boosted v
 
 Yes! The ordinary tokens you deposited in our main vaults will earn the ordinary rewards and be compounded as usual, even if it is boosted. This is because the [mooTokens](boost.md#what-are-mootokens) you deposit to enter the Launchpool boost are _interest-bearing_. By using the boosted vault, you earn both the vault tokens and partner tokens as a boost.
 
+## What does "Pre-Stake" mean?
+
+This means there is an upcoming boost for this vault.  You can stake your mooTokens ahead of time so that you will earn the Boost Rewards as soon the Boost begins.
+
 ## How come the APY shown at launch is not the same as it is now?
 
 APY is the “annual percentage yield” and is calculated by compounding your yield interest daily. The daily yield in turn is based on factors such as the reward rate and the total amount of deposited tokens that share the rewards. When more people and in turn tokens enter the pool, the fixed yield is shared by more people (tokens) hence the daily yield will become lower and in turn, lower the APY. In the same way, if people (tokens) exit the vault, there are fewer people (tokens) sharing the fixed reward and the daily yield will increase and in turn, APY will increase.
 
 ## Are the promoted project and its tokens safe?
 
-When partnering with a certain project, Beefy always makes an overall due diligence check of the project to get a sense of its sincerity and safety. For this, Beefy follows a stringent set of safety rules, as outlined in [Beefy SAFU Practices](../../safu-protocol/beefy-safu-practices.md). Despite the project being safe code-wise, we can never guarantee if the partner token is worth holding. Therefore it is always up to you to make your financial decisions, to make sure that the partnering project is a project that you want to support or not, and that the partner token is one you want to hold or sell. Beefy cannot, and will not take any responsibility for your personal actions.
+When partnering with a certain project, Beefy always makes an overall due diligence check of the project to get a sense of its sincerity and safety. For this, Beefy follows a stringent set of safety rules, as outlined in [Beefy SAFU Practices](../safu-protocol/beefy-safu-practices.md). Despite the project being safe code-wise, we can never guarantee if the partner token is worth holding. Therefore it is always up to you to make your financial decisions, to make sure that the partnering project is a project that you want to support or not, and that the partner token is one you want to hold or sell. Beefy cannot, and will not take any responsibility for your personal actions.
