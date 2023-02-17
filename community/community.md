@@ -30,7 +30,7 @@ Beefy's Core contributors are working hard every day to improve Beefy in various
 
 ## Beefy OG's
 
-Below is the list of Beefy OG's who were around in Beefy's first year, some even from the start, and helped to grow Beefy in the early stages. The stats are based on [Beefy Finance's Discord](https://discord.gg/yq8wfHd), plus Twitter account if available. This role is no longer given to new contributors. Most of Beefy's Core contributors are Beefy OG's as well.
+Below is the list of Beefy OG's who were around in Beefy's first year, some even from the start, and helped to grow Beefy in the early stages. The stats are based on [Beefy's Discord](https://discord.gg/yq8wfHd), plus Twitter account if available. This role is no longer given to new contributors. Most of Beefy's Core contributors are Beefy OG's as well.
 
 | Name                      | Discord                 | Twitter        | Primary Role |
 | ------------------------- | ----------------------- | -------------- | ------------ |
@@ -68,7 +68,7 @@ Below is the list of Beefy OG's who were around in Beefy's first year, some even
 
 ## Contributors
 
-Beefy Finance is a community of contributors. Below is a list of Cowmoonity members with an active role.
+Beefy is a community of contributors. Below is a list of Cowmoonity members with an active role.
 
 | Name                   | Discord                | Primary Role            |
 | ---------------------- | ---------------------- | ----------------------- |

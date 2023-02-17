@@ -16,7 +16,7 @@ All vaults start with a perfect score of 10 and are subtracted points whenever t
 
 ## Category: Beefy Risks
 
-These are risks related to the Beefy Finance platform itself. These could be risks added by the complexity of the vault strategy, if it's an experimental deployment, if it's been audited by others, etc. Twenty percent of the safety score is determined by the Beefy Risks.
+These are risks related to the Beefy platform itself. These could be risks added by the complexity of the vault strategy, if it's an experimental deployment, if it's been audited by others, etc. Twenty percent of the safety score is determined by the Beefy Risks.
 
 ### Subcategory: Complexity
 

@@ -1,6 +1,6 @@
 # Team & Goals
 
-## When was Beefy.Finance launched?
+## When was Beefy launched?
 
 Beefy was born on September 21, 2020, the day our [governance distribution contracts](https://medium.com/beefyfinance/bifi-contracts-are-live-on-mainnet-6080577269d7) went live. Our first set of vaults opened on October 8, 2020.
 

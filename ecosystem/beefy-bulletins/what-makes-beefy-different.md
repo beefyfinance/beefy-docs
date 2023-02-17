@@ -8,7 +8,7 @@ Investor and crypto evangelist Naval Ravikant was once asked, "What would you be
 
 _"An unstoppable, uncensorable social media platform."_
 
-In other words, he'd be working on a technological platform that puts science and code ahead of cronyism and censorship. This is the foundation of Beefy Finance.
+In other words, he'd be working on a technological platform that puts science and code ahead of cronyism and censorship. This is the foundation of Beefy.
 
 Some other values we align ourselves with:
 

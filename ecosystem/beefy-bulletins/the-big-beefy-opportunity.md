@@ -4,7 +4,7 @@
 
 There are two types of people in this world: those who have a vague desire to achieve their financial goals, without ever taking any specific and deliberate action to make it happen, and those who "run the numbers" and are ready to seize the opportunity when they see it.
 
-This might sound like a cringe 80's television commercial, but the truth is the strength of Beefy Finance comes from what we BUILD, not what we say.
+This might sound like a cringe 80's television commercial, but the truth is the strength of Beefy comes from what we BUILD, not what we say.
 
 _So, what have we built?_
 

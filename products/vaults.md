@@ -31,7 +31,7 @@ Users can sit back and relax, and watch their investment grow!
 A mooToken is an interest-bearing, tokenized proof of deposit that you will receive at the moment you deposit in a Beefy vault. A mooToken is unique per vault, e.g. you get mooBIFI tokens when depositing BIFI into the BIFI Maxi vault. One can view mooTokens as the receipt of your vault deposit.
 
 {% hint style="info" %}
-Beefy.Finance users should hold on tightly to their mooTokens and not sell or exchange it, since you would lose ownership of your staked vault assets if you did so!
+Beefy users should hold on tightly to their mooTokens and not sell or exchange it, since you would lose ownership of your staked vault assets if you did so!
 {% endhint %}
 
 ## How do mooTokens earn interest?
@@ -128,13 +128,13 @@ The default is that you withdraw the token type that you deposited, because at B
 
 Liquidity pool (LP) vaults work by reinvesting the fees awarded to LP participants. In return for providing liquidity to the pool, many platforms reward investors with tokens. Our vaults regularly harvest these rewards, sell it, buy more of the LP’s underlying assets, and then reinvest to complete the cycle.
 
-This compounds the rewards gained from a liquidity pool. Beefy.Finance creates strategies that automate this process, saving you time and gas fees in comparison to farming manually. This is all done for a tiny fee that is distributed back to those who stake in Beefy's governance pool or in the BIFI Maxi vault. A small percentage also goes to the Beefy Finance treasury.
+This compounds the rewards gained from a liquidity pool. Beefy creates strategies that automate this process, saving you time and gas fees in comparison to farming manually. This is all done for a tiny fee that is distributed back to those who stake in Beefy's governance pool or in the BIFI Maxi vault. A small percentage also goes to the Beefy treasury.
 
 ## **How often are balances updated in the vaults?**
 
 Pending rewards are not reflected in the balance until they are swapped for the initial deposited token. This can vary depending on the strategy running.&#x20;
 
-## **How do vaults get added to Beefy.Finance?**
+## **How do vaults get added to Beefy?**
 
 New potential vaults can be discussed in our Discord. Our strategists then add the potential investment strategy to our strategy list. A priority is assigned to each new, potential strategy based on its APY, TVL and sustainability. Our developers/strategists then attack the list from top priority to bottom. The official forum is used for submitting actual [vault requests](https://forum.beefy.finance/c/vault-requests).
 
