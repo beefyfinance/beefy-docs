@@ -73,7 +73,9 @@
 ## Developer Documentation
 
 * [Vault Contract](developer-documentation/beefy-vault-v6.md)
-* [Strategy Contract](developer-documentation/strategy-contract.md)
+* [Strategy Contract](developer-documentation/strategy-contract/README.md)
+  * [StratFeeManager Contract](developer-documentation/strategy-contract/stratfeemanager-contract.md)
+  * [GasFeeThrottler Contract](developer-documentation/strategy-contract/gasfeethrottler-contract.md)
 * [Other Beefy Contracts](developer-documentation/other-beefy-contracts/README.md)
   * [BeefyWrapper Contract](developer-documentation/other-beefy-contracts/beefywrapper-contract.md)
   * [GaugeStaker Contract](developer-documentation/other-beefy-contracts/gaugestaker-contract.md)

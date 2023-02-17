@@ -4,9 +4,9 @@ description: 'Last Update: February 2023'
 
 # Vault Contract
 
-The [Beefy Vault Contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/vaults/BeefyVaultV7.sol) is the central user-facing implementation of the Beefy protocol, which accept and manage user deposits and mint mooTokens as a proof of receipt to facilitate withdrawals.&#x20;
+The [Beefy Vault Contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/vaults/BeefyVaultV7.sol) is the central user-facing implementation of the Beefy protocol, which accept and manage user deposits and mint mooTokens as a proof of receipt to facilitate withdrawals. It follows the ERC-20 [standard](https://eips.ethereum.org/EIPS/eip-20) for fungible, transferrable tokens.
 
-Besides handling deposits and withdrawals, the primary function of the vault is to direct deposited funds to the relevant autocompounding [strategy-contract.md](strategy-contract.md "mention"). The vault and strategy contracts are kept separate to isolate any risks in the strategy from user deposits.
+Besides handling deposits and withdrawals, the primary function of the vault is to direct deposited funds to the relevant autocompounding [strategy-contract](strategy-contract/ "mention"). The vault and strategy contracts are kept separate to isolate any risks in the strategy from user deposits.
 
 ## View Functions
 
