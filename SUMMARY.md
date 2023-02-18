@@ -77,6 +77,7 @@
   * [StratFeeManager Contract](developer-documentation/strategy-contract/stratfeemanager-contract.md)
   * [GasFeeThrottler Contract](developer-documentation/strategy-contract/gasfeethrottler-contract.md)
 * [Other Beefy Contracts](developer-documentation/other-beefy-contracts/README.md)
+  * [FeeConfigurator Contract](developer-documentation/other-beefy-contracts/feeconfigurator-contract.md)
   * [BeefyWrapper Contract](developer-documentation/other-beefy-contracts/beefywrapper-contract.md)
   * [GaugeStaker Contract](developer-documentation/other-beefy-contracts/gaugestaker-contract.md)
 * [Third Party Contracts](developer-documentation/third-party-contracts/README.md)
