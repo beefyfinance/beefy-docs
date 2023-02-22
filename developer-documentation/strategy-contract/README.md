@@ -12,8 +12,8 @@ Besides handling deposits and withdrawals, the primary function of the vault is 
 
 All Beefy strategies rely on a range of dependencies and interfaces which are imported into the strategy contract on deployment. The core dependencies, which allow the strategy to inherit a range of functionality are:
 
-* StratFeeManagerInitializable.sol; and
-* GasThrottler.sol.
+* StratFeeManagerInitializable.sol and
+* GasFeeThrottler.sol
 
 The key interfaces which allow the strategy to interact with third party contracts are:
 
