@@ -82,19 +82,19 @@ Tracks the risk of impermanent loss within the vault
 #### IL\_LOW
 
 * Title: Low projected IL&#x20;
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. The assets in this vault have some risks of impermanent loss.&#x20;
-* Qualification Criteria: Vaults that handle what are normally referred as “Pool 1” LPs would fit here: ETH-USDC, MATIC-AAVE, etc. Governance tokens for smaller projects are normally known as “Pool 2” and thereby excluded.
+* Explanation: The assets held in this vault are expected to have a low impermanent loss, which can be attributed to their relatively high correlation. While the correlation between the assets is not perfect, it is strong enough to mitigate the risk of significant loss. For instance, agEUR-USDC is one example of assets with a close but not perfect correlation that have historically exhibited low impermanent loss in the LP.
+* Qualification Criteria: Vaults that handle LPs containing assets with a low risk of impermanent loss due to potential divergences in asset prices. For example: agEUR-USDC.
 
 #### IL\_HIGH
 
 * Title: High projected IL&#x20;
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. The assets in this vault have a high or very high risk of impermanent loss.&#x20;
-* Qualification Criteria: Vaults that handle “Pool 2” LPs go here. These LP normally include the governance token of the farm itself.
+* Explanation: When you are providing liquidity into a token pair, for example CAKE-BNB, there is a risk that those assets decouple in price. CAKE could drop considerably in relation to BNB. You would lose some funds as a result, compared to just holding CAKE and BNB on their own. The assets in this vault have a high or very high risk of impermanent loss.&#x20;
+* Qualification Criteria: Vaults that handle LPs containing assets with a high risk of impermanent loss due to potential divergences in asset prices. For example: CAKE-BNB.
 
 #### ALGO\_STABLE
 
 * Title: Algorithmic stable, experimental peg
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. At least one of the stablecoins held by this vault is an algorithmic stable. This means that the stable peg is experimental and highly risky. Use it carefully at your own discretion.
+* Explanation: At least one of the stablecoins held by this vault is an algorithmic stable. This means that the stable peg is experimental and highly risky. Use it carefully at your own discretion.
 * Qualification Criteria: “Stablecoins” with experimental pegs, or tokenomics that have failed repeatedly to hold its peg in the past, go here.
 
 ### Subcategory: Liquidity
