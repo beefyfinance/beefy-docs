@@ -1,5 +1,5 @@
 ---
-description: 'Last Update: May 2022'
+description: 'Last Update: February 2023'
 ---
 
 # Contributor Compensation
@@ -44,7 +44,17 @@ The first major change was a move to a more holistic rewards framework for the e
 
 Though grouping developer compensation together was a clear step forward, the process of gathering and analysing unpaid contributions was cumbersome and inconsistent. Following a re-organisation of leadership roles in September 2021, a further [proposal](https://vote-archive.beefy.finance/#/beefy/proposal/QmVjSv8e7ApJ9wYggxoLkJLNywZ8ru3XNnaNUxErY8LVsp) was put forward by Weso in November 2021, proposing to move to reoccurring monthly payments for defined roles across the DAO (both developers and other contributors). In an accompanying forum post, Weso explained the different core contributor roles, and proposed that the DAO would need to regularly re-approve the reoccurring payments. He also suggested that the DAO should retain authority to remove roles and amend or remove proposed payments. On 8 November 2021, the cowmoonity approved Weso's proposal with a consensus of 97.69%.
 
-Subsequent reoccurring monthly payments have continued in [December/January](https://vote-archive.beefy.finance/#/beefy/proposal/Qmcj6J3DZQmf99HtmKiCthHK4DUBRcCvSXqBPHu2gMzMwR), [February-April](https://snapshot.org/#/beefydao.eth/proposal/QmbM3gLpX7KtWecTgeLGaKHm9mVj3vQFQ5Quu1TkigDw19), [May-July](https://snapshot.org/#/beefydao.eth/proposal/QmZq2Qi2dfKrtTDNr5ifrz2mNaLXt7Mbj9jcGuUt7rPB2h) and [August-October](https://snapshot.org/#/beefydao.eth/proposal/bafkreidaxinbuktzi5ae2f7bthpm3nkxmosf7zeazbztpgheynlhuqfbc4).
+Since that time, reoccurring contributor pay requests have been repeatedly authorised by DAO votes. The full list to date is:
+
+| Period                        | Amount ($USD) | Proposal                                                                                                                         |
+| ----------------------------- | ------------: | -------------------------------------------------------------------------------------------------------------------------------- |
+| November 2021                 |        94,000 | [Archive Page](https://vote-archive.beefy.finance/#/beefy/proposal/QmVjSv8e7ApJ9wYggxoLkJLNywZ8ru3XNnaNUxErY8LVsp)               |
+| December 2021 to January 2022 |        97,500 | [Archive Page](https://vote-archive.beefy.finance/#/beefy/proposal/Qmcj6J3DZQmf99HtmKiCthHK4DUBRcCvSXqBPHu2gMzMwR)               |
+| February 2022 to April 2022   |       102,000 | [Snapshot Page](https://snapshot.org/#/beefydao.eth/proposal/QmbM3gLpX7KtWecTgeLGaKHm9mVj3vQFQ5Quu1TkigDw19)                     |
+| May 2022 to July 2022         |       127,500 | [Snapshot Page](https://snapshot.org/#/beefydao.eth/proposal/QmZq2Qi2dfKrtTDNr5ifrz2mNaLXt7Mbj9jcGuUt7rPB2h)                     |
+| August 2022 to October 2022   |       102,400 | [Snapshot Page](https://snapshot.org/#/beefydao.eth/proposal/bafkreidaxinbuktzi5ae2f7bthpm3nkxmosf7zeazbztpgheynlhuqfbc4)        |
+| November 2022 to January 2023 |       104,000 | [Snapshot Page](https://snapshot.org/#/beefydao.eth/proposal/0x415f986f46cf7ee7046d7c8c99fbe07de53168df18e47497248db909bd3abc09) |
+| February 2023 to April 2023   |       104,400 | [Snapshot Page](https://snapshot.org/#/beefydao.eth/proposal/0x1825b4982a474f953853428bab0ef1058626c1a07a8138e39c16f5262ca35632) |
 
 ## BeefyGrants
 
