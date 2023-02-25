@@ -22,7 +22,7 @@ Unlike some platforms flashing their APYs for your attention, there are no catch
 
 Or the APY is given as a spectacular headline number, but the small print is that you have to _manually_ compound every single day to get that number.
 
-**On Beefy we're proud to be doing things a little more transparently.**
+**At Beefy we're proud to be doing things a little more transparently.**
 
 _With our vaults, performance fees are included in the APY._
 
@@ -45,6 +45,8 @@ Following the passage of \[BIP:45], Beefy has introduced a maximum performance f
 * 0.05% is awarded to the one calling the harvest function.
 
 For the rare vaults which do not [Harvest on Deposit](https://docs.beefy.finance/ecosystem/products/vaults#what-is-harvesting-on-deposit), we assign a withdrawal fee of up to 0.1% to each vault to protect bad actors from abusing the vaults with too much flipping. We share this amongst all the other stakers in the vault.
+
+Finally, for users of our Beefy ZAP V2 tool, we charge a 0.05% zap fee on your deposited amounts when entering or exiting a vault. These fees are returned to the Beefy treasury by way of a intermediate batching treasury, which allows fees to be aggregated and swapped into stables before being deposited. See [how-to-beefy-zap.md](../../faq/how-to-guides/how-to-beefy-zap.md "mention") for more details on the ZAP V2 tool.
 
 Apart from the fees fully listed above, anyone using Beefy should also remember the network transaction fees when adding or removing funds. These small fees go to the operators keeping the blockchain running, not Beefy.
 
