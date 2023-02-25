@@ -20,7 +20,7 @@ More on the vault fees [here](../products/vaults.md#what-is-the-vault-fee-struct
 
 ## Beefy ZAP
 
-Our Beefy ZAP tooling automatically builds the deposit positions you need for our Beefy vaults from other assets, thereby saving you the time, energy and cost of obtaining the necessary assets and building the necessary liquidity positions yourself. Here's a guide on [How to Use Beefy ZAP](how-to-guides/how-to-beefy-zap.md).
+Our Beefy ZAP tooling automatically builds the deposit (or withdraw) positions you need for our Beefy vaults from other assets, thereby saving you the time, energy and cost of obtaining the necessary assets and building the necessary liquidity positions yourself. Here's a guide on [How to Use Beefy ZAP](how-to-guides/how-to-beefy-zap.md).
 
 ![ZAP V1 allows users to enter supported LP vaults with any of the base assets in the LP.](../.gitbook/assets/beefy-info-zap.png)
 
@@ -29,6 +29,8 @@ Our ZAP V1 tool automatically builds liquidity pool (LP) tokens from any of the 
 <figure><img src="../.gitbook/assets/ZAP_Infographic_.png" alt=""><figcaption><p>ZAP V2 goes one step further, so users can enter supported vaults from any of a selection of blue chip, native or stablecoin assets, regardless of whether the asset forms part of the vault's asset base.</p></figcaption></figure>
 
 The ZAP V2 tool takes things one step further, using the power of DEX aggregators like 1inch to add initial swaps to the process, so users can move from common blue chip tokens (e.g. WBTC, ETH), native tokens (e.g. MATIC, BNB) or stablecoins (e.g. USDC, USDT, DAI) into the underlying tokens needed for the liquidity position. That way, you can access our market-leading returns on new products without handling anything but the tokens and stables you already have in your wallet.
+
+The ZAP quote that's displayed during the deposit or withdraw process already has the ZAP fee taken into account. Additionally, the ZAP fee is only deducted from token swaps. The fees first accumulate in a batch treasury, and after some time are swapped to stables and sent to [Beefy's Treasury](https://app.beefy.com/treasury). The original Beefy ZAP V1 remains free to use.
 
 {% hint style="info" %}
 When using ZAP, always check your quote! While ZAP does protect you against market slippage (price changes at the time of order and time of fulfillment), it does **not** protect you against price impact (how much your transaction will change the price of the tokens in the liquidity pool). As a general rule, the smaller the liquidity of the asset, the larger the risk of price impact.

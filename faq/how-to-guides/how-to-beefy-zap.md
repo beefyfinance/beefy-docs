@@ -75,3 +75,7 @@ Similarly, the ZAP V2 withdrawal workflow is also near identical to V1 for users
 <figure><img src="../../.gitbook/assets/V2 - Withdraw.png" alt=""><figcaption><p>For the ZAP V2 withdrawal workflow, select any of the available assets in the dropdown menu and input the number of LP tokens you wish to withdraw from the vault.</p></figcaption></figure>
 
 As with the V1 process detailed above, simply hit _"Withdraw"_ or _"Withdraw All"_, run through the transaction on your wallet, and watch the transaction complete on the blockchain. Withdraw complete! Beefy ZAP V2 took you through all the steps in V1 to exit the vault and break the liquidity position, before swapping back to your chosen asset with V2.&#x20;
+
+{% hint style="info" %}
+The ZAP quote that's displayed during the deposit or withdraw process already has the ZAP fee taken into account. Additionally, the ZAP fee is only deducted from token swaps. The fees first accumulate in a batch treasury, and after some time are swapped to stables and sent to [Beefy's Treasury](https://app.beefy.com/treasury). The original Beefy ZAP V1 remains free to use.
+{% endhint %}
