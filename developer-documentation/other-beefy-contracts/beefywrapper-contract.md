@@ -4,7 +4,7 @@ description: 'Last Update: February 2023'
 
 # BeefyWrapper Contract
 
-The [BeefyWrapper contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/vaults/BeefyWrapper.sol) is an ERC-4626 adapter interface that makes Beefy Vaults compatible with the ERC-4626 [standard](https://eips.ethereum.org/EIPS/eip-4626). It unlocks the composability of the standard and enables smoother interfacing and interaction with Beefy Vaults by external protocols, without the need for additional adapters and plug-ins.&#x20;
+The [BeefyWrapper contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/vaults/BeefyWrapper.sol) is an ERC-4626 adapter interface that makes a Beefy [beefy-vault-v6.md](../beefy-vault-v6.md "mention") compatible with the ERC-4626 [standard](https://eips.ethereum.org/EIPS/eip-4626). It unlocks the composability of the standard and enables smoother interfacing and interaction with Beefy Vaults by external protocols, without the need for additional adapters and plug-ins.&#x20;
 
 This page sets out some of the background to the ERC-4626 standard, and the functionality of the BeefyWrapper contract.
 

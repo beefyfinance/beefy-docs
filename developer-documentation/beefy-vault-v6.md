@@ -4,7 +4,7 @@ description: 'Last Update: February 2023'
 
 # Vault Contract
 
-The [Beefy Vault Contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/vaults/BeefyVaultV7.sol) is the central user-facing implementation of the Beefy protocol, which accept and manage user deposits and mint mooTokens as a proof of receipt to facilitate withdrawals. It follows the ERC-20 [standard](https://eips.ethereum.org/EIPS/eip-20) for fungible, transferrable tokens.
+The [Beefy Vault Contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/vaults/BeefyVaultV7.sol) is the central user-facing implementation of the Beefy protocol, which accepts and manages user deposits and mints mooTokens as a proof of receipt to facilitate withdrawals. It follows the ERC-20 [standard](https://eips.ethereum.org/EIPS/eip-20) for fungible, transferrable tokens.
 
 Besides handling deposits and withdrawals, the primary function of the vault is to direct deposited funds to the relevant autocompounding [strategy-contract](strategy-contract/ "mention"). The vault and strategy contracts are kept separate to isolate any risks in the strategy from user deposits.
 
@@ -165,12 +165,10 @@ function upgradeStrat() public onlyOwner {
 
 ## BeefyVaultV7.sol
 
-The current release of our standard Beefy Vault Contract is [BeefyVaultV7.sol](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/vaults/BeefyVaultV7.sol), which was [released](https://github.com/beefyfinance/beefy-contracts/pull/83) in August 2022.&#x20;
-
-The V7 release improved on the previous version in a few keys ways:
+The current release of our standard Beefy Vault Contract is [BeefyVaultV7.sol](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/vaults/BeefyVaultV7.sol), which was [released](https://github.com/beefyfinance/beefy-contracts/pull/83) in August 2022. The V7 release improved on the previous version in a few keys ways:
 
 * Introduced vault upgradeability through proxy patterns, to facilitate updates and changes to live Beefy vaults without needing to deprecate and re-deploy;
 * Updated the strategy interface to allow for upgradeable strategies; and
-* Amended to remove reliance on the SafeMath library, which has been generally retired following incorporation of its features into Solidity v0.8.
+* Amended all contracts to remove reliance on the SafeMath library, which has been generally retired following incorporation of its features into Solidity v0.8.
 
 Separately, a ERC-4646-compliant wrapper contract was released for the V7 vault in November 2022, which allows developers to incorporate Beefy Vaults into their projects with standardised vault functionality and interfaces. See [beefywrapper-contract.md](other-beefy-contracts/beefywrapper-contract.md "mention") for more information.

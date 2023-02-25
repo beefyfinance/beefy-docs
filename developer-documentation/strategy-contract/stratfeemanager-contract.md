@@ -4,7 +4,7 @@ description: 'Last Update: February 2023'
 
 # StratFeeManager Contract
 
-The [StratFeeManager Contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/strategies/Common/StratFeeManagerInitializable.sol) is collection of important dependencies which are imported and used in all Beefy Strategy Contracts.&#x20;
+The [StratFeeManager Contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/strategies/Common/StratFeeManagerInitializable.sol) is collection of important dependencies which are imported and used in every Beefy [.](./ "mention").&#x20;
 
 Originally, these dependencies were split into two contracts - [StratManager.sol](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/strategies/Common/StratManager.sol) and [FeeManager.sol](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/strategies/Common/FeeManager.sol). After the move to Solidity V0.8, the two were combined into a single contract - [StratFeeManager.sol](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/strategies/Common/StratFeeManager.sol). The current verison - [StratFeeManagerInitializable.sol](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/strategies/Common/StratFeeManagerInitializable.sol) - facilitated a move to proxy clone strategies (which must be initialized with the relevant arguments for the strategy and its dependencies), to avoid the need to deploy every single strategy individually.
 

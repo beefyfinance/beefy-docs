@@ -4,7 +4,7 @@ description: 'Last Update: February 2023'
 
 # FeeConfigurator Contract
 
-The [BeefyFeeConfigurator Contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/infra/BeefyFeeConfigurator.sol) is an infrastructure contract hosted on each of the blockchains which Beefy has deployed on. The contract manages the configuration of fees for each strategy on the relevant chain, which the StratFeeManager Contract interfaces with through [IFeeConfig.sol](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/interfaces/common/IFeeConfig.sol).
+The [BeefyFeeConfigurator Contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/infra/BeefyFeeConfigurator.sol) is an infrastructure contract hosted on each of the blockchains which Beefy has deployed on. The contract manages the configuration of fees for each strategy on the relevant chain, which the [stratfeemanager-contract.md](../strategy-contract/stratfeemanager-contract.md "mention") interfaces with through [IFeeConfig.sol](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/interfaces/common/IFeeConfig.sol).
 
 The relevant address for the FeeConfigurator Contract (_"beefyFeeConfig"_) on each chain is displayed in the Beefy API using the [#get-config](../beefy-api.md#get-config "mention") endpoint.
 

@@ -4,22 +4,24 @@ description: 'Last Update: February 2023'
 
 # Strategy Contract
 
-Strategy Contracts are the primary driver of Beefy's investment model, which facilitate the autocompounding of yield farm rewards. Beefy's process has three key steps: (1) staking deposited tokens in the relevant farm; (2) harvesting rewards; (3) swapping rewards for more deposit tokens and reinvesting the proceeds.
+[Strategy Contracts](https://github.com/beefyfinance/beefy-contracts/tree/master/contracts/BIFI/strategies) are the primary driver of Beefy's investment model, which facilitate the autocompounding of yield farm rewards. Beefy's process has three key steps: (1) staking deposited tokens in the relevant farms; (2) harvesting rewards; and (3) swapping rewards for more deposit tokens and reinvesting the proceeds
 
-Besides handling deposits and withdrawals, the primary function of the vault is to direct deposited funds to the relevant autocompounding [.](./ "mention"). The vault and strategy contracts are kept separate to isolate any risks in the strategy from user deposits.
+Each strategy contract is ultimately dependent on a [beefy-vault-v6.md](../beefy-vault-v6.md "mention") for the capital they deploy, and do not have any direct interaction with ordinary users. The vault and strategy contracts are kept separate to isolate any risks in the strategy from user deposits.
 
-## Dependencies & Interfaces
+## Dependencies
 
 All Beefy strategies rely on a range of dependencies and interfaces which are imported into the strategy contract on deployment. The core dependencies, which allow the strategy to inherit a range of functionality are:
 
-* StratFeeManagerInitializable.sol; and
-* GasThrottler.sol.
+* the [stratfeemanager-contract.md](stratfeemanager-contract.md "mention"); and
+* the [gasfeethrottler-contract.md](gasfeethrottler-contract.md "mention").
+
+## Interfaces
 
 The key interfaces which allow the strategy to interact with third party contracts are:
 
-* The router contract (e.g. IUniswapRouterETH.sol) - which allows for swaps between the different tokens involved in the autocompounding process;
-* The liquidity pool contract (e.g. IUniswapV2Pair.sol) - which is the underlying pool that our vaults provide liquidity to and that the farms are built on top of; and
-* The chef contract (e.g. IMiniChefV2.sol) - the farm which is issuing rewards for providing liquidity.
+* **the router contract interface** - which allows for swaps between the different tokens involved in the autocompounding process (e.g. IUniswapRouterETH.sol);
+* **the liquidity pool contract interface** - which is the underlying pool that our vaults provide liquidity to and that the farms are built on top of (e.g. IUniswapV2Pair.sol); and
+* **the chef contract interface** - the farm which is issuing rewards for providing liquidity (e.g. IMiniChefV2.sol).
 
 ## View Functions
 
@@ -29,7 +31,7 @@ Checks the amount of the underlying farm token (or "want") stored in the strateg
 
 ```solidity
 function balanceOf() public view returns (uint256) {
-    return balanceOfWant().add(balanceOfPool());
+    return balanceOfWant() + balanceOfPool();
 }
 
 function balanceOfWant() public view returns (uint256) {
@@ -43,7 +45,7 @@ Checks the amount of underlying farm token (or "want") stored in the chef contra
 
 ```solidity
 function balanceOfPool() public view returns (uint256) {
-    (uint256 _amount, ) = IMiniChefV2(chef).userInfo(poolId, address(this));	
+    (uint256 _amount, ) = IMiniChefV2(chef).userInfo(poolId, address(this));
     return _amount;
 }
 ```
@@ -63,18 +65,32 @@ function rewardsAvailable() public view returns (uint256) {
 Most strategies include a _callReward()_ function, which is used to determine the amount of "native" token rewards available to the _harvest()_ caller.
 
 ```solidity
-function callReward() public view returns (uint256) {
+function callReward() external view returns (uint256) {
+    uint256 pendingReward;
+    address rewarder = IMiniChefV2(chef).rewarder(poolId);
+    if (rewarder != address(0)) {
+        pendingReward = IRewarder(rewarder).pendingToken(poolId, address(this));
+    }
     uint256 outputBal = rewardsAvailable();
     uint256 nativeOut;
-    if (outputBal > 0) {
-        try IUniswapRouterETH(unirouter).getAmountsOut(outputBal, outputToNativeRoute)
-            returns (uint256[] memory amountOut) 
-        {
-            nativeOut = amountOut[amountOut.length -1];
+    if (reward == native) {
+        nativeOut = pendingReward;
+    } else if (pendingReward > 0) {
+        uint256 poolLength = params.rewardToNative.path.length;
+        uint256 amount = pendingReward;
+        for (uint i; i < poolLength;) {
+            bytes memory data = abi.encode(routes.rewardToNative[i], amount);
+            amount = IBentoPool(params.rewardToNative.path[i].pool).getAmountOut(data);
+            unchecked { ++i; }
         }
-        catch {}
+        nativeOut = amount;
     }
-    return nativeOut.mul(45).div(1000).mul(callFee).div(MAX_FEE);
+    if (outputBal > 0) {
+        bytes memory data = abi.encode(output, outputBal);
+        nativeOut += IBentoPool(params.outputToNative.path[0].pool).getAmountOut(data);
+    }
+    IFeeConfig.FeeCategory memory fees = getFees();
+    return nativeOut * fees.total / DIVISOR * fees.call / DIVISOR;
 }
 ```
 
@@ -108,12 +124,11 @@ function withdraw(uint256 _amount) external {
     if (wantBal > _amount) {
         wantBal = _amount;
     }
-    if (tx.origin == owner() || paused()) {
-        IERC20(want).safeTransfer(vault, wantBal);
-    } else {
-        uint256 withdrawalFeeAmount = wantBal.mul(withdrawalFee).div(WITHDRAWAL_MAX);	
-        IERC20(want).safeTransfer(vault, wantBal.sub(withdrawalFeeAmount));
+    if (tx.origin != owner() && !paused()) {
+        uint256 withdrawalFeeAmount = wantBal * withdrawalFee / WITHDRAWAL_MAX;
+        wantBal = wantBal - withdrawalFeeAmount;
     }
+    IERC20(want).safeTransfer(vault, wantBal);
     emit Withdraw(balanceOf());
 }
 ```
@@ -144,13 +159,14 @@ function managerHarvest() external onlyManager {
 function _harvest(address callFeeRecipient) internal whenNotPaused {
     IMiniChefV2(chef).harvest(poolId, address(this));
     uint256 outputBal = IERC20(output).balanceOf(address(this));
-    if (outputBal > 0) {
+    uint256 rewardBal = IERC20(reward).balanceOf(address(this));
+    if (outputBal > 0 || rewardBal > 0) {
         chargeFees(callFeeRecipient);
         addLiquidity();
         uint256 wantHarvested = balanceOfWant();
         deposit();
-        emit StratHarvest(msg.sender, wantHarvested, balanceOf());
         lastHarvest = block.timestamp;
+        emit StratHarvest(msg.sender, wantHarvested, balanceOf());
     }
 }
 ```
@@ -161,24 +177,28 @@ Internal method to charge fees on every [#harvest](./#harvest "mention") call, b
 
 {% code overflow="wrap" %}
 ```solidity
-function chargeFees(address callFeeReciepient) internal {
-    uint256 toOutput = IERC20(native).balanceOf(address(this));
-    if (toOutput > 0) {
-        IUniswapRouterETH(unirouter).swapExactTokensForTokens(
-            toOutput, 0, nativeToOutputRoute, address(this), now
-        );
-    }        
-    uint256 toNative = IERC20(output).balanceOf(address(this)).mul(45).div(1000);
-    IUniswapRouterETH(unirouter).swapExactTokensForTokens(
-        toNative, 0, outputToNativeRoute, address(this), now
-    );
-    uint256 nativeBal = IERC20(native).balanceOf(address(this));
-    uint256 callFeeAmount = nativeBal.mul(callFee).div(MAX_FEE);
-    IERC20(native).safeTransfer(callFeeReciepient, callFeeAmount);
-    uint256 beefyFeeAmount = nativeBal.mul(beefyFee).div(MAX_FEE);
+function chargeFees(address callFeeRecipient) internal {
+    IFeeConfig.FeeCategory memory fees = getFees();
+    uint256 rewardBal = IERC20(reward).balanceOf(address(this));
+    if (rewardBal > 0 && reward != native) {
+        ITridentRouter.ExactInputParams memory _rewardToNative = params.rewardToNative;
+        _rewardToNative.amountIn = rewardBal;
+        ITridentRouter(unirouter).exactInputWithNativeToken(_rewardToNative);
+    }
+    uint256 outputBal = IERC20(output).balanceOf(address(this));
+    if (outputBal > 0) {
+        ITridentRouter.ExactInputParams memory _outputToNative = params.outputToNative;
+        _outputToNative.amountIn = outputBal;
+        ITridentRouter(unirouter).exactInputWithNativeToken(_outputToNative);
+    }
+    uint256 nativeBal = IERC20(native).balanceOf(address(this)) * fees.total / DIVISOR;
+    uint256 callFeeAmount = nativeBal * fees.call / DIVISOR;
+    IERC20(native).safeTransfer(callFeeRecipient, callFeeAmount);
+    uint256 beefyFeeAmount = nativeBal * fees.beefy / DIVISOR;
     IERC20(native).safeTransfer(beefyFeeRecipient, beefyFeeAmount);
-    uint256 strategistFee = nativeBal.mul(STRATEGIST_FEE).div(MAX_FEE);
-    IERC20(native).safeTransfer(strategist, strategistFee);
+    uint256 strategistFeeAmount = nativeBal * fees.strategist / DIVISOR;
+    IERC20(native).safeTransfer(strategist, strategistFeeAmount);
+    emit ChargedFees(callFeeAmount, beefyFeeAmount, strategistFeeAmount);
 }
 ```
 {% endcode %}
@@ -190,22 +210,24 @@ Internal method to add liquidity to the underlying pool for the farm as part of 
 {% code overflow="wrap" %}
 ```solidity
 function addLiquidity() internal {
-    uint256 outputHalf = IERC20(output).balanceOf(address(this)).div(2);
-    if (lpToken0 != output) {
-        IUniswapRouterETH(unirouter).swapExactTokensForTokens(
-            outputHalf, 0, outputToLp0Route, address(this), now
-        );
+    uint256 nativeHalf = IERC20(native).balanceOf(address(this)) / 2;
+    if (lpToken0 != native) {
+        ITridentRouter.ExactInputParams memory _nativeToLp0 = params.nativeToLp0;
+        _nativeToLp0.amountIn = nativeHalf;
+        ITridentRouter(unirouter).exactInputWithNativeToken(_nativeToLp0);
     }
-    if (lpToken1 != output) {
-        IUniswapRouterETH(unirouter).swapExactTokensForTokens(
-            outputHalf, 0, outputToLp1Route, address(this), now
-        );
+    if (lpToken1 != native) {
+        ITridentRouter.ExactInputParams memory _nativeToLp1 = params.nativeToLp1;
+        _nativeToLp1.amountIn = nativeHalf;
+        ITridentRouter(unirouter).exactInputWithNativeToken(_nativeToLp1);
     }
+    ITridentRouter.TokenInput[] memory tokens = new ITridentRouter.TokenInput[](2);
     uint256 lp0Bal = IERC20(lpToken0).balanceOf(address(this));
     uint256 lp1Bal = IERC20(lpToken1).balanceOf(address(this));
-    IUniswapRouterETH(unirouter).addLiquidity(
-        lpToken0, lpToken1, lp0Bal, lp1Bal, 1, 1, address(this), now
-    );
+    tokens[0] = ITridentRouter.TokenInput(lpToken0, true, lp0Bal);
+    tokens[1] = ITridentRouter.TokenInput(lpToken1, true, lp1Bal);
+    bytes memory data = abi.encode(address(this));
+    ITridentRouter(unirouter).addLiquidity(tokens, want, 1, data);
 }
 ```
 {% endcode %}
@@ -281,13 +303,13 @@ Internal functions used to set and remove all allowances with third party contra
 
 ```solidity
 function _giveAllowances() internal {
-    IERC20(want).safeApprove(chef, uint256(-1));
-    IERC20(output).safeApprove(unirouter, uint256(-1));
-    IERC20(native).safeApprove(unirouter, uint256(-1));
+    IERC20(want).safeApprove(chef, type(uint).max);
+    IERC20(output).safeApprove(unirouter, type(uint).max);
+    IERC20(native).safeApprove(unirouter, type(uint).max);
     IERC20(lpToken0).safeApprove(unirouter, 0);
-    IERC20(lpToken0).safeApprove(unirouter, uint256(-1));
+    IERC20(lpToken0).safeApprove(unirouter, type(uint).max);
     IERC20(lpToken1).safeApprove(unirouter, 0);
-    IERC20(lpToken1).safeApprove(unirouter, uint256(-1));
+    IERC20(lpToken1).safeApprove(unirouter, type(uint).max);
 }
 
 function _removeAllowances() internal {

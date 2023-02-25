@@ -4,7 +4,7 @@ description: 'Last Update: February 2023'
 
 # GasFeeThrottler Contract
 
-The [GasFeeThrottler Contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/utils/GasFeeThrottler.sol) (formerly GasThrottler) is a smart contract device used to ensure that gas prices for child contract transactions always fall below a fixed maximum, or otherwise causes the transaction to be reverted. To do so, it points to a specific [GasPrice Contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/utils/GasPrice.sol), where the maximum gas price can be configured by the contract's owner.
+The [GasFeeThrottler Contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/utils/GasFeeThrottler.sol) (formerly GasThrottler) is a smart contract device used to ensure that gas prices for child contract transactions always fall below a fixed maximum, or otherwise causes the transaction to be reverted. To do so, it points to a specific [GasPrice Contract](https://github.com/beefyfinance/beefy-contracts/blob/master/contracts/BIFI/utils/GasPrice.sol), where the maximum gas price can be configured by the contract's owner. The GasFeeThrottler is incorporated into every [.](./ "mention").
 
 ## GasFeeThrottler.sol
 
