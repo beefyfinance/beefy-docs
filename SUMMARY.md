@@ -91,5 +91,6 @@
 * [Discord](https://discord.gg/yq8wfHd)
 * [Gear](https://gear.beefy.finance)
 * [Github](https://github.com/beefyfinance)
+* [Media Kit](https://beefy.com/media-kit/)
 * [Telegram](https://t.me/beefyfinance)
 * [Twitter](https://twitter.com/beefyfinance)
