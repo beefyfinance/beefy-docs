@@ -22,6 +22,7 @@ The BIFI token is deployed on all chains where vaults are live. To switch to ano
 * Oasis (Emerald): [0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A](https://explorer.emerald.oasis.dev/address/0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A/transactions)
 * Kava: [0xC19281F22A075E0F10351cd5D6Ea9f0AC63d4327](https://explorer.kava.io/address/0xC19281F22A075E0F10351cd5D6Ea9f0AC63d4327/transactions)
 * Ethereum: [0x5870700f1272a1adbb87c3140bd770880a95e55d](https://etherscan.io/token/0x5870700f1272a1adbb87c3140bd770880a95e55d)
+* Canto: [0x765277EebeCA2e31912C9946eAe1021199B39C61](https://tuber.build/address/0x765277EebeCA2e31912C9946eAe1021199B39C61)
 
 On all these blockchains, you can stake $BIFI in the native staking pools to earn the blockchains respective token or earn more $BIFI in a BIFI Maxi vault!
 
