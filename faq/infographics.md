@@ -16,7 +16,7 @@ En Beefy “se gana lo que se deposita”, independientemente de si se trata de 
 
 !["Lo que ves es lo que obtienes": ¡Las comisiones ya están contabilizadas en el APY mostrado](../.gitbook/assets/infographics\_esp\_3.png)
 
-Más información sobre las comisiones de los vaults [aquí](../ecosystem/products/vaults.md#cual-es-la-estructura-de-las-tarifas-de-los-vaults).
+Más información sobre las comisiones de los vaults [aquí](../productos/vaults.md#cual-es-la-estructura-de-las-tarifas-de-los-vaults).
 
 ## Beefy Zap:
 
@@ -32,4 +32,4 @@ Cuando utilices Zap, ¡comprueba siempre tu cotización! Aunque Zap te protege c
 
 ![](../.gitbook/assets/infographics\_esp\_2.png)
 
-Cuando un vault es potenciado en el Launchpool de Beefy, ¡usted gana tanto del activo base como el token del socio! Para más información, lee las preguntas frecuentes sobre el Launchpool [aquí](../ecosystem/products/launchpool.md).
+Cuando un vault es potenciado en el Launchpool de Beefy, ¡usted gana tanto del activo base como el token del socio! Para más información, lee las preguntas frecuentes sobre el Launchpool [aquí](../productos/launchpool.md).

@@ -8,13 +8,6 @@
 * [Token BIFI](ecosystem/bifi-token/README.md)
   * [Tokenomics y Gobernanza](ecosystem/bifi-token/tokenomics-and-governance.md)
   * [Direcciones de los contratos](ecosystem/bifi-token/contract-addresses.md)
-* [Productos](ecosystem/products/README.md)
-  * [Vaults](ecosystem/products/vaults.md)
-  * [Launchpool](ecosystem/products/launchpool.md)
-  * [Estrategias](ecosystem/products/strategies.md)
-  * [beJOE](ecosystem/products/bejoe.md)
-  * [beFTM](ecosystem/products/beftm.md)
-  * [binSPIRIT](ecosystem/products/binspirit.md)
 * [Equipo y Objetivos](ecosystem/team-and-goals.md)
 * [Boletines de Beefy](ecosystem/beefy-bulletins/README.md)
   * [¿Qué es Beefy Finance?](ecosystem/beefy-bulletins/what-is-beefy-finance.md)
@@ -25,6 +18,21 @@
   * [Por qué Beefy le gana a tu banco](ecosystem/beefy-bulletins/why-beefy-beats-your-bank.md)
   * [Presentamos el modelo único de participación en los ingresos de Beefy](ecosystem/beefy-bulletins/introducing-beefys-unique-revenue-share-model.md)
   * [Revelamos las codiciadas ventajas de Beefy](ecosystem/beefy-bulletins/beefys-coveted-advantages-revealed.md)
+
+## Productos
+
+* [Vaults](productos/vaults.md)
+* [Estrategias](productos/strategies.md)
+* [Boost](productos/launchpool.md)
+* [Inversiones tokenizadas por Beefy](productos/products/README.md)
+  * [beJOE](productos/products/bejoe.md)
+  * [beFTM](productos/products/beftm.md)
+  * [binSPIRIT](productos/products/binspirit.md)
+  * [beQI](productos/products/beqi.md)
+  * [beVELO](productos/products/bevelo.md)
+  * [beOPX](productos/products/beopx.md)
+* [Vaults Avanzados](productos/vaults-1/README.md)
+  * [GMX & GLP](productos/vaults-1/gmx-and-glp.md)
 
 ## FAQ
 

@@ -6,7 +6,7 @@ description: >-
 
 # Cómo comprobar la tasa de recolección y capitalización de un vault
 
-Los [vaults](../../ecosystem/products/vaults.md) de Beefy Finance, o más específicamente la estrategia de inversión vinculada al vault, aumentará automáticamente la cantidad de tu activo depositado convirtiendo las recompensas arbitrarias del yield farming en más de ese activo. Este ciclo constante de recolección de recompensas, y la capitalización, por lo general ocurre varias veces al día. En esta guía te guiaremos a través de los pasos para comprobar con precisión la frecuencia con la que se produce la capitalización.
+Los [vaults](../../productos/vaults.md) de Beefy Finance, o más específicamente la estrategia de inversión vinculada al vault, aumentará automáticamente la cantidad de tu activo depositado convirtiendo las recompensas arbitrarias del yield farming en más de ese activo. Este ciclo constante de recolección de recompensas, y la capitalización, por lo general ocurre varias veces al día. En esta guía te guiaremos a través de los pasos para comprobar con precisión la frecuencia con la que se produce la capitalización.
 
 ## Guía
 
