@@ -2,12 +2,16 @@
 
 ![](../.gitbook/assets/safu.png)
 
-Sporadically, users are experiencing white screens, or blank screens, and can not access the Beefy DApp.
+{% hint style="info" %}
+[app.beefy.com](https://app.beefy.com/) et [app.beefy.finance](https://app.beefy.finance) sont tous deux des sites officiels de Beefy. Si l'un ne fonctionne pas pour vous, essayez l'autre.
+{% endhint %}
 
-This might be Fleek or Cloudflare having maintenance, but it's hard to pinpoint the root cause. When it happens, it does not affect everyone but only some regions world wide. We understand that this can be frustrating!
+Il peut arriver que les utilisateurs subissent des écrans blancs, ou vides, et ne peuvent pas accéder à l'application Beefy.\
+\
+Cela peut être dû à une maintenance de Fleek ou Cloudflare, mais il est difficile d'en déterminer la cause. Quand cela arrive, cela n'affecte pas tout le monde mais uniquement certaines régions du monde. Nous comprenons que cela puisse être frustrant!
 
-First and foremost, _don't worry_, your funds are always SAFU on the blockchain, they are not on Beefy's website. The site is only a front end to let you access your funds easily.
+Le plus important, tout d'abord, est de ne pas vous inquiéter. Vos fonds sont toujours en sécurité sur la Blockchain, ils ne sont pas sur le site de Beefy. Le site n'est qu'une interface qui vous permettent d'accéder à vos fonds facilement.
 
-If you are experiencing the aforementioned issues, try the following official mirror: [https://beefy.on.fleek.co/](https://beefy.on.fleek.co/) or try using a VPN.
+Si vous rencontrez le problème cité ci-dessus, essayez d'utiliser les miroirs officiels [https://beefy-v2.pages.dev](https://beefy-v2.pages.dev) ou [https://beefy.on.fleek.co/](https://beefy.on.fleek.co/), ou essayez d'utiliser un VPN et de sélectionner une région différente de la vôtre.
 
-This mirror site is a developer's build, which we can provide as a backup for users that can't access Beefy's site. Remember, seed phrases and private keys will **never** be asked.
+Ces sites miroir sont des versions développeur, que nous pouvons fournir en recours pour les utilisateurs qui ne peuvent accéder au site de Beefy. Souvenez-vous, votre phrase de récupération et votre clé privée ne vous seront **jamais** demandés.

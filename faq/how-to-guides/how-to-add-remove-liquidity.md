@@ -1,79 +1,83 @@
 ---
 description: >-
-  In this guide you will find the required steps how to Add and Remove Liquidity
-  as well as staking and unstaking it from the vault.
+  Dans ce guide, vous trouverez les différentes étapes requises afin d'Ajouter
+  et Retirer de la Liquidité ainsi que comment les déposer et les récupérer dans
+  le vault.
 ---
 
-# How to Add and Remove Liquidity
+# Comment Ajouter et Retirer de la Liquidité
 
-As an example, we are going to work with BIFI-BNB LP in this guide. In a liquidity pool, both BIFI and BNB need to be provided at a 50/50 ratio value wise. Since we start with 100% BNB, this guide covers swapping BNB to BIFI too.
+Pour l'exemple, nous allons utiliser la R_éserve de Liquidité_ (LP) BIFI-BNB. Dans cette réserve de liquidité, il faudra apporter des jetons BIFI et BNB à un ratio de 50:50. Nous commencerons avec 100% de BNB, afin que ce guide vous explique aussi comment échanger des BNB en BIFI.
 
-![Screenshot taken on 30 May 2021](../../.gitbook/assets/add-liq-bifi-bnb-lp-rate.png)
+![Capture d'écran prise le 30 Mai 2021](../../.gitbook/assets/add-liq-bifi-bnb-lp-rate.png)
 
-## Adding liquidity
+## Ajouter de la Liquidité
 
-### 1. Click "Buy Token"
+### 1. Cliquez sur "Buy Token" (Acheter un jeton)
 
 ![](../../.gitbook/assets/add-liq-buy-token.png)
 
-### 2. Confirm the "Token imported" screen on PancakeSwap
+### 2. Sur PancakeSwap, cochez "I understand" (Je comprends) puis cliquez sur "Import" (Importer)
 
-### 3. Swap BNB for BIFI
+### 3. Echangez du BNB pour du BIFI
 
-Our wallet currently holds 4.0757 BNB; we will use a maximum total of 4 BNB to provide liquidity. Since we need to provide liquidity at a 50/50 ratio value wise, we will need to swap 2 BNB for BIFI first.
+Notre portefeuille détient actuellement 4.07573 BNB; Nous utiliserons un total maximum de 4 BNB pour apporter de la liquidité. Un ratio de 50:50 étant nécessaire, nous avons tout d'abord besoin d'échanger 2 BNB en BIFI.
 
 ![](../../.gitbook/assets/add-liq-swap-bnb-to-bifi.png)
 
-Confirm Swap in the next pop-up screen.
+Confirmez la transaction dans votre portefeuille.
 
-### 4. Click "Add Liquidity"
+### 4. Cliquez sur "Add Liquidity" (Ajouter de la liquidité)
 
 ![](../../.gitbook/assets/add-liq-button.png)
 
-### 5. Click "MAX" for BIFI input, Approve BIFI and Supply Liquidity
+### 5. Cliquez sur "MAX" dans la case BIFI, puis sur "APPROVE" (Approuver) et "SUPPLY" (Approvisionner)
 
 ![](../../.gitbook/assets/add-liq-supply-bifi-bnb-lp.png)
 
-### 6. Confirm Supply
+### 6. Cliquez sur "CONFIRM SUPPLY" (Confirmer l'approvisionnement)
 
 ![](../../.gitbook/assets/add-liq-confirm-supply.png)
 
-### 7. The vault now shows a balance!
+### 7. Votre solde apparait désormais sur le vault !
 
 ![](../../.gitbook/assets/add-liq-balance.png)
 
-Click on the vault to open up the deposit and withdraw menu.
+Cliquez sur le vault pour ouvrir le menu de dépôt et retrait.
 
-### 8. "Approve"
+### 8. Cliquez sur "APPROVE" (Approuver)
 
 ![](../../.gitbook/assets/add-liq-approve-vault.png)
 
-### 9. "Deposit All"
+### 9. Cliquez sur "DEPOSIT ALL" (Déposer tout)
 
 ![](../../.gitbook/assets/add-liq-deposit-all.png)
 
-That's it! We now created liquidity and deposited BIFI-BNB LP in the vault. You can check [this guide](how-to-check-harvesting-compounding-rate.md) to see when the vault will harvest rewards and compound for more BIFI-BNB LP tokens.
+Et voilà! Nous avons ajouté de la liquidité et l'avons déposée dans le vault BIFI-BNB LP. Vous pouvez regarder [ce guide](how-to-check-harvesting-compounding-rate.md) pour voir à quelle fréquence le vault va-t-il récolter les rendements et les composer pour optimiser vos gains de jetons BIFI-BNB LP2.\
 
-## Removing Liquidity
 
-### 1. "Withdraw All"
+## Retirer de la liquidité
+
+### 1. Cliquez sur "WITHDRAW ALL" (Retirer tout)
 
 ![](../../.gitbook/assets/remove-liq-withdraw-all.png)
 
-Note: withdrawal fees will be deducted from your deposited token amount.
+Note: Les frais de retrait seront déduits du montant de vos jetons déposés.
 
-### 2. Go back to [PancakeSwap](https://exchange.pancakeswap.finance/#/pool)
+### 2. Retournez sur [PancakeSwap](https://exchange.pancakeswap.finance/#/pool)&#x20;
 
-and head over to the Liquidity section. It will show the BIFI-BNB LP tokens under "Your Liquidity"
+et allez dans la section "Trade" (Échange), puis choisissez "Liquidity" (Liquidité). Vos jetons BIFI-BNB LP apparaitrons sous la catégorie "Your liquidity" (Votre liquidité)
 
 ![](../../.gitbook/assets/remove-liq-pancake-liquidity.png)
 
-### 3. Click "Remove"
+### 3. Cliquez sur "Remove" (Enlever)
 
 ![](../../.gitbook/assets/remove-liq-remove.png)
 
-In the next screen, click "Max" and Approve", and then "Remove".
+Sur la page "Remove Liquidity" (Retirer la liquidité), cliquez sur "Max" et "Approve" (Approuver), puis sur "Remove" (Enlever). Cette action va échanger vos jetons LP contre leur montant en jetons de la paire approvisionnée.
 
-### 4. Optional: Swap BIFI back to BNB
+
+
+### 4. Optionnel: Rééchangez vos jetons BIFI en BNB
 
 ![](../../.gitbook/assets/remove-liq-swap-back.png)

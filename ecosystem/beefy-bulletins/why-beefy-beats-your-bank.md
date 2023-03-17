@@ -1,35 +1,38 @@
-# Why Beefy Beats Your Bank
+# Pourquoi Beefy fait mieux que votre banque
 
 ![](../../.gitbook/assets/bulletin-why-beefy-beats-your-bank.png)
 
-A question the wealthiest people in the world obsess over:
+L'une des questions qui obsède les personnes les plus riches du monde:
 
-**"What is the biggest opportunity for investors right now?"**
+**"Quelle est la meilleure opportunité pour les investisseurs en ce moment ?"**
 
-It would be imprudent to mention more than superficial details, but it's common knowledge that there are financial benefits, investment vehicles and tax advantages accessible to high net-worth individuals that are closed to everyone else.
+Il serait imprudent de mentionner plus que des détails superficiels, mais il est de notoriété publique qu'il existe des avantages financiers, des véhicules d'investissements et des avantages fiscaux accessibles aux particuliers fortunés et fermés à tous les autres.
 
-_What we can talk about is how traditional banks work, and demonstrate clearly why Beefy.Finance is a better option._
+_Ce dont nous pouvons parler, c'est du fonctionnement des banques traditionnelles et démontrer clairement pourquoi Beefy.Finance est une meilleure option._
 
-When you give money to a bank, it lends that money out to other people at a higher rate than you get for "saving".
+Lorsque vous donnez de l'argent à une banque, elle prête cet argent à d'autres personnes à un taux plus élevé que celui que vous obtenez pour votre épargne.
 
-**The bank pockets the difference as revenue.**
+**La banque empoche cette différence en tant que revenus.**
 
-And that money is used to pay for things like staff, rent, call centers, security guards and a myriad of other operating expenses that may or may not be justified.
+Cet argent est utilisé pour payer le personnel, le loyer, les centres d'appels, les agents de sécurité et une myriade d'autres dépenses de fonctionnement qui peuvent ou non être justifiées.
 
-**Meanwhile Beefy is a decentralized autonomous organisation, collectively owned and managed by its users.**
+**Beefy, c'est une organisation autonome décentralisée, détenue et gérée collectivement par ses utilisateurs.**
 
-Decisions are not a top-down event. So instead of the earnings going to a small clique of champagne-quaffing executives, they can only be redistributed with the approval of the organization. DAOs like Beefy are governed by proposals and voting. Code automates the everyday actions banks pay clerks to execute, while cryptography protects your funds.
+Decisions are not a top-down event. \
+Ainsi, au lieu que les revenus finissent dans les poches d'un petit groupe de dirigeants, ils ne peuvent être redistribués qu'avec l'approbation de l'organisation. Les DAOs (Organisations Autonomes Décentralisées) comme Beefy sont gérées par des propositions et des votes. Le code automatise les actions quotidiennes à exécuter pour lesquelles les banques paient leurs employés, tandis que la cryptographie protège vos fonds.
 
-**So, there are two things happening here:**
+**Et donc, il y a deux choses à retenir ici:**
 
-First, a DAO is significantly more efficient than a bank. Second, there is a huge demand for better APY than the 0.1% currently on offer by most institutions, which is significantly less than the current inflation rate of 2%.
+Premièrement, une DAO est nettement plus efficace qu'une banque. \
+\
+Deuxièmement, il existe une énorme demande pour un meilleur APY que les 0,1 % actuellement proposés par la plupart des institutions, qui est nettement inférieur au taux d'inflation actuel de 2%.
 
-When you learn that there is a new and safe way to store your money with an APY that is **at least 70x** as good as your bank...
+Lorsque vous savez qu'il existe un nouveau moyen sûr de stocker votre argent avec un APY qui est au moins 70 fois meilleur que celui proposé par votre banque...
 
-And you appreciate that this APY is available because DAOs are fundamentally better organized to pass on efficiency savings to their users...
+Il est d'ailleurs appréciable que cet APY soit répercuté sur les utilisateurs car les DAOs sont fondamentalement mieux organisées pour cela.
 
-You might reasonably ask how soon you can get started.
+Il est probable que vous vous demandiez quand est-il possible de commencer.
 
-And the answer to that is today.
+Et la réponse est **aujourd'hui**.
 
-**Because, unlike banks, there's no approval process.**
+**Car contrairement aux banques, il n'existe pas de processus d'approbation.**

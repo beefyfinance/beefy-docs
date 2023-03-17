@@ -1,31 +1,38 @@
 ---
-description: Explaining Beefy Finance using simple infographics
+description: >-
+  Ici, nous allons tenter d'expliquer le fonctionnement de Beefy Finance avec
+  des schémas simples et faciles à comprendre.
 ---
 
-# Beefy Finance Infographics
+# Infographiques Beefy Finance
 
-Here, various aspects of Beefy Finance will be explained using easy to understand infographics.
-
-## The yield farming steps that Beefy Finance executes for you:
+## Les différentes actions que Beefy Finance effectue pour vous:
 
 ![](../.gitbook/assets/beefy-info-yield-optimizing-process.png)
 
-At Beefy 'you earn what you stake', regardless if this is a liquidity pool (LP) token or a single asset. In this example, staking CAKE-BNB LP will result in more CAKE-BNB LP over time. This effectively grows your share in the liquidity pool and thus allows for more and more rewards over time. All of this with Beefy doing the required work, while you can sit back and relax!
+Chez Beefy, le maître-mot est « Vous gagnez ce que vous déposez », qu'il s'agisse d'un actif simple ou d'un jeton de Réserve de Liquidité (LP). \
+Dans l'exemple ci-dessus, vous pouvez observer que déposer des jetons CAKE-BNB LP vous fera gagner plus de ces mêmes jetons CAKE-BNB LP. Cela permet d'augmenter votre part de la Réserve de Liquidité (LP) et donc vos récompenses au fil du temps. Et tout cela, c'est Beefy qui s'en charge, vous n'avez qu'à déposer vos jetons, Beefy s'occupe du reste!
 
-## The vault fee structure explained:
+## L'organisation des frais d'un vault :
 
-!["What you see is what you get": the fees are already accounted for in the displayed APY!](../.gitbook/assets/beefy-info-fees.png)
+![Ces frais sont déjà pris en compte sur les APY affichés !](../.gitbook/assets/beefy-info-fees.png)
 
-More on the vault fees [here](../ecosystem/products/vaults.md#what-is-the-vault-fee-structure).
+Plus d'informations sur les frais des vaults en cliquant [ici](../ecosystem-1/vaults.md#what-is-the-vault-fee-structure).
 
-## Beefy Zap:
+## Beefy ZAP:
 
 ![](../.gitbook/assets/beefy-info-zap.png)
 
-Beefy Zap automatically builds your liquidity pool (LP) tokens from a base deposit asset, such as BNB. When the time has come that you want to withdraw from a LP vault, Beefy Zap also supports withdrawing back into a base asset. This saves you the hassle of manually adding and removing liquidity at a yield farm. Here's [how to use Beefy Zap](how-to-guides/how-to-beefy-zap.md)
+Le Beefy ZAP permet de créer automatiquement vos jetons de Réserve de Liquidité (LP) depuis un simple actif choisi, par exemple le BNB. Il permet aussi, lorsque vous souhaitez sortir d'un vault LP, de récupérer directement vos fonds en actif simple. Cela vous évite d'avoir à ajouter et retirer manuellement votre liquidité d'une Ferme de Rendement. Pour plus d'information sur cet outil, voici [comment utiliser le Beefy ZAP](how-to-guides/how-to-beefy-zap.md).
+
+{% hint style="info" %}
+Lorsque vous utilisez le Zap, vérifiez toujours l'estimation ! Bien que le ZAP vous protège contre le slippage (changements de prix au moment de l'initialisation la transaction et au moment de l'exécution), il ne vous protège pas contre son impact sur le prix (dans quelle mesure votre transaction changera le prix des jetons dans la Réserve de Liquidité).
+{% endhint %}
 
 ## Beefy Launchpool:
 
 ![](../.gitbook/assets/beefy-info-boost.png)
 
-When a vault gets boosted in Beefy's Launchpool, you earn both the base asset and the partner's token! For more info, read the Launchpool FAQ [here](../ecosystem/products/launchpool.md).
+Lorsqu'un vault est boosté sur Beefy, vous gagnez à la fois les jetons du vault et ceux du projet boostant celui-ci !&#x20;
+
+Pour plus d'informations, vous pouvez lire la FAQ du BOOST [ici](../ecosystem-1/launchpool.md).

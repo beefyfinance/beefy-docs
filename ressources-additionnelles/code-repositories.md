@@ -1,28 +1,28 @@
-# Code Repositories
+# Référentiel du code
 
 ## Frontends
 
-* Beefy Vaults
+* Vaults Beefy
   * Site: [https://app.beefy.finance/](https://app.beefy.finance/)
-  * Repo: [https://github.com/beefyfinance/beefy-app](https://github.com/beefyfinance/beefy-app)
-* Beefy Landing
+  * Référentiel: [https://github.com/beefyfinance/beefy-app](https://github.com/beefyfinance/beefy-app)
+* Page d'accueil Beefy
   * Site: [https://beefy.finance/](https://beefy.finance/)
-  * Repo: [https://github.com/beefyfinance/beefy-landing](https://github.com/beefyfinance/beefy-landing)
-* Beefy Governance
+  * Référentiel: [https://github.com/beefyfinance/beefy-landing](https://github.com/beefyfinance/beefy-landing)
+* Gouvernance Beefy
   * Site: [https://gov.beefy.finance/staking](https://gov.beefy.finance/staking)
-  * Repo: [https://github.com/beefyfinance/beefy-gov](https://github.com/beefyfinance/beefy-gov)
+  * Référentiel: [https://github.com/beefyfinance/beefy-gov](https://github.com/beefyfinance/beefy-gov)
 * Beefy Vote
   * Site: [https://vote.beefy.finance/#/](https://vote.beefy.finance/#/)
-  * Repo: [https://github.com/beefyfinance/beefy-vote](https://github.com/beefyfinance/beefy-vote)
-* Beefy Dashboard
+  * Référentiel: [https://github.com/beefyfinance/beefy-vote](https://github.com/beefyfinance/beefy-vote)
+* Tableau de bord Beefy
   * Site: [https://dashboard.beefy.finance/](https://dashboard.beefy.finance/)
-  * Repo: [https://github.com/beefyfinance/beefy-dashboard](https://github.com/beefyfinance/beefy-dashboard)&#x20;
+  * Référentiel: [https://github.com/beefyfinance/beefy-dashboard](https://github.com/beefyfinance/beefy-dashboard)&#x20;
 
 ## Backend
 
 * Beefy API
   * Site: [https://api.beefy.finance/apy](https://api.beefy.finance/apy)
-  * Repo: [https://github.com/beefyfinance/beefy-api](https://github.com/beefyfinance/beefy-api)
+  * Référentiel: [https://github.com/beefyfinance/beefy-api](https://github.com/beefyfinance/beefy-api)
 
 ## Smart Contracts
 

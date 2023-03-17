@@ -1,6 +1,6 @@
-# Beefy Bulletins
+# Communiqués Beefy
 
-Not everyone recognizes the "perfect" trade when they see it...
+Il est parfois difficile de reconnaître les bonnes occasions d'investissement ...
 
 So it's time for the world to get Beefy.
 

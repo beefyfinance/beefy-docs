@@ -1,25 +1,25 @@
-# The Big Beefy Opportunity
+# La Grande Opportunité Beefy
 
 ![](../../.gitbook/assets/bulletin-the-big-beefy-opportunity.png)
 
-There are two types of people in this world: those who have a vague desire to achieve their financial goals, without ever taking any specific and deliberate action to make it happen, and those who "run the numbers" and are ready to seize the opportunity when they see it.
+Il existe deux types de personnes dans ce monde: ceux qui ont une vague envie d'atteindre leurs objectifs financiers, sans jamais vraiment se prendre en main pour les réaliser, et ceux qui sont prêts à saisir l'occasion quand elle se présente à eux.
 
-This might sound like a cringe 80's television commercial, but the truth is the strength of Beefy Finance comes from what we BUILD, not what we say.
+Cela sonne un peu comme une publicité gênante des années 80, mais c'est la vérité. Chez Beefy Finance, notre force vient de nos créations.
 
-_So, what have we built?_
+_Alors, qu'est-ce que l'on a créé ?_
 
-Like any other DeFi Yield Farm, Beefy has created an opportunity for its users to both automate AND maximize the ROI of their holdings.
+Comme tout autre Ferme de Rendement DeFi, Beefy à créé une opportunité pour ses utilisateurs d'automatiser et maximiser leur ROI (Retour Sur Investissement) de leurs possessions.
 
-But what is unique to Beefy is a decentralized working hub for people with a vision to come together and build the future of global finance.
+Mais ce qui rend Beefy unique, c'est qu'il s'agit d'une plateforme de travail décentralisée pour des personnes ayant la même vision et la volonté de construire l'avenir de la finance mondiale.
 
-Smart contract devs, UI, UX, strategists, statisticians, designers, and artists — anyone can join and contribute (no matter your nationality, sex, or views).
+Développeur de contrat intelligent, UI, UX, stratégistes, statisticiens, designers, artistes  — Tout le monde peut nous rejoindre et contribuer au projet (peu importe votre nationalité, sexe, ou opinions).
 
-_By investing in Beefy, you are investing in the idea that a group of highly technical individuals can safely, securely and creatively leapfrog the dinosaurs of traditional finance._
+_En investissant dans le projet Beefy, vous investissez dans l'idée qu'un groupe d'individus compétents puisse, de manière sécurisée et créative, surpasser les dinosaures de la finance traditionnelle._
 
-The two main variables in wealth generation are:
+Les deux principales variables dans la génération de richesse sont:&#x20;
 
-Time (how long) and yield (how much).
+Le Temps et le Rendement.
 
-We'll take care of the yield.
+Nous nous occuperons du Rendement.
 
-**All you have to do is decide how soon you would like to get started.**
+**Tout ce qu'il vous reste à faire est de décider à quel moment vous souhaitez commencer.**

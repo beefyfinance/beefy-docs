@@ -1,33 +1,35 @@
 ---
-description: By buying $BIFI and staking in BIFI Maxi, you have something unique
+description: >-
+  En achetant du $BIFI et en le stakant dans le BIFI Maxi, vous avez quelque
+  chose d'unique
 ---
 
-# Introducing Beefy's Unique Revenue Share Model
+# Présentation du modèle unique de partage des revenus de Beefy
 
 ![](../../.gitbook/assets/bulletin-introducing-beefys-unique-revenue-share-model.png)
 
-**At long last DeFi adopters are beginning to realize that it's ridiculous to believe so strongly in a better financial system, and then spoil the whole moment with degenerate gambling.**
+**Les utilisateurs de la DeFi (Finance Décentralisée) commencent enfin à se rendre compte qu'il est ridicule de croire en un meilleur système financier, puis de tout gâcher en jouant à pile ou face en investissant dans des projets douteux.**
 
-Hence, the growing popularity of decentralized projects with sustainable tokenomics and platform governance.
+C'est d'ailleurs l'une des causes de la popularité croissante des projets décentralisés avec une Tokenomique (économie de jetons) durable et une gouvernance de plateforme.
 
-They're in a class by themselves.
+Ces projets sont uniques en leur genre.
 
-These projects are **more efficient**, have **better stability and security** and are more likely to attract the **attention of the market**.
+Ils sont **plus efficaces**, **plus stables, plus sécurisés**, et sont **plus susceptibles** d'attirer **l'attention du marché**.
 
-Owning $BIFI not only allows you to participate in platform governance, but also to start earning daily interest payments by staking your holdings in the right place.
+Posséder du $BIFI vous permet non seulement de participer à la gouvernance de la plateforme, mais aussi de commencer à gagner des intérêts quotidiens en stakant vos jetons au bon endroit.
 
-Here's where things get _remarkable_ — listen closely.
+C'est là que les choses deviennent incroyables — écoutez attentivement.
 
-All the APYs you see on Beefy vaults have the platform fees factored in. These fees are used to buy back more $BIFI from the open market every single day and reward it to those who have their holdings staked in the BIFI Maxi Vault.
+Tous les APY que vous voyez sur les vaults Beefy incluent déjà les frais de plateforme. Ces frais sont utilisés pour racheter chaque jour du $BIFI et le redistribuer aux utilisateurs qui ont leurs jetons stakés dans le vault BIFI Maxi.
 
-So by buying $BIFI and staking in BIFI Maxi, you have something unique:
+Ainsi, en achetant du $BIFI et en stakant dans un vault BIFI Maxi, vous avez quelque chose d'unique:
 
-_Daily revenue from a non-inflationary "dividend" token where the "company" buys shares off the market every day, and gives you more of them._
+Un revenu quotidien provenant d'un jeton de "dividende" non inflationniste où la "société" achète des actions sur le marché tous les jours pour vous les donner.\
+\
+Cela créé un mécanisme d'auto-alimentation pour votre argent investi grâce à un ensemble d'actions stratégiques et répétables.
 
-This creates a financial "flywheel" for your money, where a continuously improving set of repeatable, tactical actions scale with decreasing friction to grow your investment.
+**En d'autres termes, les gains d'hier sont le capital de demain.**
 
-**In other words, yesterday's gains are tomorrow's capital.**
+Beefy est construit par un groupe de codeurs dédiés aux contrats intelligents, soutenus par une communauté designers UI, UX, de stratèges, de statisticiens et d'artistes.
 
-Beefy is being built by a group of dedicated smart contract codesmen, backed by a community of UI, UX, strategists, statisticians, designers and artists.
-
-That's why the smart money is on [Beefy.Finance](https://www.beefy.finance/).
+C'est pour cela que la Smart Money est sur [Beefy.Finance](https://www.beefy.finance/).

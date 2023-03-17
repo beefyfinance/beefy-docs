@@ -1,13 +1,15 @@
 ---
-description: Keep your wallet safe with Beefy Allowance.
+description: Gardez votre portefeuille sécurisé avec Beefy Allowance.
 ---
 
-# Token Allowance
+# Autorisation sur vos jetons
 
 ![](../.gitbook/assets/allowance.png)
 
-Beefy Allowance allows you to revoke wallet access from previously Authorized Spenders.
+_Beefy Allowance_ vous permet de révoquer l'accès à votre portefeuille aux projets précédemment autorisés à dépenser vos jetons.
 
 * Site: [https://allowance.beefy.finance/](https://allowance.beefy.finance/)
 
-Forked from a [token allowance checker](https://tac.dappstar.io/#/) on Ethereum, this tool is used to revoke spend permissions from DApps that your wallet has previously interacted with. Leaving these spend permissions enabled could allow dishonest teams or individuals to transfer all of your approved tokes at anytime without asking further permission from you. This tool is similar to the DeBank Approval tool and [unrekt.net](https://app.unrekt.net/).
+Forké depuis un [vérificateur d'autorisation de jetons](https://tac.dappstar.io/#/) sur Ethereum, cet outil est utilisé pour révoquer les permissions de dépenses des applications décentralisées avec lesquelles votre portefeuille à interagi par le passé. Laisser ces autorisations de dépenses activées pourrait permettre à des projets malhonnêtes ou des individus de transférer tous les jetons approuvés à n'importe quel moment sans vous demander d'autorisation. \
+\
+Cet outil est similaire au DeBank Approval Tool et [unrekt.net](https://app.unrekt.net/).

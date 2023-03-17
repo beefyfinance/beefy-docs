@@ -1,40 +1,40 @@
 ---
 description: >-
-  Here's how to add a custom token to Metamask. This guide uses BIFI as an
-  example.
+  Voici comment ajouter un jeton à Metamask. Nous utiliserons le jeton BIFI pour
+  l'exemple.
 ---
 
-# How to Add a Custom Token to Metamask
+# Comment ajouter un jeton personnalisé à Metamask
 
-## Visual Walkthrough
+## Guide
 
-#### 1. Open Metamask and click 'Assets' to see the tokens in your wallet
+#### 1. Ouvrez Metamask et cliquez sur "Assets" (actifs) pour voir la liste des jetons dans votre portefeuille
 
 ![](<../../.gitbook/assets/capture (1).png>)
 
-#### 2. Scroll down to the bottom and click 'Add Token'.
+#### 2. Faites défiler la liste jusqu'en bas et cliquez sur "Add Token" (Ajouter un Jeton)
 
 ![](../../.gitbook/assets/addtoken.png)
 
-#### 3. Click 'Custom Token'
+#### 3. Cliquez sur "Custom Token" (Jeton Personnalisé)
 
 ![](../../.gitbook/assets/custom-token.png)
 
-#### 4. Past the contract address for BIFI into the 'Token Contract Address' field
+#### 4. Collez l'adresse du contrat BIFI dans la case "Token Contract Address" (Adresse de Contrat du Jeton)
 
-BIFI Contract Address : [0xCa3F508B8e4Dd382eE878A314789373D80A5190A ](https://bscscan.com/token/0xCa3F508B8e4Dd382eE878A314789373D80A5190A)
+L'adresse du contrat BIFI : [0xCa3F508B8e4Dd382eE878A314789373D80A5190A ](https://bscscan.com/token/0xCa3F508B8e4Dd382eE878A314789373D80A5190A)
 
 ![](../../.gitbook/assets/token-address.png)
 
-#### 5. Click 'Next'&#x20;
+#### 5. Cliquez sur "Next" (Suivant)
 
 ![](../../.gitbook/assets/next.png)
 
-#### 6. Click 'Add Tokens' to add the new token
+#### 6. Cliquez sur "Add Tokens" (Ajouter les Jetons) pour ajouter le nouveau jeton à votre liste
 
 ![](../../.gitbook/assets/bifi-ass.png)
 
-#### 7. Moooo! BIFI should appear in your assets list so it's easier to track and use
+#### 7. Le jeton BIFI devrait apparaitre dans votre liste, vous pouvez maintenant suivre et utiliser vos jetons plus facilement
 
 ![](../../.gitbook/assets/added.png)
 

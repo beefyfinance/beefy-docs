@@ -1,8 +1,8 @@
-# Contract Addresses
+# Adresses de contrat
 
-## Contract Addresses
+## Adresses de contrat
 
-The BIFI token is deployed on all chains where vaults are live. To switch to another chain, use [this guide](../../faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md) and to bridge BIFI between chains use [this guide](../../faq/how-to-guides/how-to-bridge-bifi-cross-chain.md). Contract addresses below:
+Le jeton BIFI est disponible sur toutes les chaînes où nous avons des vaults actifs. Pour passer sur une autre chaîne, utilisez [ce guide](../../faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md) et pour bridger du BIFI entre différentes chaînes, utilisez [ce guide](../../faq/how-to-guides/how-to-bridge-bifi-cross-chain.md). Ci-dessous les adresses de contrat du jeton BIFI sur chaque chaine:&#x20;
 
 * BSC: [0xca3f508b8e4dd382ee878a314789373d80a5190a](https://bscscan.com/token/0xca3f508b8e4dd382ee878a314789373d80a5190a)
 * HECO: [0x765277eebeca2e31912c9946eae1021199b39c61](https://hecoinfo.com/token/0x765277eebeca2e31912c9946eae1021199b39c61)
@@ -13,10 +13,18 @@ The BIFI token is deployed on all chains where vaults are live. To switch to ano
 * Arbitrum: [0x99c409e5f62e4bd2ac142f17cafb6810b8f0baae](https://arbiscan.io/token/0x99c409e5f62e4bd2ac142f17cafb6810b8f0baae)
 * Celo: [0x639A647fbe20b6c8ac19E48E2de44ea792c62c5C](https://explorer.celo.org/token/0x639A647fbe20b6c8ac19E48E2de44ea792c62c5C/token-transfers)
 * Moonriver: [0x173fd7434B8B50dF08e3298f173487ebDB35FD14](https://moonriver.moonscan.io/token/0x173fd7434B8B50dF08e3298f173487ebDB35FD14)
-* Cronos: [0xe6801928061CDbE32AC5AD0634427E140EFd05F9](https://cronos.crypto.org/explorer/tokens/0xe6801928061CDbE32AC5AD0634427E140EFd05F9/token-transfers)
+* Cronos: [0xe6801928061CDbE32AC5AD0634427E140EFd05F9](https://cronoscan.com/token/0xe6801928061CDbE32AC5AD0634427E140EFd05F9)
+* Fuse: [0x2bF9b864cdc97b08B6D79ad4663e71B8aB65c45c](https://explorer.fuse.io/token/0x2bF9b864cdc97b08B6D79ad4663e71B8aB65c45c/token-transfers)
+* Metis: [0xe6801928061CDbE32AC5AD0634427E140EFd05F9](https://andromeda-explorer.metis.io/token/0xe6801928061CDbE32AC5AD0634427E140EFd05F9/token-transfers)
+* Aurora: [0x218c3c3D49d0E7B37aff0D8bB079de36Ae61A4c0](https://explorer.mainnet.aurora.dev/token/0x218c3c3D49d0E7B37aff0D8bB079de36Ae61A4c0/token-transfers)
+* Moonbeam: [0x595c8481c48894771CE8FaDE54ac6Bf59093F9E8](https://moonscan.io/token/0x595c8481c48894771ce8fade54ac6bf59093f9e8)
+* Optimism: [0x4e720dd3ac5cfe1e1fbde4935f386bb1c66f4642](https://optimistic.etherscan.io/token/0x4e720dd3ac5cfe1e1fbde4935f386bb1c66f4642)
+* Oasis (Emerald): [0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A](https://explorer.emerald.oasis.dev/address/0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A/transactions)
+* Kava: [0xC19281F22A075E0F10351cd5D6Ea9f0AC63d4327](https://explorer.kava.io/address/0xC19281F22A075E0F10351cd5D6Ea9f0AC63d4327/transactions)
+* Ethereum: [0x5870700f1272a1adbb87c3140bd770880a95e55d](https://etherscan.io/token/0x5870700f1272a1adbb87c3140bd770880a95e55d)
 
-On all these blockchains, you can stake $BIFI in the native staking pools to earn the blockchains respective token!
+Sur toutes ces chaînes, vous pouvez staker du $BIFI dans les Earnings Pools afin de récupérer du jeton natif relatif à chaque chaine ou plus de $BIFI en le stakant dans un vault BIFI Maxi !
 
-## Token Holders
+## Répartition des jetons BIFI
 
-The majority of BIFI tokens are staked in smart contracts, [BscScan](https://bscscan.com/) has a detailed list of the top staking addresses: [Token Holders](https://bscscan.com/token/tokenholderchart/0xca3f508b8e4dd382ee878a314789373d80a5190a).
+La majorité des jetons BIFI sont stakés dans des contrats intelligents, et [BscScan ](https://bscscan.com/)permet d'accéder à une [liste détaillée des principales adresses possédant du $BIFI](https://bscscan.com/token/tokenholderchart/0xca3f508b8e4dd382ee878a314789373d80a5190a).
