@@ -1,52 +1,52 @@
 ---
 description: >-
-  Anyone familiar with the fee structures typical of traditional finance will
-  tell you fees matter.
+  Chiunque abbia familiarità con le strutture tariffarie tipiche della finanza
+  tradizionale ti dirà che le commissioni contano.
 ---
 
-# Beefy Finance Fees Breakdown
+# Ripartizione delle tasse di Beefy Finance
 
 ![](../../.gitbook/assets/bulletin-beefy-finance-fees-breakdown.png)
 
-**How **_**much**_** do fees matter?**
+**Quanto **_**contano**_** le commissioni?**
 
-The answer can be hard to wrap your head around.
+La risposta può essere difficile da comprendere.
 
-* $1M invested for 30 years at 8% with a 1% management fee yields $7.62 million.
-* $1M invested for 30 years at 8% with a 2% management fee yields $5.74 million.
-* $1M invested for 30 years at 8% with a 3% management fee yields $4.32 million.
+* $1M investiti per 30 anni all'8% con una commissione di gestione dell'1%, guadagni $7.62 milioni.
+* $1M investiti per 30 anni all'8% con una commissione di gestione dell'2%, guadagni $5.74 milioni.
+* $1M investiti per 30 anni all'8% con una commissione di gestione dell'3%, guadagni $4.32 milioni.
 
-**Now, let's throw out modesty for a minute.**
+**Adesso, buttiamo via la modestia per un minuto.**
 
-Unlike some platforms flashing their APYs for your attention, there are no catches on Beefy.Finance. For example, they'll promote an APY, but won't mention there's a penalty fee if you withdraw early.
+Diversamente da alcune piattaforme che millantano i loro APY per attirare la tua attenzione, non ci sono specchietti per le allodole su Beefy.Finance. Per esempio, promuovono un APY, ma non menzionano che c'è una tassa di penalità se ritiri prima.
 
-Or the APY is given as a spectacular headline number, but the small print is that you have to _manually_ compound every single day to get that number.
+Oppure l'APY viene mostrato come uno spettacolare numero da titolo, ma c'è scritto in piccolo che devi _manualmente_ fare il compound ogni singolo giorno per raggiungere quel numero.
 
-**On Beefy we're proud to be doing things a little more transparently.**
+**Su Beefy siamo orgogliosi di fare ciò in modo un po' più trasparente.**
 
-_With our vaults, performance fees are included in the APY._
+_Con le nostre casseforti, le tasse di performance sono incluse nell'APY._
 
-**So what you see is exactly what you get.**
+**Quindi ciò che vedi è esattamente ciò che otterrai.**
 
-Most vaults available on Beefy.Finance hold 4.5% of harvest rewards. This performance fee is largely distributed back to $BIFI stakers and is the main source of revenue for the platform.
+La maggior parte delle casseforti su Beefy.Finance trattiene il 4.5% delle ricompense. Questa tassa di performance viene largamente restituita agli staker di $BIFI ed è la fonte principale di guadagno della piattaforma.
 
-**Here's what that looks like:**
+**Ecco come appare:**
 
-* 3.0% is distributed back to $BIFI stakers
-* 0.5% is allocated to the Beefy Finance treasury
-* 0.5% is awarded to the vault strategist
-* 0.5% is awarded to the one calling the harvest function
+* Il 3.0% è restituito agli staker di $BIFI
+* Il 0.5% è allocato nella tesoreria di Beefy Finance
+* Il 0.5% è come premio per gli strateghi delle casseforti
+* Il 0.5% è come premio di colui che chiama la funzione di harvest
 
-We assign a deposit or withdrawal fee of 0.1% to each vault to protect bad actors from abusing the vaults with too much flipping. We share this amongst all the other stakers in the vault.
+Assegniamo una commissione di prelievo o deposito dello 0.1% ad ogni cassaforte per proteggere dall'abuso di malintenzionati. Questa commissione viene condivisa tra tutti gli staker di quella cassaforte.
 
-Apart from the fees fully listed above, anyone using Beefy should also remember the network transaction fees when adding or removing funds. These small fees go to the operators keeping the blockchain running, not Beefy.
+A parte queste commissioni elencate sopra, chiunque usi Beefy dovrebbe anceh ricordare delle commissioni di transazione del network che ci sono quando vengono aggiunti o rimossi i fondi. Queste piccole commissioni vanno agli operatori che tengono operativa la blockchain, non a Beefy.
 
-**Bottom line: fees matter.**
+**In conclusione: le commissioni contano.**
 
-With Beefy's Venus vault, you can invest at 14.46% APY with fees already factored in.
+Con la cassaforte Venus di Beefy, puoi investire con un APY del 14.46% APY con le commissioni già incluse.
 
-$1M invested for 30 years at 14.56 % APY yields…
+$1M investiti per 30 anni con un APY del 14.56 % rende…
 
-$57,492,639 million.
+$57,492,639 milioni.
 
-**With Beefy, what you see is what you get.**
+**Con Beefy, ciò che vedi è ciò che ottieni.**

@@ -1,49 +1,49 @@
-# General
+# Generale
 
-## Is Beefy audited?
+## Beefy ha un audit?
 
-Our first auditor was DefiYield, which audited $BIFI token, the RewardPool and all the timelocks.
+Il nostro primo revisore è stato DefiYield, Che ha fatto l'audit del token $BIFI, della RewardPool e di tutti i timelocks.
 
-Beefy now is also audited by Certik, which guarantees the robustness of our smart contracts and the safety of funds invested through Beefy. Certik has already provided audits for such projects as Ocean Protocol, NEO, Ontology, and Waves.
+Adesso Beefy ha anche l'audit di Certik, che garantisce la robustezza dei nostri smart contract e la sicurezza dei fondi investiti tramite Beefy. Certik ha anche provveduto audit per progetti come Ocean Protocol, NEO, Ontology e Waves.
 
-Certik has audited some of the most complex and reusable investment strategies used within the platform. This ensures the safety and sturdiness of important platform aspects that the majority of our users interact with.
+Certik ha fatto l'audit di alcune delle strategie d'investimento più complesse e riutilizzabili, usate nella piattaforma. Ciò assicura la robustezza e la sicurezza di aspetti importanti della piattaforma con cui la maggior parte degli utenti interagiscono.
 
-[All Beefy audits can be found here.](https://github.com/beefyfinance/beefy-audits)
+[Tutti gli audit di Beefy possono essere trovati qui.](https://github.com/beefyfinance/beefy-audits)
 
-## What is a yield optimizer?
+## Cos'è un ottimizzatore di rendimenti?
 
-A yield optimizer is an automated service that seeks to gain the maximum possible return on crypto-investments, much more efficiently than attempting to maximize yield through manual means.
+Un ottimizzatore di rendimenti è un servizio automatizzato che cerca di guadagnare il ritorno più elevato possibile da crypto-investimenti, in modo molto più efficace rispetto al tentativo di massimizzarli manualmente.
 
-Each vault has its own unique strategy for farming, which normally involves the reinvestment of crypto assets staked in liquidity pools. At the most simple level, it farms the rewards given from staked assets and reinvests them back into the liquidity pool. This compounds the amount of interest received and increases the amount staked that the yield is based on. A yield optimizer can repeat this up to process up to thousands of times a day.
+Ogni cassaforte ha la sua strategia per farmare, che normalmente include il reinvestimento degli asset crypto messi a rendita nelle pool di liquidità. In parole povere, farma le ricompense date dagli asset messi a rendita e le reinveste nelle pool di liquidità. Ciò incrementa ila quantità di interessi ricevuti e incrementa la quantità di asset su cui si basa la rendita. un ottimizzatore di rendimenti può ripetere qusto processo migliaia di volte al giorno.
 
-This fairly simple method is the principle reason behind the large APYs found on Beefy. Compounding fees are amortized among all vault participants, making it cheaper for the user.
+Questo semplice metodo è il motivo dietro agli elevati APY che si trovano su Beefy. Le commissioni per il compounding sono ammortizzate tra tutti i partecipanti alla cassaforte, rendendole più economiche per l'utente.
 
-## What’s the difference between APR and APY?
+## Qual è la differenza tra APR e APY?
 
-APR (Annual Percentage Rate) is the yearly interest, minus fees. This does not include compounding effects that occur from reinvesting profits. If you were to invest $100 with 100% APR, you would make $100 in profit in a year time.
+L'APR (Tasso Percentuale Annuale) è l'interesse annuale, meno le commissioni. Ciò non include l'effetto compounding che si verifica dal reinvestimento dei profitti. Se tu dovessi investire $100 con un APR del 100%, faresti $100 di profitto nell'arco di un anno.
 
-If you however reinvest your profits regularly, you will compound your interest. This calculated over a year gives you your APY (Annual Percentage Yield). The more often you compound your interest, the greater the difference between APR and APY.
+Tuttavia, se tu reinvesti i tuoi profitti regolarmente, componi il tuoi interesse. Ciò calcolato nell'arco di un anno ti da l'APY (Rendimento Percentuale Annuo). Più spesso componi il tuo interesse, maggiore sarà la differenza tra APR e APY.
 
-## How does APY work?
+## Come funziona l'APY?
 
-APY is the annual percentage yield offered from a particular investment. This takes into account compound interest, giving you an accurate idea of your returns compared to simple interest.
+L'APY è il rendimento percentuale annuo offerto da investimenti particolari. tiene conto dell'interesse composto, dandoti un'idea accurata del tuo ritorno comparato con l'interesse semplice.
 
-Large APYs in the percentage of thousands are possible with investments that provide daily yields of 1% or more. Due to your liquidity pool rewards being constantly farmed and reinvested, the interest compounds on larger and larger amounts.
+APY elevati, con percentuale di migliaia, sono possibili con investimenti che forniscono rendimenti giornalieri dell'1% o più. Dato che le tue ricompense nella pool di liquidità vengono costantemente raccolte e reinvestite, l'interesse si compone in quantità sempre maggiori.
 
-## What do Vault Daily and Trading Daily mean?
+## Cosa significano Vault Daily e Trading Daily?
 
-Trading Daily means how much your liquidity tokens will increase in value. Liquidity pools share trading fees amongst all liquidity providers, as introduced by the [Uniswap liqudity model](https://uniswap.org/docs/v2/advanced-topics/fees/). Trading Daily is affected by trading volume and the percentage of swap fees allocated to liquidity providers.
+Trading Daily (Trading Giornaliero) rappresenta quanto i tuoi token della liquidità aumenteranno in valore. Le pool di liquidità condividono le commissioni tra tutti i fornitori di liquidità, come introdotto dal [modello di liquidità di Uniswap](https://docs.uniswap.org/). Il Trading Daily è influenzato dal volume di scambi e dalla percentuale di commissioni di trading allocate ai fornitori di liquidità.
 
-Vault Daily means how much your token will increase in number. Due to the vault constantly farming rewards, and reinvesting that, your deposited token amount will increase. Vault Daily is affected by the yield farm rewards (i.e. additional incentives besides trading fees), such as CAKE on Pancakeswap.
+Vault Daily rappresenta quanto i tuoi token aumenteranno in numero. Dato che la cassaforte raccoglie e reinveste continuamente le ricompense, la quantità dei tuoi token depositati incrementa. Vault Daily è influenzato dalle ricompense della farm (cioè incentivi aggiuntivi aggiuntivi alle commissioni del trading), come ad esempio CAKE su Pancakeswap.
 
-Trading Daily and Vault Daily can be multiplied by 365 to compute Trading APR and Vault APR. Vault APR is then converted to Vault APY to factor in compound interest. The displayed total APY percentage is calculated as follows:
+Trading Daily eVault Daily possono essere moltiplicati per 365 per formare il Trading APR e il Vault APR. Il Vault APR è poi convertito nel Vault APY per includere anche l'interesse composto. La percentuale di APY totale mostrata viene calcolata così:
 
 $$
 APY = (1 + vaultAPY) * (1 + tradingAPR) - 1
 $$
 
-&#x20;A handy tool to convert APR to APY is: [APRtoAPY.com](https://www.aprtoapy.com/)
+&#x20;Un comodo tool per convertire APR in APY è: [APRtoAPY.com](https://www.aprtoapy.com/)
 
-## How can I find out how much earnings I have accumulated?
+## Come posso sapere quanti guadagni ho accumulato?
 
-You can use a DeFi dashboard that will be able to calculate exactly how much profit you have made on your investments. External tools such as [Yieldwatch](https://yieldwatch.net/) for BSC or [PolygonDex](https://polygondex.com/track/yield/yieldMeBroDawg.aspx) for Polygon will connect to your wallet and give you an accurate picture of your initial investment and current earnings.
+Puoi usare una dashboard per la DeFi che sarà in grado di calcolare esattamente quanto profito hai fatto dai tuoi investimenti. Tool esterni come [Yieldwatch](https://yieldwatch.net/) per la rete BSC oppure [PolygonDex](https://polygondex.com/track/yield/yieldMeBroDawg.aspx) per la rete Polygon si connetteranno al tuo wallet e ti daranno un'accurata immagine del tuo investimento iniziale e dei tuoi guadagni correnti.

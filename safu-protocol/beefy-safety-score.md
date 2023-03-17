@@ -1,212 +1,216 @@
+---
+description: Punteggio di sicurezza di Beefy
+---
+
 # Beefy Safety Score
 
-This document outlines the design for the Beefy Safety Score. The purpose of the safety score is to educate users when making a decision to enter a particular Beefy vault. The Safety Score is not necessarily perfect, but it is another tool that helps the user.
+Questo documento delinea il design per il punteggio di sicurezza di Beefy. Lo scopo del punteggio di sicurezza è di educare gli utenti quando devono fare la decisione di entrare in una cassaforte di Beefy in particolare. Il punteggio di sicurezza non deve necessariamente essere perfetto, ma è un altro utile strumento che aiuta l'utente.
 
-The safety score that a vault can get goes from 1 to 10. The best possible score is 10 and the worst is 0. It is technically possible for vaults to score less than 0, in which case 0 will be displayed.
+Il punteggio di sicurezza che una cassafote può ottenere va da 1 a 10. Il miglior punteggio possibile è 10, il peggiore è 0. Tecnicamente è possibile per una cassaforte ricevere meno di 0 ma in quel caso si vedrà solo lo 0.
 
-Risks are distributed in three main categories:
+I rischi sono distribuiti in tre categorie principali:
 
-* Beefy Risks: Risks that we add by serving as a platform.&#x20;
-* Asset Risks: Risks of the asset being handled by the vault.
-* Platform Risks: Risks of the underlying farm or platform used.
+* Rischi di Beefy: Rischi aggiunti da noi in quanto fungiamo da piattaforma.&#x20;
+* Rischi dell'Asset: Rischii legati all'asset gestito dalla cassaforte.
+* Rischi della Piattaforma: Rischi legati alla sottostante farm o alla piattaforma usata.
 
-Each category is responsible for a percentage of the total score. Each category is itself divided in multiple subcategories.
+Ogni categoria è responsabile di una percentuale del punteggio totale. Ogni categoria si divide a sua volta in più sottocategorie.
 
-All vaults start with a perfect score of 10 and are subtracted points whenever they have qualities that increase risk.
+Tutte le casefforti iniziano con un perfetto punteggio di 10 da cui vengono sottratti punti ogni qualvotla che si trovano qualità che aumentano i rischi.
 
-## Category: Beefy Risks
+## Categoria: Rischi di Beefy
 
-These are risks related to the Beefy Finance platform itself. These could be risks added by the complexity of the vault strategy, if it's an experimental deployment, if it's been audited by others, etc. Twenty percent of the safety score is determined by the Beefy Risks.
+Sono rischi relativi alla piattaforma stessa di Beefy Finance. Potrebbero essere rischi aggiunti dalla complessità della strategia della cassaforte, se è una distribuzione sperimentale, se è stata controllata da altri etc. I rischi di Beefy determinano il 20 per cento del punteggio di sicurezza.
 
-### Subcategory: Complexity
+### Sottocategoria: Complessità
 
-Tracks the complexity of the strategy behind a vault.
+Tiene traccia della complessità della strategia che sta dietro ad una cassaforte.
 
 #### COMPLEXITY\_LOW
 
-* Title: Low complexity strategy
-* Explanation: Low complexity strategies have few, if any, moving parts and their code is easy to read and debug. There is a direct correlation between code complexity and implicit risk. A simple strategy effectively mitigates implementation risks.
-* Qualification Criteria: A low complexity strategy should interact with just one audited and well-known smart contract e.g. MasterChef. The strategy serves as a façade for this smart contract, forwarding deposit, harvest and withdrawal calls using a single line of code.&#x20;
+* Titolo: Strategia a bassa complessità (Low complexity strategy)
+* Spiegazione: Le strategie a bassa complessità hanno poche, se ne hanno, parti in movimento, e il loro codice è semplice da leggere e da mettere a punto. C'è una correlazione diretta tra la complessità del codice e i rischi impliciti. Una strategia semplice mitiga l'implementazione di rischi.
+* Criteri di Qualificazione: Una strategia a bassa complessità deve interagire con solo un controllato e ben conosciuto smart contract cioè MasterChef. La strategia serve solo come facciata per questo smart contract, inoltrando deposito, raccolta e ritiro usando una sola linea di codice.&#x20;
 
 #### COMPLEXITY\_MID
 
-* Title: Beefy strategy is of medium complexity
-* Explanation: Medium complexity strategies interact with two or more audited and well-known smart contracts. Its code is still easy to read, test and debug. It mitigates most implementation risks by keeping things simple, however the interactions between 2 or more systems add a layer of complexity.
-* Qualification Criteria: A medium complexity strategy interacts with 2 or more well-known smart contracts. This strategy automates the execution of a series of steps with no forking paths. Every time deposit(), harvest() and withdraw() is called, the same execution path is followed.
+* Titolo: La strategia di Beefy è di complessità media (Beefy strategy is of medium complexity)
+* Spiegazione: Strategie di media complessità interagiscono con due o più controllati e ben conosciuti smart contract. Il loro codice è ancora facile da leggere, da testare e da mettere a punto. Questo mitiga la maggior parte dei rischi di implementazione mantenendo il tutto semplice, ma comunque l'interazione di due o più sistemi aggiunge un livello di complessità.
+* Criteri di Qualificazione: Una strategia di media complessità interagisce con due o più smart contract ben conosciuti. Questa strategia automatizza l'esecuzione di una serie di step senza percorsi alternativi. Ogni volta che vengono chiamate le funzioni di deposit(), harvest() e withdraw(), si segue lo stesso percorso di esecuzione.
 
 #### COMPLEXITY\_HIGH
 
-* Title: Beefy strategy is complex&#x20;
-* Explanation: High complexity strategies interact with one or more well-known smart contracts. These advanced strategies present branching paths of execution. In some cases multiple smart contracts are required to implement the full strategy.
-* Qualification Criteria: A high level complexity strategy can be identified by one or more of the following factors: high cyclomatic complexity, interactions between two or more third-party platforms, implementation split between multiple smart contracts.
+* Titolo: La strategia di Beefy è complessa&#x20;
+* Speigazione: Sttategie ad alta complessità interagiscono con uno o più smart contract ben conosciuto. Questa strategie avanzate presentano ramificati percorsi di esecuzione. In alcuni casi sono necessari molteplici smart contract per implementare la strategia completa.
+* Criteri di Qualificazione: Una strategia ad alto livello di complessità può essere identificata da uno o più dei seguenti fattori: alta complessità ciclomatica, interazione tra due o più piattaforme di terze parti, implementazione divisa tra più smart contract.
 
-### Subcategory: Time in Market
+### Sottocategoria: Tempo nel Mercato
 
-Tracks how long has this strategy been running without any major issues.
+Tiene traccia di quanto a lungo la strategia è stata eseguita senza grossi problemi.
 
 #### BATTLE\_TESTED
 
-* Title: Beefy strategy is battle tested
-* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy has been exposed to attacks and usage for some time already, with little to no changes. This makes it sturdier.&#x20;
-* Qualification Criteria:
-  * Was deployed using a BeefyStratFactory
-  * 10+ strategies sharing the same code deployed
-  * 3 months working as expected without upgrades
+* Titolo: La strategia di Beefy è testata in battaglia
+* Spiegazione: Più tempo è in esecuzione una particolare strategia, più è probabile che eventuali bug potenziali siano stati trovati e corretti. Questa strategia è stata già esposta ad attacchi e utilizzo per un po' di tempo, con cambiamenti piccoli o nulli. Ciò la rende più robusta.&#x20;
+* Criteri di Qualificazione:
+  * È stato distribuita utilizzando un BeefyStratFactory
+  * Sono state distribuite 10+ strategie condividendo lo stesso codice
+  * Ha lavorato come previsto per 3 mesi senza nessun aggiornamento
 
 #### NEW\_STRAT
 
-* Title: Strategy has been running for less than a month&#x20;
-* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy is a modification or iteration of a previous strategy. It hasn't been battle tested as much as others.
-* Qualification Criteria: -
+* Titolo: La strategia è in esecuzione da meno di un mese&#x20;
+* Spiegazione: Più tempo è in esecuzione una particolare strategia, più è probabile che eventuali bug potenziali siano stati trovati e corretti. Questa strategia è una modificazione o un'iterazione di una precedente strategia. Non è stata testata in battaglia tanto quanto le altre.
+* Criteri di Qualificazione: -
 
 #### EXPERIMENTAL\_STRAT
 
-* Title: The strategy has some features which are new&#x20;
-* Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy is brand new and has at least one experimental feature. Use it carefully at your own discretion.
-* Qualification Criteria: -
+* Titolo: La strategia ha delle caratteristiche nuove
+* Spiegazione: Più tempo è in esecuzione una particolare strategia, più è probabile che eventuali bug potenziali siano stati trovati e corretti. Questa strategia è nuova di zecca ed ha almeno una caratteristica sperimentale. Usala a tua discrezione.
+* Criteri di Qualificazione: -
 
-## Category: Asset Risks
+## Categoria: Rischi degli Asset
 
-Risks relating to the asset or assets handled by the vault. Entering into a vault with BTC has a different set of risks than entering into a vault with a newer and smaller coin. Twenty percent of the score is determined by this category.
+Rischi legati agli asset oppure asset gestiti dalla cassaforte. Entrare in una cassaforte con BTC ha rischi diversi rispetto ad entrare in una cassaforte con una coin nuova e più piccola. Questa categoria determina il venti per cento del punteggio.
 
-### Subcategory: Impermanent Loss
+### Sottocategoria: Impermanent Loss (Perdita Impermanente)
 
-Tracks the risk of impermanent loss within the vault
+Tiene traccia del rischio di impermanent loss della cassaforte
 
 #### IL\_NONE
 
-* Title: Very low or zero projected IL&#x20;
-* Explanation: The asset in this vault has very little or even no expected impermanent loss. This might be because you are staking a single asset, or because the assets in the LP are tightly correlated like USDC-USDT or WBTC-renBTC.
-* Qualification Criteria: Single asset vaults and vaults that manage stablecoins with a peg that isn't experimental: USDT, USDC, DAI, sUSD, etc. &#x20;
+* Titolo: IL previsto molto basso o nullo&#x20;
+* Spiegazione: L'asset in questa cassaforte ha un impermanent loss minimo o addirittura inesistente. Ciò potrebbe essere dato dal fatto che stai mettendo in staking un asset singolo oppure perché gli asset che compongono l'LP sono strettaemnte correlati come USDC-USDT o WBTC-renBTC.
+* Criteri di Qualificazione: Casseforti con asset singoli e casseforti che gestiscono stablecoin con un peg non sperimentale: USDT, USDC, DAI, sUSD, etc. &#x20;
 
 #### IL\_LOW
 
-* Title: Low projected IL&#x20;
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. The assets in this vault have some risks of impermanent loss.&#x20;
-* Qualification Criteria: Vaults that handle what are normally referred as “Pool 1” LPs would fit here: ETH-USDC, MATIC-AAVE, etc. Governance tokens for smaller projects are normally known as “Pool 2” and thereby excluded.
+* Titolo: IL previsto basso&#x20;
+* Spiegazione: Quando fornisci liquidità ad una coppia di token, per esempio ETH-BNB, c'è il rischio che tali asset si disaccoppino nel prezzo. BNB potrebbe perdere valore considerevolmente rispetto ad ETH. Come risultato perderai dei fondi, rispetto a detenere ETH e BNB separati. Gli asset in questa cassaforte sono esposti al rischio di impermanent loss.&#x20;
+* Criteri di Qualificazione: Vi rientrano le casseforti che gestiscono ciò che normalmente viene definito come LP "Pool 1": ETH-USDC, MATIC-AAVE, etc. Token di governance di progetti minori sono solitamente conosciuti come LP "Pool 2" e sono quindi esclusi.
 
 #### IL\_HIGH
 
-* Title: High projected IL&#x20;
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. The assets in this vault have a high or very high risk of impermanent loss.&#x20;
-* Qualification Criteria: Vaults that handle “Pool 2” LPs go here. These LP normally include the governance token of the farm itself.
+* Titolo: IL previsto alto&#x20;
+* Spiegazione: Quando fornisci liquidità ad una coppia di token, per esempio ETH-BNB, c'è il rischio che tali asset si disaccoppino nel prezzo. BNB potrebbe perdere valore considerevolmente rispetto ad ETH. Come risultato perderai dei fondi, rispetto a detenere ETH e BNB separati. Gli asset in questa cassaforte sono esposti al rischio di impermanent loss. &#x20;
+* Criteri di Qualificazione: Vi rientrano le casseforti che gestiscono LP "Pool 2". Questi LP normalmente includono i token di governance della farm stessa.
 
 #### ALGO\_STABLE
 
-* Title: Algorithmic stable, experimental peg
-* Explanation: When you are providing liquidity into a token pair, for example ETH-BNB, there is a risk that those assets decouple in price. BNB could drop considerably in relation to ETH. You would lose some funds as a result, compared to just holding ETH and BNB on their own. At least one of the stablecoins held by this vault is an algorithmic stable. This means that the stable peg is experimental and highly risky. Use it carefully at your own discretion.
-* Qualification Criteria: “Stablecoins” with experimental pegs, or tokenomics that have failed repeatedly to hold its peg in the past, go here.
+* Titolo: Stabile algoritmicamente, peg sperimentale
+* Spiegazione: Quando fornisci liquidità ad una coppia di token, per esempio ETH-BNB, c'è il rischio che tali asset si disaccoppino nel prezzo. BNB potrebbe perdere valore considerevolmente rispetto ad ETH. Come risultato perderai dei fondi, rispetto a detenere ETH e BNB separati. Almeno una delle stablecoin detenute in questa cassaforte è stabile algoritmicamente. Ciò significa che il peg stabile è sperimentale ed altamente rischioso. Usala con attenzione e a tua discrezione.
+* Criteri di Qualificazione: Vi rientrano “stablecoins” con peg sperimentali, o tokenomic che in passato hanno ripetutamente fallito nel mantenere il peg.
 
-### Subcategory: Liquidity
+### Sottocategoria: Liquidità
 
-Tracks how difficult it is to buy/sell the vault's token.
+Tiene traccia di quanto difficile sia comprare/vendere il token della cassaforte.
 
 #### LIQ\_HIGH
 
-* Title: High trade liquidity
-* Explanation: How liquid an asset is affects how risky it is to hold it. Liquid assets are traded in many places and with good volume. The asset held by this vault has high liquidity. This means that you can exchange your earnings easily in plenty of places.
-* Qualification Criteria: -
+* Titolo: Liquidità di trading elevata
+* Spiegazione: Quanto liquido è un asset influenza quanto rischioso sia detenerlo. Asset molto liquidi sono scambiabili in molti posti e con un buon volume di scambi. L'asset detenuto in questa cassaforte ha un'alta liquidità. Ciò significa che puoi scambiare i tuoi guadagni facilmente e in molti posti.
+* Criteri di Qualificazione: -
 
 #### LIQ\_LOW
 
-* Title: Low trade liquidity
-* Explanation: How liquid an asset is affects how risky it is to hold it. Liquid assets are traded in many places and with good volume. The asset held by this vault has low liquidity. This means that it isn't as easy to swap and you might incur high slippage when doing so.
-* Qualification Criteria: -
+* Titolo: Liquidità di trading bassa
+* Spiegazione: Quanto liquido è un asset influenza quanto rischioso sia detenerlo. Asset molto liquidi sono scambiabili in molti posti e con un buon volume di scambi. L'asset detenuto in questa cassaforte ha una bassa liquidità. Ciò significa che non è molto facile da scambiare e potresti andare incontro ad elevato slippage quando provi a scambiarlo.
+* Criteri di Qualificazione: -
 
-### Subcategory: Market Cap
+### Sottocategoria: Market Cap (Capitalizzazione di mercato)
 
-Total value of all the coins in circulation. Indirectly tracks how volatile the vault's underlying asset is.
+Il valore totale di tutte le coin in circolazione. Traccia indirettamente quanto volatile possa essere l'asset sottostante di una cassaforte.
 
 #### MCAP\_LARGE
 
-* Title: High market cap, low volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a large market cap. This means it's potentially a highly safe asset to hold. The asset has a high potential to stick around and grow over time.
-* Qualification Criteria: Top 50 MC by Gecko/CMC
+* Titolo: Alta capitalizzazione di mercato, asset con bassa volatilità
+* Spiegazione: La capitalizzazione di mercato dell'asset crypto influenza direttamente quanto rischioso sia detenerlo. Solitamente una bassa capitalizzazione di mercato implica alta volatilità e bassa liquidità. L'asset detenuto in questa cassaforte ha un'alta capitalizzazione di mercato. Ciò significa che potenzialmente è un asset molto sicuro da detenere. L'asset ha un elevato potenziale di restare al valore attuale e crescere col tempo.
+* Criteri di Qualificazione: Top 50 MC di Gecko/CMC
 
 #### MCAP\_MEDIUM
 
-* Title: Medium market cap, medium volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a medium market cap. This means it's potentially a safe asset to hold. The asset has potential to stick around and grow over time.
-* Qualification Criteria: Between 50 and 300 MC by Gecko/CMC
+* Titolo: Capitalizzazione di mercato media, asset con volatilità media
+* Spiegazione: La capitalizzazione di mercato dell'asset crypto influenza direttamente quanto rischioso sia detenerlo. Solitamente una bassa capitalizzazione di mercato implica alta volatilità e bassa liquidità. L'asset detenuto in questa cassaforte ha una capitalizzazione di mercato media. Ciò significa che è potenzialmente sicuro da detenere. L'asset ha il potenziale per restare al valore attuale e crescere col tempo.
+* Criteri di Qualificazione: Tra il posto n. 50 e n. 300 MC di Gecko/CMC
 
 #### MCAP\_SMALL
 
-* Title: Small market cap, high volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a small market cap. This means it's potentially a risky asset to hold. The asset has low potential to stick around and grow over time.
-* Qualification Criteria: Between 300 and 500 MC by Gecko/CMC
+* Titolo: Bassa capitalizzazione di mercato, asset con volatilità elevata
+* Spiegazione: La capitalizzazione di mercato dell'asset crypto influenza direttamente quanto rischioso sia detenerlo. Solitamente una bassa capitalizzazione di mercato implica alta volatilità e bassa liquidità. L'asset detenuto in questa cassaforte ha una capitalizzazione di mercato bassa. Ciò significa che è potenzialmente un asset rischioso da detenere. L'asset ha un basso potenziale di rimanere al valore attuale e di crescere col tempo.
+* Criteri di Qualificazione: Tra il posto n. 300 e n. 500 MC di Gecko/CMC
 
 #### MCAP\_MICRO
 
-* Title: Micro market cap, Extreme volatility asset
-* Explanation: The market capitalization of the crypto asset directly affects how risky it is to hold it. Usually a small market cap implies high volatility and low liquidity. The asset held by this vault has a micro market cap. This means it's potentially a highly risky asset to hold. The asset has low potential to stick around.
-* Qualification Criteria: +500 MC by Gecko/CMC
+* Titolo: Capitalizzazione di mercato micro, asseto con estrema volatilità
+* Spiegazione: La capitalizzazione di mercato dell'asset crypto influenza direttamente quanto rischioso sia detenerlo. Solitamente una bassa capitalizzazione di mercato implica alta volatilità e bassa liquidità. L'asset detenuto in questa cassaforte ha una capitalizzazione di mercato micro. Ciò significa che è potenzialmente un asset molto rischioso da detenere. L'asset ha un basso potenziale di rimanere al valore attuale.
+* Criteri di Qualificazione: +500 MC di Gecko/CMC
 
-### Subcategory: Supply
+### Sottocategoria: Supply (Fornitura)
 
-Tracks risks related to the asset supply. Can it be altered by anyone? How centralised is it?
+Tiene traccia dei rischi relativi alla supply dell'asset. Potrebbe essere alterata da qualcuno? Quanto è centralizzato?
 
 #### SUPPLY\_CENTRALIZED
 
-* Title: Few very powerful whales
-* Explanation: When the supply is concentrated in a few hands, they can greatly affect the price by selling. Whales can manipulate the price of the coin. The more people that have a vested interest over a coin, the better and more organic the price action is.
-* Qualification Criteria: Less than 50 accounts hold more than 50% of the supply.&#x20;
+* Titolo: Poche e molto potenti whale
+* Spiegazione: Quando la supply è concentrata in poche mani, queste possono influenzare notevolmente il prezzo vendendo. Le whale possono manipolare il prezzo di una coin. Più persone hanno interesse acquisito in una coin, più organica e migliore sarà la pirce action.
+* Criteri di Qualificazione: Meno di 50 account detengono più del 50% della supply.&#x20;
 
-## Category: Platform Risks
+## Categoria: Rischi della Piattaforma
 
-Risks relating to the third party platforms used by the vault. How much track record they have, how solid the code is, are there any dangerous actions that an admin can take, etc. Sixty percent of the score is determined by this category.
+Rischi legati alla piattaforma terzi usata dalla cassaforte. Quanto track record hanno, quanto è solido il codice, ci sono pericolose azioni che un admin può effettuare etc. Il sessanta per cento del punteggio è determinato da questa categoria.
 
-### Subcategory: Reputation
+### Sottocategoria: Reputazione
 
-Tries to give clues about the team and community's track record. How likely are they to rug for example.
+Cerca di fornire indizi sul track record del team e della community. Quanto è probabile che facciano un rug, per esempio.
 
 #### PLATFORM\_ESTABLISHED
 
-* Title: The platform has a known track record
-* Explanation: When taking part in a farm, it can be helpful to know the amount of time that the platform has been around and the degree of its reputation. The longer the track record, the more investment the team and community have behind a project. This vault farms a project that has been around for many months.
-* Qualification Criteria: The underlying farm has been around for at least 3 months.
+* Titolo: La piattaforma ha un conosciuto track record
+* Spiegazione: Quando si prende parte ad una farm, potrebbe essere utile conoscere da quanto tempo la piattaforma esista e il suo grado di reputazione. Più lungo è il track record, più investimenti il team è la community hanno in un progetto. Questa cassaforte farma in un progetto che esiste da molti mesi.
+* Criteri di Qualificazione: La sottostante farm esiste da almeno 3 mesi.
 
 #### PLATFORM\_NEW
 
-* Title: Platform is new with little track record
-* Explanation: When taking part in a farm, it can be helpful to know the amount of time that the platform has been around and the degree of its reputation. The longer the track record, the more investment the team and community have behind a project. This vault farms a new project, with less than a few months out in the open.
-* Qualification Criteria: The underlying farm has been around for less than 3 months.
+* Titolo: La piattaforma è nuova e con un piccolo track record
+* Spiegazione: Quando si prende parte ad una farm, potrebbe essere utile conoscere da quanto tempo la piattaforma esista e il suo grado di reputazione. Più lungo è il track record, più investimenti il team è la community hanno in un progetto. Questa cassaforte farma in un nuovo progetto, che esiste da pochi mesi.
+* Criteri di Qualificazione: La sottostante farm esiste da meno di 3 mesi.
 
-### Subcategory: Security
+### Sottocategoria: Sicurezza
 
-Tracks various smart contract good practices.
+Tiene traccia delle buone pratiche degli smart contract.
 
 #### NO\_AUDIT
 
-* Title: The platform has never been audited by third-party trusted auditors
-* Explanation: Audits are reviews of code by a group of third party developers.
-* Qualification Criteria: -
+* Titolo: La piattaforma non ha mai ricevuto audit da un revisore di terze parti
+* Spiegazione: Gli audit sono revisioni del codice fatte da un gruppo di sviluppatori di terze parti.
+* Criteri di Qualificazione: -
 
 #### AUDIT
 
-* Title: The platform has an audit from at least one trusted auditor
-* Explanation: Audits are reviews of code by a group of third party developers.
-* Qualification Criteria: One or more audits from an auditor that has some positive track record in the space.
+* Titolo: La piattaforma ha ricevuto un audit da almeno un revisore di fiducia
+* Spiegazione: Gli audit sono revisioni del codice fatte da un gruppo di sviluppatori di terze parti.
+* Criteri di Qualificazione: Uno o più audit da un revisore che ha un track record positivo nell'ambiente crypto.
 
 #### CONTRACTS\_VERIFIED
 
-* Title: All relevant contracts are publicly verified
-* Explanation: Code running in a particular contract is not public by default. Block explorers let developers verify the code behind a particular contract. This is a good practice because it lets other developers audit that the code does what it’s supposed to. All the third party contracts that this vault uses are verified. This makes it less risky.
-* Qualification Criteria: -
+* Titolo: Tutti i relativi contratti sono pubblicamente verificati
+* Spiegazione: Il codice che gira in un particolare contratto non è pubblico di defualt. I block explorer lasciano che siano gli sviluppatori a verificare il codice dietro un particolare contratto. Questa è una buona pratica perché permette ad altri sviluppatori di verificare che il codice faccia ciò che deve. Questo lo rende meno rischioso.
+* Criteri di Qualificazione: -
 
 #### CONTRACTS\_UNVERIFIED
 
-* Title: Some contracts are not verified
-* Explanation: Code running in a particular contract is not public by default. Block explorers let developers verify the code behind a particular contract. This is a good practice because it lets other developers audit that the code does what it’s supposed to. Some of the third party contracts that this vault uses are not verified. This means that there are certain things that the Beefy devs have not been able to inspect.
-* Qualification Criteria: -
+* Titolo: Alcuni contratti non sono verificati
+* Spiegazione: Il codice che gira in un particolare contratto non è pubblico di defualt. I block explorer lasciano che siano gli sviluppatori a verificare il codice dietro un particolare contratto. Questa è una buona pratica perché permette ad altri sviluppatori di verificare che il codice faccia ciò che deve. Alcuni dei contratti di terze parti che questa cassaforte usa non sono verificati. Ciò significa che ci sono certe cose che Beefy non è riuscita a controllare.
+* Criteri di Qualificazione: -
 
 #### ADMIN\_WITH\_TIMELOCK
 
-* Title: Dangerous functions are behind a timelock
-* Explanation: Sometimes the contract owner or admin can execute certain functions that could put user funds in jeopardy. The best thing is to avoid these altogether. If they must be present, it’s important to keep them behind a timelock to give proper warning before using them. This contract has certain dangerous admin functions, but they are at least behind a meaningful Timelock.&#x20;
-* Qualification Criteria: There is at least one function present that could partially or completely rug user funds. The function must be behind a +6h timelock.
+* Titolo: Ci sono pericolose funzioni dietro ad un timelock
+* Spiegazione: Certe volte il possessore del contratto o l'admin possono eseguire certe funzioni che possono mettere a rischio i fondi degli utenti. La cosa migliore è evitarli del tutto. Se queste funzioni dovessero essere presenti, è importante tenerle dietro ad un timelock per dare una avviso adeguato prima di usarli. Questo contratto ha certe funzione di admin pericolose, ma almeno sono dietro ad un significativo timelock.
+* Criteri di Qualificazione: C'è almeno una funzione che può rubare parzialmente o completamente i fondi degli utenti. La funzione dev'essere dietro ad un timelock di almeno 6 ore.
 
 #### ADMIN\_WITHOUT\_TIMELOCK
 
-* Title: Dangerous functions are without a timelock
-* Explanation: Sometimes the contract owner or admin can execute certain functions that could put user funds in jeopardy. The best thing is to avoid these altogether. If they must be present, it’s important to keep them behind a timelock to give proper warning before using them. This contract has certain dangerous admin functions, and there is no time lock present. They can be executed at a moment's notice.
-* Qualification Criteria: There is at least one function present that could partially or completely rug user funds. The function has no time lock protection.
+* Titolo: Ci sono pericolose funzioni senza timelock
+* Spiegazione: Certe volte il possessore del contratto o l'admin possono eseguire certe funzioni che possono mettere a rischio i fondi degli utenti. La cosa migliore è evitarli del tutto. Se queste funzioni dovessero essere presenti, è importante tenerle dietro ad un timelock per dare una avviso adeguato prima di usarli. Questo contratto ha certe funzioni di admin pericolose, e non c'è nessun timelock. Potrebbero essere eseguite in qualsiasi momento.
+* Criteri di Qualificazione: C'è almeno una funzione che può rubare parzialmente o completamente i fondi degli utenti. La funzione non ha nessun timelock a protezione.

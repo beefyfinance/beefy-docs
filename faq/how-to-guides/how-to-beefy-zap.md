@@ -1,61 +1,61 @@
 ---
-description: One-Click Beefy Vault Investing!
+description: Investire in una cassaforte Beefy con un singolo click!
 ---
 
-# How to use Beefy Zap
+# Come usare Beefy Zap
 
-Beefy ZAP lets you create liquidity pool tokens and make Beefy vault deposits with just one transaction. You no longer need to [manually add and remove liquidity](how-to-add-remove-liquidity.md)! Beefy ZAP is a simple, quick, cheap, safe solution that eliminates the need to handle token contract addresses or even leave the comfy environs of the Beefy app.
+Beefy ZAP ti permette di creare token di pool di liquidità e depositarli in una cassaforte Beefy in una sola transazione. Non avrai più bisogno di [aggiungere e rimuovere manualmente la liqudità](how-to-add-remove-liquidity.md)! Beefy ZAP è una semplice, veloce, economica e sicura soluzione che elimina la necessità di maneggiare contract address del token o di dover lasciare il comodo ambiente dell'app Beefy.
 
-## Entering a LP vault
+## Entrare in una cassaforte LP
 
-We will showcase Beefy ZAP for the [BIFI-BNB LP vault](https://app.beefy.finance/vault/cakev2-bifi-bnb) from PancakeSwap:
+Mostreremo il funzionamento di Beefy ZAP per il [BIFI-BNB LP vault](https://app.beefy.finance/vault/cakev2-bifi-bnb) da PancakeSwap:
 
-![Screenshot taken on 30 May 2021](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-rate.png)
+![Screenshot fatto il 30 Maggio 2021](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-rate.png)
 
-Using solely BNB as input asset, we will let Beefy ZAP create the BIFI-BNB LP tokens and make the vault deposit.
+Useremo solamente BNB come asset di input, lasceremo che Beefy ZAP crei il token BIFI-BNB LP te faccia il deposito in cassaforte.
 
-### 1. Expand the vault
+### 1. Espandi la cassaforte
 
-Click on [BIFI-BNB LP](https://app.beefy.finance/vault/cakev2-bifi-bnb) or anywhere in the vault field to expand it and see the deposit and withdraw options.
+Clicca su [BIFI-BNB LP](https://app.beefy.finance/vault/cakev2-bifi-bnb) o in qualsiasi posto sul campo della cassaforte per espanderla e vedere le opzioni di deposito e ritiro.
 
 ![](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-dropdown.png)
 
-### 2. Select "BNB" from the deposit dropdown menu
+### 2. Seleziona "BNB" dal menu a comparsa del deposito
 
 ![](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-zap-dropdown-menu.png)
 
-BNB does not require approval to spend, as it is the native currency on Binance Smart Chain.
+BNB non richiede approvazione per essere speso, in quanto è la valuta nativa sulla Binance Smart Chain.
 
-### 3. Enter amount of BNB and hit "Deposit"
+### 3. Inserisci la quantità di BNB e clicca "Deposita"
 
-We currently have 4.0685 BNB, and in order to have enough to pay for transaction fees, we will use 4 BNB max.
+Al momento abbiamo 4.0685 BNB, e per averne abbastanza per pagare le commissioni di transazione, useremo al massimo 4 BNB.
 
 ![](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-deposit.png)
 
-And that's it! Deposit complete:
+Ecco fatto! Il deposito è completo:
 
 ![](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-deposit-done.png)
 
-Beefy ZAP automatically created liquidity at Pancakeswap and deposited BIFI-BNB LP in the vault. You can check [this guide](how-to-check-harvesting-compounding-rate.md) to see when the vault will harvest rewards and compound for more BIFI-BNB LP tokens.
+Beefy ZAP crea automaticamente la liquidità su Pancakeswap e deposita il token BIFI-BNB LP nella cassaforte. Puoi guardare [questa guida](how-to-check-harvesting-compounding-rate.md) per vedere quando la cassaforte raccoglierà le ricompense e le comporrà per più token BIFI-BNB LP.
 
-## Exiting a LP vault
+## Uscire da una cassaforte LP
 
-Beefy ZAP also allows withdrawing and removing LP tokens from a vault. We will show how to withdraw from the BIFI-BNB LP vault and receive just BIFI.
+Beefy ZAP ti permette anche di ritirare e rimuovere i token LP da una cassaforte. Ti mostreremo come ritirare dalla cassaforte BIFI-BNB LP e ricevere solo BIFI.
 
-### 1. Select "BIFI" from the withdraw dropdown menu
+### 1. Seleziona "BIFI" dal menu a comparsa del ritiro
 
 ![](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-bifi-withdraw.png)
 
-### 2. Click "Approve"
+### 2. Clicca "Approva"
 
-and confirm the transaction.
+e conferma la transazione.
 
-### 3. Select the amount of BIFI you wish to receive, or use all deposited tokens.
+### 3. Seleziona la quantità di BIFI che vorresti ricevere, oppure usa il quantitativo di tutti i token depositati.
 
-Click on the token amount deposited, and withdraw.
+Clicca sul quantitativo di token depositati, e ritira.
 
 ![](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-bifi-withdraw-all.png)
 
-And that's all! Beefy ZAP returned 1.4794 BIFI to our wallet, which we can stake in the [BIFI Maxi vault](https://app.beefy.finance/#/bsc/vault/bifi-maxi) for example:
+Ecco fatto! Beefy ZAP ha ritornato 1.4794 BIFI al tuo wallet, che adesso potremo per esempio mettere in staking nel [BIFI Maxi vault](https://app.beefy.finance/#/bsc/vault/bifi-maxi) :
 
 ![](../../.gitbook/assets/beefy-zap-bifi-bnb-lp-bifi-proof.png)

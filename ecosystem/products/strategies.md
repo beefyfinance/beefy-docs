@@ -1,27 +1,27 @@
 # Strategies
 
-### What is a Vault Strategy?
+### Cos'è la strategia di una cassaforte?
 
-Beefy's vault strategies are modular smart contracts that tell it what assets to farm, and where it should sell the farmed assets. Rewards are regularly harvested, swapped for the original vault asset, and deposited again for compound farming.
+Le strategie delle casseforti di Beefy sono smart contract modulari che dicono che asset farmare, e dove vender l'asset farmato. Le ricompense sono regolarmente raccolte, scambiate per l'asset originale della cassaforte e depositate di nuovo per il farming composto.
 
-### **Who is in control of the strategies?**
+### **Chi controlla le strategie?**
 
-Each vault and strategy link is hardcoded, and the code has been built to be immutable, so once they are released, they become unstoppable. No one can modify the vaults and strategies.
+Ogni cassaforte e il collegamento con la strategia sono codificati, il codice è costruito per essere immutabile, quindi dopo che viene rilasciato diventa inarrestabile. Nessuno può modificare le casseforti o le strategie.
 
-To release a new strategy on any asset, a new vault and strategy smart contract must be built.
+Per rilasciare una nuova strategia su qualsiasi asset, devono essere costruiti una nuova cassaforte ed una nuova strategia (smart contract).
 
-### **How can I make a strategy?**
+### **Come posso fare una strategia?**
 
-For now you can post and discuss your strategy in Beefy’s Discord in the #strategies channel. Detailing what it should buy/sell/farm and what the current APY is. There will be a template to help you get started.
+Per adesso puoi postare e discutere le tue strategie sul Discord di Beefy nel canale #strategies. Spiegando cosa dovrebbe comprare/vendere/farmare e qual è l'APY corrente. Troverai un template per aiutarti ad iniziare.
 
-### **What is APR and APY?**
+### **Cosa sono l'APR e l'APY?**
 
-APR reflects the simple interest rate over a year’s time, while APY describes the rate with the effect of compounding**.**
+APR è il semplice tasso di interesse in un anno di tempo, mentre l'APY descrive il tasso con l'effetto del compounding (interesse composto).
 
-### **Is APY/365 the right way to determine daily gains?**
+### **Fare APY/365 è il modo corretto per determinare i guadagni giornalieri?**
 
-No, the effect of compounded interest is exponential, not linear. A daily compounded interest of 1% would yield 3678.34% a year.
+No, l'effetto dell'interesse composto è esponenziale, non lineare. Un interesse dell'1% composto giornalmente darà un rendimento del 3678.34% in un anno.
 
-### **How does Beefy optimize APY?**
+### **Come fa Beefy ad ottimizzare l'APY?**
 
-Beefy automates the whole compounding process, making it close to optimal as possible. The compounding frequency depends on different variables in the system, like TVL, APR and strategy fees.
+Beefy automatizza l'intero processo del compounding, rendendolo più ottimale possibile. La frequenza del compounding dipende da variabili nel sistema come TVL (Valore Totale Bloccato), APR e tasse della strategia.

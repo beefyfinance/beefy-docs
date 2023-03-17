@@ -1,122 +1,122 @@
-# Vaults
+# Casseforti
 
-## What is a Vault?
+## Cos'è una Cassaforte?
 
-Vaults are investment instruments that employ a specific set of strategies for yield farming. They make use of automation to continually invest and reinvest deposited funds, which help to achieve high levels of compounded interest. By using a Beefy vault to compound your gains, you save thousands of transactions with their associated gas costs, and precious personal time. Instead of manually harvesting and selling rewards, buying more tokens, and reinvesting that continuously, a vault does all that automatically at a high frequency.
+Le casseforti sono strumenti di investimento che impiegano uno specifico insieme di strategie per dare una rendita. Fanno uso dell'automazione per investire e reinvestire i fondi depositati, e ciò aiuta a raggiungere elevati livelli di interesse composto. Usando una cassaforte di Beefy per aumentare i tuoi guadagni, ti risparmierai migliaia  transazioni, relativi costi di commissioni e prezioso tempo personale. Invece di dover manualmente riscotere e vendere i guadagni, comprare più token e reinvestirli continuamente, una cassaforte farà tutto ciò automaticamente e con un frequenza maggiore.
 
-Vaults are the core of the Beefy.Finance ecosystem. In a Beefy vault, you earn more of the asset you stake in it, regardless if this is an liquidity pool (LP) token or a single asset. For example, vaults where one can stake BTC-BNB LP will result in more BTC-BNB LP over time, effectively growing your share in the vault and thus allowing for more and more rewards over time.
+Le casseforti sono il nucleo dell'ecosistema di Beefy.Finance. In una cassaforte di Beefy guadagni di più dell'asset che depositi, indipendentemente dal fatto che sia un token LP o un asset singolo. Per esempio, le casseforti dove si possono depositare BTC-BNB LP risulterà in più BTC-BNB LP nel tempo, accrescendo effettivamente la tua porzione nella cassaforte e ciò permette nel tempo di avere sempre più ricompense.
 
-Despite the name 'Vault' suggests, user funds are never locked in any vault on Beefy.Finance. One could always withdraw from a vault at any moment in time. Beefy.Finance also does not own user funds staked in vaults. However, it is generally best to view vaults as investment tools to store funds for the medium to long term in order to have the effects of compounding really kick in.
+A differenza di ciò che il nome "cassaforte" possa suggerire, i fondi degli utenti non sono mai bloccati in nessuna cassaforte su Beefy. Finance. Ognuno può sempre ritirare da un cassaforte in qualsiasi momento. Inoltre Beefy. Finance non possiede i fondi che vengono messi a rendita nelle casseforti. Tuttavia è consigliabile vedere le casseforti come strumenti di investimento per accumulare fondi per il medio-lungo termine così da avere un effetto di compounding davvero elevato.
 
-When browsing the vaults on the platform, you will see the annual percentage yield (APY), which takes the frequent compounding into consideration compared to annual percentage rate (APR) which does not. You will also see daily interest percentages and the total amount invested in a vault by all users (TVL). Furthermore, one can see what underlying platform the vault is using as a source of revenue.
+Navigando tra le casseforti sulla piattaforma, noterai il rendimento percentuale annuo (APY), che tiene conto del frequente compounding rispetto al tasso di interesse annuo (APR) che non ne tiene conto. Noterai anche il tasso di interesse giornaliero e il totale dei fondi investiti in una cassaforte da tutti gli utenti (TVL). Inoltre si può vedere la piattaforma sottostante che viene usata come onte di reddito.
 
-Each vault can either refer to a pair of tokens invested in liquidity pools, such as CAKE-BNB LP tokens within the Binance Smart Chain ecosystem, or a single token invested in lending platforms or single stake reward pools. After depositing tokens to a vault, the user is supplied with vault specific mooTokens which represent their share in the vault. We will elaborate on mooTokens in the next section.
+Ogni cassaforte può riferire sa ad un coppia di token investita in una liquidity pool, come il token LP CAKE-BNB dell'ecosistema Binance Smart Chain, che ad un singolo token investito in piattaforme di prestito o pool di rendita di un singolo token. Dopo aver depositato i token in una cassaforte, l'utente è fornito di mooToken specifici che rappresentano la sua parte della cassaforte. Spiegheremo di più sui mooToken nella prossima lezione.
 
-Anyone in the Cowmoonity can work together to build new strategies and submit them to governance for voting. We look at vault requests via our official forum where anyone is free to submit [vault requests](https://forum.beefy.finance/c/vault-requests).
+Chiunque nella Cowmoonity può lavorare insieme per costruire nuove strategie e sottoporle ai voti della governance. Esaminiamo le richieste di una cassaforte tramite il nostro forum ufficiale dove ognuno e libero di inviare una richiesta ([vault requests](https://forum.beefy.finance/c/vault-requests)).
 
-Summarizing, vaults can:
+In sintesi, le casseforti possno:
 
-* Efficiently execute yield farming strategies.
-* Compound rewards into the initially deposited token amount.
-* Use any asset as liquidity.
-* Provide one asset as collateral for another.
-* Manage collateral at a safe level to mitigate liquidation.
-* Put any asset to work to generate a yield.
-* Reinvest earned profits.
+* Eseguire efficientemente strategie di rendita.
+* Comporre i guadagni ai token inizialmente depositati.
+* Usare qualsiasi asset come liquidità.
+* Fornire un asset come collaterale per un altro.
+* Gestire il collaterale ad un livello sicuro per mitigare la liquidazione.
+* Mettere qualsiasi asset a lavoro generando una rendita.
+* Reinvestire i profitti guadagnati.
 
-Users can sit back and relax, and watch their investment grow!
+Gli utenti possono sedersi e rilassarsi, guardando i loro investimenti crescere!
 
-## **What are mooTokens?**
+## **Cosa sono i mooTokens?**
 
-A mooToken acts as a receipt for your deposit into any Beefy vault. For example, you receive mooBIFI tokens when depositing BIFI into the BIFI Maxi vault. The amount of mooTokens you receive will not 1:1 match the token amount initially deposited, but it does represent your proportional share of the vault. As a vault generates profit, the amount of mooTokens in your wallet remains constant while the underlying invested token amount in the vault increases.&#x20;
+Un mooToken funge da prova per i tuoi depositi in una qualsiasi cassaforte di Beefy. Per esempio, ricevi mooBIFI token quando depositi BIFI nella cassaforte BIFI Maxi. La quantità di mooToken che ricevi non è uguale 1:1 a quelli che hai inizialmente depositato, ma rappresenterà la tua porzione della cassaforte. Mentre una cassaforte genera profitti, la quantità dei tuoi mooToken nel tuo wallet resta costante, mentre la quantità dei token investiti nella cassaforte aumenta.&#x20;
 
-Beefy's mooToken system has a few major advantages. Firstly, mooTokens allow any user to withdraw their fair share of deposited funds. Secondly, the system allows you to deposit the mooToken receipt to a cold or hardware wallet for ultimate safety. Thirdly, your privacy is maintained, as you remain anonymous to Beefy. Your funds in the vault are not tied to the wallet address from which you made the deposit, since the mooTokens are the only evidence of your share in the vault. Therefore, you could withdraw your share of funds from a different address if you moved your mooTokens to it.
+Il sistema di mooToken di Beefy ha qualche vantaggio in più. Intano i mooToken permettono ad o utente di ritirare la sua quota dei fondi depostati. Come seconda cosa, il sistema ti permette di depositare i mooToken in un cold wallet o in un hardware wallet per la massima sicurezza. Come terza cosa, la tua privacy è mantenuta in quanto sei anonimo anche per Beefy. I tuoi fondi nella cassaforte non sono riconducibili all'indirizzo del wallet da cui li hai depositati, in quanto i mooToken sono l'unica prova del tuo deposito nella cassaforte. Perciò puoi anche ritirare i tuoi fondi da un altro indirizzo se sposti i tuoi mooToken in quello.
 
-Whenever you want to withdraw the tokens that are staked for you in the vault, you need your mooToken receipt to withdraw the initially deposited tokens plus extra vault yield. Beefy.Finance users should hold on tightly to the mooTokens (deposit receipt) and not sell or exchange it to strangers, since you would lose ownership of your staked assets in the vault if you did so!
+Ogni volta che vorrai ritirare i token che ha depositato in una cassaforte, avrai bisogno dei mooToken come prova, per ritirare i token depositati inizialmente più il rendimento. Gli utenti di Beefy.Finance dovrebbero tenersi stretti i loro mooToken (prova del deposito) senza venderli o scambiarli con estranei, in quanto perderebbero anche la proprietà dei loro asset messi a rendita nella cassaforte!&#x20;
 
-## **How often do the vaults harvest their profits and reinvest?**
+## **Ogni quanto le casseforti ritirano i profitti e li reinvestono?**
 
-Vaults are normally harvested multiple times daily and profits are automatically reinvested (compounded). You can check the harvesting and compounding rate of a vault using [this how-to guide](../../faq/how-to-guides/how-to-check-harvesting-compounding-rate.md).
+Le casseforti normalmente raccolgono e automaticamente reinvestono i profitti molte volte al giorno (compound). Puoi controllare il tasso di ritiro e di compounding usando [questa guida](../../faq/how-to-guides/how-to-check-harvesting-compounding-rate.md).
 
-## Why can't someone just do this themselves?
+## Perché nessuno potrebbe farlo da solo?
 
-They could, but vaults help you save on personal time and transaction fees, maintain healthy collateral to debt ratios, self-optimize for the best possible yields, and automatically reinvest earnings. Attempting to do this manually would result in large inefficiencies. At Beefy we like to say: "Sit back and relax, the vault does all the work for you."
+Potrebbero, ma le casseforti aiutano a risparmiare tempo, e commissioni di transazione, mantenendo il collaterale a livelli sicuri al tasso di debito, auto-ottimizzando automaticamente per il migliore tasso di rendita e reinvestendo automaticamente i guadagni. Provare a fare ciò manualmente risulterebbe in una elevata inefficienza. Da Beefy ci piace dire "Siediti e rilassati, la cassaforte farà tutto il lavoro al posto tuo."
 
-## **What is the vault fee structure?**
+## **Qual è la struttura delle commissioni della cassaforte?**
 
-Most vaults have a performance fee structure, taking 4.5% of harvest rewards. This 4.5% on profits is again split up: 3% is distributed back to the reward pool and to $BIFI stakers, 0.5% is allocated to treasury, 0.5% is for the strategist that developed the vault and 0.5% for the one calling the harvest function. These fees are already built into the APY of each vault and daily rate. You do not need to calculate these yourself.
+La maggior parte delle casseforti ha una struttura delle performance fee, che prende il 4.5% delle ricompense del raccolto. Questo 4.5% sui profitti viene diviso: il 3% è ridistribuito al montepremi e agli staker di $BIFI, lo 0.5% è allocato alla treasury, lo 0.5% va allo stratega che ha sviluppato la cassaforte e lo 0.5% per colui che ha chiamato la funzione di harvest. Queste fee sono già incluse nell'APY di ogni cassaforte e nella tariffa giornaliera. Non hai bisogno di calcolarle da solo.
 
-The performance fee on additional yield i.e. vault profits is largely distributed back to $BIFI stakers and is the main source of Beefy.Finance's platform revenue. A part of it also funds the treasury which is used to further fund platform development and security and other initiatives. The performance fee was also implemented to promote community engagement and governance participation. A successful and engaged community is critical for our future growth, which in-turn rewards platform users even more.
+LA commissione di performance sul rendimento aggiuntivo cioè i profitti della cassaforte, viene largamente distribuita agli stakers di $BIFI, ed è la fonte principale delle entrate della piattaforma Beefy.Finance. Una parte di queste finanzia la treasury che viene usata per finanziare lo sviluppo della piattaforma, la sicurezza e altre iniziative. La commissione di performance è stata anche implementata per promuovere l'impegno della community e la partecipazione alla governance. Una community di successo ed impegnata ha un valore critico per la crescita futura, che a sua volta premia ancora di più gli utenti della piattaforma.
 
-Furthermore, vaults have a withdrawal fee. The main purpose of this fee is to prevent possible exploits from bad-faith actors. Without the fee, somebody could deposit just before the harvest() function execution and withdraw straight after that event, taking a % of the gains generated by legitimate stakers. Withdrawal fees stay in the vault and are shared amongst vault funds.
+Inoltre, le casseforti hanno una tassa di ritiro. lo scopo principale di questa fee è quella di prevenire possibili exploit da attori in malafede. Senza questa fee, qualcuno potrebbe depositare appena prima dell'esecuzione della funzione di harvest() e ritirare subito dopo questo evento, prendendo una percentuale dei guadagni dagli staker legittimi. La tassa per il ritiro resta nella cassaforte ed è condivisa tra i fondi della cassaforte.
 
-### Special vaults
+### Casseforti speciali
 
-The Pure CAKE vault, released 14 June 2021, has 0% deposit fee, 0% withdrawal fee, 0% call fee, 0% treasury fee and 0% strategist fee. There is only a performance fee, that goes directly to BIFI Maxi stakers, of 1%. To eliminate bad actors from stealing harvest rewards, the Pure CAKE vault harvests directly before a user deposits their CAKE.
+La cassaforte singola CAKE, rilasciata il 14 Giugno 2021, ha 0% tassa di deposito, 0% tassa di ritiro, 0% tassa di chiamata, 0% tassa di treasury e 0% tassa per lo stratega. C'è solo una tassa di performance dell'1%, che va direttamente agli staker di BIFI Maxi. Per eliminare attori in mala fede dal rubare ricompense del raccolto, la cassaforte di CAKE raccoglie direttamente dopo che un user deposita i suoi CAKE.
 
-## **Does the performance fee get taken out when I withdraw my funds?**
+## La commissione di performance viene prelevata quando ritiro i miei fondi?
 
-* No, the performance fees are on profits and are taken every time someone calls the harvest() function.
+* No, le commissioni di performance sono sui profitti e vengono prese ogni qual volta che qualcuno chiama la funzione harvest().
 
-## Does the vault page show the APY?
+## La pagina della cassaforte mostra l'APY ?
 
-Yes. Our displayed APY values reflect the predicted rate earned on a vault in a year. This rate is determined by the underlying platform it uses, the strategy that it is interacting with at the time, the total amount of funds in the vault and also takes into account the effect of compounding. As a unique feature, we have also included all vault fees in the APY calculation. What you see is what you get!
+Si. Il valore mostrato del nostro APY riflette la predizione del valore guadagnato in una cassaforte in un anno. Questo valore è determinato dalla piattaforma sottostante usata, dalla strategia con cui interagisce in quel momento, il totale dei fondi nella cassaforte e tiene anche conto dell'effetto del compounding. Come caratteristica unica abbiamo anche incluso tutte le tasse della cassaforte nel calcolo dell'APY. Ciò che vedi è ciò che ottieni!
 
-## What risks do the vaults have?
+## Quali rischi hanno le casseforti ?
 
-Beefy vaults are audited, but this does not mean that a vault is entirely risk free. Below are some of the general vault risks:
+Le casseforti di Beefy sono controllate, ma ciò non vuol dire che siano completamente senza rischi. A seguire alcuni dei rischi generali di una cassaforte:
 
-* Assets deposited into the vault have no risk of decreasing in quantity but can decrease in monetary value.
-* As with any smart contract, the ultimate risk is that an investor's funds can end up stolen or unable to be withdrawn. The team does take steps to quantify the security risks of smart contracts and only will interact with ones that meet a specific set of requirements after excessive testing to make sure the underlying platform does not contain so called 'rug-pull' functions.&#x20;
+* Gli asset depositati in una cassaforte non hanno rischio nel diminuire in quantità ma potrebbero diminuire in valore monetario.
+* Come con qualsiasi smart contract, l'ultimo rischio è che i fondi di un investitore possano finire rubati o incapaci di essere ritirati. Il team adotta misure per quantificare i rischi di sicurezza delgi smart contract e interagirà solo con quelli che rispettano un insieme specifico di requisiti dopo svariati test per essere sicuri che la piattaforma sottostante non contenga le cosiddette funzioni di 'rug-pull'.&#x20;
 
-More detailed vault risks, or better yet, information on Beefy's vault safety expressed by the Beefy Safety Score can be found here: [Beefy Safety Score](../../safu-protocol/beefy-safety-score.md).
+Rischi più dettagliati delle casseforti, o meglio ancora, informazioni sulla sicurezza della cassaforte Beefy espresse dal Beefy Safety Score (Punteggio di Sicurezza di Beefy), possono essere trovate qui: [Beefy Safety Score](../../safu-protocol/beefy-safety-score.md).
 
-## **What are the different vaults?**
+## **Quali sono le diverse casseforti?**
 
-* **Money Market :** Utilizes lending platforms, such as Venus on BSC, to generate the highest possible yield for these coins (e.g. BUSD, BNB, LINK, DOT, DAI, USDT, ETH, or BTCB).&#x20;
-* **Native Token Farming :** Takes advantage of the high yield on popular farms by depositing another asset to earn, sell and compound profits of the native reward token.
+* **Money Market :** Utilizzano piattaforme di lending(prestito), come Venus sulla BSC, per generare la massima resa disponibile per queste coin (BUSD, BNB, LINK, DOT, DAI, USDT, ETH, or BTCB).&#x20;
+* **Native Token Farming :** Sfrutta l'alto rendimento delle farm popolari depositando un altro asset per guadagnare, vendere e comporre i profitti del token nativo di ricompensa.
 
-## What will I get out when I make a vault withdrawal?
+## Cosa otterrò quando ritiro da una cassaforte?
 
-You will always withdraw the token type that you deposited, because at Beefy you earn what you stake. You will get the amount you deposited plus the yield generated minus the vault withdrawal fees.
+Ritirerai sempre il tipo di token che hai depositato, perché su Beefy guadagni ciò che metti a rendita. Otterrai la quantità che hai depositato più la rendita generata meno le tasse di ritiro dalla cassaforte.
 
-## **How do LP vaults work?**
+## **Come funzionano le casseforti LP?**
 
-Liquidity pool (LP) vaults work by reinvesting the fees awarded to LP participants. In return for providing liquidity to the pool, many platforms reward investors with tokens. Our vaults regularly harvest these rewards, sell it, buy more of the LP’s underlying assets, and then reinvest to complete the cycle.
+Le casseforti LP (Liquidity Pool) lavorano reinvestendo le tasse assegnate ai partecipanti alla pool di liquidità. In cambio della liquidità fornita alla pool, molte piattaforme premiano gli investitori con dei token. Le nostre casseforti raccolgono regolarmente questi premi, li vendono, comprano più LP degli asset sottostanti e li reinvestono per completare il ciclo.
 
-This compounds the rewards gained from a liquidity pool. Beefy.Finance creates strategies that automate this process, saving you time and gas fees in comparison to farming manually. This is all done for a tiny fee that is distributed back to those who stake in Beefy's governance pool or in the BIFI Maxi vault. A small percentage also goes to the Beefy Finance treasury.
+Ciò accresce le ricompense ottenute da un pool di liquidità. Beefy.Finance crea strategie che automatizzano questo processo, risparmiandoti tempo e gas fee rispetto a farlo manualmente. Ciò viene fatto per una piccola tassa che viene distribuita a chi mette in staking nel pool di governance di Beefy o nella cassaforte BIFI Maxi. Una piccola percentuale va anche alla treasury di Beefy Finance.
 
-## **How often are balances updated in the vaults?**
+## **Con quale frequenza vengono aggiornati i saldi nelle casseforti?**
 
-* Pending rewards are not reflected in the balance until they are swapped for the initial deposited token. This can vary depending on the strategy running.&#x20;
+* Le ricompense in sospeso non vengono calcolate nel saldo fino a che non vengono scambiate per il token inizialmente depositato. Questo può variare a seconda della strategia in uso.
 
-## **Why do I have less mooToken than the amount of tokens I deposited?**
+## **Perché ho meno mooToken rispetto al quantitativo di token che ho depositato?**
 
-* The mooTokens represent the share of the Vault the user has. As the vaults generate profit, the amount of shares (mooToken) remain constant, and the underlying token amount increases.&#x20;
-* There generally are no deposit fees, so the amount of tokens you deposit is maintained the second after you deposited. That amount should increase over time as the strategy generates profit.
+* I mooToken rappresentano la quota di cassaforte che l'utente ha. Come la cassaforte genera profitto, la quantità di quote (mooToken) rimangono costanti, e il sottostante quantitativo di token aumenta.&#x20;
+* Generalmente non ci sono tasse di deposito, quindi la quantità di token che depositi viene mantenuta dopo il deposito. Questa quantità dovrebbe aumentare col passare del tempo poichè la strategia genera profitto.
 
-## **How do vaults get added to Beefy.Finance?**
+## **Come vengono aggiunte le casseforti a Beefy.Finance?**
 
-New potential vaults can be discussed in our Discord in the #whiteboard channel. Our strategists then add the potential investment strategy to our strategy list. A priority is assigned to each new, potential strategy based on its APY, TVL and sustainability. Our developers/strategists then attack the list from top priority to bottom. The official forum is used for submitting actual [vault requests](https://forum.beefy.finance/c/vault-requests).
+Nuove potenziali casseforti possono essere discusse sul nostro Discord nel canale #whiteboard. I nostri strateghi in seguito aggiungono le potenziali strategie di investimento nella nostra lista delle strategie. Ad ogni nuova potenziale strategia viene assegnata una priorità, basata sull'APY, TVL e sostenibilità. I nostri sviluppatori/strateghi attaccano la lista dalla priorità più alta alla più bassa. Il forum ufficiale è usato per presentare la richiesta di una cassaforte ([vault requests](https://forum.beefy.finance/c/vault-requests)).
 
-## **What’s your vault naming process?**
+## **Come scegliete il nome della cassaforte?**
 
-Each vault on the platform is named after the token that users can deposit in it. For example, the CAKE-BNB LP vault uses CAKE-BNB LP tokens for its investment strategy. A BTC vault uses the BTC token, etc.
+Ogni cassaforte sulla piattaforma viene chiamata col nome del token che l'utente può depositargli. Per esempio, la cassaforte CAKE-BNB LP usa i token CAKE-BNB LP per la sua strategia di investimento. Una cassaforte BTC usa il token BTC, etc.
 
-Underneath the vault name, you can find the platform used for investing the token and farming its yields. For example, Uses: Venus means that that particular vault invests the token in Venus, a DeFi algorithmic money market and synthetic stablecoin protocol.
+Sotto il nome della cassaforte, trovi il nome della piattaforma usata per investire il token e per farmare i suoi raccolti. Per esempio: usa Venus significa che quella cassaforte in particolare investe il token in Venus, un algoritmico DeFi money market e protocollo sintetico di stablecoin.
 
-## **How do lending vaults work?**
+## **Come funzionano le casseforti di prestito?**
 
-_The following applies to: Aave, Banker Joe, Belt, Blizz, Geist, Scream, Venus, and similar lending platforms._
+_Il seguente si applica a: Aave, Banker Joe, Belt, Blizz, Geist, Scream, Venus, e simili piattaforme di lending (prestito)._
 
-Most Beefy single asset vaults utilise decentralized marketplaces for lenders and borrowers. By depositing your initial asset in the vault, Beefy deposits it into the lending marketplace and borrows against your token at safe levels of collateral.
+La maggior parte delle casseforti a singolo token di Beefy utilizza mercati decentralizzati per  lender and borrower (prestatori e debitori). Depositando il tuo asset nella cassaforte, Beefy lo deposita in un mercato di lending e prende in prestito contro il tuo token a livelli di collaterale sicuri.
 
-The borrowed tokens are redeposited into the platform, and once again used as collateral to borrow more tokens. This cycle is repeated multiple times to generate as much interest as possible, which is used to buy more of your originally deposited assets. This strategy is also known as a folding strategy. It is noteworthy that this "leveraged" multi lending and multi borrowing is only with the deposited vault token, so there is no liquidation risk due to token price swings.&#x20;
+I token presi in prestito vengono ridepositati nella piattaforma e vengono riutilizzati come collaterale per prendere in prestito più token. Questo ciclo viene ripetuto più volte per generare più interessi possibili, che viene usato per comprare ancora più token di quelli che hai depositato inizialmente. Questa strategia è conosciuta anche come strategia di piegatura. È interessante notare che questo multi-lending "in leva" e multi-borrowing avviene solo col token depositato nella cassaforte, non c'è quindi rischio di liquidazione causato dall'oscillazione del prezzo del token.&#x20;
 
 {% hint style="info" %}
-Because of the multi supply and borrow cycle, a transaction fee for these vaults is generally higher as compared to other vaults. Also, when available liquidity on the lending platform is low, it can potentially lead to temporarily unavailable funds. This event will naturally resolve itself when liquidity returns.
+A causa della fornitura multipla e del ciclo di preso, la fee di transazione di queste casseforti è solitamente più alta rispetto agli altri vault. Inoltre, quando la liquidità disponibile sulle piattaforme di prestito è bassa, può capitare ad una indisponibilità temporanea dei fondi. Questo evento si risolve naturalmente da solo quando ritorna la liquidità.
 {% endhint %}
 
-Due to accruing debt/supply interest, one may notice that the deposited token amount may decline ever so slightly in between harvests. After the harvest, you will see your deposited token amount increase as the yields are compounded back into it. The change in deposited token amount over time of a typical lending style vault looks as follows:
+A causa dell'accumulo di debiti/interessi di fornitura, si può notare che l'importo dei token depositati potrebbe diminuire leggermente tra i vari raccolti (harvest). Dopo il raccolto, vedrai la quantità dei tuoi token depositati aumentare dato che i guadagni vengono reinvestiti. La variazione della quantità dei token depositati nel tempo di una tipica cassaforte di prestito appare come segue:
 
-![After a harvest event, the yields are added to the deposited token amount](../../.gitbook/assets/venus-style-vault.png)
+![Dopo l'evento di raccolta, i profitti sono aggiunti alla quantità di token depositati.](../../.gitbook/assets/venus-style-vault.png)

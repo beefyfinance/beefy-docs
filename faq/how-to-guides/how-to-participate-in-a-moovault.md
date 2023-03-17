@@ -1,48 +1,48 @@
 ---
 description: >-
-  This visual guide will walk you through every step in depositing funds in a
+  Questa guida visiva ti guiderà per ogni step per depositare fondi in un
   mooVault
 ---
 
-# How to participate in a mooVault
+# Come partecipare ad un mooVault
 
-### Prerequisites
+### Prerequisiti
 
-* You must have the mooVault underlying token. For WBNB mooVault, you must have WBNB.
-* You must use a supported wallet, either Metamask or Trustwallet.
+* Devi possedere i token sottostanti al mooVault in questione. Per il mooVault WBNB, devi possedere WBNB.
+* Devi usare un wallet supportato, come Metamask o Trustwallet.
 
-### Walkthrough
+### Procedura dettagliata
 
-#### 1. Go to [Beefy app](https://app.beefy.finance/) and click on “WALLET”
+#### 1. Vai su [Beefy app](https://app.beefy.finance/) e clicca su “WALLET”
 
 ![](../../.gitbook/assets/wallet.png)
 
-#### 2. Choose your favorite wallet
+#### 2. Scegli il tuo wallet
 
 ![](../../.gitbook/assets/wallet-opt.png)
 
-#### 3. Choose which Vault you want to deposit into, for example, the WBNB v2 Vault
+#### 3. Scegli in quale Cassaforte vuoi depositare, per esempio, il Vault WBNB v2
 
 ![](../../.gitbook/assets/wallet-1-.png)
 
-#### 4. Enter the amount of WBNB that you want to deposit, and click APPROVE
+#### 4. Inserisci il quantitativo di WBNB che vuoi depositare, e clicca APPROVE (APPROVA)
 
 ![](../../.gitbook/assets/wallet-2-.png)
 
-#### 5. Confirm the transaction in your wallet and click “DEPOSIT”
+#### 5. Conferma la transazione nel tuo wallet e clicca “DEPOSIT” (DEPOSITA)
 
 ![](../../.gitbook/assets/wallet-3-.png)
 
-Click on **25%, 50%, 75% or 100%** or any percentage **** to deposit the corresponding proportion of your wallet into the Vault.
+Clicca su **25%, 50%, 75% o 100%** o qualsiasi percentuale per depositare nella cassaforte, il quantitativo corrispondente a ciò che detieni nel wallet.
 
-Or click “Deposit All” if you would like to **deposit 100%** of the chosen digital asset from your wallet into the Vault. :::info Please note before you make a deposit that there is a **0.1% withdrawal fee**. The longer you leave the deposit to earn returns in the Vault, the more likely your returns will exceed the withdrawal fee. :::
+Oppure clicca “Deposit All” (Deposita Tutto) se vuoi **depositare il 100%** dell'asset. :::info Per favore nota che prima di fare un deposito c'è **una commissione di prelievo dello 0.1%**. Più tempo lasci il tuo deposito nella cassaforte, più i tuoi ritorni supereranno la commissione di prelievo. :::
 
-#### 6. Receive your mooToken (in this case it would be mooFryWBNBv2)
+#### 6. Ricevi i tuoi mooToken (in questo caso saranno mooFryWBNBv2)
 
 ![](../../.gitbook/assets/wallet-4-.png)
 
-The mooToken you receive is your **share of the mooFryWBNBv2 Vault**. The amount of mooFryWBNBv2 in your wallet will **remain constant** over time but the value of it will increase as the WBNB Vault earns returns.
+I mooToken che ricevi sono **la tua quota della cassaforte mooFryWBNBv2**. La quantità di mooFryWBNBv2 nel tuo wallet **rimane costante** nel tempo ma il loro valore aumenterà come la cassaforte WBNB guadagnerà ritorni.
 
-The amount of mooFryWBNBv2 you receive will be less than 1 per WBNB you deposited because mooFryWBNBv2 is worth more than WBNB.
+La quantità di mooFryWBNBv2 che ricevi sarà inferiore ad 1 per WBNB che hai depositato perchè mooFryWBNBv2 vale più di WBNB.
 
-That's it, once the harvest function is called, you are already earning yield.
+Ecco fatto, dopo che la funzione di raccolta viene attivata, stai già guadagnando rendimenti.

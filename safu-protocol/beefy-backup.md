@@ -2,12 +2,12 @@
 
 ![](../.gitbook/assets/safu.png)
 
-Sporadically, users are experiencing white screens, or blank screens, and can not access the Beefy DApp.
+Raramente, alcuni utenti sperimentano schermate bianche o vuote e non possono accedere la DApp di Beefy.
 
-This might be Fleek or Cloudflare having maintenance, but it's hard to pinpoint the root cause. When it happens, it does not affect everyone but only some regions world wide. We understand that this can be frustrating!
+Potrebbe essere che Fleek o Cloudflare stiano effettuando manutenzione, ma è importante capirne le cause. Mentre ciò accade, non colpisce tutti quanti ma solo alcune regioni in tutto il mondo. Capiamo che potrebbe essere frustrante!
 
-First and foremost, _don't worry_, your funds are always SAFU on the blockchain, they are not on Beefy's website. The site is only a front end to let you access your funds easily.
+Prima di tutto, _don't worry_, i tuoi fondi sono al sicuro e sono sempre SAFU sulla blockchain, non sono sul sito di Beefy. Il sito è solo una facciata che ti permette di accedere più facilmente ai tuoi fondi.
 
-If you are experiencing the aforementioned issues, try the following official mirror: [https://beefy.on.fleek.co/](https://beefy.on.fleek.co/) or try using a VPN.
+Se stai sperimentando il sopra menzionato problema, prova questo mirror ufficiale: [https://beefy.on.fleek.co/](https://beefy.on.fleek.co/) oppure prova usando una VPN.
 
-This mirror site is a developer's build, which we can provide as a backup for users that can't access Beefy's site. Remember, seed phrases and private keys will **never** be asked.
+Questo sito mirror è una build sviluppatore, che possiamo fornire come backup per gli utenti che non possono accedere al sito di Beefy. Ricorda, le seed phrase e le chiavi private non verranno **mai** chieste.

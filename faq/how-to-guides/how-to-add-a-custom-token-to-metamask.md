@@ -1,40 +1,40 @@
 ---
 description: >-
-  Here's how to add a custom token to Metamask. This guide uses BIFI as an
-  example.
+  Ecco qui come aggiungere un token personalizzato su Metamask. Questa guida usa
+  BIFI come esempio.
 ---
 
-# How to Add a Custom Token to Metamask
+# Come aggiungere un Token Personalizzato sul tuo Metamask
 
-## Visual Walkthrough
+## Procedura visiva dettagliata
 
-#### 1. Open Metamask and click 'Assets' to see the tokens in your wallet
+#### 1. Apri Metamask e clicca su 'Assets' per vedere i token nel tuo wallet
 
 ![](<../../.gitbook/assets/capture (1).png>)
 
-#### 2. Scroll down to the bottom and click 'Add Token'.
+#### 2. Scendi giù fino alla fine e clicca su 'Add Token'.
 
 ![](../../.gitbook/assets/addtoken.png)
 
-#### 3. Click 'Custom Token'
+#### 3. Clicca 'Custom Token'
 
 ![](../../.gitbook/assets/custom-token.png)
 
-#### 4. Past the contract address for BIFI into the 'Token Contract Address' field
+#### 4. Incolla l'indirizzo di contratto di  BIFI nel campo 'Token Contract Address'&#x20;
 
 BIFI Contract Address : [0xCa3F508B8e4Dd382eE878A314789373D80A5190A ](https://bscscan.com/token/0xCa3F508B8e4Dd382eE878A314789373D80A5190A)
 
 ![](../../.gitbook/assets/token-address.png)
 
-#### 5. Click 'Next'&#x20;
+#### 5. Clicca 'Next'&#x20;
 
 ![](../../.gitbook/assets/next.png)
 
-#### 6. Click 'Add Tokens' to add the new token
+#### 6. Clicca 'Add Tokens' per aggiungere il nuovo token
 
 ![](../../.gitbook/assets/bifi-ass.png)
 
-#### 7. Moooo! BIFI should appear in your assets list so it's easier to track and use
+#### 7. Moooo! BIFI dovrebbe comparire nella lista dei tuoi asset così è più semplice tenerlo d'occhio e usarlo
 
 ![](../../.gitbook/assets/added.png)
 

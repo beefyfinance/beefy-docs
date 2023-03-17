@@ -1,37 +1,37 @@
 # Beefy SAFU Practices
 
-_"Don't Trust, Verify"_
+_"Don't Trust, Verify" (Non credere, Verifica)_
 
-## New farms on Beefy
+## Nuova farm su Beefy
 
-Before a new farm gets vaulted on Beefy, the project has to pass a stringent set of SAFU rules:
+Prima che una nuova farm arrivi su Beefy, il progetto deve rispettare delle regole di sicurezza molto stringenti:
 
-* Contracts have been verified in the blockexplorer;
-* Enough liquidity for swapping farm token rewards;
-* Rug/migrator functions are either completely removed or timelocked sufficently;
-* Farm token emission rates have to be timelocked (if farm token pairs are being vaulted);
-* All proxy implementation changes must be timelocked.
+* Contratti verificati su blockexplorer;
+* Abbastanza liquidità per scambiare i token di ricompensa;
+* Funzioni di rug/migrazione sono completamente rimosse o hanno un blocco temporale sufficiente;
+* Le emissioni del token farmato devono essere bloccate temporalmente (se le coppie di token farmato vengono messe in cassaforte);
+* Tutte le modifiche di implementazione del proxy devono essere bloccate  nel tempo.
 
-## New vaults on Beefy
+## Nuova cassaforte su Beefy
 
-Our strategists follow a manual testing procedure on every new vault before it goes live. This is to ensure that the vault works as intended and user funds are always SAFU.
+I nostri strateghi seguono una procedura di test manuale su ogni nuova cassaforte prima che venga resa disponibile. Tutto ciò per assicurarci che la cassaforte funzioni come dovrebbe e che i fondi degli utenti siano sempre SAFU. (Al sicuro)
 
-1\. Deposit a small amount of the asset; \
-2\. Withdraw all; \
-3\. Deposit again, wait 1 minute and check that `callReward()` is not 0; \
-4\. Harvest the strategy; \
-5\. Panic the strategy; \
-6\. Withdraw 50% while panicked to make sure users can leave; \
-7\. Try to deposit, an error should pop up but don't send the deposit through; \
-8\. Unpause the strategy; \
-9\. Deposit the 50% that has previously been withdrawn and harvest again.
+1\. Depositare una piccola quantità dell'asset; \
+2\. Ritirare tutto; \
+3\. Depositare nuovamente, aspettare 1 minuto e controllare che `callReward()` non sia 0; \
+4\. Raccogliere la strategia; \
+5\. Impanicare la strategia; \
+6\. Ritirare il 50% mentre impanicata per essere sicuri che gli utenti possano lasciarla; \
+7\. Provare a depositare, un errore dovrebbe comparire, senza far proseguire il deposito; \
+8\. Riavviare la strategia; \
+9\. Depositare il 50% che era stato prima ritirato e raccogliere nuovamente.
 
-## Strategy upgrades
+## Aggiornamenti delle Strategie
 
-Occasionally, Beefy strategists will come out with a new innovative strategy, or yield farms change their reward contracts. If that's the case, Beefy vaults have the flexibility to adapt to these changes, and have the ability to swap strategies so users don't have to migrate their funds to a new vault: it's done automatically by a strategy upgrade.
+Occasionalmente, gli strateghi di Beefy potranno avere nuove ed innovative strategie, oppure qualche yield farm potrebbe cambiare il suo contratto di ricompensa. Se è questo il caso, le casseforti di Beefy hanno la flessibilità di adattarsi a questi cambiamenti e hanno l'abilità di cambiare la strategia cosicché gli utenti non debbano migrare i loro fondi in una nuova cassaforte: è fatto automaticamente da un aggiornamento della strategia.
 
-The new strategy is deployed with a dummy vault and all of the manual tests outlined above are completed. After passing the checks, the new strategy is assigned to the vault. The vault gets proposed the new strategy through a multi-sig wallet and has to wait until the timelock delay has passed before the vault uses the new strategy.
+La nuova strategia è rilasciata in una cassaforte in una cassaforte fantoccio e tutti i test manuali menzionati sopra sono stati completati. Dopo aver passato i test la nuova strategia viene assegnata alla cassaforte. alla cassaforte viene proposta la nuova strategia tramite un wallet multi-sig e si deve aspettare fino a che passi il timelock pima che la cassaforte possa usare la nuova strategia.
 
-## Panic
+## Panico
 
-Sometimes something can go wrong with the underlying yield farm, and reacting quickly is of great importance. Beefy strategies have a keeper that is allowed to panic, which withdraws the staked funds from the farm back to the strategy contract and removes all allowances. This ensures that funds are always available for Beefy stakers to withdraw in case of emergency.
+Alcune volte qualcosa può non andare per il verso giusto con la farm sottostante, e reagire velocemente è di elevata importanza. Le strategie di Beefy hanno un custode che è abilitato ad impanicarsi, che ritira tutti i fondi dalla farm e rimuove tutte i permessi. Ciò assicura che i fondi siano sempre disponibili per coloro che mettono in staking per essere ritirati in caso di emergenza.

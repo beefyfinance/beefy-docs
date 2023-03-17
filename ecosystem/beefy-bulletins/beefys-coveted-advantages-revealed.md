@@ -1,35 +1,35 @@
 ---
-description: How we attract coding and creative talent
+description: Come facciamo ad attrarre sviluppatori e talenti creativi
 ---
 
-# Beefy's Coveted Advantages Revealed
+# Svelati gli ambiti vantaggi di Beefy
 
 ![](../../.gitbook/assets/bulletin-beefys-coveted-advantages-revealed.png)
 
-_"An organization's ability to learn, and translate that learning into action rapidly, is the ultimate competitive business advantage."_
+_"La capacità di un'organizzazione di imparare e traslare questi apprendimenti in azione, rapidamente, è il vantaggio lavorativo competitivo finale."_
 
-— Jack Welch, former chairman and CEO, General Electric
+— Jack Welch, ex presidente e CEO, General Electric
 
-**In any activity, there are some advantages that have to do with resources and some that have to do with the absence of them.**
+**In ogni attività, ci sono dei vantaggi che hanno a che fare con le risorse e alcuni che hanno a che fare con l'assenza di queste.**
 
-That underdogs often come out on top is because the latter has "unseen advantages" against the former.
+Il fatto che gli sfavoriti escano come primi è perché questo ha dei "vantaggi invisibili" contro il primo.
 
-At Beefy.Finance, we don't consider ourselves underdogs…
+A Beefy.Finance, non ci consideriamo sfavoriti…
 
-And we generally prefer to let what we build do the talking…
+E generalmente preferiamo che sia ciò che costruiamo a parlare…
 
-However, a core component of our vision for the future is attracting and incentivizing the best coding and creative talent on the planet to join our community.
+Tuttavia, una componente fondamentale della nostra visione futura è di attrarre e incentivare i migliori talenti creativi e programmatori ad entrare a far parte della nostra community.
 
-Through our unique reward system, our developers receive a percentage of Beefy.Finance's revenue from the vaults they build for Beefy.
+Tramite il nostro sistema di ricompensa unico, i nostri sviluppatori ricevono una percentuale dei guadagni di Beefy.Finance derivanti dalle casseforti che loro stessi costruiscono per Beefy
 
-Because this exists, we have grown an enormous development team quickly — an army of smart contract developers who are ready to create new vaults almost the same day as we finish our due diligence.
+A causa di ciò abbiamo rapidamente sviluppato un enorme gruppo di sviluppo — un'armata di sviluppatori di smart contract che sono pronti a creare nuove casseforti il giorno stesso che noi terminiamo la nostra a causa della nostra diligenza.
 
-The migration from TradFi to DeFi is a marathon rather than a sprint, but it serves the market to be able to act quickly when we need to.
+La migrazione dalla TradFi alla DeFi è più una maratona che uno sprint, ma serve al mercato per essere in grado di agire quando serve.
 
-The marathon means having safety as our number one priority.
+Maratona vuol dire avere la sicurezza come nostra priorità.
 
-The sprint is sustainably spinning up new vaults.
+Lo sprint è sostenibile creando sempre più nuove casseforti.
 
-_**Code — and the talent that writes it — is the ultimate force multiplier in this arena, and its leverage advantage is compounding at a spectacular rate.**_
+_**Il codice — e il talento che lo scrive — è il moltiplicatore di forza finale in questa arena, è il suo vantaggio si compone ad un tasso spettacolare.**_
 
-If you're a smart contract developer who favors future rewards over legacy resources, you know where to find us.
+Se sei uno sviluppatore di smart contract che preferisce ricompense future, rispetto a vecchie risorse, sai dove trovarci.

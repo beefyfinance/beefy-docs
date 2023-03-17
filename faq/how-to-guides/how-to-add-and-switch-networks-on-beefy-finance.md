@@ -1,37 +1,37 @@
 ---
 description: >-
-  In this guide new Metamask network settings will be added for you using the
-  Beefy Finance network switcher.
+  In questa guida verrano aggiunti nuovi network su Metamas per permetterti di
+  usare lo switcher di network di Beefy Finance.
 ---
 
-# How to add and switch networks on Beefy Finance
+# Come aggiungere e cambiare network su Beefy Finance
 
-As Beefy Finance is a Decentralized, Multi-Chain Yield Optimizer, users will need to have properly configured wallets for each chain that they want use Beefy on. Using this guide and the Beefy Finance network switcher, new blockchain networks can be added automatically with ease. As an example the Huobi ECO chain (HECO) network will be used in this How-To guide, but you can repeat the same process for any other network listed in the network switcher.
+Datoi che Beefy Finance è un Ottimizzatore Multi-Chain, Decentralizzato, gli utenti avranno bisogno di avere i propri wallet correttamente configurati per ciascuna chain su cui vorranno usare Beefy. Usando questa guida e lo switcher di network di Beefy Finance, nuove reti blockchain possono essere aggiunte automaticamente e facilmente. Come esempio useremo la Hobi ECO chain in questa How-to guide, ma potrai ripetere lo stesso processo per qualsiasi delle reti listate sullo switcher di network.
 
-## Prerequisites
+## Prerequisiti
 
-* A Binance Smart Chain (BSC) configured Metamask wallet is needed. Beefy Finance started on BSC so you probably already have this set up, but if you do not have a configured wallet you can use the following guide from Binance Academy: [Connecting Metamask to Binance Smart Chain](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain) (you may skip the testnet section, it is not needed).
+* Un wallet Metamask configurato per la Binance Smart Chain (BSC) è ciò di cui abbiamo bisogno. Beefy Finance ha iniziato sulla BSC quindi probabilmente la avrai già configurata, ma se non dovessi averla configurata, puoi seguire questa guida dalla Binance Academy: [Connecting Metamask to Binance Smart Chain](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain) (Puoi saltare la parte dedicata alla testnet, non è necessaria).
 
-## Walkthrough
+## Procedura dettagliata
 
-### 1. Go to [app.beefy.finance](https://github.com/beefyfinance/beefy-docs/tree/aab629bafbc230570677e0471b162bbd46e2e0ba/faq/how-to-guides/app.beefy.finance) and connect your BSC configured Metamask wallet.
+### 1. Vai su [app.beefy.finance](https://github.com/beefyfinance/beefy-docs/tree/aab629bafbc230570677e0471b162bbd46e2e0ba/faq/how-to-guides/app.beefy.finance) e connetti il tuo wallet MEtamask configurato per la BSC.
 
 ![](../../.gitbook/assets/connect-wallet.png)
 
-### 2. Click on the BSC icon under 'Select Network'.
+### 2. Clicca sull'icona BSC icon sotto 'Selezione Network'.
 
 ![](../../.gitbook/assets/select-network.png)
 
-### 3. Select HECO (or any other network you want to add).
+### 3. Selecziona HECO (o qualsiasi altra rete che vuoi aggiungere).
 
 ![](<../../.gitbook/assets/switch-to-desired-network (1).png>)
 
-### 4. Approve new network creation to your Metamask
+### 4. Approva la creazione di una nuova rete sul tuo Metamask
 
 ![](../../.gitbook/assets/allow-add-metamask-network.png)
 
-### 5. Allow Beefy to switch to the HECO network
+### 5. Consenti a Beefy di cambiare alla rete HECO
 
 ![](../../.gitbook/assets/allow-switch-metamask-network.png)
 
-And that's it! HECO is now configured and added to your Metamask wallet. You can repeat the process for any other network that you want to add or want to switch to.
+Ecco fatto! HECO è adesso configurato e aggiunto al tuo wallet Metamask. Puoi ripetere il processo per qualsiasi altra rete a cui vuoi cambiare o che vuoi aggiungere.

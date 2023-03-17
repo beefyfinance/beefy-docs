@@ -1,55 +1,55 @@
 # Launchpool
 
-As one of the most trusted Yield Optimizers, Beefy always wants to make sure that the users have the best experience possible using Beefy and its services and get the highest APY with the least amount of manual effort. We want you to feel that Beefy is the right place for your investment and besides the trust of having a Certik audit done, being listed on Binance, and having a great dev team, we want to give you the highest real APY possible. In order to do just that, we have expanded on the initial vault offering with a service called Beefy Launchpool in which we promote exciting projects on Binance Smart Chain. Together with the promotion, we BOOST certain vaults with the partners token in order to give the best APY to you, the investor.
+In quanto uno dei più fidati Yield Optimizer, Beefy vuole sempre essere sicuro che gli utenti abbiano la migliore esperienza possibile usando Beefy e i suoi servizi ottenendo l'APY più alto col minimo sforzo. Vogliamo che sentiate che Beefy è il posto giusto per i vostri investimenti e oltre ad avere l'audit Certik, essere listati su Binance, e avere un grande team di sviluppatori,. vogliamo darvi l'APY più alto possibile. Per fare questo, ci siamo allargati dall'offerta iniziale della casseforti, con un servizio chiamato Beefy Launchpool in cui promuoviamo progetti emozionanti sulla Binance Smart Chain. Insieme alla promozione, aumentiamo certe casseforti con il token partner in modo da fornire il miglior APY a voi investitori.
 
-## How do I use Beefy Launchpool?
+## Come faccio ad usare Beefy Launchpool?
 
-Look for a boosted vault in our main app and stake the tokens that are asked for in that vault. You will get a "receipt" called mooToken in your wallet. Proceed to the related partner Launchpool vault here on the Beefy Launchpool site and enter the corresponding vault (or press the 'Boost' shortcut on the main vault page called Boost). The vault will ask for you to stake your mooToken "receipts". Stake these mooTokens and you are all done, you can easily come back here to check on your earned partner tokens and withdraw at any time.
+Cerca per una cassaforte Boost nella nostra app e metti in staking i token richiesti per quella cassaforte. Otterrai una "ricevuta" chiamata mooToken nel tuo wallet. Prosegui alla cassaforte relativa al partner sul sito Beefy Launchpool ed entra nella cassaforte corrispondente (o premi su 'Boost' sulla pagina principale delle cassaforte chiamata Boost). La cassaforte ti chiederà di mettere in staking i tuoi mooToken "ricevuta". Metti in staking questi mooToken e hai terminato, potrai facilmente tornare indietro a controllare i token del partner guadagnati e ritirarli quando vuoi.
 
-## How do I see my earned tokens?
+## Come vedo i miei token guadagnati?
 
-Enter the vault where you deposited your mooTokens and it will show you a nice summary of your earned tokens.
+Entra nella cassaforte dove hai depositato i tuoi mooToken e ti mostrerà un bel riassunto dei tuoi token guadagnati.
 
-## I can no longer see my deposited tokens in the Boosted vault!
+## Non riesco più a vedere i miei token depositati nella cassaforte Boost!
 
-No worries! Your deposited tokens are safe and never left the Boosted vault. Since you have deposited your mooTokens (vault receipts) in one of our Launchpools, the main boosted vaults can no longer read the receipt in your wallet, hence it shows you zero. As soon as you are finished with a Launchpool, you withdraw your mooTokens (receipts) back to your wallet and your initial vault deposit will show up again.
+Non preoccuparti! I tuoi token depositati sono al sicuro e non lasciano mai la cassaforte Boost. Dato che hai depositato i tuoi mooToken (ricevuta della cassaforte) in uno dei nostri Launchpool, la principale cassaforte non potrà leggere la ricevuta nel tuo wallet, quindi ti mostrerà uno zero. Non appena hai finito con un Launchpool, puoi ritirare i tuoi mooToken (ricevuta) nel tuo wallet e la tua cassaforte iniziale te li mostrerà di nuovo.
 
-## What are mooTokens?
+## Cosa sono i mooToken?
 
-A mooToken can be seen as a receipt that you get when depositing into any Beefy vault. This is a fully automatic process. For example, you receive mooBifi tokens from depositing $BIFI into the Beefy Maxi vault. These mooTokens do not 1:1 represent the token amount initially deposited but it does represent the value of your share in the vault. As a vault generates profit, the amount of mooTokens in your wallet remain constant while the underlying invested token amount in the vault increases. Whenever you want to withdraw the tokens that are staked for you in the vault, you need your receipt (mooTokens) which you hand in to redeem the deposited tokens + yield. Beefy.Finance users should hold on tightly to the mooTokens i.e. deposit receipts and not sell or exchange them to strangers or you will lose ownership of your staked assets in the vault.
+Un mooToken può essere visto come una ricevuta che ottieni quando depositi in una cassaforte Beefy. È un processo del tutto automatico. Per esempio, ricevi token mooBifi dal deposito di $BIFI nella cassaforte Beefy Maxi. Questi mooToken non rappresentano 1:1 i token inizialmente depositati ma rappresentano il valore della tua quota nella cassaforte. Appena una cassaforte genera profitto, la quantità di mooToken nel tuo wallet rimane costante mentre il sottostante quantitativo di token nella cassaforte aumenta. Quando vuoi ritirare i token che sono in staking per te nella cassaforte, hai bisogno della ricevuta (mooToken) che ti permette di riscuotere i token messi in staking + i rendimenti. Gli utenti di Beefy.Finance dovrebbero tenersi stretti i loro mooToken cioè le ricevute del deposito e non venderle o scambiarle con estranei o perderai la proprietà degli asset che hai messo in staking nella cassaforte.
 
-## How long will the Boosted vault last?
+## Quanto dura una cassaforte Boost?
 
-Since we introduce multiple partner vaults at different times, there is a timer shown on each partner vault. This is nothing you really need to keep track of since you can always come back after a vault is finished and withdraw then.
+Poiché introduciamo più casseforti partner in tempi diversi, c'è un timer in ogni cassaforte partner. Non c'è nulla di cui devi tenere traccia in quanto puoi tranquillamente ritirare anche quando una cassaforte è terminata.
 
-## Do I have to manually unstake from the Launchpool vault when it is finished?
+## Devo ritirare manualmente dal Launchpool quando una cassaforte è terminata?
 
-Yes! Just come back after a partner vault is finished and you can unstake your deposited MooTokens together with the partner tokens, at any time.
+Si! Torna in qualsiasi momento, quando una cassaforte partner è terminata e potrai ritirare i tuoi mooToken depositati insieme con i token del partner.
 
-## Can I enter multiple Launchpool vaults at once?
+## Posso entrare in più casseforti Launchpool nello stesso momento?
 
-Absolutely! Just deposit the required tokens in one or multiple of our boosted vaults, one by one, and then deposit your mooTokens (vault receipts) in the accompanied partner vaults. Repeat this step for every boosted partner vault you want to be a part of.
+Certamente! Deposita i token richiesti in uno o in più delle nostri casseforti Boost, una ad una, e poi deposita i tuoi mooToken (ricevuta della cassaforte) nelle casseforti partner. Ripeti questo passaggio per tutte le casseforti Boost partner a cui vuoi prendere parte.
 
-## Are these partner vaults safe to use?
+## Queste casseforti partner sono sicure da usare?
 
-Yes! These partner vaults are hosted by Beefy and are completely safe. Beefy has gotten tokens from our partners and uses our own vaults for the reward. Those mooTokens your stake doesn’t leave Beefy.
+Si! Queste casseforti partner sono ospitate da Beefy e sono completamente sicure. Beefy ha avuto i token dai partner e li usa come ricompensa per le proprie casseforti. I mooToken che metti in staking non lasciano Beefy.
 
-## If I enter a partner vault with my mooTokens, will I still earn the ordinary vault reward?
+## Se entro una cassaforte partner con i miei mooToken, guadagnerò ancora le ricompense della cassaforte ordinaria ?
 
-Yes! The ordinary tokens you deposited in our main vaults even if it’s boosted will earn the ordinary reward and be compounded as usual. What you place in these partner vaults is your “receipt” from the ordinary vault that normally is worth nothing. By using these partner vaults, you earn both tokens on the ordinary vault and tokens from our partner vaults.
+Si! I token ordinari che depositi nella cassaforte principale, anche se è una cassaforte Boost, guadagneranno comunque le ricompense ordinarie e saranno composti come al solito. Ciò che metti nelle casseforti partner sono le "ricevute" della cassaforte ordinaria che normalmente non valgono nulla. Usando le casseforti partner guadagni sia i token dalla cassaforte ordinaria sia i token dalla cassaforte partner.
 
-## Why is APY and Daily rates not matching?
+## Perché l'APY e il tasso giornaliero non combaciano?
 
-That’s because APR and APY show two different things. APR means “Annual Percentage Rate” and is a fixed rate. Beefy shows APR by dividing the annual yield into 365 days and presents that to you as “Daily”. APY on the other hand means “Annual percentage yield” which is when you take the daily yield and compound it. Beefy compounds your rewards automatically most of the time multiple times a day, this makes the APY much higher than a yearly APR would be.
+Ciò accade perché APR e APY sono due cose diverse. APR significa “Tasso Percentuale Annuale” ed è un valore fisso. Beefy mostra l'APR dividendo il rendimento annuo per 365 giorni e te lo presenta come "giornaliero". L'APY d'altro canto significa "Rendimento Percentuale Annuo" che è ciò che ottieni quando fai il compound con il rendimento giornaliero. Beefy fa il compound delle tue ricompense automaticamente più volte al giorno, ciò rende l'APY molto più alto di quanto l'APR possa essere.
 
-## How come the APY shown when deposited is not the same now?
+## Come mai l'APY mostrato al momento del deposito non è lo stesso di adesso?
 
-APY is the “Annual percentage yield” and is your daily yield compounded. The daily yield in turn is based on factors such as the yield rate and the total amount deposited that share this yield. When more people and in turn tokens enter the pool, the fixed yield is shared by more people (tokens) hence the daily yield will become lower and in turn, lower the APY. In the same way, if people (tokens) exit the vault, there are fewer people (tokens) sharing the fixed reward and the daily yield will increase and in turn, APY will increase.
+L'APY è il “Rendimento Percentuale Annuo” ed è il tuo rendimento giornaliero composto. Il rendimento giornaliero si basa su fattori come il tasso di rendimento e la quantità totale depositata che deve dividere quel rendimento. Quando più persone e i loro token entrano nel pool, il tasso fisso è condiviso tra più persone (token) quindi il rendimento giornaliero si abbasserà e con lui anche l'APY. Allo stesso modo, se le persone (token) escono dalla cassaforte, ci sono meno persone (token) che condividono il rendimento fisso, il rendimento giornaliero aumenterà e di conseguenza anche l'APY.
 
-## Are the promoted project and its tokens safe?
+## I progetti promossi e i loro token sono sicuri?
 
-When partnering with a certain project, Beefy always tries to make an overall check of the project to get a sense of its sincerity and safety. Before adding vaults that are hosted by the partnering project, we also try to look for vulnerabilities in the code. Despite all this, we can never be 100% sure about a partner, hence it’s up to you to make sure that the partnering project is a project that you want to support. Beefy cannot, and will not take any responsibility for your personal actions.
+Quando si collabora con certi progetti, Beefy cerca sempre di fare un check generale del progetto per trovare un senso di sicurezza e sincerità. Prima di aggiungere casseforti ospitate dai progetti partner, cerchiamo di controllare se ci siano vulnerabilità nel codice. Nonostante tutto ciò non potremo mai essere sicuri al 100% del partner, quindi sta a te essere sicuro che il progetto partner sia un progetto che vuoi sostenere. Beefy non può e non si assume nessuna responsabilità per le tue azioni.
 
-## How to earn free BNB indefinitely?
+## Come guadagnare BNB gratis a tempo indeterminato?
 
-Buy our own token $BIFI, and stake it here in the BIFI Gov pool and you will earn part of every harvest done on all our vaults, every day.
+Compra i tuoi token $BIFI, e mettili a rendita nel BIFI Gov pool e guadagnerai parte di tutti gli harvest fatti su tutte le nostre casseforti, ogni giorno.

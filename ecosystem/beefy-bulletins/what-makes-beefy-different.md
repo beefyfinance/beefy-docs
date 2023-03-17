@@ -1,25 +1,25 @@
-# What Makes Beefy Different?
+# Cosa rende Beefy differente?
 
 ![](../../.gitbook/assets/bulletin-what-makes-beefy-different.png)
 
-Investor and crypto evangelist Naval Ravikant was once asked, "What would you be working on if you were 25 again?"
+All'investitore e cripto-evangelista Naval Ravikant una volta è stato chiesto: "A cosa lavoreresti se avessi di nuovo 25 anni?"
 
-**Naval's reply:**
+**Naval ha risposto:**
 
-_"An unstoppable, uncensorable social media platform."_
+_"Una piattaforma di social media incensurabile e inarrestabile."_
 
-In other words, he'd be working on a technological platform that puts science and code ahead of cronyism and censorship. This is the foundation of Beefy Finance.
+In altre parole, lavorerebbe su una piattaforma tecnologica che antepone la scienza e il codice al clientelismo e alla censura. Questo sta alla base di Beefy Finance.
 
-Some other values we align ourselves with:
+Alcuni valori con cui ci allineiamo:
 
-_Trustless, open-source, decentralized, scalable, transparent, community-driven, cross-chain, autonomous, sustainable, innovation, healthy treasury, contribution rewards, developer bounties, safety._
+_Trustless, open-source, decentralizzato, scalabile, trasparente, guidato dalla community, cross-chain, autonomo, sostenibile, innovazione, tesoreria sana, ricompense ai contributi, ricompense agli sviluppatori, sicurezza._
 
-In practical terms, our sustainable tokenomics mean the day-to-day is unrelentingly focused on the product. We provide the greatest variety of vaults and the highest number of chains. Users can request vaults directly from our developers on Discord and the time it takes to answer these requests is very low.
+In termini pratici, la nostra tokenomic sostenibile significa che ogni giorno è focalizzato sul prodotto. Forniamo la più grande varietà di casseforti e il maggior numero di chain. Gli utenti possono richiedere casseforti direttamente ai nostri sviluppatori su Discord e il tempo richiesto per rispondere a queste richieste è molto poco.
 
-At the time of writing, we have more than a dozen smart contract developers (and growing) carefully testing and reviewing the vaults, investment strategies and smart contracts before public release.
+Al momento della scrittura, abbiamo più di dodici  sviluppatori di smart contract (e stanno aumentando) che testano con attenzione e rivedono le casseforti, le strategie di investimento e gli smart contract prima del rilascio al pubblico.
 
-**Safety is everything.**
+**La sicurezza è tutto.**
 
-And we offer this while saving you time and energy through automation.
+E noi vi offriamo questo mentre vi facciamo risparmiare tempo ed energia tramite l'automazione.
 
-_**Be first. Be safe. Be Beefy.**_
+_**Be first. Be safe. Be Beefy.**_&#x20;

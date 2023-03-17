@@ -6,7 +6,7 @@ description: Beefy Finance community
 
 ## Beefy OG's
 
-Below is the list of Beefy OG's, which is the highest rank a community contributor can attain. The stats are based on [Beefy Finance's Discord](https://discord.gg/yq8wfHd), plus Twitter account if available.
+Sotto la lista degli OG di Beefy, che è il rank più alto che un collaboratore della community può raggiungere. i dati sono relativi al [Discord di Beefy Finance](https://discord.com/invite/yq8wfHd), e all'account Twitter se disponibile.
 
 | Name                      | Discord                    | Twitter                |
 | ------------------------- | -------------------------- | ---------------------- |
@@ -35,12 +35,12 @@ Below is the list of Beefy OG's, which is the highest rank a community contribut
 | Zapmore                   | Zapmore#3433               | @Zapmore3              |
 
 {% hint style="info" %}
-Beefy OG's will never send you private messages. If someone's doing that, chances are it is a scammer!
+Gli OG di Beefy non ti manderanno mai messaggi privati. Se qualcuno lo sta facendo ci sono molte probabilità che sia un truffatore!
 {% endhint %}
 
-## Unique contributors
+## Contributori unici
 
-As of 24-10-2021, there are 111 unique contributors among the following roles:
+Alla data del 24-10-2021, ci sono 111 contributori unici tra i seguenti ruoli:
 
 * 29 @Beefy OGs
 * 21 @Retired OG

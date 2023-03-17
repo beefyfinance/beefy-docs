@@ -2,13 +2,13 @@
 
 ## Contracts
 
-All Beefy Finance deployed vault contracts can be viewed on [dashboard.beefy.finance](https://dashboard.beefy.finance).
+Tutti i contratti delle casseforti di Beefy Finance possono essere visionati su [dashboard.beefy.finance](https://dashboard.beefy.finance).
 
-One can use this dashboard for example to check the [harvesting and compounding rate of a vault](../faq/how-to-guides/how-to-check-harvesting-compounding-rate.md).
+Si potrebbe usare questa dashboard per esempio per visionare [harvesting and compounding rate of a vault](../faq/how-to-guides/how-to-check-harvesting-compounding-rate.md).
 
 ## Timelocks
 
-Contracts are secured with timelocks and multi-sig dev wallets.
+I contrratti sono sicuri con timelocks (blocco temporale) e multi-sig dev wallets.
 
 * BSC (6 hours)
   * [0x8f0fFc8C7FC3157697Bdbf94B328F7141d6B41de](https://bscscan.com/address/0x8f0ffc8c7fc3157697bdbf94b328f7141d6b41de)

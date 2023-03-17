@@ -1,21 +1,21 @@
 # Team & Goals
 
-## When was Beefy.Finance launched?
+## Quando è stato lanciato **Beefy.Finance?**
 
-Beefy was born on September 21, 2020, the day our [governance distribution contracts](https://medium.com/beefyfinance/bifi-contracts-are-live-on-mainnet-6080577269d7) went live. Our first set of vaults opened on October 8, 2020.
+Beefy è nato il 21 Settembre 2020, il giorno in cui il nostro [contratto di distribuzione di governance](https://medium.com/beefyfinance/bifi-contracts-are-live-on-mainnet-6080577269d7) andò live. La nostra prima cassaforte aprì l'8 Ottobre 2020.
 
-## How is Beefy organized?
+## Com'è organizzato Beefy?
 
-Beefy is a decentralized working hub for people with a vision to come together and build the future of global finance. Smart contract devs, UI, UX, strategists, statisticians, designers, and artists - anyone can join and contribute (no matter your nationality, sex, or views). By investing in Beefy, you are investing in the idea that a group of highly technical individuals can safely, securely and creatively leapfrog the dinosaurs of traditional finance.
+Beefy è un centro di lavoro decentralizzato per persone con la visione di unirsi e costruire il futuro della finanza globale. Sviluppatori di smart contract, di UI, di UX, strateghi, statistici, designer e artisti - chiunque può unirsi e contribuire (non importa la tua nazionalità, il tuo sesso o le tue opinioni). Investendo in beefy, stai investendo nell'idea che un gruppo di soggetti altamente tecnici possa scavalcare in modo sicuro e creativo i dinosauri di Peù.
 
-## Why is the project anonymous?
+## Perchè il progetto è anonimo?
 
-Personalities get in the way of projects, and we believe Beefy speaks for itself. By having a team that operates anonymously, even amongst itself, we can focus on providing the best experience for our users. That’s because we believe the strength of Beefy comes from what we build, which is an opportunity for investors to both automate AND maximize the ROI of their holdings. We urge anyone with concerns that anonymity diminishes credibility to join our Discord community (link) and get a first-hand feeling for the strength and depth of the project.
+Le personalità intralciano i progetti, e noi crediamo che Beefy parla da sé. Avendo un team che opera in modo anonimo, anche tra di loro, possiamo focalizzarci nel fornire la miglior esperienza per i nostri utenti. Ciò perchè crediamo che la forza di Beefy venga da ciò che costruiamo, che è l'opportunità per gli utenti di automatizzare E massimizzare il ROI (return of investment) dei loro possedimenti. Invitiamo chiunque abbia dubbi sull'anonimato di unirsi alla nostra community Discord (link) e di farsi una prima idea di forza e profondità del progetto.
 
-## How can I get in touch with Beefy?
+## Come posso parlare con Beefy?
 
-Our global community managers and team members can be contacted anytime through our official [Telegram](https://t.me/beefyfinance) and [Discord](https://discord.gg/yq8wfHd) channels. We should mention that generally speaking within investment communities there are some bad actors around looking to scam, phish, or maliciously target users. Please double check the validity of whoever you talk to, and remember that no one representing Beefy will ever ask you to provide wallet keys or recovery codes.
+I nostri manager della community globale e i membri del nostro team possono essere contattati in qualsiasi momento tramite i nostri canali ufficiali di [Telegram](https://t.me/beefyfinance) e [Discord](https://discord.gg/yq8wfHd). Dobbiamo menzionare che in generale all'interno delle community d'investimento ci siano degli attori cattivi che cercano di truffare, attuare pratiche di phishing o prendere di mira gli utenti in maniera dannosa. Per favore ricontrolla la validità della persona con cui stai parlando, e  ricorda che nessun rappresentante di Beefy chiederà mai di fornirgli le tue chiavi private o i tuoi codici di recupero.
 
-## What’s your relationship with Binance Smart Chain?
+## In che relazione siete con la Binance Smart Chain?
 
-The platform began life on the Binance Smart Chain network as one of the very first Yield Optimizers, but is evolving into a multi-chain ecosystem. BSC was our only home for many months, and helped us kickstart our growth. While it’s our highest chain by TVL, the gap keeps shrinking as our decentralized army of contributors looks for the best available yield in the multi-chain ecosystem.
+La piattaforma iniziò sul network della Binance Smart Chain come uno dei primi Ottimizzatori, ma si sta evolvendo in un ecosistema multi-chain. La BSC è stata la nostra unica casa per molti mesi, e ci ha aiutati a dare il via alla nostra crescita. Nonostante sia la nostra catena con più TVL, il divario continua a diminuire in quanto l'esercito decentralizzato di contributori cerca per le migliori rendite possibili nell'ecosistema multi-chain.
