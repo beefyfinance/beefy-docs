@@ -14,7 +14,7 @@ Note that access to the archived Beefy voting site is available at [https://vote
 
 ## Token Distributions
 
-At Beefy, we pride ourselves on our simple but highly effective tokenomics design, which avoids relying on governance tokens as a means of effective compensation. As explained in the [Tokenomics & Governance section](../ecosystem/bifi-token/tokenomics-and-governance.md),  our governance token - BIFI - has a fixed supply capped at only 80,000 tokens, so no new tokens can be minted to compensate our members. In fact, over 90% of the total BIFI supply was distributed to the cowmoonity in the first 2 months after Beefy went live in September 2020, so the Beefy treasury doesn't contain a stockpile of freshly minted BIFI either.&#x20;
+At Beefy, we pride ourselves on our simple but highly effective tokenomics design, which avoids relying on governance tokens as a means of effective compensation. As explained in the [Tokenomics & Governance section](../ecosystem/bifi-token/tokenomics-and-governance.md),  our governance token - BIFI - has a fixed supply capped at only 80,000 tokens, so no new tokens can be minted to compensate our members. In fact, over 90% of the total BIFI supply was distributed to the cowmoonity in the first 2 months after Beefy went live in September 2020, so the Beefy [treasury.md](../community-governance/treasury.md "mention") doesn't contain a stockpile of freshly minted BIFI either.&#x20;
 
 Rather, we prefer to focus on two use cases for BIFI: governance rights and protocol revenue, paid out through our BIFI Maxi and BIFI Earning Pool vaults. We feel these mechanisms encourage holders to cherish their BIFI and share in the protocol's success as owners, rather than investors or speculators.&#x20;
 

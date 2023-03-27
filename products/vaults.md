@@ -92,7 +92,7 @@ Community harvest implies that the harvest function on the strategy contract has
 
 Another rule watches the gas prices on Ethereum. If `maxGasPrice` is 20 GWei or more, harvests will not be executed as they will become too expensive. This is regardless of a vault's TVL.
 
-The Gelato Off-Chain Resolver that handles the harvests on Ethereum based on the aforementioned rules can be found following this link: [Gelato Automate](https://beta.app.gelato.network/task/0xe27256b6b3109b9d53e2aded267c1be317e53dce78021d374e02284d144d44c3?chainId=1). The smart contract and its parameters, as well as past Executions and Task Logs, are also easily accessible there.
+The Gelato Off-Chain Resolver that handles the harvests on Ethereum based on the aforementioned rules can be found following this link: [Gelato Automate](https://beta.app.gelato.network/task/0xa9d7e4ca2aacf1884f45f403b50c941953cf6b80489b5d17ad96a366bcb7b75f?chainId=1). The smart contract and its parameters, as well as past Executions and Task Logs, are also easily accessible there.
 
 ## Harvesting on BNB Chain
 

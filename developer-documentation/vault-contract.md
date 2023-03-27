@@ -52,7 +52,7 @@ function totalSupply() public view virtual override returns (uint256) {
 
 ### getPricePerFullShare()
 
-Returns the current price per share of the vault (i.e. per mooToken) as an integer denominated in the "want" (i.e. underlying farm token). This is calculated as _Price per Full Share =_ [#balance](beefy-vault-v6.md#balance "mention") _/_ [#totalsupply](beefy-vault-v6.md#totalsupply "mention").
+Returns the current price per share of the vault (i.e. per mooToken) as an integer denominated in the "want" (i.e. underlying farm token). This is calculated as _Price per Full Share =_ [#balance](vault-contract.md#balance "mention") _/_ [#totalsupply](vault-contract.md#totalsupply "mention").
 
 ```solidity
 function getPricePerFullShare() public view returns (uint256) {
@@ -116,11 +116,11 @@ function withdraw(uint256 _shares) public {
 }
 ```
 
-Similarly to [#deposit](beefy-vault-v6.md#deposit "mention")_,_ there is a helper function _withdrawAll()_ that withdraw the entire balance of mooTokens in the user's wallet at the time of the transaction.
+Similarly to [#deposit](vault-contract.md#deposit "mention")_,_ there is a helper function _withdrawAll()_ that withdraw the entire balance of mooTokens in the user's wallet at the time of the transaction.
 
 ### earn()
 
-Executes a transfer of [#available](beefy-vault-v6.md#available "mention") "want" (i.e. underlying farm token) from the Vault Contract to the strategy contract and triggers the strategy's _deposit()_ function to deploy the funds and begin earning.
+Executes a transfer of [#available](vault-contract.md#available "mention") "want" (i.e. underlying farm token) from the Vault Contract to the strategy contract and triggers the strategy's _deposit()_ function to deploy the funds and begin earning.
 
 ```solidity
 function earn() public {
@@ -132,7 +132,7 @@ function earn() public {
 
 ### proposeStrat()
 
-Writes the address of an alternate strategy to the Vault Contract's memory, in anticipation of upgrade the current strategy to the alternate using [#upgradestrat](beefy-vault-v6.md#upgradestrat "mention").
+Writes the address of an alternate strategy to the Vault Contract's memory, in anticipation of upgrade the current strategy to the alternate using [#upgradestrat](vault-contract.md#upgradestrat "mention").
 
 ```solidity
 function proposeStrat(address _implementation) public onlyOwner {
@@ -148,7 +148,7 @@ function proposeStrat(address _implementation) public onlyOwner {
 
 ### upgradeStrat()
 
-Replaces the address of the current strategy with an alternate strategy specified by [#proposestrat](beefy-vault-v6.md#proposestrat "mention").
+Replaces the address of the current strategy with an alternate strategy specified by [#proposestrat](vault-contract.md#proposestrat "mention").
 
 ```solidity
 function upgradeStrat() public onlyOwner {

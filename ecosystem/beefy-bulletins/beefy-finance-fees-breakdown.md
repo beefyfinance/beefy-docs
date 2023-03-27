@@ -28,7 +28,7 @@ _With our vaults, performance fees are included in the APY._
 
 **So what you see is exactly what you get.**
 
-Our vaults on Beefy charge a fixed performance fee structure on their harvest rewards. As described in [#what-is-the-vault-fee-structure](../../products/vaults.md#what-is-the-vault-fee-structure "mention"), these fees are distributed back to $BIFI stakers, the Beefy treasury, our strategists and the user that harvests the vault. They are the main source of revenue for the platform.
+Our vaults on Beefy charge a fixed performance fee structure on their harvest rewards. As described in [#what-is-the-vault-fee-structure](../../products/vaults.md#what-is-the-vault-fee-structure "mention"), these fees are distributed back to $BIFI stakers, the Beefy [treasury.md](../../community-governance/treasury.md "mention"), our strategists and the user that harvests the vault. They are the main source of revenue for the platform.
 
 **Here's what a typical vault looks like:**
 

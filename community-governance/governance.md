@@ -79,8 +79,8 @@ As our governance process has developed, we have adopted a number of different f
 * Beefy Improvement Proposals (BIPs) - the default form of proposal, for an issue aimed at improving the protocol in some way.
   * This now includes proposals for [reoccurring contributor payments](../community/contributor-compensation.md#reoccurring-payments).
 * Beefy Signally Proposals (BSPs) - an alternative, non-binding proposal, aimed at establishing consensus amongst $BIFI holders, or demonstrating their opinions/preferences.
-* [Requests for Funds / Retroactive Payments](../community/contributor-compensation.md#retroactive-payments) - a simple request for funding from the Beefy treasury for a particular work stream or contributors. These are typically a form of expense, rather than an investment.
-* [Grant Proposals](../community/contributor-compensation.md#beefygrants) - a more detailed request for funding from the treasury, typically relating to a large project that requires significant funding and input, but is aimed at delivering future revenues or cost-savings to Beefy (so is an investment, rather than an expense).
+* [Requests for Funds / Retroactive Payments](../community/contributor-compensation.md#retroactive-payments) - a simple request for funding from the Beefy [treasury.md](treasury.md "mention") for a particular work stream or contributors. These are typically a form of expense, rather than an investment.
+* [Grant Proposals](../community/contributor-compensation.md#beefygrants) - a more detailed request for funding from the [treasury.md](treasury.md "mention"), typically relating to a large project that requires significant funding and input, but is aimed at delivering future revenues or cost-savings to Beefy (so is an investment, rather than an expense).
 
 ## How do we protect against malicious votes?
 

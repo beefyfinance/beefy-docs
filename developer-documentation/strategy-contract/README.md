@@ -6,7 +6,7 @@ description: 'Last Update: February 2023'
 
 [Strategy Contracts](https://github.com/beefyfinance/beefy-contracts/tree/master/contracts/BIFI/strategies) are the primary driver of Beefy's investment model, which facilitate the autocompounding of yield farm rewards. Beefy's process has three key steps: (1) staking deposited tokens in the relevant farms; (2) harvesting rewards; and (3) swapping rewards for more deposit tokens and reinvesting the proceeds
 
-Each strategy contract is ultimately dependent on a [beefy-vault-v6.md](../beefy-vault-v6.md "mention") for the capital they deploy, and do not have any direct interaction with ordinary users. The vault and strategy contracts are kept separate to isolate any risks in the strategy from user deposits.
+Each strategy contract is ultimately dependent on a [vault-contract.md](../vault-contract.md "mention") for the capital they deploy, and do not have any direct interaction with ordinary users. The vault and strategy contracts are kept separate to isolate any risks in the strategy from user deposits.
 
 ## Dependencies
 

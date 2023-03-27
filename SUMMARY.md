@@ -67,12 +67,13 @@
 * [Contributor Compensation](community/contributor-compensation.md)
 * [Governance](community-governance/governance.md)
 * [Proposal Repository](community/proposal-repository.md)
+* [Treasury](community-governance/treasury.md)
 * [Cowmoonity](community/community.md)
 * [Partnerships](community-governance/partnerships.md)
 
 ## Developer Documentation
 
-* [Vault Contract](developer-documentation/beefy-vault-v6.md)
+* [Vault Contract](developer-documentation/vault-contract.md)
 * [Strategy Contract](developer-documentation/strategy-contract/README.md)
   * [StratFeeManager Contract](developer-documentation/strategy-contract/stratfeemanager-contract.md)
   * [GasFeeThrottler Contract](developer-documentation/strategy-contract/gasfeethrottler-contract.md)
