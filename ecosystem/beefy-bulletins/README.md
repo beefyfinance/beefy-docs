@@ -1,8 +1,8 @@
-# Beefy Bulletins
+# Boletins Beefy
 
-Nem todo mundo reconhece o trade "perfeito" quando o vê...
+Nem todo mundo reconhece a troca "perfeita" quando a vê...
 
-Esta na hora de ficarmos Beefy!
+Está na hora do mundo ficar Beefy!
 
 {% content-ref url="what-is-beefy-finance.md" %}
 [what-is-beefy-finance.md](what-is-beefy-finance.md)

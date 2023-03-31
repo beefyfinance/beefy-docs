@@ -1,8 +1,8 @@
 ---
 description: >-
-  Aqui você pode ler sobre Tokenomics e a Governancia da BIFI e encontrar os
-  endereços de token BIFI de cross-chains
+  Aqui você pode ler sobre as Tokenomics da BIFI e encontrar os endereços da
+  moeda BIFI nas várias redes.
 ---
 
-# BIFI Token
+# Moeda BIFI
 

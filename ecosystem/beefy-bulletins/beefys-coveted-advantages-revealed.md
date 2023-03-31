@@ -1,25 +1,38 @@
 ---
-description: How we attract coding and creative talent
+description: Como atraímos talento criativo e codificador
 ---
 
-# Vantagens do beefy
+# As vantagens cobiçadas da Beefy reveladas
 
-![](../../.gitbook/assets/bulletin-beefys-coveted-advantages-revealed.png)
+\[IMAGE TRANSLATION: Bulletins = Boletins\
+Beefy's Coveted Advantages Revealed = As Vantagens Cobiçadas da Beefy Reveladas]
 
-"A capacidade de uma organização de aprender e traduzir esse aprendizado em ação rapidamente é a vantagem competitiva final dos negócios."
+![](<../../.gitbook/assets/image (18).png>)
 
-— Jack Welch, former chairman and CEO, General Electric
+"A capacidade de uma organização de aprender e rapidamente traduzir esse aprendizado em ação é a maior vantagem competitiva dos negócios."
+
+— Jack Welch, antigo presidente e CEO, General Electric
 
 **Em qualquer atividade, existem algumas vantagens que têm a ver com recursos e outras que têm a ver com a ausência deles.**
 
-Que os azarões muitas vezes saem por cima é porque o último tem "vantagens invisíveis" contra o primeiro. Na Beefy.Finance, não nos consideramos perdedores… E geralmente preferimos deixar o que construímos falar…&#x20;
+Quando os azarões muitas vezes saem por cima é porque o último tem "vantagens invisíveis" contra o oponente.
 
-No entanto, um componente central de nossa visão para o futuro é atrair e incentivar os melhores talentos criativos e de codificação do planeta para se juntarem à nossa comunidade. Por meio de nosso sistema de recompensa exclusivo, nossos desenvolvedores recebem uma porcentagem da receita da Beefy.Finance dos cofres que eles constroem para a Beefy.&#x20;
+Na Beefy, não nos consideramos azarões…
 
-Como isso existe, desenvolvemos rapidamente uma enorme equipe de desenvolvimento - um exército de desenvolvedores de contratos inteligentes que estão prontos para criar novos cofres quase no mesmo dia em que concluímos nossa due diligence.&#x20;
+E geralmente preferimos deixar o que construímos falar por nós…&#x20;
 
-A migração do TradFi para o DeFi é uma maratona e não um sprint, mas serve ao mercado para poder agir rapidamente quando precisamos. A maratona significa ter a segurança como nossa prioridade número um. O sprint está criando novos cofres de forma sustentável.
+No entanto, um componente central de nossa visão para o futuro é atrair e incentivar os melhores talentos criativos e de codificação do planeta para se juntarem à nossa comunidade.
+
+Por meio de nosso sistema de recompensa exclusivo, nossos desenvolvedores recebem uma porcentagem da receita da Beefy dos cofres que eles constroem para a Beefy.&#x20;
+
+Porque isso existe, desenvolvemos rapidamente uma enorme equipe de desenvolvimento - um exército de desenvolvedores de contratos inteligentes que estão prontos para criar novos cofres quase no mesmo dia em que concluímos nossa devida diligência.&#x20;
+
+A migração das finanças tradicionais para a DeFi é mais uma maratona do que uma corrida de 100m,  podermos agir rapidamente quando precisamos ajuda o mercado.
+
+A maratona significa ter a segurança como nossa prioridade número um.
+
+A corrida de 100m é estar criando novos cofres de forma sustentável.
 
 **O código – e o talento que o escreve – é o multiplicador de força definitivo nessa arena, e sua vantagem de alavancagem está aumentando em uma taxa espetacular.**
 
-Se você é um desenvolvedor de contrato inteligente que prefere recompensas futuras em detrimento de recursos legados, sabe onde nos encontrar.
+Se você é um desenvolvedor de contratos inteligentes que prefere recompensas futuras em detrimento de recursos antigos, sabe onde nos encontrar.
