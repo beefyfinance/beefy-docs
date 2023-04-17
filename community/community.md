@@ -17,7 +17,7 @@ A continuación se muestra la lista de los OGs de Beefy, que es el rango más al
 | DoD4uFN \| BIFI Maxi      | DoD4uFN#9980               | @DoD4uFN               |
 | dydymoon.eth              | dydymoon.eth#3133          | @dydymoon1             |
 | frondoto \| (POTS, POTS)  | frondoto#1954              | @frondoto1             |
-| kexley \| cryptomaxi      | kexley \| cryptomaxi#7853  | @CryptoMaxi6           |
+| kexley                    | kexley#7853                | @kexleyBeefy           |
 | mjoaris                   | mjoaris#5328               | @mjoaris               |
 | mooncow                   | mooncow#8411               | -                      |
 | Moonster                  | Moonster#4130              | @Moonster\_BSC         |
