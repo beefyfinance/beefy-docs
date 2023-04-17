@@ -18,7 +18,7 @@ Ci-dessous la liste des membres de l'équipe Core de Beefy, qui travaillent dur 
 | Eren                       | Eren Jaegar#9562           | @eren\_beefy           |
 | frondoto                   | frondoto#1954              | @frondoto1             |
 | JimBob                     | Jimbob#4904                | -                      |
-| kexley                     | kexley \| cryptomaxi#7853  | @CryptoMaxi6           |
+| kexley                     | kexley#7853                | @kexleyBeefy           |
 | mjoaris                    | mjoaris#5328               | @mjoaris               |
 | Pablo                      | Pablo#9688                 | @pablo\_beefy          |
 | Power - Beefy.Finance      | Power - Beefy.Finance#3933 | @PowerBeefy            |
