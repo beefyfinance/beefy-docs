@@ -17,7 +17,7 @@ Os Contribuidores Centrais estão trabalhando duro todo dia para melhorar a Beef
 | EPETE                      | EPETE#3333                 | @\_\_ePete             |
 | Eren                       | Eren Jaegar#9562           | @eren\_beefy           |
 | frondoto                   | frondoto#1954              | @frondoto1             |
-| kexley                     | kexley \| cryptomaxi#7853  | @CryptoMaxi6           |
+| kexley                     | kexley#7853                | @kexleyBeefy           |
 | mjoaris                    | mjoaris#5328               | @mjoaris               |
 | Pablo                      | Pablo#9688                 | @pablo\_beefy          |
 | Power - Beefy.Finance      | Power - Beefy.Finance#3933 | @PowerBeefy            |
