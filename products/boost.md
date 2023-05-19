@@ -47,6 +47,10 @@ Yes! Beefy always develops with _safety_ in mind and has made sure the boosted v
 
 Yes! The ordinary tokens you deposited in our main vaults will earn the ordinary rewards and be compounded as usual, even if it is boosted. This is because the [mooTokens](boost.md#what-are-mootokens) you deposit to enter the Launchpool boost are _interest-bearing_. By using the boosted vault, you earn both the vault tokens and partner tokens as a boost.
 
+## Is there any fee on the Beefy Boosts?&#x20;
+
+Beefy takes a performance fee of 5% from the reward tokens. The fee is deducted when the boost starts and just like the [Vault fees](vaults.md#what-is-the-vault-fee-structure), the APR that you see displayed is final so you don't have to account for the deduction.
+
 ## What does "Pre-Stake" mean?
 
 This means there is an upcoming boost for this vault.  You can stake your mooTokens ahead of time so that you will earn the Boost Rewards as soon the Boost begins.
