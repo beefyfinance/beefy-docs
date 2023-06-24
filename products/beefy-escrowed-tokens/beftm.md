@@ -4,6 +4,10 @@ description: Beefy-escrowed Fantom
 
 # beFTM
 
+{% hint style="warning" %}
+Note that following the passage of [\[BIP-67\]](https://snapshot.org/#/beefydao.eth/proposal/0x895f2b854b98eef94acf5e2f77bea7e2e9bdabde7167b9de280f33f872a2bc1e), the current version of beFTM will be gradually deprecated with all existing FTM deposited to be unlocked by 3 April 2024. Beefy's developer team is exploring a replacement V2 beFTM, to be released closer to the end of the deprecation period.
+{% endhint %}
+
 ## What is beFTM?&#x20;
 
 beFTM is short for Beefy-escrowed Fantom. beFTM gives stakers access to maximized Validator Node rewards that typically aren’t available to the individual investor without locking FTM for 1 year. The beFTM token is 1:1 backed by FTM and can be staked on the Beefy platform and in farms on major DEXes.
@@ -43,3 +47,7 @@ While beFTM is backed 1 to 1 by FTM, it is not designed to keep a 1 to 1 peg wit
 There are several mechanisms in place to help beFTM maintain peg against FTM. First of all, Beefy's Smart Minter will not issue new beFTM tokens when the price of beFTM is below the price of FTM, it will instead buy beFTM from a liquidity pool helping to restore the peg and giving the user a more profitable option. Secondly, the beFTM vault adds a continuous buying pressure to the beFTM token price. Lastly, arbitrageurs will either buy and sell beFTM depending on the peg.
 
 In a hypothetical situation where the peg crashes to 0 with no signs of recovery, Beefy's Validator Node can be paused, forfeiting all pending rewards, and after waiting 1 full week everyone will be able to redeem their beFTM for the delegated FTM.
+
+## V1 Deprecation
+
+In late March 2023, the Beefy Core team proposed the deprecation of the existing version of beFTM, to allow all FTM deposited in the current version to be unlocked and an improved V2 to be developed and deployed. The [\[BIP-67\] proposal](https://snapshot.org/#/beefydao.eth/proposal/0x895f2b854b98eef94acf5e2f77bea7e2e9bdabde7167b9de280f33f872a2bc1e) called to initiate an unlock on 3 April 2023, with the full unlock being completed by 3 April 2024. The proposal also calls for a V2 to be developed closer to the time in include better redemption capabilities. The proposal passed with a 99% margin on 2 April 2023.&#x20;
