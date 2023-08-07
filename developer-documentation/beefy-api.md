@@ -1,5 +1,5 @@
 ---
-description: 'Last Update: November 2022'
+description: 'Last Update: August 2023'
 ---
 
 # Beefy API
@@ -354,7 +354,8 @@ Provides information on the addresses of the current configuration of wallets us
     "voter": "0x5e1caC103F943Cd84A1E92dAde4145664ebf692A",
     "beefyFeeConfig": "0x8E98004FE65A2eAdA63AD1DE0F5ff76d845f14E7"
   },
-...</code></pre>
+...
+</code></pre>
 
 **Field Notes:**
 
@@ -470,21 +471,33 @@ Endpoints developed for [the Beefy Dashboard](https://dashboard.beefy.finance/) 
 Please note that the Dashboard site and the /earnings endpoint are both no longer actively maintained by Beefy. Though the Dashboard site remains live, it does not reflect every vault that has been implemented and every chain that Beefy has deployed to.
 {% endhint %}
 
-<details>
+### Databarn Endpoints
 
-<summary>GET /holders</summary>
+Endpoints related to databarn, our historical data indexer. These endpoints are rate limited to maximum 5 requests per seconds. You may also want to try the [interactive swagger ui](https://databarn.beefy.com/api/v1/documentation) for these endpoints.
 
-Provides the specific number of current holders of the $BIFI token.
+{% swagger src="../.gitbook/assets/json.json" path="/api/v1/beefy/timeline" method="get" %}
+[json.json](../.gitbook/assets/json.json)
+{% endswagger %}
 
-```json
-// Sample respones from the /holders endpoint
+{% swagger src="../.gitbook/assets/json.json" path="/api/v1/beefy/product/{chain}" method="get" %}
+[json.json](../.gitbook/assets/json.json)
+{% endswagger %}
 
-{
-  "holderCount": 36882
-}
-```
+{% swagger src="../.gitbook/assets/json.json" path="/api/v1/beefy/product/{chain}/{contract_address}" method="get" %}
+[json.json](../.gitbook/assets/json.json)
+{% endswagger %}
 
-</details>
+{% swagger src="../.gitbook/assets/json.json" path="/api/v1/beefy/product/{chain}/{contract_address}/tvl" method="get" %}
+[json.json](../.gitbook/assets/json.json)
+{% endswagger %}
+
+{% swagger src="../.gitbook/assets/json.json" path="/api/v1/price/" method="get" %}
+[json.json](../.gitbook/assets/json.json)
+{% endswagger %}
+
+{% swagger src="../.gitbook/assets/json.json" path="/api/v1/price/raw" method="get" %}
+[json.json](../.gitbook/assets/json.json)
+{% endswagger %}
 
 ### Third Party Endpoints
 

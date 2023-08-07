@@ -6,7 +6,7 @@ Let's look at a typical yield farm, where they state an APY (annual percentage y
 
 ## Understanding Exponential Growth (Compounding)
 
-Growth whose rate becomes ever more rapid in proportion to the growing total number or size. The simple formula for this is _**growth = (1 + r)^x** _ , where 'r' = return and 'x' = number of 'times'. For example, your money doubles every year if you get 100% yearly return. After 3 years you would have 8x your original investment.&#x20;
+Growth whose rate becomes ever more rapid in proportion to the growing total number or size. The simple formula for this is _**growth = (1 + r)^x**_ , where 'r' = return and 'x' = number of 'times'. For example, your money doubles every year if you get 100% yearly return. After 3 years you would have 8x your original investment.&#x20;
 
 ![growth = (1 + 100%)^3](<../.gitbook/assets/capture (2).png>)
 

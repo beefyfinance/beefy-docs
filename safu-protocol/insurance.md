@@ -84,13 +84,7 @@ Please note that Solace's portfolio insurance is tied to their implementation of
 
 ### Comparison
 
-| Criteria             | InsurAce.io                                 | Nexus Mutual                                                        | Solace                                                                                  |
-| -------------------- | ------------------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| Deployed Chains      | Ethereum, BSC, Polygon, Avalanche           | Ethereum                                                            | Ethereum, Polygon, Aurora, Fantom                                                       |
-| Beefy Chains Covered | 9 chains, including BSC, Polygon and Fantom | 15 chains including BSC, Polygon and Fantom                         | Not stated. Portfolio detected through Zapper. Includes coverage beyond deployed chain. |
-| Product Types        | Smart Contract, Custodian, De-Peg, Bundled. | Protocol, Yield Token, Custody, Staking (Smart Contract phased out) | Portfolio (and Native)                                                                  |
-| Beefy Product Types  | Smart Contract                              | Protocol                                                            | Portfolio                                                                               |
-| Claim Assessment     | Private Advisory Board                      | Public Members Vote                                                 | Private Automated Claims                                                                |
+<table><thead><tr><th width="157">Criteria</th><th width="194">InsurAce.io</th><th width="195">Nexus Mutual</th><th>Solace</th></tr></thead><tbody><tr><td>Deployed Chains</td><td>Ethereum, BSC, Polygon, Avalanche</td><td>Ethereum</td><td>Ethereum, Polygon, Aurora, Fantom</td></tr><tr><td>Beefy Chains Covered</td><td>9 chains, including BSC, Polygon and Fantom</td><td>15 chains including BSC, Polygon and Fantom</td><td>Not stated. Portfolio detected through Zapper. Includes coverage beyond deployed chain.</td></tr><tr><td>Product Types</td><td>Smart Contract, Custodian, De-Peg, Bundled.</td><td>Protocol, Yield Token, Custody, Staking (Smart Contract phased out)</td><td>Portfolio (and Native)</td></tr><tr><td>Beefy Product Types</td><td>Smart Contract</td><td>Protocol</td><td>Portfolio</td></tr><tr><td>Claim Assessment</td><td>Private Advisory Board</td><td>Public Members Vote</td><td>Private Automated Claims</td></tr></tbody></table>
 
 ## Unaffiliated Products
 
@@ -98,10 +92,7 @@ As Beefy is entirely open source and public, anyone is free to build on top of o
 
 Below is a list of known products insurance products that offer coverage for Beefy's products or protocol, but are not officially offered in partnership with Beefy and have not been formally verified by our teams. Use at your own risk, and always do your own research.
 
-| Provider                                                                                               | Insurance Type | Blockchain(s) | Smart Contract(s)                          |
-| ------------------------------------------------------------------------------------------------------ | -------------- | ------------- | ------------------------------------------ |
-| [InsureDAO](https://app.insuredao.fi/optimism/purchase/0xe3f491c575e02902342ef8488bb3d6c392869fda)     | Smart Contract | Optimism      | 0xe3f491c575e02902342ef8488bb3d6c392869fda |
-| [Bridge Mutual](https://app.bridgemutual.io/user/cover/137/0xf0E147862E069460D2ea8837f65aD5D2fCaC2D14) | Smart Contract | Polygon       | 0xf0E147862E069460D2ea8837f65aD5D2fCaC2D14 |
+<table><thead><tr><th width="159">Provider</th><th width="155">Insurance Type</th><th width="142">Blockchain(s)</th><th>Smart Contract(s)</th></tr></thead><tbody><tr><td><a href="https://app.insuredao.fi/optimism/purchase/0xe3f491c575e02902342ef8488bb3d6c392869fda">InsureDAO</a></td><td>Smart Contract</td><td>Optimism</td><td>0xe3f491c575e02902342ef8488bb3d6c392869fda</td></tr><tr><td><a href="https://app.bridgemutual.io/user/cover/137/0xf0E147862E069460D2ea8837f65aD5D2fCaC2D14">Bridge Mutual</a></td><td>Smart Contract</td><td>Polygon</td><td>0xf0E147862E069460D2ea8837f65aD5D2fCaC2D14</td></tr></tbody></table>
 
 {% hint style="danger" %}
 Readers are warned to note and consider the "Providing Coverage" risk in the [#risks](insurance.md#risks "mention") section above when considering these unaffiliated products.
