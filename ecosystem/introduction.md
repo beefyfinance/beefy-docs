@@ -1,34 +1,44 @@
 ---
-description: a Decentralized, Multichain Yield Optimizer
+description: 'Last Update: August 2023'
 ---
 
 # Introduction to Beefy
 
 ## What is Beefy?
 
-Beefy is a Decentralized Finance (DeFi) Yield Optimizer project, that allows its users to make more crypto with crypto. DeFi applications are unique in the sense that they are permissionless and trustless, meaning that anyone with a supported wallet can interact with them without the need for a trusted middlemen. Beefy caters its users by making it easy to get a yield on their crypto capital in a safe and decentralized manner. Through a set of smart contracts and several investment strategies, Beefy automatically maximizes the user rewards from various liquidity pools (LPs), automated market making (AMM) projects, and other yield farming opportunities in the DeFi ecosystem. This provides a huge advantage over attempting to do this manually yourself. Beef up those yields!
+Beefy is a Decentralized Finance (**DeFi**) Yield Optimizer project, that helps users to earn more of the cryptoassets that they love through the magic of autocompounding.&#x20;
 
-The project consists of an anonymous team, directly inspired by the yield optimization projects that had been developed on the Ethereum network. As a team that has been part of the crypto world for many years, we are strong proponents of “Don't Trust, Verify”. This is why data such as our [governance token distribution contracts](https://medium.com/beefyfinance/bifi-contracts-are-live-on-mainnet-6080577269d7) are open for anyone to verify that everything will work as intended. We are committed to this idea of radical transparency, which is especially important in nascent ecosystems like Decentralized Finance.
+Open-source DeFi applications aim to be permissionless and trustless, meaning that anyone can interact directly without the need for a trusted middlemen. By keeping all code public and verifiable on the blockchain, anyone is able to verify how DeFi works and bypass the need to trust that a service is safe. Beefy leverages these characteristics to deliver hundreds of yield opportunities from across the ecosystem to users in a safe and decentralized manner, through one simple-yet-beautiful interface.&#x20;
 
-Beefy offers complex strategies that are simple and intuitive for any investor to take part in through the Vault offerings on the platform. The first set of vaults went live on October 8, 2020 on the Binance Smart Chain (BSC), making Beefy the first Yield Optimizer on BSC. Beefy later expanded to many more blockchains (currently 15+ and counting), establishing itself as THE Multichain Yield Optimizer.
+Through its battle-tested [vault](../products/vaults.md) and [strategy](../products/strategies.md) contracts, the Beefy Protocol maximizes the rewards available to users from liquidity pools (**LPs**), automated market makers (**AMMs**), and other yield farming opportunities. It does this by automatically claiming, swapping and redepositing rewards, unlocking exponential returns through **autocompounding**. By automating the process, Beefy saves time, increases efficiency and circumvents the user risks in manual yield farming, to offer a substantially better experience. In sharing gas fees and aggregating volume, Beefy's contracts are able to compound (or **harvest**) rewards far more frequently than users can, meaning much beefier yields. Overall, Beefy offers a huge advantage to users when compared with farming manually yourself. It's a simple win-win formula.
 
-For all the vaults deployed on every blockchain, Beefy has its multiutility token BIFI at its core. Platform revenue is generated from a small percentage of all the vault profits and distributed back to those who stake BIFI. As a decentralized project with a deeply ingrained crypto-mindset, there is also a robust governance system in place to put the decision-making power in the hands of those invested in the project by governance mechanisms build around BIFI.
+The Beefy Protocol is governed by its decentralized autonomous organisation (the **Beefy DAO**). The DAO is constituted by hundreds of community members from all across the world, who have a shared appreciation for the magic of autocompounding and a passion for the Beefy project. The DAO is operated using our [$BIFI governance token](bifi-token/tokenomics-and-governance.md), which is used for voting on governance proposals.
 
-## What makes Beefy unique?
+## Beefy's History
 
-There are a few key reasons as to why Beefy differs from a large number of Yield Optimizers out there today.
+Beefy was born in September 2020, when a team of 4 founders came together to bring the power of autocompounding technology from DeFi projects on Ethereum over to lower costs chains. The first set of vaults went live on 8 October 2020 on BNB Chain, making Beefy the first yield optimizer on the chain.&#x20;
 
-1. Safety is Beefy's number one priority. Before a Vault is released, the code has to pass a stringent set of SAFU rules.
-2. Beefy largely distributes platform revenue back to those who stake BIFI. With staked BIFI, you essentially hold a revenue share in Beefy.&#x20;
-3. Beefy has talented, industry-leading smart contract developers who carefully test and review the vaults, investment strategies, new platforms and smart contracts before releasing them to the public. Beefy is also actively encouraging developers to contribute and engage to make Beefy an even better product.
-4. Beefy is flexible and operates on various blockchains.
-5. Beefy offers unique strategies that other yield optimizers simply do not have. This includes Vaults that you can find only on the Beefy platform.&#x20;
-6. Beefy has many recognized partners. This provides the project with credibility and improves overall trust.
+In less than a year, Beefy was managing over $800 million of total value locked, and had reached a $100 million market capitalisation. Many new contributors and community members arrived, and gradually the founding team stepped back as a new generation of core contributors took over the reigns. By the end of 2022, Beefy was live on 10 different blockchains. A year later, it was 18.
 
-## How to Optimize Yield On A Fast Chain 🎯 <a href="#a8cb" id="a8cb"></a>
+By 2023, Beefy is widely known as one of the OG cross-chain DeFi protocols, with a reputation for indiscriminately building on top of hundreds of protocols. Beefy's contributor team are professionals at scoping out new opportunities, carrying out proper due diligence, and safely and quickly deploying onto the newest and hottest chains and protocols.
 
-Yield‌ ‌optimizers‌ ‌on‌ ‌cheap and fast blockchains ‌present‌ ‌a‌ ‌different‌ ‌set‌ ‌of‌ ‌problems, challenges and opportunities.‌ ‌While‌ ‌on‌ ‌Ethereum,‌ where ‌gas‌ ‌fees‌ ‌are‌ ‌high,‌ ‌it‌ ‌makes‌ ‌sense‌ ‌to‌ ‌focus‌ ‌on‌ ‌gas‌ ‌savings, and ‌pooling‌ ‌funds‌ ‌to‌ ‌deploy‌ ‌strategies.‌ ‌On chains where the fees are far smaller, ‌the‌ ‌focus‌ ‌moves‌ ‌to‌ ‌optimizing‌ ‌automation‌ ‌to‌ ‌secure ‌the‌ ‌greatest ‌yields‌ with less concern for the amount of interactions necessary ‌to‌ constantly ‌improve‌ ‌a‌ ‌moving‌ ‌APY.‌ ‌The doors open up to more complex strategies and frequent rebalances.
+## What Makes Beefy Unique?
 
-With‌ this ‌automatization,‌ ‌we‌ ‌can‌ ‌provide‌ ‌a‌ ‌simple‌ ‌way‌ ‌for‌ ‌investors‌ ‌to‌ ‌interact‌ ‌with‌ ‌pools,‌ ‌projects,‌ ‌and‌ ‌other yield‌ ‌opportunities‌ ‌without‌ ‌having‌ ‌to‌ ‌constantly make decisions and take‌ ‌manual‌ ‌actions‌.‌ ‌We‌ ‌see‌ ‌this‌ ‌as‌ ‌a‌ ‌necessary‌ ‌step‌ ‌to‌ ‌leveling‌ ‌the‌ ‌playing‌ ‌field,‌ ‌allowing‌ ‌small‌ ‌investors‌ ‌to‌ ‌have‌ ‌access‌ ‌to‌ ‌the‌ ‌same‌ ‌opportunities‌ ‌that‌ ‌so‌ ‌far‌ ‌only‌ ‌whales‌ and full-time yield-farmers on Ethereum ‌have‌ ‌had‌ ‌access‌ ‌to.‌ ‌ ‌
+Beefy differs from other DeFi yield optimizers and aggregators in a few key ways:
 
-Our long term goal is to help projects in DeFi grow together, providing help with auditing, creating hackathons for interesting strategies to add to the platform, etc. All of this will be coordinated decentralized by the community and the holders of the governance token BIFI.
+1. Beefy's vaults are primarily "single strategy", meaning optimizing just one yield farming opportunity, rather than diluting yield across multiple opportunities;
+2. Safety is Beefy's number one priority. All of our products are run through rigorous safety standards through our [SAFU Protocol](../safu-protocol/beefy-safu-practices.md);
+3. Beefy prides itself on indiscriminately, quickly and flexibly deploying on top of an enormous range of protocols and blockchains;
+4. The Beefy Protocol directly distributes platform revenue back to users who stake $BIFI in our governance pools;
+5. Beefy offers unique strategies that can't be found elsewhere, and is often the first to market with new and exciting yield farming opportunities; and&#x20;
+6. Beefy maintains an enormous network of recognized partners, and has a stellar reputation in the community for its safety and professionalism.
+
+## Autocompounding On Other Chains <a href="#a8cb" id="a8cb"></a>
+
+Beefy was created with the aim of disseminating the potential of automated yield farming to different blockchains, in order to take advantage of higher transaction speeds and lower gas costs than can be found on Ethereum.&#x20;
+
+Autocompounding on alternative chains presents a different set of opportunities and challenges: where on Ethereum the timing of events is vital to ensuring profitability, other chains the frequency of low-cost compounding has an enormous impact on the yield. Likewise, low-cost chains encourage farmers to move between different opportunities to maintain high average APY across their portfolio, where moves on chains like Ethereum are expensive and must be carefully considered. This opens the door to more sophisticated and complex strategies on other chains.
+
+Because Beefy's vault offer a fully decentralized and automated solution, they allow users to all sizes and persuasions to access the benefits of DeFi with minimal effort.. ‌We‌ ‌see‌ ‌this‌ ‌as‌ ‌a‌ ‌vital ‌step‌ ‌in ‌levelling ‌the‌ ‌financial playing‌ ‌field,‌ ‌allowing‌ ‌small‌ ‌users ‌to‌ ‌have‌ ‌access‌ ‌to‌ ‌the‌ ‌same‌ ‌opportunities‌ ‌that‌ ‌only the wealthy, professionals and businesses could access elsewhere.
+
+Beefy's goal is to help projects in DeFi grow together, and to spread the potential of decentralized financial technologies across the world. By pursuing this with a complete open-source mentality, a firm commitment to decentralization, and by placing governance openly in the hands of tokenholders, we hope to deliver an unbeatable experience for accessing yield in DeFi.
