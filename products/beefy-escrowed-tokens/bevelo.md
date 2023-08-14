@@ -24,9 +24,8 @@ $beVELO is a Beefy-escrowed version of $VELO V1, staked for veVELO to take advan
 
 The token is fully backed 1:1 by $VELO V1, which can be redeemed where tokens are available in the reserve. This reserve fills up on several circumstances:
 
-1. when new users deposit $VELO into $beVELO, if below the required reserve amount at the time;&#x20;
-2. when the contract harvests trading fees and bribes from Velodrome (which occurs after the epoch turns over on thursday at 00:00 UTC), if below the required reserve amount at the time; or
-3. if the contract's staked $VELO V1 is left to gradually unlock.
+1. when new users deposit $VELO into $beVELO, if below the required reserve amount at the time; and
+2. if the contract's staked $VELO V1 is left to gradually unlock.
 
 <figure><img src="../../.gitbook/assets/bevelo_poster-1.png" alt=""><figcaption><p>beVELO is designed to capture the maximum possible rewards and benefits from Velodrome's vote escrow tokenomics.</p></figcaption></figure>
 
