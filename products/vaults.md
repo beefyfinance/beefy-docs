@@ -117,6 +117,14 @@ Beefy vaults are audited, but this does not mean that a vault is entirely risk f
 
 More detailed vault risks, or better yet, information on Beefy's vault safety expressed by the Beefy Safety Score can be found here: [Beefy Safety Score](../safu-protocol/beefy-safety-score.md).
 
+## **Who is in control of the vault?**
+
+Each vault and [strategy](strategies.md) is hardcoded, and the code has been built to be immutable, so once they are released, they become unalterable. No one can modify the vaults and strategies.
+
+Modern Beefy vaults do however rely on the standard set out in EIP-1167, known as ["minimal proxy" contracts](https://blog.openzeppelin.com/deep-dive-into-the-minimal-proxy-contract). Minimal proxies reduce deployment costs for repetitive contracts (e.g. vaults) by maintaining the vast majority of core functionality in a single implementation contract. They then configure the individual characteristics of the specific strategy (e.g. the relevant tokens and pools) through the minimal proxy contract - which is a much smaller contract to deploy - which directs instructions through to the implementation contract.
+
+Users should be aware of the distinction between minimal proxy contracts and the proxy pattern used to upgrade contracts. **Beefy's minimal proxy contracts are not upgradeable**, so Beefy cannot take your funds by a sly upgrade. The proxy is only used to reduce deployment costs.
+
 ## **What are the different vaults?**
 
 * **Money Market :** Utilizes lending platforms, such as Venus on BNB Chain or Scream on Fantom, to generate the highest possible yield for these coins (e.g. BUSD, BNB, LINK, DOT, DAI, USDT, ETH, or BTCB).&#x20;
