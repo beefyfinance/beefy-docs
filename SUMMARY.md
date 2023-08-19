@@ -9,7 +9,8 @@
 ## Beefy Ecosystem <a href="#ecosystem" id="ecosystem"></a>
 
 * [Introduction to Beefy](ecosystem/introduction.md)
-* [BIFI Token](ecosystem/bifi-token/README.md)
+* [Beefy Protocol](ecosystem/protocol.md)
+* [$BIFI Token](ecosystem/bifi-token/README.md)
   * [Tokenomics](ecosystem/bifi-token/tokenomics-and-governance.md)
   * [Contract Addresses](ecosystem/bifi-token/contract-addresses.md)
 * [Beefy Bulletins](ecosystem/beefy-bulletins/README.md)
