@@ -6,7 +6,7 @@ description: >-
 
 # How to add and switch networks on Beefy
 
-As Beefy is a Decentralized, Multi-Chain Yield Optimizer, users will need to have properly configured wallets for each chain that they want use Beefy on. Using this guide and the Beefy network switcher, new blockchain networks can be added automatically with ease. As an example the Huobi ECO chain (HECO) network will be used in this How-To guide, but you can repeat the same process for any other network listed in the network switcher.
+As Beefy is a Decentralized, Multichain Yield Optimizer, users will need to have properly configured wallets for each chain that they want use Beefy on. Using this guide and the Beefy network switcher, new blockchain networks can be added automatically with ease. As an example the Huobi ECO chain (HECO) network will be used in this How-To guide, but you can repeat the same process for any other network listed in the network switcher.
 
 ## Prerequisites
 

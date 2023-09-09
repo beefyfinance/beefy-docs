@@ -43,7 +43,7 @@ There is a lot of information inside the vault, such as TVL (Total Value Locked)
 
 <figure><img src="../../.gitbook/assets/DepositWithdrawModule.png" alt=""><figcaption></figcaption></figure>
 
-The vault already sees we have 1 BIFI available in our wallet to deposit. There is a "Buy Token" link provided in case you do not have any BIFI or wish to buy more BIFI to deposit, as well as a "Bridge BIFI" button to bridge BIFI from another blockchain to Arbitrum ([how-to-bridge-bifi-cross-chain.md](how-to-bridge-bifi-cross-chain.md "mention")). A deposit field and a "Max" button are used for entering the exact amount of BIFI you want to deposit. Furthermore, the Beefy Vault Fees ([#what-is-the-vault-fee-structure](../../products/vaults.md#what-is-the-vault-fee-structure "mention")) are shown.
+The vault already sees we have 1 BIFI available in our wallet to deposit. There is a "Buy Token" link provided in case you do not have any BIFI or wish to buy more BIFI to deposit, as well as a "Bridge BIFI" button to bridge BIFI from another blockchain to Arbitrum ([Broken link](broken-reference "mention")). A deposit field and a "Max" button are used for entering the exact amount of BIFI you want to deposit. Furthermore, the Beefy Vault Fees ([#what-is-the-vault-fee-structure](../../products/vaults.md#what-is-the-vault-fee-structure "mention")) are shown.
 
 ### 6. An example deposit:
 
