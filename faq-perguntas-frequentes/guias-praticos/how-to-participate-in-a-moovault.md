@@ -43,7 +43,7 @@ Existem muitas informações dentro do cofre, como o TVL (Valor Total Depositado
 
 <figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
-O cofre já vê que temos 1 BIFI disponível na nossa carteira para depósito. Há um link "_Buy Token_" (Compre moedas) provido caso você não tenha BIFI ou queira comprar mais BIFI para depositar, assim como um botão "_Bridge_ BIFI" para transferir BIFI de uma outra blockchain para a Arbitrum ( [how-to-bridge-bifi-cross-chain.md](how-to-bridge-bifi-cross-chain.md "mention")). O campo de depósito e um botão MAX são usado para colocar a exata quantidade de BIFI que você quer depositar. Além do mais, as taxas do cofre são mostradas ( [#qual-e-a-estrutura-de-taxas-do-cofre](../../produtos/vaults.md#qual-e-a-estrutura-de-taxas-do-cofre "mention")).
+O cofre já vê que temos 1 BIFI disponível na nossa carteira para depósito. Há um link "_Buy Token_" (Compre moedas) provido caso você não tenha BIFI ou queira comprar mais BIFI para depositar, assim como um botão "_Bridge_ BIFI" para transferir BIFI de uma outra blockchain para a Arbitrum ( [Broken link](broken-reference "mention")). O campo de depósito e um botão MAX são usado para colocar a exata quantidade de BIFI que você quer depositar. Além do mais, as taxas do cofre são mostradas ( [#qual-e-a-estrutura-de-taxas-do-cofre](../../produtos/vaults.md#qual-e-a-estrutura-de-taxas-do-cofre "mention")).
 
 #### 6. Um exemplo de depósito:
 

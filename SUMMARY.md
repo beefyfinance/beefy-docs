@@ -48,7 +48,6 @@
   * [Como adicionar e remover liquidez](faq-perguntas-frequentes/guias-praticos/how-to-add-remove-liquidity.md)
   * [Como usar o Beefy Zap](faq-perguntas-frequentes/guias-praticos/how-to-beefy-zap.md)
   * [Como adicionar e mudar de redes na Beefy](faq-perguntas-frequentes/guias-praticos/how-to-add-and-switch-networks-on-beefy-finance.md)
-  * [Como transferir BIFI entre blockchains](faq-perguntas-frequentes/guias-praticos/how-to-bridge-bifi-cross-chain.md)
   * [Como verificar o ritmo de coleta e reinvestimento de um cofre](faq-perguntas-frequentes/guias-praticos/how-to-check-harvesting-compounding-rate.md)
 
 ## Protocolo SAFU da Beefy <a href="#protocolo-safu" id="protocolo-safu"></a>

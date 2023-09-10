@@ -86,13 +86,7 @@ Observe que o seguro de portfólio da Solace está vinculado à implementação 
 
 ### Comparação
 
-| Critérios                  | InsurAce.io                                                 | Nexus Mutual                                                                       | Solace                                                                                            |
-| -------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| Redes implementadas        | Ethereum, BNB Chain, Polygon, Avalanche                     | Ethereum                                                                           | Ethereum, Polygon, Aurora, Fantom                                                                 |
-| Redes da Beefy Cobertas    | 9 redes, incluindo BNB Chain, Polygon e Fantom              | 15 redes incluindo BNB Chain, Polygon e Fantom                                     | Não declarado. Portfólio detectado através da Zapper. Inclui cobertura além da rede implementada. |
-| Tipos de Produtos          | Contrato inteligente, custodiante, perda de lastro, pacote. | Protocolo, Moeda de rendimento, Custódia, Staking (Contrato Inteligente eliminado) | Portfólio (e Nativa)                                                                              |
-| Tipos de Produtos da Beefy | Contrato Inteligente                                        | Protocolo                                                                          | Portfólio                                                                                         |
-| Avaliação de Sinistros     | Conselho Consultivo Privado                                 | Votação dos Membros Públicos                                                       | Reivindicações Automatizadas Privadas                                                             |
+<table><thead><tr><th width="157">Critérios</th><th width="194">InsurAce.io</th><th width="195">Nexus Mutual</th><th>Solace</th></tr></thead><tbody><tr><td>Redes implementadas</td><td>Ethereum, BNB Chain, Polygon, Avalanche</td><td>Ethereum</td><td>Ethereum, Polygon, Aurora, Fantom</td></tr><tr><td>Redes da Beefy Cobertas</td><td>9 redes, incluindo BNB Chain, Polygon e Fantom</td><td>15 redes incluindo BNB Chain, Polygon e Fantom</td><td>Não declarado. Portfólio detectado através da Zapper. Inclui cobertura além da rede implementada.</td></tr><tr><td>Tipos de Produtos</td><td>Contrato inteligente, custodiante, perda de lastro, pacote.</td><td>Protocolo, Moeda de rendimento, Custódia, Staking (Contrato Inteligente eliminado)</td><td>Portfólio (e Nativa)</td></tr><tr><td>Tipos de Produtos da Beefy</td><td>Contrato Inteligente</td><td>Protocolo</td><td>Portfólio</td></tr><tr><td>Avaliação de Sinistros</td><td>Conselho Consultivo Privado</td><td>Votação dos Membros Públicos</td><td>Reivindicações Automatizadas Privadas</td></tr></tbody></table>
 
 ## Produtos Não-Afiliados
 
@@ -100,10 +94,7 @@ Como a Beefy é inteiramente de código aberto e pública, qualquer pessoa é li
 
 Abaixo está uma lista de produtos de seguro conhecidos que oferecem cobertura para os produtos ou protocolo da Beefy, mas não são oferecidos oficialmente em parceria com a Beefy e não foram verificados formalmente por nossas equipes. Use por sua própria conta e risco e sempre faça sua própria pesquisa.
 
-| Provedor                                                                                               | Tipo de Seguro       | Blockchain(s) | Smart Contract(s)                          |
-| ------------------------------------------------------------------------------------------------------ | -------------------- | ------------- | ------------------------------------------ |
-| [InsureDAO](https://app.insuredao.fi/optimism/purchase/0xe3f491c575e02902342ef8488bb3d6c392869fda)     | Contrato Inteligente | Optimism      | 0xe3f491c575e02902342ef8488bb3d6c392869fda |
-| [Bridge Mutual](https://app.bridgemutual.io/user/cover/137/0xf0E147862E069460D2ea8837f65aD5D2fCaC2D14) | Contrato Inteligente | Polygon       | 0xf0E147862E069460D2ea8837f65aD5D2fCaC2D14 |
+<table><thead><tr><th width="159">Provedor</th><th width="155">Tipo de Seguro</th><th width="142">Blockchain(s)</th><th>Smart Contract(s)</th></tr></thead><tbody><tr><td><a href="https://app.insuredao.fi/optimism/purchase/0xe3f491c575e02902342ef8488bb3d6c392869fda">InsureDAO</a></td><td>Contrato Inteligente</td><td>Optimism</td><td>0xe3f491c575e02902342ef8488bb3d6c392869fda</td></tr><tr><td><a href="https://app.bridgemutual.io/user/cover/137/0xf0E147862E069460D2ea8837f65aD5D2fCaC2D14">Bridge Mutual</a></td><td>Contrato Inteligente</td><td>Polygon</td><td>0xf0E147862E069460D2ea8837f65aD5D2fCaC2D14</td></tr></tbody></table>
 
 {% hint style="danger" %}
 Os leitores são advertidos a observar e considerar o risco de " Fornecimento de Cobertura" na seção [#riscos](seguro.md#riscos "mention") acima ao considerar estes produtos não afiliados.

@@ -8,25 +8,7 @@ description: Tradução feita a partir da atualização de fevereiro de 2023
 
 Os Contribuidores Centrais estão trabalhando duro todo dia para melhorar a Beefy em vários domínios. A maioria tem um cargo pago.
 
-| Nome                       | Discord                    | Twitter                |
-| -------------------------- | -------------------------- | ---------------------- |
-| AllTrades                  | AllTrades#1704             | @AllTradesz            |
-| chebiN                     | chebiN#2624                | -                      |
-| DefiDebauchery             | DefiDebauchery#3115        | @DefiDebauchery        |
-| Dieter                     | Dieter#8010                | @Dieter\_Design        |
-| EPETE                      | EPETE#3333                 | @\_\_ePete             |
-| Eren                       | Eren Jaegar#9562           | @eren\_beefy           |
-| frondoto                   | frondoto#1954              | @frondoto1             |
-| kexley                     | kexley#7853                | @kexleyBeefy           |
-| mjoaris                    | mjoaris#5328               | @mjoaris               |
-| Pablo                      | Pablo#9688                 | @pablo\_beefy          |
-| Power - Beefy.Finance      | Power - Beefy.Finance#3933 | @PowerBeefy            |
-| ReflectiveChimp            | ReflectiveChimp#4499       | @ReflectiveChimp       |
-| Roman Monk                 | Roman Monk#7468            | @roman\_mnk            |
-| TheBeefyCow                | TheBeefyCow#9890           | @thebeefycow           |
-| w18o - BIFI 18 Chains.bifi | Weso#1643                  | @w3soBeefy             |
-| YR2150 \| Beefy Pulse      | YR2150 \| Beefy Pulse#5907 | @yr2150T / @beefypulse |
-| Zapmore                    | Zapmore#3433               | @Zapmore3              |
+<table><thead><tr><th width="234">Nome</th><th width="255.33333333333331">Discord</th><th>Twitter</th></tr></thead><tbody><tr><td>AllTrades</td><td>AllTrades#1704</td><td>@AllTradesz</td></tr><tr><td>chebiN</td><td>chebiN#2624</td><td>-</td></tr><tr><td>DefiDebauchery</td><td>DefiDebauchery#3115</td><td>@DefiDebauchery</td></tr><tr><td>Dieter</td><td>Dieter#8010</td><td>@Dieter_Design</td></tr><tr><td>EPETE</td><td>EPETE#3333</td><td>@__ePete</td></tr><tr><td>Eren</td><td>Eren Jaegar#9562</td><td>@eren_beefy</td></tr><tr><td>frondoto</td><td>frondoto#1954</td><td>@frondoto1</td></tr><tr><td>kexley</td><td>kexley#7853</td><td>@kexleyBeefy</td></tr><tr><td>mjoaris </td><td>mjoaris#5328</td><td>@mjoaris</td></tr><tr><td>Pablo</td><td>Pablo#9688</td><td>@pablo_beefy</td></tr><tr><td>Power - Beefy.Finance</td><td>Power - Beefy.Finance#3933</td><td>@PowerBeefy</td></tr><tr><td>ReflectiveChimp</td><td>ReflectiveChimp#4499</td><td>@ReflectiveChimp</td></tr><tr><td>Roman Monk</td><td>Roman Monk#7468</td><td>@roman_mnk</td></tr><tr><td>TheBeefyCow</td><td>TheBeefyCow#9890</td><td>@thebeefycow</td></tr><tr><td>w18o - BIFI 18 Chains.bifi</td><td>Weso#1643</td><td>@w3soBeefy</td></tr><tr><td>YR2150 | Beefy Pulse</td><td>YR2150 | Beefy Pulse#5907</td><td>@yr2150T / @beefypulse</td></tr><tr><td>Zapmore</td><td>Zapmore#3433</td><td>@Zapmore3</td></tr></tbody></table>
 
 ## OG's da Beefy
 
