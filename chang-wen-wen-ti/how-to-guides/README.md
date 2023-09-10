@@ -1,16 +1,29 @@
 # 操作指南
 
-{% page-ref page="how-to-participate-in-a-moovault.md" %}
+{% content-ref url="how-to-participate-in-a-moovault.md" %}
+[how-to-participate-in-a-moovault.md](how-to-participate-in-a-moovault.md)
+{% endcontent-ref %}
 
-{% page-ref page="how-to-add-a-custom-token-to-metamask.md" %}
+{% content-ref url="how-to-add-a-custom-token-to-metamask.md" %}
+[how-to-add-a-custom-token-to-metamask.md](how-to-add-a-custom-token-to-metamask.md)
+{% endcontent-ref %}
 
-{% page-ref page="how-to-add-remove-liquidity.md" %}
+{% content-ref url="how-to-add-remove-liquidity.md" %}
+[how-to-add-remove-liquidity.md](how-to-add-remove-liquidity.md)
+{% endcontent-ref %}
 
-{% page-ref page="how-to-beefy-zap.md" %}
+{% content-ref url="how-to-beefy-zap.md" %}
+[how-to-beefy-zap.md](how-to-beefy-zap.md)
+{% endcontent-ref %}
 
-{% page-ref page="how-to-add-and-switch-networks-on-beefy-finance.md" %}
+{% content-ref url="how-to-add-and-switch-networks-on-beefy-finance.md" %}
+[how-to-add-and-switch-networks-on-beefy-finance.md](how-to-add-and-switch-networks-on-beefy-finance.md)
+{% endcontent-ref %}
 
-{% page-ref page="how-to-bridge-bifi-cross-chain.md" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-{% page-ref page="how-to-check-harvesting-compounding-rate.md" %}
-
+{% content-ref url="how-to-check-harvesting-compounding-rate.md" %}
+[how-to-check-harvesting-compounding-rate.md](how-to-check-harvesting-compounding-rate.md)
+{% endcontent-ref %}

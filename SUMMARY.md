@@ -34,7 +34,6 @@
   * [如何添加和移除流动性](chang-wen-wen-ti/how-to-guides/how-to-add-remove-liquidity.md)
   * [如何使用 Beefy Zap](chang-wen-wen-ti/how-to-guides/how-to-beefy-zap.md)
   * [如何在 Beefy Finance 上添加和切换网络](chang-wen-wen-ti/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md)
-  * [如何使用 BIFI 进行跨链](chang-wen-wen-ti/how-to-guides/how-to-bridge-bifi-cross-chain.md)
   * [如何检查金库的收获和复利率](chang-wen-wen-ti/how-to-guides/how-to-check-harvesting-compounding-rate.md)
 
 ## Beefy 的安全协议 <a href="#safu-protocol" id="safu-protocol"></a>
