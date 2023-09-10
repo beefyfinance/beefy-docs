@@ -2,7 +2,7 @@
 
 ## Адреса контрактов
 
-Токен BIFI есть на всех сетях, на которых имеются хранилища. Чтобы переключиться на другую сеть, используйте [это руководство,](../../faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md) а чтобы первести токены BIFI с одной сети на другую используйте [это руководство](../../faq/how-to-guides/how-to-bridge-bifi-cross-chain.md). Адреса контрактов указаны ниже:
+Токен BIFI есть на всех сетях, на которых имеются хранилища. Чтобы переключиться на другую сеть, используйте [это руководство,](../../faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md) а чтобы первести токены BIFI с одной сети на другую используйте [это руководство](broken-reference). Адреса контрактов указаны ниже:
 
 * BSC: [0xca3f508b8e4dd382ee878a314789373d80a5190a](https://bscscan.com/token/0xca3f508b8e4dd382ee878a314789373d80a5190a)
 * HECO: [0x765277eebeca2e31912c9946eae1021199b39c61](https://hecoinfo.com/token/0x765277eebeca2e31912c9946eae1021199b39c61)
