@@ -2,7 +2,7 @@
 
 ## Direcciones de los contratos
 
-El token BIFI es suministrado en todas las cadenas en las que hay vaults activos. Para cambiar a otra cadena utiliza [ésta guía](../../faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md), y para migrar BIFI entre cadenas utiliza [ésta guía](../../faq/how-to-guides/how-to-bridge-bifi-cross-chain.md). Las direcciones de los contratos son las siguientes:
+El token BIFI es suministrado en todas las cadenas en las que hay vaults activos. Para cambiar a otra cadena utiliza [ésta guía](../../faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md), y para migrar BIFI entre cadenas utiliza [ésta guía](broken-reference). Las direcciones de los contratos son las siguientes:
 
 * BSC: [0xca3f508b8e4dd382ee878a314789373d80a5190a](https://bscscan.com/token/0xca3f508b8e4dd382ee878a314789373d80a5190a)
 * HECO: [0x765277eebeca2e31912c9946eae1021199b39c61](https://hecoinfo.com/token/0x765277eebeca2e31912c9946eae1021199b39c61)
