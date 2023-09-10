@@ -2,7 +2,7 @@
 
 ## Adresses de contrat
 
-Le jeton BIFI est disponible sur toutes les chaînes où nous avons des vaults actifs. Pour passer sur une autre chaîne, utilisez [ce guide](../../faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md) et pour bridger du BIFI entre différentes chaînes, utilisez [ce guide](../../faq/how-to-guides/how-to-bridge-bifi-cross-chain.md). Ci-dessous les adresses de contrat du jeton BIFI sur chaque chaine:&#x20;
+Le jeton BIFI est disponible sur toutes les chaînes où nous avons des vaults actifs. Pour passer sur une autre chaîne, utilisez [ce guide](../../faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md) et pour bridger du BIFI entre différentes chaînes, utilisez [ce guide](broken-reference). Ci-dessous les adresses de contrat du jeton BIFI sur chaque chaine:&#x20;
 
 * BSC: [0xca3f508b8e4dd382ee878a314789373d80a5190a](https://bscscan.com/token/0xca3f508b8e4dd382ee878a314789373d80a5190a)
 * HECO: [0x765277eebeca2e31912c9946eae1021199b39c61](https://hecoinfo.com/token/0x765277eebeca2e31912c9946eae1021199b39c61)

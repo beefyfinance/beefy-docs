@@ -43,7 +43,7 @@ Sur la page de vault, beaucoup d'informations sont disponibles. Premièrement, l
 
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-Dans cet exemple, le module repère automatiquement que vous avez 1 BIFI disponible dans notre portefeuille à déposer. Un bouton « Buy Token » (Acheter des jetons) est prévu au cas où vous n'auriez pas de BIFI ou que vous souhaiteriez en acheter davantage pour effectuer un dépôt, ainsi qu'un bouton « Bridge BIFI » pour passer des BIFI présents sur une autre blockchain vers Arbitrum (Si vous avez besoin d'aide pour cela, voici [how-to-bridge-bifi-cross-chain.md](how-to-bridge-bifi-cross-chain.md "mention")).&#x20;
+Dans cet exemple, le module repère automatiquement que vous avez 1 BIFI disponible dans notre portefeuille à déposer. Un bouton « Buy Token » (Acheter des jetons) est prévu au cas où vous n'auriez pas de BIFI ou que vous souhaiteriez en acheter davantage pour effectuer un dépôt, ainsi qu'un bouton « Bridge BIFI » pour passer des BIFI présents sur une autre blockchain vers Arbitrum (Si vous avez besoin d'aide pour cela, voici [Broken link](broken-reference "mention")).&#x20;
 
 Un champ de saisie ainsi qu'un bouton "Max" permettent de saisir le montant exact de BIFI que vous souhaitez déposer. Les frais d'utilisation du vault sont aussi indiqués. Pour plus de détails, vous pouvez consulter ici [Comment sont partagés les frais d'un vault](../../ecosystem-1/vaults.md#comment-sont-partages-les-frais-dun-coffre-fort).
 

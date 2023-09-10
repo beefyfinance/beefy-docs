@@ -12,8 +12,8 @@ description: Beefy, la plateforme aux 1001 surnoms...
 * « Un très bon investissement super décentralisé »
 
 _**Mais en termes pratiques, Beefy est un Optimiseur de Rendement qui supprime les actions journalières et les frais en lien avec l'optimisation manuelle.**_\
-_****_\
-_****_En utilisant Beefy, vos fonds sont en sécurité et vous y gagnez un très bon retour sur investissement.
+\
+En utilisant Beefy, vos fonds sont en sécurité et vous y gagnez un très bon retour sur investissement.
 
 Pour les nouveaux arrivants dans l'univers de la Finance Décentralisée (DeFi), le "Yield Farming" est une méthode simple permettant de générer des intérêts avec vos crypto-actifs. Cette méthode permet de générer des intérêts, plutôt que de simples "gains" avec vos crypto-monnaies.
 

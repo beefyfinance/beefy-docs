@@ -1,4 +1,4 @@
-# How-To Guides
+# Guides Pratiques
 
 {% content-ref url="how-to-participate-in-a-moovault.md" %}
 [how-to-participate-in-a-moovault.md](how-to-participate-in-a-moovault.md)
@@ -20,8 +20,8 @@
 [how-to-add-and-switch-networks-on-beefy-finance.md](how-to-add-and-switch-networks-on-beefy-finance.md)
 {% endcontent-ref %}
 
-{% content-ref url="how-to-bridge-bifi-cross-chain.md" %}
-[how-to-bridge-bifi-cross-chain.md](how-to-bridge-bifi-cross-chain.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="how-to-check-harvesting-compounding-rate.md" %}
