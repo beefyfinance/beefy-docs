@@ -37,7 +37,7 @@
   * [Come Aggiungere e Rimuovere Liquidità](faq/how-to-guides/how-to-add-remove-liquidity.md)
   * [Come usare Beefy Zap](faq/how-to-guides/how-to-beefy-zap.md)
   * [Come aggiungere e cambiare network su Beefy Finance](faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md)
-  * [Come trasferire BIFI cross-chain](faq/how-to-guides/how-to-bridge-bifi-cross-chain.md)
+  * [REMOVED](faq/how-to-guides/how-to-bridge-bifi-cross-chain.md)
   * [Come controllare il tasso di raccolta e reinvestimento di una cassaforte](faq/how-to-guides/how-to-check-harvesting-compounding-rate.md)
 
 ## Beefy SAFU Protocol <a href="#safu-protocol" id="safu-protocol"></a>
