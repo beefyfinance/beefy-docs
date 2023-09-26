@@ -42,7 +42,7 @@ function available() public view returns (uint256) {
 
 ### totalSupply()
 
-Returns the total amount of mooTokens minted as an integer, which are always displayed as 18 decimal token. This is a standard method inherited from the ERC-20 standard. See[#what-are-mootokens](../products/vaults.md#what-are-mootokens "mention") for more details.
+Returns the total amount of mooTokens minted as an integer, which are always displayed as 18 decimal token. This is a standard method inherited from the ERC-20 standard. See[#what-are-mootokens](../beefy-products/vaults.md#what-are-mootokens "mention") for more details.
 
 ```solidity
 function totalSupply() public view virtual override returns (uint256) {

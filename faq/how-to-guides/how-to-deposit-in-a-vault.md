@@ -37,13 +37,13 @@ Note that the BIFI Earnings Pool, in which you can earn WETH by depositing BIFI,
 
 <figure><img src="../../.gitbook/assets/BIFIMaxiVaultArbi.png" alt=""><figcaption></figcaption></figure>
 
-There is a lot of information inside the vault, such as TVL (Total Value Locked), Price and APY (Annual Percentage Yield) historical rates, the [beefy-safety-score.md](../../safu-protocol/beefy-safety-score.md "mention"), Token Asset details, and the Vault's compounding strategy ([#what-is-a-vault-strategy](../../products/strategies.md#what-is-a-vault-strategy "mention")).&#x20;
+There is a lot of information inside the vault, such as TVL (Total Value Locked), Price and APY (Annual Percentage Yield) historical rates, the [beefy-safety-score.md](../../safu-protocol/beefy-safety-score.md "mention"), Token Asset details, and the Vault's compounding strategy ([#what-is-a-vault-strategy](../../beefy-products/strategies.md#what-is-a-vault-strategy "mention")).&#x20;
 
 ### 5. The Deposit and Withdraw module:
 
 <figure><img src="../../.gitbook/assets/DepositWithdrawModule.png" alt=""><figcaption></figcaption></figure>
 
-The vault already sees we have 1 BIFI available in our wallet to deposit. There is a "Buy Token" link provided in case you do not have any BIFI or wish to buy more BIFI to deposit, as well as a "Bridge BIFI" button to bridge BIFI from another blockchain to Arbitrum ([Broken link](broken-reference "mention")). A deposit field and a "Max" button are used for entering the exact amount of BIFI you want to deposit. Furthermore, the Beefy Vault Fees ([#what-is-the-vault-fee-structure](../../products/vaults.md#what-is-the-vault-fee-structure "mention")) are shown.
+The vault already sees we have 1 BIFI available in our wallet to deposit. There is a "Buy Token" link provided in case you do not have any BIFI or wish to buy more BIFI to deposit, as well as a "Bridge BIFI" button to bridge BIFI from another blockchain to Arbitrum ([how-to-bridge-bifi-cross-chain.md](how-to-bridge-bifi-cross-chain.md "mention")). A deposit field and a "Max" button are used for entering the exact amount of BIFI you want to deposit. Furthermore, the Beefy Vault Fees ([#what-is-the-vault-fee-structure](../../beefy-products/vaults.md#what-is-the-vault-fee-structure "mention")) are shown.
 
 ### 6. An example deposit:
 
@@ -65,12 +65,12 @@ In summary, depositing into a new vault always requires two transactions: one fo
 
 <figure><img src="../../.gitbook/assets/DepositConfirmation.png" alt=""><figcaption></figcaption></figure>
 
-Once the transaction succeeds, a message will pop up confirming the deposit and it contains a link to the transaction in the block explorer. It is very important to understand that your wallet now holds a tokenized proof of deposit called a "mooToken" ([#what-are-mootokens](../../products/vaults.md#what-are-mootokens "mention")). This mooToken is required to withdraw from the vault, don't lose it!&#x20;
+Once the transaction succeeds, a message will pop up confirming the deposit and it contains a link to the transaction in the block explorer. It is very important to understand that your wallet now holds a tokenized proof of deposit called a "mooToken" ([#what-are-mootokens](../../beefy-products/vaults.md#what-are-mootokens "mention")). This mooToken is required to withdraw from the vault, don't lose it!&#x20;
 
 On the block explorer page of the deposit transaction you can find out that the mooTokens are indeed supplied to your wallet after depositing in the vault. The token transfer will look something like this:
 
 <figure><img src="../../.gitbook/assets/DepositMooTokens.png" alt=""><figcaption></figcaption></figure>
 
-Since mooTokens are interest-bearing, they are more valuable than their "normal" token counterpart. This is also the reason why the mooToken amount does not 1:1 match with the token amount initially deposited ([#how-do-mootokens-earn-interest](../../products/vaults.md#how-do-mootokens-earn-interest "mention")).
+Since mooTokens are interest-bearing, they are more valuable than their "normal" token counterpart. This is also the reason why the mooToken amount does not 1:1 match with the token amount initially deposited ([#how-do-mootokens-earn-interest](../../beefy-products/vaults.md#how-do-mootokens-earn-interest "mention")).
 
 That's it, once the harvest function on this vault is called, you are already earning yield!

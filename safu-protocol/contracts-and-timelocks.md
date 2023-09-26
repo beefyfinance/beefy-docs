@@ -51,7 +51,7 @@ Multi-signature developer wallets are used to deploy changes to contracts, such 
 
 ## Treasury Multisigs
 
-Beefy's treasury spending is secured by requiring multiple signatures from trusted (community) members. [As voted on by the DAO](https://vote-archive.beefy.finance/#/beefy/proposal/QmR5mzwjs46b3YRYWtc12CqqxF6r7VfpPd6ZfiRXnR69go), the following members represent the Treasury Council: Power, AllTrades, Pablo, mjoaris, TBC, DefiDebauchery and YR2150. See the [treasury.md](../community-governance/treasury.md "mention") page for further information about the Beefy Treasury.
+Beefy's treasury spending is secured by requiring multiple signatures from trusted (community) members. [As voted on by the DAO](https://vote-archive.beefy.finance/#/beefy/proposal/QmR5mzwjs46b3YRYWtc12CqqxF6r7VfpPd6ZfiRXnR69go), the following members represent the Treasury Council: Power, AllTrades, Pablo, mjoaris, TBC, DefiDebauchery and YR2150. See the [treasury.md](../dao/treasury.md "mention") page for further information about the Beefy Treasury.
 
 * Arbitrum: [0x3f5eddad52C665A4AA011cd11A21E1d5107d7862](https://gnosis-safe.io/app/arb1:0x3f5eddad52C665A4AA011cd11A21E1d5107d7862/balances)
 * Aurora: [0x088C70Ddff3a3774825dd5e5EaDB356404248d83](https://app.safe.global/home?safe=aurora:0x088C70Ddff3a3774825dd5e5EaDB356404248d83)

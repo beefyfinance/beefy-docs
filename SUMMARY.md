@@ -9,10 +9,12 @@
 ## Beefy Ecosystem <a href="#ecosystem" id="ecosystem"></a>
 
 * [Introduction to Beefy](ecosystem/introduction.md)
-* [Beefy Protocol](ecosystem/protocol.md)
+* [Beefy Protocol](ecosystem/protocol/README.md)
+  * [Revenue Bridge](ecosystem/protocol/revenue-bridge.md)
+  * [Fee Batch](ecosystem/protocol/fee-batch.md)
+  * [Governance Pools](ecosystem/protocol/governance-pools.md)
 * [$BIFI Token](ecosystem/bifi-token/README.md)
-  * [Tokenomics](ecosystem/bifi-token/tokenomics-and-governance.md)
-  * [Contract Addresses](ecosystem/bifi-token/contract-addresses.md)
+  * [Token Bridge](ecosystem/bifi-token/token-bridge.md)
 * [Beefy Bulletins](ecosystem/beefy-bulletins/README.md)
   * [What is Beefy?](ecosystem/beefy-bulletins/what-is-beefy-finance.md)
   * [The Big Beefy Opportunity](ecosystem/beefy-bulletins/the-big-beefy-opportunity.md)
@@ -23,20 +25,40 @@
   * [Introducing Beefy's Unique Revenue Share Model](ecosystem/beefy-bulletins/introducing-beefys-unique-revenue-share-model.md)
   * [Beefy's Coveted Advantages Revealed](ecosystem/beefy-bulletins/beefys-coveted-advantages-revealed.md)
 
-## Products
+## Beefy Products
 
-* [Vaults](products/vaults.md)
-* [Strategies](products/strategies.md)
-* [Boost](products/boost.md)
-* [Beefy-escrowed Tokens](products/beefy-escrowed-tokens/README.md)
-  * [beFTM](products/beefy-escrowed-tokens/beftm.md)
-  * [binSPIRIT](products/beefy-escrowed-tokens/binspirit.md)
-  * [beJOE](products/beefy-escrowed-tokens/bejoe.md)
-  * [beQI](products/beefy-escrowed-tokens/beqi.md)
-  * [beVELO](products/beefy-escrowed-tokens/bevelo.md)
-  * [beOPX](products/beefy-escrowed-tokens/beopx.md)
-* [Advanced Vaults](products/advanced-vaults/README.md)
-  * [GMX and GLP](products/advanced-vaults/gmx-and-glp.md)
+* [Vaults](beefy-products/vaults.md)
+* [Strategies](beefy-products/strategies.md)
+* [Boost](beefy-products/boost.md)
+* [Beefy-escrowed Tokens](beefy-products/beefy-escrowed-tokens/README.md)
+  * [beFTM](beefy-products/beefy-escrowed-tokens/beftm.md)
+  * [binSPIRIT](beefy-products/beefy-escrowed-tokens/binspirit.md)
+  * [beJOE](beefy-products/beefy-escrowed-tokens/bejoe.md)
+  * [beQI](beefy-products/beefy-escrowed-tokens/beqi.md)
+  * [beVELO](beefy-products/beefy-escrowed-tokens/bevelo.md)
+  * [beOPX](beefy-products/beefy-escrowed-tokens/beopx.md)
+* [Advanced Vaults](beefy-products/advanced-vaults/README.md)
+  * [GMX and GLP](beefy-products/advanced-vaults/gmx-and-glp.md)
+
+## Beefy DAO <a href="#dao" id="dao"></a>
+
+* [Team & Goals](dao/team-and-goals.md)
+* [Contributor Compensation](dao/contributor-compensation.md)
+* [Governance](dao/governance.md)
+* [Proposal Repository](dao/proposal-repository.md)
+* [Treasury](dao/treasury.md)
+* [Cowmoonity](dao/community.md)
+* [Partnerships](dao/partnerships.md)
+
+## Beefy SAFU Protocol <a href="#safu-protocol" id="safu-protocol"></a>
+
+* [Beefy SAFU Practices](safu-protocol/beefy-safu-practices.md)
+* [Contracts & Timelocks](safu-protocol/contracts-and-timelocks.md)
+* [Bug Bounty Program](safu-protocol/bug-bounty-program.md)
+* [Beefy Safety Score](safu-protocol/beefy-safety-score.md)
+* [Token Allowance](safu-protocol/token-allowance.md)
+* [Beefy Backup](safu-protocol/beefy-backup.md)
+* [Insurance](safu-protocol/insurance.md)
 
 ## FAQ
 
@@ -49,27 +71,8 @@
   * [How to Add and Remove Liquidity](faq/how-to-guides/how-to-add-remove-liquidity.md)
   * [How to use Beefy ZAP](faq/how-to-guides/how-to-beefy-zap.md)
   * [How to add and switch networks on Beefy](faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md)
+  * [\[DELETED\]](faq/how-to-guides/how-to-bridge-bifi-cross-chain.md)
   * [How to check the harvesting and compounding rate of a vault](faq/how-to-guides/how-to-check-harvesting-compounding-rate.md)
-
-## Beefy SAFU Protocol <a href="#safu-protocol" id="safu-protocol"></a>
-
-* [Beefy SAFU Practices](safu-protocol/beefy-safu-practices.md)
-* [Contracts & Timelocks](safu-protocol/contracts-and-timelocks.md)
-* [Bug Bounty Program](safu-protocol/bug-bounty-program.md)
-* [Beefy Safety Score](safu-protocol/beefy-safety-score.md)
-* [Token Allowance](safu-protocol/token-allowance.md)
-* [Beefy Backup](safu-protocol/beefy-backup.md)
-* [Insurance](safu-protocol/insurance.md)
-
-## Cowmoonity/Governance <a href="#community-governance" id="community-governance"></a>
-
-* [Team & Goals](community/team-and-goals.md)
-* [Contributor Compensation](community/contributor-compensation.md)
-* [Governance](community-governance/governance.md)
-* [Proposal Repository](community/proposal-repository.md)
-* [Treasury](community-governance/treasury.md)
-* [Cowmoonity](community/community.md)
-* [Partnerships](community-governance/partnerships.md)
 
 ## Developer Documentation
 

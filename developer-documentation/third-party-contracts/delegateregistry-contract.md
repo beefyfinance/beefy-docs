@@ -154,6 +154,6 @@ The DelegateRegistry contract and Beefy snapshot space are deployed at the follo
 
 ## More Information
 
-For more details of how vote delegation works for Beefy's governance, see the [governance.md](../../community-governance/governance.md "mention") page (specifically [#how-do-i-delegate-my-vote](../../community-governance/governance.md#how-do-i-delegate-my-vote "mention") and [#how-do-i-become-a-delegate](../../community-governance/governance.md#how-do-i-become-a-delegate "mention")). You can also find the current maintained list of vote delegates in this [Google sheet](https://docs.google.com/spreadsheets/d/1sJH4jg3eEEJDpbws55qUmzPeLDiDuL\_5OAQobSn7m2Y/edit?usp=sharing).
+For more details of how vote delegation works for Beefy's governance, see the [governance.md](../../dao/governance.md "mention") page (specifically [#how-do-i-delegate-my-vote](../../dao/governance.md#how-do-i-delegate-my-vote "mention") and [#how-do-i-become-a-delegate](../../dao/governance.md#how-do-i-become-a-delegate "mention")). You can also find the current maintained list of vote delegates in this [Google sheet](https://docs.google.com/spreadsheets/d/1sJH4jg3eEEJDpbws55qUmzPeLDiDuL\_5OAQobSn7m2Y/edit?usp=sharing).
 
 For full details of all delegations managed by Snapshot Labs' DelegateRegistry contract, you can explore the Snapshot Subgraph [here](https://thegraph.com/hosted-service/subgraph/snapshot-labs/snapshot). Further information in available in Snapshot's [documentation](https://docs.snapshot.org/guides/delegation).

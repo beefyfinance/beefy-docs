@@ -72,7 +72,7 @@ An example is the BIFI Maxi Vault, in which you earn more BIFI exponentially, an
 
 ## Why does it cost so much gas to deposit into a Beefy vault?
 
-Many of Beefy's vaults "[Harvest on Deposit](../products/vaults.md#what-is-harvesting-on-deposit)". This means that when you deposit into the vault, you are also calling the harvest function. Calling the Harvest function is more complex than a simple deposit and thus has a higher gas limit/fee. Beefy does this so that it is impossible for malicious actors to steal yield so a withdrawal fee is not required. This greatly benefits long-term investors since the withdraw fee can be removed.
+Many of Beefy's vaults "[Harvest on Deposit](../beefy-products/vaults.md#what-is-harvesting-on-deposit)". This means that when you deposit into the vault, you are also calling the harvest function. Calling the Harvest function is more complex than a simple deposit and thus has a higher gas limit/fee. Beefy does this so that it is impossible for malicious actors to steal yield so a withdrawal fee is not required. This greatly benefits long-term investors since the withdraw fee can be removed.
 
 Almost all of the vaults on more inexpensive chains like Fantom and Polygon harvest on deposit. You can also tell if a vault harvests on deposit if there is no withdrawal fee.
 
