@@ -1,3 +1,7 @@
+---
+description: 'Last Update: September 2023'
+---
+
 # Code Repositories
 
 ## Frontends
@@ -27,8 +31,4 @@
 
 ## Smart Contracts
 
-* [BIFI Token](https://github.com/beefyfinance/beefy-protocol/tree/master/token)
-* BIFI Distribution:
-  * [Pools](https://github.com/beefyfinance/beefy-protocol/tree/master/pools)
-  * [Team Timelocks](https://github.com/beefyfinance/beefy-protocol/tree/master/timelocks)
-  * [Misc.](https://github.com/beefyfinance/beefy-protocol/tree/master/contracts)
+* [BIFI Token](https://etherscan.io/address/0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1)

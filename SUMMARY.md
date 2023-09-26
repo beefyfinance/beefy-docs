@@ -90,6 +90,7 @@
 
 ## Additional Resources
 
+* [Contract Addresses](additional-resources/contract-addresses.md)
 * [Code Repositories](additional-resources/code-repositories.md)
 * [Blog](https://blog.beefy.finance/articles/)
 * [Discord](https://discord.gg/yq8wfHd)
