@@ -52,9 +52,9 @@ The initial 80,000 $BIFI supply is all minted to the Beefy treasury, for distrib
 
 ## How do I verify that $BIFI is safe?
 
-As a \[verified open-source contract]\([https://etherscan.io/address/0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1](https://etherscan.io/address/0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1)) on the Ethereum blockchain, anyone can review the code of the new $BIFI smart contract and its operations through the block explorer.&#x20;
+As a [verified open-source contract](https://etherscan.io/address/0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1) on the Ethereum blockchain, anyone can review the code of the new $BIFI smart contract and its operations through the block explorer.&#x20;
 
-With that said, we are conscious that not all users will feel comfortable verifying the safety of contracts themselves. As such, we've had the token contract audited, and you can view the full audit report \[here]\([https://etherscan.io/address/0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1#code](https://etherscan.io/address/0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1#code)).
+With that said, we are conscious that not all users will feel comfortable verifying the safety of contracts themselves. As such, we've had the token contract audited, and you can view the full audit report [here](https://github.com/beefyfinance/beefy-audits/blob/master/2023-08-30-Beefy-Zellic-BIFI-Token-Audit.pdf).
 
 ## What are the tokenomics of $BIFI?
 
@@ -73,6 +73,6 @@ The $BIFI token was launched together with the project and the [protocol](../pro
 
 <figure><img src="../../.gitbook/assets/cover.png" alt=""><figcaption><p>The $BIFI token migration was approved </p></figcaption></figure>
 
-In July 2023, issues with the Multichain project - Beefy's bridging provider who had issued the $BIFI token on all non-native chains - caused critical failures with the Multichain bridge. Shortly after this, the decision was taken to seek to migrate the $BIFI token away from Multichain, to protect user funds. A more detailed account of the events leading up to the Migration is provided \[here]\([https://beefy.com/articles/bifi-migration/](https://beefy.com/articles/bifi-migration/)).
+In July 2023, issues with the Multichain project - Beefy's bridging provider who had issued the $BIFI token on all non-native chains - caused critical failures with the Multichain bridge. Shortly after this, the decision was taken to seek to migrate the $BIFI token away from Multichain, to protect user funds. A more detailed account of the events leading up to the Migration is provided [here](https://beefy.com/articles/bifi-migration/).
 
 Through \[BIP:71] - the $BIFI Migration Plan - Beefy's core team sought approval for a comprehensive plan involving moving the token's base to Ethereum, restructure the [governance-pools.md](../protocol/governance-pools.md "mention") and building a new [revenue-bridge.md](../protocol/revenue-bridge.md "mention") and [token-bridge.md](token-bridge.md "mention"). After several months of work to prepare for the change over, the migration was implemented in September 2023.
