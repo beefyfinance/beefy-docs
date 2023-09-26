@@ -383,7 +383,7 @@ For further specificity, you can add a {blockchain} parameter to the /config end
 
 <summary>GET /boosts</summary>
 
-Provides information on all [Launchpool Boosts](../beefy-products/boost.md) hosted by Beefy on the application, including live and historic boosts.
+Provides information on all [Launchpool Boosts](../products/boost.md) hosted by Beefy on the application, including live and historic boosts.
 
 ```
 // Sample response from /boosts endpoint (e.g. Optimism BIFI-WETH LP token)

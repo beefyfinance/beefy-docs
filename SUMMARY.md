@@ -27,28 +27,28 @@
 
 ## Beefy Products
 
-* [Vaults](beefy-products/vaults.md)
+* [Vaults](products/vaults.md)
 * [Strategies](beefy-products/strategies.md)
-* [Boost](beefy-products/boost.md)
+* [Boost](products/boost.md)
 * [Beefy-escrowed Tokens](beefy-products/beefy-escrowed-tokens/README.md)
-  * [beFTM](beefy-products/beefy-escrowed-tokens/beftm.md)
-  * [binSPIRIT](beefy-products/beefy-escrowed-tokens/binspirit.md)
-  * [beJOE](beefy-products/beefy-escrowed-tokens/bejoe.md)
-  * [beQI](beefy-products/beefy-escrowed-tokens/beqi.md)
-  * [beVELO](beefy-products/beefy-escrowed-tokens/bevelo.md)
-  * [beOPX](beefy-products/beefy-escrowed-tokens/beopx.md)
+  * [beFTM](products/beefy-escrowed-tokens/beftm.md)
+  * [binSPIRIT](products/beefy-escrowed-tokens/binspirit.md)
+  * [beJOE](products/beefy-escrowed-tokens/bejoe.md)
+  * [beQI](products/beefy-escrowed-tokens/beqi.md)
+  * [beVELO](products/beefy-escrowed-tokens/bevelo.md)
+  * [beOPX](products/beefy-escrowed-tokens/beopx.md)
 * [Advanced Vaults](beefy-products/advanced-vaults/README.md)
-  * [GMX and GLP](beefy-products/advanced-vaults/gmx-and-glp.md)
+  * [GMX and GLP](products/advanced-vaults/gmx-and-glp.md)
 
 ## Beefy DAO <a href="#dao" id="dao"></a>
 
-* [Team & Goals](dao/team-and-goals.md)
-* [Contributor Compensation](dao/contributor-compensation.md)
+* [Team & Goals](community/team-and-goals.md)
+* [Contributor Compensation](community/contributor-compensation.md)
 * [Governance](dao/governance.md)
-* [Proposal Repository](dao/proposal-repository.md)
+* [Proposal Repository](community/proposal-repository.md)
 * [Treasury](dao/treasury.md)
-* [Cowmoonity](dao/community.md)
-* [Partnerships](dao/partnerships.md)
+* [Cowmoonity](community/community.md)
+* [Partnerships](community-governance/partnerships.md)
 
 ## Beefy SAFU Protocol <a href="#safu-protocol" id="safu-protocol"></a>
 

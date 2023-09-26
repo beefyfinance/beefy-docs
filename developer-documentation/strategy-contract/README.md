@@ -234,7 +234,7 @@ function addLiquidity() internal {
 
 ### setHarvestOnDeposit()
 
-Most Beefy vaults [harvest on deposit](../../beefy-products/vaults.md#what-is-harvesting-on-deposit). This means that, before the user's funds enter the strategy, the yield on the entire vault is harvested and reinvested. This prevents new depositors from stealing the yield of existing depositors. As a result, any vault that is set to harvest on deposit is able to remove the withdrawal fee completely.
+Most Beefy vaults [harvest on deposit](../../products/vaults.md#what-is-harvesting-on-deposit). This means that, before the user's funds enter the strategy, the yield on the entire vault is harvested and reinvested. This prevents new depositors from stealing the yield of existing depositors. As a result, any vault that is set to harvest on deposit is able to remove the withdrawal fee completely.
 
 _harvestOnDeposit_ is a boolean variable which is set to true when the vault is harvesting on deposit. This is toggled by the _setHarvestOnDeposit()_ function, set out below:
 

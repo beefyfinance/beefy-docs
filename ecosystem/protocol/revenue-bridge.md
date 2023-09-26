@@ -45,8 +45,6 @@ The Revenue Bridge is designed to serve as flexible and resilient on-chain infra
 
 As detailed in [#what-does-the-revenue-bridge-do](revenue-bridge.md#what-does-the-revenue-bridge-do "mention"), the Revenue Bridge has several core functions, which it applies to fees transferred by strategies on each chain.
 
-<figure><img src="../../.gitbook/assets/revenue-hub-spoke-flowchart (1).gif" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../../.gitbook/assets/Revenue-bridge-flowchart.gif" alt=""><figcaption><p>Flowchart showing the movement of fees through a typical Revenue Bridge, and one of numerous bridging/messaging solutions.</p></figcaption></figure>
 
 As detailed in the flowchart above, once fees are received they are first used to top up the Beefy Cowllector, to support harvesting operations on the chain. Afterwards, they are swapped to the relevant stablecoin to prepare for bridging.&#x20;
