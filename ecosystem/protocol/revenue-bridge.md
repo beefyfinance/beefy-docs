@@ -4,7 +4,7 @@ description: 'Last Update: November 2023'
 
 # Revenue Bridge
 
-The Beefy Revenue Bridge is one of a few core components in the wider [.](./ "mention") which help to distribute vault fees from each of our deployed chains back to our Ethereum [governance-pools.md](governance-pools.md "mention") and [treasury.md](../../dao/treasury.md "mention"). In doing so, the Revenue Bridge acts in one direction, to move earnings away from deployed chains and back to Beefy's native Ethereum. Its core purpose is to facilitate the transfer of assets across blockchains.
+The Beefy Revenue Bridge is one of a few core components in the wider [.](./ "mention") which help to distribute vault fees from each of our deployed chains back to our Ethereum [incentive-programmes.md](incentive-programmes.md "mention") and [treasury.md](../../dao/treasury.md "mention"). In doing so, the Revenue Bridge acts in one direction, to move earnings away from deployed chains and back to Beefy's native Ethereum. Its core purpose is to facilitate the transfer of assets across blockchains.
 
 ## What does the Revenue Bridge do?
 
@@ -65,4 +65,4 @@ In some cases, the token being received in the hub may not be the optimal token 
 
 ## What happens on Ethereum?
 
-Once the fees from the hub chains reach Ethereum, they are sent directly to Ethereum's [fee-batch.md](fee-batch.md "mention") contract for onward distribution to the [governance-pools.md](governance-pools.md "mention") and the [treasury.md](../../dao/treasury.md "mention").
+Once the fees from the hub chains reach Ethereum, they are sent directly to Ethereum's [fee-batch.md](fee-batch.md "mention") contract for onward distribution to the [incentive-programmes.md](incentive-programmes.md "mention") and the [treasury.md](../../dao/treasury.md "mention").

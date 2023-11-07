@@ -12,7 +12,7 @@
 * [Beefy Protocol](ecosystem/protocol/README.md)
   * [Revenue Bridge](ecosystem/protocol/revenue-bridge.md)
   * [Fee Batch](ecosystem/protocol/fee-batch.md)
-  * [Governance Pools](ecosystem/protocol/governance-pools.md)
+  * [Incentive Programmes](ecosystem/protocol/incentive-programmes.md)
 * [$BIFI Token](ecosystem/bifi-token/README.md)
   * [Token Bridge](ecosystem/bifi-token/token-bridge.md)
 * [Beefy Bulletins](ecosystem/beefy-bulletins/README.md)
@@ -27,28 +27,28 @@
 
 ## Beefy Products
 
-* [Vaults](products/vaults.md)
+* [Vaults](beefy-products/vaults.md)
 * [Strategies](beefy-products/strategies.md)
-* [Boost](products/boost.md)
+* [Boost](beefy-products/boost.md)
 * [Beefy-escrowed Tokens](beefy-products/beefy-escrowed-tokens/README.md)
-  * [beFTM](products/beefy-escrowed-tokens/beftm.md)
-  * [binSPIRIT](products/beefy-escrowed-tokens/binspirit.md)
-  * [beJOE](products/beefy-escrowed-tokens/bejoe.md)
-  * [beQI](products/beefy-escrowed-tokens/beqi.md)
-  * [beVELO](products/beefy-escrowed-tokens/bevelo.md)
-  * [beOPX](products/beefy-escrowed-tokens/beopx.md)
+  * [beFTM](beefy-products/beefy-escrowed-tokens/beftm.md)
+  * [binSPIRIT](beefy-products/beefy-escrowed-tokens/binspirit.md)
+  * [beJOE](beefy-products/beefy-escrowed-tokens/bejoe.md)
+  * [beQI](beefy-products/beefy-escrowed-tokens/beqi.md)
+  * [beVELO](beefy-products/beefy-escrowed-tokens/bevelo.md)
+  * [beOPX](beefy-products/beefy-escrowed-tokens/beopx.md)
 * [Advanced Vaults](beefy-products/advanced-vaults/README.md)
-  * [GMX and GLP](products/advanced-vaults/gmx-and-glp.md)
+  * [GMX and GLP](beefy-products/advanced-vaults/gmx-and-glp.md)
 
 ## Beefy DAO <a href="#dao" id="dao"></a>
 
-* [Team & Goals](community/team-and-goals.md)
-* [Contributor Compensation](community/contributor-compensation.md)
+* [Team & Goals](dao/team-and-goals.md)
+* [Contributor Compensation](dao/contributor-compensation.md)
 * [Governance](dao/governance.md)
-* [Proposal Repository](community/proposal-repository.md)
+* [Proposal Repository](dao/proposal-repository.md)
 * [Treasury](dao/treasury.md)
-* [Cowmoonity](community/community.md)
-* [Partnerships](community-governance/partnerships.md)
+* [Cowmoonity](dao/community.md)
+* [Partnerships](dao/partnerships.md)
 
 ## Beefy SAFU Protocol <a href="#safu-protocol" id="safu-protocol"></a>
 

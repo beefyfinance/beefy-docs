@@ -20,7 +20,7 @@ MetaMask is a very popular browser-based wallet plugin. It supports Ethereum by 
 * [MetaMask Setup Guide by Binance](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain)
 * [Step-by-step guide by Creatorbread](https://www.creatorbread.com/blog/how-to-set-up-a-metamask-wallet-step-by-step-guide)
 
-## Trust Wallet <img src="../.gitbook/assets/TWT (1).png" alt="" data-size="line">
+## Trust Wallet <img src="../.gitbook/assets/TWT.png" alt="" data-size="line">
 
 Trust Wallet is a popular mobile wallet. It is user-friendly as many blockchain networks are preconfigured and it has a build in DApp Browser. It is however not as configurable as MetaMask.
 

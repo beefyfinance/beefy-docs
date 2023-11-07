@@ -14,7 +14,7 @@ Our API offers a range of public endpoints covering the full selection of data r
 
 ### Beefy Vault Endpoints
 
-Endpoints developed for use by [the Beefy Application](https://app.beefy.finance/) to display vaults' live characteristics and performance to our users.
+Endpoints developed for use by [the Beefy Application](https://app.beefy.finance/) to display vaults' live characteristics and performance to our users.&#x20;
 
 <details>
 
@@ -383,7 +383,7 @@ For further specificity, you can add a {blockchain} parameter to the /config end
 
 <summary>GET /boosts</summary>
 
-Provides information on all [Launchpool Boosts](../products/boost.md) hosted by Beefy on the application, including live and historic boosts.
+Provides information on all [Launchpool Boosts](../beefy-products/boost.md) hosted by Beefy on the application, including live and historic boosts.
 
 ```
 // Sample response from /boosts endpoint (e.g. Optimism BIFI-WETH LP token)

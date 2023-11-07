@@ -50,24 +50,24 @@ Beefy always support our beTokens with vaults on the Beefy platform, where you c
 
 In this section, we provide a page covering each of the different beTokens that we currently operate. At the time of writing, these include:
 
-{% content-ref url="../../products/beefy-escrowed-tokens/beftm.md" %}
-[beftm.md](../../products/beefy-escrowed-tokens/beftm.md)
+{% content-ref url="beftm.md" %}
+[beftm.md](beftm.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../products/beefy-escrowed-tokens/binspirit.md" %}
-[binspirit.md](../../products/beefy-escrowed-tokens/binspirit.md)
+{% content-ref url="binspirit.md" %}
+[binspirit.md](binspirit.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../products/beefy-escrowed-tokens/bejoe.md" %}
-[bejoe.md](../../products/beefy-escrowed-tokens/bejoe.md)
+{% content-ref url="bejoe.md" %}
+[bejoe.md](bejoe.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../products/beefy-escrowed-tokens/beqi.md" %}
-[beqi.md](../../products/beefy-escrowed-tokens/beqi.md)
+{% content-ref url="beqi.md" %}
+[beqi.md](beqi.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../products/beefy-escrowed-tokens/bevelo.md" %}
-[bevelo.md](../../products/beefy-escrowed-tokens/bevelo.md)
+{% content-ref url="bevelo.md" %}
+[bevelo.md](bevelo.md)
 {% endcontent-ref %}
 
 ## Where can I find out more?

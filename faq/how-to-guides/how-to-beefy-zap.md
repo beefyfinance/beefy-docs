@@ -4,7 +4,7 @@ description: One-click Beefy Vault Investing!
 
 # How to use Beefy ZAP
 
-<figure><img src="../../.gitbook/assets/1_click (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1_click.png" alt=""><figcaption></figcaption></figure>
 
 Beefy ZAP lets you create liquidity pool tokens and deposit into Beefy vaults with just one transaction. You no longer need to [manually add and remove liquidity](how-to-add-remove-liquidity.md)! Our ZAP tooling is a simple, quick and safe solution that eliminates the need for you to handle complicated LP tokens or obscure tokens, and even saves you from needing to leave the comfy environs of the Beefy app.
 
@@ -26,7 +26,7 @@ For the purposes of these tutorials, we will use Beefy's stMATIC-MATIC sLP vault
 
 For those following along with this tutorial, just navigate to the relevant page for the vault you would like to enter. However, be aware that our ZAP tools are not available for every vault on every blockchain, so you should check at this stage whether the deposit token dropdown menu under _"Select token"_ does permit deposits with different assets. Make sure to also _"Connect Wallet"_ before trying to deposit.&#x20;
 
-<figure><img src="../../.gitbook/assets/Example Select Token.png" alt=""><figcaption><p>The second step is to check which tokens you can use for the deposit. Without ZAP, you can only deposit the vault asset (e.g. the LP token at the top of the list). For V1, you can deposit the underlying assets of the vault (e.g. WMATIC, stMATIC or MATIC). For V2, you can deposit from a broader range of other assets (e.g. USDC, USDT, DAI, etc).</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Example Select Token (1).png" alt=""><figcaption><p>The second step is to check which tokens you can use for the deposit. Without ZAP, you can only deposit the vault asset (e.g. the LP token at the top of the list). For V1, you can deposit the underlying assets of the vault (e.g. WMATIC, stMATIC or MATIC). For V2, you can deposit from a broader range of other assets (e.g. USDC, USDT, DAI, etc).</p></figcaption></figure>
 
 Where ZAP V2 is available and you select a token that can be used for either V1 or V2, you will also be able to decide which tool to use. To switch between the two, look for the side arrow on the _"Beefy"_ header at the top of the _"Zap Route"_ box.
 

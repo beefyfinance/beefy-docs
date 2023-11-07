@@ -12,7 +12,7 @@ On launch, the Token Bridge serves only to bridge the staked $mooBIFI token.
 
 The Token Bridge is designed to enable holders on different blockchains to gain exposure to $BIFI on their preferred chain, without the need to handle the token itself on Ethereum - which is an expensive exercise due to the high gas fees.&#x20;
 
-The previous bridge (prior to the $BIFI token migration in 2023) enabled copies of $BIFI on every chain that the project launched on, enabling users to select which chain's [governance-pools.md](../protocol/governance-pools.md "mention") they wanted to stake their $BIFI on, to take advantage of the fees on that chain and the consequential level of governance incentives.
+The previous bridge (prior to the $BIFI token migration in 2023) enabled copies of $BIFI on every chain that the project launched on, enabling users to select which chain's [incentive-programmes.md](../protocol/incentive-programmes.md "mention") they wanted to stake their $BIFI on, to take advantage of the fees on that chain and the consequential level of governance incentives.
 
 However, after the migration, the reorganisation of Governance Pools to live only on Ethereum means there is no need to have $BIFI on every chain. It also unlocks the possibility of bridging the staked version of $BIFI - $mooBIFI - to allow bridged copies of the $BIFI token to still benefit from the governance incentives being paid out on Ethereum.
 
@@ -41,9 +41,9 @@ xERC-20 is [Connext](https://www.connext.network/)'s implementation of cross-cha
 
 ## Is bridged $mooBIFI different to native $mooBIFI?
 
-Yes - bridged $mooBIFI is entirely different in terms of the underlying code when compared with the native. The native $mooBIFI ERC-20 is issued by the [governance-pools.md](../protocol/governance-pools.md "mention") (the Maxi Vault), and thus reflects an actual deposit of $BIFI in the vault, being put to use by its strategy.&#x20;
+Yes - bridged $mooBIFI is entirely different in terms of the underlying code when compared with the native. The native $mooBIFI ERC-20 is issued by the [incentive-programmes.md](../protocol/incentive-programmes.md "mention") (the BIFI Vault), and thus reflects an actual deposit of $BIFI in the vault, being put to use by its strategy.&#x20;
 
-By contrast, bridged $mooBIFI is an xERC-20 token with no technical connection to the Maxi Vault or any of the functionality therein. On a smart contract-level, bridged $mooBIFI is very simple, and exists purely with the understanding that it represents a claim over the underlying $BIFI held in the lockbox contract on Ethereum.
+By contrast, bridged $mooBIFI is an xERC-20 token with no technical connection to the BIFI Vault or any of the functionality therein. On a smart contract-level, bridged $mooBIFI is very simple, and exists purely with the understanding that it represents a claim over the underlying $BIFI held in the lockbox contract on Ethereum.
 
 In light of the inconvenience of needing to bridge back to Ethereum, and possible any perception of risk around bridged copies, it may be possible that the bridged $mooBIFI is also priced differently to the native $mooBIFI and underlying $BIFI tokens by the free market. This is a natural phenomenon and to be expected.
 
@@ -55,7 +55,7 @@ As explained in [#what-is-xerc20](token-bridge.md#what-is-xerc20 "mention") abov
 
 Instead, the new Beefy Token Bridge is launching with 4 different providers:
 
-* [**The Optimism bridge**](https://app.optimism.io/bridge/) - the core bridge between Optimism and Ethereum which ensures that all tokens received on Optimism through the bridge are canonical with the underlying assets held on Ethereum. **Please note that the Optimism bridge is currently only enabled for one deposits from Ethereum to Optimism, in light of the constraints with transaction finality when going the reverse direction**;
+* [**The Optimism bridge**](https://app.optimism.io/bridge/) - the core bridge between Optimism and Ethereum which ensures that all tokens received on Optimism through the bridge are canonical with the underlying assets held on Ethereum. **Please note that the Optimism bridge is currently only enabled for one deposits from Ethereum to Optimism, in light of the constraints with transaction finality when going the reverse direction** ;
 * [**LayerZero's omnichain interoperability protocol**](https://layerzero.gitbook.io/docs/) - LayerZero's cross-chain messaging service which is used for lightning-fast exchanges between a huge range of chains;
 * [**Axelar's cross-chain gateway protocol** ](https://docs.axelar.dev/)- Axelar's cross-chain messaging services which ensures decentralized execution of messages across its range of validators; and
 * [**Chainlink's cross-chain interoperability protocol**](https://chain.link/cross-chain) - Chainlink's cross-chain messaging service which takes advantage of the existing Chainlink decentralized oracle network.

@@ -8,7 +8,7 @@ At Beefy, we recognise three words to live by: _SAFU First. Always._ You can cra
 
 This page describes the various practices that Beefy's contributors take to ensure that all new products are safe before launch, all ongoing products are properly maintained and observed, and that our response to any security concerns are issues are rapid and safe.
 
-![Beefy has adopted a stringent SAFU management approach, that monitors a range of security factors as prerequisites for all of our products.](../.gitbook/assets/safu.png)
+![Beefy has adopted a stringent SAFU management approach, that monitors a range of security factors as prerequisites for all of our products.](<../.gitbook/assets/safu (1).png>)
 
 ## New Farm Requirements
 

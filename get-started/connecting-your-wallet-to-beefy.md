@@ -6,15 +6,15 @@ Now that you have created a wallet and funded it with crypto, it’s time to con
 
 The button can be found at the top of the page:
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (9).png>)
 
 ### 2. Select your wallet from the options
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](../.gitbook/assets/image.png)
 
 ### 3. Approve the connection
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (5).png>)
 
 All done! :cow: You are now ready to explore Beefy's vaults and other earnings opportunities.
 

@@ -1,6 +1,6 @@
 # Beefy Backup
 
-![](<../.gitbook/assets/safu (1).png>)
+![](../.gitbook/assets/safu.png)
 
 {% hint style="info" %}
 Both [app.beefy.com](https://app.beefy.com/) and [app.beefy.finance](https://app.beefy.finance) are official Beefy websites. If one does not work for you, try the other.

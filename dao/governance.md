@@ -8,33 +8,33 @@ Beefy is run as a decentralised autonomous organisation (DAO), meaning it is con
 
 ## How is Beefy governed?
 
-As a decentralised organisation, Beefy is proudly governed by our $BIFI token holders. This includes our founders, Core contributors and the wider Cowmoonity, as well as some external holders. Most major decisions that Beefy takes are put to and voted on by our $BIFI holders, including how our fees are set, how the protocol and its contributors are funded, how we market Beefy and what direction we should take on certain decisions. Think of our BIFI holders as members of the Beefy legislature.
+As a decentralised organisation, Beefy is proudly governed by our $BIFI tokenholders. This includes our founders, Core contributors and the wider Cowmoonity, as well as some external holders. Most major decisions that Beefy takes are put to and voted on by our $BIFI holders, including how our fees are set, how the protocol and its contributors are funded, how we market Beefy and what direction we should take on certain decisions. Think of our $BIFI holders as members of the Beefy legislature.
 
-The key mechanism for this is governance voting, which is undertaken through our [Snapshot page](https://vote.beefy.finance/). BIFI holders are entitled to raise proposals (if they hold at least 1 $BIFI) and vote on them. Discussion of all proposals is actively encouraged on our social media channels. In particular, we would encourage you to head to the #🏛-proposals and #🗣-proposal-discussion channels on the [Beefy Discord](https://discord.gg/yq8wfHd) server. In the threads for the #🏛-proposals channel, you'll find a dedicated space for discussion of individual proposals, or #🗣-proposal-discussion serves as a more general forum.
+The key mechanism for this is governance voting, which is undertaken through our [Snapshot page](https://vote.beefy.finance/). $BIFI holders are entitled to raise proposals (if they hold at least 1 $BIFI) and vote on them. Discussion of all proposals is actively encouraged on our social media channels. In particular, we would encourage you to head to the #🏛-proposals and #🗣-proposal-discussion channels on the [Beefy Discord](https://discord.gg/yq8wfHd) server. In the threads for the #🏛-proposals channel, you'll find a dedicated space for discussion of individual proposals, or #🗣-proposal-discussion serves as a more general forum.
 
 In addition, the day-to-day operations of Beefy are governed by our Core contributor team, who take the role of the executive wing, and are tasked with carrying out the will of our BIFI holders. As with any growing organisation, it's impossible to run every decision through formal governance, so our Core team have been delegated the necessary authority to look after the protocol. That said, any area of Core's decision-making can instead be raised through governance voting, to ensure that they may be held to account.
 
 ## **How do I take part in governance?**
 
-By simply holding $BIFI, even if staked in the native token Earnings Pool or BIFI Maxi vault, a user earns the right to create proposals and vote in them. Voting sway and power are derived from the $BIFI holdings of the participant. The reasoning behind this follows that those holding more $BIFI are more invested in the project, and therefore have a larger incentive for the platform itself to succeed and prosper.
+By simply holding $BIFI, even if deposited in the BIFI Pool or BIFI Vault, a user earns the right to create proposals and vote in them. Voting sway and power are derived from the $BIFI holdings of the participant. The reasoning behind this follows that those holding more $BIFI are more invested in the project, and therefore have a larger incentive for the platform itself to succeed and prosper.
 
 Beyond voting for yourself, you can also register to participate as a delegate, so others can delegate their voting power to you for inclusion with your own vote. Through this mechanism, trusted voices in the community can leverage their support with a small amount of effort on the part of their supporters. It also allows those short on time to ensure that their $BIFI is participating in governance, without requiring them to engage with every proposal. See below and the [delegateregistry-contract.md](../developer-documentation/third-party-contracts/delegateregistry-contract.md "mention") page for further details.
 
 You can see proposals and vote on them yourself by heading to [vote.beefy.finance](https://vote.beefy.finance/).
 
-![Beefy's Snapshot page houses our governance proposals and voting.](<../.gitbook/assets/image (3) (2).png>)
+![Beefy's Snapshot page houses our governance proposals and voting.](<../.gitbook/assets/image (8).png>)
 
 ## **How do I vote?**
 
-Voting requires you to hold $BIFI, which can either simply be held in your wallet or staked in the native token Earnings Pool or BIFI Maxi vaults. You do not need to remove your stake either to vote. Voting power is based directly on the amount of $BIFI each voter holds.
+Voting requires you to hold $BIFI, which can either simply be held in your wallet or deposited in the BIFI Pool or BIFI Vault. You do not need to remove your stake either to vote. Voting power is based directly on the amount of $BIFI each voter holds.
 
 To submit your vote, simply head to to our [Snapshot page](https://vote.beefy.finance/), connect your wallet to Snapshot and then head to an open proposal you wish to vote on. Here you'll find an interface to "Cast your vote" by selecting your preferred option(s) and clicking "Vote". You'll then be required to sign a transaction through your wallet to formally submit your vote.
 
-![Look for the "Cast your vote" box on an open proposal page to get involved.](<../.gitbook/assets/image (2).png>)
+![Look for the "Cast your vote" box on an open proposal page to get involved.](<../.gitbook/assets/image (4).png>)
 
 ## How do I delegate my vote?
 
-You can delegate your vote on BNB chain by interacting directly with [the DelegateRegistry contract](https://bscscan.com/address/0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446). A full tutorial of how to delegate is available in the [delegateregistry-contract.md](../developer-documentation/third-party-contracts/delegateregistry-contract.md "mention") page at [#delegation-walkthrough](../developer-documentation/third-party-contracts/delegateregistry-contract.md#delegation-walkthrough "mention"). Please note that, due to our bespoke Snapshot tooling, you must delegate on BNB chain for your delegation to be effective. Delegations on other chains may register in the relevant DelegateRegistry contract, but will not be recognised by our tooling.
+You can delegate your vote on Ethereum by interacting directly with [the DelegateRegistry contract](https://bscscan.com/address/0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446). A full tutorial of how to delegate is available in the [delegateregistry-contract.md](../developer-documentation/third-party-contracts/delegateregistry-contract.md "mention") page at [#delegation-walkthrough](../developer-documentation/third-party-contracts/delegateregistry-contract.md#delegation-walkthrough "mention"). Please note that, due to our bespoke Snapshot tooling, you must delegate on Ethereum for your delegation to be effective. Delegations on other chains may register in the relevant DelegateRegistry contract, but will not be recognised by our tooling.
 
 ## How do I become a delegate?
 
@@ -77,10 +77,10 @@ Each proposal is made up of a question to pose to the community, along with the 
 As our governance process has developed, we have adopted a number of different forms of proposal for different purposes. These include:
 
 * Beefy Improvement Proposals (BIPs) - the default form of proposal, for an issue aimed at improving the protocol in some way.
-  * This now includes proposals for [reoccurring contributor payments](../community/contributor-compensation.md#reoccurring-payments).
+  * This now includes proposals for [reoccurring contributor payments](contributor-compensation.md#reoccurring-payments).
 * Beefy Signally Proposals (BSPs) - an alternative, non-binding proposal, aimed at establishing consensus amongst $BIFI holders, or demonstrating their opinions/preferences.
-* [Requests for Funds / Retroactive Payments](../community/contributor-compensation.md#retroactive-payments) - a simple request for funding from the Beefy [treasury.md](treasury.md "mention") for a particular work stream or contributors. These are typically a form of expense, rather than an investment.
-* [Grant Proposals](../community/contributor-compensation.md#beefygrants) - a more detailed request for funding from the [treasury.md](treasury.md "mention"), typically relating to a large project that requires significant funding and input, but is aimed at delivering future revenues or cost-savings to Beefy (so is an investment, rather than an expense).
+* [Requests for Funds / Retroactive Payments](contributor-compensation.md#retroactive-payments) - a simple request for funding from the Beefy [treasury.md](treasury.md "mention") for a particular work stream or contributors. These are typically a form of expense, rather than an investment.
+* [Grant Proposals](contributor-compensation.md#beefygrants) - a more detailed request for funding from the [treasury.md](treasury.md "mention"), typically relating to a large project that requires significant funding and input, but is aimed at delivering future revenues or cost-savings to Beefy (so is an investment, rather than an expense).
 
 ## How do we protect against malicious votes?
 
@@ -96,4 +96,4 @@ Recent votes are stored on the our [Snapshot page](https://vote.beefy.finance/).
 Note that access to the archived Beefy voting site is available at [https://vote-archive.beefy.finance/](https://vote-archive.beefy.finance/). The archived site requires users to connect their wallet to both the site and the BSC Mainnet to display historic proposals. The current voting site is available live at [https://vote.beefy.finance/#/](https://vote.beefy.finance/#/).
 {% endhint %}
 
-Alternatively, we have prepared and maintain a [proposal repository](../community/proposal-repository.md) here in our docs, where you can quickly get access to any of the major proposals on either voting site throughout our history.
+Alternatively, we have prepared and maintain a [proposal repository](proposal-repository.md) here in our docs, where you can quickly get access to any of the major proposals on either voting site throughout our history.

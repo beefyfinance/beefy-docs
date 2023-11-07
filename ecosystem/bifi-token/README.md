@@ -4,14 +4,14 @@ description: 'Last Update: November 2023'
 
 # $BIFI Token
 
-The $BIFI token is the governance token of the Beefy project. It unites the [protocol](../protocol/ "mention") - which pays out to tokenholders through [governance-pools.md](../protocol/governance-pools.md "mention") - with the Beefy DAO - which conducts the [governance.md](../../dao/governance.md "mention") of the project.
+The $BIFI token is the governance token of the Beefy project. It unites the [protocol](../protocol/ "mention") - which pays out to tokenholders through [incentive-programmes.md](../protocol/incentive-programmes.md "mention") - with the Beefy DAO - which conducts the [governance.md](../../dao/governance.md "mention") of the project.
 
-## What is $BIFI?
+## **What is $BIFI?**
 
 The Beefy token (symbol: BIFI) is an ERC-20 smart contract which records the holdings of $BIFI tokens among our community of tokenholders. The purpose of $BIFI itself revolves are two core use cases:
 
 * **Project Governance** - holders of $BIFI can vote in the [Beefy Snapshot Space](https://vote.beefy.finance/#/) on all of our governance matters, at a rate of 1 vote per token (including fractional amounts); and
-* **Stakeholder Incentivization** - through holding the $BIFI token, the project can incentivize the participation by stakeholders in the project and protocol with governance incentives paid through our [governance-pools.md](../protocol/governance-pools.md "mention").
+* **Stakeholder Incentivization** - through holding the $BIFI token, the project can incentivize the participation by stakeholders in the project and protocol with governance incentives paid through our [incentive-programmes.md](../protocol/incentive-programmes.md "mention").
 
 Other external use cases for Beefy have emerged over time, including offering liquidity for trading in $BIFI and using $BIFI as collateral for loans. However, within the Beefy project, the token is purely intended to facilitate and encourage governance of the project.
 
@@ -71,15 +71,17 @@ The $BIFI token was launched together with the project and the [protocol](../pro
 
 In July 2023, issues with the Multichain project - Beefy's bridging provider who had issued the $BIFI token on all non-native chains - caused critical failures with the Multichain bridge. Shortly after this, the decision was taken to seek to migrate the $BIFI token away from Multichain, to protect user funds. A more detailed account of the events leading up to the Migration is provided [here](https://beefy.com/articles/bifi-migration/).
 
-Through \[BIP:71] - the $BIFI Migration Plan - Beefy's core team sought approval for a comprehensive plan involving moving the token's base to Ethereum, restructure the [governance-pools.md](../protocol/governance-pools.md "mention") and building a new [revenue-bridge.md](../protocol/revenue-bridge.md "mention") and [token-bridge.md](token-bridge.md "mention"). After several months of work to prepare for the change over, the migration was implemented in September 2023.
+Through \[BIP:71] - the $BIFI Migration Plan - Beefy's core team sought approval for a comprehensive plan involving moving the token's base to Ethereum, restructure the [incentive-programmes.md](../protocol/incentive-programmes.md "mention") and building a new [revenue-bridge.md](../protocol/revenue-bridge.md "mention") and [token-bridge.md](token-bridge.md "mention"). After several months of work to prepare for the change over, the migration was implemented in September 2023.
 
-## What is $mooBIFI
+### What is $mooBIFI
 
 $mooBIFI is the name of the vault token for the [BIFI Vault](https://app.beefy.com/vault/bifi-vault). The BIFI Vault is the output contract of our incentives programmes which gives out incentives to tokenholders in the form of $BIFI tokens. Revenue from all vaults on every chain flow to Ethereum and into the BIFI Vault for distribution as incentives. Incentives are autocompounded linearly based on the quantity of $BIFI tokens deposited into the pool. All incentives are automatically swapped into $BIFI and redeposited, resulting in a higher APY of incentives when compraed to the BIFI Pool. The amount of $mooBIFI tokens issued on deposit reflects the user's share of the $BIFI in the vault, so 1 $mooBIFI token will equate to more than 1 $BIFI token.
 
-$rBIFI is the name of the vault token for the [BIFI Pool](https://app.beefy.com/vault/bifi-pool). The BIFI Pool is the output contract of our incentives programmes which pgives out incentives to tokenholders in the form of $ETH tokens. Revenue from all vaults on every chain flow to Ethereum and into the BIFI Pool for distribution as incentives. Incentives are paid out linearly based on the quantity of $BIFI tokens deposited into the pool. Users must manually claim their $ETH incentives to use them. The amount of $rBIFI issued on deposit reflects the amount of $BIFI tokens deposited. 
+### What is $rBIFI
 
-## Where can I find the details of the $BIFI token?
+$rBIFI is the name of the vault token for the [BIFI Pool](https://app.beefy.com/vault/bifi-pool). The BIFI Pool is the output contract of our incentives programmes which pgives out incentives to tokenholders in the form of $ETH tokens. Revenue from all vaults on every chain flow to Ethereum and into the BIFI Pool for distribution as incentives. Incentives are paid out linearly based on the quantity of $BIFI tokens deposited into the pool. Users must manually claim their $ETH incentives to use them. The amount of $rBIFI issued on deposit reflects the amount of $BIFI tokens deposited.
+
+### Where can I find the details of the $BIFI token?
 
 The new $BIFI token, and its derivatives staked in Beefy's incentives programme, can be found on the relevant block explorers at the following links:
 
