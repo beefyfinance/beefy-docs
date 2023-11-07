@@ -1,16 +1,12 @@
 ---
-description: 'Last Update: September 2023'
+description: 'Last Update: November 2023'
 ---
 
 # $BIFI Token
 
-{% hint style="info" %}
-Note that the $BIFI migration discussed in these documents is ongoing, and so information in this page may be liable to change in the final implementation. This page has been released early for informational purposes, to assist users and tokenholders to understand the details of the planned migration.
-{% endhint %}
-
 The $BIFI token is the governance token of the Beefy project. It unites the [protocol](../protocol/ "mention") - which pays out to tokenholders through [governance-pools.md](../protocol/governance-pools.md "mention") - with the Beefy DAO - which conducts the [governance.md](../../dao/governance.md "mention") of the project.
 
-## **What is $BIFI?**
+## What is $BIFI?
 
 The Beefy token (symbol: BIFI) is an ERC-20 smart contract which records the holdings of $BIFI tokens among our community of tokenholders. The purpose of $BIFI itself revolves are two core use cases:
 
@@ -76,3 +72,25 @@ The $BIFI token was launched together with the project and the [protocol](../pro
 In July 2023, issues with the Multichain project - Beefy's bridging provider who had issued the $BIFI token on all non-native chains - caused critical failures with the Multichain bridge. Shortly after this, the decision was taken to seek to migrate the $BIFI token away from Multichain, to protect user funds. A more detailed account of the events leading up to the Migration is provided [here](https://beefy.com/articles/bifi-migration/).
 
 Through \[BIP:71] - the $BIFI Migration Plan - Beefy's core team sought approval for a comprehensive plan involving moving the token's base to Ethereum, restructure the [governance-pools.md](../protocol/governance-pools.md "mention") and building a new [revenue-bridge.md](../protocol/revenue-bridge.md "mention") and [token-bridge.md](token-bridge.md "mention"). After several months of work to prepare for the change over, the migration was implemented in September 2023.
+
+## What is $mooBIFI
+
+$mooBIFI is the name of the vault token for the [BIFI Vault](https://app.beefy.com/vault/bifi-vault). The BIFI Vault is the output contract of our incentives programmes which gives out incentives to tokenholders in the form of $BIFI tokens. Revenue from all vaults on every chain flow to Ethereum and into the BIFI Vault for distribution as incentives. Incentives are autocompounded linearly based on the quantity of $BIFI tokens deposited into the pool. All incentives are automatically swapped into $BIFI and redeposited, resulting in a higher APY of incentives when compraed to the BIFI Pool. The amount of $mooBIFI tokens issued on deposit reflects the user's share of the $BIFI in the vault, so 1 $mooBIFI token will equate to more than 1 $BIFI token.
+
+$rBIFI is the name of the vault token for the [BIFI Pool](https://app.beefy.com/vault/bifi-pool). The BIFI Pool is the output contract of our incentives programmes which pgives out incentives to tokenholders in the form of $ETH tokens. Revenue from all vaults on every chain flow to Ethereum and into the BIFI Pool for distribution as incentives. Incentives are paid out linearly based on the quantity of $BIFI tokens deposited into the pool. Users must manually claim their $ETH incentives to use them. The amount of $rBIFI issued on deposit reflects the amount of $BIFI tokens deposited. 
+
+## Where can I find the details of the $BIFI token?
+
+The new $BIFI token, and its derivatives staked in Beefy's incentives programme, can be found on the relevant block explorers at the following links:
+
+* [$BIFI on Ethereum](https://etherscan.io/address/0xB1F1ee126e9c96231Cc3d3fAD7C08b4cf873b1f1);
+* [$rBIFI on Ethereum](https://etherscan.io/address/0xb1F131437e314614313aAb3a3016FA05c1b0e087);
+* [$mooBIFI on Ethereum](https://etherscan.io/address/0xBEEF8e0982874e0292E6C5751C5A4092b3e1BEEF); and
+* [$mooBIFI on Optimism](https://optimistic.etherscan.io/address/0xc55E93C62874D8100dBd2DfE307EDc1036ad5434).
+
+The contract addresses on the relevant chains are as follows:
+
+* $BIFI on Ethereum: 0xB1F1ee126e9c96231Cc3d3fAD7C08b4cf873b1f1;
+* $rBIFI on Ethereum: 0xb1F131437e314614313aAb3a3016FA05c1b0e087;
+* $mooBIFI on Ethereum: 0xBEEF8e0982874e0292E6C5751C5A4092b3e1BEEF; and
+* $mooBIFI on Optimism: 0xc55E93C62874D8100dBd2DfE307EDc1036ad5434.

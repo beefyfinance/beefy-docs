@@ -1,12 +1,8 @@
 ---
-description: 'Last Update: September 2023'
+description: 'Last Update: November 2023'
 ---
 
 # Revenue Bridge
-
-{% hint style="info" %}
-Note that the $BIFI migration discussed in these documents is ongoing, and so information in this page may be liable to change in the final implementation. This page has been released early for informational purposes, to assist users and tokenholders to understand the details of the planned migration.
-{% endhint %}
 
 The Beefy Revenue Bridge is one of a few core components in the wider [.](./ "mention") which help to distribute vault fees from each of our deployed chains back to our Ethereum [governance-pools.md](governance-pools.md "mention") and [treasury.md](../../dao/treasury.md "mention"). In doing so, the Revenue Bridge acts in one direction, to move earnings away from deployed chains and back to Beefy's native Ethereum. Its core purpose is to facilitate the transfer of assets across blockchains.
 
