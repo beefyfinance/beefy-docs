@@ -1,12 +1,8 @@
 ---
-description: 'Last Update: September 2023'
+description: 'Last Update: November 2023'
 ---
 
 # Governance Pools
-
-{% hint style="info" %}
-Note that the $BIFI migration discussed in these documents is ongoing, and so information in this page may be liable to change in the final implementation. This page has been released early for informational purposes, to assist users and tokenholders to understand the details of the planned migration.
-{% endhint %}
 
 The final core component of the [.](./ "mention") which is needed to distribute vault fees from our various chains is our Governance Pools, which are used to reward and incentivize [bifi-token](../bifi-token/ "mention") holders for their participation in the Beefy project.&#x20;
 

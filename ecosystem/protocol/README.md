@@ -1,12 +1,8 @@
 ---
-description: 'Last Update: September 2023'
+description: 'Last Update: November 2023'
 ---
 
 # Beefy Protocol
-
-{% hint style="info" %}
-Note that the $BIFI migration discussed in these documents is ongoing, and so information in this page may be liable to change in the final implementation. This page has been released early for informational purposes, to assist users and tokenholders to understand the details of the planned migration.
-{% endhint %}
 
 Beefy is first and foremost an autonomous, decentralized yield optimization protocol. Though the wider project and DAO which surround the protocol are central to Beefy's operations and identity, in fact the protocol functions entirely independently of any such individuals, and will continue to do so on blockchain in perpetuity, even after all other stakeholders are left (even if very, very broken at that stage).
 

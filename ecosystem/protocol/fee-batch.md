@@ -1,12 +1,8 @@
 ---
-description: 'Last Update: September 2023'
+description: 'Last Update: November 2023'
 ---
 
 # Fee Batch
-
-{% hint style="info" %}
-Note that the $BIFI migration discussed in these documents is ongoing, and so information in this page may be liable to change in the final implementation. This page has been released early for informational purposes, to assist users and tokenholders to understand the details of the planned migration.
-{% endhint %}
 
 The Beefy Fee Batch is another core component of the [.](./ "mention") which distributes vault fees to our Ethereum [governance-pools.md](governance-pools.md "mention") and [treasury.md](../../dao/treasury.md "mention"). As with the [revenue-bridge.md](revenue-bridge.md "mention") which delivers fees to the Fee Batch, the Fee Batch acts in one direct only, helping to move earnings from vaults to the Beefy DAO and its tokenholders.
 

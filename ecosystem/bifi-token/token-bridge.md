@@ -1,12 +1,8 @@
 ---
-description: 'Last Update: September 2023'
+description: 'Last Update: November 2023'
 ---
 
 # Token Bridge
-
-{% hint style="info" %}
-Note that the $BIFI migration discussed in these documents is ongoing, and so information in this page may be liable to change in the final implementation. This page has been released early for informational purposes, to assist users and tokenholders to understand the details of the planned migration.
-{% endhint %}
 
 The Beefy Token Bridge refers to the bridge built by Beefy to handle our $BIFI token's implementation across various different chains. To ensure that the Beefy DAO retains foremost control over how the $BIFI token dispersed, the Token Bridge and all of its contracts have been built by Beefy and remain within its control, relying on bridging and messaging services only handle the exchange across chains.
 
@@ -59,7 +55,7 @@ As explained in [#what-is-xerc20](token-bridge.md#what-is-xerc20 "mention") abov
 
 Instead, the new Beefy Token Bridge is launching with 4 different providers:
 
-* [**The Optimism bridge**](https://app.optimism.io/bridge/) - the core bridge between Optimism and Ethereum which ensures that all tokens received on Optimism through the bridge are canonical with the underlying assets held on Ethereum;
+* [**The Optimism bridge**](https://app.optimism.io/bridge/) - the core bridge between Optimism and Ethereum which ensures that all tokens received on Optimism through the bridge are canonical with the underlying assets held on Ethereum. **Please note that the Optimism bridge is currently only enabled for one deposits from Ethereum to Optimism, in light of the constraints with transaction finality when going the reverse direction**;
 * [**LayerZero's omnichain interoperability protocol**](https://layerzero.gitbook.io/docs/) - LayerZero's cross-chain messaging service which is used for lightning-fast exchanges between a huge range of chains;
 * [**Axelar's cross-chain gateway protocol** ](https://docs.axelar.dev/)- Axelar's cross-chain messaging services which ensures decentralized execution of messages across its range of validators; and
 * [**Chainlink's cross-chain interoperability protocol**](https://chain.link/cross-chain) - Chainlink's cross-chain messaging service which takes advantage of the existing Chainlink decentralized oracle network.
