@@ -71,7 +71,6 @@
   * [How to Add and Remove Liquidity](faq/how-to-guides/how-to-add-remove-liquidity.md)
   * [How to use Beefy ZAP](faq/how-to-guides/how-to-beefy-zap.md)
   * [How to add and switch networks on Beefy](faq/how-to-guides/how-to-add-and-switch-networks-on-beefy-finance.md)
-  * [\[DELETED\]](faq/how-to-guides/how-to-bridge-bifi-cross-chain.md)
   * [How to check the harvesting and compounding rate of a vault](faq/how-to-guides/how-to-check-harvesting-compounding-rate.md)
 
 ## Developer Documentation
