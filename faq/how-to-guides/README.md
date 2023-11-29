@@ -20,10 +20,6 @@
 [how-to-add-and-switch-networks-on-beefy-finance.md](how-to-add-and-switch-networks-on-beefy-finance.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 {% content-ref url="how-to-check-harvesting-compounding-rate.md" %}
 [how-to-check-harvesting-compounding-rate.md](how-to-check-harvesting-compounding-rate.md)
 {% endcontent-ref %}
