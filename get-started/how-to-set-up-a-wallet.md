@@ -27,3 +27,12 @@ Trust Wallet is a popular mobile wallet. It is user-friendly as many blockchain 
 * [Download Trust Wallet](https://trustwallet.com/download)
 * [Trust Wallet Community Setup Guide](https://community.trustwallet.com/t/how-to-create-a-multi-coin-wallet/41)
 * [Trust Wallet Setup Guide by Binance](https://www.binance.com/en/blog/ecosystem/how-to-set-up-and-use-trust-wallet-for-bnb-smart-chain-421499824684901157)
+
+## Rabby Wallet <img src="../.gitbook/assets/rabby.png" alt="" data-size="line">
+
+Rabby is an open-source, non-custodial crypto wallet that supports multiple EVM & non-EVM chains. It is designed to be user-friendly and secure, and it offers a number of features, including a simplified UX and seamless multi-chain support making it a good choice for both beginners and experienced crypto users. It is generally supported where Metamask is used.
+
+* [Download Rabby](https://rabby.io/)
+* [A Brief Introduction To Rabby by Rugdoc](https://wiki.rugdoc.io/docs/introduction-to-rabby/)
+* [Rabby Setup Guide](https://medium.com/@rabby\_io/rabby-wallet-easy-onboarding-for-new-users-6fb1ab26ef40)
+
