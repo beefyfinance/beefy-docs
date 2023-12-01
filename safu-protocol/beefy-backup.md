@@ -12,7 +12,7 @@ This might be due to Fleek or Cloudflare undergoing maintenance or outages, but 
 
 First and foremost, _don't worry_, your funds are always SAFU on the blockchain, they are not on Beefy's website. The site is only a frontend to let you access your funds easily.
 
-If you are experiencing the aforementioned issues, try the following official mirror: [https://beefy.on.fleek.co/#/](https://beefy.on.fleek.co/#/). Using a VPN will generally help as well.
+If you are experiencing the aforementioned issues, try the following official mirror: [https://app.beefy.eth.limo/#/](https://app.beefy.eth.limo/#/). Using a VPN will generally help as well.
 
 The mirror is a developer's build, which we can provide as a backup for users that can't access Beefy's site.&#x20;
 
