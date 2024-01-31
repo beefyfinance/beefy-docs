@@ -20,8 +20,6 @@ Though it is also possible to facilitate bridging of naked $BIFI, it was felt br
 
 ## How does the Token Bridge work?
 
-The user interacts with the Token Bridge through the Beefy Web Application to transfer their ERC-20 $mooBIFI tokens to their preferred Token Bridge contract. Each of the contracts then itself transfers the ERC-20 to a single separate "lockbox" contract, to demonstrate that the underlying asset is being safely held on the base chain. Once locked, a message is sent back to the xERC-20 contact for the bridge, which mints an ERC-20 duplicate of the locked token, called an "xERC-20 token".
-
 With the xERC-20 $mooBIFI copy in place on the base chain, the Token Bridge can then engage with the external bridging/messaging provider to initiate the bridging process, and burn the xERC-20 to validate the request. The provider then facilitates the bridging or messaging needed to reach the target chain's Token Bridge contract. On receipt of the valid request, the Token Bridge then mints an xERC-20 $mooBIFI to the user on the source chain.
 
 For bridging back to Ethereum, the process is reversed. On the source chain, the xERC-20 copy is burned to validate the Token Bridge's bridge transaction with the external provider. On receipt of that message, the xERC-20 contract mints an equivalent copy, which is used to demonstrate the transaction to the lockbox. The xERC-20 is then burned to release the underlying ERC-20, which is transferred back to the user on Ethereum.
