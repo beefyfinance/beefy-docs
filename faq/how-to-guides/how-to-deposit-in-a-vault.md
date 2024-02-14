@@ -37,7 +37,7 @@ Note that the BIFI Earnings Pool, in which you can earn WETH by depositing BIFI,
 
 <figure><img src="../../.gitbook/assets/BIFIMaxiVaultArbi.png" alt=""><figcaption></figcaption></figure>
 
-There is a lot of information inside the vault, such as TVL (Total Value Locked), Price and APY (Annual Percentage Yield) historical rates, the [beefy-safety-score.md](../../safu-protocol/beefy-safety-score.md "mention"), Token Asset details, and the Vault's compounding strategy ([#what-is-a-vault-strategy](../../beefy-products/strategies.md#what-is-a-vault-strategy "mention")).&#x20;
+There is a lot of information inside the vault, such as TVL (Total Value Locked), Price and APY (Annual Percentage Yield) historical rates, the [beefy-safety-score.md](../../safety/beefy-safety-score.md "mention"), Token Asset details, and the Vault's compounding strategy ([#what-is-a-vault-strategy](../../beefy-products/strategies.md#what-is-a-vault-strategy "mention")).&#x20;
 
 ### 5. The Deposit and Withdraw module:
 

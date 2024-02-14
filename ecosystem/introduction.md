@@ -27,7 +27,7 @@ By 2023, Beefy is widely known as one of the OG cross-chain DeFi protocols, with
 Beefy differs from other DeFi yield optimizers and aggregators in a few key ways:
 
 1. Beefy's vaults are primarily "single strategy", meaning optimizing just one yield farming opportunity, rather than diluting yield across multiple opportunities;
-2. Safety is Beefy's number one priority. All of our products are run through rigorous safety standards through our [SAFU Protocol](../safu-protocol/beefy-safu-practices.md);
+2. Safety is Beefy's number one priority. All of our products are run through rigorous safety standards through our [SAFU Standards](../safety/beefy-safu-practices.md);
 3. Beefy prides itself on indiscriminately, quickly and flexibly deploying on top of an enormous range of protocols and blockchains;
 4. The Beefy Protocol directly distributes platform revenue back to users who stake $BIFI in our governance pools;
 5. Beefy offers unique strategies that can't be found elsewhere, and is often the first to market with new and exciting yield farming opportunities; and&#x20;

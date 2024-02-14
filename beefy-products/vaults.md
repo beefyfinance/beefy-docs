@@ -12,7 +12,7 @@ When browsing the vaults on the platform, you will see the annual percentage yie
 
 Each vault can either refer to a pair of tokens invested in liquidity pools, such as CAKE-BNB LP tokens within the Binance Smart Chain ecosystem, or a single token invested in lending platforms or single stake reward pools. After depositing tokens to a vault, the user is supplied with vault specific mooTokens which represent their share in the vault. We will elaborate on mooTokens in the next section.
 
-Anyone in the Cowmoonity can work together to build new strategies and submit them to the Beefy team for review. However, a new vault will not be accepted if the underlying platform does not adhere to the [beefy-safu-practices.md](../safu-protocol/beefy-safu-practices.md "mention").
+Anyone in the Cowmoonity can work together to build new strategies and submit them to the Beefy team for review. However, a new vault will not be accepted if the underlying platform does not adhere to the [beefy-safu-practices.md](../safety/beefy-safu-practices.md "mention").
 
 Summarizing, vaults can:
 
@@ -113,9 +113,9 @@ Yes. Our displayed APY values reflect the predicted rate earned on a vault in a 
 Beefy vaults are audited, but this does not mean that a vault is entirely risk free. Below are some of the general vault risks:
 
 * Assets deposited into the vault have no risk of decreasing in quantity but can decrease in monetary value.
-* As with any smart contract, the ultimate risk is that an investor's funds can end up stolen or unable to be withdrawn. The team does take steps to quantify the security risks of smart contracts and will only interact with ones that meet a specific set of requirements after excessive testing to make sure the underlying platform does not contain so called 'rug-pull' functions. For a detailed breakdown of the steps Beefy takes before adding new vaults, please consult [beefy-safu-practices.md](../safu-protocol/beefy-safu-practices.md "mention").
+* As with any smart contract, the ultimate risk is that an investor's funds can end up stolen or unable to be withdrawn. The team does take steps to quantify the security risks of smart contracts and will only interact with ones that meet a specific set of requirements after excessive testing to make sure the underlying platform does not contain so called 'rug-pull' functions. For a detailed breakdown of the steps Beefy takes before adding new vaults, please consult [beefy-safu-practices.md](../safety/beefy-safu-practices.md "mention").
 
-More detailed vault risks, or better yet, information on Beefy's vault safety expressed by the Beefy Safety Score can be found here: [Beefy Safety Score](../safu-protocol/beefy-safety-score.md).
+More detailed vault risks, or better yet, information on Beefy's vault safety expressed by the Beefy Safety Score can be found here: [Beefy Safety Score](../safety/beefy-safety-score.md).
 
 ## **Who is in control of the vault?**
 
@@ -148,7 +148,7 @@ Pending rewards are not reflected in the balance until they are swapped for the 
 
 New potential vaults can be discussed in our Discord. Our strategists then add the potential investment strategy to our strategy list. A priority is assigned to each new, potential strategy based on its APY, TVL and sustainability. Our developers/strategists then attack the list from top priority to bottom. The official forum is used for submitting actual [vault requests](https://forum.beefy.finance/c/vault-requests).
 
-Then the platform which the vault is potentially going to deposit into, is very thoroughly screened if it has safe smart contracts and no other dangerous traits. For more info on that, please read [beefy-safu-practices.md](../safu-protocol/beefy-safu-practices.md "mention").
+Then the platform which the vault is potentially going to deposit into, is very thoroughly screened if it has safe smart contracts and no other dangerous traits. For more info on that, please read [beefy-safu-practices.md](../safety/beefy-safu-practices.md "mention").
 
 ## **What’s your vault naming process?**
 

@@ -50,15 +50,15 @@
 * [Cowmoonity](dao/community.md)
 * [Partnerships](dao/partnerships.md)
 
-## Beefy SAFU Protocol <a href="#safu-protocol" id="safu-protocol"></a>
+## Safety
 
-* [Beefy SAFU Practices](safu-protocol/beefy-safu-practices.md)
-* [Contracts & Timelocks](safu-protocol/contracts-and-timelocks.md)
-* [Bug Bounty Program](safu-protocol/bug-bounty-program.md)
-* [Beefy Safety Score](safu-protocol/beefy-safety-score.md)
-* [Token Allowance](safu-protocol/token-allowance.md)
-* [Beefy Backup](safu-protocol/beefy-backup.md)
-* [Insurance](safu-protocol/insurance.md)
+* [SAFU Standards](safety/beefy-safu-practices.md)
+* [Contracts & Timelocks](safety/contracts-and-timelocks.md)
+* [Bug Bounty Program](safety/bug-bounty-program.md)
+* [Beefy Safety Score](safety/beefy-safety-score.md)
+* [Token Allowance](safety/token-allowance.md)
+* [Beefy Backup](safety/beefy-backup.md)
+* [Insurance](safety/insurance.md)
 
 ## FAQ
 
