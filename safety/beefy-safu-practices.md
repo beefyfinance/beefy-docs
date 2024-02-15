@@ -22,22 +22,19 @@ Before Beefy will consider a farm for vaulting, we ensure that the underlying to
 In addition, tokens are flagged as risky in our UI if they do not also meet the following:
 
 * rug/migrator functions should be either completely removed or timelocked sufficiently;&#x20;
-* token emission rates should have been timelocked; and
+* token emission rates should be either hard capped or timelocked sufficiently; and
 * all proxy implementation changes (i.e. upgrades to the contracts) should be timelocked.
 
 ## New Farm Requirements
 
 Before a new farm is vaulted on Beefy, the projects involved with the farm have to meet the following:
 
-* contracts must have been verified in the block explorer;
-* non-native farm tokens must be from reputable bridges;
-* liquidity must be sufficient for swapping farm token rewards; and
-* farm tokenholders with >5% circulating supply must not be either externally owned accounts (**"EOAs"**) or multi-sigs.
+* contracts must have been verified in the block explorer; and
+* liquidity must be sufficient for swapping farm token rewards.
 
 In addition, vaults are flagged as risky in our UI if they do not also meet the following:
 
-* rug/migrator functions should be either completely removed or timelocked sufficiently;&#x20;
-* farm token emission rates should have been timelocked (if farm token pairs are being vaulted); and
+* rug/migrator functions should be either completely removed or timelocked sufficiently; and
 * all proxy implementation changes (i.e. upgrades to the contracts) should be timelocked.
 
 ## New Vault Testing Procedure
