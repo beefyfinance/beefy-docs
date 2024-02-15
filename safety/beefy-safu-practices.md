@@ -17,7 +17,7 @@ Before Beefy will consider a farm for vaulting, we ensure that the underlying to
 * token contracts must have been verified in the block explorer;
 * non-native tokens must be from reputable bridges;
 * new tokens must have sufficient liquidity; and
-* circulating supply must be sufficiently distributed (i.e. no single or connected wallets holding an excessive amount of total supply).
+* circulating supply must be sufficiently distributed (i.e. no single or connected wallets holding an excessive amount of supply).
 
 In addition, tokens are flagged as risky in our UI if they do not also meet the following:
 
@@ -62,13 +62,13 @@ The new strategy is deployed with a dummy vault and all of the manual tests outl
 
 ## Timelock Monitor
 
-During the life of our vaults, the projects and protocols that we build on top of will naturally need to use functionality in their smart contracts which are susceptible to abuse (and for which a timelock was required to implement a Beefy vault). To protect against the risk of abuse, we have implemented the #👀-timelock-monitor channel on the [Beefy Discord](https://discord.gg/yq8wfHd).
+During the life of our vaults, the projects and protocols that we build on top of will naturally need to use functionality in their smart contracts which are susceptible to abuse (and for which a timelock was advisable for implementing a Beefy vault). To protect against the risk of abuse, we have implemented the #👀-timelock-monitor channel in the [Beefy Discord Server](https://discord.gg/yq8wfHd).
 
 By displaying the relevant contract and protocol, the triggered event, the method scheduled to be called and the end time for the timelock, the Timelock Monitor provides all the information needed to assess the risk and protect user funds. As a public channel, the monitor provides free access to this information for our users, as well as insight into how Beefy’s team is handling these risks, to inform decision-making.
 
 ## Panic
 
-Even with all of our precautions, sometimes something can go wrong with the underlying farm or assets in a Beefy vault, for which reacting quickly is of great importance. Beefy strategies have a keeper that is allowed to panic, which withdraws the staked funds from the farm back to the strategy contract and removes all allowances. This ensures that funds are always available for Beefy stakers to withdraw in case of emergency.
+Even with all of our precautions, sometimes something can go wrong with the underlying farm or assets in a Beefy vault, for which reacting quickly is of great importance. Beefy strategies have a keeper that is allowed to ["panic"](../developer-documentation/strategy-contract/#panic) the relevant strategy, which withdraws the staked funds from the farm back to the strategy contract and removes all allowances. This ensures that users funds are then kept available for the users to withdraw.
 
 ## Risk Warnings
 
@@ -76,4 +76,4 @@ As described above, not all SAFU Standards are essential for Beefy's products, t
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Where a product meets all minimum SAFU Standards, but does not meet all advisable points, a risk warning is displayed on the Beefy UI to warn users of the potential risks of the product.</p></figcaption></figure>
 
-A comprehensive list of all risk points is also available in the [UI public repository](https://github.com/beefyfinance/beefy-v2/blob/main/src/locales/en/risks.json). These descriptions match those shown on the UI, and the comprehensive list allows for a top-down comparison of all the advisable points that Beefy is willing to vault.
+A comprehensive list of all risk points is also available in the [UI public repository](https://github.com/beefyfinance/beefy-v2/blob/main/src/locales/en/risks.json). These descriptions match those shown on the UI, and the comprehensive list allows for a top-down comparison of all the advisable risk points that Beefy is still willing to vault.

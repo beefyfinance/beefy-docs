@@ -1,5 +1,5 @@
 ---
-description: 'Last Update: October 2022'
+description: 'Last Update: February 2024'
 ---
 
 # Insurance
@@ -48,16 +48,6 @@ Though Beefy advocates for the benefits of insurance, we also warn our users tha
 
 To bring the benefits of DeFi insurance to our users, Beefy has partnered with a selection of the leading insurance providers in the space, to create products which offer coverage over our protocol, products and contracts. At the time of writing, these are:
 
-### InsurAce.io
-
-InsurAce is a multi-chain insurance provider deployed on a range of chains including Ethereum, BSC, Avalanche, and Polygon. It offers coverage against Beefy smart contract vulnerability over more than half of the chains Beefy is deployed on.
-
-The precise make up of InsurAce's organisational is not entirely clear, though InsurAce has some incorporated legal forms (e.g. InsurAce Global Limited in the UK). It's protocol is made up of two parts: an insurance arm and an investment arm. The investment arm generates profits from fees collected to fund their insurance activities. Users pay a fee (typically 2-5% APY) when using covered smart contracts and are reimbursed for their deposits if it fails.&#x20;
-
-InsureAce operates a dedicated claims department that will review the different types of claims that can be submitted and vote on the outcome. The claim is first investigated by InsureAce's Advisory Board, which includes experts in Insurance, Security and Legal/Compliance. InsurAce are also aiming to develop a decentralised governance process over time, including the use of community Claim Assessors (who are $INSUR holders that have staked their tokens on the platform) to decide the outcome of claims. However, at the time of writing, the [Claim Assessor page](https://app.insurace.io/claim-assessor) is not live, and the current state of affairs is not made clear on the protocol site.
-
-For more information, see our blog post [here](https://beefy.com/articles/get-to-grips-with-beefy-s-smart-contract-insurance-provided-by-insurace/) and find the InsurAce Beefy product on the coverage products page [here](https://app.insurace.io/coverage/buycovers) (Product ID #110). You can find raw data on InsurAce's coverage [here](https://data.insurace.io/cover-records).
-
 ### Nexus Mutual
 
 Nexus Mutual is an Ethereum-based insurance alternative that provides coverage against specific protocols, yield tokens and custodians (i.e. centralised exchanges). It offers protocol coverage for Beefy across the vast majority of our deployed chains.&#x20;
@@ -68,19 +58,27 @@ Nexus offers a range of products including general protocol cover (i.e. covering
 
 For more information, see our blog post on the partnership [here](https://beefy.com/articles/cover-your-deposits-with-nexus-mutual/), and the Nexus Beefy product page [here](https://app.nexusmutual.io/cover/buy/get-quote?address=0x453D4Ba9a2D594314DF88564248497F7D74d6b2C). Details of the different types of coverage and their terms and conditions are available in Nexus' documentation [here](https://nexusmutual.gitbook.io/docs/users/types-of-cover).
 
+### Open Cover
+
+[Open Cover](https://opencover.com/) is a decentralized coverage distributor, that operates novel solution to access the ample coverage available on Ethereum from the comfort of lower-cost rollup chains. With Open Cover, you can obtain coverage from Nexus Mutual for a fraction of the cost on Optimism, Arbitrum or Base, by paying a small fee to Open Cover. For smaller positions, this enables access to coverage that otherwise would be prohibitively expensive in light of Ethereum gas fees. Open Cover's docs are available [here](https://docs.opencover.com/).
+
+## Deprecated Products
+
+Beefy has also partnered to issue other coverage products which have since been deprecated - i.e. no new first-party products are being issued on the open market. Because of the nature of coverage, residual claims can survive for longer periods of time after a product has been deprecated, so the details of these products appear below.
+
+### InsurAce.io
+
+InsurAce is a multi-chain insurance provider deployed on a range of chains including Ethereum, BSC, Avalanche, and Polygon. It offers coverage against Beefy smart contract vulnerability over more than half of the chains Beefy is deployed on.
+
+The precise make up of InsurAce's organisational is not entirely clear, though InsurAce has some incorporated legal forms (e.g. InsurAce Global Limited in the UK). It's protocol is made up of two parts: an insurance arm and an investment arm. The investment arm generates profits from fees collected to fund their insurance activities. Users pay a fee (typically 2-5% APY) when using covered smart contracts and are reimbursed for their deposits if it fails.&#x20;
+
+InsureAce operates a dedicated claims department that will review the different types of claims that can be submitted and vote on the outcome. The claim is first investigated by InsureAce's Advisory Board, which includes experts in Insurance, Security and Legal/Compliance. InsurAce are also aiming to develop a decentralised governance process over time, including the use of community Claim Assessors (who are $INSUR holders that have staked their tokens on the platform) to decide the outcome of claims. However, at the time of writing, the [Claim Assessor page](https://app.insurace.io/claim-assessor) is not live, and the current state of affairs is not made clear on the protocol site.
+
+For more information, see our blog post [here](https://beefy.com/articles/get-to-grips-with-beefy-s-smart-contract-insurance-provided-by-insurace/) and find the InsurAce Beefy product on the coverage products page [here](https://app.insurace.io/coverage/buycovers) (Product ID #110). You can find raw data on InsurAce's coverage [here](https://data.insurace.io/cover-records).
+
 ### Solace
 
-Solace is a decentralised, DAO-run insurance protocol, on a mission to forge innovation into intuitive protection tools for crypto explorers. It offers coverage for funds invested in Beefy as part of its all-encompassing portfolio insurance product.
-
-By contrast to others, Solace has adopted a novel approach to claims (its optimistic payouts system), wherein users are not required to file claims following an insured event, but are instead automatically paid out where Solace's risk management team assesses that any event has occurred through on-chain analytics. For the future, Solace is also developing a parametric automated claims assessment system, which will be used to automatically quantify loss events using on-chain analytics.
-
-Solace also provides an additional product (Solace Native) for protocols to cover their own smart contracts. This involves protocols holding underwriting tokens, which can be used to vote on a gauge allocation for their protocol among the wider underwriting pool.&#x20;
-
-For more information, see Solace's twitter thread on the Beefy partnership [here](https://twitter.com/SolaceFi/status/1491533263936098305?s=20\&t=jZMt6Lw4uyPfW5NUPtW6UA), and check out Solace's documentation [here](https://docs.solace.fi/).
-
-{% hint style="info" %}
-Please note that Solace's portfolio insurance is tied to their implementation of Zapper's tooling for detecting the value of assets in your wallets. Where these tools do not detect your Beefy assets (e.g. if they're newly issued), you may not be able to recover for those assets under your policy. Always make sure to thoroughly check the "My Portfolio" and "Quote Simulator" parts of your ["My Policy" page](https://app.solace.fi/cover) on Solace's app to check what their Zapper implementation can detect, as this is the limit of what's covered by your policy (even if you purchase more coverage!).
-{% endhint %}
+Solace was a decentralised insurance protocol. It offered coverage for funds invested in Beefy as part of its all-encompassing portfolio insurance product. For more information, see Solace's twitter thread on the Beefy partnership [here](https://twitter.com/SolaceFi/status/1491533263936098305?s=20\&t=jZMt6Lw4uyPfW5NUPtW6UA), and check out Solace's documentation [here](https://docs.solace.fi/). Solace [ceased operating](https://medium.com/solace-fi/to-the-valued-solace-community-0d106d1ee7be) in November 2023.
 
 ### Comparison
 
