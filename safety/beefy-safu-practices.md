@@ -17,7 +17,7 @@ Before Beefy will consider a farm for vaulting, we ensure that the underlying to
 * token contracts must have been verified in the block explorer;
 * non-native tokens must be from reputable bridges;
 * new tokens must have sufficient liquidity; and
-* circulating supply must be sufficiently distributed (i.e. no single or connected wallets holding an excessive amount of supply).
+* tokenholders with more than 5% of circulating supply must not be either an externally-owed account (**"EOA"**) or a multi-signature account.
 
 In addition, tokens are flagged as risky in our UI if they do not also meet the following:
 
