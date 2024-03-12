@@ -79,7 +79,7 @@ $mooBIFI is the name of the vault token for the [BIFI Vault](https://app.beefy.c
 
 ### What is $rBIFI
 
-$rBIFI is the name of the vault token for the [BIFI Pool](https://app.beefy.com/vault/bifi-pool). The BIFI Pool is the output contract of our incentives programmes which pgives out incentives to tokenholders in the form of $ETH tokens. Revenue from all vaults on every chain flow to Ethereum and into the BIFI Pool for distribution as incentives. Incentives are paid out linearly based on the quantity of $BIFI tokens deposited into the pool. Users must manually claim their $ETH incentives to use them. The amount of $rBIFI issued on deposit reflects the amount of $BIFI tokens deposited.
+$rBIFI is the name of the vault token for the [BIFI Pool](https://app.beefy.com/vault/bifi-pool). The BIFI Pool is the output contract of our incentives programmes which gives out incentives to tokenholders in the form of $ETH tokens. Revenue from all vaults on every chain flow to Ethereum and into the BIFI Pool for distribution as incentives. Incentives are paid out linearly based on the quantity of $BIFI tokens deposited into the pool. Users must manually claim their $ETH incentives to use them. The amount of $rBIFI issued on deposit reflects the amount of $BIFI tokens deposited.
 
 ### Where can I find the details of the $BIFI token?
 
