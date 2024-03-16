@@ -1,5 +1,5 @@
 ---
-description: 'Last Update: February 2023'
+description: 'Last Update: March 2024'
 ---
 
 # Cowmoonity
@@ -38,7 +38,7 @@ Beefy is a community of contributors. Below is a list of Cowmoonity members with
 
 ## Unique contributors
 
-As of 09-02-2023, there are 81 unique contributors among the following roles:
+As of 16-03-2024, there are 81 unique contributors among the following roles:
 
 * 18 @Core
 * 13 @Dev
