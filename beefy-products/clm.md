@@ -54,7 +54,7 @@ The _"alt"_ position exists to ensure that the user's entire position remains fu
 
 As shown by the dotted line in the graph below, the alt is positioned differently from the main position to take full advantage of the provided liquidity. Instead of using the main position's range, the alt is provided in a smaller range set between (i) the upper or lower boundary of the main position (depending on which token is overweighted); and (ii) the nearest valid _"tick"_ (or boundaries between discrete areas in price space) between the adopted boundary and main position's other boundary. &#x20;
 
-In the example below, the alt position is being set in the range between the dotted green line and the bottom solid green line, whereas the main position is being set between the two solid green lines, which are equidistant from the solid black line representing current price.
+In the example below, the alt position is being set in the range between the dotted line and the bottom thin line, whereas the main position is being set between the two thin white lines, which are equidistant from the bold white line (which represents current price).
 
 <figure><img src="../.gitbook/assets/range-graphic.png" alt=""><figcaption><p>The <em>"Alt"</em> position works by counterbalancing the main 50/50 position with a single-side position configured to a smaller range than the main position. Together the two ensure full deployment of assets and maximal earnings without rebalancing.</p></figcaption></figure>
 
