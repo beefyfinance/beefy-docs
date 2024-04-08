@@ -29,6 +29,7 @@
 
 * [Vaults](beefy-products/vaults.md)
 * [Strategies](beefy-products/strategies.md)
+* [CLM](beefy-products/clm.md)
 * [Boost](beefy-products/boost.md)
 * [Beefy-escrowed Tokens](beefy-products/beefy-escrowed-tokens/README.md)
   * [beFTM](beefy-products/beefy-escrowed-tokens/beftm.md)

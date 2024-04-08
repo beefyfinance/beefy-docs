@@ -1,8 +1,12 @@
+---
+description: 'Last Update: April 2024'
+---
+
 # Vaults
 
-## What is a Vault?
+### What is a Vault?
 
-Vaults are investment instruments that employ a specific set of [strategies](strategies.md) for yield farming. They make use of automation to continually invest and reinvest deposited funds, which help to achieve high levels of compound interest. By using a Beefy vault to compound your gains, you save thousands of transactions with their associated gas costs, and precious personal time. Instead of manually harvesting and selling rewards, buying more tokens, and reinvesting that continuously, a vault does all that automatically at a high frequency.
+Vaults are investment instruments that employ a specific set of [strategies](strategies.md) for yield farming or [CLM](clm.md). They make use of automation to invest and manage deposited funds, which help to achieve high levels of compounding interest. By using a Beefy vault to compound your gains, you save countless small transactions and their associated gas costs, and precious personal time. Instead of manually managing your position our vaults do that all automatically and at a higher frequency.
 
 Vaults are the core of the Beefy ecosystem. In a Beefy vault, you earn more of the asset you stake in it, regardless if this is an liquidity pool (LP) token or a single asset. For example, vaults where one can stake BTC-BNB LP will result in more BTC-BNB LP over time, effectively growing your share in the liquidity pool and thus allowing for more and more fees and rewards over time.
 
@@ -26,7 +30,7 @@ Summarizing, vaults can:
 
 Users can sit back and relax, and watch their investment grow!
 
-## **What are mooTokens?**
+### **What are mooTokens?**
 
 A mooToken is an interest-bearing, tokenized proof of deposit that you will receive at the moment you deposit in a Beefy vault. A mooToken is unique per vault, e.g. you get $mooBIFI tokens when depositing $BIFI into the BIFI Vault. One can view mooTokens as the receipt of your vault deposit.
 
@@ -34,15 +38,15 @@ A mooToken is an interest-bearing, tokenized proof of deposit that you will rece
 Beefy users should hold on tightly to their mooTokens and not sell or exchange it, since you would lose ownership of your staked vault assets if you did so!
 {% endhint %}
 
-## How do mooTokens earn interest?
+### How do mooTokens earn interest?
 
 Beefy's vaults automatically create more of your deposited asset in the form of compound interest. By holding mooTokens in your wallet, they are increasing in value against its corresponding vault asset. The number of mooTokens in your wallet will remain constant, but the quantity of the vault tokens they can be redeemed for increases. This is also the reason why mooTokens do not 1:1 match with the token amount initially deposited.
 
-## How do I redeem mooTokens for the initially deposited tokens?
+### How do I redeem mooTokens for the initially deposited tokens?
 
 Whenever you want to withdraw the tokens that are staked for you in Beefy's vault, you simply initiate a withdrawal transaction to exchange them. The mooTokens are then taken from your wallet and burned, and your deposited assets plus yield will be given back to you.
 
-## What are the advantages of the mooToken system?
+### What are the advantages of the mooToken system?
 
 Beefy's mooToken system has a few major advantages:&#x20;
 
@@ -52,15 +56,15 @@ Beefy's mooToken system has a few major advantages:&#x20;
 4. mooTokens can have tax benefits. Not only do our mooTokens make bookkeeping super simple, but since you're not selling off your rewards or receiving staking rewards direct to your wallet, (in many jurisdictions) you will not be incurring tax liabilities in the same way you would with farming your own yield; and
 5. Lastly, mooTokens can be used as interest-bearing collateral.
 
-## **How often do the vaults harvest their profits and reinvest?**
+### **How often do the vaults harvest their profits and reinvest?**
 
 Vaults are normally harvested multiple times daily and profits are automatically reinvested (compounded). You can check the harvesting and compounding rate of a vault using [this how-to guide](../faq/how-to-guides/how-to-check-harvesting-compounding-rate.md).
 
-## Why can't someone just do this themselves?
+### Why can't someone just do this themselves?
 
 They could, but vaults help you save on personal time and transaction fees, maintain healthy collateral to debt ratios, self-optimize for the best possible yields, and automatically reinvest earnings. Attempting to do this manually would result in large inefficiencies. At Beefy we like to say: "Sit back and relax, the vault does all the work for you."
 
-## **What is the vault fee structure?**
+### **What is the vault fee structure?**
 
 Most vaults have a performance fee structure, taking a percentage cut of all harvest rewards. This fee on profits is split up and distributed back to $BIFI tokenholders, allocated to Beefy's treasury, sent to the strategist that developed the vault and sent to the one calling the vault's harvest function. These fees are already built into the APY of each vault and daily rate. You do not need to calculate it yourself. The performance fee and the fee structure breakdown are presented inside the Deposit and Withdraw module in a vault.
 
@@ -70,7 +74,7 @@ Furthermore, some vaults have a withdrawal fee. The main purpose of this fee is 
 
 Finally, entering or exiting vaults using our Beefy ZAP V2 tool will incur a 0.05% zap fee on your deposited amounts. These fees are returned to the Beefy treasury by way of a intermediate batching treasury, which allows fees to be aggregated and swapped into stables before being deposited. See [how-to-beefy-zap.md](../faq/how-to-guides/how-to-beefy-zap.md "mention") for more details on the ZAP V2 tool.
 
-## What is harvesting on deposit?
+### What is harvesting on deposit?
 
 Many of Beefy's vaults "Harvest on Deposit". This means that when you deposit into the vault, you are also calling the harvest function of the vault's strategy. By calling the harvest function, you trigger the collection of pending farm rewards and compounding of those rewards back into the vault tokens for everyone.&#x20;
 
@@ -80,7 +84,7 @@ Almost all of the vaults on more inexpensive chains like Fantom and Polygon harv
 
 For depositing, and thus calling the harvest function, you will receive a reward in the form of the native chain token (e.g. WFTM or WMATIC) due to the harvest call fee.
 
-## Harvesting on Ethereum
+### Harvesting on Ethereum
 
 As transaction fees on Ethereum are expensive, Beefy has introduced a few rules that determine the vault's harvesting frequency.
 
@@ -94,21 +98,21 @@ Another rule watches the gas prices on Ethereum. If `maxGasPrice` is 20 GWei or 
 
 The Gelato Off-Chain Resolver that handles the harvests on Ethereum based on the aforementioned rules can be found following this link: [Gelato Automate](https://beta.app.gelato.network/task/0xa9d7e4ca2aacf1884f45f403b50c941953cf6b80489b5d17ad96a366bcb7b75f?chainId=1). The smart contract and its parameters, as well as past Executions and Task Logs, are also easily accessible there.
 
-## Harvesting on BNB Chain
+### Harvesting on BNB Chain
 
 BNB Chain also has a harvesting constraint in place:
 
 * Vault TVL is below $10k and older than 2 weeks: community harvest.
 
-## **Does the performance fee get taken out when I withdraw my funds?**
+### **Does the performance fee get taken out when I withdraw my funds?**
 
 No, the performance fees are on profits and are taken every time someone calls the harvest() function.
 
-## Does the vault page show the APY?
+### Does the vault page show the APY?
 
 Yes. Our displayed APY values reflect the predicted rate earned on a vault in a year. This rate is determined by the underlying platform it uses, the strategy that it is interacting with at the time, the total amount of funds in the vault and also takes into account the effect of compounding. As a unique feature, we have also included all vault fees in the APY calculation. What you see is what you get!
 
-## What risks do the vaults have?
+### What risks do the vaults have?
 
 Beefy vaults are audited, but this does not mean that a vault is entirely risk free. Below are some of the general vault risks:
 
@@ -117,7 +121,7 @@ Beefy vaults are audited, but this does not mean that a vault is entirely risk f
 
 More detailed vault risks, or better yet, information on Beefy's vault safety expressed by the Beefy Safety Score can be found here: [Beefy Safety Score](../safety/beefy-safety-score.md).
 
-## **Who is in control of the vault?**
+### **Who is in control of the vault?**
 
 Each vault and [strategy](strategies.md) is hardcoded, and the code has been built to be immutable, so once they are released, they become unalterable. No one can modify the vaults and strategies.
 
@@ -125,38 +129,38 @@ Modern Beefy vaults do however rely on the standard set out in EIP-1167, known a
 
 Users should be aware of the distinction between minimal proxy contracts and the proxy pattern used to upgrade contracts. **Beefy's minimal proxy contracts are not upgradeable**, so Beefy cannot take your funds by a sly upgrade. The proxy is only used to reduce deployment costs.
 
-## **What are the different vaults?**
+### **What are the different vaults?**
 
 * **Money Market :** Utilizes lending platforms, such as Venus on BNB Chain or Scream on Fantom, to generate the highest possible yield for these coins (e.g. BUSD, BNB, LINK, DOT, DAI, USDT, ETH, or BTCB).&#x20;
 * **Native Token Farming :** Takes advantage of the high yield on popular farms by depositing another asset to earn, sell and compound profits of the native reward token.
 
-## What will I get out when I make a vault withdrawal?
+### What will I get out when I make a vault withdrawal?
 
 The default is that you withdraw the token type that you deposited, because at Beefy you earn what you stake. You will get the amount you deposited plus the yield generated (minus a potential vault withdrawal fee). For vaults supporting Beefy ZAP, users can withdraw directly into other assets, including any assets forming part of the in the relevant liquidity pool for ZAP V1, and any of the bluechip, native or stable assets supported for ZAP V2.
 
-## **How do LP vaults work?**
+### **How do LP vaults work?**
 
 Liquidity pool (LP) vaults work by reinvesting the fees awarded to LP participants. In return for providing liquidity to the pool, many platforms reward investors with tokens. Our vaults regularly harvest these rewards, sell it, buy more of the LP’s underlying assets, and then reinvest to complete the cycle.
 
 This compounds the rewards gained from a liquidity pool. Beefy creates strategies that automate this process, saving you time and gas fees in comparison to farming manually. This is all done for a tiny fee that is distributed back to those who deposit $BIFI into the BIFI Pool or BIFI Vault. A small percentage also goes to the Beefy treasury.
 
-## **How often are balances updated in the vaults?**
+### **How often are balances updated in the vaults?**
 
 Pending rewards are not reflected in the balance until they are swapped for the initial deposited token. This can vary depending on the strategy running.&#x20;
 
-## **How do vaults get added to Beefy?**
+### **How do vaults get added to Beefy?**
 
 New potential vaults can be discussed in our Discord. Our strategists then add the potential investment strategy to our strategy list. A priority is assigned to each new, potential strategy based on its APY, TVL and sustainability. Our developers/strategists then attack the list from top priority to bottom. The official forum is used for submitting actual [vault requests](https://forum.beefy.finance/c/vault-requests).
 
 Then the platform which the vault is potentially going to deposit into, is very thoroughly screened if it has safe smart contracts and no other dangerous traits. For more info on that, please read [beefy-safu-practices.md](../safety/beefy-safu-practices.md "mention").
 
-## **What’s your vault naming process?**
+### **What’s your vault naming process?**
 
 Each vault on the platform is named after the token that users can deposit in it. For example, the CAKE-BNB LP vault uses CAKE-BNB LP tokens for its investment strategy. A BTC vault uses the BTC token, etc.
 
 Underneath the vault name, you can find the platform used for investing the token and farming its yields. For example, Uses: Venus means that that particular vault invests the token in Venus, a DeFi algorithmic money market and synthetic stablecoin protocol.
 
-## **How do lending vaults work?**
+### **How do lending vaults work?**
 
 _The following applies to: Aave, Banker Joe, Blizz, Geist, Scream, Venus, and similar lending platforms._
 

@@ -4,7 +4,7 @@ description: 'Last Update: August 2023'
 
 # Strategies
 
-### What is a strategy?
+### What is a Strategy?
 
 Beefy strategies are modular smart contracts which direct the user funds deposited into [vaults.md](vaults.md "mention") towards liquidity pools and farms in order to generate the yield which Beefy compounds. Where sufficient rewards have amassed in the strategy contract for Beefy to profitably reinvest them, the strategy executes the compounding workflow (or [#harvest](../developer-documentation/strategy-contract/#harvest "mention")), which automatically claims the rewards, swaps them for the principal assets and redeposits them into the liquidity pool and farm.
 
