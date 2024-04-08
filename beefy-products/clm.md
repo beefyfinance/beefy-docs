@@ -130,6 +130,12 @@ Unlike our yield farming strategies, Beefy CLM only deals in trading fees and no
 
 As such, the yield in compounded trading fees is given as an "annual percentage yield" or APY, whereas the yield in any additional rewards is given as an "annual percentage return" or APR. Where a Beefy yield farming strategy is built on top of a Beefy CLM product, the additional rewards will also be compounded, giving a total APY across the entire position.
 
+### What is the percentage displayed in the title of my CLM product?
+
+All CLM products include a percentage figure as part of their CLM labelling, which denotes the pool fee tier for the underlying CL pool. A CLM product with a percentage of _"0.30%"_ charges buyers and sellers using the pool a 0.3% fee on their transaction, which is deducted from the balance of tokens they receive from a trade with the pool. A _"0.05%"_ pool charges a far lower fee.
+
+In the case of CLM, fee tiers reflect the amount that Beefy depositors will be benefitting from as the pool is traded through by other parties. They are not to be confused with the Beefy fees charged on earnings. For example, a higher fee tier reflects a higher amount of earnings for the same volume. Higher fees are typically charged on more volatile pools and lower liquidity, which typically means lower volume.
+
 ### What fees are charged on CLM?
 
 Beefy's fee structure for CLM products is exactly the same as for our yield farming strategies, as set out in [beefy-finance-fees-breakdown.md](../ecosystem/beefy-bulletins/beefy-finance-fees-breakdown.md "mention"). The total fee is capped at a maximum of 9.5% of all trading fees earned in the product. More specifically:
