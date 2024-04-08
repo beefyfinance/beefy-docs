@@ -10,17 +10,17 @@ description: 'Last Update: April 2024'
 
 ### What is CLM?
 
-CLM stands for _"cowcentrated liquidity management"_, which is Beefy's liquidity management product for concentrated liquidity (_**"CL"**_) pools. In essence, CLM allows day-to-day users to access the enormous opportunities of CL technology, without the effort and user-error risks that come from managing their own positions. The CLM contract issues depositors with an ERC-20 "cowToken", reflecting their share of the pooled CLM funds being deposited into the CL position.
+CLM stands for _"cowcentrated liquidity manager"_, which is Beefy's liquidity management product for concentrated liquidity (_**"CL"**_) pools. In essence, CLM allows day-to-day users to access the enormous opportunities of CL technology, without the effort and user-error risks that come from managing their own positions. The CLM contract issues depositors with an ERC-20 "cowToken", reflecting their share of the pooled CLM funds being deposited into the CL position.
 
 As with all other Beefy products, CLM automates complex onchain activities and aggregates scale across users to bring down the average cost for everyone. This means users get higher rates of return with far less effort when compared with handling the process yourself.&#x20;
 
-What's in it for Beefy? A share of all earnings generated are retained as fees for the DAO, the $BIFI tokenholders, the product's creator and the account harvesting the earnings. This means that all of the stakeholders involved in compounding user yields share a small proportion of the total rewards, whilst the user is always earning. It's a win-win-win-win-win.
+_What's in it for Beefy?_ A share of all earnings generated are retained as fees for the DAO, the $BIFI tokenholders, the product's creator and the account harvesting the earnings. This means that all of the stakeholders involved in compounding user yields share a small proportion of the total rewards, whilst the user is always earning. It's a win-win-win-win-win.
 
 CLM is a form of _"active"_ or _"automated"_ liquidity management (**"ALM"**) technology, and stands in contrast to a number of other ALM products currently on the market. CLM brings a unique approach to maximizing utilization, which is aimed squarely at delivering optimal yields for our users.
 
 ### What is Concentrated Liquidity?
 
-Concentrated liquidity is a mature form of onchain liquidity that offers higher yields and better availability than traditional liquidity. Instead of having to provide liquidity for swaps at any price range (as with traditional liquidity pools, like [Uniswap V2](https://docs.uniswap.org/contracts/v2/overview)), users can tailor the range at which they are willing to provide their own liquidity. The trade-off is [receiving a greater share of the pool](#user-content-fn-1)[^1] and trading fees within the selected range, in exchange for the risk of no fees when their position falls out of range. CL technology was first popularised by Uniswap's v3 protocol, and has since blossomed across many different iterations and protocols. The [UniV3 documentation](https://docs.uniswap.org/concepts/protocol/concentrated-liquidity) is the best place to start learning about the specifics of how concentrated liquidity works.
+Concentrated liquidity is a mature form of onchain liquidity that offers higher yields and better availability than traditional liquidity. Instead of having to provide liquidity for swaps at any price range (as with traditional liquidity pools, like [Uniswap V2](https://docs.uniswap.org/contracts/v2/overview)), users can tailor the range at which they are willing to provide their own liquidity. The trade-off is [receiving a greater share of](#user-content-fn-1)[^1] trading fees within the selected range, in exchange for the risk of no fees when their position falls out of range. CL technology was first popularised by Uniswap's v3 protocol, and has since blossomed across many different iterations and protocols. The [UniV3 documentation](https://docs.uniswap.org/concepts/protocol/concentrated-liquidity) is the best place to start learning about the specifics of how concentrated liquidity works.
 
 CL products introduce more features to the onchain liquidity process, but also add more complexity. As prices are constantly moving, managing CL positions requires constant evaluation of the appropriate range to supply liquidity, which was not a concern with earlier generations of liquidity pools (like [Uniswap v2](https://docs.uniswap.org/contracts/v2/overview)). CL positions are also typically represented by non-fungible tokens rather than fungible ERC-20s, meaning they require an entirely different set of functions and interfaces to interact with the smart contract position.
 
@@ -54,9 +54,9 @@ The _"alt"_ position exists to ensure that the user's entire position remains fu
 
 As shown by the dotted line in the graph below, the alt is positioned differently from the main position to take full advantage of the provided liquidity. Instead of using the main position's range, the alt is provided in a smaller range set between (i) the upper or lower boundary of the main position (depending on which token is overweighted); and (ii) the nearest valid _"tick"_ (or boundaries between discrete areas in price space) between the adopted boundary and main position's other boundary. &#x20;
 
-In the example below, the alt position is being set in the range between the dotted line and the bottom thin line, whereas the main position is being set between the two thin white lines, which are equidistant from the bold white line (which represents current price).
+In the example below, the alt position is being set in the range between the dotted line and the bottom blue line, whereas the main position is being set between the two blue lines, which are set equidistant from the current price (i.e. the white line).
 
-<figure><img src="../.gitbook/assets/range-graphic.png" alt=""><figcaption><p>The <em>"Alt"</em> position works by counterbalancing the main 50/50 position with a single-side position configured to a smaller range than the main position. Together the two ensure full deployment of assets and maximal earnings without rebalancing.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/range-graphic (2).png" alt=""><figcaption><p>The <em>"Alt"</em> position works by counterbalancing the main 50/50 position with a single-side position configured to a smaller range than the main position. Together the two ensure full deployment of assets and maximal earnings without rebalancing.</p></figcaption></figure>
 
 #### Calmness Check
 
@@ -64,11 +64,11 @@ A wider general issue with many forms of concentrated liquidity products is that
 
 The _"calm zone"_ is shown in the blue area of the diagram below, and is bound by the pool's TWAP over the last 60 seconds. Where in some cases the current price exits the blue _"calm zone"_, the contract's logic has identified large relative changes and the deposit transaction will be reverted to safeguard against attacks aimed at stealing part of the user's deposit funds.
 
-<figure><img src="../.gitbook/assets/calm-zone-graphic (1).png" alt=""><figcaption><p>The <em>"calm zone"</em> ensures deposits are only possible when the current price sits within a reasonable margin of the time-weighted average price. This ensures users won't lose funds through deposits during times of high volatility.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/calm-zone-graphic (3).png" alt=""><figcaption><p>The <em>"calm zone"</em> ensures deposits are only possible when the current price sits within a reasonable margin of the time-weighted average price. This ensures users won't lose funds through deposits during times of high volatility.</p></figcaption></figure>
 
 ### Do CLM products suffer from impermanent loss?
 
-CLM's novel design resultsin a different approach to impermanent loss (**"IL"**)). However, IL itself remains a feature of generally all forms of DeFi liquidity, and does occur within CLM products (as with all other ALM products). It is important to develop an understanding of how IL operates and the risks it presents before investing in any CL products.
+CLM's novel design results in a different approach to impermanent loss (**"IL"**)). However, IL itself remains a feature of generally all forms of DeFi liquidity, and does occur within CLM products (as with all other ALM products). It is important to develop an understanding of how IL operates and the risks it presents before investing in any CL products.
 
 The key difference with Beefy CLM is that IL from the position falling _"out of range"_ is never realized because assets are promptly returned into range either in the main or alt positions. In other ALM products, the act of rebalancing the position (i.e. selling tokens) once the position is out of range causes IL within the position to become realized, whilst also incurring additional fees in selling the token. Where price oscillates heavily, this can mean IL is repeatedly realized where the range is somewhat too narrow and the position frequently rebalances.
 
