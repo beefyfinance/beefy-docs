@@ -32,10 +32,6 @@ CLM represents an expansion of Beefy's automation products to a different level 
 
 <table><thead><tr><th width="179"></th><th>Yield Farming Strats</th><th>CLM</th></tr></thead><tbody><tr><td>Built on Liquidity Pools</td><td>Yes - indirectly through farms</td><td>Yes - directly</td></tr><tr><td>Requires Farm Rewards</td><td>Yes</td><td>No</td></tr><tr><td>Trading Fees</td><td>Compounded in underlying products</td><td>Compounded by Beefy</td></tr><tr><td>Rewards</td><td>Compounded by Beefy</td><td>Accrued/Distributed by Beefy</td></tr><tr><td>Concentrated Liquidity</td><td>Indirect only with CL managers</td><td>Directly manages CL positions</td></tr><tr><td>Range Management</td><td>Depends on provider</td><td>Yes</td></tr><tr><td>Harvest Process</td><td>Claim rewards, swap and redeposit into the principal</td><td>Claim fees/rewards and resets position(s)</td></tr><tr><td>Token Name</td><td>mooTokens</td><td>cowTokens</td></tr></tbody></table>
 
-{% hint style="info" %}
-**Public Beta:** CLM is currently in beta using Uniswap V3 pools only. There are currently no rewards available on any CLM products, meaning CLM earnings arise only from compounding trading fees.
-{% endhint %}
-
 As the two products sit at different levels of the supply chain, Beefy's yield farming strategies can actually be built on top of Beefy's CLM products where there are rewards to compound into the CL position. CLM has been designed from the ground up to offer an optimal approach to automated liquidity management, in a way that unlocks optimal autocompounding of incentives through our ordinary strategies.
 
 ### How does CLM work?
@@ -153,6 +149,16 @@ By contrast, CLM does not accept single-side deposits at present. Because the CL
 
 {% hint style="info" %}
 **Public Beta:** Beefy CLM is currently in beta, which carries risk. CLM products do not currently allow ZAP deposits, meaning users will require a mix of both tokens for the pool to make deposits.
+{% endhint %}
+
+### What happens when I withdraw from CLM?
+
+The CLM withdraw workflow involves the vault contract taking back the "cow" tokens that the user received for their deposit (meaning users need to approve access to the token from their wallet). Because of this, it's vital that users do not incidentally move or manipulate their cow tokens for the duration of their deposit. Once the cow tokens are returned, they are immediately burned and exchanged for a proportional share of the tokens held by the CLM product which are sent back to the user.&#x20;
+
+For example, if a user has 1 cow token, from a total of 10 tokens issued, the user is entitled to 10% (= 1/10) of the tokens in the CLM product. If the product currently has 1 $ETH and 10,000 $USDC, the user will receive roughly 0.1 $ETH and 1,000 $USDC. This can be a totally different quantity to the user's original deposit; for instance, the user could have deposited 0.15 $ETH and 500 $USDC, in which case appreciation in the price of $ETH has significantly impacted the final tokens received.&#x20;
+
+{% hint style="info" %}
+**Public Beta:** Beefy CLM is currently in beta, which carries risk. CLM products do not currently allow ZAP withdrawals, meaning users will receive a mix of both tokens from the pool when they opt to withdraw.
 {% endhint %}
 
 ### Who is in control of the CLM products?
