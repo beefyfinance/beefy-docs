@@ -1,12 +1,8 @@
 ---
-description: 'Last Update: April 2024'
+description: 'Last Update: June 2024'
 ---
 
 # CLM
-
-{% hint style="info" %}
-**Public Beta:** Beefy CLM is currently in beta, which carries risk. Descriptions and features in the documentation may be subject to changes. Some CLM features are not yet live or enabled. Audited by [Cyfrin](https://github.com/beefyfinance/beefy-audits/blob/master/2024-04-06-Beefy-Cyfrin-CLM-Audit.pdf) and [Zellic](https://github.com/beefyfinance/beefy-audits/blob/master/2024-02-28-Beefy-Zellic-CLM-Audit.pdf). Provide feedback on [Discord](https://discord.gg/beefyfinance).
-{% endhint %}
 
 ### What is CLM?
 
@@ -141,25 +137,21 @@ Beefy's fee structure for CLM products is exactly the same as for our yield farm
 * 0.5% is awarded to the creator of the CLM product; and
 * 0.01-0.5% is awarded to the party that calls the [Broken link](broken-reference "mention") function on the specific CLM product to claim trading fees and reset the position.
 
+In addition, Beefy charges a small swap fee on deposits into an imbalanced CLM product, which is distributed to other users of the same product. This fee exists solely to protect against users taking advantage of the imbalance to swap their single deposit token into a balanced proportion of both tokens, by depositing less than is required to rebalance the pool and then immediately exiting. The fee scales depending on the size of the deposit and the imbalance, but for practical purposes it is capped at no more than 50% of the pool fee level.&#x20;
+
+As an example of a swap fee, imagine a user depositing into a ETH-USDC CLM product which charges a 0.05% pool fee and is overweighted in $ETH (meaning the user would need to deposit more $USDC). Imagine the imbalance amounts to 1,000 $USDC. A user wanting to deposit $5,000 would first deposit 1,000 $USDC, before depositing a 50/50 balance of $USDC and $ETH from the remaining funds. The swap fee is only charged on the imbalanced deposit, so just on the 1,000 $USDC and not the whole $5,000. As the pool fee is 0.05%, the maximum swap fee is half of that, so 0.025% of 1,000 $USDC, or around $0.25. The fee is immediately distributed among the other user positions in the vault. As others later enter the product, the depositor in this example then also benefits from swap fees arising from the other depositors.
+
 ### How do I deposit into CLM?
 
 At the time of writing, Beefy CLM products only accept deposits that rebalance the existing position, which is effectively the inverse proportion of the current position's balance. This means users seeking to deposit a 50/50 quantity of tokens would use all of their underweighted token, but less than all of the overweighted tokens (e.g. 48/50), with the remaining tokens being retained by the user. This means you can only accept the underweighted token up to the point of a 50/50 position, at which point you can only add equal values of both tokens.&#x20;
 
 Because the CLM (or "cow") tokens you receive on deposit reflect a proportional share of all tokens in the vault that's the same proportion for all users, a user who deposits only one token would instantly gain entitlement to a proportionate share of the other token in exchange for part of their deposit. This allows single-side deposits to effectively swap freely into the other asset, taking from the other depositors in the vault who are left with more of the single-side deposit asset. In extreme cases, excessive single-side deposits can deprive ordinary depositors of their alternative asset, leading to excessive and unintended exposure to the single-side asset for everyone.
 
-{% hint style="info" %}
-**Public Beta:** Beefy CLM is currently in beta, which carries risk. CLM products do not currently allow ZAP deposits, meaning users will require a mix of both tokens for the pool to make deposits.
-{% endhint %}
-
 ### What happens when I withdraw from CLM?
 
 The CLM withdraw workflow involves the vault contract taking back the "cow" tokens that the user received for their deposit (meaning users need to approve access to the token from their wallet). Because of this, it's vital that users do not incidentally move or manipulate their cow tokens for the duration of their deposit. Once the cow tokens are returned, they are immediately burned and exchanged for a proportional share of the tokens held by the CLM product which are sent back to the user.&#x20;
 
 For example, if a user has 1 cow token, from a total of 10 tokens issued, the user is entitled to 10% (= 1/10) of the tokens in the CLM product. If the product currently has 1 $ETH and 10,000 $USDC, the user will receive roughly 0.1 $ETH and 1,000 $USDC. This can be a totally different quantity to the user's original deposit; for instance, the user could have deposited 0.15 $ETH and 500 $USDC, in which case appreciation in the price of $ETH has significantly impacted the final tokens received.&#x20;
-
-{% hint style="info" %}
-**Public Beta:** Beefy CLM is currently in beta, which carries risk. CLM products do not currently allow ZAP withdrawals, meaning users will receive a mix of both tokens from the pool when they opt to withdraw.
-{% endhint %}
 
 ### Who is in control of the CLM products?
 
@@ -173,9 +165,5 @@ Of course! As a brand new product with an innovative new design, Beefy's contrib
 
 * [Audit 1](https://github.com/beefyfinance/beefy-audits/blob/master/2024-02-28-Beefy-Zellic-CLM-Audit.pdf) by Zellic dated 28 February 2024; and
 * [Audit 2](https://github.com/beefyfinance/beefy-audits/blob/master/2024-04-06-Beefy-Cyfrin-CLM-Audit.pdf) by Cyfrin dated 6 April 2024.
-
-{% hint style="info" %}
-**Public Beta:** Beefy CLM is currently in beta, which carries risk. Further auditing is ongoing at the time of writing.
-{% endhint %}
 
 [^1]: 
