@@ -60,13 +60,13 @@ The _"calm zone"_ is shown in the blue area of the diagram below, and is bound b
 
 <figure><img src="../.gitbook/assets/calm-zone-graphic (3).png" alt=""><figcaption><p>The <em>"calm zone"</em> ensures deposits are only possible when the current price sits within a reasonable margin of the time-weighted average price. This ensures users won't lose funds through deposits during times of high volatility.</p></figcaption></figure>
 
-### How does the CLM Reward Pool work?
+### How does the CLM Pool work?
 
 All CLM products are designed to handle rewards - i.e. additional tokens paid out to liquidity providers beyond trading fees - natively, so that users never need to exit their CLM position to benefit from additional incentives.&#x20;
 
-Rewards can be distributed by Beefy using our Reward Pool contracts, or through third party services like [Merkl](https://merkl.xyz/) by Angle. The Reward Pool contract accepts the standard CLM _"cowToken"_ as a deposit and then issues a corresponding _"rcowToken"_ at a 1:1 ratio. Once deposited, the position benefits from a share of any rewards currently being paid out by the Reward Pool, and will automatically participate in any future rewards. Rewards can be claimed on the relevant product page on the Beefy UI, or manually direct from the smart contract.
+Rewards can be distributed by Beefy using our CLM Pool contracts, or through third party services like [Merkl](https://merkl.xyz/) by Angle. The CLM Pool contract accepts the standard CLM _"cowToken"_ as a deposit and then issues a corresponding _"rcowToken"_ at a 1:1 ratio. Once deposited, the position benefits from a share of any rewards currently being paid out by the CLM Pool, and will automatically participate in any future rewards. Rewards can be claimed on the relevant product page on the Beefy UI, or manually direct from the smart contract.
 
-By default, the Beefy UI (including our ZAP tooling) now automatically deposits user funds into the Reward Pool contract, so no additional work is needed to benefit from rewards. Where for any reason a user continues to hold a standard _"cowToken"_, this can be deposited into the Reward Pool using the UI. Likewise, the withdrawal workflow now automatically bypasses the standard _"cowToken"_ working primarily with the Reward Pool version.&#x20;
+By default, the Beefy UI (including our ZAP tooling) now automatically deposits user funds into the CLM Pool contract, so no additional work is needed to benefit from rewards. Where for any reason a user continues to hold a standard _"cowToken"_, this can be deposited into the CLM Pool using the UI. Likewise, the withdrawal workflow now automatically bypasses the standard _"cowToken"_ working primarily with the CLM Pool version.&#x20;
 
 ### Do CLM products suffer from impermanent loss?
 
@@ -123,11 +123,11 @@ CLM's innovative formula for managing concentrated liquidity positions aim to br
 * The range is reset with each deposit and harvest, minimizing the amount of time spent out of range and not earning trading fees;
 * Excess assets arising from the gradual imbalance of the pool are placed in range through a single-side position, meaning they still earn fees;&#x20;
 * No rebalancing takes place, meaning out-or-range IL is not realized in the product; and
-* CLM positions are automatically added to the Beefy reward pool to benefit from a range of different rewards without any action by the user.
+* CLM positions are automatically added to the Beefy CLM Pool to benefit from a range of different rewards without any action by the user.
 
 ### What is the displayed yield on CLM products?
 
-The displayed yield on Beefy CLM products reflects: (1) the current trading fees being compounded from the CL pool, extrapolated out for the next year; (2) the current simple rate of any rewards being paid out by the reward pool; and (3) the current simple rate of any rewards being paid out by Merkl.&#x20;
+The displayed yield on Beefy CLM products reflects: (1) the current trading fees being compounded from the CL pool, extrapolated out for the next year; (2) the current simple rate of any rewards being paid out by the CLM Pool; and (3) the current simple rate of any rewards being paid out by Merkl.&#x20;
 
 All additional rewards accrue in the Beefy app to be claimed by users, and are not automatically reinvested by the CLM product. Only the yield from trading fees reflects compounded _"annual percentage yield"_ or APY; all additional rewards are displayed as an _"annual percentage return"_ or APR. Where a Beefy yield farming strategy is built on top of a Beefy CLM product, the additional rewards will also be compounded, giving a total APY across the entire position.
 
