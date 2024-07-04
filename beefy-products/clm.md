@@ -6,7 +6,7 @@ description: 'Last Update: June 2024'
 
 ### What is CLM?
 
-CLM stands for _"cowcentrated liquidity manager"_, which is Beefy's liquidity management product for concentrated liquidity (_**"CL"**_) pools. In essence, CLM allows day-to-day users to access the enormous opportunities of CL technology, without the effort and user-error risks that come from managing their own positions. The CLM contract issues depositors with an ERC-20 "cowToken", reflecting their share of the pooled CLM funds being deposited into the CL position.
+CLM stands for _"cowcentrated liquidity manager"_, which is Beefy's liquidity management product for concentrated liquidity (_**"CL"**_) pools. In essence, CLM allows day-to-day users to access the enormous opportunities of CL technology, without the effort and user-error risks that come from managing their own positions. The CLM contract issues depositors with an ERC-20 _"Cow Token"_ or [_"Reward Cow Token"_ ](clm.md#how-does-the-clm-reward-pool-work), reflecting their share of the pooled CLM funds being deposited into the CL position.
 
 As with all other Beefy products, CLM automates complex onchain activities and aggregates scale across users to bring down the average cost for everyone. This means users get higher rates of return with far less effort when compared with handling the process yourself.&#x20;
 
@@ -16,7 +16,7 @@ CLM is a form of _"active"_ or _"automated"_ liquidity management (**"ALM"**) te
 
 ### What is Concentrated Liquidity?
 
-Concentrated liquidity is a mature form of onchain liquidity that offers higher yields and better availability than traditional liquidity. Instead of having to provide liquidity for swaps at any price range (as with traditional liquidity pools, like [Uniswap V2](https://docs.uniswap.org/contracts/v2/overview)), users can tailor the range at which they are willing to provide their own liquidity. The trade-off is [receiving a greater share of](#user-content-fn-1)[^1] trading fees within the selected range, in exchange for the risk of no fees when their position falls out of range. CL technology was first popularised by Uniswap's v3 protocol, and has since blossomed across many different iterations and protocols. The [UniV3 documentation](https://docs.uniswap.org/concepts/protocol/concentrated-liquidity) is the best place to start learning about the specifics of how concentrated liquidity works.
+Concentrated liquidity is a mature form of onchain liquidity that offers higher yields and better availability than traditional liquidity. Instead of having to provide liquidity for swaps at any price range (as with traditional liquidity pools, like [Uniswap V2](https://docs.uniswap.org/contracts/v2/overview)), users can tailor the range at which they are willing to provide their own liquidity. The Trade-off is receiving a greater share of trading fees within the selected range, in exchange for the risk of no fees when their position falls out of range. CL technology was first popularised by Uniswap's v3 protocol, and has since blossomed across many different iterations and protocols. The [UniV3 documentation](https://docs.uniswap.org/concepts/protocol/concentrated-liquidity) is the best place to start learning about the specifics of how concentrated liquidity works.
 
 CL products introduce more features to the onchain liquidity process, but also add more complexity. As prices are constantly moving, managing CL positions requires constant evaluation of the appropriate range to supply liquidity, which was not a concern with earlier generations of liquidity pools (like [Uniswap v2](https://docs.uniswap.org/contracts/v2/overview)). CL positions are also typically represented by non-fungible tokens rather than fungible ERC-20s, meaning they require an entirely different set of functions and interfaces to interact with the smart contract position.
 
@@ -26,7 +26,7 @@ Though Beefy has [found ways](https://beefy.com/articles/beefy-cl/) to autocompo
 
 CLM represents an expansion of Beefy's automation products to a different level of the supply chain. Unlike our yield farming [strategies.md](strategies.md "mention"), CLM directly creates and manages liquidity positions, with no need for intermediate farms or incentives. The below table provides a quick and simple breakdown of the differences between these two core products:
 
-<table><thead><tr><th width="179"></th><th>Yield Farming Strats</th><th>CLM</th></tr></thead><tbody><tr><td>Built on Liquidity Pools</td><td>Yes - indirectly through farms</td><td>Yes - directly</td></tr><tr><td>Requires Farm Rewards</td><td>Yes</td><td>No</td></tr><tr><td>Trading Fees</td><td>Compounded in underlying products</td><td>Compounded by Beefy</td></tr><tr><td>Rewards</td><td>Compounded by Beefy</td><td>Accrued/Distributed by Beefy</td></tr><tr><td>Concentrated Liquidity</td><td>Indirect only with CL managers</td><td>Directly manages CL positions</td></tr><tr><td>Range Management</td><td>Depends on provider</td><td>Yes</td></tr><tr><td>Harvest Process</td><td>Claim rewards, swap and redeposit into the principal</td><td>Claim fees/rewards and resets position(s)</td></tr><tr><td>Token Name</td><td>mooTokens</td><td>cowTokens</td></tr></tbody></table>
+<table><thead><tr><th width="179"></th><th>Yield Farming Strats</th><th>CLM</th></tr></thead><tbody><tr><td>Built on Liquidity Pools</td><td>Yes - indirectly through farms</td><td>Yes - directly</td></tr><tr><td>Requires Farm Rewards</td><td>Yes</td><td>No</td></tr><tr><td>Trading Fees</td><td>Compounded in underlying products</td><td>Compounded by Beefy</td></tr><tr><td>Rewards</td><td>Compounded by Beefy</td><td>Accrued/Distributed by Beefy</td></tr><tr><td>Concentrated Liquidity</td><td>Indirect only with CL managers</td><td>Directly manages CL positions</td></tr><tr><td>Range Management</td><td>Depends on provider</td><td>Yes</td></tr><tr><td>Harvest Process</td><td>Claim rewards, swap and redeposit into the principal</td><td>Claim fees/rewards and resets position(s)</td></tr><tr><td>Token Name</td><td>mooTokens</td><td>cowTokens or rcowTokens</td></tr></tbody></table>
 
 As the two products sit at different levels of the supply chain, Beefy's yield farming strategies can actually be built on top of Beefy's CLM products where there are rewards to compound into the CL position. CLM has been designed from the ground up to offer an optimal approach to automated liquidity management, in a way that unlocks optimal autocompounding of incentives through our ordinary strategies.
 
@@ -34,17 +34,19 @@ As the two products sit at different levels of the supply chain, Beefy's yield f
 
 Beefy's CLM products are laser focused on ensuring that the maximum amount of user capital in the product is deployed, in range and earning (or _"fully active"_). This includes not only the deposited funds, but also any trading fees accruing on the current investment and all past trading fees which have already been compounded back into the position. Where trading fees are constantly reinvested, we unlock the magic of compounding, leading to significantly increased returns. Where rewards are paid in place of trading fees, the rewards accrue for users to claim on the Beefy app.
 
-The CLM method is extremely simple. Every time a CLM product either receives a user deposit or is _"harvested"_, Beefy automatically: (1) withdraws all deposits and trading fees to reset the position; (2) redeposits all of one token and most of the other into a precise 50/50 position; and (3) redeposits all other tokens into a single-side position (a.k.a. the _**"alt"**_). Where the quantity of deposited tokens doesn't match the current ratio of the liquidity pool, the correct ratio of tokens will be deposited and the remainder will be returned ot the user.
+The CLM method is extremely simple. Every time a CLM product either receives a user deposit or is _"harvested"_, Beefy automatically: (1) withdraws all deposits and trading fees to reset the position; (2) redeposits all of one token and most of the other into a precise 50/50 position; and (3) redeposits all other tokens into a single-side position (a.k.a. the _**"alt"**_). Where the quantity of deposited tokens doesn't match the current ratio of the liquidity pool, the correct ratio of tokens will be deposited and the remainder will be returned to the user.
+
+To ensure the position stays within range, the range is reassessed and reset every 6 hours by way of automated onchain calls of the privileged _moveTicks()_ function in the strategy contract. This facilitates smooth, consistent and predictable maintenance of range, without the risk of manipulation by third parties.
 
 In some cases such as Solidly forks, a pool may not pay trading fees but instead provide rewards in other tokens not included in the pool. In those circumstances, Beefy will distribute these to holders in the same manner as other forms of rewards - i.e. as a linearly-accruing claimable reward.&#x20;
 
-As trading fees or rewards accrue and price changes in the pool impact on the position's range, the position's effectiveness will change over time until the next harvest. However, Beefy routinely harvests all products every day (on all chains except Ethereum), meaning positions are consistently reset to a fully active state within a relatively short period of time.&#x20;
+As trading fees or rewards accrue and price changes in the pool impact on the position's range, the position's effectiveness will change over time until the next harvest. However, Beefy routinely harvests all products with any rewards every day (on all chains except Ethereum).&#x20;
 
 #### Alt Position
 
 The _"alt"_ position exists to ensure that the user's entire position remains fully active, and all tokens are deployed in range. The advantage of the alt approach is that there is no need to _"rebalance"_ the position (i.e. sell the outperforming token to buy the underperforming). ALM products which regularly rebalance by selling tokens immediately realize impermanent loss, which can significantly dampen profitability in products which rebalance regularly (e.g. narrow-range CL products).&#x20;
 
-As shown by the dotted line in the graph below, the alt is positioned differently from the main position to take full advantage of the provided liquidity. Instead of using the main position's range, the alt is provided in a smaller range set between (i) the upper or lower boundary of the main position (depending on which token is overweighted); and (ii) the nearest valid _"tick"_ (or boundaries between discrete areas in price space) between the adopted boundary and main position's other boundary. &#x20;
+As shown by the dotted line in the graph below, the alt is positioned differently from the main position to take full advantage of the provided liquidity. Instead of using the main position's range, the alt is provided in a smaller range set between (i) the upper or lower boundary of the main position (depending on which token is overweighted); and (ii) the nearest valid _"tick"_ (or fixed boundaries between discrete areas in price space) between the adopted boundary and main position's other boundary. &#x20;
 
 In the example below, the alt position is being set in the range between the dotted line and the bottom blue line, whereas the main position is being set between the two blue lines, which are set equidistant from the current price (i.e. the white line).
 
@@ -57,6 +59,14 @@ A wider general issue with many forms of concentrated liquidity products is that
 The _"calm zone"_ is shown in the blue area of the diagram below, and is bound by the pool's TWAP over the last 60 seconds. Where in some cases the current price exits the blue _"calm zone"_, the contract's logic has identified large relative changes and the deposit transaction will be reverted to safeguard against attacks aimed at stealing part of the user's deposit funds.
 
 <figure><img src="../.gitbook/assets/calm-zone-graphic (3).png" alt=""><figcaption><p>The <em>"calm zone"</em> ensures deposits are only possible when the current price sits within a reasonable margin of the time-weighted average price. This ensures users won't lose funds through deposits during times of high volatility.</p></figcaption></figure>
+
+### How does the CLM Reward Pool work?
+
+All CLM products are designed to handle rewards - i.e. additional tokens paid out to liquidity providers beyond trading fees - natively, so that users never need to exit their CLM position to benefit from additional incentives.&#x20;
+
+Rewards can be distributed by Beefy using our Reward Pool contracts, or through third party services like [Merkl](https://merkl.xyz/) by Angle. The Reward Pool contract accepts the standard CLM _"cowToken"_ as a deposit and then issues a corresponding _"rcowToken"_ at a 1:1 ratio. Once deposited, the position benefits from a share of any rewards currently being paid out by the Reward Pool, and will automatically participate in any future rewards. Rewards can be claimed on the relevant product page on the Beefy UI, or manually direct from the smart contract.
+
+By default, the Beefy UI (including our ZAP tooling) now automatically deposits user funds into the Reward Pool contract, so no additional work is needed to benefit from rewards. Where for any reason a user continues to hold a standard _"cowToken"_, this can be deposited into the Reward Pool using the UI. Likewise, the withdrawal workflow now automatically bypasses the standard _"cowToken"_ working primarily with the Reward Pool version.&#x20;
 
 ### Do CLM products suffer from impermanent loss?
 
@@ -111,16 +121,17 @@ CLM's innovative formula for managing concentrated liquidity positions aim to br
 * Deposits are aggregated, meaning a single set of gas fees split across many users rather than each user incurring the same gas fees separately;
 * The aggregate volume of deposits means less time is needed to build up to a profitable harvest, which can also increase the rate of compounding in the product;
 * The range is reset with each deposit and harvest, minimizing the amount of time spent out of range and not earning trading fees;
-* Excess assets arising from the gradual imbalance of the pool are placed in range through a single-side position, meaning they still earn fees; and
-* No rebalancing takes place, meaning out-or-range IL is not realized in the product.
+* Excess assets arising from the gradual imbalance of the pool are placed in range through a single-side position, meaning they still earn fees;&#x20;
+* No rebalancing takes place, meaning out-or-range IL is not realized in the product; and
+* CLM positions are automatically added to the Beefy reward pool to benefit from a range of different rewards without any action by the user.
 
 ### What is the displayed yield on CLM products?
 
-The displayed yield on Beefy CLM products reflects the current trading fees being earned from the CL pool, extrapolated out for the next year. Past and current performance is no indication of future yield, so users are advised to review the volatility of yield in any CLM product and the likelihood of future demand for the pool's liquidity before investing. &#x20;
+The displayed yield on Beefy CLM products reflects: (1) the current trading fees being compounded from the CL pool, extrapolated out for the next year; (2) the current simple rate of any rewards being paid out by the reward pool; and (3) the current simple rate of any rewards being paid out by Merkl.&#x20;
 
-Unlike our yield farming strategies, Beefy CLM only deals in trading fees and not additional rewards paid out on top of the core liquidity position. Where rewards are paid out instead of or in addition to trading fees, those rewards accrue in the Beefy app to be claimed by the users, and are not reinvested by CLM.&#x20;
+All additional rewards accrue in the Beefy app to be claimed by users, and are not automatically reinvested by the CLM product. Only the yield from trading fees reflects compounded _"annual percentage yield"_ or APY; all additional rewards are displayed as an _"annual percentage return"_ or APR. Where a Beefy yield farming strategy is built on top of a Beefy CLM product, the additional rewards will also be compounded, giving a total APY across the entire position.
 
-As such, the yield in compounded trading fees is given as an "annual percentage yield" or APY, whereas the yield in any additional rewards is given as an "annual percentage return" or APR. Where a Beefy yield farming strategy is built on top of a Beefy CLM product, the additional rewards will also be compounded, giving a total APY across the entire position.
+Past and current performance is no indication of future yield, so users are advised to review the volatility of yield in any CLM product and the likelihood of future demand for the pool's liquidity before investing. &#x20;
 
 ### What is the percentage displayed in the title of my CLM product?
 
@@ -143,15 +154,21 @@ As an example of a swap fee, imagine a user depositing into a ETH-USDC CLM produ
 
 ### How do I deposit into CLM?
 
-At the time of writing, Beefy CLM products only accept deposits that rebalance the existing position, which is effectively the inverse proportion of the current position's balance. This means users seeking to deposit a 50/50 quantity of tokens would use all of their underweighted token, but less than all of the overweighted tokens (e.g. 48/50), with the remaining tokens being retained by the user. This means you can only accept the underweighted token up to the point of a 50/50 position, at which point you can only add equal values of both tokens.&#x20;
+Underneath the hood, Beefy CLM products accepts deposits that rebalance the existing position, which is effectively the inverse proportion of the current position's balance. This means users seeking to deposit a 50/50 quantity of tokens would use all of their underweighted token, but less than all of the overweighted tokens (e.g. 48/50), with the remaining tokens being retained by the user. This means the product will only accept the underweighted token up to the point of a 50/50 position, at which point it can only add equal values of both tokens.
 
-Because the CLM (or "cow") tokens you receive on deposit reflect a proportional share of all tokens in the vault that's the same proportion for all users, a user who deposits only one token would instantly gain entitlement to a proportionate share of the other token in exchange for part of their deposit. This allows single-side deposits to effectively swap freely into the other asset, taking from the other depositors in the vault who are left with more of the single-side deposit asset. In extreme cases, excessive single-side deposits can deprive ordinary depositors of their alternative asset, leading to excessive and unintended exposure to the single-side asset for everyone.
+To improve the user experience, Beefy's popular ZAP tooling has been brought to CLM to allow users to provide a single deposit of any of their favourite tokens, which will then be automatically swapped using DEX aggregators into the necessary proportionate of the relevant deposit tokens. Given that the balance of deposit tokens required to enter a CLM product can change at a moment's notice, a simple ZAP transaction is the optimal way to access the product.&#x20;
+
+{% hint style="warning" %}
+**Single-side Deposits:** Because the CLM deposit tokens you receive on deposit reflect a proportional share of all tokens in the vault that's the same proportion for all users, a user who deposits only one token directly (i.e. not through ZAP) would instantly gain entitlement to a proportionate share of the other token in exchange for part of their deposit. This allows single-side deposits to effectively swap freely into the other asset, taking from the other depositors in the vault who are left with more of the single-side deposit asset. In extreme cases, excessive single-side deposits can deprive ordinary depositors of their alternative asset, leading to excessive and unintended exposure to the single-side asset for everyone.
+{% endhint %}
 
 ### What happens when I withdraw from CLM?
 
-The CLM withdraw workflow involves the vault contract taking back the "cow" tokens that the user received for their deposit (meaning users need to approve access to the token from their wallet). Because of this, it's vital that users do not incidentally move or manipulate their cow tokens for the duration of their deposit. Once the cow tokens are returned, they are immediately burned and exchanged for a proportional share of the tokens held by the CLM product which are sent back to the user.&#x20;
+The CLM withdraw workflow involves the vault contract taking back the deposit tokens that the user received for their deposit (meaning users need to approve access to the token from their wallet). Because of this, it's vital that users do not incidentally move or manipulate their cow or reward cow tokens for the duration of their deposit. Once the tokens are returned, they are immediately burned and exchanged for a proportional share of the tokens held by the CLM product which are sent back to the user.&#x20;
 
 For example, if a user has 1 cow token, from a total of 10 tokens issued, the user is entitled to 10% (= 1/10) of the tokens in the CLM product. If the product currently has 1 $ETH and 10,000 $USDC, the user will receive roughly 0.1 $ETH and 1,000 $USDC. This can be a totally different quantity to the user's original deposit; for instance, the user could have deposited 0.15 $ETH and 500 $USDC, in which case appreciation in the price of $ETH has significantly impacted the final tokens received.&#x20;
+
+With ZAP tooling, users can also withdraw into any token of their choice, using DEX aggregators to automatically swap out the different tokens included into the position.
 
 ### Who is in control of the CLM products?
 
@@ -165,5 +182,3 @@ Of course! As a brand new product with an innovative new design, Beefy's contrib
 
 * [Audit 1](https://github.com/beefyfinance/beefy-audits/blob/master/2024-02-28-Beefy-Zellic-CLM-Audit.pdf) by Zellic dated 28 February 2024; and
 * [Audit 2](https://github.com/beefyfinance/beefy-audits/blob/master/2024-04-06-Beefy-Cyfrin-CLM-Audit.pdf) by Cyfrin dated 6 April 2024.
-
-[^1]: 
