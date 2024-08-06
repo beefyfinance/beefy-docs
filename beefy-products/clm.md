@@ -178,7 +178,9 @@ For more information, see the equivalent comments for yield farming strategies a
 
 ### Has CLM been audited?
 
-Of course! As a brand new product with an innovative new design, Beefy's contributor team have worked closely with a series of leading auditors to tackle all possible security risks. You can find copies here:
+Of course! As a brand new product with an innovative new design, Beefy's contributor team have worked closely with a series of leading auditors to tackle all conceivable security and operational risks. You can find copies of their various reports here:
 
-* [Audit 1](https://github.com/beefyfinance/beefy-audits/blob/master/2024-02-28-Beefy-Zellic-CLM-Audit.pdf) by Zellic dated 28 February 2024; and
-* [Audit 2](https://github.com/beefyfinance/beefy-audits/blob/master/2024-04-06-Beefy-Cyfrin-CLM-Audit.pdf) by Cyfrin dated 6 April 2024.
+* [Audit 1](https://github.com/beefyfinance/beefy-audits/blob/master/2024-02-28-Beefy-Zellic-CLM-Audit.pdf) by Zellic dated 28 February 2024;
+* [Audit 2](https://github.com/beefyfinance/beefy-audits/blob/master/2024-04-06-Beefy-Cyfrin-CLM-Audit.pdf) by Cyfrin dated 6 April 2024;
+* [Audit 3](https://github.com/beefyfinance/beefy-audits/blob/master/2024-06-30-Beefy-Certora-CLM-Audit.pdf) by Certora dated 30 June 2024; and
+* [Audit 4](https://github.com/beefyfinance/beefy-audits/blob/master/2024-07-02-Beefy-Sherlock-CLM-Audit.pdf) by Sherlock dated 2 July 2024.

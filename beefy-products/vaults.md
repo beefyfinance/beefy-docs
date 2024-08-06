@@ -150,9 +150,9 @@ Pending rewards are not reflected in the balance until they are swapped for the 
 
 ### **How do vaults get added to Beefy?**
 
-New potential vaults can be discussed in our Discord. Our strategists then add the potential investment strategy to our strategy list. A priority is assigned to each new, potential strategy based on its APY, TVL and sustainability. Our developers/strategists then attack the list from top priority to bottom. The official forum is used for submitting actual [vault requests](https://forum.beefy.finance/c/vault-requests).
+New potential vaults can be discussed in our Discord. Our strategists then add the potential investment strategy to our strategy list. A priority is assigned to each new, potential strategy based on its APY, TVL and sustainability. Our developers/strategists then attack the list from top priority to bottom.
 
-Then the platform which the vault is potentially going to deposit into, is very thoroughly screened if it has safe smart contracts and no other dangerous traits. For more info on that, please read [beefy-safu-practices.md](../safety/beefy-safu-practices.md "mention").
+Then the platform which the vault is potentially going to deposit into, is thoroughly screened to ensure its contracts and systems are safe and secure. For more information on our security checks, please refer to the [beefy-safu-practices.md](../safety/beefy-safu-practices.md "mention") page.
 
 ### **What’s your vault naming process?**
 
