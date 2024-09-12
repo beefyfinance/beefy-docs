@@ -75,7 +75,7 @@ Through \[BIP:71] - the $BIFI Migration Plan - Beefy's core team sought approval
 
 ### What is $mooBIFI
 
-$mooBIFI is the name of the vault token for the [BIFI Vault](https://app.beefy.com/vault/bifi-vault). The BIFI Vault is the output contract of our incentives programmes which gives out incentives to tokenholders in the form of $BIFI tokens. Revenue from all vaults on every chain flow to Ethereum and into the BIFI Vault for distribution as incentives. Incentives are autocompounded linearly based on the quantity of $BIFI tokens deposited into the pool. All incentives are automatically swapped into $BIFI and redeposited, resulting in a higher APY of incentives when compraed to the BIFI Pool. The amount of $mooBIFI tokens issued on deposit reflects the user's share of the $BIFI in the vault, so 1 $mooBIFI token will equate to more than 1 $BIFI token.
+$mooBIFI is the name of the vault token for the [BIFI Vault](https://app.beefy.com/vault/bifi-vault). The BIFI Vault is the output contract of our incentives programmes which gives out incentives to tokenholders in the form of $BIFI tokens. Revenue from all vaults on every chain flow to Ethereum and into the BIFI Vault for distribution as incentives. Incentives are autocompounded linearly based on the quantity of $BIFI tokens deposited into the pool. All incentives are automatically swapped into $BIFI and redeposited, resulting in a higher APY of incentives when compared to the BIFI Pool. The amount of $mooBIFI tokens issued on deposit reflects the user's share of the $BIFI in the vault, so 1 $mooBIFI token will equate to more than 1 $BIFI token.
 
 ### What is $rBIFI
 
