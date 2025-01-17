@@ -98,4 +98,4 @@
 * [Github](https://github.com/beefyfinance)
 * [Media Kit](https://beefy.com/media-kit/)
 * [Telegram](https://t.me/beefyfinance)
-* [Twitter](https://twitter.com/beefyfinance)
+* [Twitter](https://x.com/beefyfinance)
