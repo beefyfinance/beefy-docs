@@ -24,7 +24,7 @@ Even with our dedicated team, we're still inundated with partnerships requests. 
 
 Prospective partners should head to the #🕵-partnership-vetting channel on the [Beefy Discord server](https://discord.gg/yq8wfHd), to introduce yourself to our Cowmoonity. The channel is a dedicated space to discuss new and existing partnership opportunities, and for prospective partners to introduce themselves and their projects to our Cowmoonity.
 
-Alternatively, if you prefer not to reach out via Discord, you can contact us through any of our other social media channels (including [Twitter](https://twitter.com/beefyfinance), [Reddit](https://www.reddit.com/r/Beefy/) and [Telegram](https://t.me/beefyfinance)), and we'll put you in touch with our vetting assistants.
+Alternatively, if you prefer not to reach out via Discord, you can contact us through any of our other social media channels (including [Twitter](https://x.com/beefyfinance), [Reddit](https://www.reddit.com/r/Beefy/) and [Telegram](https://t.me/beefyfinance)), and we'll put you in touch with our vetting assistants.
 
 ## What does vetting consist of?
 

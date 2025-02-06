@@ -8,15 +8,15 @@ As The Multichain Yield Optimizer, Beefy always wants to make sure that the user
 
 ## What is a Boost?
 
-When you deposit in a Beefy vault, you receive a 'receipt' token prefixed with 'moo' in your wallet. When a Boost is available, you may stake that token in the Boost to receive the extra earnings benefit. You earn extra yield on top of your vault earnings!
+When you deposit in a Beefy vault, you receive a 'receipt token prefixed with 'moo' in your wallet. When a Boost is available, you may stake that token in the Boost to receive the extra earnings benefit. You earn extra yield on top of your vault earnings!
 
 ## How do I use Beefy Boost?
 
-First, look for a boosted vault in our main app and deposit the tokens that are asked for in the vault. Then, proceed to the Boost section to stake your [mooToken](boost.md#what-are-mootokens) "deposit receipts". Stake these [mooTokens](boost.md#what-are-mootokens) and you are all done! You can easily come back here to check on your earned partner tokens and withdraw at any time.
+First, look for a boosted vault in our main app and deposit the tokens that are asked for in your vault. Then, proceed to the Boost section to stake your [mooToken](boost.md#what-are-mootokens) "deposit receipts". Stake these [mooTokens](boost.md#what-are-mootokens) and you are all done! You can easily come back here to check your earned partner tokens and withdraw at any time.
 
 ## How do I see my earned tokens?
 
-Enter the vault where you deposited your [mooTokens](boost.md#what-are-mootokens) and it will show you a nice summary of your earned tokens.
+Enter your vault where you deposited your [mooTokens](boost.md#what-are-mootokens) and it will show you a nice summary of your earned tokens.
 
 ## What are mooTokens?
 
@@ -31,7 +31,7 @@ A mooToken is an interest-bearing, tokenized proof of deposit that you will rece
 
 There is a timer shown in the Boost section for each boosted vault. This is nothing you really need to keep track of since you can always come back after a vault is finished and withdraw then.
 
-## Do I have to manually unstake from the Boost when it is finished?
+## Do I have to manually unstake from the Boost when it finishes?
 
 Yes, this is a mandatory user action when the Boost ends. For safety reasons, Beefy can not move your tokens back to your wallet. You can just come back after the Boost is finished to unstake your [mooTokens](boost.md#what-are-mootokens) together with the partner tokens, at any time, by hitting "Claim & Unstake".
 
@@ -45,7 +45,7 @@ Yes! Beefy always develops with _safety_ in mind and has made sure the boosted v
 
 ## If I enter a partner vault with my mooTokens, will I still earn the ordinary vault reward?
 
-Yes! The ordinary tokens you deposited in our main vaults will earn the ordinary rewards and be compounded as usual, even if it is boosted. This is because the [mooTokens](boost.md#what-are-mootokens) you deposit to enter the Launchpool boost are _interest-bearing_. By using the boosted vault, you earn both the vault tokens and partner tokens as a boost.
+Yes! The ordinary tokens you deposited in our main vaults will earn the ordinary rewards and be compounded as usual, even if it is boosted. This is because the [mooTokens](boost.md#what-are-mootokens) you deposit to enter the Launchpool boost are _interest-bearing_. By using the boosted vault, you earn both your vault tokens and partner tokens as a boost.
 
 ## Is there any fee on the Beefy Boosts?&#x20;
 
@@ -57,7 +57,7 @@ This means there is an upcoming boost for this vault.  You can stake your mooTok
 
 ## How come the APY shown at launch is not the same as it is now?
 
-APY is the “annual percentage yield” and is calculated by compounding your yield interest daily. The daily yield in turn is based on factors such as the reward rate and the total amount of deposited tokens that share the rewards. When more people and in turn tokens enter the pool, the fixed yield is shared by more people (tokens) hence the daily yield will become lower and in turn, lower the APY. In the same way, if people (tokens) exit the vault, there are fewer people (tokens) sharing the fixed reward and the daily yield will increase and in turn, APY will increase.
+APY is the “annual percentage yield” and is calculated by compounding your yield interest daily. The daily yield in turn is based on factors such as the reward rate and the total amount of deposited tokens that share the rewards. When more people and in turn tokens enter the pool, the fixed yield is shared by more people (tokens) hence the daily yield will become lower and in turn, lower the APY. In the same way, if people (tokens) exit your vault, there are fewer people (tokens) sharing the fixed reward and the daily yield will increase and in turn, APY will increase.
 
 ## Are the promoted project and its tokens safe?
 

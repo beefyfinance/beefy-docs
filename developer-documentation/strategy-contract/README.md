@@ -4,9 +4,9 @@ description: 'Last Update: February 2023'
 
 # Strategy Contract
 
-[Strategy Contracts](https://github.com/beefyfinance/beefy-contracts/tree/master/contracts/BIFI/strategies) are the primary driver of Beefy's investment model, which facilitate the autocompounding of yield farm rewards. Beefy's process has three key steps: (1) staking deposited tokens in the relevant farms; (2) harvesting rewards; and (3) swapping rewards for more deposit tokens and reinvesting the proceeds
+[Strategy Contracts](https://github.com/beefyfinance/beefy-contracts/tree/master/contracts/BIFI/strategies) are the primary driver of Beefy's investment model, which facilitates the autocompounding of yield farm rewards. Beefy's process has three key steps: (1) staking deposited tokens in the relevant farms; (2) harvesting rewards; and (3) swapping rewards for more deposit tokens and reinvesting the proceeds
 
-Each strategy contract is ultimately dependent on a [vault-contract.md](../vault-contract.md "mention") for the capital they deploy, and do not have any direct interaction with ordinary users. The vault and strategy contracts are kept separate to isolate any risks in the strategy from user deposits.
+Each strategy contract is ultimately dependent on a [vault-contract.md](../vault-contract.md "mention") for the capital they deploy, and does not have any direct interaction with ordinary users. The vault and strategy contracts are kept separate to isolate any risks in the strategy from user deposits.
 
 ## Dependencies
 
@@ -111,7 +111,7 @@ Deposits the underlying farm token (or "want") into in the farm by way of the co
 
 ### withdraw()
 
-External function called by the vault to facilitate user withdrawals. First checks that the balance of the underlying farm token (or "want") is sufficient to fulfil the request, and then withdraws that amount from the chef contract, before transferring back to the vault contract.
+External function called by the vault to facilitates user withdrawals. First checks that the balance of the underlying farm token (or "want") is sufficient to fulfil the request, and then withdraws that amount from the chef contract, before transferring back to the vault contract.
 
 ```solidity
 function withdraw(uint256 _amount) external {
@@ -252,7 +252,7 @@ function setHarvestOnDeposit(bool _harvestOnDeposit) external onlyManager {
 
 ### beforeDeposit()
 
-External function used to facilitate harvests on deposit, if active.  Checks first that harvest on deposit is active and that the caller is the vault, before harvesting.
+External function used to facilitates harvest on deposit, if active.  Checks first that harvest on deposit is active and that the caller is the vault, before harvesting.
 
 ```solidity
 function beforeDeposit() external override {

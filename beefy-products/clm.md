@@ -6,7 +6,7 @@ description: 'Last Update: August 2024'
 
 ### What is CLM?
 
-CLM stands for _"cowcentrated liquidity manager"_, which is Beefy's liquidity management product for concentrated liquidity (_**"CL"**_) pools. In essence, CLM allows day-to-day users to access the enormous opportunities of CL technology, without the effort and user-error risks that come from managing their own positions. The CLM contract issues depositors with an ERC-20 _"Cow Token",_ [_"Reward Cow Token"_ ](clm.md#how-does-the-clm-reward-pool-work) or [_"Moo Beefy Token"_](clm.md#how-does-the-clm-vault-work), reflecting their share of the pooled CLM funds being deposited into the CL position.
+CLM stands for _"Concentrated liquidity manager"_, which is Beefy's liquidity management product for concentrated liquidity (_**"CL"**_) pools. In essence, CLM allows day-to-day users to access the enormous opportunities of CL technology, without the effort and user-error risks that come from managing their own positions. The CLM contract issues depositors with an ERC-20 _"CowToken",_ [_"Reward CowToken"_ ](clm.md#how-does-the-clm-reward-pool-work) or [_"MooBeefyToken"_](clm.md#how-does-the-clm-vault-work), reflecting their share of the pooled CLM funds being deposited into the CL position.
 
 As with all other Beefy products, CLM automates complex onchain activities and aggregates scale across users to bring down the average cost for everyone. This means users get higher rates of return with far less effort when compared with handling the process yourself.&#x20;
 
@@ -196,9 +196,9 @@ To improve the user experience, Beefy's popular ZAP tooling has been brought to 
 
 ### What happens when I withdraw from CLM?
 
-The CLM withdraw workflow involves the vault contract taking back the deposit tokens that the user received for their deposit (meaning users need to approve access to the token from their wallet). Because of this, it's vital that users do not incidentally move or manipulate their cow or reward cow tokens for the duration of their deposit. Once the tokens are returned, they are immediately burned and exchanged for a proportional share of the tokens held by the CLM product which are sent back to the user.&#x20;
+The CLM withdraw workflow involves the vault contract taking back the deposit tokens that the user received for their deposit (meaning users need to approve access to the token from their wallet). Because of this, it's vital that users do not incidentally move or manipulate their cow or reward CowTokens for the duration of their deposit. Once the tokens are returned, they are immediately burned and exchanged for a proportional share of the tokens held by the CLM product which are sent back to the user.&#x20;
 
-For example, if a user has 1 cow token, from a total of 10 tokens issued, the user is entitled to 10% (= 1/10) of the tokens in the CLM product. If the product currently has 1 $ETH and 10,000 $USDC, the user will receive roughly 0.1 $ETH and 1,000 $USDC. This can be a totally different quantity to the user's original deposit; for instance, the user could have deposited 0.15 $ETH and 500 $USDC, in which case appreciation in the price of $ETH has significantly impacted the final tokens received.&#x20;
+For example, if a user has 1 CowToken, from a total of 10 tokens issued, the user is entitled to 10% (= 1/10) of the tokens in the CLM product. If the product currently has 1 $ETH and 10,000 $USDC, the user will receive roughly 0.1 $ETH and 1,000 $USDC. This can be a totally different quantity to the user's original deposit; for instance, the user could have deposited 0.15 $ETH and 500 $USDC, in which case appreciation in the price of $ETH has significantly impacted the final tokens received.&#x20;
 
 With ZAP tooling, users can also withdraw into any token of their choice, using DEX aggregators to automatically swap out the different tokens included into the position.
 

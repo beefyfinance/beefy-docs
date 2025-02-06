@@ -78,7 +78,7 @@ For more information, see our blog post [here](https://beefy.com/articles/get-to
 
 ### Solace
 
-Solace was a decentralised insurance protocol. It offered coverage for funds invested in Beefy as part of its all-encompassing portfolio insurance product. For more information, see Solace's twitter thread on the Beefy partnership [here](https://twitter.com/SolaceFi/status/1491533263936098305?s=20\&t=jZMt6Lw4uyPfW5NUPtW6UA), and check out Solace's documentation [here](https://docs.solace.fi/). Solace [ceased operating](https://medium.com/solace-fi/to-the-valued-solace-community-0d106d1ee7be) in November 2023.
+Solace was a decentralised insurance protocol. It offered coverage for funds invested in Beefy as part of its all-encompassing portfolio insurance product. For more information, see Solace's twitter thread on the Beefy partnership [here](https://x.com/SolaceFi/status/1491533263936098305?s=20\&t=jZMt6Lw4uyPfW5NUPtW6UA), and check out Solace's documentation [here](https://docs.solace.fi/). Solace [ceased operating](https://medium.com/solace-fi/to-the-valued-solace-community-0d106d1ee7be) in November 2023.
 
 ### Comparison
 

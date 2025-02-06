@@ -22,7 +22,7 @@ beFTM can also be manually purchased on many DEXes such as Solidly, BeethovenX, 
 
 ## How does beFTM delegation work?&#x20;
 
-The collective pool of FTM is delegated to [Beefy’s Validator Node](https://ftmscan.com/address/0xe97a5292248c2647466222dc58563046b3e34b18#validatorinfo) and perpetually locked as long as possible (51 weeks) to earn maximum validator rewards. We supply 1/15 of the deposit to our validator so we never hit the delegation limit. By staking our users’ FTM together, the Cowmoonity enjoys a much higher rate of return.&#x20;
+The collective pool of FTM is delegated to [Beefy’s Validator Node](https://ftmscan.com/address/0xe97a5292248c2647466222dc58563046b3e34b18#validatorinfo) and perpetually locked as long as possible (51 weeks) to earn maximum validator rewards. We supply 1/15 of the deposit to our validator so we never hit the delegation limit. By staking our users’ FTM together, the Community enjoys a much higher rate of return.&#x20;
 
 ## beFTM Earnings Pool and beFTM Vault
 
