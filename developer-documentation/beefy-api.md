@@ -519,7 +519,7 @@ Provides information required by [CoinMarketCap](https://coinmarketcap.com/) in 
   "links": [
     {
       "title": "Twitter",
-      "link": "https://twitter.com/beefyfinance"
+      "link": "https://x.com/beefyfinance"
     },
     {
       "title": "Telegram",
