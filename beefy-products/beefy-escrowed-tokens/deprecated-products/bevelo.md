@@ -27,7 +27,7 @@ The token is fully backed 1:1 by $VELO V1, which can be redeemed where tokens ar
 1. when new users deposit $VELO into $beVELO, if below the required reserve amount at the time; and
 2. if the contract's staked $VELO V1 is left to gradually unlock.
 
-<figure><img src="../../.gitbook/assets/bevelo_poster-1.png" alt=""><figcaption><p>beVELO is designed to capture the maximum possible rewards and benefits from Velodrome's vote escrow tokenomics.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bevelo_poster-1.png" alt=""><figcaption><p>beVELO is designed to capture the maximum possible rewards and benefits from Velodrome's vote escrow tokenomics.</p></figcaption></figure>
 
 ## How does one get $beVELO?
 
@@ -45,7 +45,7 @@ Once the contract's $VELO is staked and locked into veVELO, it receives $VELO V2
 
 Once you're holding $beVELO, you can stake it in our [beVELO Migration Pool](https://app.beefy.com/vault/beefy-bevelo-v2-earnings) to earn $VELO V2. $VELO V2 rewards are paid out directly rather than autocompounded as the underlying $VELO V1 has been retired.
 
-<figure><img src="../../.gitbook/assets/bevelo_vault-1.png" alt=""><figcaption><p>$beVELO can be deposited into our beVELO Migration Pool to earn $VELO V2</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bevelo_vault-1.png" alt=""><figcaption><p>$beVELO can be deposited into our beVELO Migration Pool to earn $VELO V2</p></figcaption></figure>
 
 ## But what about fees?
 

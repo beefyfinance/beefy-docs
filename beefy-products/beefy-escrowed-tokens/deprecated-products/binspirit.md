@@ -1,8 +1,12 @@
 ---
-description: Beefy-wrapped inSPIRIT
+description: 'Last Update: April 2025'
 ---
 
 # binSPIRIT
+
+{% hint style="warning" %}
+Note that with the deprecation of Fantom blockchain (and replacement with Sonic), support for Beefy's binSPIRIT token has been deprecated from our user interface. The token remains accessible on Fantom, but with the wider deprecation of the chain, its ongoing operations will eventually cease.
+{% endhint %}
 
 ## What is SPIRIT?
 
@@ -22,7 +26,7 @@ The token is fully backed 1:1 by SPIRIT, though is perpetually locked for inSPIR
 
 Users can mint binSPIRIT on the [binSPIRIT vault page](https://app.beefy.finance/#/vault/beefy-binspirit) at a 1:1 ratio. If it is more profitable to buy binSPIRIT, then Beefy's Smart Minter will do exactly that, yielding the user more binSPIRIT for their SPIRIT. Users can also get binSPIRIT by buying on a decentralised exchange.
 
-![beMINT determines the most profitable strategy](../../.gitbook/assets/binspirit\_mint.jpg)
+![beMINT determines the most profitable strategy](../../../.gitbook/assets/binspirit_mint.jpg)
 
 ## How does binSPIRIT work?
 
@@ -34,7 +38,7 @@ All deposits, withdrawals and harvest rewards from Beefy's boosted SpiritSwap va
 
 The binSPIRIT contract also submits votes on Beefy's behalf for SpiritSwap governance proposals and vault incentive gauges. binSPIRIT holders are empowered to [vote](binspirit.md#can-i-vote-with-binspirit) on gauges, as described furhter below.
 
-For further details of binSPIRIT's specific functionality and methods, see the description of its main [GaugeStaker smart contract](../../developer-documentation/other-beefy-contracts/gaugestaker-contract.md).
+For further details of binSPIRIT's specific functionality and methods, see the description of its main [GaugeStaker smart contract](../../../developer-documentation/other-beefy-contracts/gaugestaker-contract.md).
 
 ## How can I earn with my binSPIRIT?
 

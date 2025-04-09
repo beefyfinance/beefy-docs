@@ -22,7 +22,7 @@ The strategy then deposits the assets into the liquidity pool, and in turn the L
 
 The vault then regularly claims the accrued rewards, routes them to a core liquidity pool for swap them back into the underlying asset, and then redeposits the underlying asset into the Beefy vault and strategy.
 
-![The standard workflow for a typical liqudity pool strategy](../.gitbook/assets/Flow\_LP.png)
+![The standard workflow for a typical liqudity pool strategy](../.gitbook/assets/Flow_LP.png)
 
 ### How do lending strategies work?
 
@@ -30,7 +30,7 @@ Standard lending vaults work in a very similar way, taking assets deposited in t
 
 Instead of trading fees and farm rewards, lending pools pay out interest on deposits and lending incentives, which need to be redeemed, exchanged and redeposited by the strategy.
 
-![The standard workflow for a typical lending strategy](../.gitbook/assets/Flow\_single\_asset\_lending.png)
+![The standard workflow for a typical lending strategy](../.gitbook/assets/Flow_single_asset_lending.png)
 
 ### **Who is in control of the strategies?**
 
@@ -48,7 +48,7 @@ For users looking to get more involved and become a part of Beefy's team of stra
 
 ### **What is APR and APY?**
 
-APR reflects the simple interest rate over a year’s time, while APY describes the rate with the effect of compounding**.**
+APR reflects the simple interest rate over a year’s time, while APY describes the rate with the effect of compoundin&#x67;**.**
 
 ### **Is APY/365 the right way to determine daily gains?**
 

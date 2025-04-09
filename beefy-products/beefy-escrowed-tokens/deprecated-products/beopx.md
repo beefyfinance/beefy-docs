@@ -1,8 +1,12 @@
 ---
-description: Beefy-escrowed OPX
+description: 'Last Update: April 2025'
 ---
 
 # beOPX
+
+{% hint style="warning" %}
+With the deprecation of the OPX protocol, beOPX is no longer supported by the Beefy interface. Though the token remains accessible on OP Mainnet, with the wider deprecation of the project, its ongoing operations will eventually cease, and it is not advisable to purchase OPX or beOPX.
+{% endhint %}
 
 ## What is OPX?
 
@@ -24,7 +28,7 @@ The token is fully backed 1:1 with OPX and can be redeemed for OPX held in reser
 2. when the contract harvests protocol revenues from OPX, if below the required reserve amount at the time; or
 3. if the contract's staked OPX is left to gradually unlock.
 
-<figure><img src="../../.gitbook/assets/beOPX.png" alt=""><figcaption><p>beOPX is designed to capture the maximum possible rewards and benefits from OPX's vote escrow tokenomics.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/beOPX.png" alt=""><figcaption><p>beOPX is designed to capture the maximum possible rewards and benefits from OPX's vote escrow tokenomics.</p></figcaption></figure>
 
 ## How does one get beOPX?
 

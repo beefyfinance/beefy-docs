@@ -1,10 +1,10 @@
 ---
-description: Beefy-escrowed JOE
+description: 'Last Update: January 2023'
 ---
 
 # beJOE
 
-{% hint style="info" %}
+{% hint style="warning" %}
 beJOE was deprecated on the 6th of January, 2023. All beJOE can be burned 1 to 1 for JOE, and Beefy no longer takes any fees.
 {% endhint %}
 
@@ -24,7 +24,7 @@ The token is fully backed 1:1 by JOE and can be redeemed for JOE held in reserve
 
 You can mint beJOE on the beJOE [vault](https://app.beefy.finance/#/vault/beefy-beJoe) or [earnings pool](https://app.beefy.finance/#/vault/beefy-beJoe-earnings) pages at a 1:1 ratio. There is no incentivised liquidity for beJOE, instead there will be a withdrawal reserve.
 
-![beJOE is minted and burned at a 1:1 rate with JOE](<../../.gitbook/assets/image (2).png>)
+![beJOE is minted and burned at a 1:1 rate with JOE](<../../../.gitbook/assets/image (2).png>)
 
 ## How does beJOE work?
 
@@ -51,7 +51,7 @@ As the boosted rewards on Trader Joe farms are paid out in JOE, these can be pai
 
 ## How does the beJOE strategy work?
 
-![](../../.gitbook/assets/Flow\_beJOE.png)
+![](../../../.gitbook/assets/Flow_beJOE.png)
 
 ## But what about fees? <a href="#but-what-about-fees" id="but-what-about-fees"></a>
 
