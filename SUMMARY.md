@@ -88,6 +88,7 @@
   * [GaugeStaker Contract](developer-documentation/other-beefy-contracts/gaugestaker-contract.md)
 * [Third Party Contracts](developer-documentation/third-party-contracts/README.md)
   * [DelegateRegistry Contract](developer-documentation/third-party-contracts/delegateregistry-contract.md)
+  * [Oracle Contracts](developer-documentation/third-party-contracts/oracle-contracts.md)
 * [Beefy API](developer-documentation/beefy-api.md)
 
 ## Additional Resources
