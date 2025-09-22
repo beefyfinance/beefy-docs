@@ -12,11 +12,10 @@ Beefy's network of partners and collaborators from across the world of DeFi are 
 
 Our relationships with existing and new partners are managed by our dedicated partnerships team. The key members of the team are:
 
-* Weso - Head of Strategic Partnerships
-* Frondoto - Partnerships Lead
-* Zapmore - Partnerships Lead
+* Frondoto - BD Lead
+* Armads - BD
+* GPMS - BD
 * The Beefy Cow (TBC) - Social Media / Marketing Lead
-* Cowmoonity Heroes and Farmhands - partnership vetting assistants
 
 Even with our dedicated team, we're still inundated with partnerships requests. To manage this, we ask that prospective partners follow the process outlined below to kick things off, rather than reaching out directly to the team.
 
