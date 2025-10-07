@@ -13,7 +13,6 @@ description: 'Last Update: September 2023'
   * Site: [https://beefy.finance/](https://beefy.finance/)
   * Repo: [https://github.com/beefyfinance/beefy-landing](https://github.com/beefyfinance/beefy-landing)
 * Beefy Governance
-  * Site: [https://gov.beefy.finance/staking](https://gov.beefy.finance/staking)
   * Repo: [https://github.com/beefyfinance/beefy-gov](https://github.com/beefyfinance/beefy-gov)
 * Beefy Vote
   * Site: [https://vote.beefy.finance/#/](https://vote.beefy.finance/#/)
