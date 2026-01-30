@@ -114,12 +114,9 @@ Yes. Our displayed APY values reflect the predicted rate earned on a vault in a 
 
 ### What risks do the vaults have?
 
-Beefy vaults are audited, but this does not mean that a vault is entirely risk free. Below are some of the general vault risks:
+Beefy vaults are audited, but this does not mean that a vault is entirely risk free. As with any smart contract, the ultimate risk is that an investor's funds can end up stolen or unable to be withdrawn. Failing that, there are risks that underlying protocols and tokens may fail and not behave as intended (e.g. failing to deliver rewards).
 
-* Assets deposited into the vault have no risk of decreasing in quantity but can decrease in monetary value.
-* As with any smart contract, the ultimate risk is that an investor's funds can end up stolen or unable to be withdrawn. The team does take steps to quantify the security risks of smart contracts and will only interact with ones that meet a specific set of requirements after excessive testing to make sure the underlying platform does not contain so called 'rug-pull' functions. For a detailed breakdown of the steps Beefy takes before adding new vaults, please consult [beefy-safu-practices.md](../safety/beefy-safu-practices.md "mention").
-
-More detailed vault risks, or better yet, information on Beefy's vault safety expressed by the Beefy Safety Score can be found here: [Beefy Safety Score](../safety/beefy-safety-score.md).
+The team does take steps to quantify the security risks of smart contracts and will only interact with ones that meet a specific set of requirements after excessive testing to make sure the underlying platform does not contain so called 'rug-pull' functions. For a detailed breakdown of the steps Beefy takes before adding new vaults, please consult [beefy-safu-practices.md](../safety/beefy-safu-practices.md "mention"). Or for a brief overview of key risk checks performed, review [risk-checklist.md](../safety/risk-checklist.md "mention").
 
 ### **Who is in control of the vault?**
 

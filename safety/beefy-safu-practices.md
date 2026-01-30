@@ -1,12 +1,12 @@
 ---
-description: 'Last Update: February 2024'
+description: 'Last Update: January 2026'
 ---
 
 # SAFU Standards
 
 At Beefy, we recognise three words to live by: _SAFU First. Always._ You can craft the most incredible features into your smart contracts, but if you can’t adequately safeguard user funds, your contracts don’t deserve to have users. That’s why safety is the first, last and foremost consideration in every product we release.
 
-This page describes the various practices that Beefy's contributors take to ensure that our new products are safe before launch, our existing products are properly maintained and observed, and our response to any security concerns are issues are rapid and safe. It also explains how live risk points  are managed on the Beefy UI, to ensure users are appraised of any threats they may face.
+This page describes the various practices that Beefy's contributors take to ensure that: (i) our new products are meet safety standards before launch; (ii) our existing products are properly maintained and observed; and (iii) our response to any security concerns are issues are rapid and safe. It also explains how live risk points are managed on the Beefy UI, to ensure users are appraised of any threats they may face.
 
 <figure><img src="../.gitbook/assets/safu (2).png" alt=""><figcaption><p>Beefy has adopted a stringent risk management framework - our SAFU Standards - that assess a range of considerations for our autocompounding strategies to ensure all products meet our high security standards.</p></figcaption></figure>
 
@@ -21,25 +21,35 @@ Before Beefy will consider a farm for vaulting, we ensure that the underlying to
 
 In addition, tokens are flagged as risky in our UI if they do not also meet the following:
 
+* token contracts (and related protocol functionality) should be properly audited by reputable third-party providers;
 * rug/migrator functions should be either completely removed or timelocked sufficiently;&#x20;
 * token emission rates should be either hard capped or timelocked sufficiently; and
 * all proxy implementation changes (i.e. upgrades to the contracts) should be timelocked.
 
-## New Farm Requirements
+As described in [risk-checklist.md](risk-checklist.md "mention"), we also look to identify and flag the following risk checks for all new tokens:
 
-Before a new farm is vaulted on Beefy, the projects involved with the farm have to meet the following:
+* If a large proportion of the circulating supply is concentrated in a small number of large holders, we flag the concentrated in the addressbook token flags; and
+* If the article is a synthetic copy of another asset, meaning intended to be pegged to another asset's price but not backed and redeemable 1:1 for the underlying asset, we indicate that products using this asset involve synthetic assets.
 
-* contracts must have been verified in the block explorer; and
-* liquidity must be sufficient for swapping farm token rewards.
+## New Farm/Pool/Market Requirements
 
-In addition, vaults are flagged as risky in our UI if they do not also meet the following:
+Before a new farm, pool or marekt is vaulted on Beefy, it must meet the following:
 
-* rug/migrator functions should be either completely removed or timelocked sufficiently; and
-* all proxy implementation changes (i.e. upgrades to the contracts) should be timelocked.
+* contracts must have been verified in the block explorer;
+* liquidity must be sufficient for swapping farm token rewards; and
+* reward token emissions should be timelocked to ensure they cannot be changed unpredictably.
 
-## New Vault Testing Procedure
+In addition, products are flagged as risky in our UI if they do not also meet the following:
 
-Once a farm has been accepted and a vault is being prepared, our strategists will follow a manual testing procedure on every new vault before it can go live on our app. This is to ensure that the vault works as intended and user funds are always SAFU. The sequential procedure is:
+* rug/migrator functions should be either completely removed or timelocked sufficiently;
+* all proxy implementation changes (i.e. upgrades to the contracts) should be timelocked;
+* if the underlying protocol is relatively new or has not secured significant value for a sustained duration, we indicate that it is not battle-tested;
+* if the strategy for the new farm involves multiple layers of contracts or particularly novel or complicated logic, we indicate that it is a complex strategy; and
+* if the underlying protocol involves the use of external curators to manage risk in their pools or markets, we flag that the product is curated.
+
+## Vault Testing Procedure
+
+Once a product has gone through due diligence and is being prepared, our strategists will follow a manual testing procedure on every new vault before it can go live on our app. This is to ensure that the vault works as intended and user funds are always SAFU. The sequential procedure is:
 
 1. deposit a small amount of the asset;&#x20;
 2. withdraw all;&#x20;
@@ -66,11 +76,3 @@ By displaying the relevant contract and protocol, the triggered event, the metho
 ## Panic
 
 Even with all of our precautions, sometimes something can go wrong with the underlying farm or assets in a Beefy vault, for which reacting quickly is of great importance. Beefy strategies have a keeper that is allowed to ["panic"](../developer-documentation/strategy-contract/#panic) the relevant strategy, which withdraws the staked funds from the farm back to the strategy contract and removes all allowances. This ensures that users funds are then kept available for the users to withdraw.
-
-## Risk Warnings
-
-As described above, not all SAFU Standards are essential for Beefy's products, though every one is important. Where a token or farm meets all of the minimum standards but not all of the advisable points, a risk warning (as shown below) is displayed on the Beefy UI to notify users of the risk points specific to the relevant product(s).
-
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Where a product meets all minimum SAFU Standards, but does not meet all advisable points, a risk warning is displayed on the Beefy UI to warn users of the potential risks of the product.</p></figcaption></figure>
-
-A comprehensive list of all risk points is also available in the [UI public repository](https://github.com/beefyfinance/beefy-v2/blob/main/src/locales/en/risks.json). These descriptions match those shown on the UI, and the comprehensive list allows for a top-down comparison of all the advisable risk points that Beefy is still willing to vault.

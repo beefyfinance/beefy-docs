@@ -24,7 +24,7 @@ description: >-
 
 BIFI token BNB Chain Contract Address : [0xCa3F508B8e4Dd382eE878A314789373D80A5190A ](https://bscscan.com/token/0xCa3F508B8e4Dd382eE878A314789373D80A5190A)\
 \
-The BIFI token Contract Address on other chains can be found here: [Contract Addresses](broken-reference)
+The BIFI token Contract Address on other chains can be found here: [Contract Addresses](/broken/pages/-M_6Sqduw-sWh1CZcOBL)
 
 ![](../../.gitbook/assets/token-address.png)
 

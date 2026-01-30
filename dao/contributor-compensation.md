@@ -14,7 +14,7 @@ Note that access to the archived Beefy voting site is available at [https://vote
 
 ## Token Distributions
 
-At Beefy, we pride ourselves on our simple but highly effective tokenomics design, which avoids relying on governance tokens as a means of effective compensation. As explained in the [Tokenomics & Governance section](broken-reference),  our governance token - BIFI - has a fixed supply capped at only 80,000 tokens, so no new tokens can be minted to compensate our members. In fact, over 90% of the total BIFI supply was distributed to the cowmoonity in the first 2 months after Beefy went live in September 2020, so the Beefy [treasury.md](../dao/treasury.md "mention") doesn't contain a stockpile of freshly minted BIFI either.&#x20;
+At Beefy, we pride ourselves on our simple but highly effective tokenomics design, which avoids relying on governance tokens as a means of effective compensation. As explained in the [Tokenomics & Governance section](/broken/pages/-M_6SqdtoTuOnFJZKL_Y),  our governance token - BIFI - has a fixed supply capped at only 80,000 tokens, so no new tokens can be minted to compensate our members. In fact, over 90% of the total BIFI supply was distributed to the cowmoonity in the first 2 months after Beefy went live in September 2020, so the Beefy [treasury.md](treasury.md "mention") doesn't contain a stockpile of freshly minted BIFI either.&#x20;
 
 Rather, we prefer to focus on two use cases for BIFI: governance rights and protocol revenue, paid out through our BIFI Maxi and BIFI Earning Pool vaults. We feel these mechanisms encourage holders to cherish their BIFI and share in the protocol's success as owners, rather than investors or speculators.&#x20;
 
@@ -50,7 +50,7 @@ Since that time, reoccurring contributor pay requests have been repeatedly autho
 
 ## BeefyGrants
 
-The second limb of Sirbeefalot's efforts to incentivise development was the introduction of the BeefyGrants system. In a [paper](https://docs.google.com/document/d/1hBnQcbxkRvhmHASqivI3g8rBS\_4m4mmTaT\_jW4VjE7c/edit) and blog post introducing the idea, Sirbeefalot explained that the system would be aimed at giving direction to Beefy's development efforts, creating a virtuous cycle of fund allocation, and fairly rewarding community members for their contributions.&#x20;
+The second limb of Sirbeefalot's efforts to incentivise development was the introduction of the BeefyGrants system. In a [paper](https://docs.google.com/document/d/1hBnQcbxkRvhmHASqivI3g8rBS_4m4mmTaT_jW4VjE7c/edit) and blog post introducing the idea, Sirbeefalot explained that the system would be aimed at giving direction to Beefy's development efforts, creating a virtuous cycle of fund allocation, and fairly rewarding community members for their contributions.&#x20;
 
 Since that time, a range of BeefyGrants and other initiatives have received DAO support and funding, leading to a range of unique and exciting Cowmoonity-led initiatives. As such, our contributors are encouraged to considering applying for larger-scale grants and funding arrangements to support their ideas for new products and initiative.
 

@@ -176,7 +176,7 @@ Beefy's fee structure for CLM products is exactly the same as for our yield farm
 * c. 3.06-3.24% is distributed back to $BIFI tokenholders participating in the protocol's governance incentives program;
 * c. 5.44-5.75% is returned to the Beefy treasury to operate the Beefy DAO;
 * 0.5% is awarded to the creator of the CLM product; and
-* 0.01-0.5% is awarded to the party that calls the [Broken link](broken-reference "mention") function on the specific CLM product to claim trading fees and reset the position.
+* 0.01-0.5% is awarded to the party that calls the [Broken link](/broken/pages/XrLOWHZlKA7r9ykgszmE#harvest "mention") function on the specific CLM product to claim trading fees and reset the position.
 
 For CLM Pools, this fee is charged on all trading fees claimed by the position in the underlying protocol (as opposed to claims made by the user through Beefy). For CLM Vaults, a separate vault fee is also charged on the amount of each harvest - i.e. the rewards/incentives being claimed and reinvested by Beefy on top of the CLM Pool.&#x20;
 

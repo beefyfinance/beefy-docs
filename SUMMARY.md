@@ -56,11 +56,9 @@
 ## Safety
 
 * [SAFU Standards](safety/beefy-safu-practices.md)
+* [Risk Checklist](safety/risk-checklist.md)
 * [Contracts & Timelocks](safety/contracts-and-timelocks.md)
-* [Bug Bounty Program](safety/bug-bounty-program.md)
-* [Beefy Safety Score](safety/beefy-safety-score.md)
-* [Token Allowance](safety/token-allowance.md)
-* [Beefy Backup](safety/beefy-backup.md)
+* [Audits & Bounty](safety/bug-bounty-program.md)
 * [Insurance](safety/insurance.md)
 
 ## FAQ
