@@ -1,5 +1,5 @@
 ---
-description: 'Last Update: September 2023'
+description: 'Last Update: April 2026'
 ---
 
 # Treasury
@@ -14,9 +14,9 @@ Beefy's core product - our Beefy Vaults - are designed from the ground up to gen
 
 Over time, our treasury activities have become increasingly sophisticated. Initially, the project's founders privately managed the inflows from the smart contract to cover their costs in operating and maintaining the protocol. The original [BeefyTreasury contract](https://bscscan.com/address/0x4a32de8c248533c28904b24b4cfcfe18e9f2ad01#code) was [deployed](https://bscscan.com/tx/0xccc2a94cde6aa10e3928a837b17cb7705f8ec3104afb66842627cc9cdaf4621c) on 6 November 2020. The Treasury contract was very basic in functionality, allowing the native chain token and ERC-20/BEP-20 tokens to be withdrawn by the owner, which was the [BeefyDeployer EOA](https://bscscan.com/address/0x565eb5e5b21f97ae9200d121e77d2760fff106cb).&#x20;
 
-By March 2021, Beefy had expanded to include more contributors, and so the Core contributor team created the #💵-treasury channel in the [Beefy Discord](https://discord.gg/yq8wfHd) as a place for discussion of all treasury-related issues. Over the next few months, Beefy became increasingly multichain, and additional BeefyTreasury contracts were deployed on [Avalanche](https://snowtrace.io/address/0xa3e3af161943cfb3941b631676134bb048739727#code), [Polygon](https://polygonscan.com/address/0x09ef0e7b555599a9f810789fff68db8dbf4c51a0#code), [Fantom](https://ftmscan.com/address/0xe6cce165aa3e52b2cc55f17b1dbc6a8fe5d66610#code) together with some other early chains. However, the Core team recognised the limitation of the early Treasury's design, and a move MultiSig wallets was debated, despite MultiSig solutions not being available on all chains.&#x20;
+By March 2021, Beefy had expanded to include more contributors, and so the Core contributor team created the #💵-treasury channel in the [Beefy Discord](https://discord.gg/yq8wfHd) as a place for discussion of all treasury-related issues. Over the next few months, Beefy became increasingly multichain, and additional BeefyTreasury contracts were deployed on [Avalanche](https://snowtrace.io/address/0xa3e3af161943cfb3941b631676134bb048739727#code), [Polygon](https://polygonscan.com/address/0x09ef0e7b555599a9f810789fff68db8dbf4c51a0#code), [Fantom](https://ftmscan.com/address/0xe6cce165aa3e52b2cc55f17b1dbc6a8fe5d66610#code) together with some other early chains. However, the Core team recognised the limitation of the early Treasury's design, and a move multisig wallets was debated, despite multisig solutions not being available on all chains.&#x20;
 
-By September 2021, the DAO had settled on moving to MultiSig wallets on BSC and Polygon (as the two chains with MultiSig solutions available at the time), and establishing the Treasury Council as the signers of the MultiSig. On 3 September 2021, a soft vote was concluded on Discord to appoint the new members of the Treasury Council. This was followed up by a [Snapshot Proposal](https://vote-archive.beefy.finance/#/beefy/proposal/QmafULDojJ4StzJtuwjBZutnUkzb9TUhTLCLZe5R7deWLo), which confirmed the initial 7 members. On 11 September, ownership of the original BeefyTreasury contract on BSC was [transferred](https://bscscan.com/tx/0x34a89b3cd5564fbd22672169b9cce43a538cf764cb73e1a28fe4db89241ae7ad) to the new MultiSig. Since then, the MultiSig system and Treasury Council has continued and expanded to each of Beefy's new chains.
+By September 2021, the DAO had settled on moving to multisig wallets on BSC and Polygon (as the two chains with multisig solutions available at the time), and establishing the Treasury Council as the signers of the multisig. On 3 September 2021, a soft vote was concluded on Discord to appoint the new members of the Treasury Council. This was followed up by a [Snapshot Proposal](https://vote-archive.beefy.finance/#/beefy/proposal/QmafULDojJ4StzJtuwjBZutnUkzb9TUhTLCLZe5R7deWLo), which confirmed the initial 7 members. On 11 September, ownership of the original BeefyTreasury contract on BSC was [transferred](https://bscscan.com/tx/0x34a89b3cd5564fbd22672169b9cce43a538cf764cb73e1a28fe4db89241ae7ad) to the new multisig. Since then, the multisig system and Treasury Council has continued and expanded to each of Beefy's new chains.
 
 Also in September 2021, Beefy's Core team began to implement bots in the #💵-treasury channel, initially displaying the value of the Treasury for the benefit of DAO members. By October 2022, this had evolved to include each new transactions live when posted from any of the Treasury's multisig wallets. Some of the key bot commands are:
 
@@ -34,16 +34,7 @@ As described above, the Treasury Council was formed in September 2021 as the tea
 * Arranging for payment of key expenses, including contributor salaries, sponsorships, recurring hosting and service fees and reimbursement for contributor expenses; and
 * Handling regular bribe payments to partner exchanges.
 
-The Treasury Council has 8 members, and requires consensus from any 4 to sign off on any MultiSig transaction before it can be executed. Details of the current 8 members and their Treasury EOA wallets are:
-
-* **Beef Nugget:** 0xd38d0dd50d03cea499df2b4c8d4b47458bee9358
-* **ChiliConCarne:** 0x645c2c6105604bfce05c1aab2cb598af393553d5
-* **DefiDebauchery:** 0x037465bF6a4A8D7F552AE18046478C6A727178F3
-* **Moodini:** 0xdae7624267e4515f40266a38505f4f7e13dbf6c4
-* **Red Bull:** 0x03e7302e3ecba4c1bd0e1841b55bf2c939e03fd3
-* **Ser Loin:** 0xa2894cec4a49014b00e84e71861344fc794b8c27
-* **TBC:** 0x428b2F01Bfb0917FE6FF463f37B0c47F1782B9Cd
-* **YR2150:** 0xF24f555d6765D559BFF4C5557dD9024CBA10d30e
+The Treasury Council has 7 members, and requires consensus from any 4 to sign off on any multisig transaction before it can be executed. See the [treasury multisig](../safety/contracts-and-timelocks.md#treasury-multisig) page for more details.&#x20;
 
 Any questions for the Treasury Council should be directed to the #💵-treasury channel on the [Beefy Discord](https://discord.gg/yq8wfHd). For security purposes, please do not directly message Council members instead, or your messages will be ignored and potentially blocked or reported.
 
