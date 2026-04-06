@@ -50,14 +50,15 @@ The dev multisig is operating with best practices in line with Beefy's [multisig
 
 Both Beefy's dev and treasury multisigs are operated in accordance with standard best practices for the operation of multisigs:
 
-* All signers are longstanding contributors to Beefy DAO who have been known and vetted over the course of several years;
 * Each signer is an independent human and distinct from all other signers;
+* All signers are longstanding contributors to Beefy DAO who have been known and vetted over the course of several years;
+* Signers are anonymous, and details of their precise signing capabilities and setup are kept confidential;
 * All signers are located in different geographic locations from all other signers;
 * All signers must be EOAs and not multisigs or other smart contract accounts where ownership is capable of being transffered or shared;
 * Contributors with private pre-existing relationships (e.g. friends, colleagues, couples) may not sit on the same multisig as one another;
+* A quorum of signers on any multisig should not be allowed to attend the same event and meet in person;
 * No external delegations or roles are granted to either multisig, save for automated proposal generation by bots developed and maintained by the Beefy Developer Council;
 * Signers are occasionally reshuffled, bringing different members of the contributor team onto the multisigs and ensuring that all multisig signers are active contributors;
-* Signers are anonymous, and details of their precise signing capabilities and setup are kept confidential;
 * Regular advice and security updates are provided to all signers to ensure they are aware of best practices; and
 * Private accounts for email, cloud storage and password management are provided to all signers, helping them to operate their roles without using personal or preexisting accounts or comingling their work.
 
