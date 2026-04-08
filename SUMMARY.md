@@ -65,6 +65,7 @@
 ## FAQ
 
 * [General](faq/general.md)
+* [Crosschain Zaps](faq/crosschain-zaps.md)
 * [Infographics](faq/infographics.md)
 * [mooVaults APY](faq/moovaults-apy.md)
 * [How-To Guides](faq/how-to-guides/README.md)
