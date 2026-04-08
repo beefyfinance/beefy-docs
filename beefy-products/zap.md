@@ -27,6 +27,10 @@ Beefy's systems and interfaces receive user specifications for products and asse
 
 See [Zap Contracts](../developer-documentation/zap-contracts.md) for a full breakdown of the underlying Beefy contracts that deliver these various processes as part of zap.
 
+{% hint style="info" %}
+For more specific questions and answers relating to crosschain zaps, see the [Crosschain Zaps FAQ](../faq/crosschain-zaps.md) page.
+{% endhint %}
+
 ### Versions
 
 Over time, the functionality and complexity of Beefy's zap infrastructure has evolved to make use of new technologies to improve user experience. This is reflected in the different versions of zap.

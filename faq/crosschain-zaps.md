@@ -24,6 +24,8 @@ Crosschain zaps aggregate and automate processes like simulating deposits, fetch
 * The “Hook Executor”: a private Beefy service that listens for your bridging event, fetches a cryptographic attestation from Circle’s API, and relays the message to your destination chain.
 * The “CircleBeefyZapReceiver”: a contract on the destination chain that receives the bridged message, mints your bridged funds, executes the final deposit into the target Beefy Vault, and returns your receipt token (mooTokens).
 
+For a more detailed explanation, see the [Zap page](https://docs.beefy.finance/beefy-products/zap#beneath-the-hood).
+
 ### How do I know what assets I have to zap?
 
 A crosschain zap starts as a normal zap: after clicking deposit or withdraw, you’ll see a list of all supported chains and the top assets you have on them (shown with their token icons). Clicking a chain shows you a detailed overview of all of the assets on that chain which you can use to zap with.
@@ -32,13 +34,15 @@ A crosschain zap starts as a normal zap: after clicking deposit or withdraw, you
 
 Currently, crosschain zaps are available on 10 networks: Ethereum, Base, Arbitrum, OP Mainnet, Polygon, Avalanche, Linea, Monad, HyperEVM, and Sonic.
 
-### What are the costs for crosschain zaps?
+### What are the fees for crosschain zaps?
 
 For crosschain zaps there are fixed and variable price elements.
 
 The fixed element ($) - known as the Relay fee - is $0.10 for all chains save for Ethereum and Linea (where it’s $1). It's charged by Beefy to cover the cost of claiming bridged assets and initiating deposits.&#x20;
 
 The variable element (%) is an aggregate of Beefy’s swap fees and bridge fees charged by CCTP. They're applicable on any step that swaps or bridges respectively. Zap fees displayed on the app are an approximation - check the tooltip for a precise breakdown.
+
+For a more detailed breakdown of fees, see the [Zap page](https://docs.beefy.finance/beefy-products/zap#fees).
 
 ### I’m not seeing crosschain zap as an option for my chosen vault. Is this a glitch?
 
