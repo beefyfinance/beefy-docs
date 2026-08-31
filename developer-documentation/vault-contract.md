@@ -171,4 +171,4 @@ The current release of our standard Beefy Vault Contract is [BeefyVaultV7.sol](h
 * Updated the strategy interface to allow for upgradeable strategies; and
 * Amended all contracts to remove reliance on the SafeMath library, which has been generally retired following incorporation of its features into Solidity v0.8.
 
-Separately, a ERC-4646-compliant wrapper contract was released for the V7 vault in November 2022, which allows developers to incorporate Beefy Vaults into their projects with standardised vault functionality and interfaces. See [beefywrapper-contract.md](other-beefy-contracts/beefywrapper-contract.md "mention") for more information.
+Separately, a ERC-4626-compliant wrapper contract was released for the V7 vault in November 2022, which allows developers to incorporate Beefy Vaults into their projects with standardised vault functionality and interfaces. See [beefywrapper-contract.md](other-beefy-contracts/beefywrapper-contract.md "mention") for more information.
