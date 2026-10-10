@@ -4,7 +4,7 @@ description: 'Last Update: November 2023'
 
 # Fee Batch
 
-The Beefy Fee Batch is another core component of the [.](./ "mention") which distributes vault fees to our Ethereum [incentive-programmes.md](incentive-programmes.md "mention") and [treasury.md](../../dao/treasury.md "mention"). As with the [revenue-bridge.md](revenue-bridge.md "mention") which delivers fees to the Fee Batch, the Fee Batch acts in one direct only, helping to move earnings from vaults to the Beefy DAO and its tokenholders.
+The Beefy Fee Batch is another core component of the [.](./ "mention") which distributes vault fees to our Ethereum [incentive-programmes.md](incentive-programmes.md "mention") and [treasury.md](../../dao/treasury.md "mention"). As with the [revenue-bridge.md](revenue-bridge.md "mention") which delivers fees to the Fee Batch, the Fee Batch acts in one direction only, helping to move earnings from vaults to the Beefy DAO and its tokenholders.
 
 ## What does the Fee Batch do?
 
